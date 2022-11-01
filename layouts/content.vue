@@ -1,0 +1,15 @@
+<template>
+    <div>
+        <header class="bg-yellow-400 py-4 px-4" >
+            <div class="container mx-auto flex justify-between items-center">
+                <NuxtLink to="/">
+                    <LogoEvidence class="fill-slate-700 h-10" />
+                </NuxtLink>
+                <UiNavMain />
+            </div>
+        </header>
+        <div class="e-article">
+            <slot />
+        </div>
+    </div>
+</template>

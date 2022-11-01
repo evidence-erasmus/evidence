@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Work+Sans:wght@200;400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base {
+    html {
+      font-family: Work Sans, system-ui, sans-serif;
+    }
+  }
+
+@layer components {
+    .e-btn-blue {
+      @apply bg-blue-500 text-white font-semibold rounded-lg shadow-md;
+    }
+    .e-article {
+      @apply container mx-auto prose-headings:text-slate-800 prose prose-slate py-20 px-6 sm:px-8 md:prose-lg lg:prose-xl;
+    }
+}
