@@ -1,0 +1,7 @@
+{   
+  "message": "Hello from external", 
+  "menu": {
+    "about": "About",
+    "modules": "Modules"
+  }
+}
