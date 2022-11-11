@@ -11,5 +11,6 @@
         <div class="e-article">
             <slot />
         </div>
+        <UiLangSwitcher />
     </div>
 </template>

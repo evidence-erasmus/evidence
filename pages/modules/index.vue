@@ -5,7 +5,7 @@
 </script>
 <template>
     <div>
-        <h1 class="font-Alfa font-normal">Modules</h1>
+        <h1>Modules</h1>
 
         <section class="grid md:grid-cols-3 gap-4">
             

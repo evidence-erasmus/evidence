@@ -10,9 +10,9 @@
 <template>
     <div>
         
-        {{ $t('message') }}
+        <p v-html="$t('message')"></p>
 
-        <h1 class="font-Alfa font-normal">The Project</h1>
+        <h1>The Project</h1>
 
         <p>The frequent incident of pseudo-scientific information, conspiracy theories, and “alternative” facts in media is a new reality. Despite a modern raised level of education and standard of living, the number of people, adopting beliefs that are patently at odds with observable reality and scientific evidence, is a growing concern.</p>
         <p>Unfortunately, most (science) teachers lack skills to tackle socially acute science related issues susceptible to controversies and social escalation in the classroom, many of which raised by students in the context of health.</p>

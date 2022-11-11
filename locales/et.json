@@ -3,5 +3,10 @@
   "menu": {
     "about": "Projektist",
     "modules": "Moodulid"
+  },
+  "hero" : {
+    "erasmus" : "<b>Erasmus+</b> projekt",
+    "intro" : "Meie eesmärk on edendada õpilaste võtmepädevusi tõenduspõhiste otsuste tegemisel vastuolulistes sotsiaalteaduslikes küsimustes",
+    "about" : "Projektist pikemalt"
   }
 }

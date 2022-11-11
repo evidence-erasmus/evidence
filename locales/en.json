@@ -1,7 +1,12 @@
 {   
-  "message": "Hello from external", 
+  "message": "Hello <h2>from</h2> external", 
   "menu": {
     "about": "About",
     "modules": "Modules"
+  },
+  "hero" : {
+    "erasmus" : "An <b>Erasmus+</b> project",
+    "intro" : "Promoting students’ key competences for making evidence-based decisions on controversial socio-scientific issues",
+    "about" : "About the project"
   }
 }

@@ -11,28 +11,44 @@ export default defineNuxtConfig({
         locales: [
             {
                 code: 'en',
-                name: 'English'
-              },
-              {
+                iso: 'en_150',
+                name: 'English',
+                file: 'en.json'
+            },
+            {
+                code: 'el',
+                iso: 'el_CY',
+                name: 'Ελληνικά',
+                file: 'el.json'
+            },
+            {
                 code: 'et',
-                name: 'Estonian'
+                iso: 'et_EE',
+                name: 'Estonian',
+                file: 'et.json'
               },
         ], 
+        lazy: true,
+        langDir: 'locales',
         defaultLocale: 'en', 
         parsePages: false,   // Disable babel parsing
         pages: {
             about: {
                 en: '/about', 
                 et: '/projektist'
+            },
+            test: {
+                en: '/test-en', 
+                et: '/test-et'
             }
         },
         vueI18n: {
             legacy: false,
             locale: 'en',
-            messages: { 
-                en : require("./locales/en.json"), 
-                et : require("./locales/et.json") 
-            }
+            // messages: { 
+                // en : require("./locales/en.json"), 
+                // et : require("./locales/et.json") 
+            // }
           }
     },
     

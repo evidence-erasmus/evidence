@@ -27,8 +27,8 @@ module.exports = {
     // },
     extend: {
       fontFamily: {
-        Alfa: ["Alfa Slab One", "cursive"],
-        Work: ["Work Sans", "sans-serif"],
+        Heading: ["Alegreya", "cursive"],
+        Body: ["Roboto Flex", "sans-serif"],
       },
     },
   },

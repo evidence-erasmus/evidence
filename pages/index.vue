@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="font-Alfa text-4xl">Hi There!</h1>
+        <h1 class="text-4xl">Hi There!</h1>
         {{color}}
     </div>
 </template>
