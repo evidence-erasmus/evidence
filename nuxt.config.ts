@@ -37,9 +37,9 @@ export default defineNuxtConfig({
                 en: '/about', 
                 et: '/projektist'
             },
-            test: {
-                en: '/test-en', 
-                et: '/test-et'
+            modules: {
+                en: '/modules', 
+                et: '/moodulid'
             }
         },
         vueI18n: {
