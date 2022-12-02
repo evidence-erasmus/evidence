@@ -1,0 +1,6 @@
+{
+    "i18nJsonEditor.supportedFolders": [
+        "locales",
+        "i18n"
+    ]
+}
