@@ -13,18 +13,23 @@
             default: ""
         },
         path: {
-                type: String,
-                default: "material-symbols:coronavirus-outline-sharp"
-            }
+            type: String,
+            default: "material-symbols:coronavirus-outline-sharp"
+        }
     });
+
+    const {locale} = useI18n();
+    const localePath = useLocalePath();
+
 </script>
 <template>
-    <div class="shadow-md rounded-md p-4">
-        <NuxtLink :to="props.path" class="no-underline flex flex-col items-center text-center">
-            <!-- <img :src="props.img" /> -->
+    
+        <NuxtLink :to="localePath(props.path, locale)" class="no-underline flex flex-col items-center text-center">
+            <div class="shadow-md rounded-md p-4">
+                        <!-- <img :src="props.img" /> -->
             <Icon :name="props.icon" size="64" class="text-blue-500" />
             <h3 class="text-2xl font-bold no-underline leading-6 mt-4">{{props.title}}</h3>
             <p class="text-md leading-6">{{props.description}}</p>
+        </div>
         </NuxtLink>
-    </div>
 </template>

@@ -12,5 +12,16 @@
     "about": "About",
     "modules": "Modules"
   },
-  "message": "Hello <h2>from</h2> external"
+  "message": "Hello <h2>from</h2> external",
+  "modules": {
+    "radiation": {
+      "description": "Radiation module descripotion",
+      "title": "Radiation"
+    },
+    "title": "Modules",
+    "viruses": {
+      "description": "Viruses module description",
+      "title": "Viruses"
+    }
+  }
 }

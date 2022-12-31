@@ -12,5 +12,16 @@
     "about": "Σχετικά με",
     "modules": "Ενότητες"
   },
-  "message": "Hello <h2>from</h2> external"
+  "message": "Hello <h2>from</h2> external",
+  "modules": {
+    "radiation": {
+      "description": "Radiation module description in Greek",
+      "title": "Radiation in Greek"
+    },
+    "title": "Modules in Greek",
+    "viruses": {
+      "description": "Viruses module description in Greek",
+      "title": "Viruses GR"
+    }
+  }
 }

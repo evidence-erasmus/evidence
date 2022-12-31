@@ -12,5 +12,16 @@
     "about": "Projektist",
     "modules": "Moodulid"
   },
-  "message": "Tervitusi välisest failist!"
+  "message": "Tervitusi välisest failist!",
+  "modules": {
+    "radiation": {
+      "description": "See on radiatsiooni mooduli kirjeldus siin. Lause või paar.",
+      "title": "Radiatsioon"
+    },
+    "title": "Moodulid",
+    "viruses": {
+      "description": "See on viiruste mooduli kirjeldus siin. Lause või paar.",
+      "title": "Viirused"
+    }
+  }
 }

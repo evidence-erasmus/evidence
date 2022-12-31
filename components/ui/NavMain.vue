@@ -1,7 +1,7 @@
 <template>
     <nav>
-        <NuxtLink :to="localePath('/about')" class="px-2 py-1">{{t('menu.about')}}</NuxtLink>
-        <NuxtLink :to="localePath('/modules')" class="px-2 py-1">{{t('menu.modules')}}</NuxtLink>
+        <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1">{{t('menu.about')}}</NuxtLink>
+        <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1">{{t('menu.modules')}}</NuxtLink>
     </nav>
 </template>
 

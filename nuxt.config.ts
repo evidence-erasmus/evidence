@@ -7,7 +7,7 @@ export default defineNuxtConfig({
         'nuxt-icon'
     ],
     i18n: {
-        strategy: 'prefix',
+        strategy: 'prefix_and_default',
         locales: [
             {
                 code: 'en',
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
         lazy: true,
         langDir: 'locales',
         defaultLocale: 'en', 
-        parsePages: false,   // Disable babel parsing
+        customRoutes: 'config',
         pages: {
             about: {
                 en: '/about', 
@@ -40,7 +40,23 @@ export default defineNuxtConfig({
             modules: {
                 en: '/modules', 
                 et: '/moodulid'
-            }
+            },
+            viruses: {
+                en: '/viruses', 
+                et: '/viirused'
+            },
+            radiation: {
+                en: '/radiation', 
+                et: '/radiatsioon'
+            },
+            // 'modules/viruses': {
+            //     en: '/modules/viruses',
+            //     et: '/moodulid/viirused'
+            // },
+            // 'module/:slug': {
+            //      en: '/module/:slug',
+            //      et: '/moodul/:slug'
+            // },
         },
         vueI18n: {
             legacy: false,
