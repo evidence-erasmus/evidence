@@ -3,7 +3,6 @@
         <h1>{{ t('modules.title') }}</h1>
 
         <section class="grid md:grid-cols-3 gap-4">
-            
                 <UiCardModule path="viruses" 
                     :title="t('modules.viruses.title')" 
                     :description="t('modules.viruses.description')" 

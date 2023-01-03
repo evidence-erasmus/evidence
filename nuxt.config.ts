@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/i18n',
         '@nuxtjs/tailwindcss',
+        '@nuxt/image-edge',
         'nuxt-icon'
     ],
     i18n: {
@@ -66,6 +67,11 @@ export default defineNuxtConfig({
                 // et : require("./locales/et.json") 
             // }
           }
+    },
+    image: {
+        gumlet: {
+          baseURL: 'https://erasmus-evidence.gumlet.io'
+        }
     },
     
     app: {
