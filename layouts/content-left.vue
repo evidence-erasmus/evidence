@@ -8,7 +8,7 @@
                 <UiNavMain />
             </div>
         </header>
-        <div class="e-article container mx-auto">
+        <div class=" w-full">
             <slot />
         </div>
         <UiLangSwitcher />
@@ -18,3 +18,4 @@
 <script setup>
     const localePath = useLocalePath();
 </script>
+

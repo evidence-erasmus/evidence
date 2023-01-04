@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="pr-8">
         <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1">{{t('menu.about')}}</NuxtLink>
         <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1">{{t('menu.modules')}}</NuxtLink>
     </nav>
