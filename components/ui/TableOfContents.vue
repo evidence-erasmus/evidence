@@ -1,5 +1,5 @@
 <template>
-    <nav class="px-8 py-6 border shadow-md">
+    <nav class="px-8 py-6 border shadow-md sticky top-0">
         <h3 class="text-lg e-font__normal mb-3">Table of Contents</h3>
         <slot></slot>
     </nav>
@@ -15,9 +15,5 @@
     :slotted(li::marker) {
         color: gray;
         /* content: "⁕ "; */
-    }
-    :slotted(a) {
-        /* text-decoration:underline; */
-        /* text-decoration-skip-ink: all; */
     }
 </style>

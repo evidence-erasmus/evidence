@@ -7,6 +7,7 @@
 @layer base {
     html {
         font-family: "Roboto Flex", serif;
+        scroll-behavior: smooth;
         /* font-size: 18px; */
     }
     h1, h2, h3, h4, h5, h6 {
@@ -30,10 +31,11 @@
     }
     .e-article {
       @apply prose-headings:text-slate-800 prose prose-slate py-20 px-6 sm:px-8 md:prose-lg lg:prose-xl;
+      /* @apply prose-headings:text-slate-800 prose prose-slate py-20 px-6 sm:px-8; */
     }
 
     .e-term {
-      @apply italic text-blue-500 text-[120%];
+      @apply italic text-blue-500 font-bold text-[120%];
     }
 
     .e-huge-number {

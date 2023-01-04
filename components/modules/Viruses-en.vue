@@ -1,26 +1,35 @@
 <template>
-    <div class="flex items-start">
-        <UiTableOfContents class="order-2">
-            <ol class="">
-                <li class="">
-                    <a href="#">Viruses versus bacteria</a>
+    <div class="flex items-start justify-between">
+        <UiTableOfContents class="order-2 max-w-xs">
+            <ol>
+                <li>
+                    <a href="#section-1">Viruses versus bacteria</a>
                 </li>
                 <li>
-                    <a href="#">Why do antibiotics not kill viruses?</a>
+                    <a href="#section-2">Why do antibiotics not kill viruses?</a>
+                </li>
+                <li>
+                    <a href="#section-3">How vaccines work</a>
+                </li>
+                <li>
+                    <a href="#section-4">The process of developing vaccines, vaccines safety</a>
                 </li>
             </ol>
         </UiTableOfContents>
+
+
+
         <section class="e-article">
             <h1>Viruses</h1>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2>1. Viruses versus bacteria</h2>
+            <h2 id="section-1">1. Viruses versus bacteria</h2>
         
             <p class="font-bold">Bacteria and viruses can cause many common infections. But what are the differences between these two kinds of infectious organisms?</p>
         
-            <p><span class="e-term e-font__special">Bacteria</span> are tiny microorganisms that are made up of a single cell. They're very diverse and can have many shapes and structural features. Bacteria can live in almost every conceivable environment, including in or on the human body. Only a handful of bacteria cause infections in humans. These bacteria are referred to as pathogenic bacteria.</p>
+            <p><span class="e-term font-Heading">Bacteria</span> are tiny microorganisms that are made up of a single cell. They're very diverse and can have many shapes and structural features. Bacteria can live in almost every conceivable environment, including in or on the human body. Only a handful of bacteria cause infections in humans. These bacteria are referred to as pathogenic bacteria.</p>
         
-            <p><span class="e-term e-font__special">Viruses</span> are another type of tiny microorganism, even smaller than bacteria. Like bacteria, they're very diverse and have a variety of shapes and features. Viruses are parasitic. That means they require living cells or tissue in which to grow. Viruses can invade the cells of your body, using the components of your cells to grow and multiply. Some viruses even kill host cells as part of their life cycle. Differences between viruses and bacteria can be seen in figure 1 and found in table 1.</p>
+            <p><span class="e-term font-Heading">Viruses</span> are another type of tiny microorganism, even smaller than bacteria. Like bacteria, they're very diverse and have a variety of shapes and features. Viruses are parasitic. That means they require living cells or tissue in which to grow. Viruses can invade the cells of your body, using the components of your cells to grow and multiply. Some viruses even kill host cells as part of their life cycle. Differences between viruses and bacteria can be seen in figure 1 and found in table 1.</p>
         
             <!-- <nuxt-img
                 provider="gumlet"
@@ -96,7 +105,9 @@
             <UiCardInfo>
                 Antibiotics can help the immune system to kill off bacterial infections but are useless against viral infections. Antiviral drugs work differently than antibiotics and are currently only effective against a few viral diseases, such as influenza, herpes, hepatitis B and C, and HIV. Viral infections can be much harder to kill than bacterial infections because the virus goes into human cells. The immune system can sometimes kill the infected cells before the virus can reproduce. However, as the virus reproduces, it often kills the infected cell by exploding out, which allows the virus to spread to other cells in the body.
             </UiCardInfo>
+
             <h3>References</h3>
+            
             <ul class="text-sm break-words">
                 <li><a href="https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/">https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/</a></li>
                     <li><a href="https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16">https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16</a></li>
@@ -117,11 +128,15 @@
             
             
             <!-- <h2 class="e-huge-number">2.</h2> -->
-            <h2>2. Why do antibiotics not kill viruses?</h2>
+            <h2 id="section-2">2. Why do antibiotics not kill viruses?</h2>
             <p>Antibiotics target the growth machinery in bacteria (not viruses) to kill or inhibit those particular bacteria. Antibiotics cannot kill viruses because viruses have different structures and replicate differently than bacteria. Moreover, overuse and inappropriate prescribing of antibiotics worldwide are leading to the global healthcare issue of <a href="https://www.drugs.com/article/antibiotic-resistance.html" target="_blank">antibiotic resistance</a>. See Table 2 in which conditions antibiotics may be helpful (NB! the decision on its use will be made by your doctor).</p>
-            <table class="leading-tight">
-                <caption class="text-left pb-4"><b>Table 2.</b> Need for antibiotics by common respiratory infections</caption>
-                <thead class="border text-center ">
+            
+            
+            <table class="leading-tight bg-white shadow-lg">
+                <caption class="text-left pb-4">
+                    <b>Table 2.</b> Need for antibiotics by common respiratory infections
+                </caption>
+                <thead class="border text-center">
                     <tr>
                         <th rowspan="2" class="border p-1">Common respi&shy;ratory infections</th>
                         <th colspan="3" class="border p-1">Common cause</th>
@@ -201,7 +216,7 @@
                 </tbody>
                 <tfoot class="border text-center">
                     <tr>
-                        <td colspan="5" class="p-1">
+                        <td colspan="5" class="py-0 px-3">
                             <p class="text-sm italic">* Studies shows that in otherwise healthy children and adults, antibiotics for bronchitis won't help patients feel better.</p>
                             <p class="text-xs text-slate-400">Source: https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg</p>
                         </td>
@@ -219,6 +234,61 @@
             </ul>
         
         
+
+
+
+
+
+
+
+
+
+
+
+            <h2 id="section-3">3. How vaccines work</h2>
+
+            <h3>The body's natural response</h3>
+
+            <p>A <span class="e-term font-Heading">pathogen</span> is a bacterium, virus, parasite, or fungus that can cause disease within the body. Each pathogen is made up of several subparts, usually unique to that specific pathogen and the disease it causes. The subpart of a pathogen that causes the formation of antibodies is called an antigen. The antibodies produced in response to the pathogen's antigen are essential to the immune system. You can consider antibodies as the soldiers in your body's defense system. Each antibody, or soldier, in our system, is trained to recognize one specific antigen. We have thousands of different antibodies in our bodies. When the human body is exposed to an antigen for the first time, it takes time for the immune system to respond and produce antibodies specific to that antigen (Fig. 2). </p>
+
+            <p>Antibodies to one pathogen generally do not protect against another pathogen except when two pathogens are very similar to each other, like cousins. Once the antigen-specific antibodies are produced, they work with the rest of the immune system to destroy the pathogen and stop the disease. Once the body produces antibodies in its primary response to an antigen, it also creates antibody-producing memory cells, which remain alive even after the antibodies defeat the pathogen. Suppose the body is exposed to the same pathogen more than once. In that case, the antibody response is much faster and more effective than the first time because the memory cells are ready to pump antibodies against that antigen. This means that if the person is exposed to a dangerous pathogen in the future, their immune system will be able to respond immediately, protecting against disease. </p>
+
+            <UiContentImage
+                src="https://evidence.onkel.ee/assets/viruses-03.webp"
+                caption="<b>Figure 2.</b> For every new antigen, our body needs to build a specific antibody"
+                credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html"
+                :elevated="true"
+            />
+
+            <h3>How vaccines help?</h3>
+
+            <p>Vaccines reduce the risks of getting a disease by working with your body's natural defenses to build protection. When you get a vaccine, your immune system responds.</p>
+            <p>Vaccines contain weakened or inactive parts of a particular organism (antigen) that triggers an immune response within the body (Fig. 3). Newer vaccines contain the blueprint for producing antigens rather than the antigen itself. Regardless of whether the vaccine is made up of the antigen itself or the blueprint so that the body will produce the antigen, this weakened version will not cause the disease in the person receiving the vaccine. However, it will prompt their immune system to respond much as it would have on its first reaction to the actual pathogen.</p>
+
+            <UiContentImage
+                src="https://evidence.onkel.ee/assets/viruses-04.webp"
+                caption="<b>Figure 3.</b> Antibody development through vaccination"
+                credits="Source: https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work"
+                :elevated="true"
+            />
+
+            <p>Vaccines work by exposing your white blood cells to the foreign protein in a virus. Once your body has encountered a virus and performed an immune response (making B and T cells) to the virus, it saves the B and T cells so that if the same virus or bacteria ever infects the body again, the immune system can stage and all-out war, preventing the pathogen from ever making you feel sick. Vaccines introduce the body to the virus so that the body can save up B and T cells without ever making you sick.</p>
+
+            <h3>Immunization  and related challenges</h3>
+
+            <p>We now have vaccines to prevent more than 20 life-threatening diseases, helping people of all ages live longer, healthier lives. Immunization currently prevents 2-3 million deaths yearly from diseases like diphtheria, tetanus, pertussis, influenza, and measles.</p>
+
+            <p>We have vaccinations against many serious viral infections (measles, mumps, hepatitis A, hepatitis B, and some viruses - such as those that cause the common cold). Still, the problem remains that they can mutate from one person to the next. When the virus mutates, it changes enough that the immune system no longer recognizes it. The immune cells stored for killing the virus no longer recognize it as the same disease and do not know how to kill it. This is how an infection with the same virus can keep dodging the immune system. Vaccination for these viruses is difficult because they have already changed their format by the time vaccines are develop</p>
+
+            <h4>References</h4>
+
+            <ul class="text-sm break-words">
+                <li><a href="https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work</a></li>
+                <li><a href="" target="_blank">https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html </a></li>
+                <li><a href="" target="_blank">https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf </a></li>
+                <li><a href="" target="_blank">https://opentextbc.ca/biology/chapter/12-1-viruses/ </a></li>
+            </ul>
+
         </section>
     </div>
 </template>

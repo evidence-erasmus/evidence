@@ -16,15 +16,13 @@
 }
 
 
-.layout-enter-active,
+/* .layout-enter-active,
 .layout-leave-active {
   transition: all 0.3;
 }
 .layout-enter-from,
 .layout-leave-to {
   opacity: 0;
-  /* filter: blur(1rem); */
-  /* filter: grayscale(1); */
-}
+} */
 
 </style>
