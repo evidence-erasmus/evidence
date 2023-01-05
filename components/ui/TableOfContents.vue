@@ -1,14 +1,14 @@
 <template>
-    <nav class="px-8 py-6 border shadow-md sticky top-0">
-        <h3 class="text-lg e-font__normal mb-3">Table of Contents</h3>
+    <nav class="px-8 py-6 border shadow-md sticky top-0 max-h-screen overflow-y-auto">
         <slot></slot>
     </nav>
 </template>
 
 <style scoped>
-    /* :slotted(li) { */
-        /* list-style-type: disc; */
-    /* } */
+    :slotted(li) {
+        line-height: 1.1;
+        margin-bottom: 0.75rem;
+    }
     :slotted(ol){
         list-style-type: decimal;
     }

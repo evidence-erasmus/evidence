@@ -8,7 +8,7 @@
                 <UiNavMain />
             </div>
         </header>
-        <div class=" w-full">
+        <div class="md:pl-[3vw] lg:pl-[7vw]">
             <slot />
         </div>
         <UiLangSwitcher />

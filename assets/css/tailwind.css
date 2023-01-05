@@ -37,6 +37,9 @@
     .e-term {
       @apply italic text-blue-500 font-bold text-[120%];
     }
+    .e-card {
+      @apply p-4 bg-white rounded-xl shadow-lg border;
+    }
 
     .e-huge-number {
       @apply text-[20rem] text-slate-200 leading-none m-0 p-0 ml-[-0.5ch];
