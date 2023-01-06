@@ -38,6 +38,15 @@
                 <li>
                     <a href="#myth-4">Vaccines contain life-threatening substances</a>
                 </li>
+                <li>
+                    <a href="#myth-5">Better hygiene and sanitation are responsible for decreased infections, not vaccines</a>
+                </li>
+                <li>
+                    <a href="#myth-6">Vaccines can infect the child with the disease it is trying to prevent</a>
+                </li>
+                <li>
+                    <a href="#myth-7">We do not need to vaccinate because many countries have low infection rates</a>
+                </li>
             </ol>
         </UiTableOfContents>
 
@@ -47,7 +56,8 @@
             <h1>Viruses</h1>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">1. Viruses versus bacteria</h2>
+            <h2 id="section-1"><b>1.</b><br/><br/>
+                Viruses versus bacteria</h2>
         
             <p class="font-bold">Bacteria and viruses can cause many common infections. But what are the differences between these two kinds of infectious organisms?</p>
         
@@ -155,7 +165,8 @@
             
             
             <!-- <h2 class="e-huge-number">2.</h2> -->
-            <h2 id="section-2">2. Why do antibiotics not kill viruses?</h2>
+            <h2 id="section-2"><b>2.</b><br/><br/>
+                Why do antibiotics not kill viruses?</h2>
             <p>Antibiotics target the growth machinery in bacteria (not viruses) to kill or inhibit those particular bacteria. Antibiotics cannot kill viruses because viruses have different structures and replicate differently than bacteria. Moreover, overuse and inappropriate prescribing of antibiotics worldwide are leading to the global healthcare issue of <a href="https://www.drugs.com/article/antibiotic-resistance.html" target="_blank">antibiotic resistance</a>. See Table 2 in which conditions antibiotics may be helpful (NB! the decision on its use will be made by your doctor).</p>
             
             
@@ -276,7 +287,8 @@
 
 
 
-            <h2 id="section-3">3. How vaccines work</h2>
+            <h2 id="section-3"><b>3.</b><br/><br/>
+                How vaccines work</h2>
 
             <h3>The body's natural response</h3>
 
@@ -336,7 +348,8 @@
 
 
 
-            <h2 id="#section-4">4. The process of developing vaccines, vaccines safety</h2>
+            <h2 id="#section-4"><b>4.</b><br/><br/>
+                The process of developing vaccines, vaccines safety</h2>
 
             <h3>Development</h3>
             <p>Vaccine development typically begins in a research laboratory located in a university, medical center, or small biotech company. During vaccine development, scientists develop different reagents to test and measure their effect (or lack thereof). Often years of research are needed to find ideas that work.</p>
@@ -391,7 +404,8 @@
 
 
 
-            <h2 id="section-5">5. Masks against viruses and bacteria</h2>
+            <h2 id="section-5"><b>5.</b><br/><br/>
+                Masks against viruses and bacteria</h2>
 
             <p>Masks are often used to protect against viruses and bacteria. They had become widespread in the sense of protection against the SARS-CoV-2 virus. Among different types of masks, surgical face masks are among the most commonly used face coverings in the COVID-19 pandemic. Typically, they are blue colored from one side, which should be kept as an outer layer (Fig. 4). The main aim of surgical masks is to protect patients from potential contact with bacteria and viruses exhaled by the wearer. So, they well prevent the spread of the coronavirus through the air but are less effective means of protecting the wearer from the virus.</p>
             <p>FFP2 or FFP3 masks (often called respirators) should be used to filter and better inhale air. The numbering system (FFP1, FPP2, FFP3) indicates these devices' filtration efficiency (certified as meeting the EN 149-2001 standard). FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: &lt;8% and &lt;2%, respectively. In FFP2, special rubber is often used on the outer layer of the respirator. If in occupational environments, a valve (that makes exhaling easier) has been allowed, in the case of SARS-CoV-2, only non-valve respirators should be used in order to filter also exhaled air.  </p>
@@ -460,7 +474,8 @@
 
 
 
-            <h2 id="section-6">6. Viruses and hand hygiene</h2>
+            <h2 id="section-6"><b>6.</b><br/><br/>
+                Viruses and hand hygiene</h2>
 
             <h3>Hand sanitiser or soap?</h3>
             
@@ -536,7 +551,8 @@
 
             <h1 class="mt-40">Vaccine myths</h1>
 
-            <h2 id="myth-1"><b>Myth 1:</b> Vaccines cause autism/serious side effects.</h2>
+            <h2 id="myth-1"><b>Myth 1:</b><br /><br />
+                Vaccines cause autism/serious side effects.</h2>
 
             <p>The widespread fear that vaccines increase the risk of autism originated with a 1997 study published by Andrew Wakefield, a British surgeon. The article was published in The Lancet, a prestigious medical journal, suggesting that the measles, mumps, and rubella (MMR) vaccine increased autism in British children.</p>
             <p>The paper has since been thoroughly discredited due to serious procedural errors, having only 12 participants in the study, undisclosed financial conflicts of interest, and ethical violations. Andrew Wakefield lost his medical license, and the paper was retracted from The Lancet.</p>
@@ -580,7 +596,8 @@
 
 
 
-            <h2 id="myth-2"><b>Myth 2:</b> Infant immune systems cannot handle multiple vaccines</h2>
+            <h2 id="myth-2"><b>Myth 2:</b><br /><br />
+                Infant immune systems cannot handle multiple vaccines</h2>
 
             <p>Children are given vaccines at a young age because they are at the highest risk of getting sick or dying if they get these diseases. Even newborn babies are immune to some diseases (e.g., chickenpox) because they get antibodies from their mothers; this immunity lasts only a few months. Moreover, most babies do not get protective antibodies against diphtheria, whooping cough, polio, tetanus, hepatitis B, or Hib from their mothers.</p>
             <p>To reduce the number of shots a child receives in a doctor's visit, some vaccines are offered as a combination (two or more different vaccines have been combined into a single shot). Examples of combination vaccines are diphtheria-tetanus-pertussis (DTap) and measles-mumps-rubella (MMR). </p>
@@ -606,7 +623,8 @@
 
 
 
-            <h2 id="myth-3"><b>Myth 3:</b> Immunity acquired through a disease is better than immunity acquired through vaccination</h2>
+            <h2 id="myth-3"><b>Myth 3:</b><br /><br />
+                Immunity acquired through a disease is better than immunity acquired through vaccination</h2>
 
 
             <p>It is true that natural infection almost always results in a stronger immunity to the disease than a vaccination. However, the dangers of this approach far outweigh the relative benefits. The price for immunity after natural infection might be pneumonia from chickenpox or pneumococcus, intellectual disability from Haemophilus influenzae type b (Hib), birth defects from rubella, liver cancer from hepatitis B virus, death from measles, etc. If you wanted to gain immunity to measles, for example, by contracting the disease, you would face a 1 in 500 chance of death from your symptoms. In contrast, the number of people who have had severe allergic reactions from an MMR vaccine is less than one-in-one million.</p>
@@ -650,7 +668,8 @@
 
 
 
-            <h2 id="myth-4"><b>Myth #4:</b> Vaccines contain life-threatening substances.</h2>
+            <h2 id="myth-4"><b>Myth #4:</b><br /><br />
+                Vaccines contain life-threatening substances.</h2>
             
             
             <p>People are concerned about using formaldehyde, mercury, or aluminium in vaccines. On the one hand, these chemicals are toxic to the human body at certain levels. On the other hand, only tiny amounts of these chemicals can be found in vaccines. Those amounts are smaller than we get from nutrition or formaldehyde is produced at higher rates by our own metabolic systems.</p>
@@ -690,6 +709,85 @@
 
 
 
+
+
+
+            <h2 id="myth-5"><b>Myth 5:</b><br /><br />
+                Better hygiene and sanitation are responsible for decreased infections, not vaccines</h2>
+            
+            <p>This is partly true that vaccines do not deserve all the credit for reducing or eliminating rates of infectious diseases. It has been shown that better sanitation, nutrition, and the development of antibiotics have also helped a lot. Infections such as typhoid and cholera transmitted by contaminated water, a major cause of illness and death early in the 20th century, have been reduced dramatically by better sanitation. A recent review concluded that handwashing in averting infectious diseases. Another recent evidence comes from the COVID-19 lockdown and improved hygiene with dramatically reduced seasonal flu rates.</p>
+            <p>However, when these factors are isolated, and infectious disease rates are analysed, the role of vaccines cannot be denied. One example is measles in the United States. When the first measles vaccine was introduced in 1963, infection rates had been steady at around 400,000 cases a year. And while hygienic habits and sanitation did not change much over the following decade, the rate of measles infections dropped precipitously following the vaccine's introduction, with only around 25,000 cases by 1970. Another example is Hib disease. According to CDC data, the incidence rate for this malady plummeted from 20,000 in 1990 to around 1,500 in 1993 following the vaccine's introduction.</p>
+            <p>Another piece of evidence comes from recent decades. There have not been changes in hygiene in the developed world, but there has been a decrease in vaccination rates. Now several countries, such as the UK, the USA, Germany, Spain, etc., are seeing increasing numbers of measles, and other vaccine-preventable diseases, identified as an emerging disease "hot spots".</p>
+
+            <section class="e-card">
+                <h4 class="mt-0">Reference</h4>
+                <ul class="text-sm braek-word">
+                    <li><a href="https://jptcp.com/index.php/jptcp/article/view/711" target="_blank">https://jptcp.com/index.php/jptcp/article/view/711</a></li>
+                    <li><a href="https://www.nature.com/articles/d41586-020-01538-8" target="_blank">https://www.nature.com/articles/d41586-020-01538-8</a></li>
+                    <li><a href="https://www.nature.com/articles/d41586-020-03519-3" target="_blank">https://www.nature.com/articles/d41586-020-03519-3</a></li>
+                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/</a></li>
+                </ul>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <h2 id="myth-6"><b>Myth 6:</b><br /><br />
+                Vaccines can infect the child with the disease it is trying to prevent</h2>
+
+            <p>Some of the vaccines are live vaccines that contain live attenuated microorganisms/viruses, which are still capable of replicating within the host (vaccinee). The microorganisms are 'weakened', meaning they have lost most of their disease-causing capacity but still possess immunogenic properties. Thus, it is always much less severe than if a child became infected with the disease-causing virus itself. Live-attenuated vaccines are for measles, mumps, rubella (MMR combined vaccine), rotavirus, smallpox, chickenpox, and yellow fever vaccine. In most cases, live vaccines show significantly higher immunogenicity than inactivated vaccines since natural infection is imitated almost perfectly by eliciting a more comprehensive range of immunologic responses. However, these vaccines are not favoured for kids with weakened immune systems, such as those being treated for cancer.</p>
+            <p>Live vaccines can indeed cause mild symptoms resembling the disease they protect against. However, the vaccine recipients are experiencing a body's immune response to the vaccine, not the disease itself. There is only one recorded instance in which a vaccine was shown to cause disease. This was the Oral Polio Vaccine (OPV) which is no longer used and currently replaced with a killed virus form known as the inactivated polio vaccine (IPV).</p>
+
+            <section class="e-card">
+                <h4 class="mt-0">Reference</h4>
+                <ul class="text-sm break-word">
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/B9781455710768000090" target="_blank">https://www.sciencedirect.com/science/article/pii/B9781455710768000090</a></li>
+                </ul>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <h2 id="myth-7"><b>Myth 7:</b><br /><br />
+                We do not need to vaccinate because many countries have low infection rates</h2>
+            <p>Herd immunity occurs when a large portion of a community (the herd) becomes immune to a disease, making the spread of disease from person to person unlikely. Thanks to "herd immunity," many people do not see the need for vaccination. As long as a large majority of people are immunised in any population, the unimmunised minority will also be protected. This is important because there is a portion of the population – infants, pregnant women, the elderly, and those with weakened immune systems – that cannot sometimes receive vaccines. However, suppose many people do not vaccinate themselves or their children. In that case, the "herd immunity" disappears, opening up opportunities for viruses and bacteria to establish themselves and spread. With so many people resistant, an infectious disease will never get a chance to establish itself and spread. </p>
+            <p>Moreover, international travel often carries a disease from abroad, and an unvaccinated individual will be at far greater risk of getting sick or people have got infected while travelling. The increased measles incidence illustrates this in the US in recent years. As long as disease exists, we are at risk of getting infected. </p>
+            
+            <section class="e-card">
+                <h4 class="mt-0">References</h4>
+                <ul class="text-sm break-word">
+                    <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm" target="_blank">https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm</a></li>
+                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
+                </ul>
+            </section>
+
+
+
+            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:edit-document">
+                More COVID-19 myths and related scientific research can be found from: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/science-in-5/episode-8---myth-vs-science" target="_blank">
+                    WHO - Myth vs Science
+                </a>
+            </UiCardInfo>
+
+ 
 
 
         </section>
