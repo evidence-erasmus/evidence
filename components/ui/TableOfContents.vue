@@ -1,5 +1,5 @@
 <template>
-    <nav class="px-8 py-6 border shadow-md sticky top-0 max-h-screen overflow-y-auto">
+    <nav class="hidden px-8 py-6 border shadow-md sticky top-10 max-h-screen overflow-y-auto md:block">
         <slot></slot>
     </nav>
 </template>

@@ -32,6 +32,6 @@
                 class="block"
             />
             <figcaption class="block text-sm text-center italic mt-4 w-full" v-html="caption" />
-            <caption v-if="credits != '.'" class="block text-xs w-full text-slate-400">{{ credits }}</caption>     
+            <caption v-if="credits != '.'" class="block text-xs w-full text-slate-400 break-words">{{ credits }}</caption>     
     </figure>
 </template>

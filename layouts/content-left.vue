@@ -1,17 +1,18 @@
 <template>
     <div>
-        <header class="bg-yellow-400 py-4 px-4" >
+        <header class="bg-yellow-400 py-4 px-4 print:bg-white" >
             <div class="container mx-auto flex justify-between items-center">
                 <NuxtLink :to="localePath('/')">
                     <LogoEvidence class="fill-slate-700 h-10" />
                 </NuxtLink>
-                <UiNavMain />
+                <UiNavMain class="print:invisible" />
             </div>
         </header>
+        <UiNavModule class="md:pl-[3vw] lg:pl-[7vw] print:hidden" />
         <div class="md:pl-[3vw] lg:pl-[7vw]">
             <slot />
         </div>
-        <UiLangSwitcher />
+        <UiLangSwitcher class="print:invisible" />
     </div>
 </template>
 

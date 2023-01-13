@@ -53,7 +53,8 @@
 
 
         <section class="e-article">
-            <h1>Viruses</h1>
+            <h1 class="mb-0">Viruses</h1>
+            <h5 class="font-normal uppercase">Background information</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1"><b>1.</b><br/><br/>
@@ -89,7 +90,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th>
+                        <th class="align-baseline">
                             Living
                         </th>
                         <td>
@@ -100,37 +101,37 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>Number of cells</th>
+                        <th class="align-baseline">Number of cells</th>
                         <td>Unicellular, one cell</td>
                         <td>No cells, not living</td>
                     </tr>
                     <tr>
-                        <th>Repro&shy;duction</th>
+                        <th class="align-baseline">Repro&shy;duction</th>
                         <td>Split into 2</td>
                         <td>Invades a host cell and takes over the cell causing it to make copies of the viral DNA/RNA. Destroys the host cell releasing new viruses</td>
                     </tr>
                     <tr>
-                        <th>Size</th>
+                        <th class="align-baseline">Size</th>
                         <td>Bacteria are much bigger, ranging from 800 nm to 1000 nm. Bacteria can be seen under a light microscope.</td>
                         <td>The size of viruses is between 20 nm to 400 nm. Viruses are visible only under electron microscopes.</td>
                     </tr>
                     <tr>
-                        <th>Benefits</th>
+                        <th class="align-baseline">Benefits</th>
                         <td>Some bacteria are beneficial, e.g., certain bacteria are required in the gut).</td>
                         <td>Viruses are not beneficial. Viruses can be helpful in genetic engineering.</td>
                     </tr>
                     <tr>
-                        <th>Infection</th>
+                        <th class="align-baseline">Infection</th>
                         <td>Bacterial infection is usually confined to a part of the body, described as a localized infection. Infections may be caused by bacteria or by toxins (endotoxins) produced.</td>
                         <td>A viral infection is systemic. Viruses infect a host cell and multiply by thousands, leaving the host cell and infecting other body cells.</td>
                     </tr>
                     <tr>
-                        <th>Disease</th>
+                        <th class="align-baseline">Disease</th>
                         <td>Bacterial diseases include pneumonia, tuberculosis, tetanus, and food poisoning.</td>
                         <td>Systemic diseases caused by viral infection include influenza, measles, polio, AIDS, and COVID-19.</td>
                     </tr>
                     <tr>
-                        <th>Treat&shy;ment</th>
+                        <th class="align-baseline">Treat&shy;ment</th>
                         <td>Antibiotics and vaccines prevent the disease.</td>
                         <td>Vaccines prevent the spread, and antiviral medications help to slow reproduction but cannot stop it completely.</td>
                     </tr>
@@ -144,7 +145,7 @@
             
             <section class="e-card">
                 <h4 class="mt-4">References</h4>
-                <ul class="text-sm break-words">
+                <ul class="text-sm break-all">
                     <li><a href="https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/">https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/</a></li>
                         <li><a href="https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16">https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16</a></li>
                     <li><a href="
@@ -265,7 +266,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-words">
+                <ul class="text-sm break-all">
                     <li>
                         <a href="https://www.drugs.com/article/antibiotics-and-viruses.html" target="_blank">https://www.drugs.com/article/antibiotics-and-viruses.html</a>
                     </li>
@@ -325,7 +326,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-words">
+                <ul class="text-sm break-all">
                     <li><a href="https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work</a></li>
                     <li><a href="" target="_blank">https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html </a></li>
                     <li><a href="" target="_blank">https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf </a></li>
@@ -348,7 +349,7 @@
 
 
 
-            <h2 id="#section-4"><b>4.</b><br/><br/>
+            <h2 id="section-4"><b>4.</b><br/><br/>
                 The process of developing vaccines, vaccines safety</h2>
 
             <h3>Development</h3>
@@ -367,7 +368,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-words">
+                <ul class="text-sm break-all">
                     <li>
                         <a href="https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed</a>
                     </li>
@@ -382,7 +383,7 @@
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
                 
-                <ul class="text-sm break-words">
+                <ul class="text-sm break-all">
                     <li><a href="https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034" target="_blank">https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034</a></li>
                 </ul>
             </section>
@@ -436,7 +437,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-words">
+                <ul class="text-sm break-all">
                     <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
                     <li><a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266" target="_blank">https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266</a></li>
                     <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818" target="_blank">https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818</a></li>
@@ -484,7 +485,7 @@
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
                 
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li>
                         <a href="https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/" target="_blank">https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/</a>
                     </li>
@@ -516,8 +517,8 @@
 
             <section class="e-card">
                 <h4 class="mt-0">Reference</h4>
-                <ul class="text-sm break-word">
-                    <li><a href="" target="_blank">https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19 </a></li>
+                <ul class="text-sm break-all">
+                    <li><a href="https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19" target="_blank">https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19</a></li>
                 </ul>
             </section>
 
@@ -530,7 +531,7 @@
             
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub</a></li>
                     <li><a href="https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040" target="_blank">https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040</a></li>
                 </ul>
@@ -560,7 +561,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext</a></li>
                     <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
                 </ul>
@@ -605,7 +606,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
                     <li><a href="https://www.bmj.com/content/364/bmj.l1481/rr-11" target="_blank">https://www.bmj.com/content/364/bmj.l1481/rr-11</a></li>
                     <li><a href="https://pubmed.ncbi.nlm.nih.gov/11773551/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/11773551/</a></li>
@@ -636,7 +637,7 @@
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
                 
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li>
                         <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext</a>
                     </li>
@@ -677,7 +678,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li><a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank">https://stm.sciencemag.org/content/13/600/eabi9915</a></li>
                     <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/</a></li>
                     <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li>
@@ -720,8 +721,8 @@
             <p>Another piece of evidence comes from recent decades. There have not been changes in hygiene in the developed world, but there has been a decrease in vaccination rates. Now several countries, such as the UK, the USA, Germany, Spain, etc., are seeing increasing numbers of measles, and other vaccine-preventable diseases, identified as an emerging disease "hot spots".</p>
 
             <section class="e-card">
-                <h4 class="mt-0">Reference</h4>
-                <ul class="text-sm braek-word">
+                <h4 class="mt-0">References</h4>
+                <ul class="text-sm break-all">
                     <li><a href="https://jptcp.com/index.php/jptcp/article/view/711" target="_blank">https://jptcp.com/index.php/jptcp/article/view/711</a></li>
                     <li><a href="https://www.nature.com/articles/d41586-020-01538-8" target="_blank">https://www.nature.com/articles/d41586-020-01538-8</a></li>
                     <li><a href="https://www.nature.com/articles/d41586-020-03519-3" target="_blank">https://www.nature.com/articles/d41586-020-03519-3</a></li>
@@ -749,7 +750,7 @@
 
             <section class="e-card">
                 <h4 class="mt-0">Reference</h4>
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li><a href="https://www.sciencedirect.com/science/article/pii/B9781455710768000090" target="_blank">https://www.sciencedirect.com/science/article/pii/B9781455710768000090</a></li>
                 </ul>
             </section>
@@ -773,7 +774,7 @@
             
             <section class="e-card">
                 <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-word">
+                <ul class="text-sm break-all">
                     <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm" target="_blank">https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm</a></li>
                     <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
                 </ul>

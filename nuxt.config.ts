@@ -46,6 +46,14 @@ export default defineNuxtConfig({
                 en: '/viruses', 
                 et: '/viirused'
             },
+            'viruses/student': {
+                en: '/viruses/student', 
+                et: '/viirused/õpilane'
+            },
+            'viruses/teacher': {
+                en: '/viruses/teacher', 
+                et: '/viirused/õpetaja'
+            },
             radiation: {
                 en: '/radiation', 
                 et: '/radiatsioon'
