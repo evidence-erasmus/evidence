@@ -1,54 +1,56 @@
 <template>
-    <div class="flex items-start justify-between">
-        <UiTableOfContents class="order-2 max-w-xs">
-            <h3 class="text-lg font-Body mb-3">Table of Contents</h3>
-            <ol>
-                <li>
-                    <a href="#section-1">Viruses versus bacteria</a>
-                </li>
-                <li>
-                    <a href="#section-2">Why do antibiotics not kill viruses?</a>
-                </li>
-                <li>
-                    <a href="#section-3">How vaccines work</a>
-                </li>
-                <li>
-                    <a href="#section-4">The process of developing vaccines, vaccines safety</a>
-                </li>
-                <li>
-                    <a href="#section-5">Masks against viruses and bacteria</a>
-                </li>
-                <li>
-                    <a href="#section-6">Viruses and hand hygiene</a>
-                </li>
-            </ol>
-
-            <h3 class="text-lg my-3 font-Body">Vaccine myths</h3>
-
-            <ol>
-                <li>
-                    <a href="#myth-1">Vaccines cause autism/serious side effects</a>
-                </li>
-                <li>
-                    <a href="#myth-2">Infant immune systems cannot handle multiple vaccines</a>
-                </li>
-                <li>
-                    <a href="#myth-3">Immunity acquired through a disease is better than immunity acquired through vaccination</a>
-                </li>
-                <li>
-                    <a href="#myth-4">Vaccines contain life-threatening substances</a>
-                </li>
-                <li>
-                    <a href="#myth-5">Better hygiene and sanitation are responsible for decreased infections, not vaccines</a>
-                </li>
-                <li>
-                    <a href="#myth-6">Vaccines can infect the child with the disease it is trying to prevent</a>
-                </li>
-                <li>
-                    <a href="#myth-7">We do not need to vaccinate because many countries have low infection rates</a>
-                </li>
-            </ol>
-        </UiTableOfContents>
+    <div class="flex items-start">
+        <!-- <ClientOnly>
+            <Teleport to="#TOC"> -->
+                <UiTableOfContents class="order-2 max-w-xs">
+                    <h3 class="text-lg font-Body mb-3">Table of Contents</h3>
+                    <ol>
+                        <li>
+                            <a href="#section-1">Viruses versus bacteria</a>
+                        </li>
+                        <li>
+                            <a href="#section-2">Why do antibiotics not kill viruses?</a>
+                        </li>
+                        <li>
+                            <a href="#section-3">How vaccines work</a>
+                        </li>
+                        <li>
+                            <a href="#section-4">The process of developing vaccines, vaccines safety</a>
+                        </li>
+                        <li>
+                            <a href="#section-5">Masks against viruses and bacteria</a>
+                        </li>
+                        <li>
+                            <a href="#section-6">Viruses and hand hygiene</a>
+                        </li>
+                    </ol>
+                    <h3 class="text-lg my-3 font-Body">Vaccine myths</h3>
+                    <ol>
+                        <li>
+                            <a href="#myth-1">Vaccines cause autism/serious side effects</a>
+                        </li>
+                        <li>
+                            <a href="#myth-2">Infant immune systems cannot handle multiple vaccines</a>
+                        </li>
+                        <li>
+                            <a href="#myth-3">Immunity acquired through a disease is better than immunity acquired through vaccination</a>
+                        </li>
+                        <li>
+                            <a href="#myth-4">Vaccines contain life-threatening substances</a>
+                        </li>
+                        <li>
+                            <a href="#myth-5">Better hygiene and sanitation are responsible for decreased infections, not vaccines</a>
+                        </li>
+                        <li>
+                            <a href="#myth-6">Vaccines can infect the child with the disease it is trying to prevent</a>
+                        </li>
+                        <li>
+                            <a href="#myth-7">We do not need to vaccinate because many countries have low infection rates</a>
+                        </li>
+                    </ol>
+                </UiTableOfContents>
+            <!-- </Teleport>
+        </ClientOnly> -->
 
 
 

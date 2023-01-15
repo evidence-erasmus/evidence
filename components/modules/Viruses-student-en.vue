@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-start justify-between">
+    <div class="flex items-start justify-around">
         <UiTableOfContents class="order-2 max-w-xs print:hidden">
             <h3 class="text-lg font-Body mb-3">Table of Contents</h3>
             <ol>
@@ -13,10 +13,10 @@
                     <a href="#activity-3">Mythbusting</a>
                 </li>
                 <li>
-                    <a href="#activity-4">veloping vaccines, vaccines safety</a>
+                    <a href="#activity-4">Transforming evidence to a suitable format</a>
                 </li>
                 <li>
-                    <a href="#activity-5">uses and bacteria</a>
+                    <a href="#activity-5">Video presentations</a>
                 </li>
                 <li>
                     <a href="#activity-6">hygiene</a>
@@ -39,7 +39,7 @@
                 
             
 
-            <hr id="activity-1" class="mt-20 mb-20" />
+            <hr id="activity-1" class="my-20 print:my-10" />
             <h2>Activity 1: Presentation of the video introduction</h2>
         
             <p>Please watch the video carefully. Put down your initial thoughts and feelings about the issues presented.</p>
@@ -55,7 +55,7 @@
 
 
 
-            <hr id="activity-2" class="mt-20 mb-20" />
+            <hr id="activity-2" class="my-20 print:my-10" />
             <h2>Activity 2: Group discussion</h2>
             
             
@@ -110,19 +110,19 @@
 
 
 
-            <hr id="activity-3" class="mt-20 mb-20" />
+            <hr id="activity-3" class="my-20 print:my-10" />
             <h2>Activity 3: Mythbusting</h2>
 
             <p>You are now invited to narrow down the myth into a testable hypothesis (research question), plan further activities following the cycle as given in Figure 2, and share the responsibilities within your group. Also, you should consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment.</p>
 
-            images
+            <h1>[[[images]]]</h1>
 
             <h3>Activity 3a</h3>
             <p class="e-card italic"><Icon name="material-symbols:warning-outline-rounded" class="text-3xl" /> (you can skip this step and move directly to Activity 3b in case you do not test your myth experimentally)</p>
             <p>In case you think your myth can be tested experimentally, please read the following guidelines:</p>
 
             <h4>You are expected to:</h4>
-            <ul>
+            <ul class="leading-tight">
                 <li>Develop a testable hypothesis/research question.</li>
                 <li>Design an experiment that will confirm or falsify your hypothesis/ answer your research question.</li>
                 <li>Present your collected data in tables and graphs, and preferably, videotape your experiment as evidence (look at the tutorial).</li>
@@ -135,43 +135,104 @@
             <label class="text-sm font-bold">Our hypothesis/research question is:</label>
             <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
 
-
-
-
-
-
-
-
-            <h3>
-                sasasd
-            </h3>
-
-
-
-
-
+            <h3>Plan of activities</h3>
             
-            
-            
-            
-            
-            
-                        
             <section class="e-card">
-                <h4 class="mt-4">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/">https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/</a></li>
-                        <li><a href="https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16">https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16</a></li>
-                    <li><a href="
-                        http://www.hcrowder.com/disease-reading.html">
-                        http://www.hcrowder.com/disease-reading.html</a></li>
-                </ul>
+                <p class="italic my-0">Think carefully about how you will control all the other variables except the one you will manipulate. Also, you should think carefully about how to share the workload within your group. Please indicate by which activities (1), (2), (3) … you are involved as a whole team and by which you are going to divide responsibilities. In this case, write down in brackets, please, who is responsible for what</p>
             </section>
-            
-            
-            
- 
 
+
+            <h1>[[[VAHETABEL]]]</h1>
+
+            <label class="text-sm font-bold">Based on the experiment, our conclusion(s) is/are:</label>
+            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
+
+            <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool. [[[LINK TO RELIABILITY TOOL]]]</p>
+
+
+
+
+
+
+            <h3>Activity 3b</h3>
+
+            <p>In case you find it challenging to test your myth experimentally, you are expected to do the following:</p>
+            <ul class="leading-tight">
+                <li>plan your search for relevant information that will confirm or falsify your hypothesis/ answer your research question,</li>
+                <li>develop a testable hypothesis/research question,</li>
+                <li>present collected data in the form of tables, graphs, or similar,</li>
+                <li>assess the reliability of the gathered evidence;</li>
+                <li>use your findings to draw a conclusion;</li>    
+            </ul>
+            
+            <p>While doing this, you should think carefully about how to share the workload within your group. You could designate everybody to a different role, for example, to a leader who is organizing the activities, to a secretary who is making notes and comments about the information found, to an investigator who is doing searches, to a critic who is scrutinizing the reliability of the information.</p>
+
+            <label class="text-sm font-bold">Our hypothesis/research question is:</label>
+            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
+
+            <p>
+                <b>Plan of activities</b>  &nbsp;
+                <span class="italic">(you could indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, please, who is responsible for what).</span>
+            </p>
+
+
+
+
+
+
+
+
+
+
+
+            <hr id="activity-4" class="my-20 print:my-10" />
+            <h2>Activity 4:  Transforming evidence to a suitable format</h2>
+
+            <p>In this activity, you are expected to transform your evidence into a short video post which should be able to speak to your peers. With the help of the following tutorial 1, you will learn tips and tricks on how to make a short video with a significant impact on your experiment. If you found evidence from secondary sources, please use tutorial 2.</p>
+
+            <p>The following criteria will help you to develop your video product:</p>
+
+
+            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:fact-check-outline-rounded">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Criteria</h3>
+                    <h4>Product</h4>
+                    <ul class="leading-tight">
+                        <li>The chosen format is suitable for a given audience (e.g. peers).</li>
+                        <li>Science content is correct (following up-to-date scientific understanding).</li>
+                        <li>The posed hypothesis/research question found evidence and made conclusions are mutually consistent.</li>
+                        <li>Demonstrated evidence is gained from reliable sources which are referred. </li>
+                        <li>The message of the video is clear/understandable.</li>
+                        <li>Video remains within the given time frame (x-y minutes).</li>
+                        <li>The video is edited and supported with a title and closing captions.</li>
+                        <li>The visual language is convincing.</li>
+                        <li>Sound is chosen following the message.</li>
+                        <li>The final product can be accessed (e.g., through YouTube).</li>
+                        <li>Group can respond to the questions raised by the audience.</li>
+                    </ul>
+                    <h4>Process</h4>
+                    <ul class="leading-tight">
+                        <li>The responsibilities related to producing visual, textual, and sound elements, plus acting, and leadership are fairly shared between the group members.</li>
+                        <li>The video is ready by <span class="break-keep">_________________</span> (appointed deadline).</li>
+                    </ul>
+                </div>
+            </UiCardInfo>
+
+
+
+
+
+
+
+            <hr id="activity-5" class="my-20 print:my-10" />
+            <h2>Activity 5: Video presentations</h2>
+
+            <p>You are invited to present your video to the others in this activity. Please be ready to answer your classmates and teacher's questions and comments!</p>
+            <p>Also, during the presentation of the other groups, you are invited to give constructive feedback to your classmates using the following tool: </p>
+
+
+
+            <ToolsVideoFeedback />
 
         </section>
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-yellow-300 shadow-md sticky top-0">
+    <section class="bg-yellow-300 shadow-md ">
         <nav class="h-10 container flex justify-start items-center gap-8">
             <NuxtLink :to="localePath('/viruses')" class="flex items-center gap-2 font-bold">
                 <!-- <Icon name="material-symbols:info-outline" class="text-xl leading-0" /> -->
