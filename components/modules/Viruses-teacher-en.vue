@@ -16,10 +16,13 @@
                     <a href="#section-4">Module structure</a>
                 </li>
                 <li>
-                    <a href="#-5"></a>
+                    <a href="#section-5">Requirements for the physical environment</a>
                 </li>
                 <li>
-                    <a href="#-6"></a>
+                    <a href="#section-6">Assessment</a>
+                </li>
+                <li>
+                    <a href="#section-7">Teaching suggestions</a>
                 </li>
             </ol>
         </UiTableOfContents>
@@ -108,13 +111,15 @@
             
             <hr id="section-4" class="my-20 print:my-10" />
             <h2>Module structure</h2>
+            <h3>Learning sequence of the EVIDENCE modules</h3>
             
-            <div class="flex flex-col items-center gap-4">
+            <div class="e-card flex flex-col items-center gap-4">
+                                
+                <h5 class="mb-0 pb-0 leading-none text-slate-400 uppercase font-normal font-Body">Stage 1</h5>
                 
-                
-                <section class="e-card">
-                    <h6 class="font-Body mb-4 text-sm text-center leading-none">OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</h6>
-                    <div class="flex gap-2 items-center justify-center text-4xl">
+                <ModulesStructure>
+                    <template #title>1. OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
+                    <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
                         </div>
@@ -128,11 +133,11 @@
                         <div class="e-icon--rounded bg-slate-600">
                             <Icon name="game-icons:all-seeing-eye" class="text-white" />
                         </div>
-                    </div>
-                </section>
-                <section class="e-card">
-                    <h6 class="font-Body mb-4 text-sm text-center leading-none">CHOOSING A MYTH</h6>
-                    <div class="flex gap-2 items-center justify-center text-4xl">
+                    </template>
+                </ModulesStructure>
+                <ModulesStructure>
+                    <template #title>2. CHOOSING A MYTH</template>
+                    <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
                         </div>
@@ -144,12 +149,14 @@
                         <div class="e-icon--rounded bg-slate-600">
                             <Icon name="game-icons:unicorn" class="text-white" />
                         </div>
-                        
-                    </div>
-                </section>
-                <section class="e-card">
-                    <h6 class="font-Body mb-4 text-sm text-center leading-none">GIVING EVIDENCE A RELEVANT FORMAT</h6>
-                    <div class="flex gap-2 items-center justify-center text-4xl">
+                    </template>
+                </ModulesStructure>
+                
+                <h5 class="mb-0 pb-0 mt-8 leading-none text-slate-400 uppercase font-normal font-Body">Stage 2</h5>
+
+                <ModulesStructure>
+                    <template #title>3. GIVING EVIDENCE A RELEVANT FORMAT</template>
+                    <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
                         </div>
@@ -157,20 +164,73 @@
                             <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
                         </div>
                         <div class="e-icon--rounded ">
-                            <Icon name="tabler:microscope" class="text-white" />
+                            <Icon name="tabler:zoom-question" class="text-white" />
                         </div>
                         <Icon name="mdi:check-bold" />
-                        
                         <div class="e-icon--rounded bg-slate-600">
                             <Icon name="game-icons:unicorn" class="text-white" />
                         </div>
-                        
-                    </div>
-                </section>
+                    </template>
+                </ModulesStructure>
+                <ModulesStructure>
+                    <template #title>4. MYTHBUSTING</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="mdi:laptop-account" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="tabler:microscope" class="text-white" />
+                        </div>
+                        <Icon name="fa6-solid:arrows-spin" />
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:horse-head" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
+
+                <h5 class="mb-0 pb-0 mt-8 leading-none text-slate-400 uppercase font-normal font-Body">Stage 3</h5>
+                
+                <ModulesStructure>
+                    <template #title>5. COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="heroicons-outline:chat-bubble-left-right" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="carbon:group-presentation" class="text-white" />
+                        </div>
+                        <Icon name="mdi:check-bold" />
+                        <div class="e-icon--rounded">
+                            <Icon name="game-icons:horse-head" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
+                <ModulesStructure>
+                    <template #title>6. SOCIO-SCIENTIFIC DECISION-MAKING</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="game-icons:rolling-dices" class="text-white" />
+                        </div>
+                        <!-- <Icon name="mdi:check-bold" /> -->
+                        <div class="e-icon--rounded">
+                            <Icon name="healthicons:group-discussion-meeting" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
                 
                 
+                <!-- Selection of icons -->
                 
-                
+                <!--                 
                 <hr /> 
                 <Icon name="fluent-emoji-high-contrast:unicorn" />
                 <Icon name="mdi:unicorn" />
@@ -214,13 +274,61 @@
                 <Icon name="mdi:flask" />
                 <Icon name="game-icons:materials-science" />
                 <Icon name="healthicons:virus-research" />
-                <Icon name="tabler:microscope" />
-
+                <Icon name="tabler:microscope" /> -->
 
             </div>
 
 
 
+            <p class="mt-20"><b>Table 1.</b> Learning activities of the “Viruses” module</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="w-1/5"><b>Activity</b></th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Activity 1</b></td>
+                        <td>Presentation of the motivating introductory video.</td>
+                    </tr>
+                    <tr>
+                        <td><b>Activity 2</b></td>
+                        <td>
+                            <ul>
+                                <li>Discussion in groups.</li>
+                                <li>Choosing a myth to be busted.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Activity 3</b></td>
+                        <td>
+                            <p>In groups:</p>
+                            <ul>
+                                <li>Posing a testable hypothesis/research question;</li>
+                                <li>Searching for relevant information (Activity 3b) AND/OR planning and conducting an experiment (Activity 3a) to confirm or falsify the posed hypothesis/research question;</li>
+                                <li>Assessing the reliability of the found evidence;</li>
+                                <li>Making conclusions.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Activity 4</b></td>
+                        <td>Transforming evidence to a format relevant to a given audience (peers): using a tutorial, students learn how to produce a short video, after which they plan and execute their ideas.</td>
+                    </tr>
+                    <tr>
+                        <td><b>Activity 5</b></td>
+                        <td>Group presentations (coupled with peer assessment activities).</td>
+                    </tr>
+                    <tr>
+                        <td><b>Activity 6</b></td>
+                        <td>Students in groups discuss and make decisions in a board game format</td>
+                    </tr>
+                </tbody>
+            </table>
 
 
 
@@ -232,214 +340,86 @@
 
 
 
-
-
-
-
-
-            <hr id="activity-2" class="my-20 print:my-10" />
-            <h2>Activity 2: Group discussion</h2>
+            <hr id="section-5" class="my-20 print:my-10" />
+            <h2>Requirements for the physical environment</h2>
+            
+            <p>Smartphone, computer, internet, display equipment for demonstrating videos. In case of busting myths experimentally, see “Teaching suggestions”.</p>
             
             
-            <p>After watching the video, you are invited to discuss the topic within your group (4-6 members).</p>
+            
+            
+            
+            
+            
+            
+            <hr id="section-6" class="my-20 print:my-10" />
+            <h2>Assessment</h2>
+            
+            
+            <p>Students can be assessed differently throughout the module, including the science process skills, general competencies, such as argumentation skills, and topic-related content knowledge. Types of assessments will include formative assessments based on observation, individual/group worksheets, and summative assessments based on group presentations.</p>
+            
+            <p>Assessment that can be applied in this module:</p>
+            
+            <p><b>Formative:</b></p>
+            <ul>
+                <li>Oral/written feedback from the teacher (e.g. based on observations, questions asked) throughout the module, during the experiments, and in other formats of individual/group work.</li>
+                <li>Peer feedback (on the group presentation using the following tool and self-assessment after the game).</li>
+                <li>Oral/written feedback from the teacher on individual/group worksheets.</li>
+            </ul>
+            
+            <p><b>Summative:</b></p>
+            <ul>
+                <li>Grades assigned by the teacher on the group presentation (based on the students’ video product and its performance and students’ ability to provide relevant answers/comments).</li>
+                <li>Grades assigned by the teacher on group or individual worksheets.</li>
+            </ul>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            <hr id="section-7" class="my-20 print:my-10" />
+            <h2>Teaching suggestions</h2>
+
+            <p>The module starts with an introductory video for opening up the topic “Viruses” to raise further questions in students rather than giving them immediate answers. It is expected that after watching the <a href="https://youtu.be/t4v-36h2noo" target="_blank">video</a> (<b>Activity 1</b>), students in groups will feel intrinsically motivated to examine virus-related myths and beliefs more thoroughly. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It also seeks to draw students’ attention to thinking about their prior knowledge and sharing their conceptions and views with peers (<b>Activity 2</b>). Within Activity 2, students are introduced to 10 myths about viruses, vaccination, and mask-wearing, from which they must choose one to be further busted. Activity 2 should help students narrow down their chosen myth into a hypothesis/research question that can be falsified/confirmed/answered (<b>Activity 3</b>). It may be that students need help when trying to pose it. Therefore, the teacher could help them by drawing examples of good (e.g. testable) and bad hypotheses/questions before they draw them themselves. The following resource could be helpful for that.</p>
+            
+            <p>The "fact video" can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <a href="/viruses" class="text-blue-500">Scientific background information</a> can be used for this purpose.</p>
+
+            <p>Further, Activity 3 can be enacted in two ways:</p>
+            <p>Students chose a myth that can be tested experimentally. From the given myths (see Activity 2), only Myths 9 and 10 could be suitable for this purpose.</p>
+
             <ol>
-                <li>Please, express your initial thoughts and feelings about the presented issue to the others.</li>
-                <li>As a group, you are invited to choose one of the following myths for busting based on information found on the internet, (text)books, or/and, if possible, experimentally.</li>
+                <li>
+                    <p>The belief that masks are pointless in preventing upper respiratory diseases (e.g. COVID-19) can be developed further into a testable hypothesis or research question. It would be good to use different types of masks (e.g. textile masks, N95, surgical face masks) in this experiment to get more varied and exciting results. Practical examples of how it can be operationalized in the classroom - can be used if students are less experienced with the open inquiry format (there exist two versions, one in a more and the other in a less open inquiry format).</p>
+            
+                    <p>Students may explore the permeability of different masks to find out which, from the given, is best for blocking the tiny liquid drops in exhaled (or inhaled) air by which upper respiratory viruses usually spread. Tiny water droplets stream can be produced, e.g. via an ordinary spray bottle which enables each press to control the droplets' amount relatively well. This assumption can be tested using electronic scales - at least, whether the weight of droplets remains stable throughout the tests.</p>
+            
+                    <p>The water could be sprayed through each mask material while holding the spray bottle directly against the material. The results can be monitored by qualitatively estimating the intensity of the droplet stream coming through the material (or not). Another option could be that the paper towel sheet is held behind the mask at a certain distance, and the wet stain on the paper is estimated and compared visually or measured directly by weighing the mass of the paper before and after each spray. The spread water droplets can be made more visible on the paper towel by using baking soda water instead and holding paper (sprayed previously with, for example, phenolphthalein solution and dried after that) at a certain distance from the mask and spray bottle when spraying.</p>
+            
+                    <p>The other aspect that can be qualitatively studied is how much the mask leaks from the sides or above the nose because it also significantly impacts their efficiency.</p>
+                </li>
+                <li>
+                    <p>Pulse oxymeters (Fig. 2) can be bought from online stores and local pharmacy stores. Their prices start from a few euros, though it should be accepted that the cheapest oxymeters may remain unreliable for getting precise results. Myth No 10 (“Prolonged use of the mask produces hypoxia”) can be tested, for example, by detecting finger pulse oximetry measures before and after prolonged wearing of a mask. </p>
+                    
+                    Figure 2. Use of a pulse oximeter 
+                    
+                    <p>Before and throughout the testing, students should be encouraged to think about how to control the other variables than the type of mask. Students should analyze the potential sources of error and whether and how they can be avoided, or retrospectively after the experiment, how they could have been avoided. At the end of this activity, students are expected to try to find evidence from secondary sources to re-confirm their findings (they also enact Activity 3b).</p>
+                </li>
             </ol>
-            <p>You could choose between the following myths or define your own (in the last case, please consolidate the topic first with your teacher):</p>
 
             
-            <h3>Myth 1: Vaccines cause autism/ serious side effects</h3>
-            <p>Some people believe that vaccines and their additives/preservatives can cause severe reactions in the organism; some include autism - a group of developmental disabilities that can cause significant social, communication, and behavioral challenges. Are those claims warranted?</p>
-
-            <h3>Myth 2: Infant immune systems cannot handle multiple vaccines.</h3>
-            <p>A few days after the birth as well as some weeks/months later, several different vaccines are injected into a baby. The question is if this can be handled by an infant's body?</p>
-
-            <h3>Myth 3: Immunity acquired through a disease is a better choice than immunity acquired through vaccination.</h3>
-            <p>Natural immunity is obtained from exposure to the disease through infection. Whereas vaccine-induced immunity is obtained by introducing a killed or weakened form of the disease organism or mRNA created in a laboratory to teach our cells how to make a protein or even just a piece of a protein or modified version of a virus that triggers an immune response. Which raises the question of whether they are equal or not.</p>
-
-            <h3>Myth 4: Vaccines contain life-threatening substances.</h3>
-            <p>Sometimes it has been said that vaccines might contain additives or preservatives, some toxic as mercury, aluminum, formaldehyde, etc. Whether or to what extent are these claims valid?</p>
-
-            <h3>Myth 5: Better hygiene and sanitation are responsible for decreased infections, not vaccines.</h3>
-            <p>The spread of the disease has been argued to be related to environmental conditions, sanitation, and personal hygiene. During the last two centuries, there has been improvement in all. Same time the number of infections has decreased, and vaccination has increased. But can we say that vaccines do not matter?</p>
-
-            <h3>Myth 6: Vaccines can infect the child with the disease it is trying to prevent.</h3>
-            <p>Some vaccines (measles, chickenpox, etc.) use weakened forms of the disease organism (live-attenuated vaccines). The question is if this will infect the child?</p>
-
-            <h3>Myth 7: We do not need to vaccinate because many countries have low infection rates.</h3>
-            <p>As very few people have diseases, there is a very low probability that I will be in contact with those people or it is improbable that I will travel to areas with higher infection rates. Therefore, some believe we could abandon most vaccines routinely administered to children.</p>
-
-            <h3>Myth 8: Soap is as good as alcohol for killing certain viruses (e.g. COVID-19)</h3>
-            <p>One option to disinfect is using alcohol, but the other is hashing hands with soap. But are they equally effective?</p>
-
-            <h3>Myth 9: Masks are pointless in preventing upper respiratory diseases (e.g. COVID-19).</h3>
-            <p>There has been much discussion in society about the effectiveness of wearing masks for preventing droplet diseases. At the same time, this habit has been normality in some, e.g. Asian cultures. Still, what is the scientific evidence behind it? Or is it possible for you to test their effectiveness yourself?</p>
+            <p>In other cases, the virus-related myths cannot be busted (debunked) experimentally in the classroom. Therefore, students are expected to gather evidence from secondary sources to confirm or falsify their hypothesis/answer to their research question (Activity 3b). By juxtaposing media/data sources and their content, students critically analyze their reliability and make justified conclusions based on the evidence found. As reliability assessment can be a real challenge for students, the material is supplied with a tool for searching and analyzing the information. Also, the teacher could explain its use by demonstrating and analyzing both reliable and less reliable sources as learning examples before the students implement this tool.</p>
             
-            <h3>Myth 10: Prolonged use of the mask produces hypoxia/Masks can cause carbon dioxide poisoning.</h3>
-            <p>It is believed that through the mask, you will get less oxygen. If it is true, then with a limited oxygen supply, there is an increased risk of oxygen lack, called hypoxia. Same time your body releases carbon dioxide that, in very high concentrations, can be toxic. But is this assumption actually true?</p>
+            <p>In order to learn to communicate their findings, students are guided to produce a video of their experiment as evidence or make a video of their conclusions based on secondary evidence (Activity 4). For this purpose, students can use a video tutorial. Also, student material is provided with criteria the video should fulfill. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video and answering the questions of their peers and the teacher (Activity 5). For the last, students can use the following assessment tool to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only their own feedback, not the others). The teacher can easily access the feedback from Google Forms when using the "Responses" button.</p>
 
-            <h3>Group decision:</h3>
+            <p>In the last activity (Activity 6), the storyline of the module returns to the introductory video and the presented myths. Based on the lessons learned from the earlier stages, students prepare to make decisions on an individual or group level in the format of a board game where they have an opportunity to juxtapose and reflect on their learned science knowledge and their personal and social values. Two themes can be used for playing. The theme "Vaccination" is meant for students who can handle more information and consider more aspects simultaneously. In comparison, "Wearing masks by upper respiratory infection pandemics" has less information to read through and can be used by younger students or students with less cognitive processing skills. Also, it is possible that the teacher her/himself, while knowing his students well, will omit some story or information cards to reduce their possible cognitive overload. The rules of play are given in student worksheets. Students need to be instructed shortly before the start to understand the game's general flow.</p>
             
-            <label class="font-bold text-sm">We are going to bust the following myth:</label>
-
-            <textarea class="p-3 border border-slate-4 shadow rounded w-full"></textarea>
-            
-            
-            
-
-
-
-
-
-            <hr id="activity-3" class="my-20 print:my-10" />
-            <h2>Activity 3: Mythbusting</h2>
-
-            <p>You are now invited to narrow down the myth into a testable hypothesis (research question), plan further activities following the cycle as given in Figure 2, and share the responsibilities within your group. Also, you should consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment.</p>
-
-            <h1>[[[images]]]</h1>
-
-            <h3>Activity 3a</h3>
-            <p class="e-card italic"><Icon name="material-symbols:warning-outline-rounded" class="text-3xl" /> (you can skip this step and move directly to Activity 3b in case you do not test your myth experimentally)</p>
-            <p>In case you think your myth can be tested experimentally, please read the following guidelines:</p>
-
-            <h4>You are expected to:</h4>
-            <ul class="leading-tight">
-                <li>Develop a testable hypothesis/research question.</li>
-                <li>Design an experiment that will confirm or falsify your hypothesis/ answer your research question.</li>
-                <li>Present your collected data in tables and graphs, and preferably, videotape your experiment as evidence (look at the tutorial).</li>
-                <li>Explain your results using scientific evidence.</li>
-                <li>Use your results to form a conclusion.</li>
-                <li>Estimate the plausibility of the chosen myth.</li>
-                <li>Share workload within your group (e.g., through designating everybody to a different role - manager, secretary, supplier of materials).</li>
-            </ul>
-
-            <label class="text-sm font-bold">Our hypothesis/research question is:</label>
-            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
-
-            <h3>Plan of activities</h3>
-            
-            <section class="e-card">
-                <p class="italic my-0">Think carefully about how you will control all the other variables except the one you will manipulate. Also, you should think carefully about how to share the workload within your group. Please indicate by which activities (1), (2), (3) … you are involved as a whole team and by which you are going to divide responsibilities. In this case, write down in brackets, please, who is responsible for what</p>
-            </section>
-
-
-            <h1>[[[VAHETABEL]]]</h1>
-
-            <label class="text-sm font-bold">Based on the experiment, our conclusion(s) is/are:</label>
-            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
-
-            <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool. [[[LINK TO RELIABILITY TOOL]]]</p>
-
-
-
-
-
-
-            <h3>Activity 3b</h3>
-
-            <p>In case you find it challenging to test your myth experimentally, you are expected to do the following:</p>
-            <ul class="leading-tight">
-                <li>plan your search for relevant information that will confirm or falsify your hypothesis/ answer your research question,</li>
-                <li>develop a testable hypothesis/research question,</li>
-                <li>present collected data in the form of tables, graphs, or similar,</li>
-                <li>assess the reliability of the gathered evidence;</li>
-                <li>use your findings to draw a conclusion;</li>    
-            </ul>
-            
-            <p>While doing this, you should think carefully about how to share the workload within your group. You could designate everybody to a different role, for example, to a leader who is organizing the activities, to a secretary who is making notes and comments about the information found, to an investigator who is doing searches, to a critic who is scrutinizing the reliability of the information.</p>
-
-            <label class="text-sm font-bold">Our hypothesis/research question is:</label>
-            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
-
-            <p>
-                <b>Plan of activities</b>  &nbsp;
-                <span class="italic">(you could indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, please, who is responsible for what).</span>
-            </p>
-
-
-
-
-
-
-
-
-
-
-
-            <hr id="activity-4" class="my-20 print:my-10" />
-            <h2>Activity 4:  Transforming evidence to a suitable format</h2>
-
-            <p>In this activity, you are expected to transform your evidence into a short video post which should be able to speak to your peers. With the help of the following tutorial 1, you will learn tips and tricks on how to make a short video with a significant impact on your experiment. If you found evidence from secondary sources, please use tutorial 2.</p>
-
-            <p>The following criteria will help you to develop your video product:</p>
-
-
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:fact-check-outline-rounded">
-                <div>
-                    <h3 class="mt-6 pt-3 mb-10">Criteria</h3>
-                    <h4>Product</h4>
-                    <ul class="leading-tight">
-                        <li>The chosen format is suitable for a given audience (e.g. peers).</li>
-                        <li>Science content is correct (following up-to-date scientific understanding).</li>
-                        <li>The posed hypothesis/research question found evidence and made conclusions are mutually consistent.</li>
-                        <li>Demonstrated evidence is gained from reliable sources which are referred. </li>
-                        <li>The message of the video is clear/understandable.</li>
-                        <li>Video remains within the given time frame (x-y minutes).</li>
-                        <li>The video is edited and supported with a title and closing captions.</li>
-                        <li>The visual language is convincing.</li>
-                        <li>Sound is chosen following the message.</li>
-                        <li>The final product can be accessed (e.g., through YouTube).</li>
-                        <li>Group can respond to the questions raised by the audience.</li>
-                    </ul>
-                    <h4>Process</h4>
-                    <ul class="leading-tight">
-                        <li>The responsibilities related to producing visual, textual, and sound elements, plus acting, and leadership are fairly shared between the group members.</li>
-                        <li>The video is ready by <span class="break-keep">_________________</span> (appointed deadline).</li>
-                    </ul>
-                </div>
-            </UiCardInfo>
-
-
-
-
-
-
-
-            <hr id="activity-5" class="my-20 print:my-10" />
-            <h2>Activity 5: Video presentations</h2>
-
-            <p>You are invited to present your video to the others in this activity. Please be ready to answer your classmates and teacher's questions and comments!</p>
-            <p>Also, during the presentation of the other groups, you are invited to give constructive feedback to your classmates using the following tool: </p>
-
-            <ToolsVideoFeedback />
-
-            <p>
-                <a href="/tools/VideoFeedback" target="_blank">
-                    Open the questionnaire 
-                </a>
-                in a new page to share or print it
-            </p>
-
-            <section class="e-card py-0">
-                <p>What do you think of the feedback that you got from your peers? Is it helpful, so you can use it and make an even better video next time? Is it fair? Discuss it within your group!</p>
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-
-            <hr id="activity-6" class="my-20 print:my-10" />
-            <h2>Activity 6: Game</h2>
-
-
+            <p>All myths are backed up by Scientific background information, which explains the state-of-the-art science behind it and enables the teacher to get a quick overview of the science covered by the "Viruses" module but could also be used as learning material for students to recall virus-related knowledge. </p>
 
 
 

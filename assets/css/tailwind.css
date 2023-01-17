@@ -30,7 +30,7 @@
       @apply bg-blue-500 text-white font-semibold rounded-lg shadow-md;
     }
     .e-article {
-      @apply prose-headings:text-slate-800 prose prose-slate py-20 px-6 sm:px-8 md:prose-lg lg:prose-xl print:prose-xl print:text-sm print:container print:mx-auto;
+      @apply prose prose-slate prose-headings:text-slate-800 prose-a:text-blue-500 py-20 px-6 sm:px-8 md:prose-lg lg:prose-xl print:prose-xl print:text-sm print:container print:mx-auto;
       /* @apply prose-headings:text-slate-800 prose prose-slate py-20 px-6 sm:px-8; */
     }
 
@@ -38,7 +38,7 @@
       @apply italic text-blue-500 font-bold text-[120%];
     }
     .e-card {
-      @apply p-4 bg-white rounded-xl shadow-lg border;
+      @apply p-2 bg-white rounded-xl shadow-lg border md:p-4;
     }
     .e-icon--rounded {
       @apply w-[1.75em] h-[1.75em] flex items-center justify-center bg-blue-400 rounded-full;
