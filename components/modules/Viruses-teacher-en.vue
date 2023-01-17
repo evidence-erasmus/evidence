@@ -4,22 +4,22 @@
             <h3 class="text-lg font-Body mb-3">Table of Contents</h3>
             <ol>
                 <li>
-                    <a href="#activity-1">Presentation of the video introduction</a>
+                    <a href="#top">Introduction</a>
                 </li>
                 <li>
-                    <a href="#activity-2">Group discussion</a>
+                    <a href="#section-2">Learning objectives targeted by the module</a>
                 </li>
                 <li>
-                    <a href="#activity-3">Mythbusting</a>
+                    <a href="#section-3">Expected prior knowledge about viruses</a>
                 </li>
                 <li>
-                    <a href="#activity-4">Transforming evidence to a suitable format</a>
+                    <a href="#section-4">Module structure</a>
                 </li>
                 <li>
-                    <a href="#activity-5">Video presentations</a>
+                    <a href="#-5"></a>
                 </li>
                 <li>
-                    <a href="#activity-6">Game</a>
+                    <a href="#-6"></a>
                 </li>
             </ol>
         </UiTableOfContents>
@@ -27,34 +27,212 @@
 
 
         <section class="e-article print:not-prose">
-            <!-- <Icon name="tabler:mood-boy" class="float-right text-[5rem] text-slate-300" /> -->
-            <!-- <Icon name="healthicons:boy-1015y-outline" class="float-right text-[5rem] text-slate-300" /> -->
-            <!-- <Icon name="healthicons:girl-1015y-outline" class="float-right text-[5rem] text-slate-300" /> -->
-            <Icon name="openmoji:person-raising-hand-medium-light-skin-tone" class="float-right text-[5em] text-slate-300" />
-            <Icon name="openmoji:person-shrugging" class="float-right text-[5em] text-slate-300" />
+            <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
             <h1 class="mb-0">Viruses</h1>
-            <h5 class="font-normal uppercase">Materials for students</h5>
+            <h5 class="font-normal uppercase">Materials for teacher</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">Introduction</h2>
+            <h2 id="section-1">Module description</h2>
         
-            <p>This module invites you to falsify (“bust”) or confirm a common myth about viruses. In a video introduction, a few virus-related beliefs are brought up, after which you are expected to express your opinion and discuss the topic within your group. Also, you are invited to opt out of one myth about the viruses to be busted, whether based on secondary evidence (e.g., information searches from internet) or experimentally. Through this activity, you learn to assess the reliability of information sources (science/research databases, popular science, other media) and/or develop further your experimentation skills. In both cases, you need to pose a testable hypothesis or a research question and then find evidence to confirm/falsify the hypothesis/answer your research question. After making conclusions, you are invited to prepare and present your findings to the classmates (or other audiences) in a relevant and convincing manner through a short video post. The module is finished with a board game where you must decide on virus-related issues.</p>
+            <p>In this module, students are invited to falsify (“bust”) or confirm a common myth about viruses and vaccination. In an introductory video, the story of a boy who denies the existence of a virus that is spreading in his school is brought up, after which students are asked to reflect and share their first thoughts about it. In addition to simple denialism, there are many other opinions and beliefs (let us say “myths”) about viruses and vaccination in our society. After students are introduced to several of the most prevailing topic-related myths, they are challenged to pick up one myth to falsify or confirm. Based on the nature of this topic, this activity is planned to be conducted whether based on secondary evidence  (searches from the internet) or experimentally. Through this activity, students learn to assess the reliability of information/sources (from science/research databases, popular science, and other media) and/or develop further their experimentation skills. After making conclusions, students prepare to present their findings to their classmates (or other audiences) in a relevant and convincing manner (e.g. video posts). The module is finished with a board game where students can make socio-scientific decisions using their scientific knowledge while incorporating it with personal and social values.</p>
+            <p>The module consists of teacher material (teaching suggestions and science background information) and student material (a video scenario, interactive worksheets, fact videos, and a video tutorial).</p>
+
+
+            <!-- meta, vajab paremat lahendust -->
+            <h3>Target group</h3>
+            <p>This learning material is meant for general and vocational school students 15-18 years old. </p>
+            <h3>Anticipated time frame:</h3>
+            <p>4-6 hours, á 45 min. </p>
+
         
                 
             
 
-            <hr id="activity-1" class="my-20 print:my-10" />
-            <h2>Activity 1: Presentation of the video introduction</h2>
-        
-            <p>Please watch the video carefully. Put down your initial thoughts and feelings about the issues presented.</p>
+            <hr id="section-2" class="my-20 print:my-10" />
+            <h2>Learning objectives targeted by the module</h2>
             
-            <label class="text-sm font-bold">Write your answer here:</label>
-            <textarea rows="3" class="px-4 py-2 border border-slate-400 shadow w-full rounded"></textarea>
+            <ul>
+                <li><b>Citizenship competence:</b> develop students’ knowledge and attitudes towards responsible decisions related to viruses and vaccination.</li>
+                <li><b>Media competence:</b>
+                    <ul class="my-0">
+                        <li>develop students’ skills in assessing the reliability of the information, presenting the evidence in a manner relevant to a given audience, </li>
+                        <li>reacting adequately and responsibly to fake news and conspiracy theories presented in (social)media.</li>
+                    </ul>
+                </li>
+                <li><b>Digital competence:</b> develop students’ skills in using digital media while presenting their inquiry results to the other groups.</li>
+                <li>
+                    <b>Science competence:</b>
+                    <ul class="my-0">
+                        <li>develop students’ understanding of the ways how science knowledge is generated and why we should trust science;</li>
+                        <li>develop further students’ knowledge about viruses: their mechanism of action, the difference from bacteria, prevention of viral diseases, working mechanisms, and safety of vaccines;</li>
+                        <li>develop students’ attitudes of honesty, objectivity, intellectual humility, and open-mindedness;</li>
+                        <li>develop their ability to plan and devise procedures for testing hypotheses and interpreting the findings.</li>
+                    </ul>
+                </li>
+                <li><b>Social competence:</b> – develop students’ argumentation skills and skills for finding group consensus in controversial virus- and vaccination-related issues.</li>
+            </ul>
+
+
+            
+            
+            
+
+
+
+
+
+            
+
+
+
+            <hr id="section-3" class="my-20 print:my-10" />
+            <h2>Expected prior knowledge about viruses</h2>
+
+            <ul class="leading-tight">
+                <li>Structure and classification</li>
+                <li>Properties and life cycles</li>
+                <li>Most common diseases</li>
+                <li>Treatment</li>
+                <li>Mechanism of vaccination</li>
+            </ul>
+
+
+
 
             
             
             
             
+            
+            
+            
+            <hr id="section-4" class="my-20 print:my-10" />
+            <h2>Module structure</h2>
+            
+            <div class="flex flex-col items-center gap-4">
+                
+                
+                <section class="e-card">
+                    <h6 class="font-Body mb-4 text-sm text-center leading-none">OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</h6>
+                    <div class="flex gap-2 items-center justify-center text-4xl">
+                        <div class="e-icon--rounded ">
+                            <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
+                        </div>
+                        <Icon name="mdi:arrow-right-thick" />
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:ouroboros" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:unicorn" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:all-seeing-eye" class="text-white" />
+                        </div>
+                    </div>
+                </section>
+                <section class="e-card">
+                    <h6 class="font-Body mb-4 text-sm text-center leading-none">CHOOSING A MYTH</h6>
+                    <div class="flex gap-2 items-center justify-center text-4xl">
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="mdi:frequently-asked-questions" class="text-white" />
+                        </div>
+                        <Icon name="mdi:check-bold" />
+                        
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:unicorn" class="text-white" />
+                        </div>
+                        
+                    </div>
+                </section>
+                <section class="e-card">
+                    <h6 class="font-Body mb-4 text-sm text-center leading-none">GIVING EVIDENCE A RELEVANT FORMAT</h6>
+                    <div class="flex gap-2 items-center justify-center text-4xl">
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="tabler:microscope" class="text-white" />
+                        </div>
+                        <Icon name="mdi:check-bold" />
+                        
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:unicorn" class="text-white" />
+                        </div>
+                        
+                    </div>
+                </section>
+                
+                
+                
+                
+                <hr /> 
+                <Icon name="fluent-emoji-high-contrast:unicorn" />
+                <Icon name="mdi:unicorn" />
+                <Icon name="game-icons:unicorn" />
+                <br />
+                <Icon name="game-icons:witch-face" /> 
+                <Icon name="game-icons:witch-flight" /> 
+                <Icon name="game-icons:diablo-skull" /> 
+                <Icon name="fa6-solid:book-skull" /> 
+                <Icon name="fluent-emoji-high-contrast:skull-and-crossbones" /> 
+                <Icon name="fa:user-secret" /> 
+                <br />
+                <Icon name="game-icons:all-seeing-eye" /> 
+                <Icon name="fluent-emoji-high-contrast:love-you-gesture" /> 
+                <Icon name="fluent-emoji-high-contrast:ok-hand" /> 
+                <Icon name="game-icons:ouroboros" /> 
+                <Icon name="game-icons:freemasonry" /> 
+                <br />
+                <Icon name="fa6-solid:people-group" /> 
+                <Icon name="fluent:people-team-32-regular" /> 
+                <Icon name="fluent:people-team-toolbox-24-regular" /> 
+                <Icon name="material-symbols:groups-2" /> 
+                <Icon name="fluent:presenter-24-filled" /> 
+                <Icon name="carbon:group-presentation" /> 
+                <br />
+                <Icon name="healthicons:group-discussion-meeting" /> 
+                <Icon name="heroicons-solid:chat-bubble-left-right" />
+                <Icon name="heroicons-outline:chat-bubble-left-right" />
+                <Icon name="mdi:frequently-asked-questions" />
+                <br /> 
+                <Icon name="game-icons:rolling-dices" /> 
+                <Icon name="tabler:zoom-question" /> 
+                <Icon name="mdi:laptop-account" />
+                <Icon name="ic:baseline-ondemand-video" />
+                <Icon name="material-symbols:youtube-tv-outline" />
+                <br /> 
+                <Icon name="material-symbols:unknown-document-outline-rounded" />
+                <Icon name="mdi:graph-outline" />
+                <Icon name="material-symbols:lab-research-outline" />
+                <Icon name="healthicons:virus-lab-research-syringe" />
+                <Icon name="mdi:flask" />
+                <Icon name="game-icons:materials-science" />
+                <Icon name="healthicons:virus-research" />
+                <Icon name="tabler:microscope" />
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

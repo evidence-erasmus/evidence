@@ -5,7 +5,7 @@
                 <!-- <Icon name="material-symbols:info-outline" class="text-xl leading-0" /> -->
                 <span class="uppercase text-sm leading-none">{{ t('modules.background-info') }}</span>  
             </NuxtLink>
-            <NuxtLink to="/" class="flex items-center gap-2 uppercase font-bold">
+            <NuxtLink to="/viruses/teacher" class="flex items-center gap-2 uppercase font-bold">
                 <!-- <Icon name="material-symbols:spatial-audio-off-outline" class="text-xl leading-0" /> -->
                 <span class="uppercase text-sm leading-none">{{ t('modules.for-teachers') }}</span>  
             </NuxtLink>

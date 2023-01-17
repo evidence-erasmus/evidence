@@ -27,13 +27,9 @@
 
 
         <section class="e-article print:not-prose">
-            <!-- <Icon name="tabler:mood-boy" class="float-right text-[5rem] text-slate-300" /> -->
-            <!-- <Icon name="healthicons:boy-1015y-outline" class="float-right text-[5rem] text-slate-300" /> -->
-            <!-- <Icon name="healthicons:girl-1015y-outline" class="float-right text-[5rem] text-slate-300" /> -->
-            <Icon name="openmoji:person-raising-hand-medium-light-skin-tone" class="float-right text-[5em] text-slate-300" />
-            <Icon name="openmoji:person-shrugging" class="float-right text-[5em] text-slate-300" />
+            <Icon name="fluent-emoji-high-contrast:student" class="float-right text-[5rem] text-slate-300" />
             <h1 class="mb-0">Viruses</h1>
-            <h5 class="font-normal uppercase">Materials for students</h5>
+            <h5 class="font-normal uppercase">Materials for student</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1">Introduction</h2>

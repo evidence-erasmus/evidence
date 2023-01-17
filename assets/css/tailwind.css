@@ -40,6 +40,9 @@
     .e-card {
       @apply p-4 bg-white rounded-xl shadow-lg border;
     }
+    .e-icon--rounded {
+      @apply w-[1.75em] h-[1.75em] flex items-center justify-center bg-blue-400 rounded-full;
+    }
 
     .e-huge-number {
       @apply text-[20rem] text-slate-200 leading-none m-0 p-0 ml-[-0.5ch];
