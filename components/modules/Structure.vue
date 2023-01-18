@@ -1,6 +1,6 @@
 <template>
-    <section class="e-card">
-        <h6 class="font-Body mb-2 text-xs text-center leading-none md:text-sm">
+    <section class="e-card w-full">
+        <h6 class="font-Body mb-4 text-xs text-center leading-none md:text-sm">
             <slot name="title"></slot>
         </h6>
         <div class="flex gap-1 items-center justify-center text-2xl 

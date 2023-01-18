@@ -14,9 +14,9 @@
   },
   "message": "Hello <h2>from</h2> external",
   "modules": {
-    "background-info": "Theory",
-    "for-students": "For students",
-    "for-teachers": "For teachers",
+    "background-info": "Background info",
+    "for-students": "For student",
+    "for-teachers": "For teacher",
     "radiation": {
       "description": "Radiation module descripotion",
       "title": "Radiation"

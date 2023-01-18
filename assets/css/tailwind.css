@@ -14,12 +14,13 @@
         font-family: "Alegreya", sans-serif;
         font-weight: 900;
     }
-    .e-font__special {
-      font-family: "Alegreya", sans-serif;
-    }
     .e-font__normal {
       font-family: "Roboto Flex", serif;
     }
+    .e-font__special {
+      font-family: "Alegreya", sans-serif;
+    }
+    
 }
 
 @layer components {
@@ -40,6 +41,11 @@
     .e-card {
       @apply p-2 bg-white rounded-xl shadow-lg border md:p-4;
     }
+    .e-module__meta {
+      @apply text-sm bg-yellow-50 mb-8 border-2 border-yellow-500 shadow-md 
+      md:float-right md:max-w-xs md:ml-4;
+    }
+    
     .e-icon--rounded {
       @apply w-[1.75em] h-[1.75em] flex items-center justify-center bg-blue-400 rounded-full;
     }

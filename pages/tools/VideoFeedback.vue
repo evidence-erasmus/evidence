@@ -1,16 +1,35 @@
 <template>
     <div class="p-6 md:p-10">
+        <div class="prose">
+            <h1>{{ t('title') }}</h1>
+        </div>
+        
         <ToolsVideoFeedback />
 
         <hr />
 
-        <button @click="printMe" class="mt-8 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white  uppercase "><icon name="material-symbols:print-outline-rounded"  /> Print</button>
+        <button @click="printMe" class="mt-8 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('button-title') }} {{ t('button-note') }}</button>
     </div>
 </template>
 
+<i18n lang="json">
+    {
+      "en": {
+        "title" : "Video assessment form",
+        "button-title" : "PRINT",
+        "button-note" : "- or save as pdf"
+    },
+    "et": {
+        "title" : "Video hinnangu vorm",
+        "button-title" : "PRINDI",
+        "button-note" : "- või salvesta pdf-ina"
+      }
+    }
+</i18n>
+
 <script setup>
     // import { useI18n } from 'vue-i18n';
-    // const { locale, t } = useI18n({ useScope: 'global' });
+    const { t } = useI18n({ useScope: 'local' });
     definePageMeta({
         layout: "base",
     });

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
         'nuxt-icon'
     ],
     i18n: {
+        // vueI18nLoader: true,
         strategy: 'prefix_and_default',
         locales: [
             {
@@ -70,6 +71,7 @@ export default defineNuxtConfig({
         vueI18n: {
             legacy: false,
             locale: 'en',
+
             // messages: { 
                 // en : require("./locales/en.json"), 
                 // et : require("./locales/et.json") 

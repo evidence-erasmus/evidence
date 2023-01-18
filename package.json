@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@intlify/vue-i18n-loader": "^5.0.0",
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@nuxtjs/tailwindcss": "^6.1.1",
     "@tailwindcss/typography": "^0.5.7",

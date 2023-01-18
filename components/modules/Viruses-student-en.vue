@@ -27,13 +27,10 @@
 
 
         <section class="e-article print:not-prose">
-            <!-- <Icon name="tabler:mood-boy" class="float-right text-[5rem] text-slate-300" /> -->
-            <!-- <Icon name="healthicons:boy-1015y-outline" class="float-right text-[5rem] text-slate-300" /> -->
-            <!-- <Icon name="healthicons:girl-1015y-outline" class="float-right text-[5rem] text-slate-300" /> -->
             <Icon name="openmoji:person-raising-hand-medium-light-skin-tone" class="float-right text-[5em] text-slate-300" />
             <Icon name="openmoji:person-shrugging" class="float-right text-[5em] text-slate-300" />
             <h1 class="mb-0">Viruses</h1>
-            <h5 class="font-normal uppercase">Materials for students</h5>
+            <h5 class="font-normal uppercase leading-tight">Materials for students</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1">Introduction</h2>
@@ -43,9 +40,28 @@
                 
             
 
-            <hr id="activity-1" class="my-20 print:my-10" />
+            <hr id="activity-1" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 1: Presentation of the video introduction</h2>
-        
+            
+            <ModulesStructure>
+                    <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
+                        </div>
+                        <Icon name="mdi:arrow-right-thick" />
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:ouroboros" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:unicorn" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:all-seeing-eye" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
+
             <p>Please watch the video carefully. Put down your initial thoughts and feelings about the issues presented.</p>
             
             <label class="text-sm font-bold">Write your answer here:</label>
@@ -59,9 +75,25 @@
 
 
 
-            <hr id="activity-2" class="my-20 print:my-10" />
+            <hr id="activity-2" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 2: Group discussion</h2>
             
+            <ModulesStructure>
+                    <template #title>Activity 2<br />CHOOSING A MYTH</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="mdi:frequently-asked-questions" class="text-white" />
+                        </div>
+                        <Icon name="mdi:check-bold" />
+                        
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:unicorn" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
             
             <p>After watching the video, you are invited to discuss the topic within your group (4-6 members).</p>
             <ol>
@@ -114,8 +146,31 @@
 
 
 
-            <hr id="activity-3" class="my-20 print:my-10" />
+
+
+
+
+            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 3: Mythbusting</h2>
+
+            <ModulesStructure>
+                    <template #title>Activity 3<br />GIVING EVIDENCE A RELEVANT FORMAT</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="tabler:zoom-question" class="text-white" />
+                        </div>
+                        <Icon name="mdi:check-bold" />
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:unicorn" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
 
             <p>You are now invited to narrow down the myth into a testable hypothesis (research question), plan further activities following the cycle as given in Figure 2, and share the responsibilities within your group. Also, you should consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment.</p>
 
@@ -155,8 +210,7 @@
 
 
 
-
-
+            <hr id="activity-3b" class="mt-10 mb-40" />
 
             <h3>Activity 3b</h3>
 
@@ -189,8 +243,27 @@
 
 
 
-            <hr id="activity-4" class="my-20 print:my-10" />
+            <hr id="activity-4" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 4:  Transforming evidence to a suitable format</h2>
+
+            <ModulesStructure>
+                    <template #title>Activity 4<br />MYTHBUSTING</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="mdi:laptop-account" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="tabler:microscope" class="text-white" />
+                        </div>
+                        <Icon name="fa6-solid:arrows-spin" />
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:horse-head" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
 
             <p>In this activity, you are expected to transform your evidence into a short video post which should be able to speak to your peers. With the help of the following tutorial 1, you will learn tips and tricks on how to make a short video with a significant impact on your experiment. If you found evidence from secondary sources, please use tutorial 2.</p>
 
@@ -228,8 +301,27 @@
 
 
 
-            <hr id="activity-5" class="my-20 print:my-10" />
+            <hr id="activity-5" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 5: Video presentations</h2>
+
+            <ModulesStructure>
+                    <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="heroicons-outline:chat-bubble-left-right" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="carbon:group-presentation" class="text-white" />
+                        </div>
+                        <Icon name="mdi:check-bold" />
+                        <div class="e-icon--rounded">
+                            <Icon name="game-icons:horse-head" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
 
             <p>You are invited to present your video to the others in this activity. Please be ready to answer your classmates and teacher's questions and comments!</p>
             <p>Also, during the presentation of the other groups, you are invited to give constructive feedback to your classmates using the following tool: </p>
@@ -258,10 +350,26 @@
 
 
 
-            <hr id="activity-6" class="my-20 print:my-10" />
+            <hr id="activity-6" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 6: Game</h2>
 
+            <ModulesStructure>
+                    <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="game-icons:rolling-dices" class="text-white" />
+                        </div>
+                        <!-- <Icon name="mdi:check-bold" /> -->
+                        <div class="e-icon--rounded">
+                            <Icon name="healthicons:group-discussion-meeting" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
 
+                to-do
 
 
 

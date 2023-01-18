@@ -14,8 +14,8 @@
   },
   "message": "Tervitusi välisest failist!",
   "modules": {
-    "background-info": "Teooria",
-    "for-students": "Õpilastele",
+    "background-info": "Taustainfo",
+    "for-students": "Õpilasele",
     "for-teachers": "Õpetajale",
     "radiation": {
       "description": "See on radiatsiooni mooduli kirjeldus siin. Lause või paar.",

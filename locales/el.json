@@ -15,8 +15,8 @@
   "message": "Hello <h2>from</h2> external",
   "modules": {
     "background-info": "Info EL",
-    "for-students": "For students EL",
-    "for-teachers": "For teachers EL",
+    "for-students": "For student EL",
+    "for-teachers": "For teacher EL",
     "radiation": {
       "description": "Radiation module description in Greek",
       "title": "Radiation in Greek"
