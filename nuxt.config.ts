@@ -7,6 +7,10 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
         'nuxt-icon'
     ],
+    target: 'static',
+    router: {
+        base: '/evidence/'
+    },
     i18n: {
         // vueI18nLoader: true,
         strategy: 'prefix_and_default',

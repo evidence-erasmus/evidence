@@ -23,6 +23,11 @@
         "title" : "Video hinnangu vorm",
         "button-title" : "PRINDI",
         "button-note" : "- või salvesta pdf-ina"
+    },
+    "el": {
+        "title" : "Video hinnangu vorm",
+        "button-title" : "PRINDI",
+        "button-note" : "- või salvesta pdf-ina"
       }
     }
 </i18n>
