@@ -7,10 +7,10 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
         'nuxt-icon'
     ],
-    target: 'static',
-    router: {
-        base: '/evidence/'
-    },
+    ssr:false,
+    // router: {
+    //     base: '/evidence/'
+    // },
     i18n: {
         // vueI18nLoader: true,
         baseUrl: '/evidence/',
@@ -33,63 +33,50 @@ export default defineNuxtConfig({
                 iso: 'et_EE',
                 name: 'Estonian',
                 file: 'et.json'
-              },
-        ], 
+            },
+        ],
         lazy: true,
         langDir: 'locales',
-        defaultLocale: 'en', 
+        defaultLocale: 'en',
         customRoutes: 'config',
         pages: {
             about: {
-                en: '/about', 
+                en: '/about',
                 et: '/projektist'
             },
             modules: {
-                en: '/modules', 
+                en: '/modules',
                 et: '/moodulid'
             },
             viruses: {
-                en: '/viruses', 
+                en: '/viruses',
                 et: '/viirused'
             },
             'viruses/student': {
-                en: '/viruses/student', 
+                en: '/viruses/student',
                 et: '/viirused/õpilane'
             },
             'viruses/teacher': {
-                en: '/viruses/teacher', 
+                en: '/viruses/teacher',
                 et: '/viirused/õpetaja'
             },
             radiation: {
-                en: '/radiation', 
+                en: '/radiation',
                 et: '/radiatsioon'
             },
-            // 'modules/viruses': {
-            //     en: '/modules/viruses',
-            //     et: '/moodulid/viirused'
-            // },
-            // 'module/:slug': {
-            //      en: '/module/:slug',
-            //      et: '/moodul/:slug'
-            // },
         },
         vueI18n: {
             legacy: false,
             locale: 'en',
-
-            // messages: { 
-                // en : require("./locales/en.json"), 
-                // et : require("./locales/et.json") 
-            // }
-          }
+        }
     },
     image: {
         gumlet: {
-          baseURL: 'https://erasmus-evidence.gumlet.io'
+            baseURL: 'https://erasmus-evidence.gumlet.io'
         }
     },
-    
     app: {
+        baseURL: '/evidence/',
         pageTransition: { name: 'page', mode: 'out-in' }
     }
 })
