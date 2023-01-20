@@ -79,7 +79,7 @@ export default defineNuxtConfig({
         }
     },
     app: {
-        baseURL: '/evidence/',
+        // baseURL: '/evidence/',
         pageTransition: { name: 'page', mode: 'out-in' }
     }
 })
