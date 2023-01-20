@@ -8,6 +8,9 @@ export default defineNuxtConfig({
         'nuxt-icon'
     ],
     ssr:false,
+    experimental : {
+        payloadExtraction : false
+    },
     // router: {
     //     base: '/evidence/'
     // },
