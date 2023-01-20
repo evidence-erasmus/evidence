@@ -1,0 +1,1 @@
+import{f as t,o,l as s,x as a,t as r,u as c,v as n}from"./entry.ff30e346.js";const l=()=>t("color",()=>"pink"),_=n("h1",{class:"text-4xl"},"Hi There!",-1),d={__name:"index",setup(i){const e=l();return(u,p)=>(o(),s("div",null,[_,a(" "+r(c(e)),1)]))}};export{d as default};
