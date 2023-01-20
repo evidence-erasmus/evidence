@@ -7,7 +7,7 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
         'nuxt-icon'
     ],
-    ssr:false,
+    // ssr:false,
     experimental : {
         payloadExtraction : false
     },
