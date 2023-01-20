@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     },
     i18n: {
         // vueI18nLoader: true,
+        baseUrl: '/evidence/',
         strategy: 'prefix_and_default',
         locales: [
             {
