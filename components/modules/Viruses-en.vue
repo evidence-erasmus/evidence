@@ -469,7 +469,7 @@
 
 
 
-            <hr id="section-5" class="mt-10 mb-40" />
+            <hr id="section-6" class="mt-10 mb-40" />
             <h2>6. Viruses and hand hygiene</h2>
 
             <h3>Hand sanitiser or soap?</h3>

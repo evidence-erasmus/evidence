@@ -8,7 +8,7 @@
                     :description="t('modules.viruses.description')" 
                     icon="material-symbols:coronavirus-outline-sharp" 
                     />
-                    <UiCardModule path="radiation" 
+                <UiCardModule path="radiation" 
                     :title="t('modules.radiation.title')" 
                     :description="t('modules.radiation.description')" 
                     icon="material-symbols:mode-cool-off-rounded" 

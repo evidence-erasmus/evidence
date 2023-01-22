@@ -23,13 +23,11 @@
 
 </script>
 <template>
-    
-        <NuxtLink :to="localePath(props.path, locale)" class="no-underline flex flex-col items-center text-center">
-            <div class="shadow-md rounded-md p-4">
-                        <!-- <img :src="props.img" /> -->
+    <NuxtLink :to="localePath(props.path, locale)" class="no-underline flex flex-col items-center text-center text-slate-500">
+        <div class="shadow-md rounded-md p-4">
             <Icon :name="props.icon" size="64" class="text-blue-500" />
             <h3 class="text-2xl font-bold no-underline leading-6 mt-4">{{props.title}}</h3>
-            <p class="text-md leading-6">{{props.description}}</p>
+            <p class="text-sm leading-tight">{{props.description}}</p>
         </div>
-        </NuxtLink>
+    </NuxtLink>
 </template>
