@@ -1,0 +1,1 @@
+import{q as o,o as t,l as _,L as s}from"./entry.04ba44fe.js";const n={},c={class:"hidden px-8 py-6 border bg-white shadow-md sticky top-[7rem] max-h-screen overflow-y-auto md:block"};function a(e,r){return t(),_("nav",c,[s(e.$slots,"default")])}const l=o(n,[["render",a],["__scopeId","data-v-4ac095e5"]]);export{l as _};
