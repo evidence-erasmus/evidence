@@ -5,6 +5,3 @@
     </div>
 </template>
 
-<script setup>
-    const color = useColor();
-</script>
