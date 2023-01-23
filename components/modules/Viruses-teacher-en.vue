@@ -1,30 +1,32 @@
 <template>
-    <div class="flex items-start justify-around">
+    <div class="flex items-start">
         <UiTableOfContents class="order-2 max-w-xs print:hidden">
-            <h3 class="text-lg font-Body mb-3">Table of Contents</h3>
-            <ol>
-                <li>
-                    <a href="#top">Introduction</a>
-                </li>
-                <li>
-                    <a href="#section-2">Learning objectives targeted by the module</a>
-                </li>
-                <li>
-                    <a href="#section-3">Expected prior knowledge about viruses</a>
-                </li>
-                <li>
-                    <a href="#section-4">Module structure</a>
-                </li>
-                <li>
-                    <a href="#section-5">Requirements for the physical environment</a>
-                </li>
-                <li>
-                    <a href="#section-6">Assessment</a>
-                </li>
-                <li>
-                    <a href="#section-7">Teaching suggestions</a>
-                </li>
-            </ol>
+            <template #title>Table of Contents</template>
+            <template #content>
+                <ol>
+                    <li>
+                        <a href="#top">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="#section-2">Learning objectives targeted by the module</a>
+                    </li>
+                    <li>
+                        <a href="#section-3">Expected prior knowledge about viruses</a>
+                    </li>
+                    <li>
+                        <a href="#section-4">Module structure</a>
+                    </li>
+                    <li>
+                        <a href="#section-5">Requirements for the physical environment</a>
+                    </li>
+                    <li>
+                        <a href="#section-6">Assessment</a>
+                    </li>
+                    <li>
+                        <a href="#section-7">Teaching suggestions</a>
+                    </li>
+                </ol>
+            </template>
         </UiTableOfContents>
 
 
@@ -168,31 +170,13 @@
                 <h5 class="mb-0 pb-0 mt-8 leading-none text-slate-400 uppercase font-normal font-Body">Stage 2</h5>
 
                 <ModulesStructure>
-                    <template #title>Activity 3<br />GIVING EVIDENCE A RELEVANT FORMAT</template>
+                    <template #title>Activity 3<br />MYTHBUSTING</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
                         </div>
                         <div class="e-icon--rounded ">
                             <Icon name="tabler:zoom-question" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        <div class="e-icon--rounded bg-slate-600">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure>
-                <ModulesStructure>
-                    <template #title>Activity 4<br />MYTHBUSTING</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="mdi:laptop-account" class="text-white" />
                         </div>
                         <div class="e-icon--rounded ">
                             <Icon name="tabler:microscope" class="text-white" />
@@ -203,6 +187,25 @@
                         </div>
                     </template>
                 </ModulesStructure>
+                <ModulesStructure>
+                    <template #title>Activity 4<br />GIVING EVIDENCE A RELEVANT FORMAT</template>
+                    <template #icons>
+                        <div class="e-icon--rounded ">
+                            <Icon name="fa6-solid:people-group" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded">
+                            <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
+                        </div>
+                        <div class="e-icon--rounded ">
+                            <Icon name="mdi:laptop-account" class="text-white" />
+                        </div>
+                        <Icon name="mdi:check-bold" />
+                        <div class="e-icon--rounded bg-slate-600">
+                            <Icon name="game-icons:horse-head" class="text-white" />
+                        </div>
+                    </template>
+                </ModulesStructure>
+                
 
                 <h5 class="mb-0 pb-0 mt-8 leading-none text-slate-400 uppercase font-normal font-Body">Stage 3</h5>
                 

@@ -1,8 +1,13 @@
 <template>
-    <nav class="hidden px-8 py-6 border bg-white shadow-md sticky top-[7rem] max-h-screen overflow-y-auto 
-        md:block">
-        <slot></slot>
-    </nav>
+    <details class="w-full px-8 py-6 border bg-white shadow-md sticky top-[4rem] max-h-screen overflow-y-auto 
+        md:block" open>
+        <summary class="-ml-4 text-md font-Body font-bold cursor-pointer">
+            <slot name="title"></slot>
+        </summary>
+        <div class="mt-3">
+            <slot name="content"></slot>
+        </div>
+</details>
 </template>
 
 <style scoped>

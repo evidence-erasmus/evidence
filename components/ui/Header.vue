@@ -1,6 +1,7 @@
 <template>
-    <header class="shadow-lg sticky w-full top-0" style="z-index:5000" >
-        <div class="flex items-center justify-between px-10 bg-yellow-400 shadow z-10 transition-all
+    <header class="shadow fixed w-full top-0" style="z-index:5000" >
+        <div class="flex items-center justify-between px-4 bg-yellow-400 shadow z-10 transition-all
+            md:px-10
             print:bg-white" 
             :class="smallHeader ? 'py-2' : 'py-4'">
             <NuxtLink :to="localePath('/')">

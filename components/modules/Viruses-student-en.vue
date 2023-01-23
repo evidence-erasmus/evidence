@@ -1,27 +1,29 @@
 <template>
-    <div class="flex items-start justify-around">
+    <div class="flex items-start">
         <UiTableOfContents class="order-2 max-w-xs print:hidden">
-            <h3 class="text-lg font-Body mb-3">Table of Contents</h3>
-            <ol>
-                <li>
-                    <a href="#activity-1">Presentation of the video introduction</a>
-                </li>
-                <li>
-                    <a href="#activity-2">Group discussion</a>
-                </li>
-                <li>
-                    <a href="#activity-3">Mythbusting</a>
-                </li>
-                <li>
-                    <a href="#activity-4">Transforming evidence to a suitable format</a>
-                </li>
-                <li>
-                    <a href="#activity-5">Video presentations</a>
-                </li>
-                <li>
-                    <a href="#activity-6">Game</a>
-                </li>
-            </ol>
+            <template #title>Table of Contents</template>
+            <template #content>
+                <ol>
+                    <li>
+                        <a href="#activity-1">Presentation of the video introduction</a>
+                    </li>
+                    <li>
+                        <a href="#activity-2">Group discussion</a>
+                    </li>
+                    <li>
+                        <a href="#activity-3">Mythbusting</a>
+                    </li>
+                    <li>
+                        <a href="#activity-4">Transforming evidence to a suitable format</a>
+                    </li>
+                    <li>
+                        <a href="#activity-5">Video presentations</a>
+                    </li>
+                    <li>
+                        <a href="#activity-6">Game</a>
+                    </li>
+                </ol>
+            </template>
         </UiTableOfContents>
 
 
@@ -154,23 +156,23 @@
             <h2>Activity 3: Mythbusting</h2>
 
             <ModulesStructure>
-                    <template #title>Activity 3<br />GIVING EVIDENCE A RELEVANT FORMAT</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="tabler:zoom-question" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        <div class="e-icon--rounded bg-slate-600">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure>
+                <template #title>Activity 3<br />MYTHBUSTING</template>
+                <template #icons>
+                    <div class="e-icon--rounded ">
+                        <Icon name="fa6-solid:people-group" class="text-white" />
+                    </div>
+                    <div class="e-icon--rounded ">
+                        <Icon name="tabler:zoom-question" class="text-white" />
+                    </div>
+                    <div class="e-icon--rounded ">
+                        <Icon name="tabler:microscope" class="text-white" />
+                    </div>
+                    <Icon name="fa6-solid:arrows-spin" />
+                    <div class="e-icon--rounded bg-slate-600">
+                        <Icon name="game-icons:horse-head" class="text-white" />
+                    </div>
+                </template>
+            </ModulesStructure>
 
             <p>You are now invited to narrow down the myth into a testable hypothesis (research question), plan further activities following the cycle as given in Figure 2, and share the responsibilities within your group. Also, you should consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment.</p>
 
@@ -244,21 +246,21 @@
 
 
             <hr id="activity-4" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 4:  Transforming evidence to a suitable format</h2>
+            <h2>Activity 4: Transforming evidence to a suitable format</h2>
 
             <ModulesStructure>
-                    <template #title>Activity 4<br />MYTHBUSTING</template>
+                <template #title>Activity 4<br />GIVING EVIDENCE A RELEVANT FORMAT</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
                         </div>
+                        <div class="e-icon--rounded">
+                            <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
+                        </div>
                         <div class="e-icon--rounded ">
                             <Icon name="mdi:laptop-account" class="text-white" />
                         </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="tabler:microscope" class="text-white" />
-                        </div>
-                        <Icon name="fa6-solid:arrows-spin" />
+                        <Icon name="mdi:check-bold" />
                         <div class="e-icon--rounded bg-slate-600">
                             <Icon name="game-icons:horse-head" class="text-white" />
                         </div>
