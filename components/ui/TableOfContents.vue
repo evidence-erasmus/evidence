@@ -1,21 +1,17 @@
 <template>
-    <details class="w-full px-8 py-6 border bg-white shadow-md sticky top-[4rem] max-h-screen overflow-y-auto 
-        md:block" :open="isOpen ? true : false">
-        <summary class="-ml-4 text-md font-Body font-bold cursor-pointer" 
-        @click="toggleOpen">
-            <slot name="title"></slot>
-            {{ isOpen }}
-        </summary>
-        <div class="mt-3">
+    <div class="w-full px-8 py-6 border bg-white shadow-md sticky top-[4rem] max-h-screen overflow-y-auto 
+        md:block" >
+        <div class="flex items-center justify-between  text-md font-Body font-bold cursor-pointer" @click="toggleOpen">
+            <slot name="title"></slot><Icon name="tabler:chevron-down" size="24" class="transition-all duration-300" :class="isOpen ? '-scale-y-100' : 'scale-y-100'" />
+        </div>
+        <div class="mt-3" :class="isOpen ? 'block' : 'hidden'">
             <slot name="content"></slot>
         </div>
-    </details>
+    </div>
 </template>
 <script setup>
-    const isOpen = useState('tocOpen');
-
+    const isOpen = tocOpen();
     const toggleOpen = () => {
-        useState('tocOpen', () => isOpen.value);
         isOpen.value = !isOpen.value;
     }
 </script>

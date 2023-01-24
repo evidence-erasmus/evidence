@@ -1,6 +1,6 @@
 <template>
-    <div class="flex items-start">
-        <UiTableOfContents class="order-2 max-w-xs print:hidden">
+    <div class="flex flex-col items-start md:flex-row-reverse">
+        <UiTableOfContents class="md:max-w-xs">
             <template #title>Table of Contents</template>
             <template #content>
                 <ol>
