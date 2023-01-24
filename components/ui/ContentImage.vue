@@ -4,9 +4,9 @@
             type: String,
             default: ""
         },
-        caption : {
-            type: String
-        },
+        // caption : {
+        //     type: String
+        // },
         credits : {
             type: String,
             default: "."
@@ -31,7 +31,9 @@
                 loading="lazy"
                 class="block"
             />
-            <figcaption class="block text-sm text-center italic mt-4 w-full" v-html="caption" />
-            <caption v-if="credits != '.'" class="block text-xs w-full text-slate-400 break-words">{{ credits }}</caption>     
+            <figcaption class="block text-sm text-center italic mt-4 w-full">
+                <slot name="caption"></slot>
+            </figcaption>
+            <p v-if="credits != '.'" class="block text-xs w-full text-center text-slate-400 break-words">{{ credits }}</p>     
     </figure>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <details class="w-full px-8 py-6 border bg-white shadow-md sticky top-[4rem] max-h-screen overflow-y-auto 
-        md:block" :open="isOpen ? false : true">
+        md:block" :open="isOpen ? true : false">
         <summary class="-ml-4 text-md font-Body font-bold cursor-pointer" 
         @click="toggleOpen">
             <slot name="title"></slot>
@@ -15,8 +15,8 @@
     const isOpen = useState('tocOpen');
 
     const toggleOpen = () => {
-        isOpen.value = !isOpen.value;
         useState('tocOpen', () => isOpen.value);
+        isOpen.value = !isOpen.value;
     }
 </script>
 <style scoped>

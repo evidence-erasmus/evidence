@@ -72,10 +72,12 @@
         
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/viruses-01__bacteria-vs-virus.webp"
-                caption="<b>Figure 1.</b> Structural differences between viruses and bacteria"
                 credits="Source: https://inducoat.com/?attachment_id=24945&lang=en"
-                :elevated="true"
-            />
+                :elevated="true">
+                <template #caption>
+                    <b>Figure 1.</b> Structural differences between viruses and bacteria
+                </template>
+            </UiContentImage>
         
             <table class="mt-20">
                 <caption class="text-left pb-4"><b>Table 1.</b> Differences between bacteria and viruses</caption>
@@ -298,10 +300,12 @@
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/viruses-03.webp"
-                caption="<b>Figure 2.</b> For every new antigen, our body needs to build a specific antibody"
                 credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html"
-                :elevated="true"
-            />
+                :elevated="true">
+                <template #caption>
+                    <b>Figure 2.</b> For every new antigen, our body needs to build a specific antibody
+                </template>
+            </UiContentImage>
 
             <h3>How vaccines help?</h3>
 
@@ -310,10 +314,12 @@
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/viruses-04.webp"
-                caption="<b>Figure 3.</b> Antibody development through vaccination"
                 credits="Source: https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work"
-                :elevated="true"
-            />
+                :elevated="true">
+                <template #caption>
+                    <b>Figure 3.</b> Antibody development through vaccination
+                </template>
+            </UiContentImage>
 
             <p>Vaccines work by exposing your white blood cells to the foreign protein in a virus. Once your body has encountered a virus and performed an immune response (making B and T cells) to the virus, it saves the B and T cells so that if the same virus or bacteria ever infects the body again, the immune system can stage and all-out war, preventing the pathogen from ever making you feel sick. Vaccines introduce the body to the virus so that the body can save up B and T cells without ever making you sick.</p>
 
@@ -412,20 +418,30 @@
             <div class="grid gap-3 my-15 md:grid-cols-2 e-card">
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-06__mask-01.webp"
-                    caption="Surgical mask"
-                />
+                >
+                    <template #caption>
+                        Surgical mask
+                    </template>
+                </UiContentImage>
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-06__mask-02.webp"
-                    caption="FFP2 mask (respirator)"
-                />
+                    caption="">
+                    <template #caption>
+                        FFP2 mask (respirator)
+                    </template>
+                </UiContentImage>
                 <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-06__mask-03.webp"
-                    caption="FFP3 mask (respirator) with valve"
-                />
+                    src="https://evidence.onkel.ee/assets/viruses-06__mask-03.webp">
+                    <template #caption>
+                        FFP3 mask (respirator) with valve
+                    </template>
+                </UiContentImage>
                 <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-06__mask-04.webp"
-                    caption="Filtering mask"
-                />
+                    src="https://evidence.onkel.ee/assets/viruses-06__mask-04.webp">
+                    <template #caption>
+                        Filtering mask
+                    </template>
+                </UiContentImage>
             </div>
 
             <p>The efficiency of the masks has been tested in special laboratories, e.g., in the exposure chamber. In those studies, a carrying the viruses. Subsequently, particle concentrations behind the particle generator fill the exposure chamber with small particles; similar to aerosols, the masks are measured and compared to the concentration in the general atmosphere of the exposure chamber.</p>
@@ -499,14 +515,18 @@
             <div class="grid gap-2 md:grid-cols-2 e-card">
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-07.webp"
-                    caption="<b>Figure 5.</b> Soap molecules destroying the virus"
-                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html"
-                />
+                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
+                    <template #caption>
+                        <b>Figure 5.</b> Soap molecules destroying the virus
+                    </template>
+                </UiContentImage>
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-08.webp"
-                    caption="<b>Figure 6.</b> Micelle consisting of soap molecules and virus fragment"
-                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html"
-                />
+                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
+                    <template #caption>
+                        <b>Figure 6.</b> Micelle consisting of soap molecules and virus fragment
+                    </template>
+                </UiContentImage>
             </div>
 
             <p>The given information is also valid for the other enveloped viruses (Influenza, Hepatitis B and C, and Ebola Virus Disease) as their envelopes consist of phospholipids.</p>
