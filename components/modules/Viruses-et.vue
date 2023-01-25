@@ -5,7 +5,10 @@
     <div>
         <h1>Viirused eesti keeles</h1>
 
-        <p>Siia tuleb sisu, kotipuuks!</p>
+        <h2>Testvideo</h2>
+        <p>Kas tulevad eesti subtiitrid?</p>
+        
+        <UiYoutube video="t4v-36h2noo" /> 
 
         <a href="/et/tools/videofeedback" target="_blank">Edasi</a>
     </div>
