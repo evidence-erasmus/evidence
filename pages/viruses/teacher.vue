@@ -1,13 +1,11 @@
 <template>
     <div>
-
         <template v-if="locale === 'et'">
             <ModulesVirusesTeacherEn />
         </template>
         <template v-else>
             <ModulesVirusesTeacherEn />
         </template>
-
     </div>
 </template>
 

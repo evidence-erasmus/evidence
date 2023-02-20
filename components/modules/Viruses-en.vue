@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-start md:flex-row-reverse">
+    <div class="flex flex-col items-start md:flex-row-reverse md:justify-end">
         <!-- <ClientOnly>
             <Teleport to="#TOC"> -->
                 <UiTableOfContents class="md:max-w-xs">

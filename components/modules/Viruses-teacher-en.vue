@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-start md:flex-row-reverse">
+    <div class="flex flex-col items-start md:flex-row-reverse md:justify-end">
         <UiTableOfContents class="w-full md:max-w-xs print:hidden">
             <template #title>Table of Contents</template>
             <template #content>
