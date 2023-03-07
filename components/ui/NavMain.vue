@@ -1,7 +1,9 @@
 <template>
-    <nav>
+    <nav class="flex gap-5">
         <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1">{{t('menu.about')}}</NuxtLink>
-        <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1">{{t('menu.modules')}}</NuxtLink>
+        <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1"
+        :class="route.path.includes('viruses') ? 'router-link-active router-link-exact-active' : ''"
+        >{{t('menu.modules')}}</NuxtLink>
     </nav>
 </template>
 
@@ -10,10 +12,11 @@
         useScope: 'global'
     })
     const localePath = useLocalePath()
-    
-    const availableLocales = computed(() => {
-        return (locales.value).filter(i => i.code !== locale.value)
-    })
+    const route = useRoute();
+    // console.log(route);
+    // const availableLocales = computed(() => {
+    //     return (locales.value).filter(i => i.code !== locale.value)
+    // })
     
 </script>
 

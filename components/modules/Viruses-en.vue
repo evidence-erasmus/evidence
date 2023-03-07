@@ -1,8 +1,11 @@
 <template>
-    <div class="flex flex-col items-start md:flex-row-reverse md:justify-end">
+    <div class="flex flex-col items-start 
+        lg:flex-row-reverse lg:justify-end 
+        xl:gap-10
+        2xl:gap-20">
         <!-- <ClientOnly>
             <Teleport to="#TOC"> -->
-                <UiTableOfContents class="md:max-w-xs">
+                <UiTableOfContents class="lg:max-w-xs">
                     <template #title>Table of Contents</template>
                     <template #content>
                         <ol>

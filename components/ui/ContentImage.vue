@@ -24,7 +24,7 @@
 
 <template>
 
-    <figure class="not-prose m-0" :class="elevated ? 'border-slate-300 border bg-white shadow-lg rounded-xl p-4 ' : ''">
+    <figure class="not-prose m-0" :class="elevated ? 'border-slate-300 border bg-white shadow-md rounded-lg p-4 ' : ''">
             <nuxt-img 
                 :src="src" 
                 fit="contain"

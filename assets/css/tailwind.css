@@ -39,7 +39,7 @@
       @apply italic text-blue-500 font-bold text-[120%];
     }
     .e-card {
-      @apply p-2 bg-white rounded-xl shadow-lg border md:p-4;
+      @apply p-2 bg-white rounded-xl shadow-md border md:p-4;
     }
     .e-module__meta {
       @apply text-sm bg-yellow-50 mb-8 border-2 border-yellow-500 shadow-md 
