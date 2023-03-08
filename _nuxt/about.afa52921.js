@@ -1,1 +1,0 @@
-import{s as o,o as l,l as s,v as t,t as a}from"./entry.3b37c744.js";const p={__name:"about",setup(n){return o({useScope:"global"}),(e,u)=>(l(),s("div",null,[t("h1",null,a(e.$t("about.title")),1),t("p",null,a(e.$t("about.01")),1)]))}};export{p as default};
