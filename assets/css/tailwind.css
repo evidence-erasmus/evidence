@@ -25,8 +25,6 @@
 
 @layer components {
 
-    
-
     .e-btn-blue {
       @apply bg-blue-500 text-white font-semibold rounded-lg shadow-md;
     }
@@ -42,8 +40,10 @@
       @apply p-2 bg-white rounded-xl shadow-md border md:p-4;
     }
     .e-module__meta {
-      @apply text-sm bg-yellow-50 mb-8 border-2 border-yellow-500 shadow-md 
-      md:float-right md:max-w-xs md:ml-4;
+      @apply text-sm bg-yellow-50 mb-8 border-2 border-yellow-500 shadow-md md:float-right md:max-w-xs md:ml-4;
+    }
+    .e-module__meta tr:not(:last-child) {
+      @apply border-b border-b-yellow-500;
     }
     
     .e-icon--rounded {
