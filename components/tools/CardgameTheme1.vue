@@ -1,36 +1,43 @@
 <template>
-    <section class="flex flex-wrap gap-4 ">
-        <!-- <div v-for="(card, i) in tm('storyCards')" :key="`card${i}`"
-            class="e-card basis-1/2 max-w-72 border-4 border-blue-500" style="hyphens: auto;"
-        > -->
-        <div v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
-            class="flex flex-col justify-around 
-            w-[2.75in] h-[4.75in] 
-            p-4
-            border-2 border-blue-500 
-            text-center
-            rounded-lg shadow-md" style="hyphens: auto;"
-        >
-            <h3 class="text-center text-6xl">{{ rt(cardS.emoji) }}</h3>
-            <p class="text-[9pt] m-0 leading-tight">{{ rt(cardS.story) }}</p>
-        </div>
-        <div v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
-            class="flex flex-col justify-around 
-            w-[2.75in] h-[4.75in] 
-            p-4
-            border-2 border-blue-500 
-            text-center
-            rounded-lg shadow-md" style="hyphens: auto;"
-        >
-            <h3 class="text-center text-lg">{{ rt(cardI.title) }}</h3>
-            <p class="text-[9pt] m-0 leading-tight">{{ rt(cardI.story) }}</p>
-        </div>
-    </section>
+    <div>
+        <h2 class="text-2xl">{{ t('storyCardsTitle') }}</h2>
+        
+        <section class="flex flex-wrap gap-4 mb-10 mt-5">
+            
+            <div v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
+                class="flex flex-col justify-around
+                w-[2.75in] h-[4.75in]
+                p-4
+                border-4 border-sky-400
+                text-center
+                rounded-lg shadow-md" style="hyphens: auto;"
+            >
+                <h3 class="text-center text-6xl">{{ rt(cardS.emoji) }}</h3>
+                <p class="text-[9pt] m-0 leading-tight">{{ rt(cardS.story) }}</p>
+            </div>
+        </section>
+    
+        <h2 class="text-2xl">{{ t('infoCardsTitle') }}</h2>
+
+        <section class="flex flex-wrap gap-4 mt-5">
+            <div v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
+                class="flex flex-col justify-around
+                w-[2.75in] h-[4.75in]
+                p-4
+                border-4 border-blue-500
+                text-center
+                rounded-lg shadow-md" style="hyphens: auto;"
+            >
+                <h3 class="text-center text-lg">{{ rt(cardI.title) }}</h3>
+                <p class="text-[9pt] m-0 leading-tight">{{ rt(cardI.story) }}</p>
+            </div>
+        </section>
+    </div>
 </template>
 
 
 <script setup>
-    const { tm, rt } = useI18n({
+    const { t, tm, rt } = useI18n({
         useScope: 'local'
     });
   
@@ -40,6 +47,8 @@
 <i18n lang="json">
     {
       "en": {
+        "storyCardsTitle" : "Story cards",
+        "infoCardsTitle" : "Info cards",
         "storyCards" : [
             {
                 "title": "",
@@ -160,6 +169,8 @@
         ]
       },
       "et": {
+        "storyCardsTitle" : "Lookaardid",
+        "infoCardsTitle" : "Infokaardid",
         "storyCards" : [
             {
                 "title": "",
