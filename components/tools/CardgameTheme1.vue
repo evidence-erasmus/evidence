@@ -3,16 +3,27 @@
         <!-- <div v-for="(card, i) in tm('storyCards')" :key="`card${i}`"
             class="e-card basis-1/2 max-w-72 border-4 border-blue-500" style="hyphens: auto;"
         > -->
-        <div v-for="(card, i) in tm('storyCards')" :key="`card${i}`"
-            class="flex flex-col justify-between 
+        <div v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
+            class="flex flex-col justify-around 
             w-[2.75in] h-[4.75in] 
             p-4
             border-2 border-blue-500 
             text-center
             rounded-lg shadow-md" style="hyphens: auto;"
         >
-            <h3 class="text-center text-6xl">{{ rt(card.emoji) }}</h3>
-            <p class="text-[9pt] m-0 leading-tight">{{ rt(card.story) }}</p>
+            <h3 class="text-center text-6xl">{{ rt(cardS.emoji) }}</h3>
+            <p class="text-[9pt] m-0 leading-tight">{{ rt(cardS.story) }}</p>
+        </div>
+        <div v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
+            class="flex flex-col justify-around 
+            w-[2.75in] h-[4.75in] 
+            p-4
+            border-2 border-blue-500 
+            text-center
+            rounded-lg shadow-md" style="hyphens: auto;"
+        >
+            <h3 class="text-center text-lg">{{ rt(cardI.title) }}</h3>
+            <p class="text-[9pt] m-0 leading-tight">{{ rt(cardI.story) }}</p>
         </div>
     </section>
 </template>
@@ -32,32 +43,32 @@
         "storyCards" : [
             {
                 "title": "",
-                "emoji": "🤫",
+                "emoji": "🧔",
                 "story": "My son Francesco was a lively, intelligent, curious boy who was always healthy. Two years ago, at the age of 12, he died suddenly of meningitis at a summer camp. During the holidays, another boy also went down with meningitis but suffered no further consequences. All the youngsters at the camps received a preventive dose of antibiotics. At the hospital, they told us there was a vaccine against the pathogen that killed our son. On top of the tremendous pain of losing my son, it hurts me even more, to think that he would still be alive today if he had been vaccinated."
             },
             {
                 "title": "",
-                "emoji": "🤐",
+                "emoji": "🤶",
                 "story": "I was very reluctant to accept the flu vaccination when our family doctor offered it to us this year. Since we retired, my husband has developed heart failure, and we have been vaccinated every year. Still, we caught the flu last year even though we had been vaccinated. This year our doctor offered us the vaccine again, and, as he insisted, we agreed to be vaccinated. He told us this year’s virus was similar to the one that caused the Spanish flu epidemic at the beginning of the last century. Still, a terrible outbreak like that didn’t happen, and neither my husband nor I became ill. We have the impression that vaccination is a pointless, costly practice carried out for the benefit of drug companies."
             },
             {
                 "title": "",
-                "emoji": "🤐",
+                "emoji": "👨‍👩‍👧",
                 "story": "Our five years old daughter Anna has had several allergic to different foods, pollen, and medications, but also some vaccines towards which she has developed overreactions (high fever, skin rash all over the body), so it has been difficult for us as parents to give her all the recommended vaccines as scheduled. Since she went to preschool, we have been very worried after encountering other parents refusing vaccines for their children suggesting that vaccines are pointless, if not even dangerous. As Anna has not got all the scheduled vaccines, we are afraid she is especially vulnerable when being in the same group with children not vaccinated with the routinely scheduled vaccines."
             },
             {
                 "title": "",
-                "emoji": "🤐",
+                "emoji": "👮‍♀️",
                 "story": "I read a World Health Organisation leaflet at the pediatrician’s surgery. In 1998, about a thousand children suffered paralysis daily due to the polio virus. Most of them lived in the poorest countries. After worldwide vaccination campaigns, in 2000, only 30 children a day suffered paralysis due to polio. When I had my son vaccinated, I felt part of a project. I did it for him, his brothers and sisters, and all children, particularly those in the most deprived situations."
             },
             {
                 "title": "",
-                "emoji": "🤐",
+                "emoji": "🧞‍♂️🧞‍♀️",
                 "story": "At the age of two, the paediatrician diagnosed a disorder on the autistic spectrum in our son Esteve. We detected the first symptoms after the second vaccination. He was irritable, he wouldn’t look at us, he didn’t like being picked up and he was living as if he were alone. We read an article on the internet from the medical journal Lancet that related autism and vaccines. The paediatrician told us the article had been withdrawn because of fraud and many subsequent studies had rejected the relationship between vaccination and autism. The paediatrician also told us that the disease is usually diagnosed at about the same time as children are vaccinated, so some people wrongly believe there is a link between the two things. We understood what he was saying, but that doubt will always be there."
             },
             {
                 "title": "",
-                "emoji": "🤐",
+                "emoji": "👩‍🦰",
                 "story": "An outbreak of measles has been declared at the university I’ve been attending for the last few months. To start with there were a few isolated cases, but the epidemic has spread and now a lot of people are ill. Some have been admitted to hospital. The complications of measles in adults can be serious, so the authorities decided that, in order to attend courses, vaccination records had to be presented or students would have to prove they had already had the disease. As vaccines are not compulsory, I don’t believe institutions should invade our privacy in this way."
             }
         ],

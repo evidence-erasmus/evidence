@@ -1,5 +1,11 @@
+<script setup>
+
+</script>
 <template>
-    <div class="flex flex-col items-start md:flex-row-reverse md:justify-end">
+    <div class="flex flex-col items-start 
+        lg:flex-row-reverse lg:justify-end 
+        xl:gap-10
+        2xl:gap-20">
         <UiTableOfContents class="md:max-w-xs">
             <template #title>Table of Contents</template>
             <template #content>
@@ -37,6 +43,12 @@
             <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1">Introduction</h2>
 
+            
+            <section class="e-card e-module__meta">
+                <p class="m-0 leading-tight font-bold">
+                    You may find <a href="https://docs.google.com/document/d/1DAi745eJ9z4-Nky9xG8-qXZk5kiMgk_Ti8yDXuFU7tI/edit?usp=sharing" target="_blank">this Google Docs document</a> useful to write down your answers.
+                </p>
+            </section>
             <p>This module invites you to falsify (“bust”) or confirm a common myth about viruses. In a video introduction, a few virus-related beliefs are brought up, after which you are expected to express your opinion and discuss the topic within your group. Also, you are invited to opt out of one myth about the viruses to be busted, whether based on secondary evidence (e.g., information searches from internet) or experimentally. Through this activity, you learn to assess the reliability of information sources (science/research databases, popular science, other media) and/or develop further your experimentation skills. In both cases, you need to pose a testable hypothesis or a research question and then find evidence to confirm/falsify the hypothesis/answer your research question. After making conclusions, you are invited to prepare and present your findings to the classmates (or other audiences) in a relevant and convincing manner through a short video post. The module is finished with a board game where you must decide on virus-related issues.</p>
         
                 
@@ -68,8 +80,8 @@
 
             <UiYoutube video="t4v-36h2noo" /> 
             
-            <label class="text-sm font-bold">Write your answer here:</label>
-            <textarea rows="3" class="px-4 py-2 border border-slate-400 shadow w-full rounded"></textarea>
+            <!-- <label class="text-sm font-bold">Find Activity 1 inWrite your answer here:</label> -->
+            <!-- <textarea rows="3" class="px-4 py-2 border border-slate-400 shadow w-full rounded"></textarea> -->
 
             
             
@@ -137,11 +149,10 @@
             <h3>Myth 10: Prolonged use of the mask produces hypoxia/Masks can cause carbon dioxide poisoning.</h3>
             <p>It is believed that through the mask, you will get less oxygen. If it is true, then with a limited oxygen supply, there is an increased risk of oxygen lack, called hypoxia. Same time your body releases carbon dioxide that, in very high concentrations, can be toxic. But is this assumption actually true?</p>
 
-            <h3>Group decision:</h3>
+            <!-- <h3>Group decision:</h3>
             
             <label class="font-bold text-sm">We are going to bust the following myth:</label>
-
-            <textarea class="p-3 border border-slate-4 shadow rounded w-full"></textarea>
+            <textarea class="p-3 border border-slate-4 shadow rounded w-full"></textarea> -->
             
             
             
@@ -176,9 +187,9 @@
                 </template>
             </ModulesStructure>
 
-            <p>You are now invited to narrow down the myth into a testable hypothesis (research question), plan further activities following the cycle as given in Figure 2, and share the responsibilities within your group. Also, you should consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment.</p>
+            <p>You are now invited to narrow down the myth into a <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank">testable hypothesis</a> (research question), plan further activities following the cycle as given in Figure 2, and share the responsibilities within your group. Also, you should consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment.</p>
 
-            <h1>[[[images]]]</h1>
+            <UiContentImage src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
 
             <h3>Activity 3a</h3>
             <p class="e-card italic"><Icon name="material-symbols:warning-outline-rounded" class="text-3xl" /> (you can skip this step and move directly to Activity 3b in case you do not test your myth experimentally)</p>
