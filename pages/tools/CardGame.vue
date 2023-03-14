@@ -6,8 +6,10 @@
         
         <hr />
 
-        <button @click="printMe" class="my-6 px-4 py-2 flex items-center gap-2 bg-blue-500 text-md  
-            rounded text-white uppercase print:hidden">
+        <button @click="printMe" class="my-6 px-4 py-2 flex items-center gap-2 bg-sky-600 text-md  
+            rounded text-white uppercase transition
+            hover:bg-sky-700
+            print:hidden">
             <icon name="material-symbols:print-outline-rounded" /> {{ t('button-title') }} {{ t('button-note') }}
         </button>
 
@@ -29,12 +31,12 @@
         "button-note" : "- or save as pdf"
     },
     "et": {
-        "title-1" : "Kaardi",
+        "title-1" : "Rollimäng viiruste teemal",
         "button-title" : "PRINDI",
         "button-note" : "- või salvesta pdf-ina"
     },
     "el": {
-        "title-1" : "Video hinnangu vorm",
+        "title-1" : "Role playing card game EL",
         "button-title" : "PRINDI",
         "button-note" : "- või salvesta pdf-ina"
       }
@@ -42,7 +44,6 @@
 </i18n>
 
 <script setup>
-    // import { useI18n } from 'vue-i18n';
     const { t } = useI18n({ useScope: 'local' });
     definePageMeta({
         layout: "base",

@@ -401,7 +401,11 @@ Also, during the presentation of the other groups, you are invited to give const
             </ul>
 
             
-            <a href="/tools/cardgame" target="_blank">Printable cards</a> (opens in new tab)
+            <a href="/tools/cardgame" target="_blank" class="my-6 px-4 py-2 inline-flex items-center gap-2 bg-sky-600 text-md rounded text-white no-underline uppercase transition
+            hover:bg-sky-700
+            print:hidden">
+                <icon name="material-symbols:print-outline-rounded" />Open printable cards
+            </a> (opens in new tab)
             
             <ToolsCardgameVirusesTheme1 />
 
