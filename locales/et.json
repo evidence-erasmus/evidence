@@ -6,7 +6,8 @@
   "hero": {
     "about": "Projektist pikemalt",
     "erasmus": "<b>Erasmus+</b> projekt",
-    "intro": "Meie eesmärk on edendada õpilaste võtmepädevusi tõenduspõhiste otsuste tegemisel vastuolulistes sotsiaalteaduslikes küsimustes"
+    "intro": "Meie eesmärk on edendada õpilaste võtmepädevusi tõenduspõhiste otsuste tegemisel vastuolulistes sotsiaalteaduslikes küsimustes",
+    "modules": "Tutvu moodulitega"
   },
   "menu": {
     "about": "Projektist",

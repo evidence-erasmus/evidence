@@ -4,9 +4,10 @@
     "title": "About"
   },
   "hero": {
-    "about": "About the project",
+    "about": "More about the project",
     "erasmus": "An <b>Erasmus+</b> project",
-    "intro": "Promoting students’ key competences for making evidence-based decisions on controversial socio-scientific issues"
+    "intro": "Promoting students’ key competences for making evidence-based decisions on controversial socio-scientific issues",
+    "modules": "Check out the Modules"
   },
   "menu": {
     "about": "About",

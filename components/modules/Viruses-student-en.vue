@@ -23,7 +23,7 @@
                         <a href="#activity-4">Transforming evidence to a suitable format</a>
                     </li>
                     <li>
-                        <a href="#activity-5">Video presentations</a>
+                        <a href="#activity-5">Group presentations</a>
                     </li>
                     <li>
                         <a href="#activity-6">Game</a>
@@ -280,9 +280,17 @@
                     </template>
                 </ModulesStructure>
 
-            <p>In this activity, you are expected to transform your evidence into a short video post which should be able to speak to your peers. With the help of the following tutorial 1, you will learn tips and tricks on how to make a short video with a significant impact on your experiment. If you found evidence from secondary sources, please use tutorial 2.</p>
+            <p>In this activity, you are expected to transform your evidence into a presentation which should be able to speak to your peers. Concert the format of your presentation with your teacher.</p>
 
-            <p>The following criteria will help you to develop your video product:</p>
+            <p class="font-bold">Potential formats:</p>
+            <ul class="leading-tight">
+                <li>Video post about the course of the experiment and its results (see video tutorial ).</li>
+                <li>Video of your  slideshow (see instructional material).</li>
+                <li>Slide show.</li>
+                <li>Poster using, for example, the visual facilitation technique (see video tutorial).</li>
+            </ul>
+
+            <p>The following criteria will help you to develop your presentation:</p>
 
 
             <UiCardInfo class="my-8" theme="blue" icon="material-symbols:fact-check-outline-rounded">
@@ -294,12 +302,10 @@
                         <li>Science content is correct (following up-to-date scientific understanding).</li>
                         <li>The posed hypothesis/research question found evidence and made conclusions are mutually consistent.</li>
                         <li>Demonstrated evidence is gained from reliable sources which are referred. </li>
-                        <li>The message of the video is clear/understandable.</li>
-                        <li>Video remains within the given time frame (x-y minutes).</li>
-                        <li>The video is edited and supported with a title and closing captions.</li>
+                        <li>The message is clear/understandable.</li>
+                        <li>Presentation remains within the given time frame (x-y minutes).</li>
                         <li>The visual language is convincing.</li>
                         <li>Sound is chosen following the message.</li>
-                        <li>The final product can be accessed (e.g., through YouTube).</li>
                         <li>Group can respond to the questions raised by the audience.</li>
                     </ul>
                     <h4>Process</h4>
@@ -317,7 +323,7 @@
 
 
             <hr id="activity-5" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 5: Video presentations</h2>
+            <h2>Activity 5: Group presentations</h2>
 
             <ModulesStructure>
                     <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
@@ -338,8 +344,8 @@
                     </template>
                 </ModulesStructure>
 
-            <p>You are invited to present your video to the others in this activity. Please be ready to answer your classmates and teacher's questions and comments!</p>
-            <p>Also, during the presentation of the other groups, you are invited to give constructive feedback to your classmates using the following tool: </p>
+            <p>In this activity, you are invited to present your video, poster, to the others. Please be ready to answer your classmates and teacher's questions and comments!<br />
+Also, during the presentation of the other groups, you are invited to give constructive feedback to your classmates using the following tool:</p>
 
             <ToolsVideoFeedback />
 
@@ -351,7 +357,7 @@
             </p>
 
             <section class="e-card py-0">
-                <p>What do you think of the feedback that you got from your peers? Is it helpful, so you can use it and make an even better video next time? Is it fair? Discuss it within your group!</p>
+                <p>What do you think of the feedback that you got from your peers? Is it helpful, so you can use it and make an even better presentation next time? Is it fair? Discuss it within your group!</p>
             </section>
 
 
@@ -382,9 +388,22 @@
                             <Icon name="healthicons:group-discussion-meeting" class="text-white" />
                         </div>
                     </template>
-                </ModulesStructure>
+            </ModulesStructure>
 
-                <ToolsCardgameTheme1 />
+            <p>In the following activity, you are invited to play a card game with your group/classmates to practice simple, respectful, and fact-based group discussion that is expected to model socio-scientific decision-making processes in our society. The game enables you to explore a topic in-depth in an informal and informative way, reflect on thoughts and opinions that would be difficult to get to and express them in other ways.</p>
+            
+            <p class="font-bold">More precisely, you are expected to:</p>
+            <ul class="leading-tight">
+                <li><b>Get familiar</b> with the problems posed within the context of vaccination/wearing masks and look at them from different perspectives.</li>
+                <li>Form or clarify your <b>own opinion</b></li>
+                <li>Work towards a shared <b>group vision</b></li>
+                <li><b>Vote</b> on policy positions, <b>share</b> your results, and <b>compare</b> them with the opinions of others who played the same game (and had the same theme).</li>
+            </ul>
+
+            
+            <a href="/tools/cardgame" target="_blank">Printable cards</a> (opens in new tab)
+            
+            <ToolsCardgameVirusesTheme1 />
 
 
 

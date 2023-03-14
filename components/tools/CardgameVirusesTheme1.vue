@@ -2,35 +2,32 @@
     <div>
         <h2 class="text-2xl">{{ t('storyCardsTitle') }}</h2>
         
-        <section class="flex flex-wrap gap-4 mb-10 mt-5">
+        <section class="mb-10 mt-5 
+            print:flex print:flex-wrap print:gap-2"
+            :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
+        >
             
-            <div v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
-                class="flex flex-col justify-around
-                w-[2.75in] h-[4.75in]
-                p-4
-                border-4 border-sky-400
-                text-center
-                rounded-lg shadow-md" style="hyphens: auto;"
-            >
-                <h3 class="text-center text-6xl">{{ rt(cardS.emoji) }}</h3>
-                <p class="text-[9pt] m-0 leading-tight">{{ rt(cardS.story) }}</p>
-            </div>
+            <ToolsCardgameCard v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
+                :emoji="rt(cardS.emoji)" :story="rt(cardS.story)" border="border-blue-600"
+                class="print:w-[2.5in] print:h-[4in]"
+                :class="props.printMode ? 'w-[2.5in] h-[4in]' : ''"
+            />
+
         </section>
     
         <h2 class="text-2xl">{{ t('infoCardsTitle') }}</h2>
 
-        <section class="flex flex-wrap gap-4 mt-5">
-            <div v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
-                class="flex flex-col justify-around
-                w-[2.75in] h-[4.75in]
-                p-4
-                border-4 border-blue-500
-                text-center
-                rounded-lg shadow-md" style="hyphens: auto;"
-            >
-                <h3 class="text-center text-lg">{{ rt(cardI.title) }}</h3>
-                <p class="text-[9pt] m-0 leading-tight">{{ rt(cardI.story) }}</p>
-            </div>
+        <section class="mb-10 mt-5 
+            print:flex print:flex-wrap print:gap-2"
+            :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
+        >
+            
+            <ToolsCardgameCard v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
+                :title="rt(cardI.title)" :story="rt(cardI.story)"
+                class="print:w-[2.5in] print:h-[4in]"
+                :class="props.printMode ? 'w-[2.5in] h-[4in]' : ''"
+            />
+            
         </section>
     </div>
 </template>
@@ -40,7 +37,12 @@
     const { t, tm, rt } = useI18n({
         useScope: 'local'
     });
-  
+    const props = defineProps({
+        "printMode" : {
+            type: Boolean,
+            default: false
+        }
+    });
 </script>
 
 

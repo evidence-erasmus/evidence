@@ -1,5 +1,5 @@
 <template>
-        <button type="button" style="padding:0.3em 0.75em; border-radius:0.3em; text-underline-offset:0.2em"
+        <button type="button" style="text-underline-offset:0.2em"
         :class="bStyles[props.bStyle]" 
         >
             <slot />
@@ -16,7 +16,7 @@
 
     const bStyles = computed(() => {
         const classes =  {
-            fill : `border-0`,
+            fill : `border-0 bg-slate-900 text-yellow-300`,
             outline : `bg-transparent border-[0.15em] border-current`,
             link : "bg-transparent underline"
         }

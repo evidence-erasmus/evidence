@@ -1,14 +1,23 @@
 <template>
     <div class="p-6 md:p-10">
         <div class="prose">
-            <h2 class="mb-8">{{ t('title-1') }}</h2>
+            <h1 class="mb-8">{{ t('title-1') }}</h1>
         </div>
         
-        <ToolsCardgameTheme1 />
+        <hr />
+
+        <button @click="printMe" class="my-6 px-4 py-2 flex items-center gap-2 bg-blue-500 text-md  
+            rounded text-white uppercase print:hidden">
+            <icon name="material-symbols:print-outline-rounded" /> {{ t('button-title') }} {{ t('button-note') }}
+        </button>
 
         <hr />
 
-        <button @click="printMe" class="mt-8 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('button-title') }} {{ t('button-note') }}</button>
+        <ToolsCardgameVirusesTheme1 :printMode="true" />
+
+        
+
+        
     </div>
 </template>
 
@@ -20,7 +29,7 @@
         "button-note" : "- or save as pdf"
     },
     "et": {
-        "title-1" : "Video hinnangu vorm",
+        "title-1" : "Kaardi",
         "button-title" : "PRINDI",
         "button-note" : "- või salvesta pdf-ina"
     },
