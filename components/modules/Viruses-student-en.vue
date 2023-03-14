@@ -350,7 +350,7 @@ Also, during the presentation of the other groups, you are invited to give const
             <ToolsVideoFeedback />
 
             <p>
-                <a href="/tools/VideoFeedback" target="_blank">
+                <a href="../tools/VideoFeedback" target="_blank">
                     Open the questionnaire 
                 </a>
                 in a new page to share or print it
@@ -373,6 +373,8 @@ Also, during the presentation of the other groups, you are invited to give const
 
             <hr id="activity-6" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 6: Game</h2>
+
+            <p class="text-sm italic">This game is adopted from, and modified based on the following source: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
 
             <ModulesStructure>
                     <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
@@ -401,7 +403,7 @@ Also, during the presentation of the other groups, you are invited to give const
             </ul>
 
             
-            <a href="/tools/cardgame" target="_blank" class="my-6 px-4 py-2 inline-flex items-center gap-2 bg-sky-600 text-md rounded text-white no-underline uppercase transition
+            <a href="../tools/cardgame" target="_blank" class="my-6 px-4 py-2 inline-flex items-center gap-2 bg-sky-600 text-md rounded text-white no-underline uppercase transition
             hover:bg-sky-700
             print:hidden">
                 <icon name="material-symbols:print-outline-rounded" />Open printable cards
