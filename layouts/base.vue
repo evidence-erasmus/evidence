@@ -6,7 +6,7 @@
                 <LogoEvidence class="fill-slate-700 transition-all h-10" />
             </div>
         </header>
-        <div class="container mx-auto mt-10">
+        <div class="mx-auto mt-10">
             <slot />
         </div>
         <UiLangSwitcher class="fixed right-0 bottom-10 print:invisible" />
