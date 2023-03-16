@@ -12,8 +12,8 @@
 <script setup>
     const isOpen = useTocOpen();
 	const isOpenCookie = useCookie()
-	if (isOpenCookie !== 'undefined') {
-		isOpen.value = isOpenCookie.value
+	if (typeof isOpenCookie !== 'undefined') {
+		isOpen.value = isOpenCookie?.value
 	}
     const toggleOpen = () => {
         isOpen.value = !isOpen.value;
