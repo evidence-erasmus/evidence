@@ -10,9 +10,14 @@
     </div>
 </template>
 <script setup>
-    const isOpen = tocOpen();
+    const isOpen = useTocOpen();
+	const isOpenCookie = useCookie()
+	if (typeof isOpenCookie !== 'undefined') {
+		isOpen.value = isOpenCookie?.value
+	}
     const toggleOpen = () => {
         isOpen.value = !isOpen.value;
+		isOpenCookie.value = isOpen.value
     }
 </script>
 <style scoped>
