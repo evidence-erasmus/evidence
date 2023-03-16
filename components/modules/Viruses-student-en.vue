@@ -1,6 +1,7 @@
 <script setup>
 
 </script>
+
 <template>
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 
@@ -248,8 +249,12 @@
                 <span class="italic">(you could indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, please, who is responsible for what).</span>
             </p>
 
-
-
+            <p>
+                <a href="../tools/StudentAnswers" target="_blank">
+                    Open the answers 
+                </a>
+                in a new page to share or print it
+            </p>
 
 
 

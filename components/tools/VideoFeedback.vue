@@ -2,6 +2,11 @@
     const { t } = useI18n({
         useScope: 'local'
     });
+
+    const studentAnswers = useStudentAnswers();
+
+    console.log(studentAnswers.value);
+
 </script>
 
 
@@ -88,101 +93,11 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th v-html="t('q-1')"></th>
-                    <td ><input type="checkbox"></td>
-                    <td ><input type="checkbox"></td>
-                    <td ><input type="checkbox"></td>
-                    <td ><input type="checkbox"></td>
-                    <td ><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-2')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-3')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-4')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-5')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-6')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-7')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-8')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-9')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-10')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-11')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <th v-html="t('q-12')"></th>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
+                <tr v-for="el, i in studentAnswers.videoFeedback">
+                    <th v-html="t(`q-${i+1}`)"></th>
+                    <td v-for="j in 5" >
+                        <input type="radio" :name="`q-${i+1}`" v-model="studentAnswers.videoFeedback[i]" :value="`${j}`">
+                    </td>
                 </tr>
             </tbody>
         </table>
