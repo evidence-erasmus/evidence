@@ -1,5 +1,6 @@
 <template>
-    <div class="flex flex-col justify-around
+    <div :lang="locale" 
+    class="flex flex-col justify-around
         p-4
         border-4 
         text-center
@@ -10,7 +11,7 @@
     >
         <h3 v-if="props.emoji" class="text-center text-4xl my-4">{{ props.emoji }}</h3>
         <h3 v-if="props.title" class="text-center text-[12pt] leading-none mt-0 mb-2">{{ props.title }}</h3>
-        <p class="text-[9pt] m-0 leading-tight print:font-sans">{{ props.story }}</p>
+        <p class="text-[8pt] m-0 leading-tight text-justify print:font-sans" style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">{{ props.story }}</p>
     </div>
 </template>
 <script setup>
@@ -32,4 +33,6 @@
             default:"border-sky-400"
         }
     });
+
+    const { locale } = useI18n();
 </script>
