@@ -350,7 +350,7 @@ Also, during the presentation of the other groups, you are invited to give const
             <ToolsVideoFeedback />
 
             <p>
-                <a href="../tools/VideoFeedback" target="_blank">
+                <a href="../../tools/VideoFeedback" target="_blank">
                     Open the questionnaire 
                 </a>
                 in a new page to share or print it
