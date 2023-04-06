@@ -5,7 +5,8 @@ export default defineNuxtConfig({
         '@nuxtjs/i18n',
         '@nuxtjs/tailwindcss',
         '@nuxt/image-edge',
-        'nuxt-icon'
+        'nuxt-icon',
+        'nuxt-headlessui'
     ],
     // ssr:false,
     experimental : {
