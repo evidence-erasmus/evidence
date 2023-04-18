@@ -9,9 +9,9 @@
             {{ studentInputs.activity3a }}
         </div> -->
 
-        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
-        <h4>Group decission - we are going to bust the following myth:</h4>
-
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
+        
         <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" v-model="studentInputs.activity3a.activity3aMyth"></textarea>
 
         <hr />
@@ -36,8 +36,8 @@
         </ul>
         
         
-        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
-        <h4>Our hypothesis / research question is:</h4>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <label class="font-bold block"> Our hypothesis / research question is:</label>
 
         <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis"></textarea>
 
@@ -48,13 +48,12 @@
 
         <h3>Plan of activities</h3>
         
-        <section class="e-card">
+        <section class="e-card mb-8">
             <p class="italic my-0">Think carefully about how you will control all the other variables except the one you will manipulate. Also, you should think carefully about how to share the workload within your group. Please indicate by which activities (1), (2), (3) … you are involved as a whole team and by which you are going to divide responsibilities. In this case, write down in brackets, please, who is responsible for what</p>
         </section>
 
-        
-        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
-        <h4>Define research variables:</h4>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <label class="font-bold block"> Define research variables:</label>
 
         <section>
             <div class="grid grid-cols-3 gap-2">
@@ -64,7 +63,7 @@
             </div>
             <div v-for="row, i in studentInputs.activity3a.activity3aPlan" class="grid grid-cols-3 gap-2">
                 <div v-for="variable, j in row"
-                ><input  v-model="studentInputs.activity3a.activity3aPlan[i][j]" class="ring-1 ring-slate-300 px-1 rounded" /></div>
+                ><input v-model="studentInputs.activity3a.activity3aPlan[i][j]" class="w-full ring-1 ring-slate-300 px-1 rounded text-ellipsis overflow-hidden focus:bg-amber-50" /></div>
             </div>
 
             <button @click="studentInputs.addVariableRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD VARIABLES ROW</button>
@@ -76,8 +75,8 @@
         <hr />
 
 
-        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
-        <h4>Based on the experiment, our conclusion(s) is/are:</h4>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <label class="font-bold block"> Based on the experiment, our conclusion(s) is/are:</label>
         <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion"></textarea>
 
 
