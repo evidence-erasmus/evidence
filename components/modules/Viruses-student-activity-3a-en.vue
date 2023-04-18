@@ -3,12 +3,20 @@
         
         <h3>Activity 3a: Mythbusting based on  experiment</h3>
 
-        <h3>Group decission:</h3>
-        <p>We are going to bust the following myth:</p>
+        
+        
+        <!-- <div contenteditable="true" class="ring-slate-600 ring-1 p-2 rounded" ref="studentInput3a">
+            {{ studentInputs.activity3a }}
+        </div> -->
 
-        <div contenteditable="true" class="ring-slate-600 ring-1 p-2 rounded">
+        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
+        <h4>Group decission - we are going to bust the following myth:</h4>
 
-        </div>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" v-model="studentInputs.activity3a.activity3aMyth"></textarea>
+
+        <hr />
+
+        
 
         <p>In case you think your myth can be tested experimentally, please read the following guidelines:</p>
         
@@ -27,8 +35,16 @@
             <li>Share workload within your group (e.g., through designating everybody to a different role - manager, secretary, supplier of materials).</li>
         </ul>
         
-        <label class="text-sm font-bold">Our hypothesis/research question is:</label>
-        <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
+        
+        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
+        <h4>Our hypothesis / research question is:</h4>
+
+        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis"></textarea>
+
+
+        <hr />
+        
+        
 
         <h3>Plan of activities</h3>
         
@@ -43,3 +59,16 @@
         <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool. [[[LINK TO RELIABILITY TOOL]]]</p>
     </div>
 </template>
+
+
+<script setup>
+    import { useStudentInputStore } from '~~/store/useStudentInputViruses.js';
+
+    const studentInputs = useStudentInputStore();
+
+    // const studentInput3aMyth = ref("");
+    // const studentInput3aHypothesis = ref("");
+
+    
+
+</script>

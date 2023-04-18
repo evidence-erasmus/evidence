@@ -12,6 +12,7 @@
     "@intlify/vue-i18n-loader": "^5.0.0",
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@nuxtjs/tailwindcss": "^6.1.1",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
     "@tailwindcss/typography": "^0.5.7",
     "gh-pages": "^4.0.0",
     "nuxt": "^3.0.0",
@@ -19,6 +20,11 @@
     "nuxt-icon": "^0.1.7"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "8.0.0-beta.7"
+    "@nuxtjs/i18n": "8.0.0-beta.7",
+    "@pinia/nuxt": "^0.4.8",
+    "pinia": "^2.0.34"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }
