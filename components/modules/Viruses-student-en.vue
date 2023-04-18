@@ -257,7 +257,7 @@
 
 
 
-            <StudentActivity45En />
+            <ModulesStudentActivity45En />
 
 
 

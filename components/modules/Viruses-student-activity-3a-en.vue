@@ -3,6 +3,13 @@
         
         <h3>Activity 3a: Mythbusting based on  experiment</h3>
 
+        <h3>Group decission:</h3>
+        <p>We are going to bust the following myth:</p>
+
+        <div contenteditable="true" class="ring-slate-600 ring-1 p-2 rounded">
+
+        </div>
+
         <p>In case you think your myth can be tested experimentally, please read the following guidelines:</p>
         
         <h4>In this activity, you are expected to:</h4>
