@@ -52,10 +52,38 @@
             <p class="italic my-0">Think carefully about how you will control all the other variables except the one you will manipulate. Also, you should think carefully about how to share the workload within your group. Please indicate by which activities (1), (2), (3) … you are involved as a whole team and by which you are going to divide responsibilities. In this case, write down in brackets, please, who is responsible for what</p>
         </section>
 
-        <h1>[[[VAHETABEL]]]</h1>
+        
+        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
+        <h4>Define research variables:</h4>
 
-        <label class="text-sm font-bold">Based on the experiment, our conclusion(s) is/are:</label>
-        <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
+        <section>
+            <div class="grid grid-cols-3 gap-2">
+                <p class="text-sm font-bold">Independent variables</p>
+                <p class="text-sm font-bold">Dependent variables</p>
+                <p class="text-sm font-bold">Control variables</p>
+            </div>
+            <div v-for="row, i in studentInputs.activity3a.activity3aPlan" class="grid grid-cols-3 gap-2">
+                <div v-for="variable, j in row"
+                ><input  v-model="studentInputs.activity3a.activity3aPlan[i][j]" class="ring-1 ring-slate-300 px-1 rounded" /></div>
+            </div>
+
+            <button @click="studentInputs.addVariableRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD VARIABLES ROW</button>
+        </section>
+
+
+
+
+        <hr />
+
+
+        <Icon name="material-symbols:edit-square-outline" size="64" class="text-blue-500"></Icon>
+        <h4>Based on the experiment, our conclusion(s) is/are:</h4>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion"></textarea>
+
+
+        <hr />
+
+    
         <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool. [[[LINK TO RELIABILITY TOOL]]]</p>
     </div>
 </template>

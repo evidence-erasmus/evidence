@@ -19,7 +19,9 @@ export const useStudentInputStore = defineStore("student", {
         activity3a: {
             activity3aMyth: "...",
             activity3aHypothesis: "",
-            activity3aPlan: "",
+            activity3aPlan: [
+               ["independent variable", "dependent variable", "control variable"]
+            ],
             activity3aConclusion: "",
             activity3aSecondary: "",
         },
@@ -37,9 +39,13 @@ export const useStudentInputStore = defineStore("student", {
         getActivity3a: state => `Value is ${state.activity3a}`
     },
     actions : {
-        changeActivityValue(key, newValue) {
-            console.log("changing value", newValue);
-            this[key] = newValue;
+        // changeActivityValue(key, newValue) {
+        //     console.log("changing value", newValue);
+        //     this[key] = newValue;
+        // },
+        addVariableRow(){
+            console.log("adding row");
+            this.activity3a.activity3aPlan.push(["independent variable", "dependent variable", "control variable"]);
         }
     },
     persist: {
