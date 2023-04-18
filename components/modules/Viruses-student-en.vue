@@ -1,8 +1,8 @@
 <script setup>
-import StudentActivity45En from './Student-activity45-en.vue';
-
-
+    import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
+    import StudentActivity45En from './Student-activity45-en.vue';
 </script>
+
 <template>
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 
@@ -93,11 +93,17 @@ import StudentActivity45En from './Student-activity45-en.vue';
             <!-- <textarea rows="3" class="px-4 py-2 border border-slate-400 shadow w-full rounded"></textarea> -->
 
             
-            
-            
-            
 
 
+
+<!--
+    222222
+        22
+    222222
+    22
+    222222
+-->
+            
 
 
             <hr id="activity-2" class="mt-10 mb-40 print:my-10" />
@@ -158,12 +164,6 @@ import StudentActivity45En from './Student-activity45-en.vue';
             <h3><span class="text-rose-400">Myth 10:</span> Prolonged use of the mask produces hypoxia/Masks can cause carbon dioxide poisoning.</h3>
             <p>It is believed that through the mask, you will get less oxygen. If it is true, then with a limited oxygen supply, there is an increased risk of oxygen lack, called hypoxia. Same time your body releases carbon dioxide that, in very high concentrations, can be toxic. But is this assumption actually true?</p>
 
-            <!-- <h3>Group decision:</h3>
-            
-            <label class="font-bold text-sm">We are going to bust the following myth:</label>
-            <textarea class="p-3 border border-slate-4 shadow rounded w-full"></textarea> -->
-            
-            
             
 
 
@@ -172,6 +172,13 @@ import StudentActivity45En from './Student-activity45-en.vue';
 
 
 
+<!-- 
+    333333 
+        33
+     33333
+        33
+    333333
+ -->
 
 
             <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
@@ -196,66 +203,58 @@ import StudentActivity45En from './Student-activity45-en.vue';
                 </template>
             </ModulesStructure>
 
-            <p>You are now invited to narrow down the myth into a <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank">testable hypothesis</a> (research question), plan further activities following the cycle as given in Figure 2, and share the responsibilities within your group. Also, you should consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment.</p>
 
-            <UiContentImage src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
+            <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
 
-            <h3>Activity 3a</h3>
-            <p class="e-card italic"><Icon name="material-symbols:warning-outline-rounded" class="text-3xl" /> (you can skip this step and move directly to Activity 3b in case you do not test your myth experimentally)</p>
-            <p>In case you think your myth can be tested experimentally, please read the following guidelines:</p>
+            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:alt-route">
+                <div>
+                    Now, consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment. Based on that, you should choose <b>Activity 3a</b> or <b>Activity 3b</b> from below for further study.
+                </div>
+            </UiCardInfo>
 
-            <h4>You are expected to:</h4>
-            <ul class="leading-tight">
-                <li>Develop a testable hypothesis/research question.</li>
-                <li>Design an experiment that will confirm or falsify your hypothesis/ answer your research question.</li>
-                <li>Present your collected data in tables and graphs, and preferably, videotape your experiment as evidence (look at the tutorial).</li>
-                <li>Explain your results using scientific evidence.</li>
-                <li>Use your results to form a conclusion.</li>
-                <li>Estimate the plausibility of the chosen myth.</li>
-                <li>Share workload within your group (e.g., through designating everybody to a different role - manager, secretary, supplier of materials).</li>
-            </ul>
-
-            <label class="text-sm font-bold">Our hypothesis/research question is:</label>
-            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
-
-            <h3>Plan of activities</h3>
             
-            <section class="e-card">
-                <p class="italic my-0">Think carefully about how you will control all the other variables except the one you will manipulate. Also, you should think carefully about how to share the workload within your group. Please indicate by which activities (1), (2), (3) … you are involved as a whole team and by which you are going to divide responsibilities. In this case, write down in brackets, please, who is responsible for what</p>
-            </section>
 
 
-            <h1>[[[VAHETABEL]]]</h1>
-
-            <label class="text-sm font-bold">Based on the experiment, our conclusion(s) is/are:</label>
-            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
-
-            <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool. [[[LINK TO RELIABILITY TOOL]]]</p>
-
-
-
-            <hr id="activity-3b" class="mt-10 mb-40" />
-
-            <h3>Activity 3b</h3>
-
-            <p>In case you find it challenging to test your myth experimentally, you are expected to do the following:</p>
-            <ul class="leading-tight">
-                <li>plan your search for relevant information that will confirm or falsify your hypothesis/ answer your research question,</li>
-                <li>develop a testable hypothesis/research question,</li>
-                <li>present collected data in the form of tables, graphs, or similar,</li>
-                <li>assess the reliability of the gathered evidence;</li>
-                <li>use your findings to draw a conclusion;</li>    
-            </ul>
+            <div class="w-full px-2 py-16 sm:px-0">
+                <TabGroup>
+                <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
+                    <Tab as="template" v-slot="{ selected }">
+                        <button
+                        class="w-full rounded py-3 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
+                        :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                        >Activity 3a</button>
+                    </Tab>
+                    
+                    <Tab as="template" v-slot="{ selected }">
+                        <button
+                        class="w-full rounded py-3 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
+                        :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                        >Activity 3b</button>
+                    </Tab>
+                    
+                    </TabList>
             
-            <p>While doing this, you should think carefully about how to share the workload within your group. You could designate everybody to a different role, for example, to a leader who is organizing the activities, to a secretary who is making notes and comments about the information found, to an investigator who is doing searches, to a critic who is scrutinizing the reliability of the information.</p>
+                    <TabPanels class="mt-2">
+                        <TabPanel class="focus:outline-none">
+                            <ModulesStudentActivity3aEn />
+                        </TabPanel>
+                        <TabPanel class="focus:outline-none">
+                            <ModulesStudentActivity3bEn />
+                        </TabPanel>
+                    </TabPanels>
+                </TabGroup>
+                </div>
 
-            <label class="text-sm font-bold">Our hypothesis/research question is:</label>
-            <textarea class="w-full p-3 border border-slate-400 shadow rounded" rows="5"></textarea>
 
-            <p>
-                <b>Plan of activities</b>  &nbsp;
-                <span class="italic">(you could indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, please, who is responsible for what).</span>
-            </p>
+
+<!-- 
+    44   44    5555555
+    44   44    55
+    4444444    5555555
+         44         55
+         44    5555555
+-->
+                
 
 
 
@@ -264,16 +263,13 @@ import StudentActivity45En from './Student-activity45-en.vue';
 
 
 
-
-
-
-            
-
-
-
-
-
-
+<!-- 
+    6666666
+    66
+    6666666
+    66   66
+    6666666
+ -->
 
 
 
