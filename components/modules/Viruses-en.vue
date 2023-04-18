@@ -3,7 +3,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full md:max-w-xs print:hidden">
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden">
             <template #title>Table of Contents</template>
             <template #content>
                 <ol>

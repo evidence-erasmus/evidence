@@ -1,6 +1,5 @@
 <script setup>
     import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-    import StudentActivity45En from './Student-activity45-en.vue';
 </script>
 
 <template>
@@ -8,7 +7,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="md:max-w-xs">
+        <UiTableOfContents class="lg:max-w-xs">
             <template #title>Table of Contents</template>
             <template #content>
                 <ol>
@@ -236,10 +235,10 @@
             
                     <TabPanels class="mt-2">
                         <TabPanel class="focus:outline-none">
-                            <ModulesStudentActivity3aEn />
+                            <ModulesVirusesStudentActivity3aEn />
                         </TabPanel>
                         <TabPanel class="focus:outline-none">
-                            <ModulesStudentActivity3bEn />
+                            <ModulesVirusesStudentActivity3bEn />
                         </TabPanel>
                     </TabPanels>
                 </TabGroup>
