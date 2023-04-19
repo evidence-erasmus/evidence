@@ -71,6 +71,10 @@ export default defineNuxtConfig({
                 en: '/radiation',
                 et: '/radiatsioon'
             },
+            'tools/StudentAnswersViruses': {
+                en: '/viruses/answers',
+                et: '/viirused/vastused'
+            },
         },
         vueI18n: './i18n.config.ts' // if you are using custom path, default 
     },

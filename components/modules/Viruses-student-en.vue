@@ -3,6 +3,10 @@
 </script>
 
 <template>
+    <section class="fixed bottom-0 left-0 bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl">
+        <a href="answers" class="text-lg font-bold">Your answers</a>
+    </section>
+    
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
