@@ -14,10 +14,9 @@ export const useStudentInputStore = defineStore("student", {
         //     "Myth 9: Masks are pointless in preventing upper respiratory diseases (e.g. COVID-19)",
         //     "Myth 10: Prolonged use of the mask produces hypoxia/Masks can cause carbon dioxide poisoning."
         // ],
-        activity1: "",
-        activity2: "",
+        learningPath: 0,   
         activity3a: {
-            activity3aMyth: "...",
+            activity3aMyth: "",
             activity3aHypothesis: "",
             activity3aPlan: [
                ["independent variable", "dependent variable", "control variable"]
@@ -35,23 +34,19 @@ export const useStudentInputStore = defineStore("student", {
             activity3bConclusion: "",
             activity3bStatement: "",
         },
-        activity4: "",
-        activity5: "",
     }),
-    getters: {
-        getActivity3a: state => `Value is ${state.activity3a}`
-    },
+    // getters: {
+    //     getActivity3a: state => `Value is ${state.activity3a}`
+    // },
     actions : {
-        // changeActivityValue(key, newValue) {
-        //     console.log("changing value", newValue);
-        //     this[key] = newValue;
-        // },
         addVariableRow(){
-            console.log("adding row");
-            this.activity3a.activity3aPlan.push(["independent variable", "dependent variable", "control variable"]);
+            this.activity3a.activity3aPlan.push(["", "", ""]);
         },
         addReliabilityRow(){
             this.activity3b.activity3bReliability.push(["", "", "?", ""]);
+        },
+        changePath(index){
+            this.learningPath = index;
         }
     },
     persist: {
