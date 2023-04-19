@@ -76,7 +76,11 @@ export default defineNuxtConfig({
                 et: '/viirused/vastused'
             },
         },
-        vueI18n: './i18n.config.ts' // if you are using custom path, default 
+        vueI18n: {
+            legacy: false,
+            locale: 'en'
+        }
+        // vueI18n: './i18n.config.ts' // if you are using custom path, default 
     },
     image: {
         gumlet: {
