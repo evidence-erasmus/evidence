@@ -1,21 +1,17 @@
 import { defineStore } from "pinia";
 
-export const useUserPreferencesStore = defineStore("userPreferences", {
+export const useUserPreferences = defineStore("userPreferences", {
     state: () => ({
         tocOpen: true,
-        modalOpen: false,
-        userLang: "",
-        
+        modalOpen: false
     }),
-    getters: {
-        // getActivity3a: state => `Value is ${state.activity3a}`
-    },
     actions : {
+        toggleToC(){
+            this.tocOpen = !this.tocOpen;
+        },
         toggleModal(){
             this.modalOpen = !this.modalOpen;
         }
     },
-    persist: {
-        storage: persistedState.localStorage,
-    }
+    persist: true
 });
