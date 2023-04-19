@@ -5,7 +5,7 @@
   },
   "hero": {
     "about": "Σχετικά με το έργο",
-    "erasmus": "Ένα έργο <b>Erasmus+</b>",
+    "erasmus": "Ένα έργο Erasmus+",
     "intro": "Προώθηση των βασικών ικανοτήτων των μαθητών για τη λήψη τεκμηριωμένων αποφάσεων σε αμφιλεγόμενα κοινωνικο-επιστημονικά ζητήματα",
     "modules": "Modules"
   },
@@ -13,7 +13,7 @@
     "about": "Σχετικά με",
     "modules": "Ενότητες"
   },
-  "message": "Hello <h2>from</h2> external",
+  "message": "Hello from external",
   "modules": {
     "background-info": "Info EL",
     "for-students": "For student EL",

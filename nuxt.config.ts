@@ -2,9 +2,9 @@
 
 export default defineNuxtConfig({
     modules: [
-        '@nuxtjs/i18n',
         '@pinia/nuxt',
         '@pinia-plugin-persistedstate/nuxt',
+        '@nuxtjs/i18n',
         '@nuxtjs/tailwindcss',
         '@nuxt/image-edge',
         'nuxt-icon',
@@ -45,6 +45,7 @@ export default defineNuxtConfig({
         langDir: 'locales',
         defaultLocale: 'en',
         customRoutes: 'config',
+        strictMessage: false,
         pages: {
             about: {
                 en: '/about',
@@ -71,10 +72,7 @@ export default defineNuxtConfig({
                 et: '/radiatsioon'
             },
         },
-        vueI18n: {
-            legacy: false,
-            locale: 'en'
-        }
+        vueI18n: './i18n.config.ts' // if you are using custom path, default 
     },
     image: {
         gumlet: {

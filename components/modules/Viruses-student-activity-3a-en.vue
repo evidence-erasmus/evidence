@@ -1,7 +1,7 @@
 <template>
     <div>
         
-        <h3>Activity 3a: Mythbusting based on  experiment</h3>
+        <h2>Activity 3a: Mythbusting based on  experiment</h2>
 
         
         
@@ -71,7 +71,6 @@
 
 
 
-
         <hr />
 
 
@@ -84,6 +83,15 @@
 
     
         <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool. [[[LINK TO RELIABILITY TOOL]]]</p>
+
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <label class="font-bold block"> Write a short summary of your findings here:</label>
+        <p class="italic">
+            Did secondary data confirm your findings? If not, what do you think why?<br />
+            Please make a statement conclusion on whether the selected myth is confirmed or rejected based on your findings.
+        </p>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary"></textarea>
+
     </div>
 </template>
 
@@ -92,10 +100,5 @@
     import { useStudentInputStore } from '~~/store/useStudentInputViruses.js';
 
     const studentInputs = useStudentInputStore();
-
-    // const studentInput3aMyth = ref("");
-    // const studentInput3aHypothesis = ref("");
-
-    
 
 </script>

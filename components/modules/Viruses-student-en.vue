@@ -207,7 +207,7 @@
 
             <UiCardInfo class="my-8" theme="blue" icon="material-symbols:alt-route">
                 <div>
-                    Now, consider whether your hypothesis can be tested based only on secondary evidence (relying on published material of already conducted experiments) or on your own experiment. Based on that, you should choose <b>Activity 3a</b> or <b>Activity 3b</b> from below for further study.
+                    Now, consider whether your hypothesis can be tested based only <b>on secondary evidence</b> (relying on published material of already conducted experiments) or <b>on your own experiment</b>. Based on that, you should choose <b>Activity 3a</b> or <b>Activity 3b</b> from below for further study.
                 </div>
             </UiCardInfo>
 

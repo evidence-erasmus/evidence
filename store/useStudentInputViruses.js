@@ -29,6 +29,9 @@ export const useStudentInputStore = defineStore("student", {
             activity3bMyth: "",
             activity3bHypothesis: "",
             activity3bPlan: "",
+            activity3bReliability: [
+                [" "," ","?"," "]
+            ],
             activity3bConclusion: "",
             activity3bStatement: "",
         },
@@ -46,6 +49,9 @@ export const useStudentInputStore = defineStore("student", {
         addVariableRow(){
             console.log("adding row");
             this.activity3a.activity3aPlan.push(["independent variable", "dependent variable", "control variable"]);
+        },
+        addReliabilityRow(){
+            this.activity3b.activity3bReliability.push(["", "", "?", ""]);
         }
     },
     persist: {

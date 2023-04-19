@@ -5,7 +5,7 @@
   },
   "hero": {
     "about": "More about the project",
-    "erasmus": "An <b>Erasmus+</b> project",
+    "erasmus": "An Erasmus+ project",
     "intro": "Promoting students’ key competences for making evidence-based decisions on controversial socio-scientific issues",
     "modules": "Check out the Modules"
   },
@@ -13,7 +13,7 @@
     "about": "About",
     "modules": "Modules"
   },
-  "message": "Hello <h2>from</h2> external",
+  "message": "Hello from external",
   "modules": {
     "background-info": "Background info",
     "for-students": "For student",
