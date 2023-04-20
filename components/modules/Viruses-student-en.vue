@@ -324,12 +324,16 @@
             </ul>
 
             
+            <hr>
+            
+            <h3>Theme 1</h3>
+
             <UiCardInfo>
                 <div>
                     <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
                     
                     <a href="../tools/cardgame" target="_blank" 
-                    class="my-6 px-4 py-2 inline-flex items-center gap-2 
+                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
                     bg-sky-600 text-md rounded text-white no-underline uppercase transition
                     hover:bg-sky-700
                     print:hidden">
@@ -337,10 +341,6 @@
                     </a> (opens in new tab)
                 </div>
             </UiCardInfo>
-            
-            <hr>
-            
-            <h3>Theme 1</h3>
 
             <ToolsCardgameVirusesTheme1 />
 
