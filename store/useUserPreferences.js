@@ -3,7 +3,8 @@ import { defineStore } from "pinia";
 export const useUserPreferences = defineStore("userPreferences", {
     state: () => ({
         tocOpen: true,
-        modalOpen: false
+        modalOpen: false,
+        learnPathViruses: 0
     }),
     actions : {
         toggleToC(){
@@ -11,6 +12,9 @@ export const useUserPreferences = defineStore("userPreferences", {
         },
         toggleModal(){
             this.modalOpen = !this.modalOpen;
+        },
+        setLearnPath(module, value){
+            this[module] = value;
         }
     },
     persist: true

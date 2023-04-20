@@ -1,21 +1,21 @@
 <script setup>
     import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue';
     
-    import { useStudentInputStore } from '~~/store/useStudentInputViruses';
+    import { useUserPreferences } from '~~/store/useUserPreferences'; 
 
-    const studentInput = useStudentInputStore();
+    const userPrefs = useUserPreferences();
 
-    //const activeTab = ref(0);
+    // const activeTab = ref(0);
 
     const changeTab = (index) => {
-        studentInput.changePath(index);
+        userPrefs.setLearnPath("learnPathViruses", index);
     } 
 
 </script>
 
 <template>
-    <section class="fixed bottom-0 left-0 bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl">
-        <a href="answers" class="text-lg font-bold">Your answers</a>
+    <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl">
+        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-2rem)" /> <a href="answers" class="text-lg font-bold">Your answers</a>
     </section>
     
     <div class="flex flex-col items-start 
@@ -229,8 +229,10 @@
             
 
 
+
+
             <div class="w-full px-2 py-16 sm:px-0">
-                <TabGroup :selectedIndex="studentInput.learningPath" @change="changeTab">
+                <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
                 <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
                     <Tab as="template" v-slot="{ selected }">
                         <button

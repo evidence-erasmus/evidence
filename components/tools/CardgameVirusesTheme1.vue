@@ -8,7 +8,7 @@
         >
             
             <ToolsCardgameCard v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
-                :emoji="rt(cardS.emoji)" :story="rt(cardS.story)" border="border-blue-600"
+                :emoji="rt(cardS.emoji)" :story="rt(cardS.story)" :label="t('storyCardsLabel') + ' ' + (i+1)" border="border-blue-600"
                 class="print:w-[2.5in] print:h-[4in]"
                 :class="props.printMode ? 'w-[2.5in] h-[4in]' : ''"
             />
@@ -22,7 +22,7 @@
             :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
         >
             <ToolsCardgameCard v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
-                :title="rt(cardI.title)" :story="rt(cardI.story)"
+                :title="rt(cardI.title)" :story="rt(cardI.story)" :label="t('infoCardsLabel') + ' ' + (i+1)"
                 class="print:w-[2.5in] print:h-[4in]"
                 :class="props.printMode ? 'w-[2.5in] h-[4in]' : ''"
             />
@@ -50,6 +50,8 @@
       "en": {
         "storyCardsTitle" : "Story cards",
         "infoCardsTitle" : "Info cards",
+        "storyCardsLabel" : "Story",
+        "infoCardsLabel" : "Info",
         "storyCards" : [
             {
                 "title": "",
@@ -172,6 +174,8 @@
       "et": {
         "storyCardsTitle" : "Lookaardid",
         "infoCardsTitle" : "Infokaardid",
+        "storyCardsLabel" : "Lugu",
+        "infoCardsLabel" : "Info",
         "storyCards" : [
             {
                 "title": "",
@@ -290,6 +294,8 @@
       "el": {
         "storyCardsTitle" : "Story cards EL",
         "infoCardsTitle" : "Info cards EL",
+        "storyCardsLabel" : "Story EL",
+        "infoCardsLabel" : "Info EL",
         "storyCards" : [
             {
                 "title": "",
