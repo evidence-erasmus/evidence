@@ -8,9 +8,9 @@
         >
             
             <ToolsCardgameCard v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
-                :emoji="rt(cardS.emoji)" :story="rt(cardS.story)" :label="t('storyCardsLabel') + ' ' + (i+1)" border="border-blue-600"
-                class="print:w-[2.5in] print:h-[4in]"
-                :class="props.printMode ? 'w-[2.5in] h-[4in]' : ''"
+                :image="rt(cardS.image)" :story="rt(cardS.story)" :label="`${t('storyCardsLabel')} ${i+1}`" border="border-blue-600"
+                class="print:w-[70mm] print:h-[121mm]"
+                :class="props.printMode ? 'w-[70mm] h-[121mm]' : ''"
             />
 
         </section>
@@ -22,9 +22,9 @@
             :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
         >
             <ToolsCardgameCard v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
-                :title="rt(cardI.title)" :story="rt(cardI.story)" :label="t('infoCardsLabel') + ' ' + (i+1)"
-                class="print:w-[2.5in] print:h-[4in]"
-                :class="props.printMode ? 'w-[2.5in] h-[4in]' : ''"
+                :title="rt(cardI.title)" :story="rt(cardI.story)" :label="`${t('infoCardsLabel')} ${i+1}`"
+                class="print:w-[70mm] print:h-[121mm]"
+                :class="props.printMode ? 'w-[70mm] h-[121mm]' : ''"
             />
             
         </section>
@@ -55,32 +55,32 @@
         "storyCards" : [
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "card_viruses_1.webp",
                 "story": "My son Francesco was a lively, intelligent, curious boy who was always healthy. Two years ago, at the age of 12, he died suddenly of meningitis at a summer camp. During the holidays, another boy also went down with meningitis but suffered no further consequences. All the youngsters at the camps received a preventive dose of antibiotics. At the hospital, they told us there was a vaccine against the pathogen that killed our son. On top of the tremendous pain of losing my son, it hurts me even more, to think that he would still be alive today if he had been vaccinated."
             },
             {
                 "title": "",
-                "emoji": "🤶",
+                "image": "card_viruses_2.webp",
                 "story": "I was very reluctant to accept the flu vaccination when our family doctor offered it to us this year. Since we retired, my husband has developed heart failure, and we have been vaccinated every year. Still, we caught the flu last year even though we had been vaccinated. This year our doctor offered us the vaccine again, and, as he insisted, we agreed to be vaccinated. He told us this year’s virus was similar to the one that caused the Spanish flu epidemic at the beginning of the last century. Still, a terrible outbreak like that didn’t happen, and neither my husband nor I became ill. We have the impression that vaccination is a pointless, costly practice carried out for the benefit of drug companies."
             },
             {
                 "title": "",
-                "emoji": "👨‍👩‍👧",
+                "image": "card_viruses_3.webp",
                 "story": "Our five years old daughter Anna has had several allergic to different foods, pollen, and medications, but also some vaccines towards which she has developed overreactions (high fever, skin rash all over the body), so it has been difficult for us as parents to give her all the recommended vaccines as scheduled. Since she went to preschool, we have been very worried after encountering other parents refusing vaccines for their children suggesting that vaccines are pointless, if not even dangerous. As Anna has not got all the scheduled vaccines, we are afraid she is especially vulnerable when being in the same group with children not vaccinated with the routinely scheduled vaccines."
             },
             {
                 "title": "",
-                "emoji": "👮‍♀️",
+                "image": "card_viruses_4.webp",
                 "story": "I read a World Health Organisation leaflet at the pediatrician’s surgery. In 1998, about a thousand children suffered paralysis daily due to the polio virus. Most of them lived in the poorest countries. After worldwide vaccination campaigns, in 2000, only 30 children a day suffered paralysis due to polio. When I had my son vaccinated, I felt part of a project. I did it for him, his brothers and sisters, and all children, particularly those in the most deprived situations."
             },
             {
                 "title": "",
-                "emoji": "🧞‍♂️🧞‍♀️",
+                "image": "card_viruses_1.webp",
                 "story": "At the age of two, the paediatrician diagnosed a disorder on the autistic spectrum in our son Esteve. We detected the first symptoms after the second vaccination. He was irritable, he wouldn’t look at us, he didn’t like being picked up and he was living as if he were alone. We read an article on the internet from the medical journal Lancet that related autism and vaccines. The paediatrician told us the article had been withdrawn because of fraud and many subsequent studies had rejected the relationship between vaccination and autism. The paediatrician also told us that the disease is usually diagnosed at about the same time as children are vaccinated, so some people wrongly believe there is a link between the two things. We understood what he was saying, but that doubt will always be there."
             },
             {
                 "title": "",
-                "emoji": "👩‍🦰",
+                "image": "card_viruses_2.webp",
                 "story": "An outbreak of measles has been declared at the university I’ve been attending for the last few months. To start with there were a few isolated cases, but the epidemic has spread and now a lot of people are ill. Some have been admitted to hospital. The complications of measles in adults can be serious, so the authorities decided that, in order to attend courses, vaccination records had to be presented or students would have to prove they had already had the disease. As vaccines are not compulsory, I don’t believe institutions should invade our privacy in this way."
             }
         ],
@@ -179,32 +179,32 @@
         "storyCards" : [
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "Meie poeg Martin oli elav, arukas ja uudishimulik poiss, kes oli alati terve. Kaks aastat tagasi, kui ta sai 12, haigestus ta suvelaagris ootamatult meningiiti. Ka teine poiss laagris jäi meningiiti, kuid ta ei saanud haigusest pikaajalisi tüsistusi. Kõik ülejäänud lapsed said haiguse ennetamiseks antibiootikume. Haiglas öeldi meile, et tegelikult oli meie poja tapnud haigustekitaja vastu olemas vaktsiin. Kogu selle kaotusvalu tipuks piinab meid teadmine, et  ta võinuks olla veel elus, kui me oleksime teda lasknud meningiidi vastu vaktsineerida."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "Pensionilejäämisest alates on mu mehel olnud südamepuudulikkus. Me oleme vaktsineerinud ennast igal aastal, kuid eelmisel aastal saime mõlemad gripi, kuigi olime selle vastu vaktsineeritud. Seetõttu olin ma väga tõrges gripivaktsiini suhtes, mida meie perearst sel aastal meile pakkus, kuigi lõpuks me nõustusime. Ta ütles meile, et selle aasta viirus on üsna sarnane sellele, mis põhjustas hispaania gripi epideemia eelmisel sajandil. Kuid epideemiat ei tulnud ning me ka  ei haigestunud sellesse. Meil on tunne, et vaktsineerimine on mõttetu ning kulukas praktika, mida üritavad edendada ravimiettevõtted."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "Meie 5-aastasel tütrel Annil on olnud rida erinevaid allergiaid küll teatud toiduainete, tolmu, ravimite, aga ka mõne vaktsiini suhtes, mille  manustamise järgselt on tal tekkinud äge reaktsioon (kõrge palavik, lööve üle terve keha), mistõttu on talle olnud riskantne kõiki ettenähtud vaktsiine õigel ajal anda. Sellest ajast peale, kui ta läks eelkooli, oleme me olnud väga mures, kuna oleme seal kohanud vanemaid, kes on täielikult keeldunud oma  lapsele vaktsiine manustamast öeldes, et need on kasutud või lausa ohtlikud. Kuna ka Anni pole saanud päris kõiki ettenähtud vaktsiine, siis me kardame, et ta võib olla nende  laste seltskonnas eksponeeritud ning samas vastuvõtlik mõnedele ohtlikele haigustele."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "Ma lugesin Maailma Tervishoiu Organisatsiooni teabelehest, et 1998. a. kannatas ligi 1000 last igapäevaselt  lastehalvatusest tingitud paralüüsi (lihasjõu kadumise) all. Enamus neist elasid maailma kõige vaesemates riikides. Pärast ülemaailmset vaktsineerimiskampaaniat, kannatas teadaolevalt lastehalvatuse paralüüsi  all igapäevaselt  vaid 30 last maailmas. Vaktsineerisime lastehalvatuse vastu ära ka oma lapse, kuna tundsime, et nii saame anda oma panuse ülemaailmsesse missiooni kaitstes niimoodi neid, kes on kõige haavatavamad."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "Kaheaastaselt diagnoosisid lastearstid meie pojal autismispektrihäire. Me panime tähele esimesi sümptomeid pärast tema teist vaktsineerimist. Ta muutus kergesti ärrituvaks, ta ei vaadanud enam meile otsa, ta ei tahtnud, et teda võetaks sülle.  Me lugesime meditsiiniajakirjast Lancet, et vaktsineerimisel leetrite, mumpsi ja punetiste kolmikvaktsiiniga ja autismil võib olla omavahel seos. Meie lastearst ütles aga, et antud artikkel on ajakirjast eemaldatud autorite väljamõeldud seoste  tõttu nimetatud vaktsiini ning autismi vahel ning et mitmed uurimused on selle seose ka ümber lükanud. Lastearst rääkis meile, et haigus diagnoositakse tavaliselt vanuses, kui lapsi vaktsineeritakse. Seega jõuavad mitmed vanemad ebaõigetele järeldustele, et  vaktsineerimise ja autismi vahel peab olema seos. Me saime sellest aru, mis ta ütles, aga ometi on hinges alles väike kahtlus."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "Ülikoolilinnakus, kus ma elan, teatati ulatuslikust leetrite puhangust.  Algas see mõnest üksikjuhtumist, kuid nüüdseks on nakatunuid juba palju. Mõned on sattunud juba ka haiglasse. Kuna leetrite tüsistused täiskasvanute jaoks võivad olla tõsised, otsustas ülikooli juhtkond, et kontaktõppesse pääsemiseks peab tudengil olema ette näidata vaktsineerimistõend või tunnistus leetrite läbipõdemise kohta. Kuna vaktsiinid pole kohustuslikud, siis ma arvan, et institutsioonid ei peaks sekkuma inimeste eraellu."
             }
         ],
@@ -299,32 +299,32 @@
         "storyCards" : [
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "My son Francesco was a lively, intelligent, curious boy who was always healthy. Two years ago, at the age of 12, he died suddenly of meningitis at a summer camp. During the holidays, another boy also went down with meningitis but suffered no further consequences. All the youngsters at the camps received a preventive dose of antibiotics. At the hospital, they told us there was a vaccine against the pathogen that killed our son. On top of the tremendous pain of losing my son, it hurts me even more, to think that he would still be alive today if he had been vaccinated."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "I was very reluctant to accept the flu vaccination when our family doctor offered it to us this year. Since we retired, my husband has developed heart failure, and we have been vaccinated every year. Still, we caught the flu last year even though we had been vaccinated. This year our doctor offered us the vaccine again, and, as he insisted, we agreed to be vaccinated. He told us this year’s virus was similar to the one that caused the Spanish flu epidemic at the beginning of the last century. Still, a terrible outbreak like that didn’t happen, and neither my husband nor I became ill. We have the impression that vaccination is a pointless, costly practice carried out for the benefit of drug companies."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "Our five years old daughter Anna has had several allergic to different foods, pollen, and medications, but also some vaccines towards which she has developed overreactions (high fever, skin rash all over the body), so it has been difficult for us as parents to give her all the recommended vaccines as scheduled. Since she went to preschool, we have been very worried after encountering other parents refusing vaccines for their children suggesting that vaccines are pointless, if not even dangerous. As Anna has not got all the scheduled vaccines, we are afraid she is especially vulnerable when being in the same group with children not vaccinated with the routinely scheduled vaccines."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "I read a World Health Organisation leaflet at the pediatrician’s surgery. In 1998, about a thousand children suffered paralysis daily due to the polio virus. Most of them lived in the poorest countries. After worldwide vaccination campaigns, in 2000, only 30 children a day suffered paralysis due to polio. When I had my son vaccinated, I felt part of a project. I did it for him, his brothers and sisters, and all children, particularly those in the most deprived situations."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "At the age of two, the paediatrician diagnosed a disorder on the autistic spectrum in our son Esteve. We detected the first symptoms after the second vaccination. He was irritable, he wouldn’t look at us, he didn’t like being picked up and he was living as if he were alone. We read an article on the internet from the medical journal Lancet that related autism and vaccines. The paediatrician told us the article had been withdrawn because of fraud and many subsequent studies had rejected the relationship between vaccination and autism. The paediatrician also told us that the disease is usually diagnosed at about the same time as children are vaccinated, so some people wrongly believe there is a link between the two things. We understood what he was saying, but that doubt will always be there."
             },
             {
                 "title": "",
-                "emoji": "🧔",
+                "image": "🧔",
                 "story": "An outbreak of measles has been declared at the university I’ve been attending for the last few months. To start with there were a few isolated cases, but the epidemic has spread and now a lot of people are ill. Some have been admitted to hospital. The complications of measles in adults can be serious, so the authorities decided that, in order to attend courses, vaccination records had to be presented or students would have to prove they had already had the disease. As vaccines are not compulsory, I don’t believe institutions should invade our privacy in this way."
             }
         ],

@@ -1,23 +1,29 @@
 <template>
     <div :lang="locale" 
-    class="flex flex-col justify-around relative
-        p-4
-        border-4 
+    class="flex flex-col justify-start relative
+        border-4
         text-center
         rounded-lg shadow-md break-inside-avoid 
         print:shadow-none" 
         :class="props.border"
         style="hyphens: auto;"
     >
-        <h3 v-if="props.emoji" class="text-center text-4xl my-4">{{ props.emoji }}</h3>
-        <h3 v-if="props.title" class="text-center text-[12pt] leading-none mt-0 mb-2">{{ props.title }}</h3>
-        <p class="text-[8pt] m-0 leading-tight text-justify print:font-sans" style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">{{ props.story }}</p>
-        <div class="absolute top-0 left-4 text-xs">{{ props.label }}</div>
+        <div v-if="props.image" 
+            :style="`background:url(https://evidence.onkel.ee/assets/cards/${props.image}); background-size:cover; background-position:50% 50%;`" 
+            class="h-[42mm] mb-[4mm]" >
+        </div>
+        <div v-else class="h-[24mm]"></div>
+
+        <h3 v-if="props.title" class="text-center text-[14pt] leading-tight mt-0 mb-[4mm] px-[4mm]">{{ props.title }}</h3>
+        <p class="text-[9pt] m-0 leading-tight text-justify px-[4mm] pb-[4mm]
+        print:font-sans" style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">{{ props.story }}</p>
+        
+        <div class="absolute top-0 left-[3mm] text-[8pt] bg-white px-1 rounded-b shadow">{{ props.label }}</div>
     </div>
 </template>
 <script setup>
     const props = defineProps({
-        emoji: {
+        image: {
             type: String,
             default: undefined
         },

@@ -14,8 +14,8 @@
 </script>
 
 <template>
-    <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl">
-        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-2rem)" /> <a href="answers" class="text-lg font-bold">Your answers</a>
+    <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl z-50 ring-4 ring-slate-700">
+        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <a href="answers" class="text-lg font-bold uppercase">Your answers</a>
     </section>
     
     <div class="flex flex-col items-start 
@@ -42,7 +42,7 @@
                         <a href="#activity-5">Group presentations</a>
                     </li>
                     <li>
-                        <a href="#activity-6">Game</a>
+                        <a href="#activity-6">Card game</a>
                     </li>
                 </ol>
             </template>
@@ -324,13 +324,31 @@
             </ul>
 
             
-            <a href="../tools/cardgame" target="_blank" class="my-6 px-4 py-2 inline-flex items-center gap-2 bg-sky-600 text-md rounded text-white no-underline uppercase transition
-            hover:bg-sky-700
-            print:hidden">
-                <icon name="material-symbols:print-outline-rounded" />Open printable cards
-            </a> (opens in new tab)
+            <UiCardInfo>
+                <div>
+                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
+                    
+                    <a href="../tools/cardgame" target="_blank" 
+                    class="my-6 px-4 py-2 inline-flex items-center gap-2 
+                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
+                    hover:bg-sky-700
+                    print:hidden">
+                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
+                    </a> (opens in new tab)
+                </div>
+            </UiCardInfo>
             
+            <hr>
+            
+            <h3>Theme 1</h3>
+
             <ToolsCardgameVirusesTheme1 />
+
+            <hr>
+
+            <h3>Theme 2</h3>
+
+            <ToolsCardgameVirusesTheme2 />
 
 
 
