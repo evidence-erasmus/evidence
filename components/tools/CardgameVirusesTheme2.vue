@@ -211,22 +211,22 @@
         "storyCards" : [
         {
                 "title": "",
-                "image": "card_viruses_1.webp",
+                "image": "card_viruses_21.webp",
                 "story": "Many people, some of them quite famous, were protesting against wearing masks in public spaces during the COVID-19 pandemic. The former baseball player Aubrey Huff (US) announced on Twitter that he would no longer wear a mask inside any business. “It’s unconstitutional to enforce,” he wrote. “Let’s make this bullshit stop now! Who’s with me?” His critics in social media had tried to shame him for “threatening the lives of millions of innocent people, yet those responses did nothing to persuade Huff to wear a mask. (theatlantic.com)"
             },
             {
                 "title": "",
-                "image": "card_viruses_2.webp",
+                "image": "card_viruses_22.webp",
                 "story": "I am working as a pharmacist. Today came, a woman to me to buy a prescription drug while heavily coughing but not wearing a mask. This was meant against her pneumonia, as she said. After I reminded her of the mask-wearing requirement and offered her one, she said she just got a negative corona result and didn’t need any. I didn’t have enough courage to refuse her to sell the medication as she probably strongly required it. Still, I feel frustrated about people who do not understand that COVID is not the only airborne disease."
             },
             {
                 "title": "",
-                "image": "card_viruses_1.webp",
+                "image": "card_viruses_23.webp",
                 "story": "I am a frequent gym visitor. Until now, I haven’t figured out how the mask-wearing rule in the gym could help prevent COVID. Namely, it is required to wear a mask in the locker room but not when in the shower or gym itself. It just does not make sense how wearing a mask in the locker room could help. Anyway, I am always healthy, and I think that I recover very quickly even if falling ill with the virus. Therefore, I don’t believe masks are of any use to me."
             },
             {
                 "title": "",
-                "image": "card_viruses_2.webp",
+                "image": "card_viruses_24.webp",
                 "story": "I am a nurse in a surgery department and wear a mask daily. Medical workers have been using it for years and are still not suffocating. By now, I have gotten sick from claims about how masks suffocate or induce carbon dioxide toxication, how complicated it is to put masks on when wearing glasses, and so on. Those who are very loud and talk about their rights all the time could think for a moment about the most vulnerable among us. How privileged is your life where wearing a mask is the most oppressed you have ever felt?"
             }
         ],
@@ -241,7 +241,7 @@
             },
             {
                 "title": "",
-                "story": "Masks are a vital measure to suppress transmission and save lives. Masks should be used as part of a comprehensive ‘Do it all!’ approach, including physical distancing, avoiding crowded, closed, and close-contact settings, good ventilation, cleaning hands, covering sneezes and coughs, and more. Depending on the type, masks can be used for either protection of healthy persons or to prevent onward transmission."
+                "story": "Masks are a vital measure to suppress transmission and save lives. Masks should be used as part of a comprehensive 'Do it all!' approach, including physical distancing, avoiding crowded, closed, and close-contact settings, good ventilation, cleaning hands, covering sneezes and coughs, and more. Depending on the type, masks can be used for either protection of healthy persons or to prevent onward transmission."
             },
             {
                 "title": "",
