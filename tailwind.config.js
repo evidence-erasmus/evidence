@@ -30,17 +30,16 @@ module.exports = {
         Heading: ["Alegreya", "cursive"],
         Body: ["Roboto Flex", "sans-serif"],
       },
-      // typography: (theme) => ({
-      //   DEFAULT: {
+      typography: (theme) => ({
+        DEFAULT: {
           
-      //       css: {
-      //         h4: {
-      //           color: theme('colors.red.800'),
-      //           fontSize: '4em'
-      //         }
-      //       }
-      //   }
-      // })
+            css: {
+              h4: {
+                fontSize: '1.25em'
+              }
+            }
+        }
+      })
     },
   },
   plugins: [

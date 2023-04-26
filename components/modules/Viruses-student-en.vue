@@ -227,7 +227,7 @@
 
 
 
-            <div class="w-full px-2 py-16 sm:px-0">
+            <div class="w-full px-2 py-16 sm:px-0" id="activity-3ab">
                 <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
                 <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
                     <Tab as="template" v-slot="{ selected }">
