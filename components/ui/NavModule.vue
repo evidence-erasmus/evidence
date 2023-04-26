@@ -9,7 +9,7 @@
             <NuxtLink :to="localePath('/viruses/student')" class="flex items-center gap-2 font-bold transition-all"
             :class="activePart == 'student' ? 'border-b-4 border-b-slate-700 py-3' : ''">
                 <!-- <Icon name="material-symbols:spatial-tracking-outline" class="text-xl -scale-x-100" /> -->
-                <span class="uppercase text-sm leading-0">{{ t('modules.for-students') }}</span>
+                <span class="uppercase text-sm leading-none">{{ t('modules.for-students') }}</span>
             </NuxtLink>
             <NuxtLink :to="localePath('/viruses/background')" class="flex items-center gap-2 font-bold transition-all"
             :class="activePart == 'background' ? 'border-b-4 border-b-slate-700 py-3' : ''">

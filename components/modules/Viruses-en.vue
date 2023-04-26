@@ -131,9 +131,9 @@
             <p>This module consists of 6 activities. The sequence of activities is given below. </p>
 
 
-            <div class="e-card flex flex-col items-center gap-4 pt-10 pb-20 bg-yellow-50 border-4 border-slate-300">
+            <section>
                                 
-                <h5 class="mb-0 pb-0 leading-none text-slate-400 uppercase font-normal font-Body">Stage 1</h5>
+                <h5 class="mb-2 pb-0 leading-none text-slate-500 uppercase font-normal font-Body">Stage 1</h5>
                 
                 <ModulesStructure>
                     <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
@@ -170,7 +170,7 @@
                     </template>
                 </ModulesStructure>
                 
-                <h5 class="mb-0 pb-0 mt-8 leading-none text-slate-400 uppercase font-normal font-Body">Stage 2</h5>
+                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 2</h5>
 
                 <ModulesStructure>
                     <template #title>Activity 3<br />MYTHBUSTING</template>
@@ -210,7 +210,7 @@
                 </ModulesStructure>
                 
 
-                <h5 class="mb-0 pb-0 mt-8 leading-none text-slate-400 uppercase font-normal font-Body">Stage 3</h5>
+                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 3</h5>
                 
                 <ModulesStructure>
                     <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
@@ -295,7 +295,7 @@
                 <Icon name="healthicons:virus-research" />
                 <Icon name="tabler:microscope" /> -->
 
-            </div>
+            </section>
 
 
 
@@ -379,9 +379,9 @@
             
             <p><b>Formative:</b></p>
             <ul>
-                <li>Oral/written feedback from the teacher (e.g. based on observations, questions asked) throughout the module, during the experiments, and in other formats of individual/group work.</li>
+                <li>Oral/written feedback from the teacher (e.g. based on observations, questions asked) throughout the module, during the experiments, and in other formats of individual / group work.</li>
                 <li>Self- and peer assessment on the group presentation using the pre-determined criteria and the <a href="../../tools/peerfeedback" target="_blank">following tool</a>.</li>
-                <li>Oral/written feedback from the teacher on individual/group worksheets.</li>
+                <li>Oral/written feedback from the teacher on individual / group worksheets.</li>
             </ul>
             
             <p><b>Summative:</b></p>
@@ -408,28 +408,33 @@
             <p><a href="https://youtu.be/eMAn2mfqR3A" target="_blank">The "fact video"</a> can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <a href="/viruses">Scientific background information</a> can be used for this purpose.</p>
 
             <p>Further, <b>Activity 3</b> can be enacted in two ways:</p>
+
+            <h4>1. Experimental</h4>
+
             <p>Students choose a myth that can be tested experimentally. From the given myths (see <a href="/viruses/student#activity-2">Activity 2</a>), only Myths 9 and 10 could be suitable for this purpose.</p>
 
-            <ol>
-                <li>
-                    <p>The belief that <b>masks are pointless in preventing upper respiratory diseases</b> (e.g. COVID-19) can be developed further into a testable hypothesis or research question. It would be good to use different types of masks (e.g. textile masks, N95, surgical face masks) in this experiment to get more varied and exciting results. Practical examples of how it can be operationalized in the classroom - can be used if students are less experienced with the open inquiry format (there exist two versions, one open and the other in a guided / structured inquiry format).</p>
-            
-                    <p>Students may explore the permeability of different masks to find out which, from the given, is best for blocking the tiny liquid drops in exhaled (or inhaled) air by which upper respiratory viruses usually spread. Tiny water droplets stream can be produced, e.g. via an ordinary spray bottle which enables each press to control the droplets' amount relatively well. This assumption can be tested using electronic scales - at least, whether the weight of droplets remains stable throughout the tests.</p>
-            
-                    <p>The water could be sprayed through each mask material while holding the spray bottle directly against the material. The results can be monitored by qualitatively estimating the intensity of the droplet stream coming through the material (or not). Another option could be that the paper towel sheet is held behind the mask at a certain distance (or directly against the material), and the wet stain on the paper is estimated and compared visually or measured directly by weighing the mass of the paper before and after each spray. The spread water droplets can be made more visible on the paper towel by using baking soda water instead and holding paper (sprayed previously with, for example, phenolphthalein solution and dried after that) at a certain distance from the mask and spray bottle when spraying.</p>
-            
-                    <p>The other aspect that can be qualitatively studied is how much the mask leaks from the sides or above the nose because it also significantly impacts their efficiency.</p>
-                </li>
-                <li>
-                    <p>Myth No 10 (<b>“Prolonged use of the mask produces hypoxia”</b>) can be tested, for example, by detecting finger pulse oximetry measures before and after prolonged wearing of a mask. Pulse oximeters (Fig. 2) can be bought from online stores and local pharmacy stores. Their prices start from a few euros, though it should be accepted that the cheapest oxymeters may remain unreliable for getting precise results.</p>
-                    
-                    Figure 2. Use of a pulse oximeter 
-                    
-                    <p>Before and throughout the testing, students should be encouraged to think about how to control the other variables than the type of mask. Students should analyze the potential sources of error and whether and how they can be avoided, or retrospectively after the experiment, how they could have been avoided. At the end of this activity, students are expected to try to find evidence from secondary sources to re-confirm their findings (they also enact <a href="/viruses/student#activity-3b">Activity 3b</a> in an abbreviated form).</p>
-                </li>
-            </ol>
+            <h5>Myth 9</h5>
 
+            <p>The belief that <b>masks are pointless in preventing upper respiratory diseases</b> (e.g. COVID-19) can be developed further into a testable hypothesis or research question. It would be good to use different types of masks (e.g. textile masks, N95, surgical face masks) in this experiment to get more varied and exciting results. Practical examples of how it can be operationalized in the classroom - can be used if students are less experienced with the open inquiry format (there exist two versions, one open and the other in a guided / structured inquiry format).</p>
             
+            <p>Students may explore the permeability of different masks to find out which, from the given, is best for blocking the tiny liquid drops in exhaled (or inhaled) air by which upper respiratory viruses usually spread. Tiny water droplets stream can be produced, e.g. via an ordinary spray bottle which enables each press to control the droplets' amount relatively well. This assumption can be tested using electronic scales - at least, whether the weight of droplets remains stable throughout the tests.</p>
+            
+            <p>The water could be sprayed through each mask material while holding the spray bottle directly against the material. The results can be monitored by qualitatively estimating the intensity of the droplet stream coming through the material (or not). Another option could be that the paper towel sheet is held behind the mask at a certain distance (or directly against the material), and the wet stain on the paper is estimated and compared visually or measured directly by weighing the mass of the paper before and after each spray. The spread water droplets can be made more visible on the paper towel by using baking soda water instead and holding paper (sprayed previously with, for example, phenolphthalein solution and dried after that) at a certain distance from the mask and spray bottle when spraying.</p>
+            
+            <p>The other aspect that can be qualitatively studied is how much the mask leaks from the sides or above the nose because it also significantly impacts their efficiency.</p>
+            
+            
+            <h5>Myth 10</h5>
+            
+            <p>Myth No 10 (<b>“Prolonged use of the mask produces hypoxia”</b>) can be tested, for example, by detecting finger pulse oximetry measures before and after prolonged wearing of a mask. Pulse oximeters (Fig. 2) can be bought from online stores and local pharmacy stores. Their prices start from a few euros, though it should be accepted that the cheapest oxymeters may remain unreliable for getting precise results.</p>
+                    
+            Figure 2. Use of a pulse oximeter 
+                    
+            <p>Before and throughout the testing, students should be encouraged to think about how to control the other variables than the type of mask. Students should analyze the potential sources of error and whether and how they can be avoided, or retrospectively after the experiment, how they could have been avoided. At the end of this activity, students are expected to try to find evidence from secondary sources to re-confirm their findings (they also enact <a href="/viruses/student#activity-3b">Activity 3b</a> in an abbreviated form).</p>
+            
+            
+            <h4>2. Secondary sources</h4>
+
             <p>In other cases, the virus-related myths cannot be busted (debunked) experimentally in the classroom. Therefore, students are expected to gather evidence from secondary sources to confirm or falsify their hypothesis/answer to their research question (<b>Activity 3b</b>). By juxtaposing information / data sources and their content, students critically analyze their reliability and make justified conclusions based on the evidence found. As reliability assessment can be a real challenge for students, the material is supplied with  tools for searching and analyzing the information. Also, the teacher could explain its use by demonstrating and analyzing both reliable and less reliable sources as learning examples before the students implement this tool.</p>
             
             <p>In order to learn to communicate their findings, students are guided to produce a video of their experiment as evidence or make a video of their conclusions based on secondary evidence (<b>Activity 4</b>). For this purpose, students can use a video tutorial. Alternatively, students could make a poster or slide to show of their findings.</p>

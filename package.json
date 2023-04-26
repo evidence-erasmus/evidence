@@ -15,16 +15,14 @@
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
     "@tailwindcss/typography": "^0.5.7",
     "gh-pages": "^4.0.0",
-    "nuxt": "^3.0.0",
+    "nuxt": "^3.4.2",
     "nuxt-headlessui": "^1.1.1",
-    "nuxt-icon": "^0.1.7"
+    "nuxt-icon": "^0.3.0"
   },
   "dependencies": {
     "@nuxtjs/i18n": "8.0.0-beta.10",
     "@pinia/nuxt": "^0.4.8",
-    "pinia": "^2.0.34"
-  },
-  "overrides": {
-    "vue": "latest"
+    "pinia": "^2.0.34",
+    "vue-contenteditable": "^4.1.0"
   }
 }

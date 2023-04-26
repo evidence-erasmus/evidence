@@ -45,7 +45,7 @@ export default defineNuxtConfig({
         langDir: 'locales',
         defaultLocale: 'en',
         customRoutes: 'config',
-        strictMessage: false,
+        // strictMessage: false,
         pages: {
             about: {
                 en: '/about',

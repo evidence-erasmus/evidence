@@ -1,5 +1,18 @@
 <template>
     <div>
+        
+        <label class="block mb-2 font-bold">{{ t('names') }}</label>
+
+        <contenteditable 
+            tag="div" 
+            contenteditable="true" 
+            v-model="message" 
+            :no-nl="false" 
+            :no-html="false" 
+            class="p-2 border border-slate-400 rounded mb-6 
+            focus-visible:outline-blue-500 
+            print:outline-0 print:mb-1" />
+        
         <table class="text-sm">
             <thead>
                 <tr>
@@ -8,7 +21,10 @@
                     class="text-center align-bottom p-1 leading-none
                     max-sm:h-[24ch]" 
                     >
-                        <span class="block max-sm:-rotate-90 max-sm:whitespace-nowrap max-sm:w-6">
+                        <span 
+                        class="block 
+                        w-14 md:w-20
+                        max-sm:-rotate-90 max-sm:whitespace-nowrap max-sm:w-6">
                             {{ rt(option) }}
                         </span>
                     </th>
@@ -32,15 +48,24 @@
 
 
 <script setup lang="ts">
+    import contenteditable from 'vue-contenteditable';
     const { t, tm, rt } = useI18n({
         useScope: 'local'
     });
+
+    const isEditable = ref(true);
+    const message = ref("")
+    function enterPressed(){
+        console.log("Enter pressed");
+    }
+
 </script>
 
 
 <i18n lang="json">
     {
       "en": {
+        "names" : "Students names belonging to the group:",
         "options" : [
             "Strongly agree",
             "Agree",
@@ -66,6 +91,7 @@
         "button-note" : "(or save as pdf)"
       },
       "et": {
+        "names" : "ET: Students names belonging to the group:",
         "options" : [
             "Strongly agree",
             "Agree",
@@ -91,6 +117,7 @@
         "button-note" : "(or save as pdf)"
       },
       "el": {
+        "names" : "EL: Students names belonging to the group:",
         "options" : [
             "Strongly agree",
             "Agree",
