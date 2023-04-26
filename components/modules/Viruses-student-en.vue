@@ -1,16 +1,12 @@
 <script setup>
     import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue';
-    
     import { useUserPreferences } from '~~/store/useUserPreferences'; 
 
     const userPrefs = useUserPreferences();
 
-    // const activeTab = ref(0);
-
     const changeTab = (index) => {
         userPrefs.setLearnPath("learnPathViruses", index);
     } 
-
 </script>
 
 <template>
