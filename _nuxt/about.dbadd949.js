@@ -1,1 +1,0 @@
-import{j as o,o as l,f as s,k as t,t as a}from"./entry.b05105fa.js";const p={__name:"about",setup(n){return o({useScope:"global"}),(e,u)=>(l(),s("div",null,[t("h1",null,a(e.$t("about.title")),1),t("p",null,a(e.$t("about.01")),1)]))}};export{p as default};
