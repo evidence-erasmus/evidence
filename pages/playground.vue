@@ -1,80 +1,192 @@
 <template>
-    <div class="w-full px-2 py-16 sm:px-0">
-      <TabGroup>
-        <TabList class="flex space-x-1 rounded-xl bg-slate-200 p-1">
-          <Tab
-            as="template"
-            v-slot="{ selected }"
-          >
-            <button
-              :class="[
-                'w-full rounded-lg py-2 text-md font-medium text-blue-700',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
-                selected
-                  ? 'bg-white shadow'
-                  : 'text-slate-600 hover:bg-white/[0.12] hover:text-white',
-              ]"
-            >
-            
-              Essor
-            </button>
-          </Tab>
-         
-          <Tab
-            as="template"
-            v-slot="{ selected }"
-          >
-            <button
-              :class="[
-                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
-                selected
-                  ? 'bg-white shadow'
-                  : 'text-blue-100 hover:bg-white/[0.12] hover:text-white',
-              ]"
-            >
-              Tessor
-            </button>
-          </Tab>
-          <Tab
-            as="template"
-            v-slot="{ selected }"
-          >
-            <button
-              :class="[
-                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
-                selected
-                  ? 'bg-white shadow'
-                  : 'text-blue-100 hover:bg-white/[0.12] hover:text-white',
-              ]"
-            >
-              Kossormaatik
-            </button>
-          </Tab>
-        </TabList>
-  
-        <TabPanels class="mt-2">
-          <TabPanel class="focus:outline-none">
-            <ModulesVirusesEn />
-          </TabPanel>
-          <TabPanel class="focus:outline-none">
-            <ModulesVirusesBackgroundEn />
-          </TabPanel>
-          <TabPanel class="focus:outline-none">
-            <h2>Kolmas sisu ja siin on seda juba kõvasti rohkem, oi kuite ainult teaskite kui palju rohkem... nojah, ütleme lausa mitu rida!</h2>
-          </TabPanel>
-        </TabPanels>
-      </TabGroup>
+    <div class="e-article">      
+      <div class="w-full overflow-x-auto block">    
+                <table class="card-table not-prose table-auto">
+                        <thead>
+                            <tr>
+                                <th>Story card</th>
+                                <th colspan="20">Info cards that are related to the particular story card</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th></th>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                            </tr>
+                            <tr>
+                                <th>4</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>5</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                            </tr>
+                            <tr>
+                                <th>6</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+
+
+
+      
+      
+      
     </div>
   </template>
   
 
   <script setup>
   
-  import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
   definePageMeta({
-        layout: "content",
+        layout: "content-left",
     });
   </script>
   

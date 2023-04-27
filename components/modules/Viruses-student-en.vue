@@ -56,18 +56,18 @@
             <h2 id="section-1">Introduction</h2>
 
             
-            <section class="e-card e-module__meta">
+            <!-- <section class="e-card e-module__meta">
                 <p class="m-0 leading-tight font-bold">
                     You may find <a href="https://docs.google.com/document/d/1DAi745eJ9z4-Nky9xG8-qXZk5kiMgk_Ti8yDXuFU7tI/edit?usp=sharing" target="_blank">this Google Docs document</a> useful to write down your answers.
                 </p>
-            </section>
+            </section> -->
 
 
             <p>
                 This module invites you to falsify (“bust”) or confirm a common myth about viruses. In a video introduction, a few virus-related beliefs are brought up, after which you are expected to express your opinion and discuss the topic within your group. Also, you are invited to opt out of one myth about the viruses to be busted, whether based on secondary evidence (e.g., information searches from the internet) or experimentally. 
             </p>
             <p>
-                Through this activity, you learn to assess the reliability of information sources (through science/research databases, by studying popular science and other media) and/or develop further your experimentation skills. In both cases, you need to pose a testable hypothesis or a research question and then find evidence to confirm/falsify the hypothesis/answer your research question. After making conclusions, you are invited to prepare and present your findings to your classmates (or other audiences) in a relevant and convincing manner through a short video post, poster, slideshow, etc. The module is finished with a board game where you must decide on virus-related issues.
+                Through this activity, you learn to assess the reliability of information sources (through science/research databases, by studying popular science and other media) and/or develop further your experimentation skills. In both cases, you need to pose a testable hypothesis or a research question and then find evidence to confirm / falsify the hypothesis / answer your research question. After making conclusions, you are invited to prepare and present your findings to your classmates (or other audiences) in a relevant and convincing manner through a short video post, poster, slideshow, etc. The module is finished with a board game where you must decide on virus-related issues.
             </p>
         
                 

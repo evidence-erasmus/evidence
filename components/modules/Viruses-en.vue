@@ -56,7 +56,7 @@
             </section>
 
             <p>In this module, students are invited to falsify (“bust”) or confirm a common myth about viruses and vaccination. In an introductory video, the story of a boy who denies the existence of a virus that is spreading in his school is brought up, after which students are asked to reflect and share their first thoughts about it. In addition to simple denialism, there are many other opinions and beliefs (let us say “myths”) about viruses and vaccination in our society. After students are introduced to several of the most prevailing topic-related myths, they are challenged to pick up one myth to falsify or confirm. Based on the nature of this topic, this activity is planned to be conducted whether based on secondary evidence  (searches from the internet) or experimentally. Through this activity, students learn to assess the reliability of information/sources (from science/research databases, popular science, and other media) and/or develop further their experimentation skills. After making conclusions, students prepare to present their findings to their classmates (or other audiences) in a relevant and convincing manner (e.g. video posts). The module is finished with a board game where students can make socio-scientific decisions using their scientific knowledge while incorporating it with personal and social values.</p>
-            <p>The module consists of teacher material (teaching suggestions and science background information) and student material (a video scenario, interactive worksheets, fact videos, and a video tutorial).</p>
+            <p>The module consists of teacher material (teaching suggestions and science background information) and student material (a video scenario, interactive worksheets, fact videos, and a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>).</p>
 
 
             <!-- meta, vajab paremat lahendust -->
@@ -380,7 +380,7 @@
             <p><b>Formative:</b></p>
             <ul>
                 <li>Oral/written feedback from the teacher (e.g. based on observations, questions asked) throughout the module, during the experiments, and in other formats of individual / group work.</li>
-                <li>Self- and peer assessment on the group presentation using the pre-determined criteria and the <a href="../../tools/peerfeedback" target="_blank">following tool</a>.</li>
+                <li>Self- and peer assessment on the group presentation using the pre-determined criteria and the <nuxt-link to="../tools/peerfeedback" target="_blank">following tool</nuxt-link>.</li>
                 <li>Oral/written feedback from the teacher on individual / group worksheets.</li>
             </ul>
             
@@ -403,15 +403,15 @@
             <hr id="section-7" class="mt-10 mb-40 print:my-10" />
             <h2>Teaching suggestions</h2>
 
-            <p>The module starts with an introductory video for opening up the topic “Viruses” to raise further questions in students rather than giving them immediate answers. It is expected that after watching the <a href="https://youtu.be/t4v-36h2noo" target="_blank">video</a> (<b>Activity 1</b>), students in groups will feel intrinsically motivated to examine virus-related myths and beliefs more thoroughly. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It also draws students’ attention to thinking about their prior knowledge and sharing their conceptions and views with peers (<b>Activity 2</b>). Within Activity 2, students are introduced to 10 myths about viruses, vaccination, and mask-wearing, from which they must choose one to be further busted. Activity 2 should help students narrow down their chosen myth into a hypothesis/research question that can be falsified/confirmed/answered (<b>Activity 3</b>). It may be that students need help when trying to pose it. Therefore, the teacher could help them by drawing examples of good (e.g. testable) and bad hypotheses/questions before they draw them themselves. The <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">following resource</a> could be helpful for that.</p>
+            <p>The module starts with an introductory video for opening up the topic “Viruses” to raise further questions in students rather than giving them immediate answers. It is expected that after watching the <a href="https://youtu.be/t4v-36h2noo" target="_blank" rel="noopener noreferrer">video</a> (<b>Activity 1</b>), students in groups will feel intrinsically motivated to examine virus-related myths and beliefs more thoroughly. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It also draws students’ attention to thinking about their prior knowledge and sharing their conceptions and views with peers (<b>Activity 2</b>). Within Activity 2, students are introduced to 10 myths about viruses, vaccination, and mask-wearing, from which they must choose one to be further busted. Activity 2 should help students narrow down their chosen myth into a hypothesis/research question that can be falsified/confirmed/answered (<b>Activity 3</b>). It may be that students need help when trying to pose it. Therefore, the teacher could help them by drawing examples of good (e.g. testable) and bad hypotheses/questions before they draw them themselves. The <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">following resource</a> could be helpful for that.</p>
             
-            <p><a href="https://youtu.be/eMAn2mfqR3A" target="_blank">The "fact video"</a> can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <nuxt-link href="/viruses/background">Scientific background information</nuxt-link> can be used for this purpose.</p>
+            <p><a href="https://youtu.be/eMAn2mfqR3A" target="_blank" rel="noopener noreferrer">The "fact video"</a> can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <nuxt-link to="/viruses/background">Scientific background information</nuxt-link> can be used for this purpose.</p>
 
             <p>Further, <b>Activity 3</b> can be enacted in two ways:</p>
 
             <h3>1. Experimental</h3>
 
-            <p>Students choose a myth that can be tested experimentally. From the given myths (see <a href="/viruses/student#activity-2">Activity 2</a>), only Myths 9 and 10 could be suitable for this purpose.</p>
+            <p>Students choose a myth that can be tested experimentally. From the given myths (see <nuxt-link to="/viruses/student#activity-2">Activity 2</nuxt-link>), only Myths 9 and 10 could be suitable for this purpose.</p>
 
             <h4>Myth 9</h4>
 
@@ -437,9 +437,9 @@
 
             <p>In other cases, the virus-related myths cannot be busted (debunked) experimentally in the classroom. Therefore, students are expected to gather evidence from secondary sources to confirm or falsify their hypothesis/answer to their research question (<b>Activity 3b</b>). By juxtaposing information / data sources and their content, students critically analyze their reliability and make justified conclusions based on the evidence found. As reliability assessment can be a real challenge for students, the material is supplied with  tools for searching and analyzing the information. Also, the teacher could explain its use by demonstrating and analyzing both reliable and less reliable sources as learning examples before the students implement this tool.</p>
             
-            <p>In order to learn to communicate their findings, students are guided to produce a video of their experiment as evidence or make a video of their conclusions based on secondary evidence (<b>Activity 4</b>). For this purpose, students can use a video tutorial. Alternatively, students could make a poster or slide to show of their findings.</p>
+            <p>In order to learn to communicate their findings, students are guided to produce a video of their experiment as evidence or make a video of their conclusions based on secondary evidence (<b>Activity 4</b>). For this purpose, students can use a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>. Alternatively, students could make a poster or slide to show of their findings.</p>
                 
-            <p>Also, student material is provided with criteria the video (poster, etc.) should fulfill. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video (poster, etc.) and answering the questions of their peers and the teacher (<b>Activity 5</b>). For the last, students can use the following <nuxt-link href="/tools/peerfeedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> assessment tool</nuxt-link> to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only the feedback given to their own presentation, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.</p>
+            <p>Also, student material is provided with criteria the video (poster, etc.) should fulfill. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video (poster, etc.) and answering the questions of their peers and the teacher (<b>Activity 5</b>). For the last, students can use the following <nuxt-link to="../tools/peerfeedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> assessment tool</nuxt-link> to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only the feedback given to their own presentation, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.</p>
 
             <p>In the last activity (<b>Activity 6</b>), the storyline of the module returns to the introductory video and the presented myths. Based on the lessons learned from the earlier stages, students prepare to make decisions on an individual or group level in the format of a board game where they have an opportunity to juxtapose and reflect on their learned science knowledge and their personal and social values. Two themes can be used for playing. The theme "Vaccination" is meant for students who can handle more information and consider more aspects simultaneously. In comparison, "Wearing masks by upper respiratory infection pandemics" has less information to read through and can be used by younger students or students with less cognitive processing skills. Also, it is possible that the teacher her/himself, while knowing her/his students well, will omit some story or information cards to reduce their possible cognitive overload.</p>
 
@@ -447,181 +447,183 @@
 
             <p><b>Table 2.</b> Story cards and respective info cards on the topic “Vaccination” (Activity 6)</p>
             
-            <table class="card-table border border-slate-400 rounded-lg">
-                <thead>
-                    <tr>
-                        <th>Story card</th>
-                        <th colspan="20">Info cards that are related to the particular story card</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th></th>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                        <td>18</td>
-                        <td>19</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <th>1</th>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td>&times;</td>
-                    </tr>
-                    <tr>
-                        <th>4</th>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>5</th>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td>&times;</td>
-                    </tr>
-                    <tr>
-                        <th>6</th>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                        <td></td>
-                        <td>&times;</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="w-full overflow-x-auto block">    
+                <table class="card-table not-prose table-auto">
+                        <thead>
+                            <tr>
+                                <th>Story card</th>
+                                <th colspan="20">Info cards that are related to the particular story card</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th></th>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                            </tr>
+                            <tr>
+                                <th>4</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>5</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                            </tr>
+                            <tr>
+                                <th>6</th>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                                <td></td>
+                                <td>&times;</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
 
             <p>The rules of play are given in student instruction. Students must be instructed shortly before the start to understand the game's general flow.</p>
             
-            <p>All myths are backed up by <nuxt-link href="/viruses/background">Scientific background information</nuxt-link>, which explains the state-of-the-art science behind it and enables the teacher to get a quick overview of the science covered by the "Viruses" module but could also be used as learning material for students to recall virus-related knowledge. </p>
+            <p>All myths are backed up by <nuxt-link to="/viruses/background">Scientific background information</nuxt-link>, which explains the state-of-the-art science behind it and enables the teacher to get a quick overview of the science covered by the "Viruses" module but could also be used as learning material for students to recall virus-related knowledge. </p>
 
 
         </section>
@@ -630,6 +632,11 @@
 
 <style scoped>
     .card-table td, .card-table th {
-        @apply text-sm leading-none border border-slate-200 p-1.5;
+        @apply text-sm leading-none border border-slate-200 p-1;
+    }
+    .card-table tr>th:first-child, .card-table tr>td:first-child {
+        position: sticky;
+        left: 0;
+        background: white;
     }
 </style>
