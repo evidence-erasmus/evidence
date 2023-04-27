@@ -5,8 +5,7 @@
         <section class="mb-10 mt-5 
             print:flex print:flex-wrap print:gap-2"
             :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
-        >
-            
+        >   
             <ToolsCardgameCard v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
                 :image="rt(cardS.image)" :story="rt(cardS.story)" :label="`${t('storyCardsLabel')} ${i+1}`" border="border-blue-600"
                 class="print:w-[70mm] print:h-[121mm]"
@@ -23,6 +22,20 @@
         >
             <ToolsCardgameCard v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
                 :title="rt(cardI.title)" :story="rt(cardI.story)" :label="`${t('infoCardsLabel')} ${i+1}`"
+                class="print:w-[70mm] print:h-[121mm]"
+                :class="props.printMode ? 'w-[70mm] h-[121mm]' : ''"
+            />
+            
+        </section>
+
+        <h2 class="text-2xl print:break-before-page">{{ t('positionCardsTitle') }}</h2>
+
+        <section class="mb-10 mt-5 
+            print:flex print:flex-wrap print:gap-2"
+            :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
+        >
+            <ToolsCardgameCard v-for="(cardP, i) in tm('positionCards')" :key="`cardP${i}`"
+                :title="rt(cardP.title)" :story="rt(cardP.position)" border="border-amber-500"
                 class="print:w-[70mm] print:h-[121mm]"
                 :class="props.printMode ? 'w-[70mm] h-[121mm]' : ''"
             />
@@ -50,6 +63,7 @@
       "en": {
         "storyCardsTitle" : "Story cards",
         "infoCardsTitle" : "Info cards",
+        "positionCardsTitle" : "Position cards",
         "storyCardsLabel" : "Story",
         "infoCardsLabel" : "Info",
         "storyCards" : [
@@ -169,42 +183,61 @@
                 "title": "Raising the probability of not becoming infected",
                 "story": "Based on the data from Los Angeles County, unvaccinated people were about 29 times more likely to be hospitalized with COVID-19 than those who were fully vaccinated, according to a CDC (Centers for Disease Control and Prevention in the US) report in 2021."
             }
+        ],
+        "positionCards" : [
+            {
+                "title" : "Position 1",
+                "position": "The State establishes a compulsory vaccination schedule for everyone. The vaccines it includes are free, and penalties are imposed on people who choose not to be vaccinated or not to have their children vaccinated."
+            },
+            {
+                "title" : "Position 2",
+                "position": "The State insists on only a few vaccines, following a compulsory vaccination schedule. An optional schedule is also established for the vaccines not considered to be such high priorities. The vaccines included in the calendar are free, and penalties are not imposed on people who do not follow the compulsory vaccination schedule."
+            },
+            {
+                "title" : "Position 3",
+                "position": "The State takes on the task of recommending some vaccines. It does not compel its citizens; it allows them to choose responsibly, providing them with all necessary information and covering the costs."
+            },
+            {
+                "title" : "Position 4",
+                "position": "Following the principle of freedom of choice, the State does not become involved in issues concerning vaccination. Citizens must get information for themselves (for example, via their doctors) and decide whether they want to be vaccinated and against which diseases. The State does not cover the cost of these vaccines."
+            }
         ]
       },
       "et": {
         "storyCardsTitle" : "Lookaardid",
         "infoCardsTitle" : "Infokaardid",
+        "positionCardsTitle" : "Arvamuskaardid",
         "storyCardsLabel" : "Lugu",
         "infoCardsLabel" : "Info",
         "storyCards" : [
             {
                 "title": "",
-                "image": "🧔",
-                "story": "Meie poeg Martin oli elav, arukas ja uudishimulik poiss, kes oli alati terve. Kaks aastat tagasi, kui ta sai 12, haigestus ta suvelaagris ootamatult meningiiti. Ka teine poiss laagris jäi meningiiti, kuid ta ei saanud haigusest pikaajalisi tüsistusi. Kõik ülejäänud lapsed said haiguse ennetamiseks antibiootikume. Haiglas öeldi meile, et tegelikult oli meie poja tapnud haigustekitaja vastu olemas vaktsiin. Kogu selle kaotusvalu tipuks piinab meid teadmine, et  ta võinuks olla veel elus, kui me oleksime teda lasknud meningiidi vastu vaktsineerida."
+                "image": "card_viruses_11.webp",
+                "story": "Meie poeg Martin oli elav, arukas ja uudishimulik, alati terve poiss. Kaks aastat tagasi, kui ta sai 12, haigestus ta suvelaagris ootamatult meningiiti. Ka teine poiss laagris jäi meningiiti, kuid ta ei saanud haigusest pikaajalisi tüsistusi. Kõik ülejäänud lapsed said haiguse ennetamiseks antibiootikume. Haiglas öeldi meile, et tegelikult oli meie poja tapnud haigustekitaja vastu olemas vaktsiin. Kogu selle kaotusvalu tipuks piinab meid teadmine, et  ta võinuks olla veel elus, kui me oleksime teda lasknud meningiidi vastu vaktsineerida."
             },
             {
                 "title": "",
-                "image": "🧔",
-                "story": "Pensionilejäämisest alates on mu mehel olnud südamepuudulikkus. Me oleme vaktsineerinud ennast igal aastal, kuid eelmisel aastal saime mõlemad gripi, kuigi olime selle vastu vaktsineeritud. Seetõttu olin ma väga tõrges gripivaktsiini suhtes, mida meie perearst sel aastal meile pakkus, kuigi lõpuks me nõustusime. Ta ütles meile, et selle aasta viirus on üsna sarnane sellele, mis põhjustas hispaania gripi epideemia eelmisel sajandil. Kuid epideemiat ei tulnud ning me ka  ei haigestunud sellesse. Meil on tunne, et vaktsineerimine on mõttetu ning kulukas praktika, mida üritavad edendada ravimiettevõtted."
+                "image": "card_viruses_12.webp",
+                "story": "Pensionile jäämisest alates on mu mehel olnud südamepuudulikkus. Me oleme vaktsineerinud ennast igal aastal, kuid eelmisel aastal saime mõlemad gripi, kuigi olime selle vastu vaktsineeritud. Seetõttu olin ma väga tõrges gripivaktsiini suhtes, mida meie perearst sel aastal meile pakkus, kuigi lõpuks me nõustusime. Ta ütles meile, et selle aasta viirus on üsna sarnane sellele, mis põhjustas hispaania gripi epideemia eelmisel sajandil. Kuid epideemiat ei tulnud ning me ka  ei haigestunud sellesse. Meil on tunne, et vaktsineerimine on mõttetu ning kulukas praktika, mida üritavad edendada ravimiettevõtted."
             },
             {
                 "title": "",
-                "image": "🧔",
-                "story": "Meie 5-aastasel tütrel Annil on olnud rida erinevaid allergiaid küll teatud toiduainete, tolmu, ravimite, aga ka mõne vaktsiini suhtes, mille  manustamise järgselt on tal tekkinud äge reaktsioon (kõrge palavik, lööve üle terve keha), mistõttu on talle olnud riskantne kõiki ettenähtud vaktsiine õigel ajal anda. Sellest ajast peale, kui ta läks eelkooli, oleme me olnud väga mures, kuna oleme seal kohanud vanemaid, kes on täielikult keeldunud oma  lapsele vaktsiine manustamast öeldes, et need on kasutud või lausa ohtlikud. Kuna ka Anni pole saanud päris kõiki ettenähtud vaktsiine, siis me kardame, et ta võib olla nende  laste seltskonnas eksponeeritud ning samas vastuvõtlik mõnedele ohtlikele haigustele."
+                "image": "card_viruses_13.webp",
+                "story": "Meie 5-aastasel tütrel Annil on olnud rida erinevaid allergiaid küll teatud toiduainete, tolmu, ravimite, aga ka mõne vaktsiini suhtes, mille manustamise järgselt on tal tekkinud äge reaktsioon (kõrge palavik, lööve üle terve keha), mistõttu on talle olnud riskantne kõiki ettenähtud vaktsiine õigel ajal anda. Sellest ajast peale, kui ta läks eelkooli, oleme me olnud väga mures, kuna oleme seal kohanud vanemaid, kes on täielikult keeldunud oma  lapsele vaktsiine manustamast öeldes, et need on kasutud või lausa ohtlikud. Kuna ka Anni pole saanud päris kõiki ettenähtud vaktsiine, siis me kardame, et ta võib olla nende laste seltskonnas eksponeeritud ning samas vastuvõtlik mõnedele ohtlikele haigustele."
             },
             {
                 "title": "",
-                "image": "🧔",
-                "story": "Ma lugesin Maailma Tervishoiu Organisatsiooni teabelehest, et 1998. a. kannatas ligi 1000 last igapäevaselt  lastehalvatusest tingitud paralüüsi (lihasjõu kadumise) all. Enamus neist elasid maailma kõige vaesemates riikides. Pärast ülemaailmset vaktsineerimiskampaaniat, kannatas teadaolevalt lastehalvatuse paralüüsi  all igapäevaselt  vaid 30 last maailmas. Vaktsineerisime lastehalvatuse vastu ära ka oma lapse, kuna tundsime, et nii saame anda oma panuse ülemaailmsesse missiooni kaitstes niimoodi neid, kes on kõige haavatavamad."
+                "image": "card_viruses_14.webp",
+                "story": "Lugesin Maailma Tervishoiu Organisatsiooni teabelehest, et 1998. a. kannatas ligi 1000 last igapäevaselt lastehalvatusest tingitud paralüüsi (lihasjõu kadumise) all. Enamus neist elasid maailma kõige vaesemates riikides. Pärast ülemaailmset vaktsineerimiskampaaniat, kannatas teadaolevalt lastehalvatuse paralüüsi all igapäevaselt vaid 30 last maailmas. Vaktsineerisime lastehalvatuse vastu ära ka oma lapse, kuna tundsime, et nii saame anda oma panuse ülemaailmsesse missiooni kaitstes niimoodi neid, kes on kõige haavatavamad."
             },
             {
                 "title": "",
-                "image": "🧔",
-                "story": "Kaheaastaselt diagnoosisid lastearstid meie pojal autismispektrihäire. Me panime tähele esimesi sümptomeid pärast tema teist vaktsineerimist. Ta muutus kergesti ärrituvaks, ta ei vaadanud enam meile otsa, ta ei tahtnud, et teda võetaks sülle.  Me lugesime meditsiiniajakirjast Lancet, et vaktsineerimisel leetrite, mumpsi ja punetiste kolmikvaktsiiniga ja autismil võib olla omavahel seos. Meie lastearst ütles aga, et antud artikkel on ajakirjast eemaldatud autorite väljamõeldud seoste  tõttu nimetatud vaktsiini ning autismi vahel ning et mitmed uurimused on selle seose ka ümber lükanud. Lastearst rääkis meile, et haigus diagnoositakse tavaliselt vanuses, kui lapsi vaktsineeritakse. Seega jõuavad mitmed vanemad ebaõigetele järeldustele, et  vaktsineerimise ja autismi vahel peab olema seos. Me saime sellest aru, mis ta ütles, aga ometi on hinges alles väike kahtlus."
+                "image": "card_viruses_15.webp",
+                "story": "Kaheaastaselt diagnoosisid lastearstid meie pojal autismispektri häire. Me panime tähele esimesi sümptomeid pärast tema teist vaktsineerimist. Ta muutus kergesti ärrituvaks, ta ei vaadanud enam meile otsa, ta ei tahtnud, et teda võetaks sülle. Me lugesime meditsiiniajakirjast Lancet, et vaktsineerimisel leetrite, mumpsi ja punetiste kolmikvaktsiiniga ning autismil võib olla omavahel seos. Meie lastearst ütles aga, et antud artikkel on ajakirjast eemaldatud autorite väljamõeldud seoste tõttu nimetatud vaktsiini ning autismi vahel ning et mitmed uurimused on selle seose ka ümber lükanud. Lastearst rääkis meile, et haigus diagnoositakse tavaliselt vanuses, kui lapsi vaktsineeritakse. Seega jõuavad mitmed vanemad ebaõigetele järeldustele, et  vaktsineerimise ja autismi vahel peab olema seos. Me saime küll aru, mis ta ütles, aga ometi on hinges alles väike kahtlus."
             },
             {
                 "title": "",
-                "image": "🧔",
+                "image": "card_viruses_16.webp",
                 "story": "Ülikoolilinnakus, kus ma elan, teatati ulatuslikust leetrite puhangust.  Algas see mõnest üksikjuhtumist, kuid nüüdseks on nakatunuid juba palju. Mõned on sattunud juba ka haiglasse. Kuna leetrite tüsistused täiskasvanute jaoks võivad olla tõsised, otsustas ülikooli juhtkond, et kontaktõppesse pääsemiseks peab tudengil olema ette näidata vaktsineerimistõend või tunnistus leetrite läbipõdemise kohta. Kuna vaktsiinid pole kohustuslikud, siis ma arvan, et institutsioonid ei peaks sekkuma inimeste eraellu."
             }
         ],
@@ -289,11 +322,30 @@
                 "title": "Vaktsiinid ja immuunsüsteem",
                 "story": "Imikud ja lapsed on eksponeeritud viirustele ja mikroobidele, kui nad hingavad, söövad ja mängivad. Viirused ise, nende valgud ning muud ained, mida nad eraldavad, toimivad  antigeenidena ehk teiste sõnadega, need aktiveerivad immuunvastuse. Antigeenide hulk, millega lapsed igapäevaselt võitlevad - 2000-6000, on palju suurem kui antigeenide arv, mida kasutatakse vaktsineerimisel. Laste immuunsüsteem on hästi ette valmistatud vaktsiinide talumiseks."
             }
+        ],
+        "positionCards" : [
+            {
+                "title" : "Position 1",
+                "position": "The State establishes a compulsory vaccination schedule for everyone. The vaccines it includes are free, and penalties are imposed on people who choose not to be vaccinated or not to have their children vaccinated."
+            },
+            {
+                "title" : "Position 2",
+                "position": "The State insists on only a few vaccines, following a compulsory vaccination schedule. An optional schedule is also established for the vaccines not considered to be such high priorities. The vaccines included in the calendar are free, and penalties are not imposed on people who do not follow the compulsory vaccination schedule."
+            },
+            {
+                "title" : "Position 3",
+                "position": "The State takes on the task of recommending some vaccines. It does not compel its citizens; it allows them to choose responsibly, providing them with all necessary information and covering the costs."
+            },
+            {
+                "title" : "Position 4",
+                "position": "Following the principle of freedom of choice, the State does not become involved in issues concerning vaccination. Citizens must get information for themselves (for example, via their doctors) and decide whether they want to be vaccinated and against which diseases. The State does not cover the cost of these vaccines. "
+            }
         ]
       },
       "el": {
         "storyCardsTitle" : "Story cards EL",
         "infoCardsTitle" : "Info cards EL",
+        "positionCardsTitle" : "Position cards EL",
         "storyCardsLabel" : "Story EL",
         "infoCardsLabel" : "Info EL",
         "storyCards" : [
@@ -412,6 +464,24 @@
             {
                 "title": "Raising the probability of not becoming infected",
                 "story": "Based on the data from Los Angeles County, unvaccinated people were about 29 times more likely to be hospitalized with COVID-19 than those who were fully vaccinated, according to a CDC (Centers for Disease Control and Prevention in the US) report in 2021."
+            }
+        ],
+        "positionCards" : [
+            {
+                "title" : "Position 1",
+                "position": "The State establishes a compulsory vaccination schedule for everyone. The vaccines it includes are free, and penalties are imposed on people who choose not to be vaccinated or not to have their children vaccinated."
+            },
+            {
+                "title" : "Position 2",
+                "position": "The State insists on only a few vaccines, following a compulsory vaccination schedule. An optional schedule is also established for the vaccines not considered to be such high priorities. The vaccines included in the calendar are free, and penalties are not imposed on people who do not follow the compulsory vaccination schedule."
+            },
+            {
+                "title" : "Position 3",
+                "position": "The State takes on the task of recommending some vaccines. It does not compel its citizens; it allows them to choose responsibly, providing them with all necessary information and covering the costs."
+            },
+            {
+                "title" : "Position 4",
+                "position": "Following the principle of freedom of choice, the State does not become involved in issues concerning vaccination. Citizens must get information for themselves (for example, via their doctors) and decide whether they want to be vaccinated and against which diseases. The State does not cover the cost of these vaccines. "
             }
         ]
       }

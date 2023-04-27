@@ -11,7 +11,7 @@
 
 <template>
     <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl z-50 ring-4 ring-slate-700">
-        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <a href="answers" class="text-lg font-bold uppercase">Your answers</a>
+        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Your answers</nuxt-link>
     </section>
     
     <div class="flex flex-col items-start 
@@ -322,29 +322,129 @@
             
             <hr>
             
-            <h3>Theme 1</h3>
+            <p>The game is played in groups (á 4 players).</p>
+
+            <h3>Phase I - Choosing a story (≈20 minutes)</h3>
+
+            <p>There are two themes:</p>
+
+            <div class="grid grid-cols-2 gap-2">
+                <div class="e-card text-center">
+                    <p class="my-2">Theme 1</p>
+                    <h4 class="my-1 leading-none">Vaccination</h4>
+                </div>
+                <div class="e-card text-center">
+                    <p class="my-2">Theme 2</p>
+                    <h4 class="my-1 leading-none">Wearing masks by upper respiratory infection pandemics</h4>
+                </div>
+            </div>
+
+
+            <p>Both themes have several cases (story cards) related to the theme.</p>
+
+            <div class="flex flex-wrap gap-2">
+                <div class="e-card text-center">Story 1</div>
+                <div class="e-card text-center">Story 2</div>
+                <div class="e-card text-center">Story 3</div>
+                <div class="e-card text-center">Story 4</div>
+                <div class="e-card text-center">Story ...</div>
+            </div>
+
+            
+            <p>Each player reads through the story cards. They each choose one they find personally significant (meaningful). Each player briefly summarizes his/her story card to the rest of the group.</p>
+
+            <p>Both themes (vaccination and wearing masks) have several info cards related to each.</p>
+
+            <div class="flex flex-wrap gap-2">
+                <div class="e-card text-center">Info 1</div>
+                <div class="e-card text-center">Info 2</div>
+                <div class="e-card text-center">Info 3</div>
+                <div class="e-card text-center">Info 4</div>
+                <div class="e-card text-center">Info 5</div>
+                <div class="e-card text-center">Info 6</div>
+                <div class="e-card text-center">Info ...</div>
+            </div>
+
+            <p>All players exchange and read info cards. They each choose two they find personally significant (meaningful). Each player briefly summarizes their chosen info cards to the group.</p>
+
+
+
+            <h3>Phase II - Discussion (≈20 min)</h3>
+            
+            <p>Discussion: In this stage, players share their opinion(s) with others and refine their points of view as they hear different arguments and perspectives. Players use the cards gathered in phase I to support their opinions. Players can record the discussion by making clusters around the themes that reflect the group’s vision. All types of cards can be used to create a cluster.</p>
+            
+
+
+            <h3>Phase III - Opinions (≈20 min)</h3>
+
+            <p>Players will read through different position cards and prepare to vote for one position that best represents their opinion (at the end of the game).</p>
+
+            <div class="flex flex-wrap gap-2">
+                <div class="e-card text-center">Position 1</div>
+                <div class="e-card text-center">Position 2</div>
+                <div class="e-card text-center">Position 3</div>
+                <div class="e-card text-center">Position 4</div>
+            </div>
+
+            <p>A shared group response: This stage invites players to look at issues as a group: what opinions are present in your group? Can you reach a positive consensus on a position?<br /></p>
+
+            <p><b>This stage can be conducted by the following activities:</b></p>
+            <ol>
+                <li class="my-4 leading-tight">
+                    Read through policy positions 1-4.
+                </li>
+                <li class="my-4 leading-tight">
+                    Try to look for common ground. Is there a policy position you can all live with? If not, try to formulate your own “fifth policy” as a group. 
+                </li>
+                <li class="my-4 leading-tight">
+                    All players vote individually in turn on all policies. 
+                </li>
+                <li class="my-4 leading-tight">
+                    Votes are recorded on the voting sheet, which provides an excellent visual summary and allows you to compare your group’s results with that of other players.
+                </li>
+            </ol>
+
+
+
+
+
+            <h3>Game cards: Theme 1</h3>
 
             <UiCardInfo>
                 <div>
                     <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
                     
-                    <a href="../tools/cardgame" target="_blank" 
+                    <nuxt-link to="../tools/cards/viruses/theme1" target="_blank" 
                     class="mb-3 px-4 py-2 inline-flex items-center gap-2 
                     bg-sky-600 text-md rounded text-white no-underline uppercase transition
                     hover:bg-sky-700
                     print:hidden">
                         <icon name="material-symbols:print-outline-rounded" />Open printable cards
-                    </a> (opens in new tab)
+                    </nuxt-link> (opens in new tab)
                 </div>
             </UiCardInfo>
 
-            <ToolsCardgameVirusesTheme1 />
+            <ToolsCardgameVirusesTheme1 :printMode="false" />
 
             <hr>
 
-            <h3>Theme 2</h3>
+            <h3>Game cards: Theme 2</h3>
 
-            <ToolsCardgameVirusesTheme2 />
+            <UiCardInfo>
+                <div>
+                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
+                    
+                    <nuxt-link to="../tools/cards/viruses/theme2" target="_blank" 
+                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
+                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
+                    hover:bg-sky-700
+                    print:hidden">
+                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
+                    </nuxt-link> (opens in new tab)
+                </div>
+            </UiCardInfo>
+
+            <ToolsCardgameVirusesTheme2 :printMode="false" />
 
 
 

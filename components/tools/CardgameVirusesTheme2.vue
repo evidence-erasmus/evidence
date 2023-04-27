@@ -26,7 +26,20 @@
                 class="print:w-[70mm] print:h-[121mm]"
                 :class="props.printMode ? 'w-[70mm] h-[121mm]' : ''"
             />
-            
+        </section>
+
+
+        <h2 class="text-2xl print:break-before-page">{{ t('positionCardsTitle') }}</h2>
+
+        <section class="mb-10 mt-5 
+            print:flex print:flex-wrap print:gap-2"
+            :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
+        >
+            <ToolsCardgameCard v-for="(cardP, i) in tm('positionCards')" :key="`cardP${i}`"
+                :title="rt(cardP.title)" :story="rt(cardP.position)" border="border-amber-500"
+                class="print:w-[70mm] print:h-[121mm]"
+                :class="props.printMode ? 'w-[70mm] h-[121mm]' : ''"
+            />
         </section>
     </div>
 </template>
@@ -50,27 +63,28 @@
       "en": {
         "storyCardsTitle" : "Story cards",
         "infoCardsTitle" : "Info cards",
+        "positionCardsTitle" : "Position cards",
         "storyCardsLabel" : "Story",
         "infoCardsLabel" : "Info",
         "storyCards" : [
             {
                 "title": "",
-                "image": "card_viruses_1.webp",
+                "image": "card_viruses_21.webp",
                 "story": "Many people, some of them quite famous, were protesting against wearing masks in public spaces during the COVID-19 pandemic. The former baseball player Aubrey Huff (US) announced on Twitter that he would no longer wear a mask inside any business. “It’s unconstitutional to enforce,” he wrote. “Let’s make this bullshit stop now! Who’s with me?” His critics in social media had tried to shame him for “threatening the lives of millions of innocent people, yet those responses did nothing to persuade Huff to wear a mask. (theatlantic.com)"
             },
             {
                 "title": "",
-                "image": "card_viruses_2.webp",
+                "image": "card_viruses_22.webp",
                 "story": "I am working as a pharmacist. Today came, a woman to me to buy a prescription drug while heavily coughing but not wearing a mask. This was meant against her pneumonia, as she said. After I reminded her of the mask-wearing requirement and offered her one, she said she just got a negative corona result and didn’t need any. I didn’t have enough courage to refuse her to sell the medication as she probably strongly required it. Still, I feel frustrated about people who do not understand that COVID is not the only airborne disease."
             },
             {
                 "title": "",
-                "image": "card_viruses_1.webp",
+                "image": "card_viruses_23.webp",
                 "story": "I am a frequent gym visitor. Until now, I haven’t figured out how the mask-wearing rule in the gym could help prevent COVID. Namely, it is required to wear a mask in the locker room but not when in the shower or gym itself. It just does not make sense how wearing a mask in the locker room could help. Anyway, I am always healthy, and I think that I recover very quickly even if falling ill with the virus. Therefore, I don’t believe masks are of any use to me."
             },
             {
                 "title": "",
-                "image": "card_viruses_2.webp",
+                "image": "card_viruses_24.webp",
                 "story": "I am a nurse in a surgery department and wear a mask daily. Medical workers have been using it for years and are still not suffocating. By now, I have gotten sick from claims about how masks suffocate or induce carbon dioxide toxication, how complicated it is to put masks on when wearing glasses, and so on. Those who are very loud and talk about their rights all the time could think for a moment about the most vulnerable among us. How privileged is your life where wearing a mask is the most oppressed you have ever felt?"
             }
         ],
@@ -123,32 +137,55 @@
                 "title": "",
                 "story": "FFP2 and FFP3 types masks (respirators, European system) can filter at least 95% of aerosols around 0.3 μm. Similar numbers have shown N95 masks (US system) (source). Respiratory droplets containing COVID-19 have measures of 5-10 μm and COVID-19 itself 0,1-0,5 μm (Source)."
             }
+        ],
+        "positionCards" : [
+            {
+                "title" : "Position 1",
+                "position" : "In case of a pandemic outburst of upper respiratory viruses (e.g. COVID-19), the state establishes mask wearing compulsory in public places (public transportation, malls, medical institutions, mass events, etc.) for everyone — no matter whether people are vaccinated against the particular virus or not. The masks are provided for free, and penalties are imposed on people who refuse to wear masks. "
+            },
+            {
+                "title" : "Position 2",
+                "position" : "In case of a pandemic outburst of upper respiratory viruses (e.g. COVID-19), the state insists on wearing a mask in public places for only those not vaccinated nor lately recovered from the given viral disease. Also, people have to buy masks themselves. The other people should present respective documentation on demand for their vaccination or recovery. "
+            },
+            {
+                "title" : "Position 3",
+                "position" : "In case of a pandemic outburst of upper respiratory viruses (e.g. COVID-19), the state insists on wearing masks only on mass events exceeding a certain number of participants, a particular number depending on the nature of the event. "
+            },
+            {
+                "title" : "Position 4",
+                "position" : "In case of a pandemic outburst of upper respiratory viruses (e.g.  COVID-19), the state recommends wearing masks in public places. It does not compel its citizens; it allows them to choose responsibly, providing all necessary information and covering the costs."
+            },
+            {
+                "title" : "Position 5",
+                "position" : "Following the principle of freedom of choice, the state does not become involved in issues concerning wearing masks during pandemics. Citizens must get information for themselves (for example, via their doctors) and decide whether they want to wear masks. The state does not cover the cost of masks."
+            }
         ]
       },
       "et": {
         "storyCardsTitle" : "Lookaardid",
         "infoCardsTitle" : "Infokaardid",
+        "positionCardsTitle" : "Arvamuskaardid",
         "storyCardsLabel" : "Lugu",
         "infoCardsLabel" : "Info",
         "storyCards" : [
         {
                 "title": "",
-                "image": "card_viruses_1.webp",
+                "image": "card_viruses_21.webp",
                 "story": "Many people, some of them quite famous, were protesting against wearing masks in public spaces during the COVID-19 pandemic. The former baseball player Aubrey Huff (US) announced on Twitter that he would no longer wear a mask inside any business. “It’s unconstitutional to enforce,” he wrote. “Let’s make this bullshit stop now! Who’s with me?” His critics in social media had tried to shame him for “threatening the lives of millions of innocent people, yet those responses did nothing to persuade Huff to wear a mask. (theatlantic.com)"
             },
             {
                 "title": "",
-                "image": "card_viruses_2.webp",
+                "image": "card_viruses_22.webp",
                 "story": "I am working as a pharmacist. Today came, a woman to me to buy a prescription drug while heavily coughing but not wearing a mask. This was meant against her pneumonia, as she said. After I reminded her of the mask-wearing requirement and offered her one, she said she just got a negative corona result and didn’t need any. I didn’t have enough courage to refuse her to sell the medication as she probably strongly required it. Still, I feel frustrated about people who do not understand that COVID is not the only airborne disease."
             },
             {
                 "title": "",
-                "image": "card_viruses_1.webp",
+                "image": "card_viruses_23.webp",
                 "story": "I am a frequent gym visitor. Until now, I haven’t figured out how the mask-wearing rule in the gym could help prevent COVID. Namely, it is required to wear a mask in the locker room but not when in the shower or gym itself. It just does not make sense how wearing a mask in the locker room could help. Anyway, I am always healthy, and I think that I recover very quickly even if falling ill with the virus. Therefore, I don’t believe masks are of any use to me."
             },
             {
                 "title": "",
-                "image": "card_viruses_2.webp",
+                "image": "card_viruses_24.webp",
                 "story": "I am a nurse in a surgery department and wear a mask daily. Medical workers have been using it for years and are still not suffocating. By now, I have gotten sick from claims about how masks suffocate or induce carbon dioxide toxication, how complicated it is to put masks on when wearing glasses, and so on. Those who are very loud and talk about their rights all the time could think for a moment about the most vulnerable among us. How privileged is your life where wearing a mask is the most oppressed you have ever felt?"
             }
         ],
@@ -206,6 +243,7 @@
       "el": {
         "storyCardsTitle" : "Story cards EL",
         "infoCardsTitle" : "Info cards EL",
+        "positionCardsTitle" : "Position cards EL",
         "storyCardsLabel" : "Story EL",
         "infoCardsLabel" : "Info EL",
         "storyCards" : [

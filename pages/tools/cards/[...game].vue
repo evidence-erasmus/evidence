@@ -15,8 +15,14 @@
 
         <hr />
 
-        <ToolsCardgameVirusesTheme1 :printMode="true" />
 
+        <ToolsCardgameVirusesTheme1 
+            v-if="route.params.game[0] === 'viruses' && route.params.game[1] === 'theme1'" :printMode="true" />
+        <ToolsCardgameVirusesTheme2 
+            v-else-if="route.params.game[0] === 'viruses' && route.params.game[1] === 'theme2'" :printMode="true" />
+
+
+        
         
 
         
@@ -31,7 +37,7 @@
         "button-note" : "- or save as pdf"
     },
     "et": {
-        "title-1" : "Rollimäng viiruste teemal",
+        "title-1" : "Rollimäng",
         "button-title" : "PRINDI",
         "button-note" : "- või salvesta pdf-ina"
     },
@@ -45,12 +51,16 @@
 
 <script setup>
     const { t } = useI18n({ useScope: 'local' });
+    
+    const route = useRoute();
+    //console.log(route.params); 
+
+    
     definePageMeta({
         layout: "base",
     });
 
     const printMe = () => {
-        // console.log("printing");
         window.print();
     }
 </script>

@@ -18,7 +18,7 @@
         <p class="text-[9pt] m-0 leading-tight text-justify px-[4mm] pb-[4mm]
         print:font-sans" style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">{{ props.story }}</p>
         
-        <div class="absolute top-0 left-[3mm] text-[8pt] bg-white px-1 rounded-b shadow">{{ props.label }}</div>
+        <div v-if="props.label" class="absolute top-0 left-[3mm] text-[8pt] bg-white px-1 rounded-b shadow">{{ props.label }}</div>
     </div>
 </template>
 <script setup>
@@ -41,7 +41,7 @@
         },
         label: {
             type:String,
-            default: "..."
+            default: undefined
         }
     });
 
