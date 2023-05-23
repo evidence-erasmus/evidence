@@ -16,6 +16,10 @@
   "message": "Hello from external",
   "modules": {
     "background-info": "Info EL",
+    "climateChange": {
+      "description": "Climate change description ing Greek",
+      "title": "Climate Change in Greek"
+    },
     "for-students": "For student EL",
     "for-teachers": "For teacher EL",
     "radiation": {

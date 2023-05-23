@@ -16,6 +16,10 @@
   "message": "Hello from external",
   "modules": {
     "background-info": "Background info",
+    "climateChange": {
+      "description": "Climate change description",
+      "title": "Climate Change"
+    },
     "for-students": "For student",
     "for-teachers": "For teacher",
     "radiation": {

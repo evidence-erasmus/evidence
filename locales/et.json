@@ -16,6 +16,10 @@
   "message": "Tervitusi välisest failist!",
   "modules": {
     "background-info": "Taustainfo",
+    "climateChange": {
+      "description": "Kliimamuutuste kirjeldav tekst",
+      "title": "Kliimamuutused"
+    },
     "for-students": "Õpilasele",
     "for-teachers": "Õpetajale",
     "radiation": {

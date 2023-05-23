@@ -8,6 +8,11 @@
                     :description="t('modules.viruses.description')" 
                     icon="material-symbols:coronavirus-outline-sharp" 
                     />
+                <UiCardModule path="climate-change" 
+                    :title="t('modules.climateChange.title')" 
+                    :description="t('modules.climateChange.description')" 
+                    icon="material-symbols:mode-cool-off-rounded" 
+                />
                 <UiCardModule path="radiation" 
                     :title="t('modules.radiation.title')" 
                     :description="t('modules.radiation.description')" 
