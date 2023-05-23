@@ -25,10 +25,10 @@
                         <h3 class="text-md my-3 font-Body">Myths about Climate Change</h3>
                         <ol>
                             <li>
-                                <a href="#myth-1">Myth 1: Species can adapt to climate change.</a>
+                                <a href="#myth-1">Myth 1: The extinction of species is a natural process. Mass extinctions of species have always occurred.</a>
                             </li>
                             <li>
-                                <a href="#myth-2">Myth 2: The extinction of species is a natural process. Mass extinctions of species have always occurred.</a>
+                                <a href="#myth-2">Myth 2: Species can adapt to climate change.</a>
                             </li>
                             <li>
                                 <a href="#myth-3">Myth 3: There's no correlation between CO2 and temperature.</a>
@@ -72,7 +72,7 @@
                 </template>
             </UiContentImage>
         
-            <p>Gases that contribute to the greenhouse effect include:</p>
+            <p><b>Gases that contribute to the greenhouse effect include:</b></p>
             <dl>
                 <dt class="font-bold">Water vapor:</dt>
                 <dd>The most abundant greenhouse gas, but importantly, it acts as feedback to the climate. Water vapor increases as the Earth's atmosphere warms, but so does the possibility of clouds and precipitation, making these some of the most important feedback mechanisms to the greenhouse effect.</dd>
@@ -87,7 +87,7 @@
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__greenhouse-gas-emission-75-20.webp"
                 credits="From NOAA Global Monitoring Laboratory"
-                :elevated="true">
+                :elevated="true" class="mt-8">
                 <template #caption>
                     <b>Figure 2.</b> Greenhouse gas emissions into the atmosphere from 1975-2020
                 </template>
@@ -95,8 +95,8 @@
             
         
             
-            <section class="e-card">
-                <h4 class="mt-4">References</h4>
+            <section class="e-card mt-8">
+                <h4 class="mt-2">References</h4>
                 <ul class="text-sm break-all">
                     <li><a href="https://climate.nasa.gov/causes/" target="_blank" rel="noopener noreferrer">https://climate.nasa.gov/causes/</a></li>
                     <li><a href="https://www.un.org/en/climatechange/what-is-climate-change" target="_blank" rel="noopener noreferrer">https://www.un.org/en/climatechange/what-is-climate-change</a></li>
@@ -124,115 +124,90 @@
             
             
             <hr id="section-2" class="mt-10 mb-40" />
-            <h2>2. Why do antibiotics not kill viruses?</h2>
+            <h2>2. What are the effects of Climate Change?</h2>
             
-            <p>Antibiotics target the growth machinery in bacteria (not viruses) to kill or inhibit those particular bacteria. Antibiotics cannot kill viruses because viruses have different structures and replicate differently than bacteria. Moreover, overuse and inappropriate prescribing of antibiotics worldwide are leading to the global healthcare issue of <a href="https://www.drugs.com/article/antibiotic-resistance.html" target="_blank">antibiotic resistance</a>. See Table 2 in which conditions antibiotics may be helpful (NB! the decision on its use will be made by your doctor).</p>
+            <p>The Intergovernmental Panel on Climate Change (IPCC), which includes more than 1,300 scientists from the United States and others, refer that the extent of climate change effects on individual regions will vary over time and with the ability of different societal and environmental systems to mitigate or adapt to change.</p>
+            
+            <p>
+                <b>The effects of climate change vary and include the following:</b>
+            </p>
             
             
-            <table class="leading-tight e-card">
-                <caption class="text-left pb-4">
-                    <b>Table 2.</b> Need for antibiotics by common respiratory infections
-                </caption>
-                <thead class="border text-center">
-                    <tr>
-                        <th rowspan="2" class="border p-1">Common respi&shy;ratory infections</th>
-                        <th colspan="3" class="border p-1">Common cause</th>
-                        <th rowspan="2" class="border p-1">Are<br />anti&shy;biotics needed</th>
-                    </tr>
-                    <tr>
-                        <th class="border p-1">Virus</th>
-                        <th class="border p-1">Virus or bacteria</th>
-                        <th class="border p-1">Bacteria</th>
-                    </tr>
-                </thead>
-                <tbody class="text-center">
-                    <tr>
-                        <td class="border p-1">Common cold / runny nose</td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">No</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">Sore throat (except strep)</td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">No</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">COVID-19</td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">No</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">Flu</td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">No</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">Bronchitis / chest cold<br /><span class="text-sm italic">(in otherwise healthy children and adults)</span> *</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">No *</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">Middle ear infection</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">Maybe</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">Sinus infection</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">Maybe</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">Strep throat</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1">Yes</td>
-                    </tr>
-                    <tr>
-                        <td class="border p-1">Whooping couch</td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1"></td>
-                        <td class="border p-1">Yes</td>
-                        <td class="border p-1">Yes</td>
-                    </tr>
-        
-                </tbody>
-                <tfoot class="border text-center">
-                    <tr>
-                        <td colspan="5" class="py-0 px-3">
-                            <p class="text-sm italic">* Studies shows that in otherwise healthy children and adults, antibiotics for bronchitis won't help patients feel better.</p>
-                            <p class="text-xs text-slate-400">Source: https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg</p>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
+            <ul>
+                <li>
+                    Rising global temperature: Given the enormous size and heat capacity of the global oceans, it takes massive heat energy to raise Earth’s average yearly surface temperature by even a small amount. The roughly 2-degree Fahrenheit (1 degree Celsius) increase in global average surface temperature that has occurred since the pre-industrial era (1880-1900) might seem small, but it means a significant increase in accumulated heat.
+                </li>
+                <li>
+                    Rising sea levels
+                    <UiContentImage
+                        src="https://evidence.onkel.ee/assets/c-change__sea-level-rise.webp"
+                        credits="From NOAA Climate.gov image based on analysis and data from Philip Thompson, University of Hawaii Sea Level Center"
+                        :elevated="true" class="mt-8">
+                        <template #caption>
+                            <b>Figure 3.</b> Sea level rise from 1993-2020
+                        </template>
+                    </UiContentImage>
+                </li>
+                <li>
+                    Shrinking mountain glaciers.
+                </li>
+                <li>
+                    Ice melting at a faster rate than usual in Greenland, Antarctica and the Arctic.
+                </li>
+                <li>
+                    Droughts or increased rainfall depending on the region of the planet.
+                </li>
+                <li>
+                    Some laboratory experiments suggest that elevated CO2 levels can increase plant growth. However, other factors, such as changing temperatures, ozone, and water and nutrient constraints, may more than counteract any potential increase in yield. If optimal temperature ranges for some crops are exceeded, earlier possible gains in yield may be reduced or reversed altogether.
+                </li>
+                <li>
+                    Climate extremes, such as droughts, floods and extreme temperatures, can lead to crop losses and threaten the livelihoods of agricultural producers and the food security of communities worldwide. Depending on the crop and ecosystem, weeds, pests, and fungi can also thrive under warmer temperatures, wetter climates, and increased CO2 levels, and climate change will likely increase weeds and pests.
+                </li>
+                <li>
+                    Research has shown that it can also reduce the nutritional value of most food crops by reducing the concentrations of protein and essential minerals in most plant species.
+                </li>
+                <li>
+                    Changes in flower and plant blooming times.
+                </li>
+                <li>
+                    Constraining global warming to 1.5°C, rather than 2°C and higher, is projected to have many benefits for terrestrial and wetland ecosystems and the preservation of their services to humans.
+                </li>
+                <li>
+                    Ocean ecosystems are already experiencing large-scale changes, and critical thresholds are expected to be reached at 1.5°C and higher levels of global warming.
+                </li>
+                <li>
+                    Changing climates, directly and indirectly, cause stress to animals across the world. Many species are approaching—or have already reached—the limit of where they can go to find hospitable climates. In the polar regions, animals like polar bears that live on polar ice are now struggling to survive as that ice melts.
+                </li>
+                <li>
+                    Warming ocean temperatures are melting polar ice, shifting ocean currents and fish migrations, leading to coral bleaching and die-off. Because of oceans’ vital role in regulating Earth’s climate by absorbing greenhouse gas emissions, they’re taking a direct hit from climate change.
+                </li>
+                <li>
+                    Risks of local species losses and, consequently, risks of extinction are much less in a 1.5°C versus a 2°C warmer world.
+                </li>
+                <li>
+                    Any increase in global temperature (e.g., +0.5°C) is projected to affect human health, with primarily negative consequences.
+                </li>
+                <li>
+                    Risks to global aggregated economic growth due to climate change impacts are projected to be lower at 1.5°C than at 2°C by the end of this century.
+                </li>
+            </ul>
 
 
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
+            <section class="e-card mt-8">
+                <h4 class="mt-2">References</h4>
                 <ul class="text-sm break-all">
-                    <li>
-                        <a href="https://www.drugs.com/article/antibiotics-and-viruses.html" target="_blank">https://www.drugs.com/article/antibiotics-and-viruses.html</a>
-                    </li>
-                    <li>
-                        <a href="https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/" target="_blank">https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/</a>
-                    </li>
+                    <li><a href="https://climatekids.nasa.gov/climate-change-meaning/" target="_blank" rel="noopener noreferrer">https://climatekids.nasa.gov/climate-change-meaning/</a></li>
+                    <li><a href="https://climate.nasa.gov/effects/" target="_blank" rel="noopener noreferrer">https://climate.nasa.gov/effects/</a></li>
+                    <li><a href="https://www.un.org/en/climatechange/what-is-climate-change" target="_blank" rel="noopener noreferrer">https://www.un.org/en/climatechange/what-is-climate-change</a></li>
+                    <li><a href="https://www.un.org/en/global-issues/climate-change" target="_blank" rel="noopener noreferrer">https://www.un.org/en/global-issues/climate-change</a></li>
+                    <li><a href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature" target="_blank" rel="noopener noreferrer">https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature</a></li>
+                    <li><a href="https://www.nature.org/en-us/what-we-do/our-priorities/tackle-climate-change/climate-change-stories/climate-change-frequently-asked-questions/#threats" target="_blank" rel="noopener noreferrer">https://www.nature.org/en-us/what-we-do/our-priorities/tackle-climate-change/climate-change-stories/climate-change-frequently-asked-questions/#threats</a></li>
+                    <li><a href="https://www.ipcc.ch/sr15/chapter/chapter-3" target="_blank" rel="noopener noreferrer">https://www.ipcc.ch/sr15/chapter/chapter-3</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=rVjp3TO_juI&t=3s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=rVjp3TO_juI&t=3s</a></li>
+                    <li><b>Ramanathan, V.</b>, <b>Feng, Y.</b> (2009). Air pollution, greenhouse gases and climate change: Global and regional perspectives. Atmospheric environment, 43(1), 37-50.</li>
                 </ul>
             </section>
+
         
         
 
@@ -246,54 +221,31 @@
 
 
             <hr id="section-3" class="mt-10 mb-40" />
-            <h2>3. How vaccines work</h2>
+            <h2>3. Climate Change: A socio-scientific and controversial issue</h2>
 
-            <h3>The body's natural response</h3>
+            <p>In the history of Science, there have been, and there are many examples where contradictory views on specific scientific issues were spread to the general population. Climate change is one example where people and groups take and defend different positions on it. Even though climate science has now firmly established that global warming is occurring, that human activities contribute to this warming, and that current and future warming portend negative impacts on both ecological and social systems (National Research Council, 2010), a significant portion of the American public remains ambivalent or unconcerned (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) and many policymakers (especially in the United States) deny the necessity of taking steps to reduce carbon emissions (Brownstein, 2010).</p>
 
-            <p>A <span class="e-term font-Heading">pathogen</span> is a bacterium, virus, parasite, or fungus that can cause disease within the body. Each pathogen is made up of several subparts, usually unique to that specific pathogen and the disease it causes. The subpart of a pathogen that causes the formation of antibodies is called an antigen. The antibodies produced in response to the pathogen's antigen are essential to the immune system. You can consider antibodies as the soldiers in your body's defense system. Each antibody, or soldier, in our system, is trained to recognize one specific antigen. We have thousands of different antibodies in our bodies. When the human body is exposed to an antigen for the first time, it takes time for the immune system to respond and produce antibodies specific to that antigen (Fig. 2). </p>
+            <p>Climate science denials do not accept evidence supporting climate change, humanity's role in causing recent global warming, and/or the severity of climate impacts. Scepticism, contrarianism, dismissal, dissent, doubt, or anti-climate change are some terms that have been used to characterize climate science denials (Cook, 2017).</p>
 
-            <p>Antibodies to one pathogen generally do not protect against another pathogen except when two pathogens are very similar to each other, like cousins. Once the antigen-specific antibodies are produced, they work with the rest of the immune system to destroy the pathogen and stop the disease. Once the body produces antibodies in its primary response to an antigen, it also creates antibody-producing memory cells, which remain alive even after the antibodies defeat the pathogen. Suppose the body is exposed to the same pathogen more than once. In that case, the antibody response is much faster and more effective than the first time because the memory cells are ready to pump antibodies against that antigen. This means that if the person is exposed to a dangerous pathogen in the future, their immune system will be able to respond immediately, protecting against disease. </p>
+            <p>Climate misinformation is the reason for public misconceptions about climate change (McCright and Dunlap, 2010). Therefore, many questions (e.g. (1) Is an increase in the Earth's temperature causing an increase in carbon dioxide or is an increase in carbon dioxide causing an increase in the Earth's temperature? (2) Do human activities produce equal, less or more carbon dioxide than natural processes? (3) Does the climate change over time? If yes, is climate change a temporary change like the previous ones? (4) Are the mass extinctions of species nowadays a result of climate change or a common occurrence over the years?) that concern the citizens who are worried about the future of the planet and the new generations.  As noted in the next contribution, the mass media play a central role in debates over climate science and policy making. Maxwell Boykoff draws on his long experience in analyzing how the media represent climate change to provide an analysis of the multiple factors that contribute to "outlier voices"—sceptics, contrarians, and denialists—receiving unwarranted media visibility and thus influencing policy debates.</p>
 
-            <UiContentImage
-                src="https://evidence.onkel.ee/assets/viruses-03.webp"
-                credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html"
-                :elevated="true">
-                <template #caption>
-                    <b>Figure 2.</b> For every new antigen, our body needs to build a specific antibody
-                </template>
-            </UiContentImage>
 
-            <h3>How vaccines help?</h3>
-
-            <p>Vaccines reduce the risks of getting a disease by working with your body's natural defenses to build protection. When you get a vaccine, your immune system responds.</p>
-            <p>Vaccines contain weakened or inactive parts of a particular organism (antigen) that triggers an immune response within the body (Fig. 3). Newer vaccines contain the blueprint for producing antigens rather than the antigen itself. Regardless of whether the vaccine is made up of the antigen itself or the blueprint so that the body will produce the antigen, this weakened version will not cause the disease in the person receiving the vaccine. However, it will prompt their immune system to respond much as it would have on its first reaction to the actual pathogen.</p>
-
-            <UiContentImage
-                src="https://evidence.onkel.ee/assets/viruses-04.webp"
-                credits="Source: https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work"
-                :elevated="true">
-                <template #caption>
-                    <b>Figure 3.</b> Antibody development through vaccination
-                </template>
-            </UiContentImage>
-
-            <p>Vaccines work by exposing your white blood cells to the foreign protein in a virus. Once your body has encountered a virus and performed an immune response (making B and T cells) to the virus, it saves the B and T cells so that if the same virus or bacteria ever infects the body again, the immune system can stage and all-out war, preventing the pathogen from ever making you feel sick. Vaccines introduce the body to the virus so that the body can save up B and T cells without ever making you sick.</p>
-
-            <h3>Immunization  and related challenges</h3>
-
-            <p>We now have vaccines to prevent more than 20 life-threatening diseases, helping people of all ages live longer, healthier lives. Immunization currently prevents 2-3 million deaths yearly from diseases like diphtheria, tetanus, pertussis, influenza, and measles.</p>
-
-            <p>We have vaccinations against many serious viral infections (measles, mumps, hepatitis A, hepatitis B, and some viruses - such as those that cause the common cold). Still, the problem remains that they can mutate from one person to the next. When the virus mutates, it changes enough that the immune system no longer recognizes it. The immune cells stored for killing the virus no longer recognize it as the same disease and do not know how to kill it. This is how an infection with the same virus can keep dodging the immune system. Vaccination for these viruses is difficult because they have already changed their format by the time vaccines are develop</p>
-
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
+            <section class="e-card mt-8">
+                <h4 class="mt-2">References</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work</a></li>
-                    <li><a href="" target="_blank">https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html </a></li>
-                    <li><a href="" target="_blank">https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf </a></li>
-                    <li><a href="" target="_blank">https://opentextbc.ca/biology/chapter/12-1-viruses/ </a></li>
+                    <li><a href="https://www.youtube.com/watch?app=desktop&v=u9KxE4Kv9A8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?app=desktop&v=u9KxE4Kv9A8</a></li>
+                    <li><a href="https://www.researchgate.net/publication/274306932_Climate_Change_Skepticism_and_Denial_An_Introduction" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/publication/274306932_Climate_Change_Skepticism_and_Denial_An_Introduction</a></li>
+                    
+                    <li><b>Karakas, L. D.</b>, & <b>Mitra, D.</b> (2020). Believers vs. deniers: Climate change and environmental policy polarization. European Journal of Political Economy, 65, 101948.</li>
+                    <li><b>Corry, O.</b>, & <b>Jørgensen, D.</b> (2015). Beyond ‘deniers’ and ‘believers’: Towards a map of the politics of climate change. Global Environmental Change, 32, 165-174.</li>
+                    <li><b>Cook, J.</b> (2017). Understanding and countering climate science denial. Journal & Proceedings of the Royal Society of New South Wales, 150.</li>
+                    <li><b>McCright, A. M.</b> & <b>Dunlap, R. E.</b> (2010). Anti-reflexivity: The American conservative movement’s success in undermining climate science and policy. Theory, Culture & Society, 27(2-3), 100-133.</li>
                 </ul>
             </section>
+
+
+             
+
 
 
 
@@ -310,204 +262,70 @@
 
 
             <hr id="section-4" class="mt-10 mb-40" />
-            <h2>4. The process of developing vaccines, vaccines safety</h2>
+            <h2>4. Techniques of Science Denials</h2>
 
-            <h3>Development</h3>
-            <p>Vaccine development typically begins in a research laboratory located in a university, medical center, or small biotech company. During vaccine development, scientists develop different reagents to test and measure their effect (or lack thereof). Often years of research are needed to find ideas that work.</p>
-            <p>Different scientists or research groups may work toward the same goals during vaccine development. The progress of the work is presented in different meetings and peer-reviewed articles in journals. If any work seems promising, pharmaceutical scientists may approach those working on it to expand their research toward product development.</p>
-
-
-            <h3>Testing</h3>
-
-            <p>If a promising vaccine candidate has been found, it has to be tested on animals. This is called the pre-clinical phase. First small animals like mice, rats, rabbits, and others are used. If the candidate affects small animals, the effect has to be usually proven on larger animals like monkeys. If the vaccine triggers an immune response, it is tested in three phases in human clinical trials (WHO, 2021).</p>
-            <p>In Phase 1, the vaccine is given to a few volunteers to assess its safety, confirm it generates an immune response, and determine the proper dosage. Generally, in this phase, vaccines are tested in a small group of young, healthy adult volunteers.</p>
-            <p>In phase 2, the vaccine is given to several hundred volunteers to assess its safety and ability further to generate an immune response. Participants in this phase have the same characteristics (such as age and sex) as those for whom the vaccine is intended. There are usually multiple trials in this phase to evaluate various age groups (elderly, adults, children) and different vaccine formulations. Also, a group that does not get the vaccine is usually included in determining whether the changes in the vaccinated group are attributed to the vaccine or have happened by chance.</p>
-            <p>In phase 3, the vaccine is given to thousands of volunteers – compared to a similar group of people who did not get the vaccine but received a comparator product. This aims to determine if the vaccine is effective against the disease it is designed to protect against. Also, it aims to study its safety in a much larger group of people. Phase 3 trials are often conducted across multiple countries and sites within a country to ensure the findings of the vaccine performance apply to many different populations. </p>
-            <p>During phase 2 and 3 trials, the volunteers and the scientists conducting the study are shielded from knowing which volunteers had received the vaccine being tested or the comparator product. This is called “blinding” and is necessary to ensure that neither the volunteers nor the scientists are influenced in their assessment of effectiveness or safety by knowing who got which product.</p>
-
-
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li>
-                        <a href="https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed</a>
-                    </li>
-                </ul>
-            </section>
-
-            <h3>Authorization and monitoring</h3>
             
-            <p>When the results of all these clinical trials are available, a series of steps are required. Officials in European Medicines Agency and later in each country closely review the study data and decide whether to authorize the vaccine. All the trials have to be correctly done and well documented. A vaccine must be proven safe and effective across a broad population before it is approved. The bar for vaccine safety and efficacy is exceptionally high. This includes reviews of efficacy and safety for regulatory and public health policy approvals. </p>
-            <p>Further monitoring of safety and effectiveness takes place during the use of vaccines. This enables scientists to keep track of vaccine impact and safety even as they are used in many people over a long time frame. These data are used to adjust the policies for vaccine usage. </p>
-
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                
-                <ul class="text-sm break-all">
-                    <li><a href="https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034" target="_blank">https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034</a></li>
-                </ul>
-            </section>
+            <p>Among the various movements that reject a scientific consensus, five characteristics or techniques of science denial are observed:</p>
 
 
+            <img />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <hr id="section-5" class="mt-10 mb-40" />
-            <h2>5. Masks against viruses and bacteria</h2>
-
-            <p>Masks are often used to protect against viruses and bacteria. They had become widespread in the sense of protection against the SARS-CoV-2 virus. Among different types of masks, surgical face masks are among the most commonly used face coverings in the COVID-19 pandemic. Typically, they are blue colored from one side, which should be kept as an outer layer (Fig. 4). The main aim of surgical masks is to protect patients from potential contact with bacteria and viruses exhaled by the wearer. So, they well prevent the spread of the coronavirus through the air but are less effective means of protecting the wearer from the virus.</p>
-            <p>FFP2 or FFP3 masks (often called respirators) should be used to filter and better inhale air. The numbering system (FFP1, FPP2, FFP3) indicates these devices' filtration efficiency (certified as meeting the EN 149-2001 standard). FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: &lt;8% and &lt;2%, respectively. In FFP2, special rubber is often used on the outer layer of the respirator. If in occupational environments, a valve (that makes exhaling easier) has been allowed, in the case of SARS-CoV-2, only non-valve respirators should be used in order to filter also exhaled air.  </p>
-            <p>With the COVID-19 pandemic, a new face mask has been introduced: the filtering mask. This type of mask is made of multilayer fabric (one has to be a nanofibre filter that guarantees a bacterial and harmful fine dust filtering capacity of at least 90%). This mask combines high filtration capacity with reusability as it can be machine washed at 60 degrees.</p>
-
-            <div class="grid gap-3 my-15 md:grid-cols-2 e-card">
-                <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-06__mask-01.webp"
-                >
-                    <template #caption>
-                        Surgical mask
-                    </template>
-                </UiContentImage>
-                <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-06__mask-02.webp"
-                    caption="">
-                    <template #caption>
-                        FFP2 mask (respirator)
-                    </template>
-                </UiContentImage>
-                <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-06__mask-03.webp">
-                    <template #caption>
-                        FFP3 mask (respirator) with valve
-                    </template>
-                </UiContentImage>
-                <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-06__mask-04.webp">
-                    <template #caption>
-                        Filtering mask
-                    </template>
-                </UiContentImage>
-            </div>
-
-            <p>The efficiency of the masks has been tested in special laboratories, e.g., in the exposure chamber. In those studies, a carrying the viruses. Subsequently, particle concentrations behind the particle generator fill the exposure chamber with small particles; similar to aerosols, the masks are measured and compared to the concentration in the general atmosphere of the exposure chamber.</p>
-            <p>However, the strongest evidence is based on epidemiologic data from real-life situations. For instance, the daily COVID-19 growth rate is slowdown after mask mandates in 15 states and the District of Columbia in the US. Another study examined coronavirus deaths across 198 countries and found that those with cultural norms or government policies favoring mask-wearing had lower death rates.</p>
-            <p>Many Facebook and social media users have shared misleading posts regarding the prolonged use of face masks causing oxygen deficiency in the body - hypoxia. Nevertheless, research articles and experts suggest that such symptoms are unlikely to occur in most people unless the wearer has pre-existing respiratory illnesses such as asthma or chronic obstructive pulmonary disease (COPD). The risk of hypoxia and hypercapnia (having excessive carbon dioxide in the bloodstream) are unlikely to occur with cloth and surgical masks as they are not tight-fitting. Still, it is warned that face masks should not be placed on young children under two years old, those with breathing difficulty, or when exercising.</p>
-
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
-                    <li><a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266" target="_blank">https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266</a></li>
-                    <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818" target="_blank">https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818</a></li>
-                    <li><a href="https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml" target="_blank">https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml</a></li>
-                    <li><a href="" target="_blank">https://www.epa.gov/sciencematters/epa-researchers-test-effectiveness-face-masks-disinfection-methods-against-covid-19 </a></li>
-                    <li><a href="https://journals.asm.org/doi/full/10.1128/mSphere.00637-20" target="_blank">https://journals.asm.org/doi/full/10.1128/mSphere.00637-20</a></li>
-                    <li><a href="" target="_blank">https://pubmed.ncbi.nlm.nih.gov/33626065/ </a></li>
-                </ul>
-            </section>
-
-
-
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:edit-document">
-                <div>
-                    <h3 class="mt-6 pt-3 mb-10">For further study</h3>
-                    <ul class="leading-tight">
-                        <li><a href="https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-face-masks-and-barrier-face-coverings#s3" target="_blank">N95 Respirators, Surgical Masks, Face Masks, and Barrier Face Coverings</a></li>
-                        <li><a href="https://www.sciencedirect.com/science/article/pii/S2452199X20301481" target="_blank">An overview of filtration efficiency through the masks: Mechanisms of the aerosols penetration</a></li>
-                        <li><a href="https://www.weforum.org/agenda/2020/10/covid-19-coronavirus-disease-size-compairson-zika-health-air-pollution/" target="_blank">This is how coronavirus compares to the world's smallest particles</a></li>
+            <dl>
+                <dt class="font-bold">
+                    Fake experts:
+                </dt>
+                <dd>
+                    This involves spokespeople who convey the impression of expertise on a topic yet possess little relevant expertise. The Global Warming Petition Project is the most prevalent form of this technique within climate misinformation, featuring 31,000 signatories of an online petition dissenting against human-caused global warming. However, 99.9% of the signatories, while holding a science degree, possess no expertise in climate science. This petition has been found experimentally to be one of the most effective denialist arguments in lowering the acceptance of climate change. 
+                </dd>
+                <dt class="font-bold mt-4">
+                    Logical fallacies:
+                </dt>
+                <dd>
+                    Arguments that persuade people to consist of one or more premises, leading to a conclusion. Climate denialist arguments typically contain fatal logical flaws. There are three classes of logical fallacies found in climate misinformation:
+                    <ul>
+                        <li>
+                            fallacies of relevance (where the premises are irrelevant to the conclusion), 
+                        </li>
+                        <li>
+                            scope (where not all relevant evidence is considered), and 
+                        </li>
+                        <li>
+                            presumption (where the argument contains false premises).
+                        </li>
                     </ul>
-                </div>
-            </UiCardInfo>
+                </dd>
+                <dt class="font-bold mt-4">
+                    Impossible expectations:
+                </dt>
+                <dd>
+                    This involves demanding unrealistic levels of proof or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty effectively cast doubt on scientific findings. This denialist technique is known as the “Scientific Certainty Argumentation Method”. 
+                </dd>
+                <dt class="font-bold mt-4">
+                    Cherry picking:
+                </dt>
+                <dd>
+                    This technique is defined as “selectively choosing data leading to the desired conclusion that differs from the conclusion arising from all the available data”. 
+                </dd>
+                <dt class="font-bold mt-4">
+                    Conspiracy theories:
+                </dt>
+                <dd>
+                    Around 20% of the U.S. public believe climate change is a scientific hoax. Conspiracy theories have several adverse effects, even when people are not convinced by them. They can lower support for climate action, decrease one’s intent to reduce one’s carbon footprint, and decrease trust in government.
+                </dd>
+            </dl>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <hr id="section-6" class="mt-10 mb-40" />
-            <h2>6. Viruses and hand hygiene</h2>
-
-            <h3>Hand sanitiser or soap?</h3>
-            
-            <p>Our hands can be a critical vector in the transmission of infections. When applied to hands thoroughly and scrubbed for at least 20 seconds, alcohol-based hand sanitizers and soap will stop the coronavirus. However, soap disrupts the sticky bond between pathogens and your skin, allowing the pathogens to slide right off. Not only are you neutralizing the virus, but you are also physically knocking it off your hands. Practicing good hand hygiene is a simple preventative strategy that most people can easily undertake, and many studies have demonstrated the effectiveness of hand hygiene in preventing the transmission of infectious pathogens, including coronaviruses such as SARS-CoV-2.</p>
-
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                
+ 
+            <section class="e-card mt-8">
+                <h4 class="mt-2">References</h4>
                 <ul class="text-sm break-all">
-                    <li>
-                        <a href="https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/" target="_blank">https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/</a>
-                    </li>
+                    <li><a href="https://www.youtube.com/watch?v=uNs2YMblqwU&ab_channel=JohnCook" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=uNs2YMblqwU</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=AqcUP0sDglg" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=AqcUP0sDglg</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=wXA777yUndQ" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=wXA777yUndQ</a></li>
+                    <li><a href="http://www.petitionproject.org/" target="_blank" rel="noopener noreferrer">http://www.petitionproject.org</a></li>
                 </ul>
             </section>
-
-            <h3>Weakening the corona virus with soap</h3>
-            
-            <p>Coronaviruses get their name from the "corona" surrounding the virus— the protein spikes embedded in its surface. The spikes, which are responsible for infecting the host, are anchored into a membrane. The membrane is the "shell" of the virus and the virus's weak point. </p>
-            <p>Soap molecules have two chemically distinct parts: a hydrophilic (water-loving) "head" and a hydrophobic (water-hating) "tail". The head helps the soap mix with water, while the tail can interact with other hydrophobic molecules like lipids.</p>
-            <p>Luckily, the coronavirus's membrane is mainly made up of lipid molecules. They are held together by weak chemical interactions between individual molecules. The hydrophobic (water-hating) "tails" of soap molecules can break interactions between lipid molecules in the coronavirus membrane (see Fig. 5).</p>
-            <p>The soap's tail can disrupt the weak interactions between lipid molecules in the membrane, tearing it apart. Suppose the virus is broken up before being safely sheltered in a host cell. In that case, it will no longer be able to do its infectious job — like a machine with its parts falling out. Soap molecules then surround virus fragments with all tails facing inside. This cluster is called a micelle (see Fig. 6). The outward-facing hydrophilic heads allow the micelle to be washed down the drain with water. Water alone will not do.</p>
-
-
-            <div class="grid gap-2 md:grid-cols-2 e-card">
-                <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-07.webp"
-                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
-                    <template #caption>
-                        <b>Figure 5.</b> Soap molecules destroying the virus
-                    </template>
-                </UiContentImage>
-                <UiContentImage
-                    src="https://evidence.onkel.ee/assets/viruses-08.webp"
-                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
-                    <template #caption>
-                        <b>Figure 6.</b> Micelle consisting of soap molecules and virus fragment
-                    </template>
-                </UiContentImage>
-            </div>
-
-            <p>The given information is also valid for the other enveloped viruses (Influenza, Hepatitis B and C, and Ebola Virus Disease) as their envelopes consist of phospholipids.</p>
-
-            <section class="e-card">
-                <h4 class="mt-0">Reference</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19" target="_blank">https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19</a></li>
-                </ul>
-            </section>
-
-            <h3>Choosing hand sanitizer</h3>
-
-            <p>The World Health Organization (WHO) recommends alcohol-based hand sanitizers if you have no soap on hand. </p>
-            
-            <p><b>Alcohol-based hand sanitizers are thought to work by preventing the proteins of microbes—including bacteria and some viruses—from functioning normally. Hand sanitizers with a high alcohol content might also interfere with the lipid shell surrounding the coronavirus.</b> To be effective, hand sanitizers must contain at least 60 percent alcohol. The additives in the sanitizer can keep the alcohol from evaporating too fast, allowing the virus to be drenched for longer. </p>
-            <p>However, there are also certain risks related to using alcohol-based hand sanitizers. There is an increased alcohol poisoning risk for children, and frequent usage of hand sanitizers could result in antimicrobial resistance. There are alternative alcohol-free hand sanitizers, where benzalkonium is most commonly used. Recent studies have indicated that alcohol-free hand sanitizer works just as well and does not cause the familiar "burn" feeling known from using alcohol hand sanitizer.</p>
-            
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub</a></li>
-                    <li><a href="https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040" target="_blank">https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040</a></li>
-                </ul>
-            </section>
+ 
+ 
 
 
 
@@ -521,41 +339,59 @@
 
 
 
-            <h1 class="mt-40">Vaccine myths</h1>
+
+
+
+
+
+
+            <h1 class="mt-40">Myths about Climate Change</h1>
 
             <hr id="myth-1" class="mt-10 mb-40" />
-            <h2>Myth 1: Vaccines cause autism/serious side effects.</h2>
+            <h2>Myth 1: The extinction of species is a natural process. Mass extinctions of species have always occurred.</h2>
 
-            <p>The widespread fear that vaccines increase the risk of autism originated with a 1997 study published by Andrew Wakefield, a British surgeon. The article was published in The Lancet, a prestigious medical journal, suggesting that the measles, mumps, and rubella (MMR) vaccine increased autism in British children.</p>
-            <p>The paper has since been thoroughly discredited due to serious procedural errors, having only 12 participants in the study, undisclosed financial conflicts of interest, and ethical violations. Andrew Wakefield lost his medical license, and the paper was retracted from The Lancet.</p>
-            <p>Currently, against the autism-vaccination link theory, several studies have now identified symptoms of autism in children well before they receive the MMR vaccine. Moreover, recent research provides evidence that autism develops in utero, well before a baby is born or receives vaccinations. None of the latter studies has reported a link between any vaccine and the likelihood of developing autism.</p>
-
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext</a></li>
-                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
-                </ul>
-            </section>
+            <p>The extinction of species is a historical problem. From prehistoric times we have evidence of several mass extinctions, most notably the extinction of the dinosaurs. This extinction, which took place 66,000,000 years ago, was attributed to the impact of an asteroid on Earth. Over the years, we have other well-known examples, such as the extinction of mammoths. However, the causes of extinction that have been recorded vary.</p>
+            <p>Also, the suggestion that humanity is capable of impacting and disturbing forces of such magnitude is reflective of a self-centered arrogance that is mind-numbing. Humanity is a subset of Nature. Nature is not a subset of humanity. People can neither cause nor intervene to correct these processes (Financial Sense University).</p>
+            <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:edit-document">
+
+
+
+            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">For further study</h3>
-                    <ul class="leading-tight">
-                        <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html" target="_blank">Possible Side Effects After Getting a COVID-19 Vaccine</a></li>
-                        <li><a href="https://www.bbc.com/news/health-55932832" target="_blank">Study reveals extent of Covid vaccine side-effects</a></li>
-                        <li><a href="https://www.nature.com/articles/d41586-021-00290-x" target="_blank">COVID vaccines and safety: what the research says</a></li>
-                        <li><a href="https://health.clevelandclinic.org/covid-19-vaccine-side-effects/" target="_blank">Here’s What to Know About the COVID-19 Vaccine Side Effects</a></li>
-                        <li><a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety" target="_blank">Coronavirus disease (COVID-19): Vaccines safety</a></li>
-                        <li><a href="https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events" target="_blank">Vaccine Side Effects and Adverse Events</a></li>
-                        <li><a href="https://www.bbc.com/news/health-56375307" target="_blank">Vaccine side effects: My experience of them and what they mean</a></li>
-                        <li><a href="https://vk.ovg.ox.ac.uk/vk/vaccine-side-effects" target="_blank">Vaccine side effects and adverse reactions</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=F6NKbQzo4aE" target="_blank">Vaccine side effects are actually a good thing</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank">Vaccines and the Immune Response: How Vaccines Work</a></li>
-                    </ul>
+                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 1:</h3>
+                    <p class="font-Heading text-2xl"><i>“Today, extinctions are occurring hundreds of times faster than they would naturally. This is due to the human caused climate change.”</i></p>
                 </div>
             </UiCardInfo>
+            
+
+
+            
+
+            <p>Students investigating Myth 1 during the Guided Inquiry option are studying evidence about previous mass extinctions. They also study newest evidence about specific extinctions (e.g., Magellanic penguins) caused from climate change and watch a video from BBC about mass extinctions. Alternatively, students investigating Myth 1 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
+            
+            <p>In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
+
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.nationalgeographic.com/science/article/mass-extinction" target="_blank" rel="noopener noreferrer">Mass extinction facts and information from National Geographic</a>
+                </li>
+                <li>
+                    <a href="https://www.nationalgeographic.com/animals/article/vanishing-what-we-lose-when-an-animal-goes-extinct-feature" target="_blank" rel="noopener noreferrer">What we lose when animals go extinct</a>
+                </li>
+            </ul>
+
+
+
+
+
+
+
+
+            
 
             
 
@@ -568,20 +404,38 @@
 
 
             <hr id="myth-2" class="mt-10 mb-40" />
-            <h2>Myth 2: Infant immune systems cannot handle multiple vaccines</h2>
+            <h2>Myth 2: Species / Organisms can adapt to climate change.</h2>
 
-            <p>Children are given vaccines at a young age because they are at the highest risk of getting sick or dying if they get these diseases. Even newborn babies are immune to some diseases (e.g., chickenpox) because they get antibodies from their mothers; this immunity lasts only a few months. Moreover, most babies do not get protective antibodies against diphtheria, whooping cough, polio, tetanus, hepatitis B, or Hib from their mothers.</p>
-            <p>To reduce the number of shots a child receives in a doctor's visit, some vaccines are offered as a combination (two or more different vaccines have been combined into a single shot). Examples of combination vaccines are diphtheria-tetanus-pertussis (DTap) and measles-mumps-rubella (MMR). </p>
-            <p>Scientific data show that getting several vaccines simultaneously does not cause any health problems. Infant immune systems are tougher than you might think. Based on the number of antibodies present in the blood, a baby would theoretically have the ability to respond to a far larger number of vaccines than are ever shot (the question has risen if it is 1,000, 10,000, or 100,000 at one time). Even if all ~10 (depending on national vaccination plan) scheduled vaccines were given at once, it would only use a fraction of a baby's immune capacity. In reality, babies are exposed to countless bacteria and viruses every day, and immunisations are negligible in comparison. Also, studies have not shown that exposure to multiple vaccines through the first 23 months of life would be associated with an increased risk for infections not targeted by vaccines.</p>
+            <p>The earth has a history of 4.54 billion years. The weather conditions that prevailed from time to time on the planet changed. Therefore, the species/organisms living on earth were forced to adapt to the new conditions to survive and be preserved. In this way, the evolution of the species emerged.</p>
+            <p>Plants and animals have already adapted several times to adverse conditions (climate change, meteorite falls, volcanic eruptions, etc.). This makes them able to adapt to rising temperatures and the situation we now call climate change. In other words, species are naturally capable of surviving in new conditions.</p>
+            <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
 
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
-                    <li><a href="https://www.bmj.com/content/364/bmj.l1481/rr-11" target="_blank">https://www.bmj.com/content/364/bmj.l1481/rr-11</a></li>
-                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/11773551/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/11773551/</a></li>
-                </ul>
-            </section>
+
+            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 2:</h3>
+                    <p class="text-2xl"><i>“Not all species can adapt to climate change.  Some species (e.g., birds) can adapt to climate change in different ways (e.g., change the time of migration or breeding).  However, not all species (e.g., mammals) can do this.  Also, not all kinds of adaptations can be achieved fast (e.g., changing morphological characteristics).”</i></p>
+                    <p>Generally, evolution cannot always happen too fast- sometimes is a slower process. In other words, the rate of adaptation is insufficient (Visser, 2008).</p>
+                </div>
+            </UiCardInfo>
+
+            <p>Students investigating Myth 2 during the Guided Inquiry option are studying evidence about how species adapt in climate change (e.g., the coral case), they are getting involved into a specific experiment about the mass of corals and study recent evidence about the climate change affect to mammals. Students access the scientific sources and come up with their conclusions. Alternatively, students investigating Myth 2 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+            </p>
+            <p>
+            In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
+
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.nationalgeographic.com/environment/article/many-animals-can-adapt-climate-change-just-not-fast-enough-" target="_blank" rel="noopener noreferrer">Some animals can adapt to climate change—just not fast enough</a>
+                </li>
+                <li>
+                    <b>Visser, M. E.</b> (2008). Keeping up with a warming world; assessing the rate of adaptation to climate change. Proceedings of the Royal Society B: Biological Sciences, 275(1635), 649-659.
+                </li>
+            </ul>
+
+
 
 
 
@@ -594,36 +448,41 @@
 
 
             <hr id="myth-3" class="mt-10 mb-40" />
-            <h2>Myth 3: Immunity acquired through a disease is better than immunity acquired through vaccination</h2>
+            <h2>Myth 3: The science of climate change is unreliable.</h2>
 
 
-            <p>It is true that natural infection almost always results in a stronger immunity to the disease than a vaccination. However, the dangers of this approach far outweigh the relative benefits. The price for immunity after natural infection might be pneumonia from chickenpox or pneumococcus, intellectual disability from Haemophilus influenzae type b (Hib), birth defects from rubella, liver cancer from hepatitis B virus, death from measles, etc. If you wanted to gain immunity to measles, for example, by contracting the disease, you would face a 1 in 500 chance of death from your symptoms. In contrast, the number of people who have had severe allergic reactions from an MMR vaccine is less than one-in-one million.</p>
-            <p>Nevertheless, few vaccines induce a better immune response than natural infection. For instance, the Human papillomavirus (HPV) vaccine contains a high purity of the specific protein, leading to a better immune response than natural infection. Other examples include tetanus, Haemophilus influenzae type b (Hib), and pneumococcal vaccine.</p>
-            <p>Regarding COVID-19, it needs to be clarified. It has been shown that permanent protection after infection is unlikely. Even though coronavirus patients gained “substantial immune memory” that involved all four significant parts of the immune system: memory B cells, antibodies, memory CD4+ T cells, and memory CD8+ T cells, the protection started to reduce after half a year. Also, scientists have shown a “massive dynamic range” in the immune response between individuals, with a 200-fold difference in antibody levels.</p>
-            <p>Other studies have shown that volunteers who received the Moderna vaccine (mRNA) had more antibodies — one marker of immune response — in their blood than did people who had been sick with COVID-19. However, this fact can be modified by the severity of the disease as there is a correlation between disease severity and lasting immune response – most asymptomatic patients had very few antibodies after six months of infection. Thus, the natural immunity generated from a SARS-CoV-2 infection is often unpredictable. Moreover, the antibodies elicited by the mRNA vaccine targeted a broader range of places on the Receptor Binding Domain (RBD) than those elicited by natural infection.</p>
+            <p>Meteorological stations are located in areas where the data collected are not representative of climate change and therefore unreliable for the study of the global climate. Scientists target global terrorism for data they create under the conditions they want.</p>
+
+            <p>
+                <i>"We found [U.S. weather] stations located next to the exhaust fans of air conditioning units, surrounded by asphalt parking lots and roads, on blistering-hot rooftops, and near sidewalks and buildings that absorb and radiate heat."</i> (Watts 2009)
+                <br />
+                <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
+            </p>
 
 
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                
-                <ul class="text-sm break-all">
-                    <li>
-                        <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext</a>
-                    </li>
-                    <li>
-                        <a href="https://science.sciencemag.org/content/371/6529/eabf4063" target="_blank">https://science.sciencemag.org/content/371/6529/eabf4063</a>
-                    </li>
-                    <li>
-                        <a href="https://www.nejm.org/doi/full/10.1056/NEJMc2032195" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMc2032195</a>
-                    </li>
-                    <li>
-                        <a href="https://www.researchsquare.com/article/rs-612205/v1" target="_blank">https://www.researchsquare.com/article/rs-612205/v1</a>
-                    </li>
-                    <li>
-                        <a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank">https://stm.sciencemag.org/content/13/600/eabi9915</a>
-                    </li>
-                </ul>
-            </section>
+            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 3:</h3>
+                    <p class="text-2xl">The evidence relating to climate change comes from decades of intensive research and is based on observations, field and laboratory experiments, and model simulations (Higgins, 2019). It is arbitrary to believe that the scientific data on climate change is unreliable.</p>
+                </div>
+            </UiCardInfo>
+
+            <p>Students investigating Myth 3 during the Guided Inquiry option are studying specific evidence (e.g., the location of the observatory stations and measurements) coming from the NOAA organization in order to criticize on their own if that evidence are reliable or no.  Alternatively, students investigating Myth 3 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
+            <p>In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
+
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.ametsoc.org/ams/assets/File/Climate_Assessment_Credibility_10-2019.pdf" target="_blank" rel="noopener noreferrer">Climate_Assessment_Credibility_10-2019.pdf (ametsoc.org)</a>
+                </li>
+                <li>
+                    <a href="https://gml.noaa.gov/" target="_blank" rel="noopener noreferrer">NOAA ESRL Global Monitoring Laboratory</a>
+                </li>
+            </ul>
+
+
+
 
 
 
@@ -638,34 +497,45 @@
 
 
             <hr id="myth-4" class="mt-10 mb-40" />
-            <h2>Myth #4: Vaccines contain life-threatening substances.</h2>
+            <h2>Myth #4: The rise in temperature is for good.</h2>
             
-            
-            <p>People are concerned about using formaldehyde, mercury, or aluminium in vaccines. On the one hand, these chemicals are toxic to the human body at certain levels. On the other hand, only tiny amounts of these chemicals can be found in vaccines. Those amounts are smaller than we get from nutrition or formaldehyde is produced at higher rates by our own metabolic systems.</p>
-            <p>Certain elements, such as aluminium salts, are added to vaccines because they work as an adjuvant, which means their presence boosts the immune response when you are vaccinated. Also, only certain vaccines contain aluminium salts, and new COVID-19 vaccines do not contain them. A few vaccines have contained thimerosal as a preservative; however, none of the vaccines used in children currently contains this. Thimerosal contains ethylmercury, which is cleared from the human body quickly compared to methylmercury, which bioaccumulates – so there is also a difference in which form toxic metal is. Nevertheless, COVID-19 vaccines do not contain toxins (e.g.).</p>
+            <p><i>"By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, regions more habitable, larger crops, longer growing season. That’s good. Warming helps the poor."</i> (John MacArthur)</p>
 
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank">https://stm.sciencemag.org/content/13/600/eabi9915</a></li>
-                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/</a></li>
-                    <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li>
-                    <li><a href="https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/" target="_blank">https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/</a></li>
-                </ul>
-            </section>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s</a>
+                </li>
+                <li>
+                    <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
+                </li>
+            </ul>
 
-
-
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:edit-document">
+             
+            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">For further study</h3>
-                    <ul class="leading-tight">
-                        <li><a href="https://www.publichealth.org/public-awareness/understanding-vaccines/goes-vaccine/" target="_blank">What Goes Into A Vaccine?</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank">Vaccines and the Immune Response: How Vaccines Work</a></li>
-                        <li><a href="https://www.cdc.gov/vaccines/vac-gen/additives.htm" target="_blank">What’s in Vaccines?</a></li>
-                    </ul>
+                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 4:</h3>
+                    <p class="text-2xl">Myth 4 is based only on the above statement of John MacArthur.  Scientific evidence reports exactly the opposite.  That climate change (heat) affects the number of human deaths positively. Climate change is one of the reasons of global changes affecting society, the environment, the economy, and public health.</p>
                 </div>
             </UiCardInfo>
+
+            <p>Students investigating Myth 4 during the Guided Inquiry option are studying specific evidence from the World Health Organization about the rise temperature and human deaths, recent evidence about human deaths affected from climate change, make an experimental investigation about rise temperature and land used for housing or cultivation etc.  Students access the scientific source and come up with their conclusions.  Alternatively, students investigating Myth 4 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
+            <p>In both inquiry options, students access the scientific sources and come up with their conclusions. </p>
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.epa.gov/climate-indicators/climate-change-indicators-heat-related-deaths#:~:text=Some%20statistical%20approaches%20estimate%20that,set%20shown%20in%20Figure%201" target="_blank" rel="noopener noreferrer">Climate Change Indicators: Heat-Related Deaths</a>
+                </li>
+                <li>
+                    <a href="https://health2016.globalchange.gov/low/ClimateHealth2016_FullReport_small.pdf" target="_blank" rel="noopener noreferrer">The Impacts Of Climate Change On Human Health In The United States</a>
+                </li>
+                <li>
+                    According to a 2009 article in Scientific American, a team of climate change researchers from the World Health Organization (WHO) found that "global warming is [responsible] for some 150,000 deaths each year around the world"; they feared this number would double by the year 2030. 
+                </li>
+            </ul>
+
+ 
+     
 
 
 
