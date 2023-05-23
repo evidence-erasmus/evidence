@@ -551,25 +551,44 @@
 
 
             <hr id="myth-5" class="mt-10 mb-40" />
-            <h2>Myth 5: Better hygiene and sanitation are responsible for decreased infections, not vaccines</h2>
+            <h2>Myth 5: There's no correlation between CO2 and temperature.</h2>
             
-            <p>This is partly true that vaccines do not deserve all the credit for reducing or eliminating rates of infectious diseases. It has been shown that better sanitation, nutrition, and the development of antibiotics have also helped a lot. Infections such as typhoid and cholera transmitted by contaminated water, a major cause of illness and death early in the 20th century, have been reduced dramatically by better sanitation. A recent review concluded that handwashing in averting infectious diseases. Another recent evidence comes from the COVID-19 lockdown and improved hygiene with dramatically reduced seasonal flu rates.</p>
-            <p>However, when these factors are isolated, and infectious disease rates are analysed, the role of vaccines cannot be denied. One example is measles in the United States. When the first measles vaccine was introduced in 1963, infection rates had been steady at around 400,000 cases a year. And while hygienic habits and sanitation did not change much over the following decade, the rate of measles infections dropped precipitously following the vaccine's introduction, with only around 25,000 cases by 1970. Another example is Hib disease. According to CDC data, the incidence rate for this malady plummeted from 20,000 in 1990 to around 1,500 in 1993 following the vaccine's introduction.</p>
-            <p>Another piece of evidence comes from recent decades. There have not been changes in hygiene in the developed world, but there has been a decrease in vaccination rates. Now several countries, such as the UK, the USA, Germany, Spain, etc., are seeing increasing numbers of measles, and other vaccine-preventable diseases, identified as an emerging disease "hot spots".</p>
+            <p>
+                <i>“It was the post-war industrialization that caused the rapid rise in global CO2 emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO2 emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO2 emissions, it was deceitful for the IPCC to make any claim that CO2 emissions were primarily responsible for observed 20th-century global warming."</i>
+                <br />
+                (<a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer">Norm Kalmanovitch</a>)
+                <br />
+                <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
+            </p>
 
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://jptcp.com/index.php/jptcp/article/view/711" target="_blank">https://jptcp.com/index.php/jptcp/article/view/711</a></li>
-                    <li><a href="https://www.nature.com/articles/d41586-020-01538-8" target="_blank">https://www.nature.com/articles/d41586-020-01538-8</a></li>
-                    <li><a href="https://www.nature.com/articles/d41586-020-03519-3" target="_blank">https://www.nature.com/articles/d41586-020-03519-3</a></li>
-                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/</a></li>
-                </ul>
-            </section>
+            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 5:</h3>
+                    <p class="text-2xl">
+                        <i>“Paleoclimate data from the last 800,000-plus years show that the link between temperature and CO2 is well-established. Scientists discovered CO2’s role in warming the planet in the mid-19th century, noted James Renwick, Professor, Victoria University of Wellington, in a previous review of a similar claim. “Through the past 2.6 million years, the period of recent ice ages, carbon dioxide has gone up and down in step with temperature, bottoming out at around 180 parts per million in the depths of a “glacial maximum” and peaking at around 280 parts per million in the warmer interglacial periods, he said in the review. “Going back further, CO2 levels were certainly higher than present, but so were temperatures.” Scientists are confident in the finding that increased CO2 concentrations are causing Earth’s temperature to rise. As CO2 and other greenhouse gases are emitted into the atmosphere, they trap more of the sun’s energy, leading to warming. “It is unequivocal that human influence has warmed the atmosphere, ocean and land,” the IPCC notes in its Sixth Assessment Report.”</i>
+                    </p>
+                </div>
+            </UiCardInfo>
+            
+            <p>
+                Students investigating Myth 5 during the Guided Inquiry option are studying evidence about how Carbon affects climate and life on Earth. They are also getting involved into an experimental procedure investigating how carbon dioxide affect temperature on Earth. They access those scientific sources and come up with their final conclusions. Alternatively, students investigating Myth 5 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+                <br />
+                In both inquiry options, students access the scientific sources and come up with their conclusions. 
+            </p>
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://climatefeedback.org/claimreview/link-between-co2-earth-temperature-well-established-despite-claims-fox-news-tom-harris/" target="_blank" rel="noopener noreferrer">https://climatefeedback.org/claimreview/link-between-co2-earth-temperature-well-established-despite-claims-fox-news-tom-harris/</a>
+                </li>
+                <li>
+                    <a href="https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature" target="_blank" rel="noopener noreferrer">https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature</a>
+                </li>
+            </ul>
 
 
 
-
+            
 
 
 
@@ -579,17 +598,63 @@
 
 
             <hr id="myth-6" class="mt-10 mb-40" />
-            <h2>Myth 6: Vaccines can infect the child with the disease it is trying to prevent</h2>
+            <h2>Myth 6: Actions to mitigate climate change will make people poorer.</h2>
 
-            <p>Some of the vaccines are live vaccines that contain live attenuated microorganisms/viruses, which are still capable of replicating within the host (vaccinee). The microorganisms are 'weakened', meaning they have lost most of their disease-causing capacity but still possess immunogenic properties. Thus, it is always much less severe than if a child became infected with the disease-causing virus itself. Live-attenuated vaccines are for measles, mumps, rubella (MMR combined vaccine), rotavirus, smallpox, chickenpox, and yellow fever vaccine. In most cases, live vaccines show significantly higher immunogenicity than inactivated vaccines since natural infection is imitated almost perfectly by eliciting a more comprehensive range of immunologic responses. However, these vaccines are not favoured for kids with weakened immune systems, such as those being treated for cancer.</p>
-            <p>Live vaccines can indeed cause mild symptoms resembling the disease they protect against. However, the vaccine recipients are experiencing a body's immune response to the vaccine, not the disease itself. There is only one recorded instance in which a vaccine was shown to cause disease. This was the Oral Polio Vaccine (OPV) which is no longer used and currently replaced with a killed virus form known as the inactivated polio vaccine (IPV).</p>
+            <p>
+                <i>"By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, more habitable regions, larger crops, longer growing season. That’s good. Warming helps the poor."</i>
+                <br />
+                (John MacArthur)
+                <br />
+                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s</a>
+            </p>
 
-            <section class="e-card">
-                <h4 class="mt-0">Reference</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://www.sciencedirect.com/science/article/pii/B9781455710768000090" target="_blank">https://www.sciencedirect.com/science/article/pii/B9781455710768000090</a></li>
-                </ul>
-            </section>
+            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 6:</h3>
+                    <p class="text-2xl">
+                        Poverty is increased by climate change and not by the actions to mitigate it.
+                    </p>
+                    <p class="text-2xl">
+                        <i>“The impacts of climate change, and the vulnerability of poor communities to climate change, vary greatly, but generally, climate change is superimposed on existing vulnerabilities. Climate change will further reduce access to drinking water, negatively affect the health of poor people, and will pose a real threat to food security in many countries in Africa, Asia, and Latin America. In some areas where livelihood choices are limited, decreasing crop yields threaten famines, or where loss of landmass in coastal areas is anticipated, migration might be the only solution. The macroeconomic costs of the impacts of climate change are highly uncertain, but very likely have the potential to threaten development in many countries. Therefore, the task ahead is to increase the adaptive capacity of affected poor communities and countries.
+                        <br />
+                        This decision to focus on adaptation is deliberate and is taken with the understanding that adaptation cannot replace mitigation efforts. The magnitude and rate of climate change will strongly depend on efforts to reduce greenhouse gas (GHG) concentrations in the atmosphere. The higher the concentrations of GHGs, the higher the likelihood of irreversible and grave damage to human and biological systems. Therefore, adaptation is only one part of the solution. Mitigation of climate change by limiting greenhouse gas concentrations in the atmosphere is the indispensable other part.”</i>
+                    </p>
+                </div>
+            </UiCardInfo>
+
+            <p>
+                Students investigating Myth 6 during the Guided Inquiry option are studying evidence about the economic benefits switching to the use of renewable electricity, the impending effects of using different energy sources and finally the information given about the jobs that will result from the exploitation of renewable energy sources.  Students access those evidence and come up with their conclusions. Alternatively, students investigating Myth 6 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+                <br />
+                In both inquiry options, students access the scientific sources and come up with their conclusions.
+            </p>
+
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.oecd.org/env/cc/2502872.pdf" target="_blank" rel="noopener noreferrer">https://www.oecd.org/env/cc/2502872.pdf</a>
+                </li>
+                <li>
+                    <a href="https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective</a>
+                </li>
+                <li>
+                    <a href="https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty" target="_blank" rel="noopener noreferrer">https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty</a>
+                </li>
+            </ul>
+
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.oecd.org/env/cc/2502872.pdf" target="_blank" rel="noopener noreferrer">https://www.oecd.org/env/cc/2502872.pdf</a>
+                </li>
+                <li>
+                    <a href="https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective</a>
+                </li>
+                <li>
+                    <a href="https://royalsociety.org/topics-policy/projects/climate-change-evidence-causes/question-6/" target="_blank" rel="noopener noreferrer">https://royalsociety.org/topics-policy/projects/climate-change-evidence-causes/question-6/</a>
+                </li>
+            </ul>
 
 
 
@@ -603,26 +668,35 @@
 
 
             <hr id="myth-7" class="mt-10 mb-40" />
-            <h2>Myth 7: We do not need to vaccinate because many countries have low infection rates</h2>
-            <p>Herd immunity occurs when a large portion of a community (the herd) becomes immune to a disease, making the spread of disease from person to person unlikely. Thanks to "herd immunity," many people do not see the need for vaccination. As long as a large majority of people are immunised in any population, the unimmunised minority will also be protected. This is important because there is a portion of the population – infants, pregnant women, the elderly, and those with weakened immune systems – that cannot sometimes receive vaccines. However, suppose many people do not vaccinate themselves or their children. In that case, the "herd immunity" disappears, opening up opportunities for viruses and bacteria to establish themselves and spread. With so many people resistant, an infectious disease will never get a chance to establish itself and spread. </p>
-            <p>Moreover, international travel often carries a disease from abroad, and an unvaccinated individual will be at far greater risk of getting sick or people have got infected while travelling. The increased measles incidence illustrates this in the US in recent years. As long as disease exists, we are at risk of getting infected. </p>
+            <h2>Myth 7: The earth’s climate has always changed, and now the same thing is happening.</h2>
+
+            <p>
+                <i>
+                    “Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen. Ice ages have occurred in a hundred thousand year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO2 levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”
+                </i>
+                <br />
+                (<a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer">Richard Lindzen</a>)
+                <br />
+                <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
+            </p>
             
-            <section class="e-card">
-                <h4 class="mt-0">References</h4>
-                <ul class="text-sm break-all">
-                    <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm" target="_blank">https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm</a></li>
-                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
-                </ul>
-            </section>
-
-
-
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:edit-document">
-                More COVID-19 myths and related scientific research can be found from: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/science-in-5/episode-8---myth-vs-science" target="_blank">
-                    WHO - Myth vs Science
-                </a>
+            
+            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 7:</h3>
+                    <p class="text-2xl">
+                        <i>“The largest global-scale climate variations in Earth’s recent geological past are the ice age cycles, which are cold glacial periods followed by shorter warm periods.The last few of these natural cycles have recurred roughly every 100,000 years. CO2 has risen more than 40% in just the past 200 years, much of this since the 1970s, contributing to human alteration of the planet’s energy budget that has so far warmed Earth by about 1 °C (1.8 °F).  If the rise in CO2 continues unchecked, warming of the same magnitude as the increase out of the ice age can be expected by the end of this century or soon after. This speed of warming is more than ten times that at the end of an ice age, the fastest known natural sustained change on a global scale.”</i>
+                    </p>
+                </div>
             </UiCardInfo>
 
+            <p>
+                Students investigating Myth 7 during the Guided Inquiry option are studying temperature on Earth (evidence from NASA) and compare the change in temperature every twenty years.  They find out the biggest temperature rises and record specific information regarding them.  Students access the scientific source and come up with their conclusions. Alternatively, students investigating Myth 7 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+                <br />
+                In both inquiry options, students access the scientific sources and come up with their conclusions.
+            </p>
+
+            
  
 
 
