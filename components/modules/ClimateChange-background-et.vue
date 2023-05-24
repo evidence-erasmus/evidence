@@ -53,13 +53,13 @@
 
 
 
-        <section class="e-article">
+        <section class="e-article" lang="et" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Kliimamuutused</h1>
-            <h5 class="font-normal uppercase leading-tight">Taustainformatsioon</h5>
+            <h5 class="font-normal uppercase leading-tight">Teaduslik taustainfo</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">1. What is Climate Change, and which are its causes?</h2>
+            <h2 id="section-1">1. Mis on kliimamuutused ja mis seda põhjustavad?</h2>
         
             <p>Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle. But since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels like coal, oil and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun’s heat and raising temperatures (Figure 1). Specifically, CO2 traps the longwave radiation given off by the planet. The trapping of the long wave radiation is dictated by quantum mechanics. The two oxygen atoms in CO2 vibrate with the carbon atom in the center, and the frequency of this vibration coincides with some of the infrared wavelengths of the long wave radiation. When the frequency of the radiation from the Earth’s surface and the atmosphere coincides with the frequency of CO2 vibration, the radiation is absorbed by CO2, converted to heat by collision with other air molecules, and then returned to the surface. As a result of this trapping, the outgoing longwave radiation is reduced by increasing CO2. Not as much heat is escaping to balance the net incoming solar radiation. As a result, there is excess heat energy on the planet, i.e., the system is out of energy balance. As CO2 is increasing with time, the infrared blanket is becoming thicker, and the planet is accumulating this excess energy.</p>
 
@@ -262,13 +262,20 @@
 
 
             <hr id="section-4" class="mt-10 mb-40" />
-            <h2>4. Techniques of Science Denials</h2>
+            <h2>4. Techniques of Science Denial</h2>
 
             
             <p>Among the various movements that reject a scientific consensus, five characteristics or techniques of science denial are observed:</p>
 
-
-            <img />
+            <UiContentImage
+                        src="https://evidence.onkel.ee/assets/c-change__flicc.webp"
+                        credits=""
+                        :elevated="true" class="mt-8">
+                        <template #caption>
+                            
+                        </template>
+                    </UiContentImage>
+            
 
             <dl>
                 <dt class="font-bold">

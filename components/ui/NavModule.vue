@@ -26,8 +26,9 @@
     const { t } = useI18n({ useScope: 'global' });
     const localePath = useLocalePath();
     const route = useRoute();
+
     const activeModule = computed(() => {
-        return route.path.split("/")[1];
+        return `${route.path.split("/")[1]}/${route.path.split("/")[2]}`;
     });
     const activePart = computed(() => {
         if(route.path.includes('background')){

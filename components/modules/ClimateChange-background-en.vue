@@ -53,7 +53,7 @@
 
 
 
-        <section class="e-article">
+        <section class="e-article"  lang="en" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Climate change</h1>
             <h5 class="font-normal uppercase leading-tight">Scientific background information</h5>
@@ -262,13 +262,19 @@
 
 
             <hr id="section-4" class="mt-10 mb-40" />
-            <h2>4. Techniques of Science Denials</h2>
+            <h2>4. Techniques of Science Denial</h2>
 
             
             <p>Among the various movements that reject a scientific consensus, five characteristics or techniques of science denial are observed:</p>
 
-
-            <img />
+            <UiContentImage
+                src="https://evidence.onkel.ee/assets/c-change__flicc.webp"
+                credits=""
+                :elevated="false" class="my-8">
+                <template #caption>
+                    5 Characteristics of Science Denial
+                </template>
+            </UiContentImage>
 
             <dl>
                 <dt class="font-bold">
