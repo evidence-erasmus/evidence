@@ -29,16 +29,16 @@
                         <a href="#activity-2">Rühmaarutelu</a>
                     </li>
                     <li>
-                        <a href="#activity-3">Müüdid</a>
+                        <a href="#activity-3">Müüdid kliimamuutuste kohta</a>
                     </li>
                     <li>
-                        <a href="#activity-4">Transforming evidence to a suitable format</a>
+                        <a href="#activity-4">Tõestusmaterjalile asjakohase vormi väljatöötamine</a>
                     </li>
                     <li>
-                        <a href="#activity-5">Group presentations</a>
+                        <a href="#activity-5">Esitlused</a>
                     </li>
                     <li>
-                        <a href="#activity-6">Card game</a>
+                        <a href="#activity-6">Argumenteerimismäng</a>
                     </li>
                 </ol>
             </template>
@@ -189,7 +189,139 @@
                 <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
             </p>
 
+            <UiNavButtonBar :buttons="[
+                {text:'Juhised', url:''},
+                {text:'Avatud uurimus', url:'/'},
+                {text:'Juhitud uurimus', url:'/'}
+                ]" 
+            />
 
+            <hr />
+
+            <h3><span class="text-rose-400">Müüt nr. 3:</span> Kliimamuutuste alane teadus ei ole usaldusväärne.</h3>
+
+            <p>Meteoroloogiajaamad asuvad piirkondades, kus kogutud andmed ei kajasta kliimamuutusi ega ole seetõttu globaalse kliima uurimiseks usaldusväärsed.</p>
+
+            <p class="pl-4 border-l border-blue-500">
+                <i>“Leidsime [USA ilma]jaamad, mis asuvad kliimaseadmete väljatõmbeventilaatorite kõrval, mis on ümbritsetud asfaltkattega parklate ja teedega, kuumadel katustel ning kõnniteede ja hoonete läheduses, mis neelavad ja kiirgavad soojust.”</i>
+                <br />
+                <a href="http://wattsupwiththat.files.wordpress.com/2009/05/surfacestationsreport_spring09.pdf" target="_blank" rel="noopener noreferrer" class="text-sm">
+                    —Watts 2009
+                </a>
+            </p>
+
+            <p>
+                Viidatud: 
+                <br />
+                <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
+            </p>
+
+            <UiNavButtonBar :buttons="[
+                {text:'Juhised', url:''},
+                {text:'Avatud uurimus', url:'/'},
+                {text:'Juhitud uurimus', url:'/'}
+                ]" 
+            />
+
+            <hr />
+
+            <h3><span class="text-rose-400">Müüt nr. 4:</span> Globaalne soojenemine on kasulik.</h3>
+
+            <p class="pl-4 border-l border-blue-500">
+                <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
+                <br />
+                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
+                    —John MacArthur
+                </a>
+            </p>
+
+            <p>
+                Viidatud: 
+                <br />
+                <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
+            </p>
+
+            <UiNavButtonBar :buttons="[
+                {text:'Juhised', url:''},
+                {text:'Avatud uurimus', url:'/'},
+                {text:'Juhitud uurimus', url:'/'}
+                ]" 
+            />
+
+            <hr />
+
+
+            <h3><span class="text-rose-400">Müüt nr. 5:</span> Seos CO2 ja temperatuuri tõusu vahel puudub.</h3>
+
+            <p class="pl-4 border-l border-blue-500">
+                <i>“Just sõjajärgne industrialiseerimine põhjustas ülemaailmse CO2 heitkoguste kiire tõusu, kuid 1945. aastaks, kui see algas, oli Maa juba jahtumisfaasis, mis algas 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiiresti tõusnud globaalsetele temperatuuridele ja vaid vähesel määral globaalsete CO2 heitkoguste suurenemisele järgnesid 33 aastat aeglaselt langevaid globaalseid temperatuure koos globaalse CO2 heitkoguste kiire kasvuga. Järelikult oli IPCC jaoks petlik väita, et CO2 heitkogused on peamiselt vastutavad 20. sajandi globaalse soojenemise eest.”</i>
+                <br />
+                <a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer" class="text-sm">
+                    —Norm Kalmanovitch
+                </a>
+            </p>
+
+            <p>
+                Viidatud: 
+                <br />
+                <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
+            </p>
+
+            <UiNavButtonBar :buttons="[
+                {text:'Juhised', url:''},
+                {text:'Avatud uurimus', url:'/'},
+                {text:'Juhitud uurimus', url:'/'}
+                ]" 
+            />
+
+            <hr />
+
+
+            <h3><span class="text-rose-400">Müüt nr. 6:</span> Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h3>
+
+            <p class="pl-4 border-l border-blue-500">
+                <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
+                <br />
+                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
+                    —John MacArthur
+                </a>
+            </p>
+
+            <UiNavButtonBar :buttons="[
+                {text:'Juhised', url:''},
+                {text:'Avatud uurimus', url:'/'},
+                {text:'Juhitud uurimus', url:'/'}
+                ]" 
+            />
+
+            <hr />
+
+
+
+            <h3><span class="text-rose-400">Müüt nr. 7:</span> Maa kliima on alati muutunud ning see jätkab muutumist.</h3>
+
+            <p class="pl-4 border-l border-blue-500">
+                <i>“Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi CO2 tase on praegusest madalam. Viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”</i>
+                <br />
+                <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
+                    —Richard Lindzen
+                </a>
+            </p>
+
+            <p>
+                Viidatud: 
+                <br />
+                <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
+            </p>
+
+            <UiNavButtonBar :buttons="[
+                {text:'Juhised', url:''},
+                {text:'Avatud uurimus', url:'/'},
+                {text:'Juhitud uurimus', url:'/'}
+                ]" 
+            />
+
+            <hr />
 
 
 
@@ -204,7 +336,7 @@
  -->
 
 
-            <hr id="activity-35" class="mt-10 mb-40 print:my-10" />
+            <!-- <hr id="activity-35" class="mt-10 mb-40 print:my-10" />
             <h2>Tegevus 3: Mythbusting</h2>
 
             <ModulesStructure>
@@ -268,7 +400,7 @@
                         </TabPanel>
                     </TabPanels>
                 </TabGroup>
-                </div>
+                </div> -->
 
 
 
@@ -283,7 +415,7 @@
 
 
 
-            <ModulesStudentActivity45En />
+            <ModulesStudentActivity45Et />
 
 
 
@@ -302,11 +434,11 @@
 
 
             <hr id="activity-6" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 6: Game</h2>
+            <h2>Tegevus 6: Argumenteerimismäng</h2>
 
-            <p class="text-sm italic">This game is adopted from, and modified based on the following source: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
+            <!-- <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale.s <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p> -->
 
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                     <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -315,154 +447,70 @@
                         <div class="e-icon--rounded ">
                             <Icon name="game-icons:rolling-dices" class="text-white" />
                         </div>
-                        <!-- <Icon name="mdi:check-bold" /> -->
                         <div class="e-icon--rounded">
                             <Icon name="healthicons:group-discussion-meeting" class="text-white" />
                         </div>
                     </template>
-            </ModulesStructure>
+            </ModulesStructure> -->
 
-            <p>In the following activity, you are invited to play a card game with your group/classmates to practice simple, respectful, and fact-based group discussion that is expected to model socio-scientific decision-making processes in our society. The game enables you to explore a topic in-depth in an informal and informative way, reflect on thoughts and opinions that would be difficult to get to and express them in other ways.</p>
+            <p>Kliimamuutuste mooduli lõpus rakendatakse järgmist argumentatsioonimängu. Lugege hoolikalt järgmisi juhiseid.</p>
             
-            <p class="font-bold">More precisely, you are expected to:</p>
-            <ul class="leading-tight">
-                <li><b>Get familiar</b> with the problems posed within the context of vaccination/wearing masks and look at them from different perspectives.</li>
-                <li>Form or clarify your <b>own opinion</b></li>
-                <li>Work towards a shared <b>group vision</b></li>
-                <li><b>Vote</b> on policy positions, <b>share</b> your results, and <b>compare</b> them with the opinions of others who played the same game (and had the same theme).</li>
-            </ul>
+
+            <h3>Mängu juhised:</h3>
+            
+            <ol>
+                <li>Mängijad jagunevad võrdsetesse rühmadesse.</li>
+                <li>
+                    <b>Lugude valik.</b> Iga võistkond valib 1 rohelise ja 1 sinise kaardi. 
+                    <ul>
+                        <li>
+                            <b>Rohelised kaardid</b> tutvustavad kliimamuutustega seotud lugusid. Lood põhinevad faktidel. 
+                        </li>
+                        <li>
+                            <b>Sinistel infokaartidel</b> on vastused vastavale rohelisele loole, aga rohelise kaardi meeskonnal vastavat sinist vastusekaarti ei ole.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Arutelu meeskonnas.</b> Kõik mängijad meeskonnas loevad lugu roheliselt kaardilt. Seejärel arutatakse lugu omavahel. 
+                    <br />
+                    Näiteks räägib esimene roheline kaart tõestisündinud loo 16-aastasest isasest jääkarust, kes leiti Svalbardis nälga surnuna. Meeskonna mängijad püüavad välja selgitada miks jääkaru suri.
+                </li>
+                <li>
+                    <b>Ühisarutelu.</b> Peale arutelu meeskonnas toimub seisukohtade esitlemine ühisarutelu käigus kõigi gruppide vahel.
+                    <br />
+                    Kui rühm esitleb oma lugu paneelarutelul, püüab vastava sinise infokaardiga rühm neile oma argumentidega vastata.
+                    <br />
+                    Selles etapis jagavad mängijad oma seisukohti teistega ja parandavad oma vastuseid, kui kuulevad erinevaid argumente ja arvamusi.</li>
+                <li>
+                    Mängu lõpus võrdlevad mängijad lugude kaarte infokaartidega. Iga tõene argument saab 3 punkti. Mängu võidab kõige suurema punktisumma saanud meeskond.
+                </li>
+            </ol>
 
             
             <hr>
             
-            <p>The game is played in groups (á 4 players).</p>
+            <h3>Mängukaardid</h3>
 
-            <h3>Phase I - Choosing a story (≈20 minutes)</h3>
-
-            <p>There are two themes:</p>
-
-            <div class="grid grid-cols-2 gap-2">
-                <div class="e-card text-center">
-                    <p class="my-2">Theme 1</p>
-                    <h4 class="my-1 leading-none">Vaccination</h4>
-                </div>
-                <div class="e-card text-center">
-                    <p class="my-2">Theme 2</p>
-                    <h4 class="my-1 leading-none">Wearing masks by upper respiratory infection pandemics</h4>
-                </div>
-            </div>
-
-
-            <p>Both themes have several cases (story cards) related to the theme.</p>
-
-            <div class="flex flex-wrap gap-2">
-                <div class="e-card text-center">Story 1</div>
-                <div class="e-card text-center">Story 2</div>
-                <div class="e-card text-center">Story 3</div>
-                <div class="e-card text-center">Story 4</div>
-                <div class="e-card text-center">Story ...</div>
-            </div>
-
-            
-            <p>Each player reads through the story cards. They each choose one they find personally significant (meaningful). Each player briefly summarizes his/her story card to the rest of the group.</p>
-
-            <p>Both themes (vaccination and wearing masks) have several info cards related to each.</p>
-
-            <div class="flex flex-wrap gap-2">
-                <div class="e-card text-center">Info 1</div>
-                <div class="e-card text-center">Info 2</div>
-                <div class="e-card text-center">Info 3</div>
-                <div class="e-card text-center">Info 4</div>
-                <div class="e-card text-center">Info 5</div>
-                <div class="e-card text-center">Info 6</div>
-                <div class="e-card text-center">Info ...</div>
-            </div>
-
-            <p>All players exchange and read info cards. They each choose two they find personally significant (meaningful). Each player briefly summarizes their chosen info cards to the group.</p>
-
-
-
-            <h3>Phase II - Discussion (≈20 min)</h3>
-            
-            <p>Discussion: In this stage, players share their opinion(s) with others and refine their points of view as they hear different arguments and perspectives. Players use the cards gathered in phase I to support their opinions. Players can record the discussion by making clusters around the themes that reflect the group’s vision. All types of cards can be used to create a cluster.</p>
-            
-
-
-            <h3>Phase III - Opinions (≈20 min)</h3>
-
-            <p>Players will read through different position cards and prepare to vote for one position that best represents their opinion (at the end of the game).</p>
-
-            <div class="flex flex-wrap gap-2">
-                <div class="e-card text-center">Position 1</div>
-                <div class="e-card text-center">Position 2</div>
-                <div class="e-card text-center">Position 3</div>
-                <div class="e-card text-center">Position 4</div>
-            </div>
-
-            <p>A shared group response: This stage invites players to look at issues as a group: what opinions are present in your group? Can you reach a positive consensus on a position?<br /></p>
-
-            <p><b>This stage can be conducted by the following activities:</b></p>
-            <ol>
-                <li class="my-4 leading-tight">
-                    Read through policy positions 1-4.
-                </li>
-                <li class="my-4 leading-tight">
-                    Try to look for common ground. Is there a policy position you can all live with? If not, try to formulate your own “fifth policy” as a group. 
-                </li>
-                <li class="my-4 leading-tight">
-                    All players vote individually in turn on all policies. 
-                </li>
-                <li class="my-4 leading-tight">
-                    Votes are recorded on the voting sheet, which provides an excellent visual summary and allows you to compare your group’s results with that of other players.
-                </li>
-            </ol>
-
-
-
-
-
-            <h3>Game cards: Theme 1</h3>
+            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
 
             <UiCardInfo>
                 <div>
-                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
+                    <p>Siin võtavad kaardid ruumi just nii palju kui on vaja brauseri aknasse sobitumiseks <b>Kui soovid kaarte välja printida </b></p>
                     
                     <nuxt-link to="../tools/cards/viruses/theme1" target="_blank" 
                     class="mb-3 px-4 py-2 inline-flex items-center gap-2 
                     bg-sky-600 text-md rounded text-white no-underline uppercase transition
                     hover:bg-sky-700
                     print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
-                    </nuxt-link> (opens in new tab)
+                        <icon name="material-symbols:print-outline-rounded" />Ava prinditavad kaardid
+                    </nuxt-link> (uues aknas)
                 </div>
             </UiCardInfo>
 
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
             <hr>
-
-            <h3>Game cards: Theme 2</h3>
-
-            <UiCardInfo>
-                <div>
-                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
-                    
-                    <nuxt-link to="../tools/cards/viruses/theme2" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
-                    </nuxt-link> (opens in new tab)
-                </div>
-            </UiCardInfo>
-
-            <ToolsCardgameVirusesTheme2 :printMode="false" />
-
-
-
-
-
 
 
         </section>
