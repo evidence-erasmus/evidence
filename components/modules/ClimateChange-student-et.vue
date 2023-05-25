@@ -11,7 +11,7 @@
 
 <template>
     <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-4 pl-6 pr-8 rounded-tr-xl z-50 ring-4 ring-slate-700">
-        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Your answers</nuxt-link>
+        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Sinu vastused</nuxt-link>
     </section>
     
     <div class="flex flex-col items-start 
@@ -19,17 +19,17 @@
         xl:gap-10
         2xl:gap-20">
         <UiTableOfContents class="lg:max-w-xs">
-            <template #title>Table of Contents</template>
+            <template #title>Sisukord</template>
             <template #content>
                 <ol>
                     <li>
-                        <a href="#activity-1">Presentation of the video introduction</a>
+                        <a href="#activity-1">Video vaatamine</a>
                     </li>
                     <li>
-                        <a href="#activity-2">Group discussion</a>
+                        <a href="#activity-2">Rühmaarutelu</a>
                     </li>
                     <li>
-                        <a href="#activity-3">Mythbusting</a>
+                        <a href="#activity-3">Müüdid</a>
                     </li>
                     <li>
                         <a href="#activity-4">Transforming evidence to a suitable format</a>
@@ -46,14 +46,14 @@
 
 
 
-        <section class="e-article print:not-prose">
+        <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             <Icon name="openmoji:person-raising-hand-medium-light-skin-tone" class="float-right text-[5em] text-slate-300" />
             <Icon name="openmoji:person-shrugging" class="float-right text-[5em] text-slate-300" />
-            <h1 class="mb-0">Climate change</h1>
-            <h5 class="font-normal uppercase leading-tight">Materials for students</h5>
+            <h1 class="mb-0">Kliimamuutused</h1>
+            <h5 class="font-normal uppercase leading-tight">Õpilaste materjal</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">Introduction</h2>
+            <h2 id="section-1">Sissejuhatus</h2>
 
             
             <!-- <section class="e-card e-module__meta">
@@ -63,16 +63,18 @@
             </section> -->
 
 
-            <p>This module invites you to falsify or confirm a common myth about climate change. After watching the introductory video on climate change-related myths, you will discuss them in groups and choose one myth. Group discussion will lead to a myth-busting activity where you will look for evidence to falsify or confirm a chosen myth (see Figure 1). You could follow the open or guided inquiry option. In the first case (open inquiry), you will search for any scientific sources on the web (e.g. video, articles, webpages, animations) and apply your plan of activities to falsify or confirm your myth. In the 2nd case (guided inquiry), you will be involved in a specific suggested plan of activities (e.g. watch recommended video, read chosen articles, apply recommended experiments) in order to falsify or confirm your myth.</p>
+            <p>Selles moodulis palutakse teil ümber lükata või kinnitada mõnda levinud müüti kliimamuutuste kohta. <a href="#activity-1">Sissejuhatavas videos</a>  tuuakse välja mõned kliimamuutustega seotud arusaamad (uskumused). Rühmaarutelu tulemusel peaksite valima välja müüdi, mida ümber lükata või kinnitada (Joonis 1).</p>
 
-            <p>Through the myth-busting activity, you will learn to assess the reliability of information sources (science/research databases, popular science, and other media). Of course, you have first to pose a testable hypothesis. After making conclusions, you will prepare to present your findings to your classmates (or different audiences) in a relevant and convincing manner (e.g. in the form of video posts). The module is finished with a role-play where you can suggest solutions using your scientific knowledge and departing from your personal and social values.</p>
+            mythbusting img here
+
+            <p>Seda on võimalik teha nii eksperimentaalselt kui ka sekundaarsete allikate uurimise kaudu. Viimase kaudu õpite ühtlasi hindama infoallikate (teaduskirjandus, populaarteaduslik kirjandus, muud allikad) usaldusväärsust. Pärast järelduste tegemist peate te esitlema oma järeldusi  asjakohaselt ja veenvalt klassikaaslastele (või muule publikule). Mooduli lõpetab argumentatsioonimäng, kus saate kasutada oma loodusteaduslikke teadmisi ning kõrvutada neid isiklike ja  sotsiaalsetest väärtustega.</p>
                         
             
 
             <hr id="activity-1" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 1: Presentation of the video introduction</h2>
+            <h2>Tegevus 1:  Video vaatamine</h2>
             
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                     <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -89,11 +91,11 @@
                             <Icon name="game-icons:all-seeing-eye" class="text-white" />
                         </div>
                     </template>
-                </ModulesStructure>
+                </ModulesStructure> -->
 
-            <p>Please watch the introductory video. Put down your initial thoughts and feelings about the issues presented.</p>
+            <p>Vaadake videot ning pange kirja oma mõtted, mis teil teema kohta tekkisid.</p>
 
-            <UiYoutube video="t4v-36h2noo" />
+            <UiYoutube video="CbJ7GmgEAAo" />
 
             
 
@@ -110,9 +112,9 @@
 
 
             <hr id="activity-2" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 2: Group discussion</h2>
+            <h2>Tegevus 2: Rühmaarutelu</h2>
             
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                     <template #title>Activity 2<br />CHOOSING A MYTH</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -127,48 +129,65 @@
                             <Icon name="game-icons:unicorn" class="text-white" />
                         </div>
                     </template>
-                </ModulesStructure>
+                </ModulesStructure> -->
             
-            <p>After watching the video, you are invited to discuss the topic in small groups (4-6 members).</p>
+            <p>Pärast video vaatamist moodustage väikesed rühmad (3-4 liiget) ning arutage teemat.</p>
+
+            <p>Jagage rühmakaaslastele oma esialgseid mõtteid video kohta:</p>
+
             <ol>
-                <li>Please, express your initial thoughts and feelings about the issues presented in the video to your peers.</li>
-                <li>As a group, you are invited to choose one of the myths or issues for further busting (falsifying) or confirmation based on scientific sources.</li>
-                <li>After choosing the myth you want to investigate, decide whether to follow the open or guided inquiry and click on the corresponding link: Open Inquiry or  Guided Inquiry (Myth 1, Myth 2, Myth 3, Myth 4, Myth 5, Myth 6, Myth 7)</li>
+                <li>Millised arusaamad selles peegeldusid ning mida nendest arvate?</li>
+                <li>Valige edasiseks tööks järgnevast loetelust üks müüt, mille paikapidavust lähemalt uurida.</li>
+                <li>Leppige õpetajaga kokku, kas teostate oma müüdimurdmise avatud või juhitud uurimuse vormis.</li>
             </ol>
-            <p>You could choose between the following myths or define your own (in the last case, please consolidate the topic first with your teacher):</p>
+            
 
             
-            <h3><span class="text-rose-400">Myth 1:</span> Vaccines cause autism/ serious side effects</h3>
-            <p>Some people believe that vaccines and their additives/preservatives can cause severe reactions in the organism; some include autism - a group of developmental disabilities that can cause significant social, communication, and behavioural challenges. Are those claims warranted?</p>
-
-            <h3><span class="text-rose-400">Myth 2:</span> Infant immune systems cannot handle multiple vaccines.</h3>
-            <p>A few days after the birth as well as some weeks/months later, several different vaccines are injected into a baby. The question is if this can be handled by an infant's body?</p>
-
-            <h3><span class="text-rose-400">Myth 3:</span> Immunity acquired through a disease is a better choice than immunity acquired through vaccination.</h3>
-            <p>Natural immunity is obtained from exposure to the disease through infection. Whereas vaccine-induced immunity is obtained by introducing a killed or weakened form of the disease organism or mRNA created in a laboratory to teach our cells how to make a protein or even just a piece of a protein or modified version of a virus that triggers an immune response. Which raises the question of whether they are equal or not.</p>
-
-            <h3><span class="text-rose-400">Myth 4:</span> Vaccines contain life-threatening substances.</h3>
-            <p>Sometimes it has been said that vaccines might contain additives or preservatives, some toxic as mercury, aluminium, formaldehyde, etc. Whether or to what extent are these claims valid?</p>
-
-            <h3><span class="text-rose-400">Myth 5:</span> Better hygiene and sanitation are responsible for decreased infections, not vaccines.</h3>
-            <p>The spread of the disease has been argued to be related to environmental conditions, sanitation, and personal hygiene. During the last two centuries, there has been improvement in all. Same time the number of infections has decreased, and vaccination has increased. But can we say that vaccines do not matter?</p>
-
-            <h3><span class="text-rose-400">Myth 6:</span> Vaccines can infect the child with the disease it is trying to prevent.</h3>
-            <p>Some vaccines (measles, chickenpox, etc.) use weakened forms of the disease organism (live-attenuated vaccines). The question is if this will infect the child?</p>
-
-            <h3><span class="text-rose-400">Myth 7:</span> We do not need to vaccinate because many countries have low infection rates.</h3>
-            <p>As very few people have diseases, there is a very low probability that I will be in contact with those people, or it is improbable that I will travel to areas with higher infection rates. Therefore, some believe we could abandon most vaccines routinely administered to children.</p>
-
-            <h3><span class="text-rose-400">Myth 8:</span> Soap is as good as alcohol for killing certain viruses (e.g. COVID-19)</h3>
-            <p>One option to disinfect is using alcohol, but the other is hashing hands with soap. But are they equally effective?</p>
-
-            <h3><span class="text-rose-400">Myth 9:</span> Masks are pointless in preventing upper respiratory diseases (e.g. COVID-19).</h3>
-            <p>There has been much discussion in society about the effectiveness of wearing masks for preventing droplet diseases. At the same time, this habit has been normality in some, e.g. Asian cultures. Still, what is the scientific evidence behind it? Or is it possible for you to test their effectiveness yourself?</p>
             
-            <h3><span class="text-rose-400">Myth 10:</span> Prolonged use of the mask produces hypoxia/Masks can cause carbon dioxide poisoning.</h3>
-            <p>It is believed that through the mask, you will get less oxygen. If it is true, then with a limited oxygen supply, there is an increased risk of oxygen lack, called hypoxia. Same time your body releases carbon dioxide that, in very high concentrations, can be toxic. But is this assumption actually true?</p>
+            
+            
+            
+            
+            
+            
+            
+            
+            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
+            <h2>Kliimamuutuste müüdid</h2>
 
             
+            <h3><span class="text-rose-400">Müüt nr. 1:</span> Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.</h3>
+
+            <p>Liikide väljasuremine on toimunud läbi Maa ajaloo. Eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis aset 66 000 000 aastat tagasi, oli tingitud asteroidi kokkupõrkest Maale. Aastate jooksul on meil teisigi tuntud näiteid, näiteks mammutite väljasuremine. Registreeritud väljasuremise põhjused on aga erinevad.</p>
+
+            <p>Ka vihje, et inimkond on võimeline mõjutama ja häirima sellise ulatusega jõude, peegeldab inimeste enesekeskset ülbust. Inimkond on looduse osa. Loodus ei ole inimkonna osa. Inimesed ei saa neid protsesse parandada ega sellesse sekkuda (Financial Sense University).</p>
+
+            <p>
+                Viidatud: 
+                <br />
+                <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
+            </p>
+            
+            <UiNavButtonBar :buttons="[
+                {text:'Juhised', url:''},
+                {text:'Avatud uurimus', url:'/'},
+                {text:'Juhitud uurimus', url:'/'}
+                ]" 
+            />
+
+            <hr />
+
+            <h3><span class="text-rose-400">Müüt nr. 2:</span> Liigid suudavad kliimamuutustega kohaneda.</h3>
+
+            <p>Maa ajalugu hinnatakse 4,54 miljardile aastale. Läbi aegade on planeedil valitsenud ilmastikutingimused muutunud. Seetõttu on Maal elavad liigid/organismid sunnitud ellujäämiseks ja säilimiseks uute tingimustega kohanema. Nii tekkis liikide evolutsioon.</p>
+
+            <p>Taimed ja loomad on juba mitu korda ebasoodsate tingimustega (kliimamuutused, meteoriidid, vulkaanipursked jne) kohanenud. See võimaldab neil kohaneda kasvavate temperatuuride ja olukorraga, mida me praegu nimetame kliimamuutusteks. Teisisõnu, liigid on looduslikult võimelised uutes tingimustes ellu jääma.</p>
+
+            <p>
+                Viidatud: 
+                <br />
+                <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
+            </p>
 
 
 
@@ -185,8 +204,8 @@
  -->
 
 
-            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 3: Mythbusting</h2>
+            <hr id="activity-35" class="mt-10 mb-40 print:my-10" />
+            <h2>Tegevus 3: Mythbusting</h2>
 
             <ModulesStructure>
                 <template #title>Activity 3<br />MYTHBUSTING</template>
@@ -283,7 +302,7 @@
 
 
             <hr id="activity-6" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 6: Game</h2>
+            <h2>Tegevus 6: Game</h2>
 
             <p class="text-sm italic">This game is adopted from, and modified based on the following source: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
 

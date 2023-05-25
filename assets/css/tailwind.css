@@ -25,8 +25,11 @@
 
 @layer components {
 
-    .e-btn-blue {
-      @apply bg-blue-500 text-white font-semibold rounded-lg shadow-md;
+    .e-btn {
+      @apply bg-slate-500 text-white font-semibold rounded-lg shadow-md;
+    }
+    .e-btn--blue {
+      @apply text-white bg-blue-500;
     }
     .e-article {
       @apply w-full prose prose-slate prose-headings:text-slate-800 prose-a:text-blue-500 py-20 px-6 sm:px-8 md:pl-[3vw] lg:pl-[7vw] md:prose-lg lg:prose-xl print:prose-xl print:text-sm print:container print:mx-auto;
