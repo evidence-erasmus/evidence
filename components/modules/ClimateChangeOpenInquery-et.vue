@@ -1,12 +1,24 @@
 <script setup>
-    import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue';
+    
     import { useUserPreferences } from '~~/store/useUserPreferences'; 
+    import { useStudentClimateOpen } from '~~/store/useStudentClimateOpen.js'; 
 
     const userPrefs = useUserPreferences();
+    const studentClimateOpen = useStudentClimateOpen();
 
-    const changeTab = (index) => {
-        userPrefs.setLearnPath("learnPathViruses", index);
-    } 
+     const myths = ref(
+        [
+            "Liikide väljasuremine on looduslik protsess.",
+            "Liigid suudavad kliimamuutustega kohaneda.",
+            "Kliimamuutuste alane teadus ei ole usaldusväärne.",
+            "Globaalne soojenemine on kasulik.",
+            "Seos CO2 ja temperatuuri tõusu vahel puudub.",
+            "Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
+            "Maa kliima on alati muutunud ning see jätkab muutumist."
+        ]
+     );
+
+
 </script>
 
 <template>
@@ -18,7 +30,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="lg:max-w-xs" style="z-index:50">
+        <!-- <UiTableOfContents class="lg:max-w-xs" style="z-index:50">
             <template #title>Sisukord</template>
             <template #content>
                 <ol>
@@ -42,7 +54,7 @@
                     </li>
                 </ol>
             </template>
-        </UiTableOfContents>
+        </UiTableOfContents> -->
 
 
 
@@ -61,9 +73,23 @@
                 <b>Meie hakkame uurima järgmist müüti:</b>
             </p>
 
-            <textarea>
-                addasdas
-            </textarea>
+
+            <select class="select select-bordered w-full max-w-sm block" v-model="studentClimateOpen.mythName">
+                <option disabled selected>Vali müüt</option>
+                <option v-for="myth in myths">{{ myth }}</option>
+            </select>
+
+
+
+            <div class="rating">
+                <input type="radio" name="rating-1" class="mask mask-star" />
+                <input type="radio" name="rating-1" class="mask mask-star" checked />
+                <input type="radio" name="rating-1" class="mask mask-star" />
+                <input type="radio" name="rating-1" class="mask mask-star" />
+                <input type="radio" name="rating-1" class="mask mask-star" />
+            </div>
+
+            <textarea class="textarea textarea-bordered block w-full" placeholder="Bio"></textarea>
 
             <p>
                 Nüüd kitsendage oma müüt kontrollitavaks hüpoteesiks või uurimisküsimuseks.
