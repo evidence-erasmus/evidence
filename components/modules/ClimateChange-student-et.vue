@@ -18,7 +18,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="lg:max-w-xs">
+        <UiTableOfContents class="lg:max-w-xs" style="z-index:50">
             <template #title>Sisukord</template>
             <template #content>
                 <ol>
@@ -156,7 +156,12 @@
             <h2>Kliimamuutuste müüdid</h2>
 
             
-            <h3><span class="text-rose-400">Müüt nr. 1:</span> Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.</h3>
+            <div class="grid grid-cols-[80px_auto] items-center">
+                <div class="e-icon--rounded bg-rose-400 text-4xl">
+                    <Icon name="game-icons:unicorn" class="text-white" />
+                </div>
+                <h3 class="m-0"><span class="text-rose-400">Müüt nr. 1:</span> Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.</h3>
+            </div>
 
             <p>Liikide väljasuremine on toimunud läbi Maa ajaloo. Eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis aset 66 000 000 aastat tagasi, oli tingitud asteroidi kokkupõrkest Maale. Aastate jooksul on meil teisigi tuntud näiteid, näiteks mammutite väljasuremine. Registreeritud väljasuremise põhjused on aga erinevad.</p>
 
@@ -177,7 +182,12 @@
 
             <hr />
 
-            <h3><span class="text-rose-400">Müüt nr. 2:</span> Liigid suudavad kliimamuutustega kohaneda.</h3>
+            <div class="grid grid-cols-[80px_auto] items-center">
+                <div class="e-icon--rounded bg-rose-400 text-4xl">
+                    <Icon name="game-icons:unicorn" class="text-white" />
+                </div>
+                <h3 class="m-0"><span class="text-rose-400">Müüt nr. 2:</span> Liigid suudavad kliimamuutustega kohaneda.</h3>
+            </div>
 
             <p>Maa ajalugu hinnatakse 4,54 miljardile aastale. Läbi aegade on planeedil valitsenud ilmastikutingimused muutunud. Seetõttu on Maal elavad liigid/organismid sunnitud ellujäämiseks ja säilimiseks uute tingimustega kohanema. Nii tekkis liikide evolutsioon.</p>
 
@@ -198,7 +208,15 @@
 
             <hr />
 
-            <h3><span class="text-rose-400">Müüt nr. 3:</span> Kliimamuutuste alane teadus ei ole usaldusväärne.</h3>
+            
+            <div class="grid grid-cols-[80px_auto] items-center">
+                <div class="e-icon--rounded bg-rose-400 text-4xl">
+                    <Icon name="game-icons:unicorn" class="text-white" />
+                </div>
+                <h3 class="m-0">
+                    <span class="text-rose-400">Müüt nr. 3:</span> Kliimamuutuste alane teadus ei ole usaldusväärne.
+                </h3>
+            </div>
 
             <p>Meteoroloogiajaamad asuvad piirkondades, kus kogutud andmed ei kajasta kliimamuutusi ega ole seetõttu globaalse kliima uurimiseks usaldusväärsed.</p>
 
@@ -225,7 +243,15 @@
 
             <hr />
 
-            <h3><span class="text-rose-400">Müüt nr. 4:</span> Globaalne soojenemine on kasulik.</h3>
+            <div class="grid grid-cols-[80px_auto] items-center">
+                <div class="e-icon--rounded bg-rose-400 text-4xl">
+                    <Icon name="game-icons:unicorn" class="text-white" />
+                </div>
+                <h3 class="m-0">
+                    <span class="text-rose-400">Müüt nr. 4:</span> Globaalne  soojenemine on kasulik.
+                </h3>
+            </div>
+
 
             <p class="pl-4 border-l border-blue-500">
                 <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
@@ -250,8 +276,18 @@
 
             <hr />
 
+    
+            <div class="grid grid-cols-[80px_auto] items-center">
+                <div class="e-icon--rounded bg-rose-400 text-4xl">
+                    <Icon name="game-icons:unicorn" class="text-white" />
+                </div>
+                <h3 class="m-0">
+                    <span class="text-rose-400">Müüt nr. 5:</span> Seos CO2 ja temperatuuri tõusu vahel puudub.
+                </h3>
+            </div>
 
-            <h3><span class="text-rose-400">Müüt nr. 5:</span> Seos CO2 ja temperatuuri tõusu vahel puudub.</h3>
+            <h3>
+            </h3>
 
             <p class="pl-4 border-l border-blue-500">
                 <i>“Just sõjajärgne industrialiseerimine põhjustas ülemaailmse CO2 heitkoguste kiire tõusu, kuid 1945. aastaks, kui see algas, oli Maa juba jahtumisfaasis, mis algas 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiiresti tõusnud globaalsetele temperatuuridele ja vaid vähesel määral globaalsete CO2 heitkoguste suurenemisele järgnesid 33 aastat aeglaselt langevaid globaalseid temperatuure koos globaalse CO2 heitkoguste kiire kasvuga. Järelikult oli IPCC jaoks petlik väita, et CO2 heitkogused on peamiselt vastutavad 20. sajandi globaalse soojenemise eest.”</i>
@@ -277,7 +313,17 @@
             <hr />
 
 
-            <h3><span class="text-rose-400">Müüt nr. 6:</span> Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h3>
+            <div class="grid grid-cols-[80px_auto] items-center">
+                <div class="e-icon--rounded bg-rose-400 text-4xl">
+                    <Icon name="game-icons:unicorn" class="text-white" />
+                </div>
+                <h3 class="m-0">
+                    <span class="text-rose-400">Müüt nr. 6:</span> Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.
+                </h3>
+            </div>
+
+            <h3>
+            </h3>
 
             <p class="pl-4 border-l border-blue-500">
                 <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
@@ -297,8 +343,15 @@
             <hr />
 
 
+            <div class="grid grid-cols-[80px_auto] items-center">
+                <div class="e-icon--rounded bg-rose-400 text-4xl">
+                    <Icon name="game-icons:unicorn" class="text-white" />
+                </div>
+                <h3 class="m-0">
+                    <span class="text-rose-400">Müüt nr. 7:</span> Maa kliima on alati muutunud ning see jätkab muutumist.
+                </h3>
+            </div>
 
-            <h3><span class="text-rose-400">Müüt nr. 7:</span> Maa kliima on alati muutunud ning see jätkab muutumist.</h3>
 
             <p class="pl-4 border-l border-blue-500">
                 <i>“Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi CO2 tase on praegusest madalam. Viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”</i>
@@ -496,9 +549,9 @@
 
             <UiCardInfo>
                 <div>
-                    <p>Siin võtavad kaardid ruumi just nii palju kui on vaja brauseri aknasse sobitumiseks <b>Kui soovid kaarte välja printida </b></p>
+                    <p>Siin võtavad kaardid ruumi just nii palju kui on vaja brauseri aknasse sobitumiseks <b>Kui soovid kaarte välja printida, on seda parem teha eraldi printimise vaates.</b></p>
                     
-                    <nuxt-link to="../tools/cards/viruses/theme1" target="_blank" 
+                    <nuxt-link to="../tools/cards/climate-change" target="_blank" 
                     class="mb-3 px-4 py-2 inline-flex items-center gap-2 
                     bg-sky-600 text-md rounded text-white no-underline uppercase transition
                     hover:bg-sky-700
@@ -508,7 +561,7 @@
                 </div>
             </UiCardInfo>
 
-            <ToolsCardgameVirusesTheme1 :printMode="false" />
+            <ToolsCardgameClimateChange :printMode="false" />
 
             <hr>
 

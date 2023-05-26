@@ -6,7 +6,8 @@
             class="text-center">{{b.text}}</span>
             <NuxtLink v-else
             :to="b.url"
-            class="px-4 py-2 text-center no-underline bg-slate-500 text-white rounded">{{ b.text }}</NuxtLink>
+            class="px-4 py-2 text-center no-underline bg-slate-500 text-white rounded transition duration-300
+            hover:bg-blue-500">{{ b.text }}</NuxtLink>
         </template>
         
     </div>
