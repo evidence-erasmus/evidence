@@ -69,18 +69,17 @@
                 (avatud  uurimus)
             </h2>
 
-            <p>
-                <b>Meie hakkame uurima järgmist müüti:</b>
-            </p>
-
-
-            <select class="select select-bordered w-full max-w-sm block" v-model="studentClimateOpen.mythName">
+            <label for="q1" class="block mb-2">
+                <b>Hakkame uurima järgmist müüti:</b>
+            </label>
+            <select id="q1" class="select select-bordered w-full max-w-sm block" v-model="studentClimateOpen.mythName">
                 <option disabled selected>Vali müüt</option>
                 <option v-for="myth in myths">{{ myth }}</option>
             </select>
+            <hr />
 
 
-
+<!--             
             <div class="rating">
                 <input type="radio" name="rating-1" class="mask mask-star" />
                 <input type="radio" name="rating-1" class="mask mask-star" checked />
@@ -89,25 +88,55 @@
                 <input type="radio" name="rating-1" class="mask mask-star" />
             </div>
 
-            <textarea class="textarea textarea-bordered block w-full" placeholder="Bio"></textarea>
+             -->
 
             <p>
-                Nüüd kitsendage oma müüt kontrollitavaks hüpoteesiks või uurimisküsimuseks.
+                Nüüd kitsendage oma müüt <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method." target="_blank" rel="noopener noreferrer">kontrollitavaks hüpoteesiks</a> või uurimisküsimuseks.
             </p>
 
-            <p>
-                Meie hüpotees ja/või uurimisküsimus on:
-            </p>
-             
-            <textarea>
-                asdasd
-            </textarea>
-            
-            <p>
-                Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest 0vastutab):
-            </p>
+            <label for="q2" class="block mb-2">
+                <b>Meie hüpotees ja/või uurimisküsimus on:</b>
+            </label>
+            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"></textarea>
+            <hr />
+
+            <label for="q3" class="block mb-2">
+                <b>Tegevusplaan</b> (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):
+            </label>
+            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="5"></textarea>
+            <hr />
 
 
+
+
+
+            <section class="e-card w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
+                <div 
+                class="grid grid-cols-[1fr_1fr_100px_1fr]">
+                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Evidence / main conclusions / summary of the information relevant to the hypothesis</div>
+                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Type and source of evidence</div>
+                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Reliability rate</div>
+                    <div class="text-sm font-bold leading-none p-2 border-x border-x-slate-300">Comments</div>
+                </div>
+                <div v-for="row, i in studentClimateOpen.reliability" 
+                class="grid grid-cols-[1fr_1fr_100px_1fr]">
+                    <div v-for="cell, j in row" class="border border-slate-300">
+                        <div v-if="cell === '?'" class="flex justify-center items-center h-full">
+                            <div class="rating">
+                                <input type="radio" :name="`rating-${i}`" class="mask mask-star" checked 
+                                    v-model="studentClimateOpen.reliability[i][j]" />
+                                <input type="radio" :name="`rating-${i}`" class="mask mask-star" 
+                                    v-model="studentClimateOpen.reliability[i][j]" />
+                                <input type="radio" :name="`rating-${i}`" class="mask mask-star" 
+                                    v-model="studentClimateOpen.reliability[i][j]"/>
+                            </div>
+                        </div>
+                        <textarea v-else 
+                        v-model="studentClimateOpen.reliability[i][j]" rows="1" class="textarea block w-full h-full"></textarea>
+                    </div>
+                </div>
+                <button @click="studentClimateOpen.addReliabilityRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD ROW</button>
+        </section>
 
 
 
