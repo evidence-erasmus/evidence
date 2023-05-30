@@ -30,34 +30,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <!-- <UiTableOfContents class="lg:max-w-xs" style="z-index:50">
-            <template #title>Sisukord</template>
-            <template #content>
-                <ol>
-                    <li>
-                        <a href="#activity-1">Video vaatamine</a>
-                    </li>
-                    <li>
-                        <a href="#activity-2">Rühmaarutelu</a>
-                    </li>
-                    <li>
-                        <a href="#activity-3">Müüdid kliimamuutuste kohta</a>
-                    </li>
-                    <li>
-                        <a href="#activity-4">Tõestusmaterjalile asjakohase vormi väljatöötamine</a>
-                    </li>
-                    <li>
-                        <a href="#activity-5">Esitlused</a>
-                    </li>
-                    <li>
-                        <a href="#activity-6">Argumenteerimismäng</a>
-                    </li>
-                </ol>
-            </template>
-        </UiTableOfContents> -->
-
-
-
+        
         <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             
             <h1 class="mb-0">Kliimamuutused</h1>
@@ -108,35 +81,32 @@
 
 
 
+            <p>Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks</p>
 
+            <p>Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.</p>
 
-            <section class="e-card w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
+            <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" />
+
+            <!-- <section class="e-card w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
                 <div 
                 class="grid grid-cols-[1fr_1fr_100px_1fr]">
-                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Evidence / main conclusions / summary of the information relevant to the hypothesis</div>
-                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Type and source of evidence</div>
-                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Reliability rate</div>
-                    <div class="text-sm font-bold leading-none p-2 border-x border-x-slate-300">Comments</div>
+                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Tõendid / peamised järeldused / kokkuvõte hüpoteesist</div>
+                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Tõendite tüüp ja allikas</div>
+                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Hinnang usaldusväärsusele</div>
+                    <div class="text-sm font-bold leading-none p-2 border-x border-x-slate-300">Kommentaarid</div>
                 </div>
                 <div v-for="row, i in studentClimateOpen.reliability" 
                 class="grid grid-cols-[1fr_1fr_100px_1fr]">
                     <div v-for="cell, j in row" class="border border-slate-300">
-                        <div v-if="cell === '?'" class="flex justify-center items-center h-full">
-                            <div class="rating">
-                                <input type="radio" :name="`rating-${i}`" class="mask mask-star" checked 
-                                    v-model="studentClimateOpen.reliability[i][j]" />
-                                <input type="radio" :name="`rating-${i}`" class="mask mask-star" 
-                                    v-model="studentClimateOpen.reliability[i][j]" />
-                                <input type="radio" :name="`rating-${i}`" class="mask mask-star" 
-                                    v-model="studentClimateOpen.reliability[i][j]"/>
-                            </div>
+                        <div v-if="j === 2" class="flex justify-center items-center h-full">
+                            <ToolsReliabilityRating :storeToUpdate="studentClimateOpen" :idx="i" />
                         </div>
                         <textarea v-else 
-                        v-model="studentClimateOpen.reliability[i][j]" rows="1" class="textarea block w-full h-full"></textarea>
+                        v-model="studentClimateOpen.reliability[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
                     </div>
                 </div>
-                <button @click="studentClimateOpen.addReliabilityRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD ROW</button>
-        </section>
+                <button @click="studentClimateOpen.addReliabilityRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">LISA RIDA</button>
+            </section> -->
 
 
 

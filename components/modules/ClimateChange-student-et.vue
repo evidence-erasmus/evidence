@@ -175,7 +175,7 @@
             
             <UiNavButtonBar :buttons="[
                 {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'/'},
+                {text:'Avatud uurimus', url:'inquery/open/'},
                 {text:'Juhitud uurimus', url:'/'}
                 ]" 
             />
@@ -201,7 +201,7 @@
 
             <UiNavButtonBar :buttons="[
                 {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'/'},
+                {text:'Avatud uurimus', url:'inquery/open/'},
                 {text:'Juhitud uurimus', url:'/'}
                 ]" 
             />
@@ -236,7 +236,7 @@
 
             <UiNavButtonBar :buttons="[
                 {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'/'},
+                {text:'Avatud uurimus', url:'inquery/open/'},
                 {text:'Juhitud uurimus', url:'/'}
                 ]" 
             />
@@ -269,7 +269,7 @@
 
             <UiNavButtonBar :buttons="[
                 {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'/'},
+                {text:'Avatud uurimus', url:'inquery/open/'},
                 {text:'Juhitud uurimus', url:'/'}
                 ]" 
             />
@@ -305,7 +305,7 @@
 
             <UiNavButtonBar :buttons="[
                 {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'/'},
+                {text:'Avatud uurimus', url:'inquery/open/'},
                 {text:'Juhitud uurimus', url:'/'}
                 ]" 
             />
@@ -335,7 +335,7 @@
 
             <UiNavButtonBar :buttons="[
                 {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'/'},
+                {text:'Avatud uurimus', url:'inquery/open/'},
                 {text:'Juhitud uurimus', url:'/'}
                 ]" 
             />
@@ -369,7 +369,7 @@
 
             <UiNavButtonBar :buttons="[
                 {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'/'},
+                {text:'Avatud uurimus', url:'inquery/open/'},
                 {text:'Juhitud uurimus', url:'/'}
                 ]" 
             />

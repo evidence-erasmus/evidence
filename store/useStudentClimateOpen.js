@@ -5,7 +5,7 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
         learningPath: 0,
         mythName: "Not selected yet",
         reliability: [
-            [" "," ","?"," "]
+            ["","","1",""]
         ],
         
         activity3a: {
@@ -26,7 +26,10 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
             this.learningPath = index;
         },
         addReliabilityRow(){
-            this.reliability.push(["", "", "?", ""]);
+            this.reliability.push(["", "", "1", ""]);
+        },
+        changeReliabilityValue(index, value){
+            this.reliability[index][2] = value;
         }
     },
     persist: {
