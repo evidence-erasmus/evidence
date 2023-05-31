@@ -43,7 +43,7 @@
             </h2>
 
             <label for="q1" class="block mb-2">
-                <b>Hakkame uurima järgmist müüti:</b>
+                <b>1. Hakkame uurima järgmist müüti:</b>
             </label>
             <select id="q1" class="select select-bordered w-full max-w-sm block" v-model="studentClimateOpen.mythName">
                 <option disabled selected>Vali müüt</option>
@@ -52,23 +52,12 @@
             <hr />
 
 
-<!--             
-            <div class="rating">
-                <input type="radio" name="rating-1" class="mask mask-star" />
-                <input type="radio" name="rating-1" class="mask mask-star" checked />
-                <input type="radio" name="rating-1" class="mask mask-star" />
-                <input type="radio" name="rating-1" class="mask mask-star" />
-                <input type="radio" name="rating-1" class="mask mask-star" />
-            </div>
-
-             -->
-
             <p>
                 Nüüd kitsendage oma müüt <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method." target="_blank" rel="noopener noreferrer">kontrollitavaks hüpoteesiks</a> või uurimisküsimuseks.
             </p>
 
             <label for="q2" class="block mb-2">
-                <b>Meie hüpotees ja/või uurimisküsimus on:</b>
+                <b>2. Meie hüpotees ja/või uurimisküsimus on:</b>
             </label>
             <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"></textarea>
             <hr />
@@ -83,34 +72,98 @@
 
             <p>Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks</p>
 
-            <p>Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.</p>
+            <p>
+                <b>3. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.</b>
+            </p>
 
             <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" />
+            <hr />
+            
 
-            <!-- <section class="e-card w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
+
+            <label for="q4" class="block mb-2">
+                <b>4. Kogutud tõenditest lähtudes on meie järeldused järgmised:</b>
+            </label>
+            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <hr />
+
+
+            <p>
+                <b>5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?</b>
+            </p>
+
+            <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
                 <div 
-                class="grid grid-cols-[1fr_1fr_100px_1fr]">
-                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Tõendid / peamised järeldused / kokkuvõte hüpoteesist</div>
-                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Tõendite tüüp ja allikas</div>
-                    <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Hinnang usaldusväärsusele</div>
-                    <div class="text-sm font-bold leading-none p-2 border-x border-x-slate-300">Kommentaarid</div>
-                </div>
-                <div v-for="row, i in studentClimateOpen.reliability" 
-                class="grid grid-cols-[1fr_1fr_100px_1fr]">
-                    <div v-for="cell, j in row" class="border border-slate-300">
-                        <div v-if="j === 2" class="flex justify-center items-center h-full">
-                            <ToolsReliabilityRating :storeToUpdate="studentClimateOpen" :idx="i" />
-                        </div>
-                        <textarea v-else 
-                        v-model="studentClimateOpen.reliability[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    class="grid grid-cols-[1fr_1fr_1fr]">
+                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Eksikujutelm</div>
+                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Allikas</div>
+                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Kommentaarid</div>
+                </div>    
+                <div 
+                    class="grid grid-cols-[1fr_1fr_1fr]">
+                    <div class="leading-tight p-3 border border-slate-300">
+                        <p class="m-0 text-sm">
+                            <b>Kirsside noppimine:</b>
+                            <br />
+                            Seda strateegiat määratletakse kui “selektiivset andmete valimist, mis viivad soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest”.
+                        </p>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
                     </div>
                 </div>
-                <button @click="studentClimateOpen.addReliabilityRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">LISA RIDA</button>
-            </section> -->
-
-
-
-
+                <div 
+                    class="grid grid-cols-[1fr_1fr_1fr]">
+                    <div class="leading-tight p-3 border border-slate-300">
+                        <p class="m-0 text-sm">
+                            <b>Kiirustamine järelduste tegemisel:</b>
+                            <br />
+                            Informatsiooni mittetundmine ja meelevaldne järeldus.
+                        </p>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                </div>
+                <div 
+                    class="grid grid-cols-[1fr_1fr_1fr]">
+                    <div class="leading-tight p-3 border border-slate-300">
+                        <p class="m-0 text-sm">
+                            <b>Võimatud ootused:</b>
+                            <br />
+                            See hõlmab ebarealistlike tõendite nõudmist või teadusliku ebakindluse olemuse vale esitamist. Kuna teadus on tavalisel tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks. Seda teadust eitavat strateegiat tuntakse kui “teadusliku kindluse argumenteerimise meetod”.
+                        </p>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                </div>
+                <div 
+                    class="grid grid-cols-[1fr_1fr_1fr]">
+                    <div class="leading-tight p-3 border border-slate-300">
+                        <p class="m-0 text-sm">
+                            <b>Liigne lihtsustamine</b>
+                            <br />
+                            Andmete lihtsustamine.
+                        </p>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                    <div class="leading-tight p-2 border border-slate-300">
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                </div>
+            </section>
 
 
 

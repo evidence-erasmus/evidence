@@ -3,6 +3,8 @@
         
         <ModulesClimateChangeOpenInqueryEt 
             v-if="route.params.inquery[1] === 'open' && locale === 'et'" />
+        <ModulesClimateChangeOpenInqueryEt 
+            v-else-if="route.params.inquery[1] === 'open' && locale === 'en'" />
         
     </div>
 </template>
