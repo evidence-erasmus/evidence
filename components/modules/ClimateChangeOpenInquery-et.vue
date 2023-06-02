@@ -103,6 +103,7 @@
                     class="grid grid-cols-[1fr_1fr_1fr]">
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
+                            <img src="http://evidence.onkel.ee/assets/flicc-c1.webp" class="w-20 md:w-28" />
                             <b>Kirsside noppimine:</b>
                             <br />
                             Seda strateegiat määratletakse kui “selektiivset andmete valimist, mis viivad soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest”.
@@ -119,6 +120,7 @@
                     class="grid grid-cols-[1fr_1fr_1fr]">
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
+                            <img src="http://evidence.onkel.ee/assets/flicc-l-j.webp" class="w-20 md:w-28" />
                             <b>Kiirustamine järelduste tegemisel:</b>
                             <br />
                             Informatsiooni mittetundmine ja meelevaldne järeldus.
@@ -135,6 +137,7 @@
                     class="grid grid-cols-[1fr_1fr_1fr]">
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
+                            <img src="http://evidence.onkel.ee/assets/flicc-i.webp" class="w-20 md:w-28" />
                             <b>Võimatud ootused:</b>
                             <br />
                             See hõlmab ebarealistlike tõendite nõudmist või teadusliku ebakindluse olemuse vale esitamist. Kuna teadus on tavalisel tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks. Seda teadust eitavat strateegiat tuntakse kui “teadusliku kindluse argumenteerimise meetod”.
@@ -151,6 +154,7 @@
                     class="grid grid-cols-[1fr_1fr_1fr]">
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
+                            <img src="http://evidence.onkel.ee/assets/flicc-l-o.webp" class="w-20 md:w-28" />
                             <b>Liigne lihtsustamine</b>
                             <br />
                             Andmete lihtsustamine.
