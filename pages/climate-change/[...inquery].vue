@@ -1,10 +1,25 @@
 <template>
     <div class="p-6 md:p-10">
+<!-- guided -->
+        <template v-if="route.params.inquery[1] === 'guided'">
+            <!-- estonian -->
+            <template v-if="locale === 'et'">
+                <ModulesClimateChangeGuidedInqueryMyth1Et 
+                    v-if="route.params.inquery[2] === 'myth-1'" />
+            </template>
+            <template v-else>
+                <ModulesClimateChangeGuidedInqueryMyth1Et 
+                    v-if="route.params.inquery[2] === 'myth-1'" />
+            </template>
+        </template>
+<!-- open -->
+        <template v-else-if="route.params.inquery[1] === 'open'">
+            <ModulesClimateChangeOpenInqueryEt 
+                v-if="locale === 'et'" />
+            <ModulesClimateChangeOpenInqueryEt 
+                v-else />
+        </template>
         
-        <ModulesClimateChangeOpenInqueryEt 
-            v-if="route.params.inquery[1] === 'open' && locale === 'et'" />
-        <ModulesClimateChangeOpenInqueryEt 
-            v-else-if="route.params.inquery[1] === 'open' && locale === 'en'" />
         
     </div>
 </template>
@@ -20,7 +35,7 @@
 
     
     definePageMeta({
-        layout: "base",
+        layout: "content-left",
     });
 
 </script>
