@@ -1,13 +1,13 @@
 <script setup>
     
-    import { useStudentClimateOpen } from '~~/store/useStudentClimateOpen.js'; 
+    import { useStudentClimateGuidedMyth1 } from '~~/store/useStudentClimateGuidedMyth1.js'; 
 
-    const studentClimateOpen = useStudentClimateOpen();
+    const studentClimateGuidedMyth1 = useStudentClimateGuidedMyth1();
 </script>
 
 <template>
     <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-4 pl-6 pr-8 rounded-tr-xl z-50 ring-4 ring-slate-700">
-        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Sinu vastused</nuxt-link>
+        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="../../answers-guided-myth1/" target="_blank" class="text-lg font-bold uppercase">Sinu vastused</nuxt-link>
     </section>
     
     <div class="flex flex-col items-start 
@@ -17,11 +17,15 @@
         
         <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             
+            <NuxtLink to="../../student" style="transform: translateY(-4rem); position:absolute;">
+                <Icon name="material-symbols:arrow-back-rounded" /> Tagasi
+            </NuxtLink>
+
             <h1 class="mb-0">Kliimamuutused</h1>
-            <h5 class="font-normal uppercase leading-tight">Juhitud uurimus</h5>
+            <h5 class="font-normal uppercase leading-tight">Juhitud uurimus, müüt 1</h5>
         
             <h2>
-                Tegevus 3:  Müüdimurdmine
+                Tegevus 3: Müüdimurdmine
             </h2>
 
             <h3>
@@ -33,7 +37,8 @@
             <label for="q1" class="block mb-2">
                 <b>Püstitage selle kohta oma hüpotees:</b>
             </label>
-            <textarea id="q1" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"></textarea>
+            <textarea id="q1" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"
+            v-model="studentClimateGuidedMyth1.hypothesis"></textarea>
             <hr />
 
             <p>
@@ -55,31 +60,36 @@
             <label for="q2" class="block mb-2">
                 <b>1. Mida me mõtleme "massilise väljasuremise" all?</b>
             </label>
-            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            v-model="studentClimateGuidedMyth1.q1"></textarea>
             <hr />
             
             <label for="q3" class="block mb-2">
                 <b>2. Kui palju massilist väljasuremist teie arvates toimub?</b>
             </label>
-            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            v-model="studentClimateGuidedMyth1.q2"></textarea>
             <hr />
             
             <label for="q4" class="block mb-2">
                 <b>3. Millised olid massilise väljasuremise põhjused?</b>
             </label>
-            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            v-model="studentClimateGuidedMyth1.q3"></textarea>
             <hr />
             
             <label for="q5" class="block mb-2">
                 <b>4. Millised olid massilise väljasuremise tagajärjed?</b>
             </label>
-            <textarea id="q5" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <textarea id="q5" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            v-model="studentClimateGuidedMyth1.q5"></textarea>
             <hr />
             
             <label for="q6" class="block mb-2">
                 <b>5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?</b>
             </label>
-            <textarea id="q6" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <textarea id="q6" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            v-model="studentClimateGuidedMyth1.q6"></textarea>
             <hr />
             
             
@@ -90,7 +100,8 @@
             <label for="q7" class="block mb-2">
                 <b>6. Mis on pingviinide massilise hukkumise põhjus?</b>
             </label>
-            <textarea id="q7" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <textarea id="q7" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            v-model="studentClimateGuidedMyth1.q7"></textarea>
             <hr />
             
 
@@ -101,7 +112,7 @@
                 <b>7. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.</b>
             </p>
 
-            <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" />
+            <ToolsReliabilityTable :storeToUpdate="studentClimateGuidedMyth1" />
             <hr />
             
 
@@ -110,7 +121,7 @@
 
 
             <p>
-                <b>5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?</b>
+                <b>8. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?</b>
             </p>
 
             <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
@@ -131,10 +142,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[0][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[0][1]"></textarea>
                     </div>
                 </div>
                 <div 
@@ -148,10 +161,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[1][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[1][1]"></textarea>
                     </div>
                 </div>
                 <div 
@@ -165,10 +180,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[2][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[2][1]"></textarea>
                     </div>
                 </div>
                 <div 
@@ -182,10 +199,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[3][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                        v-model="studentClimateGuidedMyth1.flicc[3][1]"></textarea>
                     </div>
                 </div>
             </section>

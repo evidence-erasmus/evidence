@@ -33,7 +33,7 @@
     const activePart = computed(() => {
         if(route.path.includes('background')){
             return 'background';
-        } else if(route.path.includes('student')) {
+        } else if(route.path.includes('student') || route.path.includes('inquery')) {
             return 'student';
         } else {
             return 'teacher';

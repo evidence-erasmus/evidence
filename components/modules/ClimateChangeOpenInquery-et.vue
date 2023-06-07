@@ -20,8 +20,10 @@
 </script>
 
 <template>
+    
     <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-4 pl-6 pr-8 rounded-tr-xl z-50 ring-4 ring-slate-700">
-        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Sinu vastused</nuxt-link>
+        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" />
+        <nuxt-link href="../../answers-climate-change-open" target="_blank" class="text-lg font-bold uppercase">Sinu vastused</nuxt-link>
     </section>
     
     <div class="flex flex-col items-start 
@@ -31,6 +33,10 @@
         
         <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             
+            <NuxtLink to="../../student" style="transform: translateY(-4rem); position:absolute;">
+                <Icon name="material-symbols:arrow-back-rounded" /> Tagasi
+            </NuxtLink>
+
             <h1 class="mb-0">Kliimamuutused</h1>
             <h5 class="font-normal uppercase leading-tight">Avatud uurimus</h5>
         
@@ -57,13 +63,15 @@
             <label for="q2" class="block mb-2">
                 <b>2. Meie hüpotees ja/või uurimisküsimus on:</b>
             </label>
-            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"></textarea>
+            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"
+            v-model="studentClimateOpen.q2"></textarea>
             <hr />
 
             <label for="q3" class="block mb-2">
                 <b>Tegevusplaan</b> (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):
             </label>
-            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="5"></textarea>
+            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="5"
+            v-model="studentClimateOpen.q3"></textarea>
             <hr />
 
 
@@ -82,7 +90,8 @@
             <label for="q4" class="block mb-2">
                 <b>4. Kogutud tõenditest lähtudes on meie järeldused järgmised:</b>
             </label>
-            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"></textarea>
+            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            v-model="studentClimateOpen.q4"></textarea>
             <hr />
 
 
@@ -108,10 +117,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[0][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[0][1]"></textarea>
                     </div>
                 </div>
                 <div 
@@ -125,10 +136,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[1][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[1][1]"></textarea>
                     </div>
                 </div>
                 <div 
@@ -142,10 +155,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[2][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[2][1]"></textarea>
                     </div>
                 </div>
                 <div 
@@ -159,10 +174,12 @@
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[3][0]"></textarea>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
-                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2"></textarea>
+                        <textarea rows="4" class="textarea block w-full h-full py-1 px-2" 
+                        v-model="studentClimateOpen.flicc[3][1]"></textarea>
                     </div>
                 </div>
             </section>

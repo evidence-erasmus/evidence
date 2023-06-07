@@ -63,9 +63,9 @@ export default defineNuxtConfig({
                 en: '/viruses/student',
                 et: '/viirused/õpilane'
             },
-            'viruses/teacher': {
-                en: '/viruses/teacher',
-                et: '/viirused/õpetaja'
+            'viruses/background': {
+                en: '/viruses/background',
+                et: '/viirused/taustainfo'
             },
             radiation: {
                 en: '/radiation',
@@ -75,6 +75,10 @@ export default defineNuxtConfig({
                 en: '/viruses/answers',
                 et: '/viirused/vastused'
             },
+            // 'tools/StudentAnswersClimatechangeOpen': {
+            //     en: '/climate-change/answers/open',
+            //     et: '/kliimamuutused/vastused/avatud'
+            // },
         },
         vueI18n: {
             legacy: false,

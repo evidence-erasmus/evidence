@@ -1,15 +1,18 @@
 import { defineStore } from "pinia";
 
-export const useStudentClimateOpen = defineStore("studentClimateOpen", {
+export const useStudentClimateGuidedMyth1 = defineStore("studentClimateGuidedMyth1", {
     state: () => ({
-        learningPath: 0,
-        mythName: "Not selected yet",
+        hypothesis: "",
+        q1: "",
         q2: "",
         q3: "",
+        q4: "",
+        q5: "",
+        q6: "",
         reliability: [
             ["","","1",""]
         ],
-        q4: "",
+        
         flicc: [
             ["", ""],
             ["", ""],
@@ -19,9 +22,6 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
     }),
     
     actions : {
-        changePath(index){
-            this.learningPath = index;
-        },
         addReliabilityRow(){
             this.reliability.push(["", "", "1", ""]);
         },
