@@ -59,9 +59,11 @@
             <h5 class="font-normal uppercase leading-tight">Teaduslik taustainfo</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">1. Mis on kliimamuutused ja mis seda põhjustavad?</h2>
+            <h2 id="section-1">1. Mis on kliimamuutused ja millised on selle põhjused?</h2>
         
-            <p>Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle. But since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels like coal, oil and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun’s heat and raising temperatures (Figure 1). Specifically, CO2 traps the longwave radiation given off by the planet. The trapping of the long wave radiation is dictated by quantum mechanics. The two oxygen atoms in CO2 vibrate with the carbon atom in the center, and the frequency of this vibration coincides with some of the infrared wavelengths of the long wave radiation. When the frequency of the radiation from the Earth’s surface and the atmosphere coincides with the frequency of CO2 vibration, the radiation is absorbed by CO2, converted to heat by collision with other air molecules, and then returned to the surface. As a result of this trapping, the outgoing longwave radiation is reduced by increasing CO2. Not as much heat is escaping to balance the net incoming solar radiation. As a result, there is excess heat energy on the planet, i.e., the system is out of energy balance. As CO2 is increasing with time, the infrared blanket is becoming thicker, and the planet is accumulating this excess energy.</p>
+            <p>
+                Kliimamuutused viitavad pikaajalistele temperatuuri ja ilmastiku muutustele. Need nihked võivad olla loomulikud, näiteks päikesetsükli muutuste tõttu. Kuid alates 1800. aastatest on inimtegevus olnud kliimamuutuste peamiseks tõukejõuks, peamiselt fossiilkütuste, nagu näiteks nafta ja gaas, põletamise tõttu. Fossiilkütuste põletamine tekitab kasvuhoonegaaside heitkoguseid, mis  toimivad justkui oleks Maa ümber mähitud tekk, mis püüab kinni päikesesoojuse ja tõstab sellega  temperatuuri (Vt. Joonis 1).
+            </p>
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__the-greenhouse-effect.webp"
@@ -71,17 +73,27 @@
                     <b>Figure 1.</b> A simplified diagram illustrating the greenhouse effect
                 </template>
             </UiContentImage>
-        
-            <p><b>Gases that contribute to the greenhouse effect include:</b></p>
+            
+            <p>
+                Täpsemalt, CO₂ püüab kinni planeedi eralduva pikalainelise kiirguse. Pikalainelise kiirguse püüdmise määrab kvantmehaanika. CO₂ kaks hapnikuaatomit koos nende vahel oleva süsinikuaatomiga vibreerivad ja selle vibratsiooni sagedus langeb kokku mõne pikalainelise kiirguse infrapuna lainepikkusega. Kui Maa pinnalt ja atmosfäärist lähtuva kiirguse sagedus langeb kokku CO₂ vibratsiooni sagedusega, neelatakse see CO₂ molekulide poolt ja muudetakse kokkupõrkel teiste õhumolekulidega soojuseks ning antakse seejärel pinnale tagasi. Seega kui CO₂ sisaldus atmosfääris suureneb, siis väheneb atmosfäärist väljuva pikalainelise kiirguse hulk ehk sisse tuleb rohkem energiat kui  väljub, mis tähendab, et süsteemi energia on tasakaalust väljas. 
+            </p>
+
+            <p><b>Kasvuhooneefekti soodustavad gaasid (kasvuhoonegaasid) on järgmised:</b></p>
             <dl>
-                <dt class="font-bold">Water vapor:</dt>
-                <dd>The most abundant greenhouse gas, but importantly, it acts as feedback to the climate. Water vapor increases as the Earth's atmosphere warms, but so does the possibility of clouds and precipitation, making these some of the most important feedback mechanisms to the greenhouse effect.</dd>
-                <dt class="font-bold">Carbon dioxide (CO2):</dt>
-                <dd>A minor but essential component of the atmosphere, carbon dioxide is released through natural processes such as respiration and volcano eruptions and human activities such as deforestation, land use changes, and burning fossil fuels. Humans have increased atmospheric CO2 concentration by 48% since the Industrial Revolution began. This is the most important long-lived "forcing" of climate change.</dd>
-                <dt class="font-bold">Methane:</dt>
-                <dd>A hydrocarbon gas produced through natural sources and human activities, including the decomposition of wastes in landfills, agriculture, and especially rice cultivation, as well as ruminant digestion and manure management associated with domestic livestock. On a molecule-for-molecule basis, methane is a far more active greenhouse gas than carbon dioxide, but also one which is much less abundant in the atmosphere.</dd>
-                <dt class="font-bold">Nitrous oxide:</dt>
-                <dd>A powerful greenhouse gas produced by soil cultivation practices, primarily commercial and organic fertilizers, fossil fuel combustion, nitric acid production, and biomass burning. Chlorofluorocarbons (CFCs): Synthetic compounds entirely of industrial origin used in several applications but now largely regulated in production and release to the atmosphere by international agreement for their ability to contribute to the destruction of the ozone layer. They are also greenhouse gases.</dd>
+                <dt class="font-bold">Veeaur:</dt>
+                <dd>kõige levinum kasvuhoonegaas, kuid oluline on see, mida see Maa kliimale tähendab. Maa atmosfääri soojenedes suureneb veeauru hulk, kuid samuti suureneb pilvede ja sademete võimalus ehk tegemist on kasvuhooneefekti ühe kõige olulisema mehhanismiga.</dd>
+                
+                <dt class="font-bold">Süsinikdioksiid (CO₂):</dt>
+                <dd>väikese osakaaluga sisalduselt, kuid väga oluline atmosfääri komponent. Süsinikdioksiid eraldub looduslike protsesside tullemusena, nagu hingamine ja vulkaanipursked. Lisaks inimtegevuse tõttu nagu metsade hävitamine, maakasutuse muutused ja fossiilkütuste põletamine. Inimesed on pärast tööstusrevolutsiooni algust suurendanud atmosfääri CO₂ kontsentratsiooni 48% võrra. See on kliimamuutuste kõige olulisem pikemaajalisem tõukejõud.</dd>
+                
+                <dt class="font-bold">Metaan (CH₄):</dt>
+                <dd>lenduv süsivesinik, mis eraldub nii looduslikest allikatest kui ka inimtegevuse tõttu, sh jäätmete lagundamisest prügilates, põllumajandusest ja eriti riisikasvatusest, samuti mäletsejaliste metabolismi ja koduloomadega seotud sõnnikukäitlemise tulemusena. Metaan molekulina on palju aktiivsem kasvuhoonegaas kui süsinikdioksiid, kuid teda leidub atmosfääris palju vähem.</dd>
+                
+                <dt class="font-bold">Dilämmastikoksiid (N₂O):</dt>
+                <dd>võimas kasvuhoonegaas, mis tekib mullaharimisel, eriti mineraalsete ja orgaaniliste väetiste kasutamisel, fossiilkütuste põletamisel, lämmastikhappe tootmisel ja biomassi põletamisel.</dd>
+
+                <dt class="font-bold">Klorofluorosüsivesinikud (CFC-d):</dt>
+                <dd>täielikult tööstuslikk päritolu sünteetilised ühendid, mida kasutatakse paljudes valdkondades, kuid nüüd on nende tootmine ja atmosfääri paiskamine rahvusvaheliselt suures osas reguleeritud. Kokkuleppe aluseks ning regulatsioonide kehtestamise vajalikkus tõstatati nende võimest osoonikihi hävimisele kaasa aidata. Kuid klorofluorosüsivesinikud on tuntud ka kui kasvuhoonegaasid.</dd>
             </dl>
 
             <UiContentImage
@@ -89,14 +101,14 @@
                 credits="From NOAA Global Monitoring Laboratory"
                 :elevated="true" class="mt-8">
                 <template #caption>
-                    <b>Figure 2.</b> Greenhouse gas emissions into the atmosphere from 1975-2020
+                    <b>Joonis 2.</b> Kasvuhoonegaaside emissioon atmosfääri aastatel 1975-2020
                 </template>
             </UiContentImage>
             
         
             
             <section class="e-card mt-8">
-                <h4 class="mt-2">References</h4>
+                <h4 class="mt-2">Kasutatud allikad:</h4>
                 <ul class="text-sm break-all">
                     <li><a href="https://climate.nasa.gov/causes/" target="_blank" rel="noopener noreferrer">https://climate.nasa.gov/causes/</a></li>
                     <li><a href="https://www.un.org/en/climatechange/what-is-climate-change" target="_blank" rel="noopener noreferrer">https://www.un.org/en/climatechange/what-is-climate-change</a></li>
@@ -124,77 +136,74 @@
             
             
             <hr id="section-2" class="mt-10 mb-40" />
-            <h2>2. What are the effects of Climate Change?</h2>
+            <h2>2. Mis on kliimamuutuste tagajärjed?</h2>
             
-            <p>The Intergovernmental Panel on Climate Change (IPCC), which includes more than 1,300 scientists from the United States and others, refer that the extent of climate change effects on individual regions will vary over time and with the ability of different societal and environmental systems to mitigate or adapt to change.</p>
+            <p>Valitsustevaheline kliimamuutuste nõukogu (IPCC), kuhu kuulub rohkem kui 1300 teadlast Ameerika Ühendriikidest ja teistest riikidest, viitab asjaolule, et kliimamuutuste mõju ulatus üksikutele piirkondadele on ajas erinev, mis sõltub ühtlasi erinevate ühiskonna- ja keskkonnasüsteemide võimest neid leevendada ja muutustega kohaneda.</p>
             
             <p>
-                <b>The effects of climate change vary and include the following:</b>
+                <b>Kliimamuutuste mõjud on erinevad ja hõlmavad järgmist:</b>
             </p>
             
             
             <ul>
                 <li>
-                    Rising global temperature: Given the enormous size and heat capacity of the global oceans, it takes massive heat energy to raise Earth’s average yearly surface temperature by even a small amount. The roughly 2-degree Fahrenheit (1 degree Celsius) increase in global average surface temperature that has occurred since the pre-industrial era (1880-1900) might seem small, but it means a significant increase in accumulated heat.
+                    Globaalne temperatuuritõus: arvestades maailma ookeanide tohutut suurust ja soojusmahtuvust, kulub Maa  aastase keskmise pinnatemperatuuri kasvõi väheseks tõstmiseks tohutul hulgal soojusenergiat. Ligikaudu 2 kraadi Fahrenheiti (1 kraadi Celsiuse järgi) tõus võib tunduda väike tõus globaalses keskmises pinnatemperatuuris, mis on toimunud alates tööstuslikust ajastust (1880-1900), kuid see tähendab akumuleeritud soojuse märkimisväärset suurenemist.
                 </li>
                 <li>
-                    Rising sea levels
+                    Meretaseme tõus
                     <UiContentImage
                         src="https://evidence.onkel.ee/assets/c-change__sea-level-rise.webp"
                         credits="From NOAA Climate.gov image based on analysis and data from Philip Thompson, University of Hawaii Sea Level Center"
                         :elevated="true" class="mt-8">
                         <template #caption>
-                            <b>Figure 3.</b> Sea level rise from 1993-2020
+                            <b>Joonis 3.</b> Meretaseme tõus aastast 1995-2020
                         </template>
                     </UiContentImage>
                 </li>
                 <li>
-                    Shrinking mountain glaciers.
+                    Kahanevad/sulavad mägiliustikud.
                 </li>
                 <li>
-                    Ice melting at a faster rate than usual in Greenland, Antarctica and the Arctic.
+                    Jää sulab tavapäraselt kiiremini nii Gröönimaal, Antarktikas kui ka Arktikas.
                 </li>
                 <li>
-                    Droughts or increased rainfall depending on the region of the planet.
+                    Põuad või suurenenud sademete hulk olenevalt piirkonnast.
                 </li>
                 <li>
-                    Some laboratory experiments suggest that elevated CO2 levels can increase plant growth. However, other factors, such as changing temperatures, ozone, and water and nutrient constraints, may more than counteract any potential increase in yield. If optimal temperature ranges for some crops are exceeded, earlier possible gains in yield may be reduced or reversed altogether.
+                    Mõned laborikatsed näitavad, et kõrgenenud CO₂ tase võib taimede kasvu kiirendada. Kuid muud tegurid, nagu muutuv temperatuur, osoon ning piirangud veele ja toitainetele, võivad takistada saagikuse võimalikku suurenemist. Kui mõne põllukultuuri optimaalseid temperatuurivahemikke ületatakse, võib võimalik saagikuse kasv hoopis väheneda või saagikus hoopis väheneda.
                 </li>
                 <li>
-                    Climate extremes, such as droughts, floods and extreme temperatures, can lead to crop losses and threaten the livelihoods of agricultural producers and the food security of communities worldwide. Depending on the crop and ecosystem, weeds, pests, and fungi can also thrive under warmer temperatures, wetter climates, and increased CO2 levels, and climate change will likely increase weeds and pests.
+                    Äärmuslikud kliimatingimused, nagu põuad, üleujutused ja äärmuslikud temperatuurid, võivad põhjustada saagikadu ning ohustada põllumajandustootjate elatist ja kogukondade toiduga kindlustatust kogu maailmas. Sõltuvalt põllukultuurist ja ökosüsteemist võivad soojemate temperatuuride juures hakata kiiremini arenema ka umbrohud, kahjurid ja seened. Niiskem kliima ja suurenenud CO₂ tase loovad head tingimused ka umbrohtude ja ka kahjurite arvukuse suureneminele.
                 </li>
                 <li>
-                    Research has shown that it can also reduce the nutritional value of most food crops by reducing the concentrations of protein and essential minerals in most plant species.
+                    Uuringud on näidanud, et kliimamuutused võivad vähendada ka enamiku toidukultuuride toiteväärtust, vähendades valgu ja oluliste mineraalide kontsentratsiooni enamikus taimeliikides.
                 </li>
                 <li>
-                    Changes in flower and plant blooming times.
+                    Muutused lillede ja taimede õitsemise aegades.
                 </li>
                 <li>
-                    Constraining global warming to 1.5°C, rather than 2°C and higher, is projected to have many benefits for terrestrial and wetland ecosystems and the preservation of their services to humans.
+                    Ookeani ökosüsteemides toimuvad juba ulatuslikud muutused ja kriitilised läved saavutatakse eeldatavasti globaalse soojenemise 1,5°C ja kõrgema taseme juures.
                 </li>
                 <li>
-                    Ocean ecosystems are already experiencing large-scale changes, and critical thresholds are expected to be reached at 1.5°C and higher levels of global warming.
+                    Muutuv kliima põhjustab otseselt ja kaudselt stressi loomadele kogu maailmas. Paljud liigid lähenevad või on juba jõudnud kriitilise piirini. Polaaraladel on sellisteks loomadeks jääkarud, kellel on juba praegu raskusi ellujäämisega, kuna jää (nende elupaik) sulab.
                 </li>
                 <li>
-                    Changing climates, directly and indirectly, cause stress to animals across the world. Many species are approaching—or have already reached—the limit of where they can go to find hospitable climates. In the polar regions, animals like polar bears that live on polar ice are now struggling to survive as that ice melts.
+                    Ookeani temperatuuri tõus sulatab polaarjääd, nihutab ookeanihoovusi, mõjutab kalade rännet ning põhjustab korallide pleekimist ja suremist. Kuna ookeanid mängivad olulist rolli Maa kliima reguleerimisel ning kasvuhoonegaaside neeldumisel, mõjutavad kliimamuutused neid otseselt ning suurel määral.
                 </li>
                 <li>
-                    Warming ocean temperatures are melting polar ice, shifting ocean currents and fish migrations, leading to coral bleaching and die-off. Because of oceans’ vital role in regulating Earth’s climate by absorbing greenhouse gas emissions, they’re taking a direct hit from climate change.
+                    Kohalike liikide kadumine ja sellest tulenevalt liikide väljasuremise oht on 1,5°C ja 2°C soojema maa temperatuuri tõusu juures väike.
                 </li>
                 <li>
-                    Risks of local species losses and, consequently, risks of extinction are much less in a 1.5°C versus a 2°C warmer world.
+                    Igasugune globaalne temperatuuri tõus (nt +0,5°C) mõjutab eeldatavasti inimeste tervist negatiivselt.
                 </li>
                 <li>
-                    Any increase in global temperature (e.g., +0.5°C) is projected to affect human health, with primarily negative consequences.
-                </li>
-                <li>
-                    Risks to global aggregated economic growth due to climate change impacts are projected to be lower at 1.5°C than at 2°C by the end of this century.
+                    Kliimamuutuste mõjudest tulenevad globaalse majanduskasvu riskid on prognooside kohaselt selle sajandi lõpuks temperatuuril 1,5°C madalamad kui 2°C juures.
                 </li>
             </ul>
 
 
             <section class="e-card mt-8">
-                <h4 class="mt-2">References</h4>
+                <h4 class="mt-2">Kasutatud allikad:</h4>
                 <ul class="text-sm break-all">
                     <li><a href="https://climatekids.nasa.gov/climate-change-meaning/" target="_blank" rel="noopener noreferrer">https://climatekids.nasa.gov/climate-change-meaning/</a></li>
                     <li><a href="https://climate.nasa.gov/effects/" target="_blank" rel="noopener noreferrer">https://climate.nasa.gov/effects/</a></li>
@@ -221,17 +230,35 @@
 
 
             <hr id="section-3" class="mt-10 mb-40" />
-            <h2>3. Climate Change: A socio-scientific and controversial issue</h2>
+            <h2>3. Kliimamuutus: Sotsiaalteaduslik ja vastuoluline probleem</h2>
 
-            <p>In the history of Science, there have been, and there are many examples where contradictory views on specific scientific issues were spread to the general population. Climate change is one example where people and groups take and defend different positions on it. Even though climate science has now firmly established that global warming is occurring, that human activities contribute to this warming, and that current and future warming portend negative impacts on both ecological and social systems (National Research Council, 2010), a significant portion of the American public remains ambivalent or unconcerned (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) and many policymakers (especially in the United States) deny the necessity of taking steps to reduce carbon emissions (Brownstein, 2010).</p>
+            <p>Teaduse ajaloos on olnud palju näiteid, kus laiema elanikkonnani levisid/levivad vastuolulised seisukohad konkreetsetes teadusalastes küsimustes. Kliimamuutused on üks selline näide. Kuigi kliimateadus on nüüdseks kindlalt kinnitanud, et globaalne soojenemine toimub ning et inimtegevusel on selles oluline roll avaldades  negatiivset mõju nii ökoloogilistele kui ka sotsiaalsetele süsteemidele (National Research Council, 2010). Majanduslikult edukatest riikidest on USA avalikkus eniselt ambivalentne või siis muretu (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) ning ka paljud poliitikakujundajad (eriti USA-s) eitavad vajadust astuda samme süsinikdioksiidi heitkoguse vähendamiseks (Brownstein, 2010).</p>
 
-            <p>Climate science denials do not accept evidence supporting climate change, humanity's role in causing recent global warming, and/or the severity of climate impacts. Scepticism, contrarianism, dismissal, dissent, doubt, or anti-climate change are some terms that have been used to characterize climate science denials (Cook, 2017).</p>
+            <p>Kliimateaduse eitajad ei aktsepteeri tõendeid, mis toetavad kliimamuutuste olemasolu, inimkonna rolli globaalse soojenemise põhjustamisel ja/või kliimamõjude tõsidust. Skeptisism, polariseeritus, eriarvamused, kahtlused või kliimamuutuste vastane suhtumine on mõned terminid, mida on kasutatud kliimateaduse eituste iseloomustamiseks (Cook, 2017).</p>
 
-            <p>Climate misinformation is the reason for public misconceptions about climate change (McCright and Dunlap, 2010). Therefore, many questions (e.g. (1) Is an increase in the Earth's temperature causing an increase in carbon dioxide or is an increase in carbon dioxide causing an increase in the Earth's temperature? (2) Do human activities produce equal, less or more carbon dioxide than natural processes? (3) Does the climate change over time? If yes, is climate change a temporary change like the previous ones? (4) Are the mass extinctions of species nowadays a result of climate change or a common occurrence over the years?) that concern the citizens who are worried about the future of the planet and the new generations.  As noted in the next contribution, the mass media play a central role in debates over climate science and policy making. Maxwell Boykoff draws on his long experience in analyzing how the media represent climate change to provide an analysis of the multiple factors that contribute to "outlier voices"—sceptics, contrarians, and denialists—receiving unwarranted media visibility and thus influencing policy debates.</p>
+            <p>Kliimaalast väärinfot põhjustavad avalikkuses esinevad väärarusaamad kliimamuutuste olemuse kohta (McCright and Dunlap, 2010). Sellest tingitult  ringleb kliimamuutustega seoses mitmeid küsimusi nt:</p>
 
+            <ul>
+                <li>
+                    Kas Maa temperatuuri tõus põhjustab süsihappegaasi tõusu või süsihappegaasi tõus põhjustab Maa temperatuuri tõusu?
+                </li>
+                <li>
+                    Kas inimtegevuse tulemusena tekib sama suur kogus, vähem või rohkem süsihappegaasi kui looduslike protsesside läbi?
+                </li>
+                <li>
+                    Kas kliima muutub aja jooksul? Kui jah, siis kas kliimamuutus on ajutine muutus nagu on olnud varasemad?
+                </li>
+                <li>
+                    Kas liikide massiline väljasuremine on tänapäeval kliimamuutuste tagajärg või tavaline nähtus aastate jooksul, mis puudutab inimesi, kes on mures maa tuleviku ja järgmiste põlvkondade pärast?
+                </li>
+            </ul>
+
+            <p>
+                Igal juhul mängib massimeedia kliimamuutuste debatis keskset roll mõjutades  nii poliitilisi arutelusid kui ka kokkuvõttes, kliimateadusi.
+            </p>
 
             <section class="e-card mt-8">
-                <h4 class="mt-2">References</h4>
+                <h4 class="mt-2">KAsutatud allikad</h4>
                 <ul class="text-sm break-all">
                     <li><a href="https://www.youtube.com/watch?app=desktop&v=u9KxE4Kv9A8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?app=desktop&v=u9KxE4Kv9A8</a></li>
                     <li><a href="https://www.researchgate.net/publication/274306932_Climate_Change_Skepticism_and_Denial_An_Introduction" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/publication/274306932_Climate_Change_Skepticism_and_Denial_An_Introduction</a></li>
@@ -262,68 +289,67 @@
 
 
             <hr id="section-4" class="mt-10 mb-40" />
-            <h2>4. Techniques of Science Denial</h2>
+            <h2>4. Teaduse eitamise taktikad</h2>
 
             
-            <p>Among the various movements that reject a scientific consensus, five characteristics or techniques of science denial are observed:</p>
+            <p>Erinevate liikumiste hulgas, mis üritavad kummutada teaduslikku konsensust, täheldatakse viit teaduse eitamise taktikat:</p>
 
             <UiContentImage
-                        src="https://evidence.onkel.ee/assets/c-change__flicc.webp"
-                        credits=""
-                        :elevated="true" class="mt-8">
-                        <template #caption>
-                            
-                        </template>
-                    </UiContentImage>
+                src="https://evidence.onkel.ee/assets/c-change__flicc.webp"
+                credits=""
+                :elevated="true" class="mt-8">
+                <template #caption>
+                </template>
+            </UiContentImage>
             
 
             <dl>
                 <dt class="font-bold">
-                    Fake experts:
+                    Võltseksperdid:
                 </dt>
                 <dd>
-                    This involves spokespeople who convey the impression of expertise on a topic yet possess little relevant expertise. The Global Warming Petition Project is the most prevalent form of this technique within climate misinformation, featuring 31,000 signatories of an online petition dissenting against human-caused global warming. However, 99.9% of the signatories, while holding a science degree, possess no expertise in climate science. This petition has been found experimentally to be one of the most effective denialist arguments in lowering the acceptance of climate change. 
+                    Selle all mõeldakse kõneisikuid, kes jätavad mulje, et on antud teemal asjatundjad, kuid tegelikult seda pole. Globaalse soojenemise petitsiooniprojekt, milles koguti 31 000 allkirja online-petitsioonile, väljendamaks eriarvamust inimtekkeliste kliimamuutuste suhtes, on selle strateegia kõige eredam naäide.  Nimelt oli 99,9% allakirjutanutest küll teaduskraad, kuid mitte kliimateadustes. See petitsioon on katseliselt leitud olevat üks tõhusamaid klöiimamuutuste eituse  alaseid liikumisi, millel oli reaalne mõju ühiskondliku arvamuse kujunemisele. 
                 </dd>
                 <dt class="font-bold mt-4">
-                    Logical fallacies:
+                    Loogikavead:
                 </dt>
                 <dd>
-                    Arguments that persuade people to consist of one or more premises, leading to a conclusion. Climate denialist arguments typically contain fatal logical flaws. There are three classes of logical fallacies found in climate misinformation:
+                    Inimeste veenmiseks mõeldud argumendid koosnevad ühest või mitmest eeldusest,  mis viivad järeldusteni. Teaduse eitamise argumendid sisaldavad tavaliselt olulisi loogilisi vigu:
                     <ul>
                         <li>
-                            fallacies of relevance (where the premises are irrelevant to the conclusion), 
+                            eeldused on järelduse jaoks ebaolulised, 
                         </li>
                         <li>
-                            scope (where not all relevant evidence is considered), and 
+                            kõiki asjakohaseid tõendeid ei võeta arvesse ning 
                         </li>
                         <li>
-                            presumption (where the argument contains false premises).
+                            kui argument sisaldab valesid eeldusi.
                         </li>
                     </ul>
                 </dd>
                 <dt class="font-bold mt-4">
-                    Impossible expectations:
+                    Võimatud ootused:
                 </dt>
                 <dd>
-                    This involves demanding unrealistic levels of proof or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty effectively cast doubt on scientific findings. This denialist technique is known as the “Scientific Certainty Argumentation Method”. 
+                    See hõlmab ebarealistlike tõendite nõudmist või ebaõiget arusaamist teadusliku määramatuse olemusest. Kuna teadus on tavaliselt tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teadusliku tõestusmaterjali kahtluse alla seadmiseks. 
                 </dd>
                 <dt class="font-bold mt-4">
-                    Cherry picking:
+                    Kirsside noppimine:
                 </dt>
                 <dd>
-                    This technique is defined as “selectively choosing data leading to the desired conclusion that differs from the conclusion arising from all the available data”. 
+                    Seda strateegiat määratletakse kui “selektiivset andmete valimist, mis viib soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest”. 
                 </dd>
                 <dt class="font-bold mt-4">
-                    Conspiracy theories:
+                    Vandenõuteooriad:
                 </dt>
                 <dd>
-                    Around 20% of the U.S. public believe climate change is a scientific hoax. Conspiracy theories have several adverse effects, even when people are not convinced by them. They can lower support for climate action, decrease one’s intent to reduce one’s carbon footprint, and decrease trust in government.
+                    Umbes 20% USA avalikkusest usub, et kliimamuutused on teaduslik pettus. Vandenõuteooriatel on mitmeid negatiivseid mõjusid, isegi kui need inimesi ei veena. Need võivad vähendada toetust kliimameetmetele, vähendada kavatsust vähendada oma süsinikujalajälge ja vähendada usaldust valitsuse vastu.
                 </dd>
             </dl>
 
  
             <section class="e-card mt-8">
-                <h4 class="mt-2">References</h4>
+                <h4 class="mt-2">KAsutatud allikad</h4>
                 <ul class="text-sm break-all">
                     <li><a href="https://www.youtube.com/watch?v=uNs2YMblqwU&ab_channel=JohnCook" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=uNs2YMblqwU</a></li>
                     <li><a href="https://www.youtube.com/watch?v=AqcUP0sDglg" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=AqcUP0sDglg</a></li>
@@ -352,13 +378,13 @@
 
 
 
-            <h1 class="mt-40">Myths about Climate Change</h1>
+            <h1 class="mt-40">Kliimamuutustega seotud müüdid</h1>
 
             <hr id="myth-1" class="mt-10 mb-40" />
-            <h2>Myth 1: The extinction of species is a natural process. Mass extinctions of species have always occurred.</h2>
+            <h2>Müüt 1: Liigid suudavad kliimamuutustega kohaneda.</h2>
 
-            <p>The extinction of species is a historical problem. From prehistoric times we have evidence of several mass extinctions, most notably the extinction of the dinosaurs. This extinction, which took place 66,000,000 years ago, was attributed to the impact of an asteroid on Earth. Over the years, we have other well-known examples, such as the extinction of mammoths. However, the causes of extinction that have been recorded vary.</p>
-            <p>Also, the suggestion that humanity is capable of impacting and disturbing forces of such magnitude is reflective of a self-centered arrogance that is mind-numbing. Humanity is a subset of Nature. Nature is not a subset of humanity. People can neither cause nor intervene to correct these processes (Financial Sense University).</p>
+            <p>Ilmastikutingimused on meie planeedil olnud pidevas muutumises. Seetõttu on maa peal elanud organismid sunnitud ellujäämiseks uute tingimustega kohanema. Tulemuseks on liikide evolutsioon ning areng.</p>
+            <p>Taimed ja loomad on juba mitu korda ebasoodsate tingimustega (nt. kliimamuutus, meteoriidi langemine, vulkaanipursked jne) kohanenud. See võimaldab neil kohaneda tõusvate temperatuuridega ja olukorraga, mida me praegu nimetame kliimamuutusteks. Teisisõnu, liigid on looduslikult võimelised uutes tingimustes ellu jääma.  Korallid, puud, linnud, imetajad ja liblikad kohanevad hästi kliimamuutustega (Hudsoni instituut).</p>
             <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
 
 
@@ -367,8 +393,10 @@
 
             <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 1:</h3>
-                    <p class="font-Heading text-2xl"><i>“Today, extinctions are occurring hundreds of times faster than they would naturally. This is due to the human caused climate change.”</i></p>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 1 paikapidavuse kohta:</h3>
+                    <p class="font-Heading text-2xl"><i>“Kõik liigid ei suuda kliimamuutustega kohaneda. Mõned liigid (nt linnud) võivad kliimamuutustega kohaneda erineval viisil (nt muuta rände- või pesitsusaega). Kuid mitte kõik liigid (nt imetajad) ei saa seda teha. Samuti ei ole võimalik kiiresti saavutada igasuguseid muutusi (nt morfoloogiliste omaduste muutumine). Üldiselt ei saa evolutsioon kiiresti toimudaehk liikide kohanemise määr on enamasti ebapiisav. 
+                    <br />
+                    (Visser, 2008)”</i></p>
                 </div>
             </UiCardInfo>
             
@@ -376,12 +404,12 @@
 
             
 
-            <p>Students investigating Myth 1 during the Guided Inquiry option are studying evidence about previous mass extinctions. They also study newest evidence about specific extinctions (e.g., Magellanic penguins) caused from climate change and watch a video from BBC about mass extinctions. Alternatively, students investigating Myth 1 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
+            <p>Õpilased, kes uurivad müüti 1 juhendatud uurimuse vormis, uurivad tõendeid selle kohta, kuidas liigid kliimamuutustega kohanevad (nt korallijuhtum), nad osalevad konkreetses korallide massimuutusi uurivas katses ning vaatlevad hiljutisi tõestusmaterjale kliimamuutuste mõju kohta imetajatele. Õpilased uurivad teadusallikaid ja teevad oma järeldused. Teise võimalusena koguvad õpilased, kes uurivad müüti 1 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.</p>
             
-            <p>In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
+            <p>Mõlema uurimisvormi puhul tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
 
 
-            <p><b>Click the following links for the scientific view:</b></p>
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
             <ul>
                 <li>
                     <a href="https://www.nationalgeographic.com/science/article/mass-extinction" target="_blank" rel="noopener noreferrer">Mass extinction facts and information from National Geographic</a>
@@ -411,28 +439,25 @@
 
 
             <hr id="myth-2" class="mt-10 mb-40" />
-            <h2>Myth 2: Species / Organisms can adapt to climate change.</h2>
+            <h2>Müüt 2: Liikide väljasuremine on loomulik protsess. Liikide massiline väljasuremine on alati toimunud.</h2>
 
-            <p>The earth has a history of 4.54 billion years. The weather conditions that prevailed from time to time on the planet changed. Therefore, the species/organisms living on earth were forced to adapt to the new conditions to survive and be preserved. In this way, the evolution of the species emerged.</p>
-            <p>Plants and animals have already adapted several times to adverse conditions (climate change, meteorite falls, volcanic eruptions, etc.). This makes them able to adapt to rising temperatures and the situation we now call climate change. In other words, species are naturally capable of surviving in new conditions.</p>
+            <p>Liikide väljasuremine on ajalooline probleem. eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis ased 66000000 aastata tagasi, oli tingitud asteroidi kokkupõrkest Maaga. Aastate jooksul on meil teisigi tuntuid näiteid, nagu mammutite väljasuremine. Väljasuremise põhjused on erinevad.</p>
+            <p>Ka vihje sellele, et inimkond on võimeline mõjutama ja häirima sellise ulatusega jõude, peegeldab vaid inimeste enesekeskset ülbust. Inimkond on looduse osa. Loodus ei ole inimese osa. Inimesed ei saa neid protsesse parandada ega neisse sekkuda.</p>
             <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
 
 
             <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 2:</h3>
-                    <p class="text-2xl"><i>“Not all species can adapt to climate change.  Some species (e.g., birds) can adapt to climate change in different ways (e.g., change the time of migration or breeding).  However, not all species (e.g., mammals) can do this.  Also, not all kinds of adaptations can be achieved fast (e.g., changing morphological characteristics).”</i></p>
-                    <p>Generally, evolution cannot always happen too fast- sometimes is a slower process. In other words, the rate of adaptation is insufficient (Visser, 2008).</p>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 2 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">Tänapäeval toimuvad väljasuremised sadu kordi kiiremini kui loomulikult. See on tingitud inimeste põhjustatud kliimamuutustest.</p>
                 </div>
             </UiCardInfo>
 
-            <p>Students investigating Myth 2 during the Guided Inquiry option are studying evidence about how species adapt in climate change (e.g., the coral case), they are getting involved into a specific experiment about the mass of corals and study recent evidence about the climate change affect to mammals. Students access the scientific sources and come up with their conclusions. Alternatively, students investigating Myth 2 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
-            </p>
-            <p>
-            In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
+            <p>Õpilased, kes uurivad müüti 1 juhitud uurimuse vormis, uurivad tõendeid varasemate massiliste väljasuremiste kohta. Samuti uurivad nad uusimaid tõendeid konkreetsete kliimamuutustest põhjustatud väljasuremiste (nt Magellani pingviinide) kohta ja vaatavad BBC videot massiliste väljasuremiste kohta. Teise võimalusena koguvad õpilased avatud uurimuse vormis tõendeid teaduslikest allikatest, et oma hüpoteesi ümber lükata või kinnitada.</p>
+            <p>Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
 
 
-            <p><b>Click the following links for the scientific view:</b></p>
+            <p><b>Teaduslike arusaamade kohta leiab infot järgmistest allikatest:</b></p>
             <ul>
                 <li>
                     <a href="https://www.nationalgeographic.com/environment/article/many-animals-can-adapt-climate-change-just-not-fast-enough-" target="_blank" rel="noopener noreferrer">Some animals can adapt to climate change—just not fast enough</a>
@@ -455,30 +480,39 @@
 
 
             <hr id="myth-3" class="mt-10 mb-40" />
-            <h2>Myth 3: The science of climate change is unreliable.</h2>
+            <h2>Müüt 3: Kliimamuutuste alane teadus ei ole usaldusväärne.</h2>
 
-
-            <p>Meteorological stations are located in areas where the data collected are not representative of climate change and therefore unreliable for the study of the global climate. Scientists target global terrorism for data they create under the conditions they want.</p>
 
             <p>
-                <i>"We found [U.S. weather] stations located next to the exhaust fans of air conditioning units, surrounded by asphalt parking lots and roads, on blistering-hot rooftops, and near sidewalks and buildings that absorb and radiate heat."</i> (Watts 2009)
+                <i>
+                    “Mudelid on täis tegureid, mis on kohandatud olemasoleva kliimaga, seega mudelid enam-vähem nõustuvad vaadeldavate andmetega. Kuid pole põhjust arvata, et samad võltstegurid käituksid õigesti maailmas, mille atmosfääris on suurenenud CO2 sisaldus.”
+                </i>
                 <br />
+                (Freeman Dyson)
+            </p>
+
+            <p>
+                <i>
+                    “Leidsime [USA] ilmajaamad, mis asuvad kliimaseadmete väljatõmbeventilaatorite kõrval, mis on ümbritsetud asfaltparklate ja teedega, kuumadel katustel ning kõnniteede ja hoonete läheduses, mis neelavad ja kiirgavad soojust. Leidsime 68 ilmajaama, mis asuvad reoveepuhastitega samal aadressil, kus jäätmete kääritamise protsess põhjustab ümbritsevate piirkondadega võrreldes kõrgemat temperatuuri.
+                    <br />
+                    Tegelikult leidsime, et 89 protsenti ilmajaamadest - peaaegu 9 kümnest - ei vasta riiklikult kehtestatud asukoha nõuetele, mille kohaselt peavad ilmajaamad olema 30 meetri (umbes 100 jalga) või kaugemal kunstlikust kütte- või kiirgavast/peegeldavast allikast/soojusallikast.”</i> (Watts 2009)
+                    <br />
                 <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
             </p>
 
 
             <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 3:</h3>
-                    <p class="text-2xl">The evidence relating to climate change comes from decades of intensive research and is based on observations, field and laboratory experiments, and model simulations (Higgins, 2019). It is arbitrary to believe that the scientific data on climate change is unreliable.</p>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 4 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">Kliimamuutustega seotud tõendid pärinevad aastakümneid kestnud intensiivsetest uuringutest ning põhinevad vaatlustel, väli- ja laborikatsetel ning simulatsioonimudelitel (Higgins, 2019). On meelevaldne arvata, et teaduslikud andmed kliimamuutuste kohta on ebausaldusväärsed.</p>
                 </div>
             </UiCardInfo>
 
-            <p>Students investigating Myth 3 during the Guided Inquiry option are studying specific evidence (e.g., the location of the observatory stations and measurements) coming from the NOAA organization in order to criticize on their own if that evidence are reliable or no.  Alternatively, students investigating Myth 3 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
-            <p>In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
+            <p>Õpilased, kes uurivad müüti 4 juhendatud uurimuse vormis, uurivad NOAA-lt pärinevaid konkreetseid tõendeid (nt vaatlusjaamade asukohtade ja mõõtmiste kohta), et teha ise järeldusi nende usaldusväärsuse kohta. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi kas ümber lükata või kinnitada.</p>
+            <p>Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
 
 
-            <p><b>Click the following links for the scientific view:</b></p>
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
             <ul>
                 <li>
                     <a href="https://www.ametsoc.org/ams/assets/File/Climate_Assessment_Credibility_10-2019.pdf" target="_blank" rel="noopener noreferrer">Climate_Assessment_Credibility_10-2019.pdf (ametsoc.org)</a>
@@ -504,9 +538,9 @@
 
 
             <hr id="myth-4" class="mt-10 mb-40" />
-            <h2>Myth #4: The rise in temperature is for good.</h2>
+            <h2>Müüt 4: Globaalne soojenemine on kasulik.</h2>
             
-            <p><i>"By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, regions more habitable, larger crops, longer growing season. That’s good. Warming helps the poor."</i> (John MacArthur)</p>
+            <p><i>"Kui kavatsete millegi poolt hääletada, siis hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad on elamiskõlblikumad, suurem saak ja pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid."</i> (John MacArthur)</p>
 
             <ul>
                 <li>
@@ -520,15 +554,15 @@
              
             <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 4:</h3>
-                    <p class="text-2xl">Myth 4 is based only on the above statement of John MacArthur.  Scientific evidence reports exactly the opposite.  That climate change (heat) affects the number of human deaths positively. Climate change is one of the reasons of global changes affecting society, the environment, the economy, and public health.</p>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 4 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">Müüt 4 põhineb ainult ülaltoodud John MacArthuri väitel. Teaduslikud tõendid näitavad täpselt vastupidist. Kliimamuutus (kuumus)suurendab otseselt inimeste surmade arvu. Kliimamuutused on üks ühiskonda, keskkonda, majandust ja rahvatervist mõjutavate globaalsete muutuste põhjuseid.</p>
                 </div>
             </UiCardInfo>
 
-            <p>Students investigating Myth 4 during the Guided Inquiry option are studying specific evidence from the World Health Organization about the rise temperature and human deaths, recent evidence about human deaths affected from climate change, make an experimental investigation about rise temperature and land used for housing or cultivation etc.  Students access the scientific source and come up with their conclusions.  Alternatively, students investigating Myth 4 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
-            <p>In both inquiry options, students access the scientific sources and come up with their conclusions. </p>
+            <p>Õpilased, kes uurivad müüti 6 juhitud uurimuse vormis, uurivad Maailma Terviseorganisatsiooni konkreetseid tõendeid temperatuuri tõusu ja inimeste surmade kohta, hiljutisi tõendeid kliimamuutustest mõjutatud inimsurmade kohta, viivad läbi eksperimendi temperatuuri tõusu ja elamuks või harimiseks kasutatava maa seoste kohta. Õpilased pääsevad ligi teaduslikule allikale ja teevad oma järeldused. Teise võimalusena koguvad õpilased, kes uurivad müüti 6 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.</p>
+            <p>Mõlema uurimisvormi  korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
 
-            <p><b>Click the following links for the scientific view:</b></p>
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
             <ul>
                 <li>
                     <a href="https://www.epa.gov/climate-indicators/climate-change-indicators-heat-related-deaths#:~:text=Some%20statistical%20approaches%20estimate%20that,set%20shown%20in%20Figure%201" target="_blank" rel="noopener noreferrer">Climate Change Indicators: Heat-Related Deaths</a>
@@ -537,7 +571,7 @@
                     <a href="https://health2016.globalchange.gov/low/ClimateHealth2016_FullReport_small.pdf" target="_blank" rel="noopener noreferrer">The Impacts Of Climate Change On Human Health In The United States</a>
                 </li>
                 <li>
-                    According to a 2009 article in Scientific American, a team of climate change researchers from the World Health Organization (WHO) found that "global warming is [responsible] for some 150,000 deaths each year around the world"; they feared this number would double by the year 2030. 
+                    Ajakirjas Scientific American avaldatud 2009. aasta <a href="http://www.scientificamerican.com/article/global-warming-and-health/" target="_blank" rel="noopener noreferrer">artikli kohaselt</a> leidis Maailma Terviseorganisatsiooni (WHO) kliimamuutuste uurijate rühm, et "globaalne soojenemine on [vastutav] igal aastal umbes 150 000 surmajuhtumi eest kogu maailmas"; nad kartsid, et see arv kahekordistub aastaks 2030. 
                 </li>
             </ul>
 
@@ -558,10 +592,12 @@
 
 
             <hr id="myth-5" class="mt-10 mb-40" />
-            <h2>Myth 5: There's no correlation between CO2 and temperature.</h2>
+            <h2>Müüt 5: CO₂ ning temperatuuri vahel puudub seos.</h2>
             
             <p>
-                <i>“It was the post-war industrialization that caused the rapid rise in global CO2 emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO2 emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO2 emissions, it was deceitful for the IPCC to make any claim that CO2 emissions were primarily responsible for observed 20th-century global warming."</i>
+                <i>“Kahekümnenda sajandi globaalne soojenemine algas alles 1910. aastal. Selleks ajaks oli süsinikdioksiidi heitkogus juba tõusnud tööstusrevolutsiooni käivitatud söe laialdasest kasutamisest ja heitkogused kasvasid aeglaselt 3,5 gigatonnilt 1910. aastal alla 4 gigatonnini Teise Maailmasõja lõpuks.
+                <br />
+                Just sõjajärgne industrialiseerimine põhjustas globaase CO₂ heitkoguse kiire tõusu, kuid 1945. aastaks oli Maa juba jahtumisfaasis, mis algas umbes 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiirele globaalsele temperatuuri tõusule ja vaid väikesele CO₂ heitkoguse suurenemisele järgnes 33 aastat aeglast globaalse temperatuuri langust koos CO₂ heitkoguse kiire suurenemisega. Järelikult oli IPCC poolt petlik väita, et CO₂ heitkoguste suurenemine oli 20. sajandi globaalse soojenemise peamiseks põhjuseks."</i>
                 <br />
                 (<a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer">Norm Kalmanovitch</a>)
                 <br />
@@ -570,17 +606,17 @@
 
             <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 5:</h3>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 5 paikapidavuse kohta:</h3>
                     <p class="text-2xl">
-                        <i>“Paleoclimate data from the last 800,000-plus years show that the link between temperature and CO2 is well-established. Scientists discovered CO2’s role in warming the planet in the mid-19th century, noted James Renwick, Professor, Victoria University of Wellington, in a previous review of a similar claim. “Through the past 2.6 million years, the period of recent ice ages, carbon dioxide has gone up and down in step with temperature, bottoming out at around 180 parts per million in the depths of a “glacial maximum” and peaking at around 280 parts per million in the warmer interglacial periods, he said in the review. “Going back further, CO2 levels were certainly higher than present, but so were temperatures.” Scientists are confident in the finding that increased CO2 concentrations are causing Earth’s temperature to rise. As CO2 and other greenhouse gases are emitted into the atmosphere, they trap more of the sun’s energy, leading to warming. “It is unequivocal that human influence has warmed the atmosphere, ocean and land,” the IPCC notes in its Sixth Assessment Report.”</i>
+                        <i>“Viimase 800 000+ aasta paleoklima andmed näitavad, et seos temperatuuri ja CO₂ vahel on selgelt tuvastatav. Wellingtoni Victoria ülikooli professori James Renwick’i sõnul on teadlased avastanud CO₂ rolli planeedi soojendamises juba 19. sajandi keskel. Viimase 2,6 miljoni aasta jooksul, viimaste jääaegade perioodi jooksul, on süsinikdioksiidi sisaldus tõusnud ja langenud koos temperatuuriga, saavutades põhja umbes 180 ppm-i jääaja maksimumi sügavustes ja haripunkti umbes 280 ppm-i juures soojematel interglatsiaalsetel perioodidel, ütleb ta ülevaates. "Kui minna tagasi, siis CO₂ tase oli kindlasti praegusest kõrgem, aga ka temperatuurid." Teadlased on kindlad, et suurenenud CO₂ kontsentratsioon põhjustab Maa temperatuuri tõusu. Kuna CO₂ ja muud kasvuhoonegaasid paisatakse atmosfääri, püüavad need kinni suurema osa päikeseenergiast, põhjustades soojenemist. "On selge, et inimmõju on atmosfääri, ookeani ja maad soojendanud,”</i> märgib IPCC oma kuuendas hindamisaruandes.
                     </p>
                 </div>
             </UiCardInfo>
             
             <p>
-                Students investigating Myth 5 during the Guided Inquiry option are studying evidence about how Carbon affects climate and life on Earth. They are also getting involved into an experimental procedure investigating how carbon dioxide affect temperature on Earth. They access those scientific sources and come up with their final conclusions. Alternatively, students investigating Myth 5 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+                Õpilased, kes uurivad müüti 5 juhitud uurimuse vormis, uurivad tõendeid selle kohta, kuidas süsinik mõjutab kliimat ja elu Maal. Nad viivad ka läbi eksperimendi, milles uuritakse, kuidas süsinikdioksiid mõjutab temperatuuri Maal. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada. 
                 <br />
-                In both inquiry options, students access the scientific sources and come up with their conclusions. 
+                Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused. 
             </p>
 
             <p><b>Click the following links for the scientific view:</b></p>
@@ -605,38 +641,38 @@
 
 
             <hr id="myth-6" class="mt-10 mb-40" />
-            <h2>Myth 6: Actions to mitigate climate change will make people poorer.</h2>
+            <h2>Müüt 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h2>
 
             <p>
-                <i>"By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, more habitable regions, larger crops, longer growing season. That’s good. Warming helps the poor."</i>
+                <i>
+                    “Eitajad kahtlevad, kas kasvuhoonegaaside heitkoguste vähendamise jõupingutused fossiilkütuste kasutamise vähendamiseks on ülemaailmse arengu jaoks hädavajalikud. See on levinud arvamus, et taastuvenergia on kallis. Tuuleenergia on kalleim viis energia tootmiseks kui alternatiivid.”
+                </i>
                 <br />
-                (John MacArthur)
-                <br />
-                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s</a>
+                (David Montgomery)
             </p>
 
             <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 6:</h3>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam antud müüdi 6 kohta:</h3>
                     <p class="text-2xl">
-                        Poverty is increased by climate change and not by the actions to mitigate it.
+                        Vaesust suurendavad kliimamuutused, mitte meetmed selle leevendamiseks.
                     </p>
                     <p class="text-2xl">
-                        <i>“The impacts of climate change, and the vulnerability of poor communities to climate change, vary greatly, but generally, climate change is superimposed on existing vulnerabilities. Climate change will further reduce access to drinking water, negatively affect the health of poor people, and will pose a real threat to food security in many countries in Africa, Asia, and Latin America. In some areas where livelihood choices are limited, decreasing crop yields threaten famines, or where loss of landmass in coastal areas is anticipated, migration might be the only solution. The macroeconomic costs of the impacts of climate change are highly uncertain, but very likely have the potential to threaten development in many countries. Therefore, the task ahead is to increase the adaptive capacity of affected poor communities and countries.
+                        Kliimamuutuste mõjud ja vaeste kogukondade haavatavus kliimamuutuste suhtes võib olla väga mitut liiki. Kliimamuutused vähendavad veelgi juurdepääsu joogiveele, mõjutavad negatiivselt vaeste inimeste tervist ja kujutavad endast reaalset ohtu toiduga kindlustatusele paljudes Aafrika, Aasia ja Ladina-Ameerika riikides. Mõnes piirkonnas, kus elatusvahendite valikud on piiratud, ähvardab saagikuse vähenemine näljahäda ning seal, kus rannikualadel on oodata maa kadumist, võib ränne olla ainus lahendus. Kliimamuutuste mõjude makromajanduslikud kulud on väga ebakindlad, kuid tõenäoliselt võivad need ohustada paljude riikide arengut. Seetõttu on eesseisev ülesanne suurendada mõjutatud vaeste kogukondade ja riikide kohanemisvõimet.
                         <br />
-                        This decision to focus on adaptation is deliberate and is taken with the understanding that adaptation cannot replace mitigation efforts. The magnitude and rate of climate change will strongly depend on efforts to reduce greenhouse gas (GHG) concentrations in the atmosphere. The higher the concentrations of GHGs, the higher the likelihood of irreversible and grave damage to human and biological systems. Therefore, adaptation is only one part of the solution. Mitigation of climate change by limiting greenhouse gas concentrations in the atmosphere is the indispensable other part.”</i>
+                        Otsus keskenduda kohanemisele on tahtlik ja tehtud arusaamisega, et kohanemine ei saa asendada leevendamispüüdlusi. Kliimamuutuste ulatus ja kiirus sõltuvad suuresti jõupingutustest vähendada kasvuhoonegaaside (KHG) kontsentratsiooni atmosfääris. Mida kõrgem on kasvuhoonegaaside kontsentratsioon, seda suurem on inimeste ja bioloogiliste süsteemide pöördumatute ja tõsiste kahjustuste tõenäosus. Seetõttu on kohanemine vaid üks osa lahendusest. Teine asendamatu osa on kliimamuutuste leevendamine kasvuhoonegaaside kontsentratsiooni piiramisega atmosfääris.
                     </p>
                 </div>
             </UiCardInfo>
 
             <p>
-                Students investigating Myth 6 during the Guided Inquiry option are studying evidence about the economic benefits switching to the use of renewable electricity, the impending effects of using different energy sources and finally the information given about the jobs that will result from the exploitation of renewable energy sources.  Students access those evidence and come up with their conclusions. Alternatively, students investigating Myth 6 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+                Õpilased, kes uurivad müüti 5 juhitud uurimuse vormis, otsivad tõendeid taastuvelektri kasutamisele ülemineku majandusliku kasu, erinevate energiaallikate kasutamise eelseisvate mõjude ja taastuvate energiaallikate kasutamisega kaasnevate töökohtade kohta. Teise võimalusena koguvad õpilased, kes uurivad müüti 5 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.
                 <br />
-                In both inquiry options, students access the scientific sources and come up with their conclusions.
+                Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.
             </p>
 
 
-            <p><b>Click the following links for the scientific view:</b></p>
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
             <ul>
                 <li>
                     <a href="https://www.oecd.org/env/cc/2502872.pdf" target="_blank" rel="noopener noreferrer">https://www.oecd.org/env/cc/2502872.pdf</a>
@@ -650,18 +686,7 @@
             </ul>
 
 
-            <p><b>Click the following links for the scientific view:</b></p>
-            <ul>
-                <li>
-                    <a href="https://www.oecd.org/env/cc/2502872.pdf" target="_blank" rel="noopener noreferrer">https://www.oecd.org/env/cc/2502872.pdf</a>
-                </li>
-                <li>
-                    <a href="https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective</a>
-                </li>
-                <li>
-                    <a href="https://royalsociety.org/topics-policy/projects/climate-change-evidence-causes/question-6/" target="_blank" rel="noopener noreferrer">https://royalsociety.org/topics-policy/projects/climate-change-evidence-causes/question-6/</a>
-                </li>
-            </ul>
+            
 
 
 
@@ -675,11 +700,11 @@
 
 
             <hr id="myth-7" class="mt-10 mb-40" />
-            <h2>Myth 7: The earth’s climate has always changed, and now the same thing is happening.</h2>
+            <h2>Müüt 7: Maa kliima on alati muutunud ja nüüd kordub see taas.</h2>
 
             <p>
                 <i>
-                    “Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen. Ice ages have occurred in a hundred thousand year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO2 levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”
+                    “Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi  CO₂ tase on praegusest madalam. viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”
                 </i>
                 <br />
                 (<a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer">Richard Lindzen</a>)
@@ -690,17 +715,17 @@
             
             <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 7:</h3>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr. 7 paikapidavuse kohta:</h3>
                     <p class="text-2xl">
-                        <i>“The largest global-scale climate variations in Earth’s recent geological past are the ice age cycles, which are cold glacial periods followed by shorter warm periods.The last few of these natural cycles have recurred roughly every 100,000 years. CO2 has risen more than 40% in just the past 200 years, much of this since the 1970s, contributing to human alteration of the planet’s energy budget that has so far warmed Earth by about 1 °C (1.8 °F).  If the rise in CO2 continues unchecked, warming of the same magnitude as the increase out of the ice age can be expected by the end of this century or soon after. This speed of warming is more than ten times that at the end of an ice age, the fastest known natural sustained change on a global scale.”</i>
+                        Suurimad globaalsed kliimamuutused Maa lähimas geoloogilises minevikus on jääaja tsüklid, millele järgnevad lühemad soojaperioodid. Mõned viimased neist looduslikest tsüklitest on kordunud ligikaudu iga 100 000 aasta tagant. CO2 sisaldus on viimase 200 aastaga tõusnud enam kui 40%, millest suur osa alates 1970. aastatest, põhjustades inimtekkelist energiabilansi muutumist Maal  1 °C võrra  (1,8 °F). Kui CO2 kasv jätkub pidurdamatult, võib selle sajandi lõpuks või varsti pärast seda oodata soojenemist, mis on sama suur, kui jääajast väljuv tõus. Selline soojenemise kiirus on üle kümne korra suurem kui see oli jääaja lõpus, mis on maailma mastaabis kiireim teadaolev looduslik püsiv muutus.
                     </p>
                 </div>
             </UiCardInfo>
 
             <p>
-                Students investigating Myth 7 during the Guided Inquiry option are studying temperature on Earth (evidence from NASA) and compare the change in temperature every twenty years.  They find out the biggest temperature rises and record specific information regarding them.  Students access the scientific source and come up with their conclusions. Alternatively, students investigating Myth 7 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+                Õpilased, kes uurivad müüti 7 juhitud uurimuse vormis, uurivad Maa temperatuuri (NASA tõendid) ja võrdlevad temperatuuri muutusi iga kahekümne aasta tagant. Nad selgitavad välja suurimad temperatuuritõusud ja salvestavad nende kohta konkreetset teavet. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.
                 <br />
-                In both inquiry options, students access the scientific sources and come up with their conclusions.
+                Mõlema uurimisvõimaluse puhul pääsevad õpilased juurde teaduslikele allikatele ja teevad oma järeldused.
             </p>
 
             

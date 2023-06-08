@@ -1,13 +1,11 @@
 <script setup>
-    
     import { useStudentClimateGuidedMyth1 } from '~~/store/useStudentClimateGuidedMyth1.js'; 
-
     const studentClimateGuidedMyth1 = useStudentClimateGuidedMyth1();
 </script>
 
 <template>
     <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-4 pl-6 pr-8 rounded-tr-xl z-50 ring-4 ring-slate-700">
-        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="../../answers-climate-change-guided-myth1/" target="_blank" class="text-lg font-bold uppercase">Sinu vastused</nuxt-link>
+        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="../../answers-climate-change-guided-myth1/" target="_blank" class="text-lg font-bold uppercase">Your answers</nuxt-link>
     </section>
     
     <div class="flex flex-col items-start 
@@ -18,75 +16,75 @@
         <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             
             <NuxtLink to="../../student" style="transform: translateY(-4rem); position:absolute;">
-                <Icon name="material-symbols:arrow-back-rounded" /> Tagasi
+                <Icon name="material-symbols:arrow-back-rounded" /> Back
             </NuxtLink>
 
-            <h1 class="mb-0">Kliimamuutused</h1>
-            <h5 class="font-normal uppercase leading-tight">Juhitud uurimus, müüt 1</h5>
+            <h1 class="mb-0">Climate change</h1>
+            <h5 class="font-normal uppercase leading-tight">Guided inquery; Myth 1</h5>
         
             <h2>
-                Tegevus 3: Müüdimurdmine
+                Activity 3: Mythbusting
             </h2>
 
             <h3>
-                Sinu rühm hakkab uurima müüti nr 1: Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.
+                Your team will deal with Myth 1: “The extinction of species is a natural process. Mass extinctions of species have always occurred”.
             </h3>
 
             
 
             <label for="q1" class="block mb-2">
-                <b>Püstitage selle kohta oma hüpotees:</b>
+                <b>Write down your testable hypothesis concerning Myth 1:</b>
             </label>
             <textarea id="q1" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"
             v-model="studentClimateGuidedMyth1.hypothesis"></textarea>
             <hr />
 
             <p>
-                Teile antakse müüdi nr. 1 põhiargument ja küsimus, millele peate vastama etteantud allikate abil.
+                You are given the basic argument of Myth 1 and the question you must answer using the given scientific sources.
             </p>
             
             <UiCardInfo theme="blue">
-                <h4 class="leading-tight my-2">Müüdi 1 põhiargument: Liikide massiline väljasuremine on loomulik protsess.</h4>
+                <h4 class="leading-tight my-2">Argument of Myth 1: The mass extinction of species is a natural process.</h4>
             </UiCardInfo>
             
             <p>
-                <b>Uurimisküsimus:</b> Kas liikide massiline väljasuremine on loomulik protsess?
+                <b>Question</b>: Is the mass extinction of species a natural process?
             </p>
 
             <p>
-                Uurige <a href="http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html" target="_blank" rel="noopener noreferrer">allikat 1.1</a> ja <a href="https://www.youtube.com/watch?v=nho73BtDQtE" target="_blank" rel="noopener noreferrer">vaadake videot</a> ning vastake järgnevatele küsimustele.
+                Study <a href="http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html" target="_blank" rel="noopener noreferrer">source 1.1</a> and watch the video <a href="https://www.youtube.com/watch?v=nho73BtDQtE" target="_blank" rel="noopener noreferrer">Climate Change: Why are thousands of species facing extinction? - BBC News.</a>. Then, answer the following questions.
             </p>
 
             <label for="q2" class="block mb-2">
-                <b>1. Mida me mõtleme "massilise väljasuremise" all?</b>
+                <b>1. What do we mean by "mass extinction"?</b>
             </label>
             <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
             v-model="studentClimateGuidedMyth1.q1"></textarea>
             <hr />
             
             <label for="q3" class="block mb-2">
-                <b>2. Kui palju massilist väljasuremist teie arvates toimub?</b>
+                <b>2. How many mass extinctions do you find happening?</b>
             </label>
             <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
             v-model="studentClimateGuidedMyth1.q2"></textarea>
             <hr />
             
             <label for="q4" class="block mb-2">
-                <b>3. Millised olid massilise väljasuremise põhjused?</b>
+                <b>3. What were the causes of the mass extinctions?</b>
             </label>
             <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
             v-model="studentClimateGuidedMyth1.q3"></textarea>
             <hr />
             
             <label for="q5" class="block mb-2">
-                <b>4. Millised olid massilise väljasuremise tagajärjed?</b>
+                <b>4. What were the consequences of the mass extinctions?</b>
             </label>
             <textarea id="q5" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
             v-model="studentClimateGuidedMyth1.q5"></textarea>
             <hr />
             
             <label for="q6" class="block mb-2">
-                <b>5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?</b>
+                <b>5. Why should we worry about mass extinctions now?</b>
             </label>
             <textarea id="q6" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
             v-model="studentClimateGuidedMyth1.q6"></textarea>
@@ -94,11 +92,11 @@
             
             
             <p>
-                Uurige <a href="https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub" target="_blank" rel="noopener noreferrer">allikat 1.2</a> ning vastake järgmisele küsimusele.
+                Study <a href="https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub" target="_blank" rel="noopener noreferrer">source 1.2</a> and answer the following question.
             </p>
 
             <label for="q7" class="block mb-2">
-                <b>6. Mis on pingviinide massilise hukkumise põhjus?</b>
+                <b>6. What is the reason for the mass killing of penguins?</b>
             </label>
             <textarea id="q7" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
             v-model="studentClimateGuidedMyth1.q7"></textarea>
@@ -106,10 +104,10 @@
             
 
 
-            <p>Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks</p>
+            <p>Please use this tool to assess the reliability of the sources used.</p>
 
             <p>
-                <b>7. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.</b>
+                <b>7. Write a summary of your findings in the following table.</b>
             </p>
 
             <ToolsReliabilityTable :storeToUpdate="studentClimateGuidedMyth1" />
@@ -121,24 +119,24 @@
 
 
             <p>
-                <b>8. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?</b>
+                <b>8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):</b>
             </p>
 
             <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
                 <div 
                     class="grid grid-cols-[1fr_1fr_1fr]">
-                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Eksikujutelm</div>
-                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Allikas</div>
-                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Kommentaarid</div>
+                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Fallacy</div>
+                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Selection (yes/no)</div>
+                    <div class="text-sm font-bold leading-none p-3 border border-slate-300">Comments</div>
                 </div>    
                 <div 
                     class="grid grid-cols-[1fr_1fr_1fr]">
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
                             <img src="http://evidence.onkel.ee/assets/flicc-c1.webp" class="w-20 md:w-28" />
-                            <b>Kirsside noppimine:</b>
+                            <b>Cherry picking:</b>
                             <br />
-                            Seda strateegiat määratletakse kui “selektiivset andmete valimist, mis viivad soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest”.
+                            This technique is defined as “selectively choosing data leading to the desired conclusion that differs from the conclusion arising from all the available data”.
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
@@ -155,9 +153,9 @@
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
                             <img src="http://evidence.onkel.ee/assets/flicc-l-j.webp" class="w-20 md:w-28" />
-                            <b>Kiirustamine järelduste tegemisel:</b>
+                            <b>Jumping to conclusions:</b>
                             <br />
-                            Informatsiooni mittetundmine ja meelevaldne järeldus.
+                            Ignorance of information and arbitrary conclusion.
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
@@ -174,9 +172,9 @@
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
                             <img src="http://evidence.onkel.ee/assets/flicc-i.webp" class="w-20 md:w-28" />
-                            <b>Võimatud ootused:</b>
+                            <b>Impossible Expectations:</b>
                             <br />
-                            See hõlmab ebarealistlike tõendite nõudmist või teadusliku ebakindluse olemuse vale esitamist. Kuna teadus on tavalisel tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks. Seda teadust eitavat strateegiat tuntakse kui “teadusliku kindluse argumenteerimise meetod”.
+                            This involves demanding unrealistic levels of proof or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty effectively cast doubt on scientific findings. This denialist technique is known as the “Scientific Certainty Argumentation Method”.
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
@@ -193,9 +191,9 @@
                     <div class="leading-tight p-3 border border-slate-300">
                         <p class="m-0 text-sm">
                             <img src="http://evidence.onkel.ee/assets/flicc-l-o.webp" class="w-20 md:w-28" />
-                            <b>Liigne lihtsustamine</b>
+                            <b>Over-simplification</b>
                             <br />
-                            Andmete lihtsustamine.
+                            Data simplification.
                         </p>
                     </div>
                     <div class="leading-tight p-2 border border-slate-300">
@@ -208,12 +206,6 @@
                     </div>
                 </div>
             </section>
-
-
-
-
- 
-
 
         </section>
     </div>

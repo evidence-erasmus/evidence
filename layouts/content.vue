@@ -11,7 +11,7 @@
         <div class="e-article container mx-auto">
             <slot />
         </div>
-        <UiLangSwitcher />
+        <UiLangSwitcher class="fixed right-0 bottom-10 print:invisible" />
     </div>
 </template>
 

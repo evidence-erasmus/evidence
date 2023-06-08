@@ -2,7 +2,7 @@
     <hr id="activity-4" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 4: Transforming evidence to a suitable format</h2>
 
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                 <template #title>Activity 4<br />GIVING EVIDENCE A SUITABLE FORMAT</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -19,7 +19,7 @@
                             <Icon name="game-icons:horse-head" class="text-white" />
                         </div>
                     </template>
-                </ModulesStructure>
+                </ModulesStructure> -->
 
             <p>In this activity, you are expected to transform your evidence into a presentation that should speak to your peers. Concert the format of your presentation with your teacher.</p>
 
@@ -65,7 +65,7 @@
             <hr id="activity-5" class="mt-10 mb-40 print:my-10" />
             <h2>Activity 5: Group presentations</h2>
 
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                     <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -82,7 +82,7 @@
                             <Icon name="game-icons:horse-head" class="text-white" />
                         </div>
                     </template>
-                </ModulesStructure>
+                </ModulesStructure> -->
 
             <p>
                 In this activity, you are invited to present your video, poster, etc. to the others. Please be ready to answer your classmates and teacher's questions and comments!<br />

@@ -1,6 +1,6 @@
 <template>
     <div :lang="locale" 
-    class="flex flex-col justify-start relative
+    class="flex flex-col justify-start items-center relative
         border-4
         text-center
         rounded-lg shadow-md break-inside-avoid 
@@ -10,11 +10,12 @@
     >
         <div v-if="props.image" 
             :style="`background:url(https://evidence.onkel.ee/assets/cards/${props.image}); background-size:cover; background-position:50% 50%;`" 
-            class="h-[42mm] mb-[4mm]" >
+            class="h-[42mm] mb-0 w-full" >
         </div>
         <div v-else class="h-[24mm]"></div>
 
-        <h3 v-if="props.title" class="text-center text-[14pt] leading-tight mt-0 mb-[4mm] px-[4mm]">{{ props.title }}</h3>
+        <h3 v-if="props.title" class="bg-white text-center text-[13pt] leading-tight mt-0 mb-0 px-[2mm] py-[0.5mm] rounded-t"
+        style="transform:translateY(-5mm)">{{ props.title }}</h3>
         <p class="text-[9pt] m-0 leading-tight text-justify px-[4mm] pb-[4mm]
         print:font-sans" style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">{{ props.story }}</p>
         

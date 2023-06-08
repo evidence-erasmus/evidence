@@ -7,8 +7,12 @@
                 <ModulesClimateChangeGuidedInqueryMyth1Et 
                     v-if="route.params.inquery[2] === 'myth-1'" />
             </template>
+            <template v-else-if="locale === 'en'">
+                <ModulesClimateChangeGuidedInqueryMyth1En 
+                    v-if="route.params.inquery[2] === 'myth-1'" />
+            </template>
             <template v-else>
-                <ModulesClimateChangeGuidedInqueryMyth1Et 
+                <ModulesClimateChangeGuidedInqueryMyth1En 
                     v-if="route.params.inquery[2] === 'myth-1'" />
             </template>
         </template>
@@ -16,17 +20,16 @@
         <template v-else-if="route.params.inquery[1] === 'open'">
             <ModulesClimateChangeOpenInqueryEt 
                 v-if="locale === 'et'" />
-            <ModulesClimateChangeOpenInqueryEt 
+            <ModulesClimateChangeOpenInqueryEn 
+                v-else-if="locale === 'en'" />
+            <ModulesClimateChangeOpenInqueryEn 
                 v-else />
         </template>
-        
-        
     </div>
 </template>
 
 
 <script setup>
-    // const { t } = useI18n({ useScope: 'local' });
     const { locale } = useI18n({
         useScope: 'global'
     });

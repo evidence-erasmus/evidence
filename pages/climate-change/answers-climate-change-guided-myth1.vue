@@ -10,38 +10,38 @@
 
 
             <section>
-                <h3 class="my-1">{{ t('hypothesis') }}</h3>
+                <h4 class="my-1">{{ t('hypothesis') }}</h4>
                 <p class="whitespace-pre-wrap">
                     {{ studentClimateGuidedMyth1.hypothesis }}
                 </p>
                 
-                <h3 class="my-1">{{ t('q1') }}</h3>
+                <h4 class="my-1">{{ t('q1') }}</h4>
                 <p class="whitespace-pre-wrap">
                     {{ studentClimateGuidedMyth1.q1 }}
                 </p>
 
-                <h3 class="my-1">{{ t('q2') }}</h3>
+                <h4 class="my-1">{{ t('q2') }}</h4>
                 <p>
                     {{ studentClimateGuidedMyth1.q2 }}
                 </p>
-                <h3 class="my-1">{{ t('q3') }}</h3>
+                <h4 class="my-1">{{ t('q3') }}</h4>
                 <p>
                     {{ studentClimateGuidedMyth1.q3 }}
                 </p>
-                <h3 class="my-1">{{ t('q4') }}</h3>
+                <h4 class="my-1">{{ t('q4') }}</h4>
                 <p>
                     {{ studentClimateGuidedMyth1.q4 }}
                 </p>
-                <h3 class="my-1">{{ t('q5') }}</h3>
+                <h4 class="my-1">{{ t('q5') }}</h4>
                 <p>
                     {{ studentClimateGuidedMyth1.q5 }}
                 </p>
-                <h3 class="my-1">{{ t('q6') }}</h3>
+                <h4 class="my-1">{{ t('q6') }}</h4>
                 <p>
                     {{ studentClimateGuidedMyth1.q6 }}
                 </p>
 
-                <h3 class="my-1">{{ t('reliabilityTitle') }}</h3>
+                <h4 class="my-1">{{ t('reliabilityTitle') }}</h4>
                 <table class="border border-slate-400 leading-tight">
                     <tr>
                         <th class="border border-slate-400 p-2">{{ t('reliability[0]') }}</th>
@@ -59,7 +59,7 @@
 
 
                 
-                <h3 class="my-1">{{ t('fliccTitle') }}</h3>
+                <h4 class="my-1">{{ t('fliccTitle') }}</h4>
                 <table class="border border-slate-400 leading-tight">
                     <tr>
                         <th class="border border-slate-400 p-2">{{ t('flicc[0]') }}</th>
@@ -89,18 +89,18 @@
         "title": "Climate change module",
         "subtitle": "Answers for open inquery",
         "hint": "You can print this page or save as pdf file from the print window",
-        "hypothesis" : "Meie hüpotees:",
-        "q1" : "1. Mida me mõtleme 'massilise väljasuremise' all?",
-        "q2" : "2. Kui palju massilist väljasuremist teie arvates toimub?",
-        "q3" : "3. Millised olid massilise väljasuremise põhjused?",
-        "q4": "4. Millised olid massilise väljasuremise tagajärjed?",
-        "q5": "5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?",
-        "q6": "6. Mis on pingviinide massilise hukkumise põhjus?",
-        "reliabilityTitle" : "Tõendite usaldusväärsus:",
-        "reliability": ["Tõendid / peamised järeldused / kokkuvõte hüpoteesist", "Tõendite tüüp ja allikas", "Hinnang usaldusväärsusele", "Kommentaarid"],
-        "fliccTitle": "Teaduse eitamise taktikad:",
-        "fliccNames" : ["Cherry picking", "Slippery slope", "Impossible expectations", "Oversimplification"],
-        "flicc": ["Eksikujutelm", "Allikas", "Kommentaarid"],
+        "hypothesis" : "Our hypothesis is:",
+        "q1" : "1. What do we mean by “mass extinction”?",
+        "q2" : "2. How many mass extinctions do you find happening?",
+        "q3" : "3. What were the causes of the mass extinctions?",
+        "q4": "4. What were the consequences of the mass extinctions?",
+        "q5": "5. Why should we worry about mass extinctions now?",
+        "q6": "6. What is the reason for the mass killing of penguins?",
+        "reliabilityTitle" : "Reliability of sources:",
+        "reliability": ["Evidence / main conclusions / summary of the information relevant to the hypothesis", "Type and source of evidence", "Reliability rate", "Comments"],
+        "fliccTitle": "Science denial tactics:",
+        "fliccNames" : ["Cherry picking", "Slippery slope", "Impossible expectations", "Over-simplification"],
+        "flicc": ["Fallacy", "Selection (yes/no)", "Comments"],
         "print" : "Print - or save as pdf"
     },
     "et": {

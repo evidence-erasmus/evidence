@@ -282,7 +282,7 @@
                     <Icon name="game-icons:unicorn" class="text-white" />
                 </div>
                 <h3 class="m-0">
-                    <span class="text-rose-400">Müüt nr. 5:</span> Seos CO2 ja temperatuuri tõusu vahel puudub.
+                    <span class="text-rose-400">Müüt nr. 5:</span> Seos CO₂ ja temperatuuri tõusu vahel puudub.
                 </h3>
             </div>
 
@@ -290,7 +290,7 @@
             </h3>
 
             <p class="pl-4 border-l border-blue-500">
-                <i>“Just sõjajärgne industrialiseerimine põhjustas ülemaailmse CO2 heitkoguste kiire tõusu, kuid 1945. aastaks, kui see algas, oli Maa juba jahtumisfaasis, mis algas 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiiresti tõusnud globaalsetele temperatuuridele ja vaid vähesel määral globaalsete CO2 heitkoguste suurenemisele järgnesid 33 aastat aeglaselt langevaid globaalseid temperatuure koos globaalse CO2 heitkoguste kiire kasvuga. Järelikult oli IPCC jaoks petlik väita, et CO2 heitkogused on peamiselt vastutavad 20. sajandi globaalse soojenemise eest.”</i>
+                <i>“Just sõjajärgne industrialiseerimine põhjustas ülemaailmse CO₂ heitkoguste kiire tõusu, kuid 1945. aastaks, kui see algas, oli Maa juba jahtumisfaasis, mis algas 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiiresti tõusnud globaalsetele temperatuuridele ja vaid vähesel määral globaalsete CO₂ heitkoguste suurenemisele järgnesid 33 aastat aeglaselt langevaid globaalseid temperatuure koos globaalse CO₂ heitkoguste kiire kasvuga. Järelikult oli IPCC jaoks petlik väita, et CO₂ heitkogused on peamiselt vastutavad 20. sajandi globaalse soojenemise eest.”</i>
                 <br />
                 <a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer" class="text-sm">
                     —Norm Kalmanovitch
@@ -354,7 +354,7 @@
 
 
             <p class="pl-4 border-l border-blue-500">
-                <i>“Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi CO2 tase on praegusest madalam. Viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”</i>
+                <i>“Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi CO₂ tase on praegusest madalam. Viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”</i>
                 <br />
                 <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
                     —Richard Lindzen

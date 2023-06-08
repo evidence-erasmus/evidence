@@ -31,7 +31,7 @@
                                 <a href="#myth-2">Myth 2: Species can adapt to climate change.</a>
                             </li>
                             <li>
-                                <a href="#myth-3">Myth 3: There's no correlation between CO2 and temperature.</a>
+                                <a href="#myth-3">Myth 3: There's no correlation between CO₂ and temperature.</a>
                             </li>
                             <li>
                                 <a href="#myth-4">Myth 4: The science of climate change is unreliable.</a>
@@ -61,7 +61,7 @@
             <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1">1. What is Climate Change, and which are its causes?</h2>
         
-            <p>Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle. But since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels like coal, oil and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun’s heat and raising temperatures (Figure 1). Specifically, CO2 traps the longwave radiation given off by the planet. The trapping of the long wave radiation is dictated by quantum mechanics. The two oxygen atoms in CO2 vibrate with the carbon atom in the center, and the frequency of this vibration coincides with some of the infrared wavelengths of the long wave radiation. When the frequency of the radiation from the Earth’s surface and the atmosphere coincides with the frequency of CO2 vibration, the radiation is absorbed by CO2, converted to heat by collision with other air molecules, and then returned to the surface. As a result of this trapping, the outgoing longwave radiation is reduced by increasing CO2. Not as much heat is escaping to balance the net incoming solar radiation. As a result, there is excess heat energy on the planet, i.e., the system is out of energy balance. As CO2 is increasing with time, the infrared blanket is becoming thicker, and the planet is accumulating this excess energy.</p>
+            <p>Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle. But since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels like coal, oil and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun’s heat and raising temperatures (Figure 1). Specifically, CO₂ traps the longwave radiation given off by the planet. The trapping of the long wave radiation is dictated by quantum mechanics. The two oxygen atoms in CO₂ vibrate with the carbon atom in the center, and the frequency of this vibration coincides with some of the infrared wavelengths of the long wave radiation. When the frequency of the radiation from the Earth’s surface and the atmosphere coincides with the frequency of CO₂ vibration, the radiation is absorbed by CO₂, converted to heat by collision with other air molecules, and then returned to the surface. As a result of this trapping, the outgoing longwave radiation is reduced by increasing CO₂. Not as much heat is escaping to balance the net incoming solar radiation. As a result, there is excess heat energy on the planet, i.e., the system is out of energy balance. As CO₂ is increasing with time, the infrared blanket is becoming thicker, and the planet is accumulating this excess energy.</p>
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__the-greenhouse-effect.webp"
@@ -76,8 +76,8 @@
             <dl>
                 <dt class="font-bold">Water vapor:</dt>
                 <dd>The most abundant greenhouse gas, but importantly, it acts as feedback to the climate. Water vapor increases as the Earth's atmosphere warms, but so does the possibility of clouds and precipitation, making these some of the most important feedback mechanisms to the greenhouse effect.</dd>
-                <dt class="font-bold">Carbon dioxide (CO2):</dt>
-                <dd>A minor but essential component of the atmosphere, carbon dioxide is released through natural processes such as respiration and volcano eruptions and human activities such as deforestation, land use changes, and burning fossil fuels. Humans have increased atmospheric CO2 concentration by 48% since the Industrial Revolution began. This is the most important long-lived "forcing" of climate change.</dd>
+                <dt class="font-bold">Carbon dioxide (CO₂):</dt>
+                <dd>A minor but essential component of the atmosphere, carbon dioxide is released through natural processes such as respiration and volcano eruptions and human activities such as deforestation, land use changes, and burning fossil fuels. Humans have increased atmospheric CO₂ concentration by 48% since the Industrial Revolution began. This is the most important long-lived "forcing" of climate change.</dd>
                 <dt class="font-bold">Methane:</dt>
                 <dd>A hydrocarbon gas produced through natural sources and human activities, including the decomposition of wastes in landfills, agriculture, and especially rice cultivation, as well as ruminant digestion and manure management associated with domestic livestock. On a molecule-for-molecule basis, methane is a far more active greenhouse gas than carbon dioxide, but also one which is much less abundant in the atmosphere.</dd>
                 <dt class="font-bold">Nitrous oxide:</dt>
@@ -158,10 +158,10 @@
                     Droughts or increased rainfall depending on the region of the planet.
                 </li>
                 <li>
-                    Some laboratory experiments suggest that elevated CO2 levels can increase plant growth. However, other factors, such as changing temperatures, ozone, and water and nutrient constraints, may more than counteract any potential increase in yield. If optimal temperature ranges for some crops are exceeded, earlier possible gains in yield may be reduced or reversed altogether.
+                    Some laboratory experiments suggest that elevated CO₂ levels can increase plant growth. However, other factors, such as changing temperatures, ozone, and water and nutrient constraints, may more than counteract any potential increase in yield. If optimal temperature ranges for some crops are exceeded, earlier possible gains in yield may be reduced or reversed altogether.
                 </li>
                 <li>
-                    Climate extremes, such as droughts, floods and extreme temperatures, can lead to crop losses and threaten the livelihoods of agricultural producers and the food security of communities worldwide. Depending on the crop and ecosystem, weeds, pests, and fungi can also thrive under warmer temperatures, wetter climates, and increased CO2 levels, and climate change will likely increase weeds and pests.
+                    Climate extremes, such as droughts, floods and extreme temperatures, can lead to crop losses and threaten the livelihoods of agricultural producers and the food security of communities worldwide. Depending on the crop and ecosystem, weeds, pests, and fungi can also thrive under warmer temperatures, wetter climates, and increased CO₂ levels, and climate change will likely increase weeds and pests.
                 </li>
                 <li>
                     Research has shown that it can also reduce the nutritional value of most food crops by reducing the concentrations of protein and essential minerals in most plant species.
@@ -557,10 +557,10 @@
 
 
             <hr id="myth-5" class="mt-10 mb-40" />
-            <h2>Myth 5: There's no correlation between CO2 and temperature.</h2>
+            <h2>Myth 5: There's no correlation between CO₂ and temperature.</h2>
             
             <p>
-                <i>“It was the post-war industrialization that caused the rapid rise in global CO2 emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO2 emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO2 emissions, it was deceitful for the IPCC to make any claim that CO2 emissions were primarily responsible for observed 20th-century global warming."</i>
+                <i>“It was the post-war industrialization that caused the rapid rise in global CO₂ emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO₂ emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO₂ emissions, it was deceitful for the IPCC to make any claim that CO₂ emissions were primarily responsible for observed 20th-century global warming."</i>
                 <br />
                 (<a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer">Norm Kalmanovitch</a>)
                 <br />
@@ -571,7 +571,7 @@
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 5:</h3>
                     <p class="text-2xl">
-                        <i>“Paleoclimate data from the last 800,000-plus years show that the link between temperature and CO2 is well-established. Scientists discovered CO2’s role in warming the planet in the mid-19th century, noted James Renwick, Professor, Victoria University of Wellington, in a previous review of a similar claim. “Through the past 2.6 million years, the period of recent ice ages, carbon dioxide has gone up and down in step with temperature, bottoming out at around 180 parts per million in the depths of a “glacial maximum” and peaking at around 280 parts per million in the warmer interglacial periods, he said in the review. “Going back further, CO2 levels were certainly higher than present, but so were temperatures.” Scientists are confident in the finding that increased CO2 concentrations are causing Earth’s temperature to rise. As CO2 and other greenhouse gases are emitted into the atmosphere, they trap more of the sun’s energy, leading to warming. “It is unequivocal that human influence has warmed the atmosphere, ocean and land,” the IPCC notes in its Sixth Assessment Report.”</i>
+                        <i>“Paleoclimate data from the last 800,000-plus years show that the link between temperature and CO₂ is well-established. Scientists discovered CO₂’s role in warming the planet in the mid-19th century, noted James Renwick, Professor, Victoria University of Wellington, in a previous review of a similar claim. “Through the past 2.6 million years, the period of recent ice ages, carbon dioxide has gone up and down in step with temperature, bottoming out at around 180 parts per million in the depths of a “glacial maximum” and peaking at around 280 parts per million in the warmer interglacial periods, he said in the review. “Going back further, CO₂ levels were certainly higher than present, but so were temperatures.” Scientists are confident in the finding that increased CO₂ concentrations are causing Earth’s temperature to rise. As CO₂ and other greenhouse gases are emitted into the atmosphere, they trap more of the sun’s energy, leading to warming. “It is unequivocal that human influence has warmed the atmosphere, ocean and land,” the IPCC notes in its Sixth Assessment Report.”</i>
                     </p>
                 </div>
             </UiCardInfo>
@@ -678,7 +678,7 @@
 
             <p>
                 <i>
-                    “Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen. Ice ages have occurred in a hundred thousand year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO2 levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”
+                    “Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen. Ice ages have occurred in a hundred thousand year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO₂ levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”
                 </i>
                 <br />
                 (<a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer">Richard Lindzen</a>)
@@ -691,7 +691,7 @@
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 7:</h3>
                     <p class="text-2xl">
-                        <i>“The largest global-scale climate variations in Earth’s recent geological past are the ice age cycles, which are cold glacial periods followed by shorter warm periods.The last few of these natural cycles have recurred roughly every 100,000 years. CO2 has risen more than 40% in just the past 200 years, much of this since the 1970s, contributing to human alteration of the planet’s energy budget that has so far warmed Earth by about 1 °C (1.8 °F).  If the rise in CO2 continues unchecked, warming of the same magnitude as the increase out of the ice age can be expected by the end of this century or soon after. This speed of warming is more than ten times that at the end of an ice age, the fastest known natural sustained change on a global scale.”</i>
+                        <i>“The largest global-scale climate variations in Earth’s recent geological past are the ice age cycles, which are cold glacial periods followed by shorter warm periods.The last few of these natural cycles have recurred roughly every 100,000 years. CO₂ has risen more than 40% in just the past 200 years, much of this since the 1970s, contributing to human alteration of the planet’s energy budget that has so far warmed Earth by about 1 °C (1.8 °F).  If the rise in CO₂ continues unchecked, warming of the same magnitude as the increase out of the ice age can be expected by the end of this century or soon after. This speed of warming is more than ten times that at the end of an ice age, the fastest known natural sustained change on a global scale.”</i>
                     </p>
                 </div>
             </UiCardInfo>
