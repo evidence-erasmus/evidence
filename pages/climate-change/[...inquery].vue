@@ -6,6 +6,8 @@
             <template v-if="locale === 'et'">
                 <ModulesClimateChangeGuidedInqueryMyth1Et 
                     v-if="route.params.inquery[2] === 'myth-1'" />
+                <ModulesClimateChangeGuidedInqueryMyth2Et 
+                    v-else-if="route.params.inquery[2] === 'myth-2'" />
             </template>
             <template v-else-if="locale === 'en'">
                 <ModulesClimateChangeGuidedInqueryMyth1En 

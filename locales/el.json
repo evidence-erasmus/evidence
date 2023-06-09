@@ -15,13 +15,13 @@
   },
   "message": "Hello from external",
   "modules": {
-    "background-info": "Info EL",
+    "background-info": "ΥΠΌΒΑΘΡΟ",
     "climateChange": {
       "description": "Climate change description ing Greek",
       "title": "Climate Change in Greek"
     },
-    "for-students": "For student EL",
-    "for-teachers": "For teacher EL",
+    "for-students": "Φοιτητές",
+    "for-teachers": "Δάσκαλοι",
     "radiation": {
       "description": "Radiation module description in Greek",
       "title": "Radiation in Greek"
