@@ -10,9 +10,11 @@ export default defineNuxtConfig({
         'nuxt-icon',
         'nuxt-headlessui'
     ],
+    nitro: { prerender: { failOnError: false }, },
     // ssr:false,
     experimental : {
-        payloadExtraction : false
+        payloadExtraction : false,
+        inlineSSRStyles: false
     },
     // router: {
     //     base: '/evidence/'
@@ -44,8 +46,8 @@ export default defineNuxtConfig({
         lazy: true,
         langDir: 'locales',
         defaultLocale: 'en',
-        customRoutes: 'config',
         // strictMessage: false,
+        customRoutes: 'config',
         pages: {
             about: {
                 en: '/about',
@@ -75,16 +77,12 @@ export default defineNuxtConfig({
                 en: '/viruses/answers',
                 et: '/viirused/vastused'
             },
-            // 'tools/StudentAnswersClimatechangeOpen': {
-            //     en: '/climate-change/answers/open',
-            //     et: '/kliimamuutused/vastused/avatud'
-            // },
         },
-        vueI18n: {
-            legacy: false,
-            locale: 'en'
-        }
-        // vueI18n: './i18n.config.ts' // if you are using custom path, default 
+        // vueI18n: {
+        //     legacy: false,
+        //     locale: 'en'
+        // }
+        vueI18n: './i18n.config.ts' // if you are using custom path, default 
     },
     image: {
         gumlet: {

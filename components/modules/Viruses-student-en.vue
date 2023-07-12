@@ -216,7 +216,7 @@
 
             <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
 
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:alt-route">
+            <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:alt-route">
                 <div>
                     Now, consider whether your hypothesis can be tested based only <b>on secondary evidence</b> (relying on published material of already conducted experiments) or <b>on your own experiment</b>. Based on that, you should choose <b>Activity 3a</b> or <b>Activity 3b</b> from below for further study.
                 </div>

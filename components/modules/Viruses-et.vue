@@ -10,6 +10,6 @@
         
         <UiYoutube video="t4v-36h2noo" /> 
 
-        <a href="/et/tools/videofeedback" target="_blank">Edasi</a>
+        <a href="/et/tools/peerfeedback" target="_blank">Edasi</a>
     </div>
 </template>

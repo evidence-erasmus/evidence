@@ -2,7 +2,7 @@
     const props = defineProps({
         theme : {
             type: String,
-            default: ""
+            default: "yellow-400"
         },
         icon : {
             type: String,
@@ -12,10 +12,10 @@
     
 </script>
 <template>
-    
-    <div class="shadow-md rounded-lg border bg-white px-8 py-4 border-l-8" :class="theme=='blue' ? 'border-sky-500' : 'border-yellow-400'">
-        <div>
-            <Icon :name="icon" size="64" class="float-left mr-4" :class="theme=='blue' ? 'text-sky-500' : 'text-yellow-400'" />
+    <div class="shadow-md rounded-lg border bg-white px-8 py-4 border-l-8" :class="`border-${theme}`">
+        <div class="lg:grid lg:grid-cols-[64px_auto]">
+            <Icon :name="icon" size="48" class="float-left mr-4 mt-0 lg:mt-6 lg:mr-0" :class="`text-${theme}`" />
+            
             <div class="font-Heading">
                 <slot></slot>
             </div>

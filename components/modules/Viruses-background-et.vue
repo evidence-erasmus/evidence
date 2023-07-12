@@ -62,10 +62,10 @@
         <section class="e-article">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Viruses</h1>
-            <h5 class="font-normal uppercase leading-tight">Scientific background information</h5>
+            <h5 class="font-normal uppercase leading-tight">Viirused: teadusinfo</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">1. Viruses versus bacteria</h2>
+            <h2 id="section-1">1. Viirused vs bakterid</h2>
         
             <p class="font-bold">Bacteria and viruses can cause many common infections. But what are the differences between these two kinds of infectious organisms?</p>
         

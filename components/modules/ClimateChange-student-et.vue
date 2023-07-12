@@ -153,228 +153,159 @@
             
             
             <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Kliimamuutuste müüdid</h2>
+            <h2>Tegevus 3: Kliimamuutuste müüdid</h2>
 
             
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0"><span class="text-rose-400">Müüt nr. 1:</span> Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.</h3>
-            </div>
 
-            <p>Liikide väljasuremine on toimunud läbi Maa ajaloo. Eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis aset 66 000 000 aastat tagasi, oli tingitud asteroidi kokkupõrkest Maale. Aastate jooksul on meil teisigi tuntud näiteid, näiteks mammutite väljasuremine. Registreeritud väljasuremise põhjused on aga erinevad.</p>
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 1:</span> Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.</h4>
 
-            <p>Ka vihje, et inimkond on võimeline mõjutama ja häirima sellise ulatusega jõude, peegeldab inimeste enesekeskset ülbust. Inimkond on looduse osa. Loodus ei ole inimkonna osa. Inimesed ei saa neid protsesse parandada ega sellesse sekkuda (Financial Sense University).</p>
+                <p>Liikide väljasuremine on toimunud läbi Maa ajaloo. Eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis aset 66 000 000 aastat tagasi, oli tingitud asteroidi kokkupõrkest Maale. Aastate jooksul on meil teisigi tuntud näiteid, näiteks mammutite väljasuremine. Registreeritud väljasuremise põhjused on aga erinevad.</p>
+                <p>Ka vihje, et inimkond on võimeline mõjutama ja häirima sellise ulatusega jõude, peegeldab inimeste enesekeskset ülbust. Inimkond on looduse osa. Loodus ei ole inimkonna osa. Inimesed ei saa neid protsesse parandada ega sellesse sekkuda (Financial Sense University).</p>
 
-            <p>
-                Viidatud: 
-                <br />
-                <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
-            </p>
+                <p>
+                    Viidatud: 
+                    <br />
+                    <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
+                </p>
+                
+                <UiNavButtonBar class="font-Body mb-6" :buttons="[
+                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Juhitud uurimus', url:'inquiry/guided/myth-1'}
+                ]" />
+
+            </UiCardInfo>
+
+            <div class="divider my-6"></div>
             
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'inquery/open/'},
-                {text:'Juhitud uurimus', url:'inquery/guided/myth-1'}
-                ]" 
-            />
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 2:</span> Liigid suudavad kliimamuutustega kohaneda.</h4>
+                
+                <p>Maa ajalugu hinnatakse 4,54 miljardile aastale. Läbi aegade on planeedil valitsenud ilmastikutingimused muutunud. Seetõttu on Maal elavad liigid/organismid sunnitud ellujäämiseks ja säilimiseks uute tingimustega kohanema. Nii tekkis liikide evolutsioon.</p>
+                <p>Taimed ja loomad on juba mitu korda ebasoodsate tingimustega (kliimamuutused, meteoriidid, vulkaanipursked jne) kohanenud. See võimaldab neil kohaneda kasvavate temperatuuride ja olukorraga, mida me praegu nimetame kliimamuutusteks. Teisisõnu, liigid on looduslikult võimelised uutes tingimustes ellu jääma.</p>
+                <p>
+                    Viidatud: 
+                    <br />
+                    <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
+                </p>
 
-            <hr />
-
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0"><span class="text-rose-400">Müüt nr. 2:</span> Liigid suudavad kliimamuutustega kohaneda.</h3>
-            </div>
-
-            <p>Maa ajalugu hinnatakse 4,54 miljardile aastale. Läbi aegade on planeedil valitsenud ilmastikutingimused muutunud. Seetõttu on Maal elavad liigid/organismid sunnitud ellujäämiseks ja säilimiseks uute tingimustega kohanema. Nii tekkis liikide evolutsioon.</p>
-
-            <p>Taimed ja loomad on juba mitu korda ebasoodsate tingimustega (kliimamuutused, meteoriidid, vulkaanipursked jne) kohanenud. See võimaldab neil kohaneda kasvavate temperatuuride ja olukorraga, mida me praegu nimetame kliimamuutusteks. Teisisõnu, liigid on looduslikult võimelised uutes tingimustes ellu jääma.</p>
-
-            <p>
-                Viidatud: 
-                <br />
-                <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'inquery/open/'},
-                {text:'Juhitud uurimus', url:'/'}
-                ]" 
-            />
-
-            <hr />
-
+                <UiNavButtonBar :buttons="[
+                    // {text:'Juhised', url:''},
+                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Juhitud uurimus', url:'/'}
+                ]" class="mb-6 font-Body"
+                />
+                
+            </UiCardInfo>
             
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Müüt nr. 3:</span> Kliimamuutuste alane teadus ei ole usaldusväärne.
-                </h3>
-            </div>
+            <div class="divider my-6"></div>
+            
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 3:</span> Kliimamuutuste alane teadus ei ole usaldusväärne.</h4>
+                
+                <p>Meteoroloogiajaamad asuvad piirkondades, kus kogutud andmed ei kajasta kliimamuutusi ega ole seetõttu globaalse kliima uurimiseks usaldusväärsed.</p>
+                
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“Leidsime [USA ilma]jaamad, mis asuvad kliimaseadmete väljatõmbeventilaatorite kõrval, mis on ümbritsetud asfaltkattega parklate ja teedega, kuumadel katustel ning kõnniteede ja hoonete läheduses, mis neelavad ja kiirgavad soojust.”</i>
+                    <br />
+                    <a href="http://wattsupwiththat.files.wordpress.com/2009/05/surfacestationsreport_spring09.pdf" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —Watts 2009
+                    </a>
+                </p>
 
-            <p>Meteoroloogiajaamad asuvad piirkondades, kus kogutud andmed ei kajasta kliimamuutusi ega ole seetõttu globaalse kliima uurimiseks usaldusväärsed.</p>
+                <p>
+                    Viidatud: 
+                    <br />
+                    <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
+                </p>
+                
+                <UiNavButtonBar :buttons="[
+                    // {text:'Juhised', url:''},
+                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Juhitud uurimus', url:'/'}
+                ]" class="mb-6 font-Body"
+                />
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+            
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 4:</span> Globaalne soojenemine on kasulik.</h4>
+                
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
+                    <br />
+                    <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —John MacArthur
+                    </a>
+                </p>
+                
+                <p>
+                    Viidatud: 
+                    <br />
+                    <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
+                </p>
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+            
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 5:</span> Seos CO₂ ja temperatuuri tõusu vahel puudub.</h4>
+                
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“Just sõjajärgne industrialiseerimine põhjustas ülemaailmse CO₂ heitkoguste kiire tõusu, kuid 1945. aastaks, kui see algas, oli Maa juba jahtumisfaasis, mis algas 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiiresti tõusnud globaalsetele temperatuuridele ja vaid vähesel määral globaalsete CO₂ heitkoguste suurenemisele järgnesid 33 aastat aeglaselt langevaid globaalseid temperatuure koos globaalse CO₂ heitkoguste kiire kasvuga. Järelikult oli IPCC jaoks petlik väita, et CO₂ heitkogused on peamiselt vastutavad 20. sajandi globaalse soojenemise eest.”</i>
+                    <br />
+                    <a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —Norm Kalmanovitch
+                    </a>
+                </p>
+                
+                <p>
+                    Viidatud: 
+                    <br />
+                    <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
+                </p>
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+                        
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 6:</span> Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h4>
 
-            <p class="pl-4 border-l border-blue-500">
-                <i>“Leidsime [USA ilma]jaamad, mis asuvad kliimaseadmete väljatõmbeventilaatorite kõrval, mis on ümbritsetud asfaltkattega parklate ja teedega, kuumadel katustel ning kõnniteede ja hoonete läheduses, mis neelavad ja kiirgavad soojust.”</i>
-                <br />
-                <a href="http://wattsupwiththat.files.wordpress.com/2009/05/surfacestationsreport_spring09.pdf" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —Watts 2009
-                </a>
-            </p>
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
+                    <br />
+                    <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —John MacArthur
+                    </a>
+                </p>
+            
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
 
-            <p>
-                Viidatud: 
-                <br />
-                <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'inquery/open/'},
-                {text:'Juhitud uurimus', url:'/'}
-                ]" 
-            />
-
-            <hr />
-
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Müüt nr. 4:</span> Globaalne  soojenemine on kasulik.
-                </h3>
-            </div>
-
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
-                <br />
-                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —John MacArthur
-                </a>
-            </p>
-
-            <p>
-                Viidatud: 
-                <br />
-                <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'inquery/open/'},
-                {text:'Juhitud uurimus', url:'/'}
-                ]" 
-            />
-
-            <hr />
-
-    
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Müüt nr. 5:</span> Seos CO₂ ja temperatuuri tõusu vahel puudub.
-                </h3>
-            </div>
-
-            <h3>
-            </h3>
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“Just sõjajärgne industrialiseerimine põhjustas ülemaailmse CO₂ heitkoguste kiire tõusu, kuid 1945. aastaks, kui see algas, oli Maa juba jahtumisfaasis, mis algas 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiiresti tõusnud globaalsetele temperatuuridele ja vaid vähesel määral globaalsete CO₂ heitkoguste suurenemisele järgnesid 33 aastat aeglaselt langevaid globaalseid temperatuure koos globaalse CO₂ heitkoguste kiire kasvuga. Järelikult oli IPCC jaoks petlik väita, et CO₂ heitkogused on peamiselt vastutavad 20. sajandi globaalse soojenemise eest.”</i>
-                <br />
-                <a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —Norm Kalmanovitch
-                </a>
-            </p>
-
-            <p>
-                Viidatud: 
-                <br />
-                <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'inquery/open/'},
-                {text:'Juhitud uurimus', url:'/'}
-                ]" 
-            />
-
-            <hr />
-
-
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Müüt nr. 6:</span> Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.
-                </h3>
-            </div>
-
-            <h3>
-            </h3>
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“Muide, kui kavatsete millegi poolt hääletada, hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad elamiskõlblikumad, suuremad põllukultuurid, pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid.”</i>
-                <br />
-                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —John MacArthur
-                </a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'inquery/open/'},
-                {text:'Juhitud uurimus', url:'/'}
-                ]" 
-            />
-
-            <hr />
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 7:</span> Maa kliima on alati muutunud ning see jätkab muutumist.</h4>
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi CO₂ tase on praegusest madalam. Viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”</i>
+                    <br />
+                    <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —Richard Lindzen
+                    </a>
+                </p>
+                <p>
+                    Viidatud: 
+                    <br />
+                    <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
+                </p>
+            </UiCardInfo>
 
 
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Müüt nr. 7:</span> Maa kliima on alati muutunud ning see jätkab muutumist.
-                </h3>
-            </div>
 
 
-            <p class="pl-4 border-l border-blue-500">
-                <i>“Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi CO₂ tase on praegusest madalam. Viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”</i>
-                <br />
-                <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —Richard Lindzen
-                </a>
-            </p>
 
-            <p>
-                Viidatud: 
-                <br />
-                <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
-            </p>
 
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Avatud uurimus', url:'inquery/open/'},
-                {text:'Juhitud uurimus', url:'/'}
-                ]" 
-            />
 
-            <hr />
 
 
 

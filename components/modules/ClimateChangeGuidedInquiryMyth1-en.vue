@@ -20,7 +20,7 @@
             </NuxtLink>
 
             <h1 class="mb-0">Climate change</h1>
-            <h5 class="font-normal uppercase leading-tight">Guided inquery; Myth 1</h5>
+            <h5 class="font-normal uppercase leading-tight">Guided inquiry; Myth 1</h5>
         
             <h2>
                 Activity 3: Mythbusting
@@ -43,7 +43,7 @@
                 You are given the basic argument of Myth 1 and the question you must answer using the given scientific sources.
             </p>
             
-            <UiCardInfo theme="blue">
+            <UiCardInfo theme="sky-500">
                 <h4 class="leading-tight my-2">Argument of Myth 1: The mass extinction of species is a natural process.</h4>
             </UiCardInfo>
             

@@ -34,7 +34,7 @@
             <p>The following criteria will help you to develop your presentation:</p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:fact-check-outline-rounded">
+            <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:fact-check-outline-rounded">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Criteria</h3>
                     <h4>Product</h4>
@@ -89,10 +89,10 @@
                 Also, during the presentation of the other groups, you are invited to give constructive feedback to your classmates.
             </p>
 
-            <!-- <ToolsVideoFeedback /> -->
+            <!-- <ToolsPeerFeedback /> -->
 
             <!-- <p>
-                <a href="../../tools/VideoFeedback" target="_blank">
+                <a href="../../tools/PeerFeedback" target="_blank">
                     Open the questionnaire 
                 </a>
                 in a new page to share or print it

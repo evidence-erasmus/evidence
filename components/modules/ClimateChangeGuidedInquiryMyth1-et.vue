@@ -45,7 +45,7 @@
                 Teile antakse müüdi nr. 1 põhiargument ja küsimus, millele peate vastama etteantud allikate abil.
             </p>
             
-            <UiCardInfo theme="blue">
+            <UiCardInfo theme="sky-500">
                 <h4 class="leading-tight my-2">Müüdi 1 põhiargument: Liikide massiline väljasuremine on loomulik protsess.</h4>
             </UiCardInfo>
             

@@ -15,7 +15,7 @@
   },
   "message": "Tervitusi välisest failist!",
   "modules": {
-    "background-info": "Taustainfo",
+    "background-info": "Teadusinfo",
     "climateChange": {
       "description": "Kliimamuutuste kirjeldav tekst",
       "title": "Kliimamuutused"

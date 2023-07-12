@@ -75,7 +75,7 @@
             </UiContentImage>
             
             <p>
-                Täpsemalt, CO₂ püüab kinni planeedi eralduva pikalainelise kiirguse. Pikalainelise kiirguse püüdmise määrab kvantmehaanika. CO₂ kaks hapnikuaatomit koos nende vahel oleva süsinikuaatomiga vibreerivad ja selle vibratsiooni sagedus langeb kokku mõne pikalainelise kiirguse infrapuna lainepikkusega. Kui Maa pinnalt ja atmosfäärist lähtuva kiirguse sagedus langeb kokku CO₂ vibratsiooni sagedusega, neelatakse see CO₂ molekulide poolt ja muudetakse kokkupõrkel teiste õhumolekulidega soojuseks ning antakse seejärel pinnale tagasi. Seega kui CO₂ sisaldus atmosfääris suureneb, siis väheneb atmosfäärist väljuva pikalainelise kiirguse hulk ehk sisse tuleb rohkem energiat kui  väljub, mis tähendab, et süsteemi energia on tasakaalust väljas. 
+                Täpsemalt, CO₂ püüab kinni planeedi eralduva pikalainelise kiirguse. Pikalainelise kiirguse püüdmise määrab kvantmehaanika. CO₂ kaks hapnikuaatomit koos nende vahel oleva süsinikuaatomiga vibreerivad ja selle vibratsiooni sagedus langeb kokku mõne pikalainelise kiirguse infrapuna lainepikkusega. Kui Maa pinnalt ja atmosfäärist lähtuva kiirguse sagedus langeb kokku CO₂ vibratsiooni sagedusega, neelatakse see CO₂ molekulide poolt ja muudetakse kokkupõrkel teiste õhumolekulidega soojuseks ning antakse seejärel pinnale tagasi. Seega kui CO₂ sisaldus atmosfääris suureneb, siis väheneb atmosfäärist väljuva pikalainelise kiirguse hulk ehk sisse tuleb rohkem energiat kui väljub, mis tähendab, et süsteemi energia on tasakaalust väljas. 
             </p>
 
             <p><b>Kasvuhooneefekti soodustavad gaasid (kasvuhoonegaasid) on järgmised:</b></p>
@@ -391,7 +391,7 @@
 
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 1 paikapidavuse kohta:</h3>
                     <p class="font-Heading text-2xl"><i>“Kõik liigid ei suuda kliimamuutustega kohaneda. Mõned liigid (nt linnud) võivad kliimamuutustega kohaneda erineval viisil (nt muuta rände- või pesitsusaega). Kuid mitte kõik liigid (nt imetajad) ei saa seda teha. Samuti ei ole võimalik kiiresti saavutada igasuguseid muutusi (nt morfoloogiliste omaduste muutumine). Üldiselt ei saa evolutsioon kiiresti toimudaehk liikide kohanemise määr on enamasti ebapiisav. 
@@ -446,7 +446,7 @@
             <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 2 paikapidavuse kohta:</h3>
                     <p class="text-2xl">Tänapäeval toimuvad väljasuremised sadu kordi kiiremini kui loomulikult. See on tingitud inimeste põhjustatud kliimamuutustest.</p>
@@ -501,7 +501,7 @@
             </p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 4 paikapidavuse kohta:</h3>
                     <p class="text-2xl">Kliimamuutustega seotud tõendid pärinevad aastakümneid kestnud intensiivsetest uuringutest ning põhinevad vaatlustel, väli- ja laborikatsetel ning simulatsioonimudelitel (Higgins, 2019). On meelevaldne arvata, et teaduslikud andmed kliimamuutuste kohta on ebausaldusväärsed.</p>
@@ -552,7 +552,7 @@
             </ul>
 
              
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 4 paikapidavuse kohta:</h3>
                     <p class="text-2xl">Müüt 4 põhineb ainult ülaltoodud John MacArthuri väitel. Teaduslikud tõendid näitavad täpselt vastupidist. Kliimamuutus (kuumus)suurendab otseselt inimeste surmade arvu. Kliimamuutused on üks ühiskonda, keskkonda, majandust ja rahvatervist mõjutavate globaalsete muutuste põhjuseid.</p>
@@ -604,7 +604,7 @@
                 <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
             </p>
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 5 paikapidavuse kohta:</h3>
                     <p class="text-2xl">
@@ -651,7 +651,7 @@
                 (David Montgomery)
             </p>
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam antud müüdi 6 kohta:</h3>
                     <p class="text-2xl">
@@ -713,7 +713,7 @@
             </p>
             
             
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr. 7 paikapidavuse kohta:</h3>
                     <p class="text-2xl">

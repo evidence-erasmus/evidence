@@ -143,223 +143,8 @@
             
             
             
-            
-            
-            
-            
-            
-            
-            
-            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Myths about the climate change</h2>
 
             
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0"><span class="text-rose-400">Myth 1:</span> The extinction of species is a natural process. Mass extinctions of species have always occurred.</h3>
-            </div>
-
-            <p>The extinction of species is a historical problem. We have evidence of several mass extinctions from prehistoric times, most notably the extinction of the dinosaurs. This extinction, which took place 66,000,000 years ago, was attributed to the impact of an asteroid on Earth. Over the years, we have other well-known examples, such as the extinction of mammoths. However, the causes of extinction that have been recorded vary.</p>
-
-            <p>Also, the suggestion that humanity can impact and disturb forces of such magnitude reflects a mind-numbing self-centred arrogance. Humanity is a subset of Nature. Nature is not a subset of humanity. People can neither cause nor intervene to correct these processes (Financial Sense University).</p>
-
-            <p>
-                <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
-            </p>
-            
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Open inquery', url:'inquery/open/'},
-                {text:'Guided inquery', url:'inquery/guided/myth-1'}
-                ]" 
-            />
-
-            <hr />
-
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0"><span class="text-rose-400">Myth 2:</span> <span class="bg-pink-300">Organizations (?)</span> can adapt to climate change.</h3>
-            </div>
-
-            <p>The earth has a history of 4.54 billion years. The weather conditions that prevailed from time to time on the planet changed. Therefore, the species/organisms living on earth were forced to adapt to the new conditions to survive and be preserved. In this way, the evolution of the species emerged.</p>
-
-            <p>Plants and animals have already adapted several times to adverse conditions (climate change, meteorite falls, volcanic eruptions, etc.). This makes them able to adapt to rising temperatures and the situation we now call climate change. In other words, species are naturally capable of surviving in new conditions.</p>
-
-            <p>
-                <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Open inquery', url:'inquery/open/'},
-                {text:'Guided inquery', url:'inquery/guided/myth-1'}
-                ]" 
-            />
-
-            <hr />
-
-            
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Myth 3:</span> The science of climate change is not credible.
-                </h3>
-            </div>
-
-            <p>Meteorological stations are located in areas where the data collected are not representative of climate change and, therefore, unreliable for the study of the global climate. Scientists target global terrorism for data they create under the conditions they want.</p>
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“We found [U.S. weather] stations located next to the exhaust fans of air conditioning units, surrounded by asphalt parking lots and roads, on blistering-hot rooftops, and near sidewalks and buildings that absorb and radiate heat.”</i>
-                <br />
-                <a href="http://wattsupwiththat.files.wordpress.com/2009/05/surfacestationsreport_spring09.pdf" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —Watts 2009
-                </a>
-            </p>
-
-            <p>
-                <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Open inquery', url:'inquery/open/'},
-                {text:'Guided inquery', url:'inquery/guided/myth-1'}
-                ]" 
-            />
-
-            <hr />
-
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Myth 4:</span> The temperature rise is for good.
-                </h3>
-            </div>
-
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, regions more habitable, larger crops, longer growing season. That’s good. Warming helps the poor.”</i>
-                <br />
-                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —John MacArthur
-                </a>
-            </p>
-
-            <p>
-                <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Open inquery', url:'inquery/open/'},
-                {text:'Guided inquery', url:'inquery/guided/myth-1'}
-                ]" 
-            />
-
-            <hr />
-
-    
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Myth 5:</span> There is no correlation between CO₂ and temperature.
-                </h3>
-            </div>
-
-            <h3>
-            </h3>
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“It was the post-war industrialization that caused the rapid rise in global CO₂ emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO₂ emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO₂ emissions, it was deceitful for the IPCC to make any claim that CO₂ emissions were primarily responsible for observed 20th-century global warming.”</i>
-                <br />
-                <a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —Norm Kalmanovitch
-                </a>
-            </p>
-
-            <p>
-                <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Open inquery', url:'inquery/open/'},
-                {text:'Guided inquery', url:'inquery/guided/myth-1'}
-                ]" 
-            />
-
-            <hr />
-
-
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Myth 6:</span> Climate change actions will make people poorer.
-                </h3>
-            </div>
-
-            <h3>
-            </h3>
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, more habitable regions, larger crops, longer growing season. That’s good. Warming helps the poor.”</i>
-                <br />
-                <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —John MacArthur
-                </a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                {text:'Open inquery', url:'inquery/open/'},
-                {text:'Guided inquery', url:'inquery/guided/myth-1'}
-                ]" 
-            />
-
-            <hr />
-
-
-            <div class="grid grid-cols-[80px_auto] items-center">
-                <div class="e-icon--rounded bg-rose-400 text-4xl">
-                    <Icon name="game-icons:unicorn" class="text-white" />
-                </div>
-                <h3 class="m-0">
-                    <span class="text-rose-400">Myth 7:</span> The earth's climate has always changed, and now the same thing is happening.
-                </h3>
-            </div>
-
-
-            <p class="pl-4 border-l border-blue-500">
-                <i>“Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen. Ice ages have occurred in a hundred thousand-year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO₂ levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”</i>
-                <br />
-                <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
-                    —Richard Lindzen
-                </a>
-            </p>
-
-            <p>
-                <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
-            </p>
-
-            <UiNavButtonBar :buttons="[
-                // {text:'Juhised', url:''},
-                {text:'Open inquery', url:'inquery/open/'},
-                {text:'Guided inquery', url:'inquery/guided/myth-1'}
-                ]" 
-            />
-
-            <hr />
 
 
 
@@ -371,7 +156,160 @@
      33333
         33
     333333
- -->
+ -->            
+            
+            
+            
+            
+            
+            
+            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
+            <h2>Myths about the climate change</h2>
+
+            
+
+
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 1:</span> The extinction of species is a natural process. Mass extinctions of species have always occurred.</h4>
+
+                <p>The extinction of species is a historical problem. We have evidence of several mass extinctions from prehistoric times, most notably the extinction of the dinosaurs. This extinction, which took place 66,000,000 years ago, was attributed to the impact of an asteroid on Earth. Over the years, we have other well-known examples, such as the extinction of mammoths. However, the causes of extinction that have been recorded vary.</p>
+
+                <p>Also, the suggestion that humanity can impact and disturb forces of such magnitude reflects a mind-numbing self-centred arrogance. Humanity is a subset of Nature. Nature is not a subset of humanity. People can neither cause nor intervene to correct these processes (Financial Sense University).</p>
+                <p>
+                    <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
+                </p>
+                
+                <UiNavButtonBar class="font-Body mb-6" :buttons="[
+                    {text:'Open inquiry', url:'inquiry/open/'},
+                    {text:'Guided inquiry', url:'inquiry/guided/myth-1'}
+                ]" />
+
+            </UiCardInfo>
+
+            <div class="divider my-6"></div>
+            
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 2:</span> Organisms can adapt to climate change.</h4>
+                
+                <p>The earth has a history of 4.54 billion years. The weather conditions that prevailed from time to time on the planet changed. Therefore, the species/organisms living on earth were forced to adapt to the new conditions to survive and be preserved. In this way, the evolution of the species emerged.</p>
+
+                <p>Plants and animals have already adapted several times to adverse conditions (climate change, meteorite falls, volcanic eruptions, etc.). This makes them able to adapt to rising temperatures and the situation we now call climate change. In other words, species are naturally capable of surviving in new conditions.</p>
+
+                <p>
+                    <a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
+                </p>
+
+                <UiNavButtonBar :buttons="[
+                    // {text:'Juhised', url:''},
+                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Juhitud uurimus', url:'/'}
+                ]" class="mb-6 font-Body"
+                />
+                
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+            
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 3:</span> The science of climate change is not credible.</h4>
+                
+                <p>Meteorological stations are located in areas where the data collected are not representative of climate change and, therefore, unreliable for the study of the global climate. Scientists target global terrorism for data they create under the conditions they want.</p>
+
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“We found [U.S. weather] stations located next to the exhaust fans of air conditioning units, surrounded by asphalt parking lots and roads, on blistering-hot rooftops, and near sidewalks and buildings that absorb and radiate heat.”</i>
+                    <br />
+                    <a href="http://wattsupwiththat.files.wordpress.com/2009/05/surfacestationsreport_spring09.pdf" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —Watts 2009
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
+                </p>
+                
+                <UiNavButtonBar :buttons="[
+                    // {text:'Juhised', url:''},
+                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Juhitud uurimus', url:'/'}
+                ]" class="mb-6 font-Body"
+                />
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+            
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 4:</span> The temperature rise is for good.</h4>
+                
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, regions more habitable, larger crops, longer growing season. That’s good. Warming helps the poor.”</i>
+                    <br />
+                    <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —John MacArthur
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
+                </p>
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+            
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 5:</span> There is no correlation between CO₂ and temperature.</h4>
+                
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“It was the post-war industrialization that caused the rapid rise in global CO₂ emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO₂ emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO₂ emissions, it was deceitful for the IPCC to make any claim that CO₂ emissions were primarily responsible for observed 20th-century global warming.”</i>
+                    <br />
+                    <a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —Norm Kalmanovitch
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
+                </p>
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+                        
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 6:</span> Climate change actions will make people poorer.</h4>
+
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, more habitable regions, larger crops, longer growing season. That’s good. Warming helps the poor.”</i>
+                    <br />
+                    <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&feature=youtu.be&t=353" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —John MacArthur
+                    </a>
+                </p>
+            
+            </UiCardInfo>
+            
+            <div class="divider my-6"></div>
+
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+                <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 7:</span> The earth's climate has always changed, and now the same thing is happening.</h4>
+                <p class="pl-4 border-l border-blue-500">
+                    <i>“Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen. Ice ages have occurred in a hundred thousand-year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO₂ levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”</i>
+                    <br />
+                    <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
+                        —Richard Lindzen
+                    </a>
+                </p>
+                <p>
+                    <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
+                </p>
+            </UiCardInfo>
+
+
+
+
+
+
+
+
+
 
 
 

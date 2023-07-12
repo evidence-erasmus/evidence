@@ -13,10 +13,9 @@
 </template>
 <script setup>
     import { useI18n } from 'vue-i18n';
-    const { locale, t } = useI18n({ useScope: 'global' });
+    const { locale } = useI18n();
     definePageMeta({
         layout: "content-left",
     });
-
 
 </script>

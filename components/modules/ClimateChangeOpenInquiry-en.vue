@@ -38,12 +38,12 @@
             </NuxtLink>
 
             <h1 class="mb-0">Climate change</h1>
-            <h5 class="font-normal uppercase leading-tight">Open inquery</h5>
+            <h5 class="font-normal uppercase leading-tight">Open inquiry</h5>
         
             <h2>
                 Activity 3:  Mythbusting
                 <br />
-                (open inquery)
+                (open inquiry)
             </h2>
 
             <label for="q1" class="block mb-2">

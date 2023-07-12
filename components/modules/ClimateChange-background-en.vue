@@ -364,7 +364,7 @@
 
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 1:</h3>
                     <p class="font-Heading text-2xl"><i>“Today, extinctions are occurring hundreds of times faster than they would naturally. This is due to the human caused climate change.”</i></p>
@@ -417,7 +417,7 @@
             <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 2:</h3>
                     <p class="text-2xl"><i>“Not all species can adapt to climate change.  Some species (e.g., birds) can adapt to climate change in different ways (e.g., change the time of migration or breeding).  However, not all species (e.g., mammals) can do this.  Also, not all kinds of adaptations can be achieved fast (e.g., changing morphological characteristics).”</i></p>
@@ -466,7 +466,7 @@
             </p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 3:</h3>
                     <p class="text-2xl">The evidence relating to climate change comes from decades of intensive research and is based on observations, field and laboratory experiments, and model simulations (Higgins, 2019). It is arbitrary to believe that the scientific data on climate change is unreliable.</p>
@@ -517,7 +517,7 @@
             </ul>
 
              
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 4:</h3>
                     <p class="text-2xl">Myth 4 is based only on the above statement of John MacArthur.  Scientific evidence reports exactly the opposite.  That climate change (heat) affects the number of human deaths positively. Climate change is one of the reasons of global changes affecting society, the environment, the economy, and public health.</p>
@@ -567,7 +567,7 @@
                 <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
             </p>
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 5:</h3>
                     <p class="text-2xl">
@@ -614,7 +614,7 @@
                 <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s</a>
             </p>
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 6:</h3>
                     <p class="text-2xl">
@@ -687,7 +687,7 @@
             </p>
             
             
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Scientific View considering Myth 7:</h3>
                     <p class="text-2xl">

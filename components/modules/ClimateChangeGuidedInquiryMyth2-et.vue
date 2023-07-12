@@ -39,7 +39,7 @@
             </p>
 
 
-            <UiCardInfo theme="blue">
+            <UiCardInfo theme="sky-500">
                 <h4 class="leading-tight my-2">Müüdi 2 argument 1: Liigid on ebasoodsate tingimustega korduvalt kohanenud nii, et nad suudavad uutes kliimatingimustes ellu jääda.</h4>
             </UiCardInfo>
             

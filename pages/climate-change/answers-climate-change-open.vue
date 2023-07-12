@@ -72,7 +72,7 @@
     {
       "en": {
         "title": "Climate change module",
-        "subtitle": "Answers for open inquery",
+        "subtitle": "Answers for open inquiry",
         "hint": "You can print this page or save as pdf file from the print window",
         "q1" : "1. We are going to bust the following myth:",
         "q2" : "2. Our hypothesis / research question is:",

@@ -87,7 +87,7 @@
     {
       "en": {
         "title": "Climate change module",
-        "subtitle": "Answers for open inquery",
+        "subtitle": "Answers for open inquiry",
         "hint": "You can print this page or save as pdf file from the print window",
         "hypothesis" : "Our hypothesis is:",
         "q1" : "1. What do we mean by “mass extinction”?",

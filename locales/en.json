@@ -15,7 +15,7 @@
   },
   "message": "Hello from external",
   "modules": {
-    "background-info": "Background info",
+    "background-info": "Scientific info",
     "climateChange": {
       "description": "Climate change description",
       "title": "Climate Change"

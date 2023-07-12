@@ -6,12 +6,14 @@ module.exports = {
     './pages/**/*.{html,js,vue}',
     './components/**/*.{html,js,vue}'
   ],
-  // safelist : [
-  //   "bg-green-700",
-  //   "bg-blue-700",
-  //   "bg-red-700",
-  //   "border-green-700",
-  // ],
+  safelist : [
+    'text-rose-400',
+    'border-rose-400',
+    'text-yellow-400',
+    'border-yellow-400',
+    'text-sky-500',
+    'border-sky-500'
+  ],
   theme: {
     // colors: {
     //   transparent: 'transparent',
@@ -31,9 +33,9 @@ module.exports = {
         Body: ["Roboto Flex", "sans-serif"],
       },
       typography: (theme) => ({
-        DEFAULT: {
-          
+        DEFAULT: {          
             css: {
+              maxWidth: '85ch',
               h4: {
                 fontSize: '1.25em'
               }
@@ -41,6 +43,23 @@ module.exports = {
         }
       })
     },
+  },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "#facc15",
+          "secondary": "#3b82f6",
+          "accent": "#fb7185",
+          "neutral": "#6b7280",
+          "base-100": "#FFFFFF",
+          "info": "#d8b4fe",
+          "success": "#36D399",
+          "warning": "#fb923c",
+          "error": "#dc2626",
+        },
+      },
+    ],
   },
   plugins: [
     require("daisyui"),

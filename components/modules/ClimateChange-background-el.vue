@@ -369,7 +369,7 @@
 
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Επιστημονική άποψη σχετικά με το Μύθο 1:</h3>
                     <p class="font-Heading text-2xl"><i>«Στις μέρες μας, οι εξαφανίσεις ειδών συμβαίνουν εκατοντάδες φορές πιο γρήγορα από ότι θα συνέβαιναν με φυσικό τρόπο»</i></p>
@@ -421,7 +421,7 @@
             <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Επιστημονική άποψη σχετικά με το Μύθο 2:</h3>
                     <p class="text-2xl"><i>«Δεν έχουν την ικανότητα όλα τα είδη να αναπτύσσουν προσαρμογές στις συνέπειες που προκαλεί η κλιματική αλλαγή.  Ορισμένα είδη (π.χ. πτηνά) έχουν αυτή την ικανότητα με διάφορους τρόπους (π.χ., αλλάζουν τον τρόπο -εποχή- που μεταναστεύσουν ή την περίοδο που αναπαράγονται).  Ωστόσο, κάποια είδη είναι αδύνατον να το κάνουν αυτό (π.χ., θηλαστικά).  Επιπλέον, δεν έχουν την ικανότητα όλα τα είδη να προσαρμόζονται σε γρήγορους ρυθμούς (π.χ. αλλαγή μορφολογικών χαρακτηριστικών)».</i></p>
@@ -469,7 +469,7 @@
             </p>
 
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Επιστημονική άποψη σχετικά με το Μύθο 3:</h3>
                     <p class="text-2xl">Τα επιστημονικά στοιχεία σχετικά με την κλιματική αλλαγή προέκυψαν από εκτεταμένη έρευνα πολλών δεκαετιών, η οποία στηρίζεται σε παρατηρήσεις, πειράματα πεδίου και εργαστηρίων και σε μοντελοποιήσεις προσομοιώσεων (Higgins, 2019). Είναι αυθαίρετο να πιστεύει κανείς ότι τα επιστημονικά δεδομένα που υπάρχουν δεν είναι αξιόπιστα.</p>
@@ -521,7 +521,7 @@
             </ul>
 
              
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Επιστημονική άποψη σχετικά με το Μύθο 4:</h3>
                     <p class="text-2xl">Ο συγκεκριμένος Μύθος βασίζεται μόνο στην πιο πάνω δήλωση του John MacArthur.  Οι επιστημονικές πηγές αναφέρουν ακριβώς το αντίθετο. Η κλιματική αλλαγή (αυξημένη θερμοκρασία) επηρεάζει θετικά το ποσοστό ανθρώπινων θανάτων.</p>
@@ -574,7 +574,7 @@
                 <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
             </p>
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Επιστημονική άποψη σχετικά με το Μύθο 5:</h3>
                     <p class="text-2xl">
@@ -624,7 +624,7 @@
                 <a href="https://skepticalscience.com/renewable-energy-is-too-expensive.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/renewable-energy-is-too-expensive.htm</a>
             </p>
 
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Επιστημονική άποψη σχετικά με το Μύθο 61:</h3>
                     <p class="text-2xl">
@@ -692,7 +692,7 @@
             </p>
             
             
-            <UiCardInfo class="my-8" theme="blue" icon="tabler:microscope">
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Επιστημονική άποψη σχετικά με το Μύθο 7:</h3>
                     <p class="text-2xl">
