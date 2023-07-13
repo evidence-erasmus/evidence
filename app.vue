@@ -1,8 +1,10 @@
 <template>
   <NuxtLayout>
-    <NuxtPage class="text-slate-800 w-full" />
+    <NuxtPage class="text-slate-800 w-full"  />
   </NuxtLayout>
 </template>
+
+
 
 <style>
 .page-enter-active,

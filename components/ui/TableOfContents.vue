@@ -7,11 +7,11 @@
             <span>{{ t('modules.toc') }}</span><Icon name="tabler:chevron-down" size="24" class="transition-all duration-300" :class="userPrefs.tocOpen ? '-scale-y-100' : 'scale-y-100'" />
         </div>
         <div class="mt-3" :class="userPrefs.tocOpen ? 'block' : 'hidden'">
-            <ol>
-                <li v-for="link in tocH2" 
+            <ol class="transition-all">
+                <li v-for="link in tocH2" :key="`${route.name}-${link.id}`"
                     :id="`toc-${link.id}`" 
                     @click="onTocClick(link.id)"
-                    class="leading-tight my-0 cursor-pointer p-2 border-l-[0.5rem]"
+                    class="leading-tight my-0 cursor-pointer p-2 border-l-[0.5rem] transition"
                     :class="activeTocId===link.id ? 'border-l-blue-400' : 'border-l-yellow-100'">{{ link.textContent }}</li>
             </ol>
         </div>
@@ -25,6 +25,8 @@
     const {t} = useI18n();
     
     const router = useRouter();
+    const route = useRoute();
+
     const onTocClick = (id) => {
         const el = document.getElementById(id)
         if (el) {
@@ -52,25 +54,24 @@
     // )
 
     onMounted(() => {
-        observer.value = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                const id = entry.target.getAttribute('id')
-                if (entry.isIntersecting) {
-                    // console.log(id);
-                    activeTocId.value = id
-                }
-            })
-        }, observerOptions)
-
-        tocH2.value = document.querySelectorAll('.e-article h2[id]');
-        tocH2.value.forEach((section) => {
-            section.style.cssText += 'scroll-margin:8rem;';
-            observer.value?.observe(section)
-        })
+            observer.value = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    const id = entry.target.getAttribute('id')
+                    if (entry.isIntersecting) {
+                        // console.log(id);
+                        activeTocId.value = id
+                    }
+                })
+            }, observerOptions)
+            tocH2.value = document.querySelectorAll('.e-article h2[id]');
+            tocH2.value.forEach((section) => {
+                section.style.cssText += 'scroll-margin:10rem;';
+                observer.value?.observe(section)
+            }
+        );
     })
 
     onBeforeUnmount(() => {
-        console.log("UNMOUNTING");
         tocH2.value = null
         observer.value?.disconnect()
         observer.value = null;

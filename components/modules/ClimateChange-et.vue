@@ -3,7 +3,9 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-et" />
+        <ClientOnly>
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-et" />
+        </ClientOnly>
         
 
 
