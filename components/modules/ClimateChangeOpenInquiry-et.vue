@@ -33,7 +33,7 @@
         
         <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             
-            <NuxtLink to="../../student" style="transform: translateY(-4rem); position:absolute;">
+            <NuxtLink to="../../../kliimamuutused/opilane" style="transform: translateY(-4rem); position:absolute;">
                 <Icon name="material-symbols:arrow-back-rounded" /> Tagasi
             </NuxtLink>
 

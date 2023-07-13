@@ -1,6 +1,6 @@
 <template>
-    <hr id="activity-4" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 4: Transforming evidence to a suitable format</h2>
+    <hr class="mt-10 mb-40 print:my-10" />
+    <h2 id="section-5">Activity 4: Transforming evidence to a suitable format</h2>
 
             <!-- <ModulesStructure>
                 <template #title>Activity 4<br />GIVING EVIDENCE A SUITABLE FORMAT</template>
@@ -62,8 +62,8 @@
 
 
 
-            <hr id="activity-5" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 5: Group presentations</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-6">Activity 5: Group presentations</h2>
 
             <!-- <ModulesStructure>
                     <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>

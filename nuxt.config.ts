@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
     modules: [
+        '@vueuse/nuxt',
         '@pinia/nuxt',
         '@pinia-plugin-persistedstate/nuxt',
         '@nuxtjs/i18n',
@@ -15,6 +16,13 @@ export default defineNuxtConfig({
     experimental : {
         payloadExtraction : false,
         inlineSSRStyles: false
+    },
+    devtools: {
+        // Enable devtools (default: true)
+        enabled: true,
+        // VS Code Server options
+        vscode: {},
+        // ...other options
     },
     // router: {
     //     base: '/evidence/'
@@ -46,7 +54,6 @@ export default defineNuxtConfig({
         lazy: true,
         langDir: 'locales',
         defaultLocale: 'en',
-        // strictMessage: false,
         customRoutes: 'config',
         pages: {
             about: {
@@ -57,13 +64,29 @@ export default defineNuxtConfig({
                 en: '/modules',
                 et: '/moodulid'
             },
-            viruses: {
+            'climate-change/index': {
+                en: '/climate-change',
+                et: '/kliimamuutused'
+            },
+            'climate-change/student': {
+                en: '/climate-change/student',
+                et: '/kliimamuutused/opilane'
+            },
+            'climate-change/background': {
+                en: '/climate-change/background',
+                et: '/kliimamuutused/taustainfo'
+            },
+            'climate-change/inquiry/open': {
+                en: '/climate-change/inquiry/open',
+                et: '/kliimamuutused/inquiry/open'
+            },
+            'viruses/index': {
                 en: '/viruses',
                 et: '/viirused'
             },
             'viruses/student': {
                 en: '/viruses/student',
-                et: '/viirused/õpilane'
+                et: '/viirused/opilane'
             },
             'viruses/background': {
                 en: '/viruses/background',
@@ -73,10 +96,10 @@ export default defineNuxtConfig({
                 en: '/radiation',
                 et: '/radiatsioon'
             },
-            'tools/StudentAnswersViruses': {
-                en: '/viruses/answers',
-                et: '/viirused/vastused'
-            },
+            // 'tools/StudentAnswersViruses': {
+            //     en: '/viruses/answers',
+            //     et: '/viirused/vastused'
+            // },
         },
         // vueI18n: {
         //     legacy: false,

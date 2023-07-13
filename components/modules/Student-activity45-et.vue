@@ -1,6 +1,6 @@
 <template>
-    <hr id="activity-4" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 4: Tõestusmaterjalile asjakohase vormi väljatöötamine</h2>
+    <hr class="mt-10 mb-40 print:my-10" />
+    <h2 id="section-5">Tegevus 4: Tõestusmaterjalile asjakohase vormi väljatöötamine</h2>
 
             <!-- <ModulesStructure>
                 <template #title>Activity 4<br />GIVING EVIDENCE A SUITABLE FORMAT</template>
@@ -75,8 +75,8 @@
 
 
 
-            <hr id="activity-5" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 5: Esitlused</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-6">Tegevus 5: Esitlused</h2>
 
             <!-- <ModulesStructure>
                     <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>

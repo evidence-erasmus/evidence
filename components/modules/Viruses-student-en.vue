@@ -18,32 +18,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="lg:max-w-xs">
-            <template #title>Table of Contents</template>
-            <template #content>
-                <ol>
-                    <li>
-                        <a href="#activity-1">Presentation of the video introduction</a>
-                    </li>
-                    <li>
-                        <a href="#activity-2">Group discussion</a>
-                    </li>
-                    <li>
-                        <a href="#activity-3">Mythbusting</a>
-                    </li>
-                    <li>
-                        <a href="#activity-4">Transforming evidence to a suitable format</a>
-                    </li>
-                    <li>
-                        <a href="#activity-5">Group presentations</a>
-                    </li>
-                    <li>
-                        <a href="#activity-6">Card game</a>
-                    </li>
-                </ol>
-            </template>
-        </UiTableOfContents>
-
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
 
 
         <section class="e-article print:not-prose">

@@ -3,9 +3,10 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
         <!-- <ClientOnly>
             <Teleport to="#TOC"> -->
-                <UiTableOfContents class="lg:max-w-xs">
+                <!-- <UiTableOfContents class="lg:max-w-xs">
                     <template #title>Table of Contents</template>
                     <template #content>
                         <ol>
@@ -53,7 +54,7 @@
                             </li>
                         </ol>
                     </template>
-                </UiTableOfContents>
+                </UiTableOfContents> -->
             <!-- </Teleport>
         </ClientOnly> -->
 

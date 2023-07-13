@@ -1,8 +1,9 @@
 <script setup>
     // import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue';
     import { useUserPreferences } from '~~/store/useUserPreferences'; 
-
     const userPrefs = useUserPreferences();
+
+    
 
     // const changeTab = (index) => {
     //     userPrefs.setLearnPath("learnPathViruses", index);
@@ -18,31 +19,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="lg:max-w-xs" style="z-index:50">
-            <template #title>Sisukord</template>
-            <template #content>
-                <ol>
-                    <li>
-                        <a href="#activity-1">Video vaatamine</a>
-                    </li>
-                    <li>
-                        <a href="#activity-2">Rühmaarutelu</a>
-                    </li>
-                    <li>
-                        <a href="#activity-3">Müüdid kliimamuutuste kohta</a>
-                    </li>
-                    <li>
-                        <a href="#activity-4">Tõestusmaterjalile asjakohase vormi väljatöötamine</a>
-                    </li>
-                    <li>
-                        <a href="#activity-5">Esitlused</a>
-                    </li>
-                    <li>
-                        <a href="#activity-6">Argumenteerimismäng</a>
-                    </li>
-                </ol>
-            </template>
-        </UiTableOfContents>
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-student-et" />
 
 
 
@@ -71,8 +48,8 @@
                         
             
 
-            <hr id="activity-1" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 1:  Video vaatamine</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-2">Tegevus 1:  Video vaatamine</h2>
             
             <!-- <ModulesStructure>
                     <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
@@ -111,8 +88,8 @@
             
 
 
-            <hr id="activity-2" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 2: Rühmaarutelu</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-3">Tegevus 2: Rühmaarutelu</h2>
             
             <!-- <ModulesStructure>
                     <template #title>Activity 2<br />CHOOSING A MYTH</template>
@@ -152,8 +129,8 @@
             
             
             
-            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 3: Kliimamuutuste müüdid</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-4">Tegevus 3: Kliimamuutuste müüdid</h2>
 
             
 
@@ -170,7 +147,7 @@
                 </p>
                 
                 <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Avatud uurimus', url:'../climate-change/inquiry/open/'},
                     {text:'Juhitud uurimus', url:'inquiry/guided/myth-1'}
                 ]" />
 
@@ -191,7 +168,7 @@
 
                 <UiNavButtonBar :buttons="[
                     // {text:'Juhised', url:''},
-                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Avatud uurimus', url:'../inquiry/open/'},
                     {text:'Juhitud uurimus', url:'/'}
                 ]" class="mb-6 font-Body"
                 />
@@ -417,8 +394,8 @@
 
 
 
-            <hr id="activity-6" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 6: Argumenteerimismäng</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-7">Tegevus 6: Argumenteerimismäng</h2>
 
             <!-- <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale.s <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p> -->
 

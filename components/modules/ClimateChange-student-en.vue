@@ -18,31 +18,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="lg:max-w-xs" style="z-index:50">
-            <template #title>Table of contents</template>
-            <template #content>
-                <ol>
-                    <li>
-                        <a href="#activity-1">Presentation of the video introduction</a>
-                    </li>
-                    <li>
-                        <a href="#activity-2">Group discussion</a>
-                    </li>
-                    <li>
-                        <a href="#activity-3">Myths about the climate change</a>
-                    </li>
-                    <li>
-                        <a href="#activity-4">Transforming evidence to a suitable format</a>
-                    </li>
-                    <li>
-                        <a href="#activity-5">Group presentations</a>
-                    </li>
-                    <li>
-                        <a href="#activity-6">Argumentation game</a>
-                    </li>
-                </ol>
-            </template>
-        </UiTableOfContents>
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
 
 
 
@@ -52,7 +28,6 @@
             <h1 class="mb-0">Climate change</h1>
             <h5 class="font-normal uppercase leading-tight">Student material</h5>
         
-            <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1">Introduction</h2>
 
             
@@ -71,28 +46,9 @@
                         
             
 
-            <hr id="activity-1" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 1: Presentation of the video introduction</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-2">Activity 1: Presentation of the video introduction</h2>
             
-            <!-- <ModulesStructure>
-                    <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
-                        </div>
-                        <Icon name="mdi:arrow-right-thick" />
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:ouroboros" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:all-seeing-eye" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
-
             <p>Please watch the introductory video. Put down your initial thoughts and feelings about the issues presented.</p>
 
             <UiYoutube video="CbJ7GmgEAAo" />
@@ -111,8 +67,8 @@
             
 
 
-            <hr id="activity-2" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 2: Group discussion</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-3">Activity 2: Group discussion</h2>
             
             <!-- <ModulesStructure>
                     <template #title>Activity 2<br />CHOOSING A MYTH</template>
@@ -163,8 +119,8 @@
             
             
             
-            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Myths about the climate change</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-4">Myths about the climate change</h2>
 
             
 
@@ -343,8 +299,8 @@
 
 
 
-            <hr id="activity-6" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 6: Argumentation game</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-7">Activity 6: Argumentation game</h2>
 
             <!-- <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale.s <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p> -->
 

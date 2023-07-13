@@ -4,27 +4,27 @@
         <template v-if="route.params.inquiry[1] === 'guided'">
             <!-- estonian -->
             <template v-if="locale === 'et'">
-                <ModulesClimateChangeGuidedinquiryMyth1Et 
+                <ModulesClimateChangeGuidedInquiryMyth1Et 
                     v-if="route.params.inquiry[2] === 'myth-1'" />
-                <ModulesClimateChangeGuidedinquiryMyth2Et 
+                <ModulesClimateChangeGuidedInquiryMyth2Et 
                     v-else-if="route.params.inquiry[2] === 'myth-2'" />
             </template>
             <template v-else-if="locale === 'en'">
-                <ModulesClimateChangeGuidedinquiryMyth1En 
+                <ModulesClimateChangeGuidedInquiryMyth1En 
                     v-if="route.params.inquiry[2] === 'myth-1'" />
             </template>
             <template v-else>
-                <ModulesClimateChangeGuidedinquiryMyth1En 
+                <ModulesClimateChangeGuidedInquiryMyth1En 
                     v-if="route.params.inquiry[2] === 'myth-1'" />
             </template>
         </template>
 <!-- open -->
         <template v-else-if="route.params.inquiry[1] === 'open'">
-            <ModulesClimateChangeOpeninquiryEt 
+            <ModulesClimateChangeOpenInquiryEt 
                 v-if="locale === 'et'" />
-            <ModulesClimateChangeOpeninquiryEn 
+            <ModulesClimateChangeOpenInquiryEn 
                 v-else-if="locale === 'en'" />
-            <ModulesClimateChangeOpeninquiryEn 
+            <ModulesClimateChangeOpenInquiryEn 
                 v-else />
         </template>
     </div>

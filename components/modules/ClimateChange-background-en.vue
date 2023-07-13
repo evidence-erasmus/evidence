@@ -3,53 +3,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <!-- <ClientOnly>
-            <Teleport to="#TOC"> -->
-                <UiTableOfContents class="lg:max-w-xs">
-                    <template #title>Table of Contents</template>
-                    <template #content>
-                        <ol>
-                            <li>
-                                <a href="#top">What is Climate Change and which are its’ causes?</a>
-                            </li>
-                            <li>
-                                <a href="#section-2">What are the effects of Climate Change?</a>
-                            </li>
-                            <li>
-                                <a href="#section-3">Climate Change: A socio-scientific and controversial issue</a>
-                            </li>
-                            <li>
-                                <a href="#section-4">Techniques of Science Denials</a>
-                            </li>
-                        </ol>
-                        <h3 class="text-md my-3 font-Body">Myths about Climate Change</h3>
-                        <ol>
-                            <li>
-                                <a href="#myth-1">Myth 1: The extinction of species is a natural process. Mass extinctions of species have always occurred.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-2">Myth 2: Species can adapt to climate change.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-3">Myth 3: There's no correlation between CO₂ and temperature.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-4">Myth 4: The science of climate change is unreliable.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-5">Myth 5: Climate change actions will make people poorer.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-6">Myth 6: Global warming is for good.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-7">Myth 7: The earth's climate has always changed and now the same thing is happening.</a>
-                            </li>
-                        </ol>
-                    </template>
-                </UiTableOfContents>
-            <!-- </Teleport>
-        </ClientOnly> -->
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
 
 
 

@@ -3,34 +3,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden">
-            <template #title>Table of Contents</template>
-            <template #content>
-                <ol>
-                    <li>
-                        <a href="#top">Introduction</a>
-                    </li>
-                    <li>
-                        <a href="#section-2">Learning objectives targeted by the module</a>
-                    </li>
-                    <li>
-                        <a href="#section-3">Expected prior knowledge about viruses</a>
-                    </li>
-                    <li>
-                        <a href="#section-4">Module structure</a>
-                    </li>
-                    <li>
-                        <a href="#section-5">Requirements for the physical environment</a>
-                    </li>
-                    <li>
-                        <a href="#section-6">Assessment</a>
-                    </li>
-                    <li>
-                        <a href="#section-7">Teaching suggestions</a>
-                    </li>
-                </ol>
-            </template>
-        </UiTableOfContents>
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
 
 
 

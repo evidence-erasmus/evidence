@@ -2,7 +2,7 @@
     <nav class="flex gap-5">
         <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1">{{t('menu.about')}}</NuxtLink>
         <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1"
-        :class="route.path.includes('viruses') || route.path.includes('climate-change') ? 'router-link-active router-link-exact-active' : ''"
+        :class="route.name.includes('viruses') || route.name.includes('climate-change') ? 'router-link-active router-link-exact-active' : ''"
         >{{t('menu.modules')}}</NuxtLink>
     </nav>
 </template>

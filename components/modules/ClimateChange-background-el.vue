@@ -3,54 +3,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <!-- <ClientOnly>
-            <Teleport to="#TOC"> -->
-                <UiTableOfContents class="lg:max-w-xs">
-                    <template #title>Πίνακας περιεχομένων</template>
-                    <template #content>
-                        <ol>
-                            <li>
-                                <a href="#top">Τι είναι η Κλιματική Αλλαγή και ποιες είναι οι αιτίες της;</a>
-                            </li>
-                            <li>
-                                <a href="#section-2">Ποιες είναι οι επιπτώσεις της Κλιματικής Αλλαγής;</a>
-                            </li>
-                            <li>
-                                <a href="#section-3">Κλιματική Αλλαγή: Ένα κοινωνικο-επιστημονικό ζήτημα και αμφιλεγόμενο ζήτημα</a>
-                            </li>
-                            <li>
-                                <a href="#section-4">Τεχνικές Επιστήμης Αρνήσεις</a>
-                            </li>
-                        </ol>
-                        <h3 class="text-md my-3 font-Body">Μύθοι για την Κλιματική Αλλαγή</h3>
-                        <ol>
-                            <li>
-                                <a href="#myth-1">Μύθος 1: Τα είδη μπορούν να προσαρμοστούν στην κλιματική αλλαγή.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-2">Μύθος 2: Η εξαφάνιση των ειδών είναι μια φυσική διαδικασία. Πάντα συνέβαιναν μαζικές εξαφανίσεις ειδών.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-3">Μύθος 3: Δεν υπάρχει συσχέτιση μεταξύ CO₂ και θερμοκρασίας.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-4">Μύθος 4: Η επιστήμη της κλιματικής αλλαγής είναι αναξιόπιστη.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-5">Μύθος 5: Οι ενέργειες για την αλλαγή του κλίματος θα κάνουν τους ανθρώπους φτωχότερους.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-6">Μύθος 6: Η υπερθέρμανση του πλανήτη είναι για καλό.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-7">Μύθος 7: Το κλίμα της γης πάντα άλλαζε και τώρα συμβαίνει το ίδιο.</a>
-                            </li>
-                        </ol>
-                    </template>
-                </UiTableOfContents>
-            <!-- </Teleport>
-        </ClientOnly> -->
-
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
 
 
         <section class="e-article"  lang="en" style="hyphens: auto;">

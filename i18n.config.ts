@@ -3,6 +3,13 @@ export default defineI18nConfig(() => ({
     // strategy: 'prefix',
     legacy: false,
     locale: 'en',
+    // precompile: {
+        // strictMessage: false,
+        // escapeHtml: true
+    // },        
+        
+        
+
     // langDir: 'locales',
     // locales: [
     //     {

@@ -15,6 +15,7 @@
   },
   "message": "Hello from external",
   "modules": {
+    "toc": "Table of contents",
     "background-info": "Scientific info",
     "climateChange": {
       "description": "Climate change description",

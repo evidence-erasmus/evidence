@@ -21,4 +21,5 @@
             default: [{text:"Button", url:"#"}]
         }
     });
+    const localeRoute = useLocaleRoute();
 </script>

@@ -3,53 +3,7 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <!-- <ClientOnly>
-            <Teleport to="#TOC"> -->
-                <UiTableOfContents class="lg:max-w-xs">
-                    <template #title>Table of Contents</template>
-                    <template #content>
-                        <ol>
-                            <li>
-                                <a href="#top">What is Climate Change and which are its’ causes?</a>
-                            </li>
-                            <li>
-                                <a href="#section-2">What are the effects of Climate Change?</a>
-                            </li>
-                            <li>
-                                <a href="#section-3">Climate Change: A socio-scientific and controversial issue</a>
-                            </li>
-                            <li>
-                                <a href="#section-4">Techniques of Science Denials</a>
-                            </li>
-                        </ol>
-                        <h3 class="text-md my-3 font-Body">Myths about Climate Change</h3>
-                        <ol>
-                            <li>
-                                <a href="#myth-1">Myth 1: The extinction of species is a natural process. Mass extinctions of species have always occurred.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-2">Myth 2: Species can adapt to climate change.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-3">Myth 3: There's no correlation between CO2 and temperature.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-4">Myth 4: The science of climate change is unreliable.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-5">Myth 5: Climate change actions will make people poorer.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-6">Myth 6: Global warming is for good.</a>
-                            </li>
-                            <li>
-                                <a href="#myth-7">Myth 7: The earth's climate has always changed and now the same thing is happening.</a>
-                            </li>
-                        </ol>
-                    </template>
-                </UiTableOfContents>
-            <!-- </Teleport>
-        </ClientOnly> -->
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-bg-et" />
 
 
 
@@ -135,8 +89,8 @@
             
             
             
-            <hr id="section-2" class="mt-10 mb-40" />
-            <h2>2. Mis on kliimamuutuste tagajärjed?</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-2">2. Mis on kliimamuutuste tagajärjed?</h2>
             
             <p>Valitsustevaheline kliimamuutuste nõukogu (IPCC), kuhu kuulub rohkem kui 1300 teadlast Ameerika Ühendriikidest ja teistest riikidest, viitab asjaolule, et kliimamuutuste mõju ulatus üksikutele piirkondadele on ajas erinev, mis sõltub ühtlasi erinevate ühiskonna- ja keskkonnasüsteemide võimest neid leevendada ja muutustega kohaneda.</p>
             
@@ -229,8 +183,8 @@
 
 
 
-            <hr id="section-3" class="mt-10 mb-40" />
-            <h2>3. Kliimamuutus: Sotsiaalteaduslik ja vastuoluline probleem</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-3">3. Kliimamuutus: Sotsiaalteaduslik ja vastuoluline probleem</h2>
 
             <p>Teaduse ajaloos on olnud palju näiteid, kus laiema elanikkonnani levisid/levivad vastuolulised seisukohad konkreetsetes teadusalastes küsimustes. Kliimamuutused on üks selline näide. Kuigi kliimateadus on nüüdseks kindlalt kinnitanud, et globaalne soojenemine toimub ning et inimtegevusel on selles oluline roll avaldades  negatiivset mõju nii ökoloogilistele kui ka sotsiaalsetele süsteemidele (National Research Council, 2010). Majanduslikult edukatest riikidest on USA avalikkus eniselt ambivalentne või siis muretu (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) ning ka paljud poliitikakujundajad (eriti USA-s) eitavad vajadust astuda samme süsinikdioksiidi heitkoguse vähendamiseks (Brownstein, 2010).</p>
 
@@ -288,8 +242,8 @@
 
 
 
-            <hr id="section-4" class="mt-10 mb-40" />
-            <h2>4. Teaduse eitamise taktikad</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-4">4. Teaduse eitamise taktikad</h2>
 
             
             <p>Erinevate liikumiste hulgas, mis üritavad kummutada teaduslikku konsensust, täheldatakse viit teaduse eitamise taktikat:</p>
@@ -381,7 +335,7 @@
             <h1 class="mt-40">Kliimamuutustega seotud müüdid</h1>
 
             <hr id="myth-1" class="mt-10 mb-40" />
-            <h2>Müüt 1: Liigid suudavad kliimamuutustega kohaneda.</h2>
+            <h2 id="section-5">Müüt 1: Liigid suudavad kliimamuutustega kohaneda.</h2>
 
             <p>Ilmastikutingimused on meie planeedil olnud pidevas muutumises. Seetõttu on maa peal elanud organismid sunnitud ellujäämiseks uute tingimustega kohanema. Tulemuseks on liikide evolutsioon ning areng.</p>
             <p>Taimed ja loomad on juba mitu korda ebasoodsate tingimustega (nt. kliimamuutus, meteoriidi langemine, vulkaanipursked jne) kohanenud. See võimaldab neil kohaneda tõusvate temperatuuridega ja olukorraga, mida me praegu nimetame kliimamuutusteks. Teisisõnu, liigid on looduslikult võimelised uutes tingimustes ellu jääma.  Korallid, puud, linnud, imetajad ja liblikad kohanevad hästi kliimamuutustega (Hudsoni instituut).</p>
@@ -439,7 +393,7 @@
 
 
             <hr id="myth-2" class="mt-10 mb-40" />
-            <h2>Müüt 2: Liikide väljasuremine on loomulik protsess. Liikide massiline väljasuremine on alati toimunud.</h2>
+            <h2 id="section-6">Müüt 2: Liikide väljasuremine on loomulik protsess. Liikide massiline väljasuremine on alati toimunud.</h2>
 
             <p>Liikide väljasuremine on ajalooline probleem. eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis ased 66000000 aastata tagasi, oli tingitud asteroidi kokkupõrkest Maaga. Aastate jooksul on meil teisigi tuntuid näiteid, nagu mammutite väljasuremine. Väljasuremise põhjused on erinevad.</p>
             <p>Ka vihje sellele, et inimkond on võimeline mõjutama ja häirima sellise ulatusega jõude, peegeldab vaid inimeste enesekeskset ülbust. Inimkond on looduse osa. Loodus ei ole inimese osa. Inimesed ei saa neid protsesse parandada ega neisse sekkuda.</p>
@@ -480,7 +434,7 @@
 
 
             <hr id="myth-3" class="mt-10 mb-40" />
-            <h2>Müüt 3: Kliimamuutuste alane teadus ei ole usaldusväärne.</h2>
+            <h2 id="section-7">Müüt 3: Kliimamuutuste alane teadus ei ole usaldusväärne.</h2>
 
 
             <p>
@@ -538,7 +492,7 @@
 
 
             <hr id="myth-4" class="mt-10 mb-40" />
-            <h2>Müüt 4: Globaalne soojenemine on kasulik.</h2>
+            <h2 id="section-8">Müüt 4: Globaalne soojenemine on kasulik.</h2>
             
             <p><i>"Kui kavatsete millegi poolt hääletada, siis hääletage soojenemise poolt. Vähem külma tõttu hukkunuid, piirkonnad on elamiskõlblikumad, suurem saak ja pikem kasvuperiood. See on hea. Soojenemine aitab vaeseid."</i> (John MacArthur)</p>
 
@@ -592,7 +546,7 @@
 
 
             <hr id="myth-5" class="mt-10 mb-40" />
-            <h2>Müüt 5: CO₂ ning temperatuuri vahel puudub seos.</h2>
+            <h2 id="section-9">Müüt 5: CO₂ ning temperatuuri vahel puudub seos.</h2>
             
             <p>
                 <i>“Kahekümnenda sajandi globaalne soojenemine algas alles 1910. aastal. Selleks ajaks oli süsinikdioksiidi heitkogus juba tõusnud tööstusrevolutsiooni käivitatud söe laialdasest kasutamisest ja heitkogused kasvasid aeglaselt 3,5 gigatonnilt 1910. aastal alla 4 gigatonnini Teise Maailmasõja lõpuks.
@@ -641,7 +595,7 @@
 
 
             <hr id="myth-6" class="mt-10 mb-40" />
-            <h2>Müüt 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h2>
+            <h2 id="section-10">Müüt 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h2>
 
             <p>
                 <i>
@@ -700,7 +654,7 @@
 
 
             <hr id="myth-7" class="mt-10 mb-40" />
-            <h2>Müüt 7: Maa kliima on alati muutunud ja nüüd kordub see taas.</h2>
+            <h2 id="section-11">Müüt 7: Maa kliima on alati muutunud ja nüüd kordub see taas.</h2>
 
             <p>
                 <i>

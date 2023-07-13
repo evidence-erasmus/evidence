@@ -3,35 +3,8 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden">
-            <template #title>Sisukord</template>
-            <template #content>
-                <ol>
-                    <li>
-                        <a href="#top">Mooduli kirjeldus</a>
-                    </li>
-                    <li>
-                        <a href="#section-2">Mooduli õppe-eesmärgid</a>
-                    </li>
-                    <li>
-                        <a href="#section-3">Eeldatavad eelteadmised kliimamuutustest</a>
-                    </li>
-                    <li>
-                        <a href="#section-4">Mooduli struktuur</a>
-                    </li>
-                    <li>
-                        <a href="#section-5">Nõuded füüsilisele õpikeskkonnale</a>
-                    </li>
-                    <li>
-                        <a href="#section-6">Hindamine</a>
-                    </li>
-                    <li>
-                        <a href="#section-7">Õpetamissoovitused</a>
-                    </li>
-                </ol>
-            </template>
-        </UiTableOfContents>
-
+        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-et" />
+        
 
 
         <section class="e-article print:not-prose">
@@ -65,8 +38,8 @@
 
             
 
-            <hr id="section-2" class="mt-10 mb-40 print:my-10" />
-            <h2>Mooduli õppe-eesmärgid</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-2">Mooduli õppe-eesmärgid</h2>
             
             <ul>
                 <li><b>Kodanikupädevus:</b> arendada õpilaste teadmisi ja hoiakuid nii, et suudaksid teha  kliimamuutustega seotud vastutustundlike otsuseid.</li>
@@ -101,8 +74,8 @@
 
 
 
-            <hr id="section-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Eeldatavad eelteadmised kliimamuutustest</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-3">Eeldatavad eelteadmised kliimamuutustest</h2>
 
             <p>Õpilased oskavad vastata järgmistele küsimustele:</p>
 
@@ -123,8 +96,8 @@
             
             
             
-            <hr id="section-4" class="mt-10 mb-40 print:my-10" />
-            <h2>Mooduli struktuur</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-4">Mooduli struktuur</h2>
             <h4>Evidence moodulite tegevuste järjestus</h4>
             
             <p>See moodul koosneb kuuest tegevusest. Tegevuste järjekord on välja toodud joonisel 1 ja tabelis 1 (vt allpool).</p>
@@ -372,8 +345,8 @@
 
 
 
-            <hr id="section-5" class="mt-10 mb-40 print:my-10" />
-            <h2>Nõuded füüsilisele õpikeskkonnale</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-5">Nõuded füüsilisele õpikeskkonnale</h2>
             
             <p>Nutitelefon, arvuti, internet, kuvaseadmed. Müütide eksperimentaalse purustamise kohta vt <a href="#section-7">“Õpetamissoovitused”</a>.</p>
             
@@ -384,8 +357,8 @@
             
             
             
-            <hr id="section-6" class="mt-10 mb-40 print:my-10" />
-            <h2>Hindamine</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-6">Hindamine</h2>
             
             
             <p>Õpilasi saab mooduli jooksul hinnata mitmel erineval viisil, sh uurimuslikke oskusi, üldpädevusi, näiteks argumenteerimisoskust ning teemakohaseid teadmisi. </p>
@@ -412,8 +385,8 @@
 
             
             
-            <hr id="section-7" class="mt-10 mb-40 print:my-10" />
-            <h2>Õpetamissoovitused</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-7">Õpetamissoovitused</h2>
 
             <p>
                 Moodul algab sissejuhatavast videost, mis avab mõned müüdid kliimamuutuste kohta, et tõstatada õpilastes küsimusi, mitte anda neile koheseid vastuseid. Loodetavasti on õpilased pärast video vaatamist <b>(Tegevus 1)</b> sisemiselt motiveeritud uurima ühte müüti põhjalikumalt. Eesmärk on kaasata õpilasi tegevustesse, mis peaksid viima probleemi parema mõistmiseni. See peaks ühtlasi panema õpilasi mõtlema oma eelteadmiste üle ning jagama oma arusaamu ja mõtteid kaaslastega <b>(Tegevus 2)</b>. Samuti saab selleks kasutada valitud peatükke <nuxt-link to="climate-change/background">teadusliku taustainfo</nuxt-link> lehelt.
