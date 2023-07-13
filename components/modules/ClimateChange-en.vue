@@ -3,7 +3,10 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+        <ClientOnly>
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+        </ClientOnly>
+        
 
 
 
@@ -41,8 +44,8 @@
                 
             
 
-            <hr id="section-2" class="mt-10 mb-40 print:my-10" />
-            <h2>Learning objectives targeted by the module</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-2">Learning objectives targeted by the module</h2>
             
             <ul>
                 <li><b>Citizenship competence:</b> develop students’ knowledge and attitudes towards making responsible decisions related to climate change.</li>
@@ -77,8 +80,8 @@
 
 
 
-            <hr id="section-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Expected prior knowledge about climate change</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-3">Expected prior knowledge about climate change</h2>
 
             <p>Students can discuss on the following topics:</p>
 
@@ -99,8 +102,8 @@
             
             
             
-            <hr id="section-4" class="mt-10 mb-40 print:my-10" />
-            <h2>Module structure</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-4">Module structure</h2>
             <h4>Learning sequence of the EVIDENCE modules</h4>
             
             <p>This module consists of 6 activities. The sequence of activities is given below. </p>
@@ -348,8 +351,8 @@
 
 
 
-            <hr id="section-5" class="mt-10 mb-40 print:my-10" />
-            <h2>Requirements for the physical environment</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-5">Requirements for the physical environment</h2>
             
             <p>Smartphone, computer, internet, display equipment for demonstrating videos. In case of busting myths experimentally, see “Teaching suggestions”.</p>
             
@@ -360,8 +363,8 @@
             
             
             
-            <hr id="section-6" class="mt-10 mb-40 print:my-10" />
-            <h2>Assessment</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-6">Assessment</h2>
             
             
             <p>Students can be assessed differently throughout the module, including science process skills, general competencies, such as argumentation skills, and topic-related content knowledge.</p>
@@ -391,8 +394,8 @@
 
             
             
-            <hr id="section-7" class="mt-10 mb-40 print:my-10" />
-            <h2>Teaching suggestions</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="section-7">Teaching suggestions</h2>
 
             <p>
                 The module starts with an introductory video opening up a few myths about climate change to raise further questions in students rather than giving them immediate answers. It is expected that after watching the video (Activity 1), students in groups will feel intrinsically motivated to examine one myth in depth. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It draws students' attention to thinking about their prior knowledge and sharing their conceptions and views with peers (Activity 2).

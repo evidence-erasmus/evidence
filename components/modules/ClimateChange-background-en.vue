@@ -3,7 +3,9 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+        <ClientOnly>
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+        </ClientOnly>
 
 
 
@@ -77,8 +79,8 @@
             
             
             
-            <hr id="section-2" class="mt-10 mb-40" />
-            <h2>2. What are the effects of Climate Change?</h2>
+            <hr  class="mt-10 mb-40" />
+            <h2 id="section-2">2. What are the effects of Climate Change?</h2>
             
             <p>The Intergovernmental Panel on Climate Change (IPCC), which includes more than 1,300 scientists from the United States and others, refer that the extent of climate change effects on individual regions will vary over time and with the ability of different societal and environmental systems to mitigate or adapt to change.</p>
             
@@ -174,8 +176,8 @@
 
 
 
-            <hr id="section-3" class="mt-10 mb-40" />
-            <h2>3. Climate Change: A socio-scientific and controversial issue</h2>
+            <hr  class="mt-10 mb-40" />
+            <h2 id="section-3">3. Climate Change: A socio-scientific and controversial issue</h2>
 
             <p>In the history of Science, there have been, and there are many examples where contradictory views on specific scientific issues were spread to the general population. Climate change is one example where people and groups take and defend different positions on it. Even though climate science has now firmly established that global warming is occurring, that human activities contribute to this warming, and that current and future warming portend negative impacts on both ecological and social systems (National Research Council, 2010), a significant portion of the American public remains ambivalent or unconcerned (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) and many policymakers (especially in the United States) deny the necessity of taking steps to reduce carbon emissions (Brownstein, 2010).</p>
 
@@ -215,8 +217,8 @@
 
 
 
-            <hr id="section-4" class="mt-10 mb-40" />
-            <h2>4. Techniques of Science Denial</h2>
+            <hr  class="mt-10 mb-40" />
+            <h2 id="section-4">4. Techniques of Science Denial</h2>
 
             
             <p>Among the various movements that reject a scientific consensus, five characteristics or techniques of science denial are observed:</p>
@@ -307,8 +309,8 @@
 
             <h1 class="mt-40">Myths about Climate Change</h1>
 
-            <hr id="myth-1" class="mt-10 mb-40" />
-            <h2>Myth 1: The extinction of species is a natural process. Mass extinctions of species have always occurred.</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-5">Myth 1: The extinction of species is a natural process. Mass extinctions of species have always occurred.</h2>
 
             <p>The extinction of species is a historical problem. From prehistoric times we have evidence of several mass extinctions, most notably the extinction of the dinosaurs. This extinction, which took place 66,000,000 years ago, was attributed to the impact of an asteroid on Earth. Over the years, we have other well-known examples, such as the extinction of mammoths. However, the causes of extinction that have been recorded vary.</p>
             <p>Also, the suggestion that humanity is capable of impacting and disturbing forces of such magnitude is reflective of a self-centered arrogance that is mind-numbing. Humanity is a subset of Nature. Nature is not a subset of humanity. People can neither cause nor intervene to correct these processes (Financial Sense University).</p>
@@ -364,7 +366,7 @@
 
 
             <hr id="myth-2" class="mt-10 mb-40" />
-            <h2>Myth 2: Species / Organisms can adapt to climate change.</h2>
+            <h2 id="section-6">Myth 2: Species / Organisms can adapt to climate change.</h2>
 
             <p>The earth has a history of 4.54 billion years. The weather conditions that prevailed from time to time on the planet changed. Therefore, the species/organisms living on earth were forced to adapt to the new conditions to survive and be preserved. In this way, the evolution of the species emerged.</p>
             <p>Plants and animals have already adapted several times to adverse conditions (climate change, meteorite falls, volcanic eruptions, etc.). This makes them able to adapt to rising temperatures and the situation we now call climate change. In other words, species are naturally capable of surviving in new conditions.</p>
@@ -408,7 +410,7 @@
 
 
             <hr id="myth-3" class="mt-10 mb-40" />
-            <h2>Myth 3: The science of climate change is unreliable.</h2>
+            <h2 id="section-7">Myth 3: The science of climate change is unreliable.</h2>
 
 
             <p>Meteorological stations are located in areas where the data collected are not representative of climate change and therefore unreliable for the study of the global climate. Scientists target global terrorism for data they create under the conditions they want.</p>
@@ -457,7 +459,7 @@
 
 
             <hr id="myth-4" class="mt-10 mb-40" />
-            <h2>Myth #4: The rise in temperature is for good.</h2>
+            <h2 id="section-8">Myth #4: The rise in temperature is for good.</h2>
             
             <p><i>"By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, regions more habitable, larger crops, longer growing season. That’s good. Warming helps the poor."</i> (John MacArthur)</p>
 
@@ -511,7 +513,7 @@
 
 
             <hr id="myth-5" class="mt-10 mb-40" />
-            <h2>Myth 5: There's no correlation between CO₂ and temperature.</h2>
+            <h2 id="section-9">Myth 5: There's no correlation between CO₂ and temperature.</h2>
             
             <p>
                 <i>“It was the post-war industrialization that caused the rapid rise in global CO₂ emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO₂ emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO₂ emissions, it was deceitful for the IPCC to make any claim that CO₂ emissions were primarily responsible for observed 20th-century global warming."</i>
@@ -558,7 +560,7 @@
 
 
             <hr id="myth-6" class="mt-10 mb-40" />
-            <h2>Myth 6: Actions to mitigate climate change will make people poorer.</h2>
+            <h2 id="section-10">Myth 6: Actions to mitigate climate change will make people poorer.</h2>
 
             <p>
                 <i>"By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, more habitable regions, larger crops, longer growing season. That’s good. Warming helps the poor."</i>
@@ -628,7 +630,7 @@
 
 
             <hr id="myth-7" class="mt-10 mb-40" />
-            <h2>Myth 7: The earth’s climate has always changed, and now the same thing is happening.</h2>
+            <h2 id="section-11">Myth 7: The earth’s climate has always changed, and now the same thing is happening.</h2>
 
             <p>
                 <i>
