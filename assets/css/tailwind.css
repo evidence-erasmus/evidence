@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities; 
 
+.mask-cross {
+  mask-image: url(mask-cross.svg);
+}
+
 @layer base {
     html {
         font-family: "Roboto Flex", serif;

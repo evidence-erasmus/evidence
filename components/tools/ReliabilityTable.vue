@@ -17,7 +17,7 @@
                     v-model="storeToUpdate.reliability[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
             </div>
         </div>
-        <button @click="storeToUpdate.addReliabilityRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">{{ t('add-row') }}</button>
+        <button @click="storeToUpdate.addReliabilityRow" class="btn btn-sm btn-neutral mt-3">{{ t('add-row') }}</button>
     </section>
 </template>
 

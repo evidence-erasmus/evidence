@@ -1,6 +1,8 @@
 <template>
    <div class="rating">
-        <input type="radio" :name="`rating-${idx}`"  class="mask mask-star-2 bg-blue-500" checked  
+        <input type="radio" :name="`rating-${idx}`" class="mask mask-cross bg-red-400" checked  
+            @click="storeToUpdate.changeReliabilityValue(idx, '0')" style="transform:scale(0.8) translateY(0.1rem)" />
+        <input type="radio" :name="`rating-${idx}`"  class="mask mask-star-2 bg-blue-500" 
             @click="storeToUpdate.changeReliabilityValue(idx, '1')" />
         <input type="radio" :name="`rating-${idx}`"  class="mask mask-star-2 bg-blue-500" :checked="rating == '2'"
             @click="storeToUpdate.changeReliabilityValue(idx, '2')" />
@@ -13,6 +15,6 @@
     const props = defineProps({
         idx:{},
         storeToUpdate: {},
-        rating: {default:1},
+        rating: {default:0},
     });
 </script>

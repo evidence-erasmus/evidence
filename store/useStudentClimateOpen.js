@@ -7,14 +7,11 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
         q2: "",
         q3: "",
         reliability: [
-            ["","","1",""]
+            ["","","0",""]
         ],
         q4: "",
         flicc: [
-            ["", ""],
-            ["", ""],
-            ["", ""],
-            ["", ""]
+            [["", false, false, false, false, ""]],
         ]
     }),
     
@@ -27,6 +24,12 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
         },
         changeReliabilityValue(index, value){
             this.reliability[index][2] = value;
+        },
+        addFliccRow(){
+            this.flicc.push(["", false, false, false, false, ""]);
+        },
+        changeFliccValue(index, flicc, value){
+            this.flicc[index][flicc] = value;
         }
     },
     persist: {
