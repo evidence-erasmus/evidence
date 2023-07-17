@@ -2,48 +2,51 @@
     <section class="e-card w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">  
         <div 
             class="grid grid-cols-[1fr_80px_80px_80px_80px_1fr] ">
-                <div class="text-sm font-bold leading-none p-2 border border-slate-300">{{ t('col-1') }}</div>
-                <div class="text-sm font-bold leading-none p-2 border border-slate-300">
-                    
-                    <div class="dropdown dropdown-top">
-                        <label tabindex="0" class="cursor-pointer">{{ t('col-2') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
-                        <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 rounded-box text-lg leading-tight font-normal">
-                            {{ t('col-2-description') }}
-                        </div>
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+                {{ t('col-1') }}
+            </div>
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+                <div class="dropdown dropdown-top">
+                    <label tabindex="0" class="cursor-pointer">{{ t('col-2') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
+                    <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 outline outline-2 outline-slate-400 rounded-box text-lg leading-tight font-normal">
+                        {{ t('col-2-description') }}
                     </div>
                 </div>
-                <div class="text-sm font-bold leading-none p-2 border border-slate-300">
-                    <div class="dropdown dropdown-top">
-                        <label tabindex="0" class="cursor-pointer">{{ t('col-3') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
-                        <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 rounded-box text-lg leading-tight font-normal">
-                            {{ t('col-3-description') }}
-                        </div>
+            </div>
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+                <div class="dropdown dropdown-top">
+                    <label tabindex="0" class="cursor-pointer">{{ t('col-3') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
+                    <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 outline outline-2 outline-slate-400 rounded-box text-lg leading-tight font-normal">
+                        {{ t('col-3-description') }}
                     </div>
                 </div>
-                <div class="text-sm font-bold leading-none p-2 border border-slate-300">
-                    <div class="dropdown dropdown-top">
-                        <label tabindex="0" class="cursor-pointer">{{ t('col-4') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
-                        <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 rounded-box text-lg leading-tight font-normal">
-                            {{ t('col-4-description') }}
-                        </div>
+            </div>
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+                <div class="dropdown dropdown-top">
+                    <label tabindex="0" class="cursor-pointer">{{ t('col-4') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
+                    <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 outline outline-2 outline-slate-400 rounded-box text-lg leading-tight font-normal">
+                        {{ t('col-4-description') }}
                     </div>
                 </div>
-                <div class="text-sm font-bold leading-none p-2 border border-slate-300">
-                    <div class="dropdown dropdown-top">
-                        <label tabindex="0" class="cursor-pointer">{{ t('col-5') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
-                        <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 rounded-box text-lg leading-tight font-normal">
-                            {{ t('col-5-description') }}
-                        </div>
+            </div>
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+                <div class="dropdown dropdown-top">
+                    <label tabindex="0" class="cursor-pointer">{{ t('col-5') }} <br /><Icon name="fluent:question-circle-24-regular" size="24" /></label>
+                    <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 outline outline-2 outline-slate-400 rounded-box text-lg leading-tight font-normal">
+                        {{ t('col-5-description') }}
                     </div>
                 </div>
-                <div class="text-sm font-bold leading-none p-2 border border-slate-300">{{ t('col-6') }}</div>
+            </div>
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+                {{ t('col-6') }}
+            </div>
         </div>
         <div v-for="row, i in storeToUpdate.flicc" 
             class="grid grid-cols-[1fr_80px_80px_80px_80px_1fr]">
             <div v-for="cell, j in row" class="border border-slate-300">
                 <div v-if="j >= 1 && j < 5" class="flex justify-center items-center h-full">
                     <input type="checkbox" v-model="storeToUpdate.flicc[i][j]" class="checkbox checkbox-sm" 
-                    @click="toggleFliccValue(i, j)" />
+                     />
                 </div>
                 <textarea v-else 
                     v-model="storeToUpdate.flicc[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>

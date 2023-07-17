@@ -4,8 +4,12 @@
         <template v-for="b in buttons">
             <span v-if="b.url.length < 1" 
             class="text-center">{{b.text}}</span>
-            <NuxtLink v-else
+            <!-- <NuxtLink v-else
                 :to="b.url">
+                <button class="btn btn-secondary font-normal text-lg">{{ b.text }}</button>
+            </NuxtLink> -->
+            <NuxtLink v-else
+                :to="localePath(`/${b.url}`)">
                 <button class="btn btn-secondary font-normal text-lg">{{ b.text }}</button>
             </NuxtLink>
         </template>
@@ -21,5 +25,5 @@
             default: [{text:"Button", url:"#"}]
         }
     });
-    const localeRoute = useLocaleRoute();
+    const localePath = useLocalePath();
 </script>

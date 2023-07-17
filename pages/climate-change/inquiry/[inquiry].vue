@@ -1,8 +1,14 @@
 <template>
     <div class="p-6 md:p-10">
-<!-- guided -->
-        <template v-if="route.params.inquiry[1] === 'guided'">
-            <!-- estonian -->
+        <template v-if="locale==='et'">
+            <template v-if="route.params.inquiry === 'avatud'">
+                <Component :is="testComp" />
+                <!-- <ModulesClimateChangeInquiryOpen /> -->
+            </template>
+        </template>
+
+        <!-- <template v-if="route.params.inquiry[1] === 'guided'">
+            
             <template v-if="locale === 'et'">
                 <ModulesClimateChangeGuidedInquiryMyth1Et 
                     v-if="route.params.inquiry[2] === 'myth-1'" />
@@ -18,7 +24,6 @@
                     v-if="route.params.inquiry[2] === 'myth-1'" />
             </template>
         </template>
-<!-- open -->
         <template v-else-if="route.params.inquiry[1] === 'open'">
             <ModulesClimateChangeOpenInquiryEt 
                 v-if="locale === 'et'" />
@@ -26,7 +31,7 @@
                 v-else-if="locale === 'en'" />
             <ModulesClimateChangeOpenInquiryEn 
                 v-else />
-        </template>
+        </template> -->
     </div>
 </template>
 
@@ -42,5 +47,7 @@
     definePageMeta({
         layout: "content-left",
     });
+
+    const testComp = resolveComponent('ClimateChangeInquiryOpen')
 
 </script>

@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     },
     devtools: {
         // Enable devtools (default: true)
-        enabled: false,
+        enabled: true,
         // VS Code Server options
         vscode: {},
         // ...other options
@@ -52,6 +52,10 @@ export default defineNuxtConfig({
             },
         ],
         lazy: true,
+        compilation: {
+            strictMessage: false,
+            escapeHtml: true
+          },
         langDir: 'locales',
         defaultLocale: 'en',
         customRoutes: 'config',
@@ -76,9 +80,9 @@ export default defineNuxtConfig({
                 en: '/climate-change/background',
                 et: '/kliimamuutused/taustainfo'
             },
-            'climate-change/inquiry/open': {
-                en: '/climate-change/inquiry/open',
-                et: '/kliimamuutused/inquiry/open'
+            'climate-change/inquiry/[inquiry]': {
+                en: '/climate-change/inquiry/[inquiry]',
+                et: '/kliimamuutused/uurimus/[inquiry]'
             },
             'viruses/index': {
                 en: '/viruses',

@@ -3,9 +3,10 @@ export default defineI18nConfig(() => ({
     // strategy: 'prefix',
     legacy: false,
     locale: 'en',
-    // precompile: {
-        // strictMessage: false,
-        // escapeHtml: true
+    warnHtmlMessage: false,
+    // compilation: {
+    //     strictMessage: false,
+    //     escapeHtml: true
     // },        
         
         

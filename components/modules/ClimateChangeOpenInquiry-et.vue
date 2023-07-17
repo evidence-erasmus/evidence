@@ -33,18 +33,21 @@
         
         <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             
-            <NuxtLink to="../../../kliimamuutused/opilane" style="transform: translateY(-4rem); position:absolute;">
-                <Icon name="material-symbols:arrow-back-rounded" /> Tagasi
+            <NuxtLink to="../../kliimamuutused/opilane#section-4" 
+                style="transform: translateY(-4rem); position:absolute;">
+                <span class="btn btn-outline btn-neutral btn-sm leading-none">
+                    <Icon name="material-symbols:arrow-back-rounded" /><span>Tagasi</span>
+                </span>
             </NuxtLink>
 
             <h1 class="mb-0">Kliimamuutused</h1>
-            <h5 class="font-normal uppercase leading-tight">Avatud uurimus</h5>
+            <h5 class="font-normal uppercase leading-tight mb-10">Avatud uurimus</h5>
         
-            <h2>
+            <!-- <h2>
                 Tegevus 3: Müüdimurdmine
                 <br />
                 (avatud uurimus)
-            </h2>
+            </h2> -->
 
             <label for="q1" class="block mb-2">
                 <b>1. Hakkame uurima järgmist müüti:</b>

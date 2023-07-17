@@ -11,7 +11,7 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
         ],
         q4: "",
         flicc: [
-            [["", false, false, false, false, ""]],
+            ["", false, false, false, false, ""],
         ]
     }),
     

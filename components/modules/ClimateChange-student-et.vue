@@ -149,7 +149,7 @@
                 </p>
                 
                 <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                    {text:'Avatud uurimus', url:'../climate-change/inquiry/open/'},
+                    {text:'Avatud uurimus 1', url:'kliimamuutused/uurimus/avatud'},
                     {text:'Juhitud uurimus', url:'inquiry/guided/myth-1'}
                 ]" />
 
@@ -170,7 +170,7 @@
 
                 <UiNavButtonBar :buttons="[
                     // {text:'Juhised', url:''},
-                    {text:'Avatud uurimus', url:'../inquiry/open/'},
+                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
                     {text:'Juhitud uurimus', url:'/'}
                 ]" class="mb-6 font-Body"
                 />
@@ -200,7 +200,7 @@
                 
                 <UiNavButtonBar :buttons="[
                     // {text:'Juhised', url:''},
-                    {text:'Avatud uurimus', url:'inquiry/open/'},
+                    {text:'Avatud uurimus 1', url:'climate-change/inquiry/open'},
                     {text:'Juhitud uurimus', url:'/'}
                 ]" class="mb-6 font-Body"
                 />
