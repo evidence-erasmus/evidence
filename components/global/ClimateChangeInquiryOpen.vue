@@ -2,22 +2,11 @@
     
     import { useStudentClimateOpen } from '~~/store/useStudentClimateOpen.js'; 
     const studentClimateOpen = useStudentClimateOpen();
-
+    // const router = useRouter();
     const { t, tm, rt } = useI18n({
         useScope: 'local'
     });
 
-    // const myths = ref(
-    //     [
-    //         "Liikide väljasuremine on looduslik protsess.",
-    //         "Liigid suudavad kliimamuutustega kohaneda.",
-    //         "Kliimamuutuste alane teadus ei ole usaldusväärne.",
-    //         "Globaalne soojenemine on kasulik.",
-    //         "Seos CO₂ ja temperatuuri tõusu vahel puudub.",
-    //         "Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
-    //         "Maa kliima on alati muutunud ning see jätkab muutumist."
-    //     ]
-    // );
 </script>
 
 <i18n lang="json">
@@ -51,7 +40,7 @@
             "title": "Kliimamuutused",
             "subtitle": "Avatud uurimus",
             "choose": "Vali müüt",
-            "q1-title": "Hakkame uurima järgmist müütiZZZ:",
+            "q1-title": "Hakkame uurima järgmist müüti:",
             "myths": [
                 
                 "Liikide väljasuremine on looduslik protsess.",
@@ -90,16 +79,16 @@
         xl:gap-10
         2xl:gap-20">
 
-        <h1>Here we are!!!</h1>
-        
         <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             
-            <NuxtLink to="../../kliimamuutused/opilane#section-4" 
+
+            <NuxtLink to="../student#section-4" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('back')}}</span>
                 </span>
             </NuxtLink>
+
 
             <h1 class="mb-0">{{ t('title') }}</h1>
             <h5 class="font-normal uppercase leading-tight mb-10">{{ t('subtitle') }}</h5>
@@ -121,10 +110,7 @@
                 </template>
             </i18n-t>
 
-            <!-- <p>
-                {{ t('q2-txt') }}
-            </p> -->
-
+            
             <label for="q2" class="block mb-2">
                 <b>{{ t('q2-title') }}</b>
             </label>

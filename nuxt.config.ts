@@ -58,53 +58,57 @@ export default defineNuxtConfig({
           },
         langDir: 'locales',
         defaultLocale: 'en',
-        customRoutes: 'config',
-        pages: {
-            about: {
-                en: '/about',
-                et: '/projektist'
-            },
-            modules: {
-                en: '/modules',
-                et: '/moodulid'
-            },
-            'climate-change/index': {
-                en: '/climate-change',
-                et: '/kliimamuutused'
-            },
-            'climate-change/student': {
-                en: '/climate-change/student',
-                et: '/kliimamuutused/opilane'
-            },
-            'climate-change/background': {
-                en: '/climate-change/background',
-                et: '/kliimamuutused/taustainfo'
-            },
-            'climate-change/inquiry/[inquiry]': {
-                en: '/climate-change/inquiry/[inquiry]',
-                et: '/kliimamuutused/uurimus/[inquiry]'
-            },
-            'viruses/index': {
-                en: '/viruses',
-                et: '/viirused'
-            },
-            'viruses/student': {
-                en: '/viruses/student',
-                et: '/viirused/opilane'
-            },
-            'viruses/background': {
-                en: '/viruses/background',
-                et: '/viirused/taustainfo'
-            },
-            radiation: {
-                en: '/radiation',
-                et: '/radiatsioon'
-            },
+        // customRoutes: 'config',
+        // pages: {
+        //     about: {
+        //         en: '/about',
+        //         et: '/projektist'
+        //     },
+        //     modules: {
+        //         en: '/modules',
+        //         et: '/moodulid'
+        //     },
+        //     inquiry: {
+        //         en: '/inquiry',
+        //         et: '/uurimus'
+        //     },
+        //     'climate-change/index': {
+        //         en: '/climate-change',
+        //         et: '/kliimamuutused'
+        //     },
+        //     'climate-change/student': {
+        //         en: '/climate-change/student',
+        //         et: '/kliimamuutused/opilane'
+        //     },
+        //     'climate-change/background': {
+        //         en: '/climate-change/background',
+        //         et: '/kliimamuutused/taustainfo'
+        //     },
+        //     'climate-change/inquiry/[inquiry]': {
+        //         en: '/climate-change/inquiry/[inquiry]',
+        //         et: '/kliimamuutused/uurimus/[inquiry]'
+        //     },
+        //     'viruses/index': {
+        //         en: '/viruses',
+        //         et: '/viirused'
+        //     },
+        //     'viruses/student': {
+        //         en: '/viruses/student',
+        //         et: '/viirused/opilane'
+        //     },
+        //     'viruses/background': {
+        //         en: '/viruses/background',
+        //         et: '/viirused/taustainfo'
+        //     },
+        //     radiation: {
+        //         en: '/radiation',
+        //         et: '/radiatsioon'
+        //     },
             // 'tools/StudentAnswersViruses': {
             //     en: '/viruses/answers',
             //     et: '/viirused/vastused'
             // },
-        },
+        // },
         // vueI18n: {
         //     legacy: false,
         //     locale: 'en'

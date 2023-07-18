@@ -79,13 +79,13 @@
       "et": {
         "col-1": "Allikas",
         "col-2": "Kirsside noppimine",
-        "col-2-description": "Seda strateegiat määratletakse kui “selektiivset andmete valimist, mis viivad soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest”.",
+        "col-2-description": "Selektiivne andmete valimine, mis viib soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest.",
         "col-3": "Kiirustamine järelduste tegemisel",
         "col-3-description": "Informatsiooni mittetundmine ja meelevaldne järeldus.",
         "col-4": "Võimatud ootused",
-        "col-4-description": "See hõlmab ebarealistlike tõendite nõudmist või teadusliku ebakindluse olemuse vale esitamist. Kuna teadus on tavalisel tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks. Seda teadust eitavat strateegiat tuntakse kui “teadusliku kindluse argumenteerimise meetod”.",
+        "col-4-description": "Hõlmab ebarealistlike tõendite nõudmist või teadusliku määramatuse olemuse vale esitamist. Kuna teadus on  tavaliselt tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks.",
         "col-5": "Liigne lihtsustamine",
-        "col-5-description": "Andmete lihtsustamine.",
+        "col-5-description": "Andmete lihtsustamine määrani, et see viib ebaõigete järeldusteni.",
         "col-6": "Kommentaar",
         "add-row": "LISA RIDA"
       },

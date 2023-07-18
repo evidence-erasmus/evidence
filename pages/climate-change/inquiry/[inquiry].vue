@@ -1,11 +1,7 @@
 <template>
     <div class="p-6 md:p-10">
-        <template v-if="locale==='et'">
-            <template v-if="route.params.inquiry === 'avatud'">
-                <Component :is="testComp" />
-                <!-- <ModulesClimateChangeInquiryOpen /> -->
-            </template>
-        </template>
+        <Component :is="dynComp" />
+        
 
         <!-- <template v-if="route.params.inquiry[1] === 'guided'">
             
@@ -41,13 +37,14 @@
         useScope: 'global'
     });
     const route = useRoute();
-    console.log(route.params); 
-
+    //console.log(route.query); 
     
     definePageMeta({
         layout: "content-left",
     });
 
-    const testComp = resolveComponent('ClimateChangeInquiryOpen')
+    const prm = route.params.inquiry;
+    const dynCompName = ref(`ClimateChangeInquiry${prm.charAt(0).toUpperCase()+prm.slice(1)}`);
+    const dynComp = resolveComponent(dynCompName.value);
 
 </script>
