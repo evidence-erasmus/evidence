@@ -6,6 +6,14 @@
         useScope: 'local'
     });
 
+    
+    const addSources = (arr) => {
+        arr.forEach((el, index) => {
+            studentClimateGuidedMyth1.changeFliccValue(index, 0, el.name.body.static);
+        })
+    }
+    addSources(tm('flicc-sources'));
+
 
 </script>
 
@@ -41,7 +49,22 @@
                 "txt-1": "Please use this tool to assess the reliability of the sources used.",
                 "q-7": "7. Write a summary of your findings in the following table."
             },
-            "q-8": "8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):"
+            "q-8": "8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):",
+            "q-9": "According to the data you collected, where do you owe the error of this myth?",
+            "flicc-sources": [
+                {
+                    "name": "Source 1.1",
+                    "url": "https://www.google.com"
+                },
+                {
+                    "name": "Video",
+                    "url": "https://www.google.com"
+                },
+                {
+                    "name": "Source 1.2",
+                    "url": "https://www.google.com"
+                }
+            ]
         },
         "et": {
             "back": "Tagasi",
@@ -75,7 +98,21 @@
                 "q-7": "7. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse."
             },
             "q-8": "8. Esitatud tõendite põhjal on meie järeldus(ed) müüdi “Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud”, paikapidavuse kohta järgmine (järgmised):",
-            "q-9": "Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?"
+            "q-9": "Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+            "flicc-sources": [
+                {
+                    "name": "Allikas 1.1",
+                    "url": "https://www.google.com"
+                },
+                {
+                    "name": "Video",
+                    "url": "https://www.google.com"
+                },
+                {
+                    "name": "Allikas 1.2",
+                    "url": "https://www.google.com"
+                }
+            ]
         }, 
         "el": {
             "back": "Back el"
@@ -93,7 +130,7 @@
         xl:gap-10
         2xl:gap-20">
         
-        <section class="e-article print:not-prose" :lang="locale" style="hyphens:auto;">
+        <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
             <NuxtLink to="../student#section-4" 
                 style="transform: translateY(-4rem); position:absolute;">

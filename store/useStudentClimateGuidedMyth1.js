@@ -16,6 +16,8 @@ export const useStudentClimateGuidedMyth1 = defineStore("studentClimateGuidedMyt
         ],
         flicc: [
             ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""],
         ]
     }),
     
