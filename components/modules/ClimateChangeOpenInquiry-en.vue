@@ -99,7 +99,7 @@
                 <b>5. According to the data you collected, where do you owe the error of this myth?</b>
             </p>
 
-            <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
+            <!-- <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
                 <div 
                     class="grid grid-cols-[1fr_1fr_1fr]">
                     <div class="text-sm font-bold leading-none p-3 border border-slate-300">Fallacy</div>
@@ -182,7 +182,7 @@
                         v-model="studentClimateOpen.flicc[3][1]"></textarea>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
 
         </section>

@@ -1,5 +1,5 @@
 <template>
-    <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
+    <!-- <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
         <div 
         class="grid grid-cols-[1fr_1fr_1fr]">
             <div class="text-sm font-bold leading-none p-3 border border-slate-300"> {{ t('col-1') }}</div>
@@ -82,7 +82,7 @@
                     v-model="storeToUpdate.flicc[3][1]"></textarea>
             </div>
         </div>
-    </section>
+    </section> -->
 </template>
 
 <script setup>

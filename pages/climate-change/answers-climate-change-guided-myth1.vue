@@ -1,65 +1,94 @@
 <template>
-    <div class="p-6 md:p-10">
+    <div class="p-6 md:p-10" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
+        <div class="e-card mb-8 md:fixed md:right-4 md:top-24 md:w-60 print:hidden">
+            <p class="italic mt-2">{{ t('print.hint') }}</p>
+            <button @click="printMe" class="my-4 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase"><icon name="material-symbols:print-outline-rounded" /> {{ t('print.print') }}</button>
+        </div>
+
         <div class="prose prose-lg">
             
             
-            <h1 class="mb-2">{{ t('title') }}</h1>
-            <p class="uppercase my-2">{{ t('subtitle') }}</p>
-            <p class="italic mt-2">{{ t('hint') }}</p>
-            <button @click="printMe" class="my-4 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('print') }}</button>
+            <!-- <section class="grid grid-cols-[auto_320px] mb-8">
+                <div> -->
+                    <h1 class="mb-2">{{ t('inquiry.cc-myth1.title') }}</h1>
+                    <p class="uppercase my-2">{{ t('inquiry.cc-myth1.subtitle') }}</p>
+                    <h3 class="mb-8 text-rose-400 border-l-4 border-l-rose-400 pl-4">{{ t('inquiry.cc-myth1.myth') }}</h3>
+                <!-- </div>
+                
+            </section> -->
+            
+            
+            
 
 
             <section>
-                <h4 class="my-1">{{ t('hypothesis') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.hypothesis') }}</h4>
                 <p class="whitespace-pre-wrap">
-                    {{ studentClimateGuidedMyth1.hypothesis }}
+                    {{ climateMythOneAnswers.hypothesis }}
                 </p>
                 
-                <h4 class="my-1">{{ t('q1') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-1') }}</h4>
                 <p class="whitespace-pre-wrap">
-                    {{ studentClimateGuidedMyth1.q1 }}
+                    {{ climateMythOneAnswers.q1 }}
                 </p>
 
-                <h4 class="my-1">{{ t('q2') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-2') }}</h4>
                 <p>
-                    {{ studentClimateGuidedMyth1.q2 }}
+                    {{ climateMythOneAnswers.q2 }}
                 </p>
-                <h4 class="my-1">{{ t('q3') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-3') }}</h4>
                 <p>
-                    {{ studentClimateGuidedMyth1.q3 }}
+                    {{ climateMythOneAnswers.q3 }}
                 </p>
-                <h4 class="my-1">{{ t('q4') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-4') }}</h4>
                 <p>
-                    {{ studentClimateGuidedMyth1.q4 }}
+                    {{ climateMythOneAnswers.q4 }}
                 </p>
-                <h4 class="my-1">{{ t('q5') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-5') }}</h4>
                 <p>
-                    {{ studentClimateGuidedMyth1.q5 }}
+                    {{ climateMythOneAnswers.q5 }}
                 </p>
-                <h4 class="my-1">{{ t('q6') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-6.q-6') }}</h4>
                 <p>
-                    {{ studentClimateGuidedMyth1.q6 }}
+                    {{ climateMythOneAnswers.q6 }}
+                </p>
+                
+                
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-7.q-7') }}</h4>
+                <p>
+                    {{ climateMythOneAnswers.q7 }}
                 </p>
 
-                <h4 class="my-1">{{ t('reliabilityTitle') }}</h4>
-                <table class="border border-slate-400 leading-tight">
+                <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" :printMode="true" />
+
+                <!-- <table class="table">
+                    <thead>
+                        <th>{{ t('climateMythOneAnswers.reliability[0]') }}</th>
+                        <th>{{ t('climateMythOneAnswers.reliability[1]') }}</th>
+                        <th>{{ t('climateMythOneAnswers.reliability[2]') }}</th>
+                        <th>{{ t('climateMythOneAnswers.reliability[3]') }}</th>
+                    </thead>
+                </table> -->
+                
+                
+                <!-- <table class="table border border-slate-400 leading-tight">
                     <tr>
                         <th class="border border-slate-400 p-2">{{ t('reliability[0]') }}</th>
                         <th class="border border-slate-400 p-2">{{ t('reliability[1]') }}</th>
                         <th class="border border-slate-400 p-2">{{ t('reliability[2]') }}</th>
                         <th class="border border-slate-400 p-2">{{ t('reliability[3]') }}</th>
                     </tr>
-                    <tr v-for="row, i in studentClimateGuidedMyth1.reliability">
+                    <tr v-for="row, i in climateMythOneAnswers.reliability">
                         <template v-for="item, j in row">
                             <td v-if="j === 2" class="border border-slate-400 p-1" >{{ item == '3' ? '⭐⭐⭐' : item == '2' ? '⭐⭐' : '⭐'  }}</td>
-                            <td v-else class="border border-slate-400 p-1" >{{ studentClimateGuidedMyth1.reliability[i][j] }}</td>
+                            <td v-else class="border border-slate-400 p-1" >{{ climateMythOneAnswers.reliability[i][j] }}</td>
                         </template>
                     </tr>
-                </table>
+                </table> -->
 
 
                 
-                <h4 class="my-1">{{ t('fliccTitle') }}</h4>
+                <!-- <h4 class="my-1">{{ t('fliccTitle') }}</h4>
                 <table class="border border-slate-400 leading-tight">
                     <tr>
                         <th class="border border-slate-400 p-2">{{ t('flicc[0]') }}</th>
@@ -67,23 +96,16 @@
                         <th class="border border-slate-400 p-2">{{ t('flicc[2]') }}</th>
                     </tr>
                     <tr v-for="fliccName, i in tm('fliccNames')">
-                        <!-- <template v-for="item, j in row"> -->
                             <td class="border border-slate-400 p-1" >{{ rt(fliccName) }}</td>
-                            <td v-for="item in studentClimateGuidedMyth1.flicc[i]" class="border border-slate-400 p-1" >{{ item }}</td>
-                            <!-- <td v-else class="border border-slate-400 p-1" >{{ studentClimateOpen.flicc[i][j] }}</td> -->
-                        <!-- </template> -->
+                            <td v-for="item in climateMythOneAnswers.flicc[i]" class="border border-slate-400 p-1" >{{ item }}</td>
                     </tr>
-                </table>
+                </table> -->
             </section>
-
-            <hr />
-            </div>
-        
-            <button @click="printMe" class="mt-8 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('print') }}</button>
+        </div>
     </div>
 </template>
 
-<i18n lang="json">
+<!-- <i18n lang="json">
     {
       "en": {
         "title": "Climate change module",
@@ -140,13 +162,14 @@
         "print" : "Print - or save as pdf"
     }
     }
-</i18n>
+</i18n> -->
 
 <script setup>
     import { useStudentClimateGuidedMyth1 } from '~~/store/useStudentClimateGuidedMyth1.js'; 
-    const studentClimateGuidedMyth1 = useStudentClimateGuidedMyth1();
+    const climateMythOneAnswers = useStudentClimateGuidedMyth1();
     
-    const { t, tm, rt } = useI18n({ useScope: 'local' });
+    const { locale, t, tm, rt } = useI18n({ useScope: 'global' });
+    
     definePageMeta({
         layout: "base",
     });

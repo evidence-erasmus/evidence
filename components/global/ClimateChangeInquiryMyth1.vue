@@ -1,23 +1,40 @@
 <script setup>
     import { useStudentClimateGuidedMyth1 } from '~~/store/useStudentClimateGuidedMyth1.js'; 
-    const studentClimateGuidedMyth1 = useStudentClimateGuidedMyth1();
+    const climateMythOneAnswers = useStudentClimateGuidedMyth1();
 
-    const { locale, t, tm, rt } = useI18n({
-        useScope: 'local'
+    const { locale, t, tm } = useI18n({
+        useScope: 'global'
     });
 
     
     const addSources = (arr) => {
         arr.forEach((el, index) => {
-            studentClimateGuidedMyth1.changeFliccValue(index, 0, el.name.body.static);
+            climateMythOneAnswers.changeFliccValue(index, 0, el.name.body.static);
+            climateMythOneAnswers.changeReliabilityValue(index, 0, el.name.body.static);
         })
     }
-    addSources(tm('flicc-sources'));
+    addSources(tm('inquiry.cc-myth1.flicc-sources'));
 
+    // console.log("Messages" , i18n);
+    
+    // const loopMessages = (arr) => {
+    //     arr.forEach((el, index) => {
+    //         // console.log(el);
+    //     })
+    // }
+    // loopMessages(tm('flicc-sources'));
+    
+    // console.log("Messages" , tm(''));
 
 </script>
 
-<i18n lang="json">
+
+
+
+
+
+
+<!-- <i18n lang="json">
     {
         "en": {
             "back": "Back",
@@ -46,7 +63,8 @@
                 "q-6": "6. What is the reason for the mass killing of penguins?"
             },
             "q-7": {
-                "txt-1": "Please use this tool to assess the reliability of the sources used.",
+                "txt-1": "Please use {link1} to assess the reliability of the sources used.",
+                "link-1": "this tool",
                 "q-7": "7. Write a summary of your findings in the following table."
             },
             "q-8": "8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):",
@@ -54,15 +72,15 @@
             "flicc-sources": [
                 {
                     "name": "Source 1.1",
-                    "url": "https://www.google.com"
+                    "url": "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
                 },
                 {
                     "name": "Video",
-                    "url": "https://www.google.com"
+                    "url": "https://www.youtube.com/watch?v=nho73BtDQtE"
                 },
                 {
                     "name": "Source 1.2",
-                    "url": "https://www.google.com"
+                    "url": "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
                 }
             ]
         },
@@ -102,15 +120,15 @@
             "flicc-sources": [
                 {
                     "name": "Allikas 1.1",
-                    "url": "https://www.google.com"
+                    "url": "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
                 },
                 {
                     "name": "Video",
-                    "url": "https://www.google.com"
+                    "url": "https://www.youtube.com/watch?v=nho73BtDQtE"
                 },
                 {
                     "name": "Allikas 1.2",
-                    "url": "https://www.google.com"
+                    "url": "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
                 }
             ]
         }, 
@@ -118,7 +136,17 @@
             "back": "Back el"
         }
     }
-</i18n>
+</i18n> -->
+
+
+
+
+
+
+
+
+
+
 
 <template>
     <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-4 pl-6 pr-8 rounded-tr-xl z-50 ring-4 ring-slate-700">
@@ -135,147 +163,139 @@
             <NuxtLink to="../student#section-4" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
-                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('back')}}</span>
+                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth1.back')}}</span>
                 </span>
             </NuxtLink>
 
-            <h1 class="mb-0">{{ t('title') }}</h1>
-            <h5 class="font-normal uppercase leading-tight">{{ t('subtitle') }}</h5>
+            <h1 class="mb-0">{{ t('inquiry.cc-myth1.title') }}</h1>
+            <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc-myth1.subtitle') }}</h5>
         
             <!-- <h2>
                 Tegevus 3: Müüdimurdmine
             </h2> -->
 
             <h3>
-                {{ t('myth') }}
+                {{ t('inquiry.cc-myth1.myth') }}
             </h3>
 
-            
-
             <label for="q1" class="block mb-2">
-                <b>{{ t('hypothesis') }}</b>
+                <b>{{ t('inquiry.cc-myth1.hypothesis') }}</b>
             </label>
-            <textarea id="q1" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"
-            v-model="studentClimateGuidedMyth1.hypothesis"></textarea>
+            <textarea id="q1" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="4"
+            v-model="climateMythOneAnswers.hypothesis"></textarea>
             <hr />
 
             <p>
-                {{ t('argument.txt-1') }}
+                {{ t('inquiry.cc-myth1.argument.txt-1') }}
             </p>
             
             <UiCardInfo theme="rose-400" icon="game-icons:unicorn">
                 <h4 class="leading-tight my-2">
-                    {{ t('argument.argument') }}
+                    {{ t('inquiry.cc-myth1.argument.argument') }}
                 </h4>
             </UiCardInfo>
 
             <UiCardInfo theme="sky-400" icon="tabler:zoom-question" class="mt-6">
                 <h4 class="leading-tight my-2">
-                    {{ t('question.question') }}
+                    {{ t('inquiry.cc-myth1.question.question') }}
                 </h4>
             </UiCardInfo>
             
-
-            <i18n-t tag="p" keypath="question.txt-1">
+            <i18n-t tag="p" keypath="inquiry.cc-myth1.question.txt-1" scope="global">
                 <template #link1>
-                    <a href="http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html" target="_blank" rel="noopener noreferrer">{{ t('question.link-1') }}</a>
+                    <a :href="t('inquiry.cc-myth1.flicc-sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth1.question.link-1') }}</a>
                 </template>
                 <template #link2>
-                    <a href="https://www.youtube.com/watch?v=nho73BtDQtE" target="_blank" rel="noopener noreferrer">{{ t('question.link-2') }}</a>
+                    <a :href="t('inquiry.cc-myth1.flicc-sources[1].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth1.question.link-2') }}</a>
                 </template>
             </i18n-t>
             
-            
-            
-
             <label for="q2" class="block mb-2">
-                <b>{{ t('q-1') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-1') }}</b>
             </label>
-            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
-            v-model="studentClimateGuidedMyth1.q1"></textarea>
+            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
+            v-model="climateMythOneAnswers.q1"></textarea>
+
             <hr />
             
             <label for="q3" class="block mb-2">
-                <b>{{ t('q-2') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-2') }}</b>
             </label>
-            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
-            v-model="studentClimateGuidedMyth1.q2"></textarea>
+            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
+            v-model="climateMythOneAnswers.q2"></textarea>
+
             <hr />
             
             <label for="q4" class="block mb-2">
-                <b>{{ t('q-3') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-3') }}</b>
             </label>
-            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
-            v-model="studentClimateGuidedMyth1.q3"></textarea>
+            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
+            v-model="climateMythOneAnswers.q3"></textarea>
+
             <hr />
             
             <label for="q5" class="block mb-2">
-                <b>{{ t('q-4') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-4') }}</b>
             </label>
-            <textarea id="q5" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
-            v-model="studentClimateGuidedMyth1.q5"></textarea>
+            <textarea id="q5" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
+            v-model="climateMythOneAnswers.q4"></textarea>
+
             <hr />
             
             <label for="q6" class="block mb-2">
-                <b>{{ t('q-5') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-5') }}</b>
             </label>
-            <textarea id="q6" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
-            v-model="studentClimateGuidedMyth1.q6"></textarea>
+            <textarea id="q6" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
+            v-model="climateMythOneAnswers.q5"></textarea>
+
             <hr />
             
-            
-            <i18n-t keypath="q-6.txt-1">
+            <i18n-t keypath="inquiry.cc-myth1.q-6.txt-1" scope="global">
                 <template #link1>
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub" target="_blank" rel="noopener noreferrer">{{ t('q-6.link-1') }}</a> 
+                    <a :href="t('inquiry.cc-myth1.flicc-sources[2].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth1.q-6.link-1') }}</a> 
                 </template>
             </i18n-t>
 
             <label for="q7" class="block mb-2">
-                <b>{{ t('q-6.q-6') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-6.q-6') }}</b>
             </label>
-            <textarea id="q7" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
-            v-model="studentClimateGuidedMyth1.q7"></textarea>
-            
+            <textarea id="q7" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
+            v-model="climateMythOneAnswers.q6"></textarea>
             
             <hr />
-            
 
-            <i18n-t tag="p" keypath="q-7.txt-1">
+            <i18n-t tag="p" keypath="inquiry.cc-myth1.q-7.txt-1" scope="global">
                 <template #link1>
                     <a href="https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link" target="_blank" rel="noreferrer noopener">
-                        {{ t('q-7.link-1') }}
+                        {{ t('inquiry.cc-myth1.q-7.link-1') }}
                     </a>
                 </template>
             </i18n-t>
 
             <p>
-                <b>{{ t('q-7.q-7') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-7.q-7') }}</b>
             </p>
 
-            <ToolsReliabilityTable :storeToUpdate="studentClimateGuidedMyth1" />
+            <div style="transform:translateX(-6vw)">
+                <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" />
+            </div>
+
             <hr />
-            
 
             <label for="q8" class="block mb-2">
-                <b>{{ t('q-8') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-8') }}</b>
             </label>
-            <textarea id="q8" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
-            v-model="studentClimateGuidedMyth1.q8"></textarea>
+            <textarea id="q8" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
+            v-model="climateMythOneAnswers.q8"></textarea>
 
             <hr />
 
-
-
             <p>
-                <b>{{ t('q-9') }}</b>
+                <b>{{ t('inquiry.cc-myth1.q-9') }}</b>
             </p>
 
-
-            <ToolsFliccTable :storeToUpdate="studentClimateGuidedMyth1" />
+            <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" />
             
- 
-
-
         </section>
     </div>
 </template>

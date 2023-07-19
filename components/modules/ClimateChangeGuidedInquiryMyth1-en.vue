@@ -122,7 +122,7 @@
                 <b>8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):</b>
             </p>
 
-            <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
+            <!-- <section class="w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">
                 <div 
                     class="grid grid-cols-[1fr_1fr_1fr]">
                     <div class="text-sm font-bold leading-none p-3 border border-slate-300">Fallacy</div>
@@ -205,7 +205,7 @@
                         v-model="studentClimateGuidedMyth1.flicc[3][1]"></textarea>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
         </section>
     </div>

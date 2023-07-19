@@ -44,7 +44,7 @@
                     {{ studentClimateOpen.q4 }}
                 </p>
                 
-                <h4 class="my-1">{{ t('fliccTitle') }}</h4>
+                <!-- <h4 class="my-1">{{ t('fliccTitle') }}</h4>
                 <table class="border border-slate-400 leading-tight">
                     <tr>
                         <th class="border border-slate-400 p-2">{{ t('flicc[0]') }}</th>
@@ -52,13 +52,10 @@
                         <th class="border border-slate-400 p-2">{{ t('flicc[2]') }}</th>
                     </tr>
                     <tr v-for="fliccName, i in tm('fliccNames')">
-                        <!-- <template v-for="item, j in row"> -->
                             <td class="border border-slate-400 p-1" >{{ rt(fliccName) }}</td>
                             <td v-for="item in studentClimateOpen.flicc[i]" class="border border-slate-400 p-1" >{{ item }}</td>
-                            <!-- <td v-else class="border border-slate-400 p-1" >{{ studentClimateOpen.flicc[i][j] }}</td> -->
-                        <!-- </template> -->
                     </tr>
-                </table>
+                </table> -->
             </section>
 
             <hr />

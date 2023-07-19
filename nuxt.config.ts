@@ -36,7 +36,7 @@ export default defineNuxtConfig({
                 code: 'en',
                 iso: 'en_150',
                 name: 'English',
-                file: 'en.json'
+                files: ['en.main.js', 'en.inquiry.js']
             },
             {
                 code: 'el',
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
                 code: 'et',
                 iso: 'et_EE',
                 name: 'Estonian',
-                file: 'et.json'
+                files: ['et.main.json', 'et.inquiry.json']
             },
         ],
         lazy: true,
