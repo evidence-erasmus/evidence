@@ -8,18 +8,10 @@
         <div class="prose prose-lg">
             
             
-            <!-- <section class="grid grid-cols-[auto_320px] mb-8">
-                <div> -->
-                    <h1 class="mb-2">{{ t('inquiry.cc-myth1.title') }}</h1>
-                    <p class="uppercase my-2">{{ t('inquiry.cc-myth1.subtitle') }}</p>
-                    <h3 class="mb-8 text-rose-400 border-l-4 border-l-rose-400 pl-4">{{ t('inquiry.cc-myth1.myth') }}</h3>
-                <!-- </div>
+            <h1 class="mb-2">{{ t('inquiry.cc-myth1.title') }}</h1>
+            <p class="uppercase my-2">{{ t('inquiry.cc-myth1.subtitle') }}</p>
+            <h3 class="mb-8 text-rose-400 border-l-4 border-l-rose-400 pl-4">{{ t('inquiry.cc-myth1.myth') }}</h3>
                 
-            </section> -->
-            
-            
-            
-
 
             <section>
                 <h4 class="my-1">{{ t('inquiry.cc-myth1.hypothesis') }}</h4>
@@ -58,33 +50,19 @@
                 <p>
                     {{ climateMythOneAnswers.q7 }}
                 </p>
-
-                <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" :printMode="true" />
-
-                <!-- <table class="table">
-                    <thead>
-                        <th>{{ t('climateMythOneAnswers.reliability[0]') }}</th>
-                        <th>{{ t('climateMythOneAnswers.reliability[1]') }}</th>
-                        <th>{{ t('climateMythOneAnswers.reliability[2]') }}</th>
-                        <th>{{ t('climateMythOneAnswers.reliability[3]') }}</th>
-                    </thead>
-                </table> -->
+                
+                <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" :printMode="true"
+                class="mb-8" />
                 
                 
-                <!-- <table class="table border border-slate-400 leading-tight">
-                    <tr>
-                        <th class="border border-slate-400 p-2">{{ t('reliability[0]') }}</th>
-                        <th class="border border-slate-400 p-2">{{ t('reliability[1]') }}</th>
-                        <th class="border border-slate-400 p-2">{{ t('reliability[2]') }}</th>
-                        <th class="border border-slate-400 p-2">{{ t('reliability[3]') }}</th>
-                    </tr>
-                    <tr v-for="row, i in climateMythOneAnswers.reliability">
-                        <template v-for="item, j in row">
-                            <td v-if="j === 2" class="border border-slate-400 p-1" >{{ item == '3' ? '⭐⭐⭐' : item == '2' ? '⭐⭐' : '⭐'  }}</td>
-                            <td v-else class="border border-slate-400 p-1" >{{ climateMythOneAnswers.reliability[i][j] }}</td>
-                        </template>
-                    </tr>
-                </table> -->
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-8') }}</h4>
+                <p>
+                    {{ climateMythOneAnswers.q8 }}
+                </p>
+                
+
+                <h4 class="my-1">{{ t('inquiry.cc-myth1.q-9') }}</h4>
+                <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" :printMode="true" />
 
 
                 

@@ -1,5 +1,5 @@
 <template>
-    <section class="e-card w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[6vw]">  
+    <section class="e-card w-[90vw]">  
         <div 
             class="grid grid-cols-[1fr_80px_80px_80px_80px_1fr] ">
             <div class="text-sm font-bold leading-none p-2 border border-slate-300">
@@ -46,14 +46,17 @@
             class="grid grid-cols-[1fr_80px_80px_80px_80px_1fr]">
             <div v-for="cell, j in row" class="border border-slate-300">
                 <div v-if="j >= 1 && j < 5" class="flex justify-center items-center h-full">
-                    <input type="checkbox" v-model="storeToUpdate.flicc[i][j]" class="checkbox checkbox-sm" 
-                     />
+                    <input v-if="printMode===false" type="checkbox" v-model="storeToUpdate.flicc[i][j]" class="checkbox checkbox-sm" />
+                    <Icon v-else-if="printMode===true && storeToUpdate.flicc[i][j] === true" name="mdi:check-bold" />
                 </div>
-                <textarea v-else 
+                <template v-else>
+                    <textarea v-if="printMode===false"
                     v-model="storeToUpdate.flicc[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    <div v-else class="mx-2 my-1">{{ storeToUpdate.flicc[i][j] }}</div>
+                </template>
             </div>
         </div>
-        <button @click="storeToUpdate.addFliccRow" class="btn btn-sm btn-neutral mt-3">{{ t('add-row') }}</button>
+        <button v-if="printMode == false" @click="storeToUpdate.addFliccRow" class="btn btn-sm btn-neutral mt-3">{{ t('add-row') }}</button>
 
     </section>
 </template>
@@ -61,6 +64,7 @@
 <script setup>
     const props = defineProps({
         storeToUpdate: {},
+        printMode: {type:Boolean, default:false}
     });
     const { t } = useI18n({
         useScope: 'local'

@@ -277,7 +277,9 @@
             </p>
 
             <div style="transform:translateX(-6vw)">
-                <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" />
+                <ClientOnly>
+                    <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" />
+                </ClientOnly>
             </div>
 
             <hr />
@@ -294,7 +296,11 @@
                 <b>{{ t('inquiry.cc-myth1.q-9') }}</b>
             </p>
 
-            <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" />
+            <div style="transform:translateX(-6vw)">
+                <ClientOnly>
+                    <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" />
+                </ClientOnly>
+            </div>
             
         </section>
     </div>
