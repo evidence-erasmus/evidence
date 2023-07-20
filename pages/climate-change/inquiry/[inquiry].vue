@@ -1,6 +1,6 @@
 <template>
     <div class="p-6 md:p-10">
-        <Component :is="dynComp" />
+        <Component :is="dynComp" :key="route.params.inquiry" />
         
 
         <!-- <template v-if="route.params.inquiry[1] === 'guided'">

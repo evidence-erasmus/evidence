@@ -2,7 +2,7 @@
     <section class="e-card w-[90vw]">  
         <div 
             class="grid grid-cols-[1fr_80px_80px_80px_80px_1fr] ">
-            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300 flex items-center">
                 {{ t('col-1') }}
             </div>
             <div class="text-sm font-bold leading-none p-2 border border-slate-300">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-sm font-bold leading-none p-2 border border-slate-300">
+            <div class="text-sm font-bold leading-none p-2 border border-slate-300 flex items-center">
                 {{ t('col-6') }}
             </div>
         </div>

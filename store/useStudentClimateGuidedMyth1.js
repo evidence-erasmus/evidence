@@ -12,9 +12,9 @@ export const useStudentClimateGuidedMyth1 = defineStore("studentClimateGuidedMyt
         q7: "",
         q8: "",
         reliability: [
-            ["", "", "0", ""],
-            ["", "", "0", ""],
-            ["", "", "0", ""]
+            ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
+            ["", "", "'0'", ""]
         ],
         flicc: [
             ["", false, false, false, false, ""],
@@ -25,7 +25,7 @@ export const useStudentClimateGuidedMyth1 = defineStore("studentClimateGuidedMyt
     
     actions : {
         addReliabilityRow(){
-            this.reliability.push(["", "", "0", ""]);
+            this.reliability.push(["", "", "'0'", ""]);
         },
         changeReliabilityValue(row, column, value){
             this.reliability[row][column] = value;
@@ -33,8 +33,8 @@ export const useStudentClimateGuidedMyth1 = defineStore("studentClimateGuidedMyt
         addFliccRow(){
             this.flicc.push(["", false, false, false, false, ""]);
         },
-        changeFliccValue(row, column, value){
-            this.flicc[row][column] = value;
+        changeFliccValue(row, column, newvalue){
+            this.flicc[row][column] = newvalue;
         }
     },
     persist: {

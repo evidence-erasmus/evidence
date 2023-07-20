@@ -2,27 +2,39 @@ import { defineStore } from "pinia";
 
 export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyth2", {
     state: () => ({
-        a1hypothesis: "",
-        a1conclusion: "",
-        a1q1: "",
-        a1q2: "",
-        a1q3: "",
-        a1q4: "",
-        a1q5: "",
+        hypothesis: "",
+        q1: "",
+        q2: "",
+        q3: "",
+        q4: "",
+        q5: "",
+        q6: "",
+        q7: "",
+        q8: "",
         reliability: [
-            ["","","1",""]
+            ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
+            ["", "", "'0'", ""]
         ],
         flicc: [
             ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""]
         ]
     }),
     
     actions : {
         addReliabilityRow(){
-            this.reliability.push(["", "", "1", ""]);
+            this.reliability.push(["", "", "'0'", ""]);
         },
-        changeReliabilityValue(index, value){
-            this.reliability[index][2] = value;
+        changeReliabilityValue(row, column, value){
+            this.reliability[row][column] = value;
+        },
+        addFliccRow(){
+            this.flicc.push(["", false, false, false, false, ""]);
+        },
+        changeFliccValue(row, column, value){
+            this.flicc[row][column] = value;
         }
     },
     persist: {

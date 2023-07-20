@@ -32,5 +32,9 @@ export default {
       "description": "Viruses module description",
       "title": "Viruses"
     }
+  },
+  "print": {
+    "hint": "You can print this page or save as a pdf file",
+    "print": "Print"
   }
 }
