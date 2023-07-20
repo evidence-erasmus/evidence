@@ -1,26 +1,26 @@
 <template>
     <section class="e-card w-[90vw]">  
         <div 
-            class="grid grid-cols-[1fr_1fr_100px_1fr] border-t border-t-slate-300">
+            class="grid grid-cols-[1fr_1fr_110px_1fr] border-t border-t-slate-300">
                 <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">{{ t('col-1') }}</div>
                 <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">{{ t('col-2') }}</div>
                 <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">{{ t('col-3') }}</div>
                 <div class="text-sm font-bold leading-none p-2 border-x border-x-slate-300">{{ t('col-4') }}</div>
         </div>
         <div v-for="row, i in storeToUpdate.reliability" 
-            class="grid grid-cols-[1fr_1fr_100px_1fr]">
+            class="grid grid-cols-[1fr_1fr_110px_1fr]">
             <div v-for="cell, j in row" class="border border-slate-300">
                 <template v-if="j === 2">
                     <div class="flex justify-center items-center h-full">
                         <ClientOnly>
-                            <ToolsReliabilityRating :storeToUpdate="storeToUpdate" :idx="i" :rating="storeToUpdate.reliability[i][2]" />
+                            <ToolsReliabilityRating :storeToUpdate="storeToUpdate" :idx="i" :rating="storeToUpdate.reliability[i][2]" :printMode="printMode" />
                         </ClientOnly>
                     </div>
                 </template>
                 <template v-else>
                     <textarea v-if="!printMode" 
                         v-model="storeToUpdate.reliability[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
-                    <div v-else class="text-sm leading-tight px-2 py-1">
+                    <div v-else class="leading-tight px-2 py-2">
                         {{ storeToUpdate.reliability[i][j] }}
                     </div>
                 </template>
