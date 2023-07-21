@@ -48,22 +48,100 @@
                 }
             ]
         },
+
+
+
+
+
+
+
+
         "cc-myth2": {
             "back": "Tagasi",
             "title": "Kliimamuutused",
             "subtitle": "Juhitud uurimus, müüt 2",
             "myth": "Müüt nr 2: Liigid suudavad kliimamuutustega kohaneda.",
             "hypothesis": "Püstitage selle kohta oma hüpotees:",
-            "argument": {
-                "txt-1": "Teile antakse müüdi nr. 1 põhiargument ja küsimus, millele peate vastama etteantud allikate abil.",
-                "argument": "Müüdi 1 põhiargument: Liikide massiline väljasuremine on loomulik protsess."
+            "a1": {
+                "argument": {
+                    "txt-1": "Teile esitatakse müüdi nr. 2 põhiargumendid ja küsimused, millele peate vastama viidatud allikate abil.",
+                    "argument": "Müüdi 2 argument 1: Liigid on ebasoodsate tingimustega korduvalt kohanenud nii, et nad suudavad uutes kliimatingimustes ellu jääda."
+                },
+                "question": {
+                    "question": "Uurimisküsimus: Kas kliimamuutus mõjutab liikide kohanemisvõimet?",
+                    "txt-1": "Uurige {link1} ja {link2} ning vastake järgnevatele küsimustele.",
+                    "link-1": "allikat 1.1",
+                    "link-2": "vaadake videot"
+                },
+                "q1": {
+                    "title-1": "Uurimisküsimus 1: Kas kliimamuutus mõjutab liikide kohanemisvõimet?",
+                    "txt-1": "Vaadake animatsiooni {link1}  hoolikalt.",
+                    "label-1": "Millest see räägib? Mis selle muutuse põhjustab?",
+                    "label-2": "Millised on selle muudatuse tagajärjed?"
+                },
+                "q2": {
+                    "title-1": "Uurimisküsimus 2: Kas merevesi mõjutab korallide massi?",
+                    "txt-1": "Allikas: Eksperiment “Teravnevad ookeanid”",
+                    "list-1-title": "Vahendid ja materjalid:",
+                    "list-1": [
+                        "Teokarbid (samas suuruses ja hästi puhastatud)",
+                        "4,5%-line äädikhappe lahus (50g)","2 plastkarpi koos kaanega",
+                        "Merevesi 400g või soolvesi, mis simuleerib 35‰ Suure Korallrahu juures olevat merevett",
+                        "Mõõtsilindrid",
+                        "Metallsõel vms",
+                        "Veekeetja",
+                        "Kuum vesi",
+                        "Kleebitavad etiketid"
+                    ],
+                    "list-2-title": "Katse käik:",
+                    "list-2": [
+                        "Kaalu teokarbid. Pane saadud massid kirja. Jaotage teokarbid kaheks osaks nii, et need oleksid sama massiga.",
+                        "Pane kahte identsesse anumasse 200 g merevett. Lisa esimesse anumasse 50 grammi äädikat.",
+                        "Aseta mõlemasse anumasse sama massiga kogus teokarpe.",
+                        "Kata anumad ning hoia neid 40 minutit samades tingimustes.",
+                        "Keeda teokarbid (kumbki osa eraldi) kuumas vees ja jäta 15 minutiks seisma.",
+                        "Puhasta iga kest eraldi. Lase neil väga hästi kuivada.",
+                        "Kaalu kumbki osa eraldi ja pane nende uued massid kirja."
+                    ],
+                    "hypothesis": "Hüpotees",
+                    "data-table-title": "Kogutud andmed",
+                    "data-table": [
+                        {
+                            "title": "Kontrollmuutujad",
+                            "subtitle": "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
+                        },
+                        {
+                            "title": "Sõltumatu muutuja",
+                            "subtitle": "(see, mida muudetakse)"
+                        },
+                        {
+                            "title": "Sõltuv muutuja",
+                            "subtitle": "(see mida sekkumise tulemusena mõõdetakse)"
+                        }
+                    ],
+                    "conclusions": "Järeldused:",
+                    "source-1": {
+                        "txt-1": "Uuri {link1} ja vasta küsimusele:",
+                        "link-1": "allikat 2.2",
+                        "label-1": "Miks on korallide pleekimine murettekitav?"
+                    },
+                    "source-2": {
+                        "txt-1": "Uuri {link1} ja vasta küsimusele:",
+                        "link-1": "allikat 2.3",
+                        "label-1": "Millest allikas räägib? Kuidas on omavahel seotud kliimamuutused ning viiruste ja haiguste levimine?"
+                    },
+                    "source-3": {
+                        "txt-1": "Vaata animatsiooni: {link1}",
+                        "link-1": "Kliimamuutused: Jää sulamine ja loomad",
+                        "label-1": "Kuidas kliimamuutused mõjutavad jääkarude populatsioone?"
+                    }
+                }
+
             },
-            "question": {
-                "question": "Uurimisküsimus: Kas liikide massiline väljasuremine on loomulik protsess?",
-                "txt-1": "Uurige {link1} ja {link2} ning vastake järgnevatele küsimustele.",
-                "link-1": "allikat 1.1",
-                "link-2": "vaadake videot"
+            "a2": {
+                "argument": "Müüdi 2 argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema."
             },
+            
             "q-1": "1. Mida me mõtleme „massilise väljasuremise” all?",
             "q-2": "2. Kui palju massilist väljasuremist teie arvates toimub?",
             "q-3": "3. Millised olid massilise väljasuremise põhjused?",
@@ -83,16 +161,20 @@
             "q-9": "9. Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
             "flicc-sources": [
                 {
-                    "name": "Allikas 2.1",
-                    "url": "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
-                },
-                {
-                    "name": "Video 2",
-                    "url": "https://www.youtube.com/watch?v=nho73BtDQtE"
+                    "name": "Mere ökosüsteem – korallide juhtum",
+                    "url": "https://youtu.be/saUTXISSlBI"
                 },
                 {
                     "name": "Allikas 2.2",
-                    "url": "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
+                    "url": "https://drive.google.com/file/d/1dsgBLIsNaDFpB7y2AMamJgC41GEDHpt3/view?usp=share_link"
+                },
+                {
+                    "name": "Allikas 2.3",
+                    "url": "https://drive.google.com/file/d/1iVTPAHaL8bbUWskgKFvJfrRLjoQsQCde/view?usp=share_link"
+                },
+                {
+                    "name": "Jää sulamine ja loomad",
+                    "url": "https://youtu.be/mEgYnOaiJnU"
                 }
             ]
         }

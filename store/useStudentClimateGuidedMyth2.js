@@ -2,6 +2,22 @@ import { defineStore } from "pinia";
 
 export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyth2", {
     state: () => ({
+        a1: {
+            q1: {
+                t1: "",
+                t2: ""
+            },
+            q2: {
+                hypothesis: "",
+                conclusions: "",
+                source1: "",
+                source2: "",
+                source3: "",
+                datatable: [
+                    ["", "", ""]
+                ]
+            }
+        },
         hypothesis: "",
         q1: "",
         q2: "",
@@ -14,9 +30,11 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
         reliability: [
             ["", "", "'0'", ""],
             ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
             ["", "", "'0'", ""]
         ],
         flicc: [
+            ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""]
@@ -29,6 +47,10 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
         },
         changeReliabilityValue(row, column, value){
             this.reliability[row][column] = value;
+        },
+        addDynamicRow(key){
+            console.log("Adding dynamic row");
+            key.push(["", "", ""]);
         },
         addFliccRow(){
             this.flicc.push(["", false, false, false, false, ""]);
