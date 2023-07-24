@@ -9,7 +9,9 @@
     const addSources = (arr) => {
         arr.forEach((el, index) => {
             climateMythTwoAnswers.changeFliccValue(index, 0, el.name.body.static);
+            // console.log(el.name.body.static);
             climateMythTwoAnswers.changeReliabilityValue(index, 0, el.name.body.static);
+            // climateMythTwoAnswers.changeReliabilityValue(3, 0, "Rullu");
         })
     }
     addSources(tm('inquiry.cc-myth2.flicc-sources'));
@@ -79,10 +81,10 @@
             <textarea id="a1q1" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
             v-model="climateMythTwoAnswers.a1.q1.t1"></textarea>
             
-            <label for="a1q1" class="block mb-2 mt-4">
+            <label for="a1q1t2" class="block mb-2 mt-4">
                 <b>{{ t('inquiry.cc-myth2.a1.q1.label-2') }}</b>
             </label>
-            <textarea id="a1q1" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+            <textarea id="a1q1t2" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
             v-model="climateMythTwoAnswers.a1.q1.t2"></textarea>
 
             <hr />
@@ -105,8 +107,9 @@
                 class="leading-tight my-2">{{ rt(item)}}</li>
             </ul>
 
-            <h4>{{ t('inquiry.cc-myth2.a1.q2.list-2-title') }}</h4>
 
+
+            <h4>{{ t('inquiry.cc-myth2.a1.q2.list-2-title') }}</h4>
             <ol>
                 <li v-for="item in tm('inquiry.cc-myth2.a1.q2.list-2')"
                 class="leading-tight my-2">{{ rt(item)}}</li>
@@ -114,7 +117,7 @@
 
 
             
-            <div style="transform:translateX(-6vw)">
+            <div style="transform:translateX(-6vw)" class="mb-8">
                 <ToolsDynamicTable :tableStructure="tm('inquiry.cc-myth2.a1.q2.data-table')" :storeToUpdate="climateMythTwoAnswers" :keyToUpdate="climateMythTwoAnswers.a1.q2.datatable" />
             </div>
             
@@ -124,10 +127,74 @@
             <label for="a1q2hypothesis" class="block mb-2 mt-4">
                 <b>{{ t('inquiry.cc-myth2.a1.q2.hypothesis') }}</b>
             </label>
-            <textarea id="a1q2hypothesis" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+            <textarea id="a1q2hypothesis" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
             v-model="climateMythTwoAnswers.a1.q2.hypothesis"></textarea>
 
-            <h1 class="bg-rose-600 text-yellow-100">TABLE HERE</h1>            
+
+
+
+            <label for="table2" class="block mb-2 mt-4">
+                <b>{{ t('inquiry.cc-myth2.a1.q2.table2-title') }}</b>
+            </label>
+
+            <section id="table2" class="e-card text-sm mb-8">
+                <div class="grid grid-cols-3">
+                    <div class="border border-slate-300 px-2 py-3 ">
+                    </div>
+                    <div class="border border-slate-300 px-2 py-3 font-bold">
+                        {{ t('inquiry.cc-myth2.a1.q2.table2.r1c2') }}
+                    </div>
+                    <div class="border border-slate-300 px-2 py-3 font-bold">
+                        {{ t('inquiry.cc-myth2.a1.q2.table2.r1c3') }}
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3">
+                    <div class="border border-slate-300 px-2 py-1 font-bold">
+                        {{ t('inquiry.cc-myth2.a1.q2.table2.r2c1') }}
+                    </div>
+                    <div class="border border-slate-300 ">
+                        <textarea v-model="climateMythTwoAnswers.a1.q2.table2[1][1]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                    <div class="border border-slate-300 ">
+                        <textarea v-model="climateMythTwoAnswers.a1.q2.table2[1][2]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3">
+                    <div class="border border-slate-300 px-2 py-1 font-bold">
+                        {{ t('inquiry.cc-myth2.a1.q2.table2.r3c1') }}
+                    </div>
+                    <div class="border border-slate-300">
+                        <textarea v-model="climateMythTwoAnswers.a1.q2.table2[2][1]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                    <div class="border border-slate-300">
+                        <textarea v-model="climateMythTwoAnswers.a1.q2.table2[2][2]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3">
+                    <div class="border border-slate-300 px-2 py-1 text-sm font-bold">
+                        {{ t('inquiry.cc-myth2.a1.q2.table2.r4c1') }}
+                    </div>
+                    <div class="border border-slate-300">
+                        <textarea v-model="climateMythTwoAnswers.a1.q2.table2[3][1]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                    <div class="border border-slate-300">
+                        <textarea v-model="climateMythTwoAnswers.a1.q2.table2[3][2]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            
+
 
             <label for="a1q2conclusions" class="block mb-2 mt-4">
                 <b>{{ t('inquiry.cc-myth2.a1.q2.conclusions') }}</b>
@@ -183,7 +250,7 @@
 
 
 
-
+            <!-- Argument 2 -->
 
 
             <hr />
@@ -196,88 +263,73 @@
 
 
 
+            <UiCardInfo theme="sky-400" icon="tabler:zoom-question" class="mt-6">
+                <h4 class="leading-tight my-2">
+                    {{ t('inquiry.cc-myth2.a2.q1.question') }}
+                </h4>
+            </UiCardInfo>
 
-            <!-- <label for="q3" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth2.q-2') }}</b>
-            </label>
-            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
-            v-model="climateMythTwoAnswers.q2"></textarea>
 
-            <hr />
-            
-            <label for="q4" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth2.q-3') }}</b>
-            </label>
-            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
-            v-model="climateMythTwoAnswers.q3"></textarea>
-
-            <hr />
-            
-            <label for="q5" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth2.q-4') }}</b>
-            </label>
-            <textarea id="q5" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
-            v-model="climateMythTwoAnswers.q4"></textarea>
-
-            <hr />
-            
-            <label for="q6" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth2.q-5') }}</b>
-            </label>
-            <textarea id="q6" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
-            v-model="climateMythTwoAnswers.q5"></textarea>
-
-            <hr />
-            
-            <i18n-t keypath="inquiry.cc-myth2.q-6.txt-1" scope="global">
+             <i18n-t tag="h4" keypath="inquiry.cc-myth2.a2.q1.source-1.txt-1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth2.flicc-sources[2].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth2.q-6.link-1') }}</a> 
+                    <a :href="t('inquiry.cc-myth2.flicc-sources[4].url')" >{{ t('inquiry.cc-myth2.a2.q1.source-1.link-1') }}</a>
                 </template>
             </i18n-t>
 
-            <label for="q7" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth2.q-6.q-6') }}</b>
+            <label for="a2q1source1" class="block mb-2 mt-4">
+                <b>{{ t('inquiry.cc-myth2.a2.q1.source-1.label-1') }}</b>
             </label>
-            <textarea id="q7" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
-            v-model="climateMythTwoAnswers.q6"></textarea>
+            <textarea id="a2q1source1" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+            v-model="climateMythTwoAnswers.a2.q1.source1"></textarea>
+
+
             
+
+
+            <label for="a2q1t1" class="block mb-2 mt-4">
+                <b>{{ t('inquiry.cc-myth2.a2.q1.label-2') }}</b>
+            </label>
+            <textarea id="a2q1t1" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+            v-model="climateMythTwoAnswers.a2.q1.t1"></textarea>
+
+
+           
             <hr />
 
-            <i18n-t tag="p" keypath="inquiry.cc-myth2.q-7.txt-1" scope="global">
+            
+
+            <i18n-t tag="p" keypath="inquiry.cc-myth2.reliability.txt-1" scope="global">
                 <template #link1>
-                    <a href="https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link" target="_blank" rel="noreferrer noopener">
-                        {{ t('inquiry.cc-myth2.q-7.link-1') }}
+                    <a :href="t('inquiry.cc-myth2.reliability.url-1')">
+                        {{ t('inquiry.cc-myth2.reliability.link-1') }}
                     </a>
                 </template>
             </i18n-t>
 
             <p>
-                <b>{{ t('inquiry.cc-myth2.q-7.q-7') }}</b>
+                <b>{{ t('inquiry.cc-myth2.reliability.label-1') }}</b>
             </p>
 
-            <div style="transform:translateX(-6vw)">
-                <ClientOnly>
+            <div class="mb-8" style="transform:translateX(-6vw)">
+                <!-- <ClientOnly> -->
                     <ToolsReliabilityTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2rlblty" />
-                </ClientOnly>
+                <!-- </ClientOnly> -->
             </div>
 
-            <hr />
 
-            <label for="q8" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth2.q-8') }}</b>
+            <label for="conclusions" class="block mb-2 mt-4">
+                <b>{{ t('inquiry.cc-myth2.conclusions') }}</b>
             </label>
-            <textarea id="q8" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
-            v-model="climateMythTwoAnswers.q8"></textarea>
-
-            <hr />
+            <textarea id="conclusions" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+            v-model="climateMythTwoAnswers.conclusions"></textarea>
 
             <p>
-                <b>{{ t('inquiry.cc-myth2.q-9') }}</b>
-            </p> -->
+                <b>{{ t('inquiry.cc-myth2.flicc-label') }}</b>
+            </p>
 
-            <div style="transform:translateX(-6vw)">
-                    <ToolsFliccTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
-                <!-- </ClientOnly> -->
+            <div style="transform:translateX(-6vw)" class="my-8">
+                    <ModulesFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
+                    <!-- <ToolsFliccTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" /> -->
             </div>
             
         </section>

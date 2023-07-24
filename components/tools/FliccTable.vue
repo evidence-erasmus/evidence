@@ -51,7 +51,7 @@
                 </div>
                 <template v-else>
                     <textarea v-if="printMode===false"
-                    v-model="storeToUpdate.flicc[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2"></textarea>
+                    v-model="storeToUpdate.flicc[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2 leading-tight"></textarea>
                     <div v-else class="mx-2 my-1">{{ storeToUpdate.flicc[i][j] }}</div>
                 </template>
             </div>

@@ -103,8 +103,6 @@
                         "Puhasta iga kest eraldi. Lase neil väga hästi kuivada.",
                         "Kaalu kumbki osa eraldi ja pane nende uued massid kirja."
                     ],
-                    "hypothesis": "Hüpotees",
-                    "data-table-title": "Kogutud andmed",
                     "data-table": [
                         {
                             "title": "Kontrollmuutujad",
@@ -119,6 +117,15 @@
                             "subtitle": "(see mida sekkumise tulemusena mõõdetakse)"
                         }
                     ],
+                    "table2-title": "Kogutud andmed",
+                    "table2": {
+                        "r1c2": "Teokarbid A",
+                        "r1c3": "Teokarbid B",
+                        "r2c1": "Algne mass (g):",
+                        "r3c1": "Lõplik mass (g)",
+                        "r4c1": "Masside vahe (g):"
+                    },
+                    "hypothesis": "Hüpotees",
                     "conclusions": "Järeldused:",
                     "source-1": {
                         "txt-1": "Uuri {link1} ja vasta küsimusele:",
@@ -139,7 +146,15 @@
 
             },
             "a2": {
-                "argument": "Müüdi 2 argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema."
+                "argument": "Müüdi 2 argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema.",
+                "q1" : {
+                    "title-1": "Uurimisküsimus: Kas kliimamuutus mõjutab liikide evolutsiooni?",
+                    "source-1": {
+                        "txt-1":"Tutvu {link1}",
+                        "link-1": "allikaga 2.1",
+                        "label-1":"Mida tähendab liikide evolutsioon?"
+                    }
+                }
             },
             
             "q-1": "1. Mida me mõtleme „massilise väljasuremise” all?",
@@ -175,6 +190,10 @@
                 {
                     "name": "Jää sulamine ja loomad",
                     "url": "https://youtu.be/mEgYnOaiJnU"
+                },
+                {
+                    "name": "Allikas 2.1",
+                    "url": "https://drive.google.com/file/d/19OENqL4uwh8YKd5SvAGUN44FC9md8nh5/view"
                 }
             ]
         }

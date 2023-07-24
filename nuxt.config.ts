@@ -48,7 +48,7 @@ export default defineNuxtConfig({
                 code: 'et',
                 iso: 'et_EE',
                 name: 'Estonian',
-                files: ['et.main.json', 'et.inquiry.json']
+                files: ['et.main.js', 'et.inquiry.js']
             },
         ],
         lazy: true,

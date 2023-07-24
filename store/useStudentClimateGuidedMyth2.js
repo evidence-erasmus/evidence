@@ -15,19 +15,26 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
                 source3: "",
                 datatable: [
                     ["", "", ""]
+                ],
+                table2: [
+                    ["", "", ""],
+                    ["", "", ""],
+                    ["", "", ""],
+                    ["", "", ""],
                 ]
             }
         },
+        a2: {
+            q1: {
+                source1: "",
+                t1: "",
+            }
+        },
         hypothesis: "",
-        q1: "",
-        q2: "",
-        q3: "",
-        q4: "",
-        q5: "",
-        q6: "",
-        q7: "",
-        q8: "",
+        conclusions: "",
+        
         reliability: [
+            ["", "", "'0'", ""],
             ["", "", "'0'", ""],
             ["", "", "'0'", ""],
             ["", "", "'0'", ""],
@@ -37,7 +44,14 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""],
             ["", false, false, false, false, ""]
+        ],
+        flicc2: [
+            [false, ""],
+            [false, ""],
+            [false, ""],
+            [false, ""]
         ]
     }),
     
@@ -49,7 +63,6 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
             this.reliability[row][column] = value;
         },
         addDynamicRow(key){
-            console.log("Adding dynamic row");
             key.push(["", "", ""]);
         },
         addFliccRow(){
@@ -57,6 +70,9 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
         },
         changeFliccValue(row, column, value){
             this.flicc[row][column] = value;
+        },
+        changeFlicc2Value(row, column, value){
+            this.flicc2[row][column] = value;
         }
     },
     persist: {
