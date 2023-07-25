@@ -1,5 +1,5 @@
 <template>
-    <section class="w-[90vw] ">
+    <section class="w-full">
         <div 
         class="grid grid-cols-[1fr_100px_1fr]">
             <div class="text-sm font-bold leading-none p-3 border border-slate-300"> {{ t('col-1') }}</div>

@@ -306,7 +306,7 @@
                 </template>
             </i18n-t>
 
-            <p>
+            <p class="leading-tight">
                 <b>{{ t('inquiry.cc-myth2.reliability.label-1') }}</b>
             </p>
 
@@ -317,17 +317,17 @@
             </div>
 
 
-            <label for="conclusions" class="block mb-2 mt-4">
+            <label for="conclusions" class="block mb-2 mt-4 leading-tight">
                 <b>{{ t('inquiry.cc-myth2.conclusions') }}</b>
             </label>
             <textarea id="conclusions" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
             v-model="climateMythTwoAnswers.conclusions"></textarea>
 
-            <p>
+            <p class="leading-tight">
                 <b>{{ t('inquiry.cc-myth2.flicc-label') }}</b>
             </p>
 
-            <div style="transform:translateX(-6vw)" class="my-8">
+            <div style="transform:translateX(-6vw)" class="e-card my-8">
                     <ModulesFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
                     <!-- <ToolsFliccTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" /> -->
             </div>

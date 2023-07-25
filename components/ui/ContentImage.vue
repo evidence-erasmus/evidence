@@ -29,7 +29,7 @@
                 :src="src" 
                 fit="contain"
                 loading="lazy"
-                class="block"
+                class="block w-full"
             />
             <figcaption class="block text-sm text-center italic mt-4 w-full">
                 <slot name="caption"></slot>

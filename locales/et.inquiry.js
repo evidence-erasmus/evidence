@@ -1,5 +1,5 @@
 export default {
-  "inquiry": {
+  inquiry: {
     "cc-myth1": {
       "back": "Tagasi",
       "title": "Kliimamuutused",
@@ -68,7 +68,7 @@ export default {
       "a1": {
         "argument": {
           "txt-1": "Teile esitatakse müüdi nr. 2 põhiargumendid ja küsimused, millele peate vastama viidatud allikate abil.",
-          "argument": "Müüdi 2 argument 1: Liigid on ebasoodsate tingimustega korduvalt kohanenud nii, et nad suudavad uutes kliimatingimustes ellu jääda."
+          "argument": "Argument 1: Liigid on ebasoodsate tingimustega korduvalt kohanenud nii, et nad suudavad uutes kliimatingimustes ellu jääda."
         },
         "q1": {
           "title-1": "Uurimisküsimus 1: Kas kliimamuutus mõjutab liikide kohanemisvõimet?",
@@ -102,16 +102,16 @@ export default {
           ],
           "data-table": [
             {
-              "title": "Kontrollmuutujad",
-              "subtitle": "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
+              "thead": "Kontrollmuutujad",
+              "tsubhead": "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
             },
             {
-              "title": "Sõltumatu muutuja",
-              "subtitle": "(see, mida muudetakse)"
+              "thead": "Sõltumatu muutuja",
+              "tsubhead": "(see, mida muudetakse)"
             },
             {
-              "title": "Sõltuv muutuja",
-              "subtitle": "(see mida sekkumise tulemusena mõõdetakse)"
+              "thead": "Sõltuv muutuja",
+              "tsubhead": "(see mida sekkumise tulemusena mõõdetakse)"
             }
           ],
           "table2-title": "Kogutud andmed",
@@ -144,7 +144,7 @@ export default {
 
 
       "a2": {
-        "argument": "Müüdi 2 argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema.",
+        "argument": "Argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema.",
         "q1": {
           "question": "Uurimisküsimus: Kas kliimamuutus mõjutab liikide evolutsiooni?",
           "source-1": {
@@ -188,6 +188,91 @@ export default {
         {
           "name": "Allikas 2.1",
           "url": "https://drive.google.com/file/d/19OENqL4uwh8YKd5SvAGUN44FC9md8nh5/view"
+        }
+      ]
+    },
+
+
+
+
+
+
+
+    cc_myth3 : {
+      title: "Kliimamuutused",
+      subtitle: "Juhitud uurimus, müüt 3",
+      myth: "Müüt nr 3: Kliimamuutuste alane teadus ei ole usaldusväärne.",
+      "hypothesis": "Püstitage selle kohta oma hüpotees.",
+      argument : {
+        txt_1: "Teile esitatakse müüdi 3 põhiargument ja uurimisküsimus, millele vastamiseks saate kasutada mitmeid allikaid.",
+        argument: "Müüdi 3 põhiargument: Vaatlusjaamadest kogutud andmed CO2 koguse kohta ei ole usaldusväärsed, seega pole kliimamuutus reaalne fakt."
+      },
+      question: "Uurimisküsimus: Kas saame toetuda vaatlusjaamadest kogutud andmetele CO₂ koguse kohta?",
+      source_1: {
+        txt_1: "Vaata videot {link1} ning loe alljärgnevat teksti hoolikalt.",
+        link_1: "Building a robust temperature record",
+        txt_2: "Globaalne kuu keskmine pinnatemperatuur (GMST) on rekonstrueeritud: 1. NASA GISTEMP, 2. CRUTEM (Ida-Inglismaa ülikooli kliimauuringute üksus), 3. National Climate Data NOAA (NCDC) kogutud andmete kombinatsioonist. Kliima rekonstrueerimise aluseks olevad andmed pärinevad maa-, õhu- ja merevaatlusallikatest."
+      },
+      img_1: {
+        caption: "Joonis 1. NOAA poolt kogutud temperatuuriandmed."
+      },
+      q_1: "Milliseid andmete kogumise meetodeid NOAA kasutab?",
+      q_2: "Mida te märkate andmete kogumise meetodite ning nende geograafilise asukoha kohta?",
+      q_3: "NOAA haldab vaatluskeskuste baase (Baseline Observatories). Kui palju selliseid jaamu kaardilt leiate?",
+      q_4: "Mida te märkate nende vaatluskeskuste asukohtade kohta? Miks te arvate, mis on põhjuseks, et need jaamad just nendes asukohtades paiknevad?",
+      noaa_stations: {
+        txt_1: "Vaata NOAA poolt hallatavat veebilehte {link1}.  Millised on need 4 NOAA vaatlusjaama?  Kus need paiknevad (pikkus- ja laiuskraad) ja millisel kõrgusel? (Allikad  {source31}, {source32}, {source33}, {source34})",
+        link_1: "Global Monitoring Laboratory",
+        url_1: "https://gml.noaa.gov/",
+        source_31: {
+          link: "3.1",
+          url: "https://drive.google.com/file/d/1yoT-7tTwsyKiPN7g1lPR4WwDl_R-9Tji/view?usp=sharing"
+        },
+        source_32: {
+          link: "3.2",
+          url: "https://drive.google.com/file/d/1uPvEUfKS2Yx6yMU9w5apr9Qhcs8nH4rG/view?usp=sharing"
+        },
+        source_33: {
+          link: "3.3",
+          url: "https://drive.google.com/file/d/1eR9NEujMajlKlAW_M75mcQQBIVjpIZo_/view?usp=sharing"
+        },
+        source_34: {
+          link: "3.4",
+          url: "https://drive.google.com/file/d/195ONima1nfQYeiUaRb6_X8GiTvax13gB/view?usp=sharing"
+        }
+      },
+      noaa1_table: [
+        {thead:"Vaatlusjaam"},
+        {thead:"Pikkuskraad"},
+        {thead:"Laiuskraad"},
+        {thead:"Kõrgus"},
+      ],
+      q_5: "Mida märkate nende asukohtade juures?",
+      img_2: {
+        txt_1: "Nende jaamade kaudu saame igal ajal teavet valitsevate ilmatingimuste kohta. {link1} Hawaii Mauna Loa jaama uusimaid salvestusi.",
+        link_1: "Siit leiate",
+        url_1: "https://gml.noaa.gov/obop/mlo/met.html",
+        caption:"Joonis 2. NOAA neljast vaatlusjaamast kogutud mõõtmiste (CO₂) tulemused aastatel 1975-2020.",
+        conclusion: "Milliseid järeldusi saab graafikute (N:  Joonis 2) põhjal teha?",
+      },
+      conclusion: "Tuginedes kogutud tõenditele, millised on teie järeldused  müüdi “Kliimamuutuste alane teadus ei ole usaldusväärne”, paikapidavuse kohta?",
+      flicc_label: "Tuginedes kogutud infole, mis te arvate, milliste teaduse eitamise taktikate tõttu see müüt on tekkinud?",
+      flicc_sources: [
+        {
+          name: "Video: Building a robust temperature record",
+          url: "https://www.youtube.com/watch?v=YKQiyBkt4Vs&t=228s"
+        },
+        {
+          name: "Joonis 1",
+          url: "https://evidence.onkel.ee/assets/c-change__myth3__img1.webp"
+        },
+        {
+          name: "NOAA veebileht",
+          url: "https://gml.noaa.gov/"
+        },
+        {
+          name: "Joonis 2",
+          url: "https://evidence.onkel.ee/assets/c-change__myth3__img2.webp"
         }
       ]
     }
