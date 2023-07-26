@@ -8,13 +8,11 @@
 
     const addSources = (arr) => {
         arr.forEach((el, index) => {
-            climateMyth3Answers.changeFliccValue(index, 0, el.name.body.static);
-            // console.log(el.name.body.static);
-            climateMyth3Answers.changeReliabilityValue(index, 1, el.name.body.static);
-            // climateMythTwoAnswers.changeReliabilityValue(3, 0, "Rullu");
+            climateMyth3Answers.changeFliccValue(index, 0, rt(el.name));
+            climateMyth3Answers.changeReliabilityValue(index, 1, rt(el.name));
         })
     }
-    addSources(tm('inquiry.cc_myth3.flicc_sources'));
+    addSources(tm('inquiry.cc_myth3.sources'));
 
 </script>
 
@@ -75,7 +73,7 @@
 
             <i18n-t tag="p" keypath="inquiry.cc_myth3.source_1.txt_1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc_myth3.flicc_sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth3.flicc_sources[0].name') }}</a>
+                    <a :href="t('inquiry.cc_myth3.sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth3.sources[0].name') }}</a>
                 </template>
             </i18n-t>
             
@@ -194,7 +192,7 @@
 
 
             <div class="mb-8" style="transform:translateX(-5vw)">
-                    <ToolsReliabilityTable :storeToUpdate="climateMyth3Answers" key="ccmyth3rlblty" />
+                    <ToolsReliabilityTable :storeToUpdate="climateMyth3Answers" currentSources="inquiry.cc_myth3.sources" key="ccmyth3rlblty" />
             </div>
 
 

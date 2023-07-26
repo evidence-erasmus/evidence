@@ -1,5 +1,14 @@
 export default {
   inquiry: {
+    reliability_table : {
+        cols: {
+          col_1:"Tõendid / peamised järeldused / kokkuvõte hüpoteesist",
+          col_2:"Tõendite tüüp ja allikas",
+          col_3:"Hinnang usaldusväärsusele",
+          col_4:"Kommentaarid"
+        },
+        add_row: "LISA RIDA"
+    },
     "cc-myth1": {
       "back": "Tagasi",
       "title": "Kliimamuutused",
@@ -33,7 +42,7 @@ export default {
       },
       "q-8": "8. Esitatud tõendite põhjal on meie järeldus(ed) müüdi “Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud”, paikapidavuse kohta järgmine (järgmised):",
       "q-9": "9. Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
-      "flicc-sources": [
+      "sources": [
         {
           "name": "Allikas 1.1",
           "url": "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
@@ -168,7 +177,7 @@ export default {
 
       "flicc-label": "Tuginedes kogutud teadmistele, mis te arvate, millise teaduse eitamise taktika tõttu antud müüt on tekkinud?",
 
-      "flicc-sources": [
+      "sources": [
         {
           "name": "Mere ökosüsteem – korallide juhtum",
           "url": "https://youtu.be/saUTXISSlBI"
@@ -257,7 +266,7 @@ export default {
       },
       conclusion: "Tuginedes kogutud tõenditele, millised on teie järeldused  müüdi “Kliimamuutuste alane teadus ei ole usaldusväärne”, paikapidavuse kohta?",
       flicc_label: "Tuginedes kogutud infole, mis te arvate, milliste teaduse eitamise taktikate tõttu see müüt on tekkinud?",
-      flicc_sources: [
+      sources: [
         {
           name: "Video: Building a robust temperature record",
           url: "https://www.youtube.com/watch?v=YKQiyBkt4Vs&t=228s"

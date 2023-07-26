@@ -8,13 +8,11 @@
 
     const addSources = (arr) => {
         arr.forEach((el, index) => {
-            climateMythTwoAnswers.changeFliccValue(index, 0, el.name.body.static);
-            // console.log(el.name.body.static);
-            climateMythTwoAnswers.changeReliabilityValue(index, 0, el.name.body.static);
-            // climateMythTwoAnswers.changeReliabilityValue(3, 0, "Rullu");
+            climateMythTwoAnswers.changeFliccValue(index, 0, rt(el.name));
+            climateMythTwoAnswers.changeReliabilityValue(index, 1, rt(el.name));
         })
     }
-    addSources(tm('inquiry.cc-myth2.flicc-sources'));
+    addSources(tm('inquiry.cc-myth2.sources'));
 
 </script>
 
@@ -71,7 +69,7 @@
 
             <i18n-t tag="p" keypath="inquiry.cc-myth2.a1.q1.txt-1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth2.flicc-sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth2.flicc-sources[0].name') }}</a>
+                    <a :href="t('inquiry.cc-myth2.sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth2.sources[0].name') }}</a>
                 </template>
             </i18n-t>
             
@@ -207,7 +205,7 @@
             
             <i18n-t tag="h4" keypath="inquiry.cc-myth2.a1.q2.source-1.txt-1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth2.flicc-sources[1].url')" >{{ t('inquiry.cc-myth2.a1.q2.source-1.link-1') }}</a>
+                    <a :href="t('inquiry.cc-myth2.sources[1].url')" >{{ t('inquiry.cc-myth2.a1.q2.source-1.link-1') }}</a>
                 </template>
             </i18n-t>
 
@@ -219,7 +217,7 @@
             
             <i18n-t tag="h4" keypath="inquiry.cc-myth2.a1.q2.source-2.txt-1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth2.flicc-sources[2].url')" >{{ t('inquiry.cc-myth2.a1.q2.source-2.link-1') }}</a>
+                    <a :href="t('inquiry.cc-myth2.sources[2].url')" >{{ t('inquiry.cc-myth2.a1.q2.source-2.link-1') }}</a>
                 </template>
             </i18n-t>
 
@@ -231,7 +229,7 @@
             
             <i18n-t tag="h4" keypath="inquiry.cc-myth2.a1.q2.source-3.txt-1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth2.flicc-sources[3].url')" >{{ t('inquiry.cc-myth2.flicc-sources[3].name') }}</a>
+                    <a :href="t('inquiry.cc-myth2.sources[3].url')" >{{ t('inquiry.cc-myth2.sources[3].name') }}</a>
                 </template>
             </i18n-t>
 
@@ -272,7 +270,7 @@
 
              <i18n-t tag="h4" keypath="inquiry.cc-myth2.a2.q1.source-1.txt-1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth2.flicc-sources[4].url')" >{{ t('inquiry.cc-myth2.a2.q1.source-1.link-1') }}</a>
+                    <a :href="t('inquiry.cc-myth2.sources[4].url')" >{{ t('inquiry.cc-myth2.a2.q1.source-1.link-1') }}</a>
                 </template>
             </i18n-t>
 
@@ -312,7 +310,7 @@
 
             <div class="mb-8" style="transform:translateX(-6vw)">
                 <!-- <ClientOnly> -->
-                    <ToolsReliabilityTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2rlblty" />
+                    <ToolsReliabilityTable :storeToUpdate="climateMythTwoAnswers" currentSources="inquiry.cc-myth2.sources" key="ccmyth2rlblty" />
                 <!-- </ClientOnly> -->
             </div>
 

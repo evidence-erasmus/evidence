@@ -1,5 +1,14 @@
 export default {
-    "inquiry": {
+    inquiry: {
+        reliability_table : {
+            cols: {
+              col_1:"Evidence / main conclusions / summary of the information relevant to the hypothesis",
+              col_2:"Type and source of evidence",
+              col_3:"Reliability rate",
+              col_4:"Comments"
+            },
+            add_row: "ADD ROW"
+        },
         "cc-myth1":{
             "back": "Back",
             "title": "Climate change",

@@ -2,18 +2,18 @@
     import { useStudentClimateGuidedMyth1 } from '~~/store/useStudentClimateGuidedMyth1.js'; 
     const climateMythOneAnswers = useStudentClimateGuidedMyth1();
 
-    const { locale, t, tm } = useI18n({
+    const { locale, t, tm, rt } = useI18n({
         useScope: 'global'
     });
 
     
     const addSources = (arr) => {
         arr.forEach((el, index) => {
-            climateMythOneAnswers.changeFliccValue(index, 0, el.name.body.static);
-            climateMythOneAnswers.changeReliabilityValue(index, 0, el.name.body.static);
+            climateMythOneAnswers.changeFliccValue(index, 0, rt(el.name));
+            climateMythOneAnswers.changeReliabilityValue(index, 1, rt(el.name));
         })
     }
-    addSources(tm('inquiry.cc-myth1.flicc-sources'));
+    addSources(tm('inquiry.cc-myth1.sources'));
 
     // console.log("Messages" , i18n);
     
@@ -278,7 +278,7 @@
 
             <div style="transform:translateX(-6vw)">
                 <ClientOnly>
-                    <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" />
+                    <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" currentSources="inquiry.cc-myth1.sources" />
                 </ClientOnly>
             </div>
 
