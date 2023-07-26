@@ -1,7 +1,11 @@
 export default {
   inquiry: {
+    add_row: "Lisa rida",
     reliability_table : {
-        cols: {
+      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.     Kirjutage oma uurimistulemustest kokkuvõte allpoololevasse tabelisse.",
+      link_1: "tööriista",
+      url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",  
+      cols: {
           col_1:"Tõendid / peamised järeldused / kokkuvõte hüpoteesist",
           col_2:"Tõendite tüüp ja allikas",
           col_3:"Hinnang usaldusväärsusele",
@@ -211,7 +215,7 @@ export default {
       title: "Kliimamuutused",
       subtitle: "Juhitud uurimus, müüt 3",
       myth: "Müüt nr 3: Kliimamuutuste alane teadus ei ole usaldusväärne.",
-      "hypothesis": "Püstitage selle kohta oma hüpotees.",
+      hypothesis: "Püstitage selle kohta oma hüpotees.",
       argument : {
         txt_1: "Teile esitatakse müüdi 3 põhiargument ja uurimisküsimus, millele vastamiseks saate kasutada mitmeid allikaid.",
         argument: "Müüdi 3 põhiargument: Vaatlusjaamadest kogutud andmed CO2 koguse kohta ei ole usaldusväärsed, seega pole kliimamuutus reaalne fakt."
@@ -282,6 +286,161 @@ export default {
         {
           name: "Joonis 2",
           url: "https://evidence.onkel.ee/assets/c-change__myth3__img2.webp"
+        }
+      ]
+    },
+    
+    
+    
+    
+    
+    cc_myth4: {},
+
+
+
+
+    cc_myth5: {
+      title: "Kliimamuutused",
+      subtitle: "Juhitud uurimus, müüt 5",
+      myth: "Müüt nr 5: Globaalne soojenemine on kasulik.",
+      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      argument: {
+        txt_1: "Teile esitatakse müüdi 5 põhiargument ja küsimus, millele hakkate vastama viidatud allikate abil.",
+        argument: "Müüdi 5 põhiargument: Arvamus, et 20. sajandil täheldatud globaalse soojenemise põhjuseks on peamiselt CO₂ heitkogused, on eksitav."
+      },
+      question: "Uurimisküsimus: Kas CO₂ heitkogused mõjutavad globaalset soojenemist?",
+      source_1: {
+        txt_1: "Uuri järgmist allikat: {link1}",
+        txt_2: "Vaata videot ja tee märkmeid."
+      },
+      exp_1: {
+        title: "Eksperiment",
+        question: "Uurimisküsimus: Kas CO₂ tõus mõjutab Maa temperatuuri?",
+        formula: "NB! Hape + karbonaat → happejääk + H₂O + CO₂",
+        list_1: {
+          title: "Vahendid ja materjalid:",
+          list: [
+            "2 lampi",
+            "2 elektrilist termomeetrit",
+            "2 korgiga klaaspudelit",
+            "2 paberrulli",
+            "Söögisooda",
+            "Äädikas",
+            "Lehter",
+            "Mõõtsilinder",
+            "Plastikanum",
+            "Lusikas",
+            "Käärid",
+            "Mõõdulint"
+          ]
+        },
+        list_2: {
+          title: "Katse käik:",
+          list: [
+            "Aseta termomeetri andur pabersilindri sisemusse.",
+            "Pane kummassegi klaaspudelisse 3 supilusikatäit söögisoodat.",
+            "Mõõda plastikust mahutistesse 50 ml äädikat.",
+            "Torka paberisilinder koos termomeetriga mõlemasse klaasanumasse.",
+            "Vala lehtri abil anumasse äädikas ja sulge kaas. Hetkel paneme kaane kinni 2. anumal.",
+            "Asetage mõlema konteineri kõrvale lambipirn ja jätke see 30 minutiks seisma. Selle aja jooksul jälgime igal konkreetsel juhul temperatuuri muutust ja salvestame oma andmed."
+          ]
+        },
+        table_1: {
+          label: "Kirjuta oma vastused tabelisse:",
+          table: [
+            {
+              thead: "Kontrollmuutujad",
+              tsubhead: "(need, mida üritatakse hoida katse jooksul muutumatutena)"
+            },
+            {
+              thead: "Sõltumatu muutuja",
+              tsubhead: "(see, mida muudetakse)"
+            },
+            {
+              thead: "Sõltuv muutuja",
+              tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
+            }
+          ]
+        },
+        hypothesis: "Hüpotees:",
+        table_2: {
+          title: "Kogutud temperatuurinäidud",
+          txt_1: "Kirjuta vastused tabelisse:",
+          header: [
+            "Aeg, min", "0","2","4","6","8","10","12","14","16","18" 
+          ],
+          col1_row1: "Mahuti A Temperatuur °C",
+          col1_row2: "Mahuti B Temperatuur °C"
+        },
+        table_3: {
+          title: "Kogutud andmed",
+          txt_1: "Kirjuta vastused tabelisse:",
+          header: [
+            "", "Mahuti A","Mahuti B"
+          ],
+          col1_row1: "Algtemperatuur °C",
+          col1_row2: "Lõpptemperatuur °C",
+          col1_row3: "Temperatuuride vahe °C",
+        },
+        collected_data: "Vaatlusandmed:"
+
+      },
+      reliability: {
+        txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte allpool olevasse tabelisse.",
+        link_1: "tööriista",
+        url_1: ""
+      },
+      conclusion: "Tuginedes kogutud tõenditele, millised on teie järeldused müüdi paikapidavuse kohta:",
+      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      sources: [
+        {
+          name: "How Carbon Affects Nearly Everything on Earth – Including Our Future",
+          url: "https://www.youtube.com/watch?v=lWEvBLlUa2E"
+        }
+      ]
+    },
+
+    cc_myth6: {
+      title: "Kliimamuutused",
+      subtitle: "Juhitud uurimus, müüt 6",
+      myth: "Müüt nr 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
+      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      argument: {
+        txt_1: "Teile esitatakse müüdi 6 põhiargument ja küsimus, millele hakkate vastama viidatud allikate abil.",
+        argument: "Müüdi 6 põhiargument : Fossiilkütuste kasutamise piiramine takistab majanduskasvu ja tõstab elukallidust, kahjustades vaesemaid."
+      },
+      question: "Uurimisküsimus: Kas fossiilkütuste kasutamise piiramine mõjutab majanduskasvu ja elukallidust, kahjustades vaesemaid?",
+      source_txt: "Ülaltoodud uurimisküsimuse vastuse kontrollimiseks soovitatakse järgmisi allikaid:",
+      source_61: {
+        txt_1: "Tutvu {link1}",
+        link_1: "allikaga 6.1",
+        label_1: "Pane kirja taastuvate energiaallikate kasutamisest saadav tulu."
+      },
+      source_62: {
+        txt_1: "Tutvu {link1}. Uuri tabelit, mis pärineb {i1}, mis käsitleb energiaallikate muutmise sotsiaalmajanduslikke mõjusid.",
+        link_1: "allikaga 6.2",
+        i_1: "World Economic Situation and Prospects 2020",
+        label_1: "Millised võiksid olla erinevate energiaallikate kasutamise eelseisvad mõjud?"
+      },
+      source_63: {
+        txt_1: "Uuri {link1}",
+        link_1: "allikat 6.3",
+        label_1: "Milliseid töökohti võib tekitada taastuvate energiallikate kasutamine?"
+      },
+      conclusion: "Tuginedes kogutud tõenditele, millised on sinu  järeldused müüdi “Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks”, paikapidavuse kohta? ",
+      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      sources: [
+        {
+          name: "Allikas 6.1",
+          url: "https://drive.google.com/file/d/1lLGM0OZxy3Sm0BvPeHlB7brOrNhZrBRA/view?usp=sharing"
+        },
+        {
+          name: "Allikas 6.2",
+          url: "https://drive.google.com/file/d/1j-al4leaUi28OLKPq9Fj6So8XojxhOjn/view?usp=sharing"
+        },
+        {
+          name: "Allikas 6.3",
+          url: "https://drive.google.com/file/d/1glVgyNAJeN_TyRwjAEAbCYQEHRw3Jwiq/view?usp=sharing"
         }
       ]
     }

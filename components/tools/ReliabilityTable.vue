@@ -25,7 +25,9 @@
                 
                 <template v-else-if="j === 2">
                     <div class="flex justify-center items-center h-full">
-                            <ToolsReliabilityRating :storeToUpdate="storeToUpdate" :idx="i" :rating="storeToUpdate.reliability[i][2]" :printMode="printMode" :key="storeToUpdate.$id+i+j"  />
+                            <ClientOnly>
+                                <ToolsReliabilityRating :storeToUpdate="storeToUpdate" :idx="i" :rating="storeToUpdate.reliability[i][2]" :printMode="printMode" :key="storeToUpdate.$id+i+j"  />
+                            </ClientOnly>
                     </div>
                 </template>
                 
