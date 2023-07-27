@@ -169,9 +169,8 @@
                 </p>
 
                 <UiNavButtonBar :buttons="[
-                    // {text:'Juhised', url:''},
                     {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:''}
+                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth2'}
                 ]" class="mb-6 font-Body"
                 />
                 
@@ -199,9 +198,8 @@
                 </p>
                 
                 <UiNavButtonBar :buttons="[
-                    // {text:'Juhised', url:''},
-                    {text:'Avatud uurimus 1', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:''}
+                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
+                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth3'}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>
@@ -244,6 +242,12 @@
                     <br />
                     <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                 </p>
+
+                <UiNavButtonBar :buttons="[
+                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
+                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth5'}
+                ]" class="mb-6 font-Body"
+                />
             </UiCardInfo>
             
             <div class="divider my-6"></div>
@@ -258,7 +262,11 @@
                         —John MacArthur
                     </a>
                 </p>
-            
+                <UiNavButtonBar :buttons="[
+                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
+                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth6'}
+                ]" class="mb-6 font-Body"
+                />
             </UiCardInfo>
             
             <div class="divider my-6"></div>
@@ -277,6 +285,11 @@
                     <br />
                     <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
                 </p>
+                <UiNavButtonBar :buttons="[
+                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
+                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth7'}
+                ]" class="mb-6 font-Body"
+                />
             </UiCardInfo>
 
 

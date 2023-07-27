@@ -24,7 +24,7 @@
     </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 .video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -38,4 +38,4 @@
     width:100%;
     position:absolute;
 }
-</style>
+</style> -->

@@ -323,7 +323,76 @@ export default {
     
     
     
-    cc_myth4: {},
+    cc_myth4: {
+      title: "Kliimamuutused",
+      subtitle: "Juhitud uurimus, müüt 4",
+      myth: "Müüt nr 4: Globaalne soojenemine on kasulik.",
+      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      a1: {
+        argument: {
+          txt_1: "Teile esitatakse müüdi 4 põhiargumendid ja küsimused, millele peate vastama viidatud allikate abil.",
+          argument: "Müüdi 4 argument 1: Temperatuuri tõustes väheneb külmast põhjustatud surmajuhtumite arv."
+        },
+        question: "Uurimisküsimus: Kas temperatuuri tõus mõjutab surmajuhtumite arvu?",
+        source_txt: "Otsi vastused küsimustele kasutades viidatud allikaid.",
+        source_410: {
+          txt_1: "Loe WHO allikat {link1} ning vasta järgmistele küsimustele: ",
+          link_1: "Kliimamuutused ja tervis",
+          label_1: "“Kliimamuutusi peetakse suurimaks ohuks inimeste tervisele,” öeldakse raportis. Mida sa sellest väitest arvad? Põhjenda oma vastust."
+        },
+        source_411: {
+          txt_1: "Tutvu {link1} ning täida ülesanne.",
+          link_1: "allikaga 4.1",
+          label_1: "Too allikale toetudes näiteid kliimamuutuste mõjust inimeste tervisele."
+        },
+        source_412: {
+          txt_1: "Uuri {link1} ja täida ülesanne.",
+          link_1: "allikat 4.2",
+          label_1: "Pane kirja oma tähelepanekud kliimamuutustega seotud surmajuhtumite kohta."
+        },
+        conclusion: "Kokkuvõtteks: Millise järelduse saab teha küsimuse “Kas temperatuuri tõus mõjutab surmajuhtumite arvu?”, kohta?"
+      },
+      a2: {
+        argument: "Müüdi 4 argument 2: Temperatuuri tõustes suureneb elamiseks sobiliku maa ja haritava maa pindala.",
+        question: "Uurimisküsimus: Kas temperatuuri tõus mõjutab elamumaa ja haritava maa pindala?",
+        txt_1: "Ülaltoodud küsimuse kontrollimiseks soovitatakse järgmisi tõestusmaterjalide  allikaid:",
+        exp: {
+          title: "Eksperiment",
+          list_1: {
+            title: "Vahendid ja materjalid:",
+            list: [
+              "Liiv või muld", "Vesi", "Suured pooleks lõigatud plastpudelid", "Plastiktopsid", "Jääkuubikud", "Läbipaistev kile (võid kasutada toidukile)", "Lamp", "Marker"
+            ],
+            image_caption: "Joonis. Katse disain"
+          },
+          list_2: {
+            title: "Katse käik:",
+            list: [
+              "Aseta kahte suurde plastpudelisse mõlemasse võrdne kogus liiva või mulda.",
+              "Aseta aukudega plastiktopsid mõlema pooleks lõigatud plastpudeli liiva/mulda ja kinnitage need teiste plastiktopside külge (vt Joonis). Asetage sama kogus jääd mõlemasse plastiktopsi.",
+              "Tee plastiktopside alumisse ossa sooned/augud, et jää sulamisvesi saaks plastpudelisse voolata.",
+              "Vala mõlemasse  plastpudelisse võrdne kogus vett.", 
+              "Kata üks plastpudelitest toidukilega.",
+              "Lülita lamp sisse ja tehke vaatlused 20 minuti möödumisel."
+            ],
+          }
+        }
+      },
+      sources: [
+        {
+          name: "Kliimamuutused ja tervis",
+          url: "https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health"
+        },
+        {
+          name: "Allikas 4.1",
+          url: "https://drive.google.com/file/d/1M7JY4bMJNEI95JIOWRnwXgmuk77_L2J2/view?usp=sharing"
+        },
+        {
+          name: "Allikas 4.2",
+          url: "https://drive.google.com/file/d/1vM4uPyU3_SKXAhQHqAR_GXoRnhAR9aF2/view?usp=sharing"
+        }
+      ] 
+    },
 
 
 
@@ -331,7 +400,7 @@ export default {
     cc_myth5: {
       title: "Kliimamuutused",
       subtitle: "Juhitud uurimus, müüt 5",
-      myth: "Müüt nr 5: Globaalne soojenemine on kasulik.",
+      myth: "Müüt nr 5: Seos CO₂ ja temperatuuri tõusu vahel puudub.",
       hypothesis: "Püstitage selle kohta oma hüpotees.",
       argument: {
         txt_1: "Teile esitatakse müüdi 5 põhiargument ja küsimus, millele hakkate vastama viidatud allikate abil.",
@@ -429,6 +498,8 @@ export default {
       ]
     },
 
+
+
     cc_myth6: {
       title: "Kliimamuutused",
       subtitle: "Juhitud uurimus, müüt 6",
@@ -470,6 +541,71 @@ export default {
         {
           name: "Allikas 6.3",
           url: "https://drive.google.com/file/d/1glVgyNAJeN_TyRwjAEAbCYQEHRw3Jwiq/view?usp=sharing"
+        }
+      ]
+    },
+
+
+    cc_myth7: {
+      title: "Kliimamuutused",
+      subtitle: "Juhitud uurimus, müüt 7",
+      myth: "Müüt nr 7: Maa kliima on alati muutunud ning see jätkab muutumist.",
+      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      argument: {
+        txt_1: "Teile esitatakse müüdi 7 põhiargument ja küsimus, millele hakkate vastama viidatud allikate abil.",
+        argument: "Müüdi 7 põhiargument: Maa kliima on alati muutunud."
+      },
+      question: "Uurimisküsimus: Kas temperatuurid on alati sama kiirusega tõusnud?",
+      source_txt: "Ülaltoodud uurimisküsimuse vastuse kontrollimiseks on soovitav kasutada järgmisi allikaid:",
+      source_71: {
+        txt_1: "Vaata videot {link1}",
+        link_1: "“The greenhouse effect and climate change history”",
+        label_1: "Millisele teemale see viitab? "
+      },
+      source_72: {
+        txt_1: "Tutvu järgmise {link1}.",
+        link_1: "graafikuga",
+        label_1: "Vaata erinevate aastate temperatuure, mida märkad?"
+      },
+      source_73: {
+        txt_1: "Tutvu {link1}.",
+        link_1: "allikaga",
+        label_1: "Mida märkad temperatuuri tõusuga seoses?"
+      },
+      table_years: {
+        label_1: "Võrdle temperatuuride muutusi. Kui suur on olnud temperatuuride muutus iga 20 aasta järel?",
+        table: {
+          header: [
+            {thead: "Ajavahemik"},
+            {thead: "Temperatuuri muutus"}
+          ],
+          rows: [
+            ["1880-1900", ""],
+            ["1900-1920", ""],
+            ["1920-1940", ""],
+            ["1940-1960", ""],
+            ["1960-1980", ""],
+            ["1980-2000", ""],
+            ["2000-2020", ""]
+          ]
+      },
+        
+      },
+      years_max: "Millal leidis aset suurim temperatuuri tõus?",
+      conclusion: "Tuginedes kogutud tõenditele, millised on sinu järeldused müüdi “Maa kliima on alati muutunud ning see jätkab muutumist”, paikapidavuse kohta:",
+      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      sources: [
+        {
+          name: "The greenhouse effect and climate change history",
+          url: "https://www.youtube.com/watch?v=ftG_PgwWeNQ"
+        },
+        {
+          name: "Global temperature - vital signs of the planet",
+          url: "https://climate.nasa.gov/vital-signs/global-temperature/"
+        },
+        {
+          name: "Allikas 7.1",
+          url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]
     }

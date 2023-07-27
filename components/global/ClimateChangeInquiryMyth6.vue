@@ -13,7 +13,7 @@
         })
     }
     // onMounted(()=>{
-        addSources(tm('inquiry.cc_myth5.sources'));
+        addSources(tm('inquiry.cc_myth6.sources'));
     // })
 
 </script>
