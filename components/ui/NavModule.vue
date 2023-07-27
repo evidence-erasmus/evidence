@@ -3,15 +3,15 @@
         <nav class="h-10 container px-4 flex justify-start items-center gap-8">
             <a :href="`/${activeModule}`" class="flex items-center gap-2 uppercase font-bold transition-all"
             :class="activePart == 'teacher' ? 'border-b-4 border-b-slate-700 py-3' : ''">
-                <span class="uppercase text-sm leading-none">{{ t('modules.for-teachers') }}</span>  
+                <span class="uppercase text-sm leading-none">{{ t('modules.for_teachers') }}</span>  
             </a>
             <a :href="`/${activeModule}/student`" class="flex items-center gap-2 font-bold transition-all"
             :class="activePart == 'student' ? 'border-b-4 border-b-slate-700 py-3' : ''">
-                <span class="uppercase text-sm leading-none">{{ t('modules.for-students') }}</span>
+                <span class="uppercase text-sm leading-none">{{ t('modules.for_students') }}</span>
             </a>
             <a :href="`/${activeModule}/background`" class="flex items-center gap-2 font-bold transition-all"
             :class="activePart == 'background' ? 'border-b-4 border-b-slate-700 py-3' : ''">
-                <span class="uppercase text-sm leading-none">{{ t('modules.background-info') }}</span>  
+                <span class="uppercase text-sm leading-none">{{ t('modules.background_info') }}</span>  
             </a>
             
         </nav>

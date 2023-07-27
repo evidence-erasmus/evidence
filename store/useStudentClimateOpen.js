@@ -20,7 +20,7 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
             this.learningPath = index;
         },
         addReliabilityRow(){
-            this.reliability.push(["", "", "1", ""]);
+            this.reliability.push(["", "", "0", ""]);
         },
         changeReliabilityValue(index, value){
             this.reliability[index][2] = value;

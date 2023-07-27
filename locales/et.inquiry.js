@@ -13,6 +13,35 @@ export default {
         },
         add_row: "LISA RIDA"
     },
+
+
+    cc_open: {
+      title: "Kliimamuutused",
+      subtitle: "Avatud uurimus",
+      choose: "Vali müüt",
+      q1_title: "1. Hakkame uurima järgmist müüti:",
+      myths: [
+        "Liikide väljasuremine on looduslik protsess.",
+        "Liigid suudavad kliimamuutustega kohaneda.",
+        "Kliimamuutuste alane teadus ei ole usaldusväärne.",
+        "Globaalne soojenemine on kasulik.",
+        "Seos CO₂ ja temperatuuri tõusu vahel puudub.",
+        "Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
+        "Maa kliima on alati muutunud ning see jätkab muutumist."
+      ],
+      q2_txt: "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
+      q2_link: "kontrollitavaks hüpoteesiks",
+      q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
+      q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+      q3_txt: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
+      q3_title: "3. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.",
+      q4_title: "4. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
+      q5_title: "5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
+    },
+
+
+
+
     "cc-myth1": {
       "back": "Tagasi",
       "title": "Kliimamuutused",

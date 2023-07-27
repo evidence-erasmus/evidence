@@ -1,5 +1,5 @@
 <template>
-    <section class="e-card w-[90vw]">  
+    <section class="w-full">  
         <div 
             class="grid grid-cols-[1fr_80px_80px_80px_80px_1fr] ">
             <div class="text-sm font-bold leading-none p-2 border border-slate-300 flex items-center">

@@ -3,68 +3,11 @@
     import { useStudentClimateOpen } from '~~/store/useStudentClimateOpen.js'; 
     const studentClimateOpen = useStudentClimateOpen();
     // const router = useRouter();
-    const { t, tm, rt } = useI18n({
-        useScope: 'local'
+    const { locale, t, tm, rt } = useI18n({
+        useScope: 'global'
     });
 
 </script>
-
-<i18n lang="json">
-    {
-        "en": {
-            "back": "Tagasi",
-            "title": "Kliimamuutused",
-            "subtitle": "Avatud uurimus",
-            "choose": "Vali müüt",
-            "q1-title": "Hakkame uurima järgmist müüti:",
-            "myths": [
-                "Liikide väljasuremine on looduslik protsess.",
-                "Liigid suudavad kliimamuutustega kohaneda.",
-                "Kliimamuutuste alane teadus ei ole usaldusväärne.",
-                "Globaalne soojenemine on kasulik.",
-                "Seos CO₂ ja temperatuuri tõusu vahel puudub.",
-                "Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
-                "Maa kliima on alati muutunud ning see jätkab muutumist."
-            ],
-            "q2-txt": "Nüüd kitsendage oma müüt {q2Link} hüpoteesiks või uurimisküsimuseks.",
-            "q2-link": "kontrollitavaks hüpoteesiks",
-            "q2-title": "2. Meie hüpotees ja/või uurimisküsimus on:",
-            "q2-txt2": "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
-            "q3-txt": "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
-            "q3-title": "3. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.",
-            "q4-title": "4. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
-            "q5-title": "5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
-        },
-        "et": {
-            "back": "Tagasi",
-            "title": "Kliimamuutused",
-            "subtitle": "Avatud uurimus",
-            "choose": "Vali müüt",
-            "q1-title": "Hakkame uurima järgmist müüti:",
-            "myths": [
-                
-                "Liikide väljasuremine on looduslik protsess.",
-                "Liigid suudavad kliimamuutustega kohaneda.",
-                "Kliimamuutuste alane teadus ei ole usaldusväärne.",
-                "Globaalne soojenemine on kasulik.",
-                "Seos CO₂ ja temperatuuri tõusu vahel puudub.",
-                "Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
-                "Maa kliima on alati muutunud ning see jätkab muutumist."
-            ],
-            "q2-txt": "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
-            "q2-link": "kontrollitavaks hüpoteesiks",
-            "q2-title": "2. Meie hüpotees ja/või uurimisküsimus on:",
-            "q2-txt2": "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
-            "q3-txt": "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
-            "q3-title": "3. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.",
-            "q4-title": "4. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
-            "q5-title": "5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
-        },
-        "el": {
-            "back": "Tagasi"
-        }
-    }
-</i18n>
 
 
 <template>
@@ -79,49 +22,49 @@
         xl:gap-10
         2xl:gap-20">
 
-        <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
+        <section class="e-article print:not-prose" :lang="locale" style="hyphens:auto;">
             
 
             <NuxtLink to="../student#section-4" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
-                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('back')}}</span>
+                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
                 </span>
             </NuxtLink>
 
 
-            <h1 class="mb-0">{{ t('title') }}</h1>
-            <h5 class="font-normal uppercase leading-tight mb-10">{{ t('subtitle') }}</h5>
+            <h1 class="mb-0">{{ t('inquiry.cc_open.title') }}</h1>
+            <h5 class="font-normal uppercase leading-tight mb-10">{{ t('inquiry.cc_open.subtitle') }}</h5>
         
 
             <label for="q1" class="block mb-2">
-                <b>{{ t('q1-title') }}</b>
+                <b>{{ t('inquiry.cc_open.q1_title') }}</b>
             </label>
             
             <select id="q1" class="select select-bordered w-full max-w-sm block" v-model="studentClimateOpen.mythName">
-                <option disabled selected>{{ t('choose') }}</option>
-                <option v-for="myth in tm('myths')">{{ rt(myth) }}</option>
+                <option disabled selected>{{ t('inquiry.cc_open.choose') }}</option>
+                <option v-for="myth in tm('inquiry.cc_open.myths')">{{ rt(myth) }}</option>
             </select>
             <hr />
 
-            <i18n-t keypath="q2-txt" tag="p" scope="global">
+            <i18n-t keypath="inquiry.cc_open.q2_txt" tag="p" scope="global">
                 <template #q2Link>
-                    <a href='https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method.' target='_blank' rel='noopener noreferrer'>{{ t('q2-link') }}</a>
+                    <a href='https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method.' target='_blank' rel='noopener noreferrer'>{{ t('inquiry.cc_open.q2_link') }}</a>
                 </template>
             </i18n-t>
 
             
             <label for="q2" class="block mb-2">
-                <b>{{ t('q2-title') }}</b>
+                <b>{{ t('inquiry.cc_open.q2_title') }}</b>
             </label>
-            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="4"
+            <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="4"
             v-model="studentClimateOpen.q2"></textarea>
             <hr />
 
-            <label for="q3" class="block mb-2">
-                {{t('q3-title')}}
+            <label for="q3" class="block mb-2 font-bold">
+                {{t('inquiry.cc_open.q3_title')}}
             </label>
-            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="abc...✍️" rows="5"
+            <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
             v-model="studentClimateOpen.q3"></textarea>
             <hr />
 
@@ -133,7 +76,10 @@
                 <b>3. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.</b>
             </p>
 
-            <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" />
+            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
+                <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" :addRow="true" currentSources="inquiry.cc_open.sources" key="ccmyth6rlblty" />
+            </div>
+            
             <hr />
             
 
@@ -141,7 +87,7 @@
             <label for="q4" class="block mb-2">
                 <b>4. Kogutud tõenditest lähtudes on meie järeldused järgmised:</b>
             </label>
-            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="kirjutage oma vastus siia...✍️" rows="10"
+            <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="studentClimateOpen.q4"></textarea>
             <hr />
 
@@ -150,7 +96,9 @@
                 <b>5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?</b>
             </p>
 
-            <ToolsFliccTable :storeToUpdate="studentClimateOpen" />
+            <div class="e-card w-[90vw]" style="transform:translateX(-5vw)">
+                <ToolsFliccTable :storeToUpdate="studentClimateOpen" />
+            </div>
 
 
         </section>

@@ -1,5 +1,5 @@
 <template>
-    <section class="e-card w-[90vw]">  
+    <section class="w-full">  
         
         <div class="grid grid-cols-[1fr_1fr_110px_1fr]">
             <div v-for="thead in tm('inquiry.reliability_table.cols')" class="font-bold leading-tight text-sm border border-slate-300 px-2 py-1">
