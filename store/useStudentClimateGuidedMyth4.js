@@ -12,6 +12,26 @@ export const useStudentClimateGuidedMyth4 = defineStore("studentClimateGuidedMyt
         a2: {
             variableTable: [
                 ["", "", ""]
+            ],
+            hypothesis: "",
+            resultsTable: [
+                ["", "", ""],
+                ["", "", ""],
+                ["", "", ""]
+            ],
+            conclusion: "",
+            islands: "",
+            source421: "",
+            sealevelTable: [
+                ["","","","","","",""],
+                ["","","","","","",""]
+            ],
+            sealevelTableAnswer: "",
+            conclusion: ""
+        },
+        a3: {
+            source431Table: [
+                ["",""]
             ]
         },
         conclusions: "",
@@ -21,9 +41,11 @@ export const useStudentClimateGuidedMyth4 = defineStore("studentClimateGuidedMyt
             ["", "", "'0'", ""],
             ["", "", "'0'", ""],
             ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
             ["", "", "'0'", ""]
         ],
         flicc: [
+            ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
@@ -47,6 +69,9 @@ export const useStudentClimateGuidedMyth4 = defineStore("studentClimateGuidedMyt
         },
         addDynamicRow(key){
             key.push(["", "", ""]);
+        },
+        changeDynamicRow(key, row, column, value){
+            key[row][column] = value;
         },
         addFliccRow(){
             this.flicc.push(["", false, false, false, false, ""]);

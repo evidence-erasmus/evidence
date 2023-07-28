@@ -8,15 +8,15 @@
         useScope: 'global'
     });
 
-    const addSources = (arr) => {
-        arr.forEach((el, index) => {
-            climateMyth7Answers.changeFliccValue(index, 0, rt(el.name));
-            climateMyth7Answers.changeReliabilityValue(index, 1, rt(el.name));
-        })
-    }
-    // onMounted(()=>{
-        addSources(tm('inquiry.cc_myth4.sources'));
-    // })
+    // const addSources = (arr) => {
+    //     arr.forEach((el, index) => {
+    //         climateMyth4Answers.changeFliccValue(index, 0, rt(el.name));
+    //         climateMyth4Answers.changeReliabilityValue(index, 1, rt(el.name));
+    //     })
+    // }
+    // // onMounted(()=>{
+    //     addSources(tm('inquiry.cc_myth4.sources'));
+    // // })
 
 </script>
 
@@ -177,7 +177,145 @@
                     {{ rt(item) }}
                 </li>
             </ol>
+
             
+            <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+                <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a2.variableTable" 
+                :tableStructure="tm('inquiry.cc_myth4.a2.exp.variable_table.table')" 
+                :title="t('inquiry.cc_myth4.a2.exp.variable_table.title')"
+                :subtitle="t('inquiry.cc_myth4.a2.exp.variable_table.subtitle')"
+                :addRow="true" />
+            </div>
+            
+
+            <label for="a2hypothesis" class="block mb-2 mt-2">
+                <b>{{ t('inquiry.cc_myth4.a2.exp.hypothesis') }}</b>
+            </label>
+            <textarea id="a2hypothesis" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            v-model="climateMyth4Answers.a2.hypothesis"></textarea>
+
+
+
+            <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+                <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a2.resultsTable" 
+                :tableStructure="tm('inquiry.cc_myth4.a2.exp.results_table.table')" :overwrite="true"
+                :title="t('inquiry.cc_myth4.a2.exp.results_table.title')" 
+                :subtitle="t('inquiry.cc_myth4.a2.exp.results_table.subtitle')"
+                 />
+            </div>
+
+            <label for="a2conclusion" class="block mb-2 mt-2">
+                <b>{{ t('inquiry.cc_myth4.a2.exp.conclusion') }}</b>
+            </label>
+            <textarea id="a2conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            v-model="climateMyth4Answers.a2.conclusion"></textarea>
+            
+            
+            <label for="a2islands" class="block mb-2 mt-2">
+                <b>{{ t('inquiry.cc_myth4.a2.exp.islands') }}</b>
+            </label>
+            <textarea id="a2islands" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            v-model="climateMyth4Answers.a2.islands"></textarea>
+
+
+
+            <i18n-t tag="p" keypath="inquiry.cc_myth4.a2.source_421.txt_1" scope="global" class="mb-0">
+                <template #link1>
+                    <a :href="t('inquiry.cc_myth4.sources[3].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.sources[3].name') }}</a>
+                </template>
+            </i18n-t>
+            
+            <i18n-t tag="p" keypath="inquiry.cc_myth4.a2.source_421.txt_2" scope="global" class="mb-0">
+                <template #link2>
+                    <a :href="t('inquiry.cc_myth4.sources[4].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.sources[4].name') }}</a>
+                </template>
+            </i18n-t>
+
+            
+
+            <label for="a2source421" class="block mb-2 mt-2">
+                <b>{{ t('inquiry.cc_myth4.a2.source_421.label_1') }}</b>
+            </label>
+            <textarea id="a2source421" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            v-model="climateMyth4Answers.a2.source421"></textarea>
+
+
+            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);" >
+                <p>{{ t('inquiry.cc_myth4.a2.graph.txt_1') }}</p>
+                <div class="grid gap-4 grid-cols-1 lg:grid-cols-2">
+                    <UiContentImage :src="t('inquiry.cc_myth4.a2.graph.img_1.src')" :credits="t('inquiry.cc_myth4.a2.graph.img_1.credits')">
+                        <template #caption>
+                            {{t('inquiry.cc_myth4.a2.graph.img_1.caption')}}
+                        </template>
+                    </UiContentImage>
+                    <UiContentImage :src="t('inquiry.cc_myth4.a2.graph.img_2.src')" :credits="t('inquiry.cc_myth4.a2.graph.img_2.credits')">
+                        <template #caption>
+                            {{t('inquiry.cc_myth4.a2.graph.img_2.caption')}}
+                        </template>
+                    </UiContentImage>
+                </div>     
+            </div>
+
+            <div class="e-card w-[90vw] my-8" style="transform: translateX(-5vw);">
+                <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a2.sealevelTable" 
+                :tableStructure="tm('inquiry.cc_myth4.a2.graph.sealevel_table.table')" 
+                :subtitle="t('inquiry.cc_myth4.a2.graph.sealevel_table.subtitle')"
+                :overwrite="true" />
+           
+
+            <label for="a2sealevel" class="block mb-2 mt-4">
+                <b>{{ t('inquiry.cc_myth4.a2.graph.sealevel_table.label_1') }}</b>
+            </label>
+            <textarea id="a2sealevel" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+            v-model="climateMyth4Answers.a2.sealevelTableAnswer"></textarea>
+
+        </div>
+
+        <label for="a2conclusion" class="block mb-2 mt-4">
+                <b>{{ t('inquiry.cc_myth4.a2.conclusion') }}</b>
+        </label>
+        <textarea id="a2conclusion" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a2.conclusion"></textarea>
+
+        <hr />
+
+
+
+
+
+
+
+
+
+
+        <UiCardInfo theme="rose-400" icon="game-icons:unicorn">
+            <h4 class="leading-tight my-2">
+                {{ t('inquiry.cc_myth4.a3.argument') }}
+            </h4>
+        </UiCardInfo>
+
+        <UiCardInfo theme="sky-400" icon="tabler:zoom-question" class="mt-6">
+            <h4 class="leading-tight my-2">
+                {{ t('inquiry.cc_myth4.a3.question') }}
+            </h4>
+        </UiCardInfo>
+
+        <i18n-t tag="p" keypath="inquiry.cc_myth4.a3.source_431.txt_1" scope="global">
+            <template #link1>
+                <a :href="t('inquiry.cc_myth4.sources[5].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.sources[5].name') }}</a>
+            </template>
+        </i18n-t>
+
+
+        <p class="mb-2"><b>{{ t('inquiry.cc_myth4.a3.source_431.label_1') }}</b></p>
+        <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+            <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a3.source431Table" 
+            :tableStructure="tm('inquiry.cc_myth4.a3.source_431.table')" 
+            :subtitle="t('inquiry.cc_myth4.a3.source_431.table.subtitle')"
+            :overwrite="true"
+            :newRow="['','']"
+            :addRow="true" />
+        </div>
 
 
 <hr />

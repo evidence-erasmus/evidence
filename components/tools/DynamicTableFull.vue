@@ -1,14 +1,15 @@
 <template>
     <section class="w-full">
-        <h4>Dyn table full</h4>
+        <h5 v-if="title" style="font-size:120%" class="mt-2 mb-0 leading-tight">{{ title }}</h5>
+        <p v-if="subtitle" class="italic mt-0 mb-2 leading-tight">{{ subtitle }}</p>
         <div 
             class="grid" :style="`grid-template-columns:repeat(${tableStructure.header.length}, 1fr)`">
                 <div v-for="cell in tableStructure.header" 
-                    class="text-sm leading-none p-2 border border-slate-300">
+                    class="text-sm leading-none px-2 py-4 border border-slate-300">
                     <p class="font-bold m-0 p-0">
                         {{ rt(cell.thead) }}
                     </p>
-                    <p v-if="cell.tsubhead" class="italic m-0 p-0 pt-1">
+                    <p v-if="cell.tsubhead" class="italic m-0 p-0">
                         {{ rt(cell.tsubhead) }}
                     </p>
                 </div>
@@ -50,7 +51,9 @@
             // which column in a row to overwrite, default: first [0]
             type: Number,
             default: 0
-        }
+        },
+        title: {type:String},
+        subtitle: {type:String},
     });
     
     const { t, tm, rt } = useI18n({
@@ -82,12 +85,6 @@
                 props.overwritePos,
                 overwriteValue
             );
-            // props.storeToUpdate.changeDynamicRow(
-            //     props.keyToUpdate, 
-            //     index, 
-            //     props.overwritePos,
-            //     overwriteValue
-            // );
         })
     }
     if(props.overwrite === true){

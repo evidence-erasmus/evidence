@@ -375,6 +375,94 @@ export default {
               "Kata üks plastpudelitest toidukilega.",
               "Lülita lamp sisse ja tehke vaatlused 20 minuti möödumisel."
             ],
+          },
+          variable_table: {
+            title: "Muutujad",
+            subtitle: "Kirjuta vastused tabelisse.",
+            table: {
+              header: [
+                {thead:"Kontrollmuutujad", tsubhead:"(need, mida üritatakse hoida katse jooksul muutumatutena)"},
+                {thead:"Sõltumatu muutuja", tsubhead:"(see, mida muudetakse)"},
+                {thead:"Sõltuv muutuja", tsubhead:"(see mida sekkumise tulemusena mõõdetakse)"},
+              ]
+            }
+          },
+          hypothesis: "Hüpotees(id):",
+          results_table: {
+            title: "Tulemused",
+            subtitle: "Kirjuta vastused tabelisse.",
+            table: {
+              header: [
+                {thead:""},
+                {thead:"Plastpudel A"},
+                {thead:"Plastpudel B"},
+              ],
+              rows: [
+                ["Esialgne veetase (cm)", "", ""],
+                ["Lõplik veetase (cm)", "", ""],
+                ["Veetaseme muutus (cm)", "", ""],
+              ]
+            }
+          },
+          conclusion: "Järeldused",
+          islands: "Oletame, et need mõlemad plastpudelid on kaks saart. Kummal saarel sa sooviksid elada ja miks?"
+        },
+        source_421: {
+          txt_1: "NB! Järgnevast artiklist {link1}, võid leida rohkem infot ohus olevate saareriikide kohta.",
+          link_1: "Riigid, mis on kliimamuutuste tõttu kadumisohus",
+          txt_2: "Uuri järgnevat allikat: {link2} ning täida ülesanne.",
+          link_2: "https://climate.nasa.gov/vital-signs/sea-level/",
+          label_1: "Märgi üles tegurid, mis on seotud merepinna tõusuga ja milline on sellest tulenev elamiseks sobiliku või maaharimiseks saadaoleva maa ressurss."
+        },
+        graph: {
+          txt_1: "Võrdle järgmisi graafikuid (et leida rohkem infot, uuri toodud veebiallikaid).",
+          img_1: {
+            src: "https://evidence.onkel.ee/assets/c-change__myth4__globaltemp.webp",
+            credits: "https://climate.nasa.gov/vital-signs/global-temperature/",
+            caption: "Globaalne temperatuur 1880−..."
+          },
+          img_2: {
+            src: "https://evidence.onkel.ee/assets/c-change__myth4__sealevel.webp",
+            credits: "https://climate.nasa.gov/vital-signs/sea-level/",
+            caption: "Merevee tase 1900−2018"
+          },
+          sealevel_table: {
+            subtitle: "Täida tabel",
+            label_1: "Kuidas on omavahel seotud temperatuur ja merevee tase?",
+            table: {
+              header: [
+                {thead:"Aasta"},
+                {thead:"1900"},
+                {thead:"1920"},
+                {thead:"1940"},
+                {thead:"1980"},
+                {thead:"2000"},
+                {thead:"2020"}
+              ],
+              rows: [
+                ["Temperatuur", "", "", "", "", "", ""],
+                ["Merevee tase", "", "", "", "", "", ""]
+              ]
+            }
+          }
+        },
+        conclusion: "Millise  järelduse saab teha  küsimuse “Kas temperatuuri tõus mõjutab elamiseks või harimiseks kasutatava maa pindala?”, kohta?"
+      },
+      a3: {
+        argument: "Müüdi 4 argument 3: Temperatuuri tõustes kasvavad erinevad põllukultuurid ja see on põllumajanduse seisukohalt positiivne.",
+        question: "Uurimisküsimus: Kas temperatuuri tõus mõjutab põllukultuuride hulka?",
+        source_431: {
+          txt_1: "Tutvu Euroopa Keskkonnaagentuuri allikaga {link1}",
+          label_1: "Millised muutused on toimunud või toimuvad põhja- ning lõunapoolsetes riikides?",
+          table: {
+            subtitle: "Tee märkmeid allikas kasutatud info kohta. ",
+            header: [
+              {thead:"Põhjapoolsed riigid"},
+              {thead:"Lõunapoolsed riigid"}
+            ],
+            rows: [
+              ["", ""]
+            ]
           }
         }
       },
@@ -390,6 +478,18 @@ export default {
         {
           name: "Allikas 4.2",
           url: "https://drive.google.com/file/d/1vM4uPyU3_SKXAhQHqAR_GXoRnhAR9aF2/view?usp=sharing"
+        },
+        {
+          name: "Riigid, mis on kliimamuutuste tõttu kadumisohus",
+          url: "https://www.activesustainability.com/climate-change/countries-risk-disappearing-climate-change/"
+        },
+        {
+          name: "Sea Level",
+          url: "https://climate.nasa.gov/vital-signs/sea-level/"
+        },
+        {
+          name: "Climate change affects agriculture",
+          url: "https://drive.google.com/file/d/1xK65Z9PpcVY37UE5lKvuavIQwjDwvvRR/view?usp=sharing"
         }
       ] 
     },
