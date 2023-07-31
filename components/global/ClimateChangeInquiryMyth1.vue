@@ -15,135 +15,7 @@
     }
     addSources(tm('inquiry.cc-myth1.sources'));
 
-    // console.log("Messages" , i18n);
-    
-    // const loopMessages = (arr) => {
-    //     arr.forEach((el, index) => {
-    //         // console.log(el);
-    //     })
-    // }
-    // loopMessages(tm('flicc-sources'));
-    
-    // console.log("Messages" , tm(''));
-
 </script>
-
-
-
-
-
-
-
-<!-- <i18n lang="json">
-    {
-        "en": {
-            "back": "Back",
-            "title": "Climate change",
-            "subtitle": "Guided inquiry; Myth 1",
-            "myth": "“The extinction of species is a natural process. Mass extinctions of species have always occurred”.",
-            "hypothesis": "Write down your testable hypothesis concerning Myth 1:",
-            "argument": {
-                "txt-1": "You are given the basic argument of Myth 1 and the question you must answer using the given scientific sources.",
-                "argument": "Argument of Myth 1: The mass extinction of species is a natural process."
-            },
-            "question": {
-                "question": "Question: Is the mass extinction of species a natural process?",
-                "txt-1": "Study {link1} and watch the video {link2}. Then, answer the following questions.",
-                "link-1": "source 1.1",
-                "link-2": "Climate Change: Why are thousands of species facing extinction? - BBC News."
-            },
-            "q-1": "1. What do we mean by  „mass extinction”?",
-            "q-2": "2. How many mass extinctions do you find happening?",
-            "q-3": "3. What were the causes of the mass extinctions?",
-            "q-4": "4. What were the consequences of the mass extinctions?",
-            "q-5": "5. Why should we worry about mass extinctions now?",
-            "q-6": {
-                "txt-1": "Study {link1} and answer the following question.",
-                "link-1": "source 1.2",
-                "q-6": "6. What is the reason for the mass killing of penguins?"
-            },
-            "q-7": {
-                "txt-1": "Please use {link1} to assess the reliability of the sources used.",
-                "link-1": "this tool",
-                "q-7": "7. Write a summary of your findings in the following table."
-            },
-            "q-8": "8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):",
-            "q-9": "According to the data you collected, where do you owe the error of this myth?",
-            "flicc-sources": [
-                {
-                    "name": "Source 1.1",
-                    "url": "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
-                },
-                {
-                    "name": "Video",
-                    "url": "https://www.youtube.com/watch?v=nho73BtDQtE"
-                },
-                {
-                    "name": "Source 1.2",
-                    "url": "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
-                }
-            ]
-        },
-        "et": {
-            "back": "Tagasi",
-            "title": "Kliimamuutused",
-            "subtitle": "Juhitud uurimus, müüt 1",
-            "myth": "Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.",
-            "hypothesis": "Püstitage selle kohta oma hüpotees:",
-            "argument": {
-                "txt-1": "Teile antakse müüdi nr. 1 põhiargument ja küsimus, millele peate vastama etteantud allikate abil.",
-                "argument": "Müüdi 1 põhiargument: Liikide massiline väljasuremine on loomulik protsess."
-            },
-            "question": {
-                "question": "Uurimisküsimus: Kas liikide massiline väljasuremine on loomulik protsess?",
-                "txt-1": "Uurige {link1} ja {link2} ning vastake järgnevatele küsimustele.",
-                "link-1": "allikat 1.1",
-                "link-2": "vaadake videot"
-            },
-            "q-1": "1. Mida me mõtleme „massilise väljasuremise” all?",
-            "q-2": "2. Kui palju massilist väljasuremist teie arvates toimub?",
-            "q-3": "3. Millised olid massilise väljasuremise põhjused?",
-            "q-4": "4. Millised olid massilise väljasuremise tagajärjed?",
-            "q-5": "5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?",
-            "q-6": {
-                "txt-1": "Uurige {link1} ning vastake järgmisele küsimusele:",
-                "link-1": "allikat 1.2",
-                "q-6": "6. Mis on pingviinide massilise hukkumise põhjus?"
-            },
-            "q-7": {
-                "txt-1": "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.",
-                "link-1": "tööriista",
-                "q-7": "7. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse."
-            },
-            "q-8": "8. Esitatud tõendite põhjal on meie järeldus(ed) müüdi “Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud”, paikapidavuse kohta järgmine (järgmised):",
-            "q-9": "Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
-            "flicc-sources": [
-                {
-                    "name": "Allikas 1.1",
-                    "url": "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
-                },
-                {
-                    "name": "Video",
-                    "url": "https://www.youtube.com/watch?v=nho73BtDQtE"
-                },
-                {
-                    "name": "Allikas 1.2",
-                    "url": "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
-                }
-            ]
-        }, 
-        "el": {
-            "back": "Back el"
-        }
-    }
-</i18n> -->
-
-
-
-
-
-
-
 
 
 
@@ -160,7 +32,7 @@
         
         <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
-            <NuxtLink to="../student#section-4" 
+            <NuxtLink to="../student#myth1" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth1.back')}}</span>
@@ -276,7 +148,7 @@
                 <b>{{ t('inquiry.cc-myth1.q-7.q-7') }}</b>
             </p>
 
-            <div style="transform:translateX(-6vw)">
+            <div class="e-card w-[90vw]" style="transform:translateX(-6vw)">
                 <ClientOnly>
                     <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" currentSources="inquiry.cc-myth1.sources" />
                 </ClientOnly>
@@ -296,7 +168,7 @@
                 <b>{{ t('inquiry.cc-myth1.q-9') }}</b>
             </p>
 
-            <div style="transform:translateX(-6vw)">
+            <div class="e-card w-[90vw]" style="transform:translateX(-6vw)">
                 <ClientOnly>
                     <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" />
                 </ClientOnly>

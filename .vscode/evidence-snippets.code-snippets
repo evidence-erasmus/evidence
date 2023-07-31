@@ -1,4 +1,12 @@
 {
+	"a-blank": {
+		"prefix": "a-blank",
+		"description": "a-blank",
+		"scope": "",
+		"body": [
+			"<a href=\"\\$1\" target=\"_blank\" rel=\"noopener noreferrer\">\\$2</a>"
+		]
+	},
 	"textarea-n-label": {
 		"prefix": "textarea-n-label",
 		"description": "textarea-n-label",

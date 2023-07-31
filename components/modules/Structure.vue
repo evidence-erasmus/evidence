@@ -1,5 +1,5 @@
 <template>
-    <section class="e-card w-full">
+    <section class="e-card w-full mb-4">
         <h6 class="font-Body mb-4 text-xs text-center leading-none md:text-sm">
             <slot name="title"></slot>
         </h6>

@@ -136,7 +136,7 @@
 
             
 
-            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth1">
                 <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 1:</span> Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.</h4>
 
                 <p>Liikide väljasuremine on toimunud läbi Maa ajaloo. Eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis aset 66 000 000 aastat tagasi, oli tingitud asteroidi kokkupõrkest Maale. Aastate jooksul on meil teisigi tuntud näiteid, näiteks mammutite väljasuremine. Registreeritud väljasuremise põhjused on aga erinevad.</p>
@@ -157,7 +157,7 @@
 
             <div class="divider my-6"></div>
             
-            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth2">
                 <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 2:</span> Liigid suudavad kliimamuutustega kohaneda.</h4>
                 
                 <p>Maa ajalugu hinnatakse 4,54 miljardile aastale. Läbi aegade on planeedil valitsenud ilmastikutingimused muutunud. Seetõttu on Maal elavad liigid/organismid sunnitud ellujäämiseks ja säilimiseks uute tingimustega kohanema. Nii tekkis liikide evolutsioon.</p>
@@ -178,7 +178,7 @@
             
             <div class="divider my-6"></div>
             
-            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth3">
                 <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 3:</span> Kliimamuutuste alane teadus ei ole usaldusväärne.</h4>
                 
                 <p>Meteoroloogiajaamad asuvad piirkondades, kus kogutud andmed ei kajasta kliimamuutusi ega ole seetõttu globaalse kliima uurimiseks usaldusväärsed.</p>
@@ -206,7 +206,7 @@
             
             <div class="divider my-6"></div>
             
-            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth4">
                 <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 4:</span> Globaalne soojenemine on kasulik.</h4>
                 
                 <p class="pl-4 border-l border-blue-500">
@@ -222,11 +222,16 @@
                     <br />
                     <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
                 </p>
+
+                <UiNavButtonBar class="font-Body mb-6" :buttons="[
+                    {text:'Avatud uurimus 1', url:'climate-change/inquiry/open'},
+                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth4'}
+                ]" />
             </UiCardInfo>
             
             <div class="divider my-6"></div>
             
-            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth5">
                 <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 5:</span> Seos CO₂ ja temperatuuri tõusu vahel puudub.</h4>
                 
                 <p class="pl-4 border-l border-blue-500">
@@ -252,7 +257,7 @@
             
             <div class="divider my-6"></div>
                         
-            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth6">
                 <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 6:</span> Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h4>
 
                 <p class="pl-4 border-l border-blue-500">
@@ -271,7 +276,7 @@
             
             <div class="divider my-6"></div>
 
-            <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
+            <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth7">
                 <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 7:</span> Maa kliima on alati muutunud ning see jätkab muutumist.</h4>
                 <p class="pl-4 border-l border-blue-500">
                     <i>“Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi CO₂ tase on praegusest madalam. Viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”</i>

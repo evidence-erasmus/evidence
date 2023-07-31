@@ -32,7 +32,7 @@
         
         <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
-            <NuxtLink to="../student#section-4" 
+            <NuxtLink to="../student#myth2" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth2.back')}}</span>
@@ -115,7 +115,7 @@
 
 
             
-            <div style="transform:translateX(-6vw)" class="mb-8">
+            <div style="transform:translateX(-5vw)" class="e-card w-[90vw] mb-8">
                 <ToolsDynamicTable :tableStructure="tm('inquiry.cc-myth2.a1.q2.data-table')" :storeToUpdate="climateMythTwoAnswers" :keyToUpdate="climateMythTwoAnswers.a1.q2.datatable" />
             </div>
             
@@ -308,7 +308,7 @@
                 <b>{{ t('inquiry.cc-myth2.reliability.label-1') }}</b>
             </p>
 
-            <div class="mb-8" style="transform:translateX(-6vw)">
+            <div class="e-card w-[90vw] mb-8" style="transform:translateX(-5vw)">
                 <!-- <ClientOnly> -->
                     <ToolsReliabilityTable :storeToUpdate="climateMythTwoAnswers" currentSources="inquiry.cc-myth2.sources" key="ccmyth2rlblty" />
                 <!-- </ClientOnly> -->
@@ -325,7 +325,7 @@
                 <b>{{ t('inquiry.cc-myth2.flicc-label') }}</b>
             </p>
 
-            <div style="transform:translateX(-6vw)" class="e-card my-8">
+            <div style="transform:translateX(-5vw)" class="e-card w-[90vw] my-8">
                     <ModulesFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
                     <!-- <ToolsFliccTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" /> -->
             </div>

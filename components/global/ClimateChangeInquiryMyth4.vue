@@ -1,6 +1,4 @@
 <script setup>
-    import { useStudentClimateGuidedMyth7 } from '~~/store/useStudentClimateGuidedMyth7.js'; 
-    const climateMyth7Answers = useStudentClimateGuidedMyth7();
     import { useStudentClimateGuidedMyth4 } from '~~/store/useStudentClimateGuidedMyth4.js'; 
     const climateMyth4Answers = useStudentClimateGuidedMyth4();
 
@@ -36,7 +34,7 @@
         
         <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
-            <NuxtLink to="../student#section-4" 
+            <NuxtLink to="../student#myth4" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
@@ -483,93 +481,46 @@
         </label>
         <textarea id="a5ext2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a5.extra2"></textarea>
-
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-
-
-
-
-            <i18n-t tag="p" keypath="inquiry.cc_myth7.source_72.txt_1" scope="global" class="mb-0">
-                <template #link1>
-                    <a :href="t('inquiry.cc_myth7.sources[1].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth7.source_72.link_1') }}</a>
-                </template>
-            </i18n-t>
-            <label for="source72" class="block mb-2 mt-2">
-                <b>{{ t('inquiry.cc_myth7.source_72.label_1') }}</b>
-            </label>
-            <textarea id="source72" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
-            v-model="climateMyth7Answers.source72"></textarea>
+        
+        <label for="a5ext2" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a5.extra.q_3') }}</b>
+        </label>
+        <textarea id="a5ext2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a5.extra3"></textarea>
+        
+        <hr />
 
 
-            <!-- years table -->
+        <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="font-bold">
+            <template #link1>
+                <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noreferrer noopener">
+                    {{ t('inquiry.reliability_table.link_1') }}
+                </a>
+            </template>
+        </i18n-t>
 
-            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
-                <ToolsDynamicTableFull 
-                :storeToUpdate="climateMyth7Answers" 
-                :keyToUpdate="climateMyth7Answers.yearsTable" 
-                :tableStructure="tm('inquiry.cc_myth7.table_years.table')"
-                :overwrite="true" />
-            </div>
+        <div class="e-card w-[90vw] mb-8 " style="transform:translateX(-5vw)">
+            <ToolsReliabilityTable :storeToUpdate="climateMyth4Answers" currentSources="inquiry.cc_myth4.sources" key="ccmyth4rlblty" />
+        </div>
 
-            <label for="years" class="block mb-2 mt-2">
-                <b>{{ t('inquiry.cc_myth7.years_max') }}</b>
-            </label>
-            <textarea id="years" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
-            v-model="climateMyth7Answers.yearsMax"></textarea>
 
-            <!-- source 3 -->
+        <hr />
 
-            <i18n-t tag="p" keypath="inquiry.cc_myth7.source_73.txt_1" scope="global" class="mb-0">
-                <template #link1>
-                    <a :href="t('inquiry.cc_myth7.sources[2].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth7.source_73.link_1') }}</a>
-                </template>
-            </i18n-t>
-            <label for="source73" class="block mb-2 mt-2">
-                <b>{{ t('inquiry.cc_myth7.source_73.label_1') }}</b>
-            </label>
-            <textarea id="source73" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
-            v-model="climateMyth7Answers.source73"></textarea>
+        <label for="conclusion" class="block mb-2 mt-8">
+            <b>{{ t('inquiry.cc_myth4.conclusions') }}</b>
+        </label>
+        <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.conclusions"></textarea>
 
+
+        <hr />
+
+        <label><b>{{ t('inquiry.cc_myth4.flicc_label') }}</b></label>
             
-
-
-            <hr />
-
-
-            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="font-bold">
-                <template #link1>
-                    <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noreferrer noopener">
-                        {{ t('inquiry.reliability_table.link_1') }}
-                    </a>
-                </template>
-            </i18n-t>
-
-            <div class="mb-8" style="transform:translateX(-5vw)">
-                    <ToolsReliabilityTable :storeToUpdate="climateMyth4Answers" currentSources="inquiry.cc_myth4.sources" key="ccmyth4rlblty" />
-            </div>
-
-
-            <hr />
-
-            <label for="conclusion" class="block mb-2 mt-8">
-                <b>{{ t('inquiry.cc_myth7.conclusion') }}</b>
-            </label>
-            <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
-            v-model="climateMyth7Answers.conclusions"></textarea>
-
-
-            <hr />
-
-            <label><b>{{ t('inquiry.cc_myth7.flicc_label') }}</b></label>
-            
-            <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
-                    <ModulesFlicc2Table :storeToUpdate="climateMyth7Answers" key="ccmyth7flicc" />
-                    <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
-            </div>
+        <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
+            <ModulesFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
+            <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
+        </div>
            
             
         </section>

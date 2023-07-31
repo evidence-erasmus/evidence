@@ -48,8 +48,8 @@
                 
             
 
-            <hr id="activity-1" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 1: Presentation of the video introduction</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="activity-1">Activity 1: Presentation of the video introduction</h2>
             
             <ModulesStructure>
                     <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
@@ -91,8 +91,8 @@
             
 
 
-            <hr id="activity-2" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 2: Group discussion</h2>
+            <hr class="mt-10 mb-40 print:my-10" />
+            <h2 id="activity-2">Activity 2: Group discussion</h2>
             
             <ModulesStructure>
                     <template #title>Activity 2<br />CHOOSING A MYTH</template>
@@ -166,8 +166,8 @@
  -->
 
 
-            <hr id="activity-3" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 3: Mythbusting</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="activity-3">Activity 3: Mythbusting</h2>
 
             <ModulesStructure>
                 <template #title>Activity 3<br />MYTHBUSTING</template>
@@ -263,8 +263,8 @@
 
 
 
-            <hr id="activity-6" class="mt-10 mb-40 print:my-10" />
-            <h2>Activity 6: Game</h2>
+            <hr  class="mt-10 mb-40 print:my-10" />
+            <h2 id="activity-6">Activity 6: Game</h2>
 
             <p class="text-sm italic">This game is adopted from, and modified based on the following source: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
 

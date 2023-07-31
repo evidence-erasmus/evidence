@@ -34,7 +34,7 @@
         
         <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
-            <NuxtLink to="../student#section-4" 
+            <NuxtLink to="../student#myth6" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth2.back')}}</span>
@@ -123,8 +123,8 @@
                 </template>
             </i18n-t>
 
-            <div class="mb-8" style="transform:translateX(-5vw)">
-                    <ToolsReliabilityTable :storeToUpdate="climateMyth6Answers" currentSources="inquiry.cc_myth6.sources" key="ccmyth6rlblty" />
+            <div class="e-card w-[90vw] mb-8" style="transform:translateX(-5vw)">
+                <ToolsReliabilityTable :storeToUpdate="climateMyth6Answers" currentSources="inquiry.cc_myth6.sources" key="ccmyth6rlblty" />
             </div>
 
 
@@ -142,8 +142,8 @@
             <label><b>{{ t('inquiry.cc_myth6.flicc_label') }}</b></label>
             
             <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
-                    <ModulesFlicc2Table :storeToUpdate="climateMyth6Answers" key="ccmyth6flicc" />
-                    <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
+                <ModulesFlicc2Table :storeToUpdate="climateMyth6Answers" key="ccmyth6flicc" />
+                <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
             </div>
            
             

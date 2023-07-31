@@ -107,7 +107,7 @@
             },
             {
                 "title": "",
-                "story": "To better filter both exhaling and inhaling air, an FFP2 or FFP3 mask (often called also respirator) should be used. FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: <8% and <2%, respectively."
+                "story": "To better filter both exhaling and inhaling air, an FFP2 or FFP3 mask (often called also respirator) should be used. FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: ‹8% and ‹2%, respectively."
             },
             {
                 "title": "",
@@ -208,7 +208,7 @@
             },
             {
                 "title": "",
-                "story": "To better filter both exhaling and inhaling air, an FFP2 or FFP3 mask (often called also respirator) should be used. FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: <8% and <2%, respectively."
+                "story": "To better filter both exhaling and inhaling air, an FFP2 or FFP3 mask (often called also respirator) should be used. FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: ‹8% and ‹2%, respectively."
             },
             {
                 "title": "",
@@ -287,7 +287,7 @@
             },
             {
                 "title": "",
-                "story": "To better filter both exhaling and inhaling air, an FFP2 or FFP3 mask (often called also respirator) should be used. FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: <8% and <2%, respectively."
+                "story": "To better filter both exhaling and inhaling air, an FFP2 or FFP3 mask (often called also respirator) should be used. FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: ‹8% and ‹2%, respectively."
             },
             {
                 "title": "",

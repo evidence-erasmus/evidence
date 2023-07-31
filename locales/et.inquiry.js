@@ -519,9 +519,12 @@ export default {
         extra: {
           txt_1: "Tutvu järgmiste allikatega, et vastata  küsimustele.",
           q_1: "Mis on kliimaõiglus?",
-          q_2: "Mis põhjustab inimestes suurt muret?"
+          q_2: "Mis põhjustab inimestes suurt muret?",
+          q_3: "Kas sa arvate, kas kliimamuutused on ühtlasi sotsiaalne probleem?"
         }
       },
+      conclusions: "Tõenditele tuginedes on meie järeldused müüdi “Globaalne soojenemine on kasulik”, paikapidavusele järgmised:",
+      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
       sources: [
         {
           name: "Kliimamuutused ja tervis",

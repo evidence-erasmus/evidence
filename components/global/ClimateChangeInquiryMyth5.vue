@@ -34,7 +34,7 @@
         
         <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
-            <NuxtLink to="../student#section-4" 
+            <NuxtLink to="../student#myth5" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth2.back')}}</span>
@@ -118,7 +118,7 @@
             <label>
                 <b>{{ t('inquiry.cc_myth5.exp_1.table_1.label') }}</b>
             </label>
-            <div style="transform:translateX(-6vw)" class="mb-8">
+            <div style="transform:translateX(-5vw)" class="e-card w-[90vw] mb-8">
                 <ToolsDynamicTable 
                     :tableStructure="tm('inquiry.cc_myth5.exp_1.table_1.table')" 
                     :storeToUpdate="climateMyth5Answers"
@@ -248,8 +248,8 @@
                 </template>
             </i18n-t>
 
-            <div class="mb-8" style="transform:translateX(-5vw)">
-                    <ToolsReliabilityTable :storeToUpdate="climateMyth5Answers" currentSources="inquiry.cc_myth5.sources" key="ccmyth3rlblty" />
+            <div class="e-card w-[90vw] mb-8" style="transform:translateX(-5vw)">
+                <ToolsReliabilityTable :storeToUpdate="climateMyth5Answers" currentSources="inquiry.cc_myth5.sources" key="ccmyth3rlblty" />
             </div>
 
 
@@ -267,8 +267,8 @@
             <label><b>{{ t('inquiry.cc_myth5.flicc_label') }}</b></label>
             
             <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
-                    <ModulesFlicc2Table :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" />
-                    <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
+                <ModulesFlicc2Table :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" />
+                <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
             </div>
            
             

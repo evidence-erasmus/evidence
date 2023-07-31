@@ -34,7 +34,7 @@
         
         <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
-            <NuxtLink to="../student#section-4" 
+            <NuxtLink to="../student#myth7" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
@@ -144,8 +144,8 @@
                 </template>
             </i18n-t>
 
-            <div class="mb-8" style="transform:translateX(-5vw)">
-                    <ToolsReliabilityTable :storeToUpdate="climateMyth7Answers" currentSources="inquiry.cc_myth7.sources" key="ccmyth7rlblty" />
+            <div class="e-card w-[90vw] mb-8" style="transform:translateX(-5vw)">
+                <ToolsReliabilityTable :storeToUpdate="climateMyth7Answers" currentSources="inquiry.cc_myth7.sources" key="ccmyth7rlblty" />
             </div>
 
 

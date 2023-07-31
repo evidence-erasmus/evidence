@@ -2,10 +2,14 @@
     
     import { useStudentClimateOpen } from '~~/store/useStudentClimateOpen.js'; 
     const studentClimateOpen = useStudentClimateOpen();
-    // const router = useRouter();
     const { locale, t, tm, rt } = useI18n({
         useScope: 'global'
     });
+    const router = useRouter();
+
+    const goBack = () => {
+        router.back();
+    }
 
 </script>
 
@@ -25,12 +29,12 @@
         <section class="e-article print:not-prose" :lang="locale" style="hyphens:auto;">
             
 
-            <NuxtLink to="../student#section-4" 
+            <button @click="goBack" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
                 </span>
-            </NuxtLink>
+            </button>
 
 
             <h1 class="mb-0">{{ t('inquiry.cc_open.title') }}</h1>
