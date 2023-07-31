@@ -63,6 +63,6 @@
 
     const addRow = () => {
         const row = new Array(...props.newRow);
-        props.storeToUpdate.addDynamicRow(props.keyToUpdate, row);
+         props.storeToUpdate.addDynamicRow(props.keyToUpdate, row);
     }
 </script>

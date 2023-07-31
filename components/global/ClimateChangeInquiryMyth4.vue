@@ -8,15 +8,15 @@
         useScope: 'global'
     });
 
-    // const addSources = (arr) => {
-    //     arr.forEach((el, index) => {
-    //         climateMyth4Answers.changeFliccValue(index, 0, rt(el.name));
-    //         climateMyth4Answers.changeReliabilityValue(index, 1, rt(el.name));
-    //     })
-    // }
-    // // onMounted(()=>{
-    //     addSources(tm('inquiry.cc_myth4.sources'));
-    // // })
+    const addSources = (arr) => {
+        arr.forEach((el, index) => {
+            climateMyth4Answers.changeFliccValue(index, 0, rt(el.name));
+            climateMyth4Answers.changeReliabilityValue(index, 1, rt(el.name));
+        })
+    }
+    // onMounted(()=>{
+        addSources(tm('inquiry.cc_myth4.sources'));
+    // })
 
 </script>
 
@@ -318,6 +318,172 @@
         </div>
 
 
+        <i18n-t tag="p" keypath="inquiry.cc_myth4.a3.source_432.txt_1" scope="global">
+            <template #link1>
+                <a :href="t('inquiry.cc_myth4.sources[6].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.a3.source_432.link_1') }}</a>
+            </template>
+        </i18n-t>
+
+        <label for="a3source2" class="block mb-2 mt-2">
+            <b>{{ t('inquiry.cc_myth4.a3.source_432.label_1') }}</b>
+        </label>
+        <textarea id="a3source2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a3.source432"></textarea>
+
+
+
+        <i18n-t tag="p" keypath="inquiry.cc_myth4.a3.source_433.txt_1" scope="global">
+            <template #link1>
+                <a :href="t('inquiry.cc_myth4.sources[7].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.a3.source_433.link_1') }}</a>
+            </template>
+        </i18n-t>
+
+        <label for="a3source3" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a3.source_433.label_1') }}</b>
+        </label>
+        <textarea id="a3source3" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a3.source433"></textarea>
+
+        <label for="a3concl" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a3.conclusion') }}</b>
+        </label>
+        <textarea id="a3concl" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a3.conclusion"></textarea>
+
+
+        <hr />
+
+
+
+
+
+
+
+
+
+
+
+        <UiCardInfo theme="rose-400" icon="game-icons:unicorn">
+            <h4 class="leading-tight my-2">
+                {{ t('inquiry.cc_myth4.a4.argument') }}
+            </h4>
+        </UiCardInfo>
+
+        <UiCardInfo theme="sky-400" icon="tabler:zoom-question" class="mt-6">
+            <h4 class="leading-tight my-2">
+                {{ t('inquiry.cc_myth4.a4.question') }}
+            </h4>
+        </UiCardInfo>
+
+
+        <i18n-t tag="p" keypath="inquiry.cc_myth4.a4.source_441.txt_1" scope="global" class="mb-0">
+            <template #link1>
+                <a :href="t('inquiry.cc_myth4.sources[7].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.a4.source_441.link_1') }}</a>
+            </template>
+            <template #link2>
+                <a :href="t('inquiry.cc_myth4.a4.source_441.url_2')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.a4.source_441.link_2') }}</a>
+            </template>
+        </i18n-t>
+
+        <label for="a4source441" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a4.source_441.label_1') }}</b>
+        </label>
+        <textarea id="a4source441" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a4.source441"></textarea>
+
+
+        <i18n-t tag="p" keypath="inquiry.cc_myth4.a4.source_442.txt_1" scope="global" class="mb-0">
+            <template #link1>
+                <a :href="t('inquiry.cc_myth4.sources[8].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.a4.source_442.link_1') }}</a>
+            </template>
+        </i18n-t>
+
+        <label for="a4source442" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a4.source_442.label_1') }}</b>
+        </label>
+        <textarea id="a4source442" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a4.source442"></textarea>
+
+        <p><b>{{ t('inquiry.cc_myth4.a4.source_442.table_label') }}</b></p>
+
+        <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+            <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a4.insectTable" 
+            :tableStructure="tm('inquiry.cc_myth4.a4.source_442.table')" 
+            :newRow="['', '']"
+            :addRow="true" />
+        </div>
+
+        <label for="a4concl" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a4.conclusion') }}</b>
+        </label>
+        <textarea id="a4concl" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a4.conclusion"></textarea>
+
+        <hr />
+
+
+
+
+
+
+        <UiCardInfo theme="rose-400" icon="game-icons:unicorn">
+            <h4 class="leading-tight my-2">
+                {{ t('inquiry.cc_myth4.a5.argument') }}
+            </h4>
+        </UiCardInfo>
+
+        <UiCardInfo theme="sky-400" icon="tabler:zoom-question" class="mt-6">
+            <h4 class="leading-tight my-2">
+                {{ t('inquiry.cc_myth4.a5.question') }}
+            </h4>
+        </UiCardInfo>
+
+        <i18n-t tag="p" keypath="inquiry.cc_myth4.a5.source_451.txt_1" scope="global" class="mb-0">
+            <template #link1>
+                <a :href="t('inquiry.cc_myth4.sources[9].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth4.sources[9].name') }}</a>
+            </template>
+        </i18n-t>
+
+        <label for="a5source451" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a5.source_451.label_1') }}</b>
+        </label>
+        <textarea id="a5source451" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a5.source451"></textarea>
+        
+        <label for="a5source451b" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a5.source_451.label_2') }}</b>
+        </label>
+        <textarea id="a5source451b" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a5.q1"></textarea>
+        
+        <label for="a5concl" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a5.conclusion') }}</b>
+        </label>
+        <textarea id="a5concl" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a5.conclusion"></textarea>
+
+        <hr />
+
+        <p>{{ t('inquiry.cc_myth4.a5.extra.txt_1') }}</p>
+
+        <ul class="leading-tight">
+            <li><a href="https://www.bbc.com/future/article/20211103-the-countries-calling-for-climate-justice" target="_blank" rel="noopener noreferrer">https://www.bbc.com/future/article/20211103-the-countries-calling-for-climate-justice</a></li>
+            <li><a href="https://naacp.org/know-issues/environmental-climate-justice" target="_blank" rel="noopener noreferrer">https://naacp.org/know-issues/environmental-climate-justice</a></li>
+            <li><a href="https://www.youtube.com/watch?v=NEnpPC8pIkE" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=NEnpPC8pIkE</a></li>
+        </ul>
+
+        <label for="a5ext1" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a5.extra.q_1') }}</b>
+        </label>
+        <textarea id="a5ext1" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a5.extra1"></textarea>
+        
+        <label for="a5ext2" class="block mb-2 mt-0">
+            <b>{{ t('inquiry.cc_myth4.a5.extra.q_2') }}</b>
+        </label>
+        <textarea id="a5ext2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        v-model="climateMyth4Answers.a5.extra2"></textarea>
+
 <hr />
 <hr />
 <hr />
@@ -383,7 +549,7 @@
             </i18n-t>
 
             <div class="mb-8" style="transform:translateX(-5vw)">
-                    <ToolsReliabilityTable :storeToUpdate="climateMyth7Answers" currentSources="inquiry.cc_myth7.sources" key="ccmyth7rlblty" />
+                    <ToolsReliabilityTable :storeToUpdate="climateMyth4Answers" currentSources="inquiry.cc_myth4.sources" key="ccmyth4rlblty" />
             </div>
 
 

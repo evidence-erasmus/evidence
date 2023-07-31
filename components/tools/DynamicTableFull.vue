@@ -17,7 +17,7 @@
         <div v-for="row, i in keyToUpdate" :key="`r${i}-${keyToUpdate.length}`" class="grid" :style="`grid-template-columns:repeat(${tableStructure.header.length}, 1fr)`">
             <div v-for="cell, j in row"
             class="text-sm leading-none border border-slate-300">
-                <textarea v-model="keyToUpdate[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2" :key="`ta-${i}-${j}-${keyToUpdate.length}`">
+                <textarea v-model="keyToUpdate[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2 leading-tight" :key="`ta-${i}-${j}-${keyToUpdate.length}`">
                 </textarea>
             </div>
         </div>

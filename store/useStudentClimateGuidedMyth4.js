@@ -32,7 +32,27 @@ export const useStudentClimateGuidedMyth4 = defineStore("studentClimateGuidedMyt
         a3: {
             source431Table: [
                 ["",""]
-            ]
+            ],
+            source432: "",
+            source433: "",
+            conclusion: ""
+        },
+        a4: {
+            source441: "",
+            source442: "",
+            insectTable: [
+                ["",""],
+                ["",""],
+                ["",""]
+            ],
+            conclusion: ""
+        },
+        a5: {
+            source451: "",
+            q1: "",
+            extra1: "",
+            extra2: "",
+            conclusion: ""
         },
         conclusions: "",
         
@@ -42,9 +62,17 @@ export const useStudentClimateGuidedMyth4 = defineStore("studentClimateGuidedMyt
             ["", "", "'0'", ""],
             ["", "", "'0'", ""],
             ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
+            ["", "", "'0'", ""],
             ["", "", "'0'", ""]
         ],
         flicc: [
+            ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""],
+            ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
             ["", false, false, false, false, ""],
@@ -67,8 +95,8 @@ export const useStudentClimateGuidedMyth4 = defineStore("studentClimateGuidedMyt
         changeReliabilityValue(row, column, value){
             this.reliability[row][column] = value;
         },
-        addDynamicRow(key){
-            key.push(["", "", ""]);
+        addDynamicRow(key, row){
+            key.push(row);
         },
         changeDynamicRow(key, row, column, value){
             key[row][column] = value;

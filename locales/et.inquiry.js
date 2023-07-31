@@ -464,6 +464,62 @@ export default {
               ["", ""]
             ]
           }
+        },
+        source_432: {
+          txt_1: "Tutvu {link1}",
+          link_1: "järgmise diagrammiga",
+          label_1: "Millist infot on diagrammilt võimalik välja lugeda?",
+        },
+        source_433: {
+          txt_1: "Tutvu {link1}",
+          link_1: "BBC artikliga",
+          label_1: "Millise probleemi see tõstatab? Miks on see oluline?",
+        },
+        conclusion: "Millise järelduse saab teha küsimuse “Kas temperatuuri tõus mõjutab põllukultuuride arvu?”, kohta?"
+      },
+      a4: {
+        argument: "Müüdi 4 argument 4: Kui temperatuur tõuseb, mõjutab see mõningaid liike (nt putukaid).",
+        question: "Uurimisküsimus: Kas kliimamuutus mõjutab liikide populatsioone?",
+        source_441: {
+          txt_1: "Uuri uuesti juba eelnevalt viidatud {link1} ning järgnevat {link2} ning vasta küsimusele.",
+          link_1: "allikat 4.3",
+          link_2: "animatsiooni",
+          url_2: "https://www.youtube.com/watch?v=XBxuuYRDc_w",
+          label_1: "Kas kliimamuutused mõjutavad putukate populatsioone?",
+        },
+        source_442: {
+          txt_1: "Tutvu {link1}.",
+          link_1: "allikaga 4.5",
+          label_1: "Millist teemat see allikas käsitleb? Pange märkmed kirja.",
+          table_label: "Otsige muid sarnaseid näiteid putukatest või umbrohtudest, mis mõjutavad või on hakanud mõjutama põllukultuure.",
+          table: {
+            header: [
+              {thead:"Allikas"},
+              {thead:"Näide"}
+            ],
+            rows: [
+              ["",""],
+              ["",""],
+              ["",""]
+            ]
+          }
+        },
+        conclusion: "Millise järelduse saab teha küsimuse “Kas kliimamuutus mõjutab liikide populatsioone?”, kohta?"
+      },
+      a5: {
+        argument: "Müüdi 4 argument 5:  Soojem temperatuur aitab vaeseid. ",
+        question: "Uurimisküsimus:  Kas temperatuuri tõus mõjutab vaeste rahalist olukorda?",
+        source_451: {
+          txt_1: "Loe UNHCR (United Nations High Commissioner for Refugees) artiklit {link1} ning vasta järgnevale küsimusele.",
+          link_1: "Climate change and disaster displacement",
+          label_1: "Kes on kliimapagulane?",
+          label_2: "Nimetage põhjuseid, miks inimesed on hakanud kliimapagulasteks."
+        },
+        conclusion: "Kokkuvõtteks: Millise järelduse saab teha küsimuse “Mis sa arvad, kas temperatuuri tõus aitab vaeseid?”, kohta?",
+        extra: {
+          txt_1: "Tutvu järgmiste allikatega, et vastata  küsimustele.",
+          q_1: "Mis on kliimaõiglus?",
+          q_2: "Mis põhjustab inimestes suurt muret?"
         }
       },
       sources: [
@@ -488,8 +544,28 @@ export default {
           url: "https://climate.nasa.gov/vital-signs/sea-level/"
         },
         {
+          // 5
           name: "Climate change affects agriculture",
           url: "https://drive.google.com/file/d/1xK65Z9PpcVY37UE5lKvuavIQwjDwvvRR/view?usp=sharing"
+        },
+        {
+          name: "Allikas 4.4",
+          url: "https://drive.google.com/file/d/1b-_nvENTZYeVGy77uZoYCc38d8UQ4XSh/view?usp=sharing"
+        },
+        {
+          // 7
+          name: "UK plants now flowering a month earlier",
+          url: "https://www.bbc.com/news/science-environment-60220661"
+        },
+        {
+          // 8
+          name: "Climate change in agriculture and the fight against serious crop enemies",
+          url: "https://drive.google.com/file/d/1E0fL-vTSpAfCcr5xcD3uMa32zJurYyhA/view?usp=sharing"
+        },
+        {
+          // 9
+          name: "Climate change and disaster displacement",
+          url: "https://www.unhcr.org/climate-change-and-disasters.html"
         }
       ] 
     },
