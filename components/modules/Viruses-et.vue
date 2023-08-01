@@ -3,11 +3,12 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+        <ClientOnly>
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="viruses-et" />
+        </ClientOnly>
 
 
-
-        <section class="e-article print:not-prose">
+        <section class="e-article print:not-prose" lang="et" style="hyphens:auto;">
             <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
             <h1 class="mb-0">Viirused</h1>
             <h5 class="font-normal uppercase leading-tight">Materjalid õpetajale</h5>

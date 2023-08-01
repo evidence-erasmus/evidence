@@ -3,104 +3,108 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+        
+        <ClientOnly>
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="viruses-bg-et" />
+        </ClientOnly>
 
 
-
-        <section class="e-article">
+        <section class="e-article" lang="et" style="hyphens:auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
-            <h1 class="mb-0">Viruses</h1>
+            <h1 class="mb-0">Viirused</h1>
             <h5 class="font-normal uppercase leading-tight">Viirused: teadusinfo</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">1. Viirused vs bakterid</h2>
+            <h2 id="section-1">1. Viirused versus bakterid</h2>
         
-            <p class="font-bold">Bacteria and viruses can cause many common infections. But what are the differences between these two kinds of infectious organisms?</p>
+            <p class="font-bold">Bakterid ja viirused võivad põhjustada paljusid tuntud nakkushaigusi. Kuid millised on erinevused nende kahe nakkusetekitaja vahel?</p>
         
-            <p><span class="e-term font-Heading">Bacteria</span> are tiny microorganisms that are made up of a single cell. They're very diverse and can have many shapes and structural features. Bacteria can live in almost every conceivable environment, including in or on the human body. Only a handful of bacteria cause infections in humans. These bacteria are referred to as pathogenic bacteria.</p>
+            <p><span class="e-term font-Heading">Bakterid</span> on üliväikesed mikroorganismid, mis koosnevad ühest rakust. Nad on väga mitmekesised ja võivad olla erineva kuju ja struktuuriga.Bakterid võivad elada peaaegu igas mõeldavas keskkonnas, sealhulgas inimkehas või selle pinnal, kuid vaid käputäis baktereid põhjustab inimestel infektsioone. Neid baktereid nimetatakse <i>patogeenseteks</i>.</p>
         
-            <p><span class="e-term font-Heading">Viruses</span> are another type of tiny microorganism, even smaller than bacteria. Like bacteria, they're very diverse and have a variety of shapes and features. Viruses are parasitic. That means they require living cells or tissue in which to grow. Viruses can invade the cells of your body, using the components of your cells to grow and multiply. Some viruses even kill host cells as part of their life cycle. Differences between viruses and bacteria can be seen in figure 1 and found in table 1.</p>
+            <p><span class="e-term font-Heading">Viirused</span> on isegi väiksemad kui bakterid. Nagu bakterid, on nad väga mitmekesised ning erineva kuju ja tunnustega. Viirused on parasiidid. See tähendab, et nad vajavad kasvamiseks elusaid rakke või kudesid. Viirused võivad tungida keharakkudesse, kasutades rakkude komponente kasvamiseks ja paljunemiseks. Mõned viirused tapavad peremeesrakke oma elutsükli osana. Erinevused viiruste ja bakterite vahel on näha joonisel 1 ja tabelis 1.</p>
         
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/viruses-01__bacteria-vs-virus.webp"
                 credits="Source: https://inducoat.com/?attachment_id=24945&lang=en"
                 :elevated="true">
                 <template #caption>
-                    <b>Figure 1.</b> Structural differences between viruses and bacteria
+                    <b>Joonis 1.</b> Viiruse ja bakteri struktuurierinevused
                 </template>
             </UiContentImage>
         
             <table class="mt-20">
-                <caption class="text-left pb-4"><b>Table 1.</b> Differences between bacteria and viruses</caption>
+                <caption class="text-left pb-4"><b>Tabel 1.</b> Erinevused bakterite ja viiruste vahel</caption>
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Bacteria</th>
-                        <th>Viruses</th>
+                        <th>Bakterid</th>
+                        <th>Viirused</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th class="align-baseline">
-                            Living
+                            Elus või eluta?
                         </th>
                         <td>
-                            <b>Living organism.</b><br>Bacteria are living organisms with a single cell that can generate energy, make their own food, move and reproduce (typically by binary fission). This allows bacteria to live in many places - soil, water, plants, and the human body - and serve many purposes.<br>Bacteria include both parasites and non-parasites.
+                            <b>Elusorganism.</b><br>
+                            Bakterid on elusorganismid, mis koosnevad ühest rakust, mis suudab toota energiat, teha ise toitu, liikuda ja paljuneda (tavaliselt jagunemise teel). See võimaldab bakteritel elada paljudes kohtades – pinnases, vees, taimedes ja inimkehas – ning teenida mitmeid eesmärke.
+                            <br />
+                            Bakterite hulka kuuluvad nii parasiidid kui ka mitteparasiidid.
                         </td>
                         <td>
-                            <b>Nonliving.</b><br />Viruses only grow and reproduce inside the host cells they infect. When found outside of these living cells, viruses are dormant. Their “life,” therefore, requires the hijacking of the biochemical activities of a living cell.<br />All viruses are intracellular parasites.
+                            <b>Elusa ja eluta looduse piirimail.</b><br />Viirused kasvavad ja paljunevad ainult peremeesrakkudes, mida nad nakatavad. Väljaspool neid elusrakke leiduvad viirused on uinuvad. Nende "elu" nõuab seetõttu elusraku biokeemilise tegevuse ülevõtmist.<br />Kõik viirused on rakusisesed parasiidid.
                         </td>
                     </tr>
                     <tr>
-                        <th class="align-baseline">Number of cells</th>
-                        <td>Unicellular, one cell</td>
-                        <td>No cells, not living</td>
+                        <th class="align-baseline">Rakulisus</th>
+                        <td>Koosneb ühest rakust.</td>
+                        <td>Ei koosne rakkudest.</td>
                     </tr>
                     <tr>
-                        <th class="align-baseline">Repro&shy;duction</th>
-                        <td>Split into 2</td>
-                        <td>Invades a host cell and takes over the cell causing it to make copies of the viral DNA/RNA. Destroys the host cell releasing new viruses</td>
+                        <th class="align-baseline">Paljunemine</th>
+                        <td>Jaguneb kaheks</td>
+                        <td>Tungib peremeesrakku ja võtab raku üle, põhjustades viiruse DNA/RNA koopiate tegemise. Hävitab peremeesraku, vabastades uusi viirusi.</td>
                     </tr>
                     <tr>
-                        <th class="align-baseline">Size</th>
-                        <td>Bacteria are much bigger, ranging from 800 nm to 1000 nm. Bacteria can be seen under a light microscope.</td>
-                        <td>The size of viruses is between 20 nm to 400 nm. Viruses are visible only under electron microscopes.</td>
+                        <th class="align-baseline">Suurus</th>
+                        <td>Bakterid on palju suuremad, nende suurus jääb vahemikku 800 nm kuni 1000 nm. Baktereid saab näha valgusmikroskoobi abil.</td>
+                        <td>Viiruste suurus on vahemikus 20 nm kuni 400 nm. Viirused on nähtavad ainult elektronmikroskoobi all.</td>
                     </tr>
                     <tr>
-                        <th class="align-baseline">Benefits</th>
-                        <td>Some bacteria are beneficial, e.g., certain bacteria are required in the gut).</td>
-                        <td>Viruses are not beneficial. Viruses can be helpful in genetic engineering.</td>
+                        <th class="align-baseline">Kasu</th>
+                        <td>Paljud bakterid on kasulikud. N: teatud bakterid on vajalikud soolestikus.</td>
+                        <td>Viirused ei ole üldjuhul kasulikud, kuid leiavad rakendust geenitehnoloogias.</td>
                     </tr>
                     <tr>
-                        <th class="align-baseline">Infection</th>
-                        <td>Bacterial infection is usually confined to a part of the body, described as a localized infection. Infections may be caused by bacteria or by toxins (endotoxins) produced.</td>
-                        <td>A viral infection is systemic. Viruses infect a host cell and multiply by thousands, leaving the host cell and infecting other body cells.</td>
+                        <th class="align-baseline">Infektsioon</th>
+                        <td>Bakteriaalne infektsioon piirdub tavaliselt mõne kehaosaga, mida kirjeldatakse kui lokaliseeritud infektsiooni. Infektsioonid võivad olla põhjustatud bakteritest või bakterite poolt toodetud toksiinidest (endotoksiinidest).</td>
+                        <td>Viirusinfektsioon on süsteemne. Viirused nakatavad peremeesrakku ja paljunevad seejärel tuhandetes, lahkudes peremeesrakust ja nakatades teisi keharakke.</td>
                     </tr>
                     <tr>
-                        <th class="align-baseline">Disease</th>
-                        <td>Bacterial diseases include pneumonia, tuberculosis, tetanus, and food poisoning.</td>
-                        <td>Systemic diseases caused by viral infection include influenza, measles, polio, AIDS, and COVID-19.</td>
+                        <th class="align-baseline">Haigus</th>
+                        <td>Bakteriaalsete haiguste hulka kuuluvad kopsupõletik, tuberkuloos, teetanus ja toidumürgitus.</td>
+                        <td>Viirusinfektsioonist põhjustatud süsteemsete haiguste hulka kuuluvad gripp, leetrid, lastehalvatus, AIDS ja COVID-19.</td>
                     </tr>
                     <tr>
-                        <th class="align-baseline">Treat&shy;ment</th>
-                        <td>Antibiotics and vaccines prevent the disease.</td>
-                        <td>Vaccines prevent the spread, and antiviral medications help to slow reproduction but cannot stop it completely.</td>
+                        <th class="align-baseline">Ravi</th>
+                        <td>Antibiootikumid, ennetavad vaktsiinid.</td>
+                        <td>Vaktsiinid takistavad levikut ja viirusevastased ravimid aitavad paljunemist aeglustada, kuid ei suuda seda täielikult peatada.</td>
                     </tr>
                 </tbody>
             </table>
 
             <UiCardInfo class="mb-8" >
-                Antibiotics can help the immune system to kill off bacterial infections but are useless against viral infections. Antiviral drugs work differently than antibiotics and are currently only effective against a few viral diseases, such as influenza, herpes, hepatitis B and C, and HIV. Viral infections can be much harder to kill than bacterial infections because the virus goes into human cells. The immune system can sometimes kill the infected cells before the virus can reproduce. However, as the virus reproduces, it often kills the infected cell by exploding out, which allows the virus to spread to other cells in the body.
+                <b>Antibiootikumid</b> võivad aidata immuunsüsteemil hävitada bakteriaalset nakkust, kuid on kasutud viirusnakkuste vastu. <b>Viirusevastased ravimid</b> toimivad teisiti kui antibiootikumid ja on praegu tõhusad vaid mõne viirushaiguse, näiteks gripi, herpese, B- ja C-hepatiidi ning HIV-viiruse vastu. Viirusnakkusi võib olla palju raskem tappa kui bakteriaalseid nakkusi, kuna viirus siseneb organismi rakkudesse. <b>Immuunsüsteem</b> võib nakatunud rakud tappa enne, kui viirus on võimeline paljunema. Viiruse paljunedes aga rakk lõhkeb, mis võimaldab viirusel levida teistesse keharakkudesse.
             </UiCardInfo>
 
             
             <section class="e-card">
-                <h4 class="mt-4">References</h4>
+                <h4 class="mt-4">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/">https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/</a></li>
-                        <li><a href="https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16">https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16</a></li>
-                    <li><a href="
-                        http://www.hcrowder.com/disease-reading.html">
+                    <li><a href="https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/" target="_blank" rel="noopener noreferrer">https://courses.lumenlearning.com/suny-biology2xmaster/chapter/prevention-and-treatment-of-viral-infections/</a></li>
+                    <li><a href="https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16" target="_blank" rel="noopener noreferrer">https://bodell.mtchs.org/OnlineBio/BIOCD/text/chapter16</a></li>
+                    <li><a href="http://www.hcrowder.com/disease-reading.html" target="_blank" rel="noopener noreferrer" >
                         http://www.hcrowder.com/disease-reading.html</a></li>
                 </ul>
             </section>
@@ -118,15 +122,17 @@
             
             
             
-            <hr id="section-2" class="mt-10 mb-40" />
-            <h2>2. Why do antibiotics not kill viruses?</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-2">2. Miks antibiootikumid ei tapa viiruseid?</h2>
             
-            <p>Antibiotics target the growth machinery in bacteria (not viruses) to kill or inhibit those particular bacteria. Antibiotics cannot kill viruses because viruses have different structures and replicate differently than bacteria. Moreover, overuse and inappropriate prescribing of antibiotics worldwide are leading to the global healthcare issue of <a href="https://www.drugs.com/article/antibiotic-resistance.html" target="_blank">antibiotic resistance</a>. See Table 2 in which conditions antibiotics may be helpful (NB! the decision on its use will be made by your doctor).</p>
+            <p>Antibiootikumid ei saa tappa viirusi, kuna viirustel on teistsugune struktuur ja paljunemine kui bakteritel. Antibiootikumid avaldavad toimet bakterite (mitte viiruste) kasvumehhanismidele, et tappa või pärssida konkreetseid baktereid.</p>
+            
+            <p>Veelgi enam, antibiootikumide ülekasutamine või ebaõige kasutamine on tekitanud ülemaailmse tervishoiuprobleemi, nn <a href="https://www.drugs.com/article/antibiotic-resistance.html" target="_blank" rel="noopener noreferrer">antibiootikumiresistentsuse</a>. Vaata tabelist 2, millistel juhtudel võivad antibiootikumid abiks olla ja millistel mitte (NB! otsuse antibiootikumi kasutamise kohta teeb igal juhul arst).</p>
             
             
             <table class="leading-tight e-card">
                 <caption class="text-left pb-4">
-                    <b>Table 2.</b> Need for antibiotics by common respiratory infections
+                    <b>Tabel 2.</b> Vajadus antibiootikumide järele ülemiste hingamisteede nakkushaiguste korral
                 </caption>
                 <thead class="border text-center">
                     <tr>
@@ -210,7 +216,7 @@
                     <tr>
                         <td colspan="5" class="py-0 px-3">
                             <p class="text-sm italic">* Studies shows that in otherwise healthy children and adults, antibiotics for bronchitis won't help patients feel better.</p>
-                            <p class="text-xs text-slate-400">Source: https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg</p>
+                            <p class="text-xs text-slate-400">Source: <a href="https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg</a></p>
                         </td>
                     </tr>
                 </tfoot>
@@ -218,13 +224,13 @@
 
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.drugs.com/article/antibiotics-and-viruses.html" target="_blank">https://www.drugs.com/article/antibiotics-and-viruses.html</a>
+                        <a href="https://www.drugs.com/article/antibiotics-and-viruses.html" target="_blank" rel="noopener noreferrer">https://www.drugs.com/article/antibiotics-and-viruses.html</a>
                     </li>
                     <li>
-                        <a href="https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/" target="_blank">https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/</a>
+                        <a href="https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/" target="_blank" rel="noopener noreferrer">https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/</a>
                     </li>
                 </ul>
             </section>
@@ -240,53 +246,53 @@
 
 
 
-            <hr id="section-3" class="mt-10 mb-40" />
-            <h2>3. How vaccines work</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-3">3. Kuidas vaktsiinid toimivad</h2>
 
-            <h3>The body's natural response</h3>
+            <h3>Organismi loomulik vastus</h3>
 
-            <p>A <span class="e-term font-Heading">pathogen</span> is a bacterium, virus, parasite, or fungus that can cause disease within the body. Each pathogen is made up of several subparts, usually unique to that specific pathogen and the disease it causes. The subpart of a pathogen that causes the formation of antibodies is called an antigen. The antibodies produced in response to the pathogen's antigen are essential to the immune system. You can consider antibodies as the soldiers in your body's defense system. Each antibody, or soldier, in our system, is trained to recognize one specific antigen. We have thousands of different antibodies in our bodies. When the human body is exposed to an antigen for the first time, it takes time for the immune system to respond and produce antibodies specific to that antigen (Fig. 2). </p>
+            <p><span class="e-term font-Heading">Patogeen</span> on bakter, viirus, parasiit või seen, mis võib põhjustada organismis haigusi. Iga patogeen koosneb mitmest osast, mis on tavaliselt konkreetsele patogeenile ainulaadsed. Patogeeni osa, mis põhjustab antikehade moodustumist, nimetatakse antigeeniks. Patogeeni antigeenile vastuseks toodetud antikehad on immuunsüsteemi oluline osa. Antikehi võib pidada seetõtt keha kaitsesüsteemi “sõduriteks”. Iga meie immuunsüsteemi antikeha on “koolitatud” ära tundma ühte kindlat antigeeni. Meie kehas on tuhandeid erinevaid antikehi. Kui inimkeha puutub esimest korda kokku antigeeniga, kulub immuunsüsteemil aega, et reageerida ja toota antigeenile spetsiifilisi antikehi (Joonis 2).</p>
 
-            <p>Antibodies to one pathogen generally do not protect against another pathogen except when two pathogens are very similar to each other, like cousins. Once the antigen-specific antibodies are produced, they work with the rest of the immune system to destroy the pathogen and stop the disease. Once the body produces antibodies in its primary response to an antigen, it also creates antibody-producing memory cells, which remain alive even after the antibodies defeat the pathogen. Suppose the body is exposed to the same pathogen more than once. In that case, the antibody response is much faster and more effective than the first time because the memory cells are ready to pump antibodies against that antigen. This means that if the person is exposed to a dangerous pathogen in the future, their immune system will be able to respond immediately, protecting against disease. </p>
+            <p>Kui antigeenspetsiifilised antikehad on toodetud, töötavad nad koos ülejäänud immuunsüsteemiga patogeeni hävitamiseks ja haiguse peatamiseks. Ühe patogeeni vastased antikehad ei kaitse üldiselt teise patogeeni eest, välja arvatud juhul, kui kaks patogeeni on üksteisega väga sarnased. Kui keha toodab antikehi oma esmase vastusena antigeenile, loob see ka antikehi tootvad mälurakud, mis jäävad ellu ka pärast seda, kui antikehad patogeeni hävitavad. Kui keha puutub sama patogeeniga kokku rohkem kui üks kord, on antikeha vastus palju kiirem ja tõhusam kui esimesel korral, kuna mälurakkude abil toodetakse kiiresti selle antigeeni vastaseid antikehi. See tähendab, et kui inimene puutub tulevikus kokku ohtliku patogeeniga, suudab tema immuunsüsteem koheselt reageerida, kaitstes teda haiguste eest.</p>
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/viruses-03.webp"
-                credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html"
+                credits="Allikas: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html"
                 :elevated="true">
                 <template #caption>
-                    <b>Figure 2.</b> For every new antigen, our body needs to build a specific antibody
+                    <b>Joonis 2.</b> Iga uue antigeeni jaoks peab meie keha looma spetsiifilise antikeha
                 </template>
             </UiContentImage>
 
-            <h3>How vaccines help?</h3>
+            <h3>Mil moel vaktsiinid toimivad?</h3>
 
-            <p>Vaccines reduce the risks of getting a disease by working with your body's natural defenses to build protection. When you get a vaccine, your immune system responds.</p>
-            <p>Vaccines contain weakened or inactive parts of a particular organism (antigen) that triggers an immune response within the body (Fig. 3). Newer vaccines contain the blueprint for producing antigens rather than the antigen itself. Regardless of whether the vaccine is made up of the antigen itself or the blueprint so that the body will produce the antigen, this weakened version will not cause the disease in the person receiving the vaccine. However, it will prompt their immune system to respond much as it would have on its first reaction to the actual pathogen.</p>
+            <p>Vaktsiinid vähendavad haigestumisriski, aktiveerides keha loomulikud kaitsemehhanismid.</p>
+            <p>Vaktsiinid sisaldavad teatud antigeeni nõrgestatud või mitteaktiivseid osi, mis käivitavad organismis immuunvastuse (Joonis 3). Uuemad vaktsiinid sisaldavad pigem antigeenide tootmise “juhiseid” kui antigeeni ennast. Olenemata sellest, kas vaktsiin koosneb antigeenist endast või juhistest, et organism hakkaks antigeeni (N: viiruse ühte valku) tootma, ei põhjusta see inimesel haigust, vaid paneb tema immuunsüsteemi sellele reageerima, nagu oleks see esmane reaktsioon tegelikule patogeenile.</p>
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/viruses-04.webp"
-                credits="Source: https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work"
+                credits="Allikas: https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work"
                 :elevated="true">
                 <template #caption>
-                    <b>Figure 3.</b> Antibody development through vaccination
+                    <b>Joonis 3.</b> Antikehade arendamine vaktsineerimise kaudu
                 </template>
             </UiContentImage>
 
-            <p>Vaccines work by exposing your white blood cells to the foreign protein in a virus. Once your body has encountered a virus and performed an immune response (making B and T cells) to the virus, it saves the B and T cells so that if the same virus or bacteria ever infects the body again, the immune system can stage and all-out war, preventing the pathogen from ever making you feel sick. Vaccines introduce the body to the virus so that the body can save up B and T cells without ever making you sick.</p>
+            <p>Kui keha on juba viirusega kokku puutunud ja viirusele immuunvastuse andnud (tootes B- ja T-rakud), salvestab see B- ja T-rakud, nii et kui sama viirus või bakter kunagi uuesti keha nakatab, asub immuunsüsteem kaitsele, et vältida haigestumist patogeeniga.</p>
 
-            <h3>Immunization  and related challenges</h3>
+            <h3>Vaktsineerimine ja sellega seotud väljakutsed</h3>
 
-            <p>We now have vaccines to prevent more than 20 life-threatening diseases, helping people of all ages live longer, healthier lives. Immunization currently prevents 2-3 million deaths yearly from diseases like diphtheria, tetanus, pertussis, influenza, and measles.</p>
+            <p>Meil ​​on olemas vaktsiinid enam kui 20 eluohtliku haiguse ennetamiseks, aidates igas vanuses inimestel elada kauem ja tervemalt. Vaktsineerimine hoiab praegu igal aastal ära 2–3 miljoni surmajuhtumi sellistesse haigustesse nagu difteeria, teetanus, läkaköha, gripp ja leetrid.</p>
 
-            <p>We have vaccinations against many serious viral infections (measles, mumps, hepatitis A, hepatitis B, and some viruses - such as those that cause the common cold). Still, the problem remains that they can mutate from one person to the next. When the virus mutates, it changes enough that the immune system no longer recognizes it. The immune cells stored for killing the virus no longer recognize it as the same disease and do not know how to kill it. This is how an infection with the same virus can keep dodging the immune system. Vaccination for these viruses is difficult because they have already changed their format by the time vaccines are develop</p>
+            <p>Kuigi meil on vaktsiiinid paljude tõsiste viirusnakkuste, nagu leetrid, mumps, A- ja B-hepatiit, vastu, suudavad mõned viirused – näiteks need, mis põhjustavad külmetushaigusi, muteeruda. Kui viirus muteerub, muutub see piisavalt nii, et immuunsüsteem ei pruugi seda enam ära tunda, st ta ei tea, kuidas seda tappa. Nii võib viirus nakatada organismi, kuna see “hiilib” immuunsüsteemist kõrvale. Seega on seda tüüpi viiruste vastu vaktsineerimine keerulisem.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work</a></li>
-                    <li><a href="" target="_blank">https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html </a></li>
-                    <li><a href="" target="_blank">https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf </a></li>
-                    <li><a href="" target="_blank">https://opentextbc.ca/biology/chapter/12-1-viruses/ </a></li>
+                    <li><a href="https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work" target="_blank" rel="noopener noreferrer">https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work</a></li>
+                    <li><a href="https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html" target="_blank" rel="noopener noreferrer">https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html</a></li>
+                    <li><a href="https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf" target="_blank" rel="noopener noreferrer">https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf</a></li>
+                    <li><a href="https://opentextbc.ca/biology/chapter/12-1-viruses/" target="_blank" rel="noopener noreferrer">https://opentextbc.ca/biology/chapter/12-1-viruses/</a></li>
                 </ul>
             </section>
 
@@ -304,42 +310,43 @@
 
 
 
-            <hr id="section-4" class="mt-10 mb-40" />
-            <h2>4. The process of developing vaccines, vaccines safety</h2>
+            <hr  class="mt-10 mb-40" />
+            <h2 id="section-4">4. Vaktsiinide väljatöötamise protsess, vaktsiinide ohutus</h2>
 
-            <h3>Development</h3>
-            <p>Vaccine development typically begins in a research laboratory located in a university, medical center, or small biotech company. During vaccine development, scientists develop different reagents to test and measure their effect (or lack thereof). Often years of research are needed to find ideas that work.</p>
-            <p>Different scientists or research groups may work toward the same goals during vaccine development. The progress of the work is presented in different meetings and peer-reviewed articles in journals. If any work seems promising, pharmaceutical scientists may approach those working on it to expand their research toward product development.</p>
+            <h3>Väljatöötamine</h3>
+
+            <p>Vaktsiinide väljatöötamine algab tavaliselt uurimislaboris, mis võib asuda ülikoolis, meditsiinikeskuses või väikeses biotehnoloogiaettevõttes. Vaktsiini väljatöötamise käigus töötavad teadlased välja erinevaid vaktsiinikandidaate, et testida ja mõõta nende mõju (või selle puudumist). Töötavate ideede leidmiseks on sageli vaja aastaid uurimistööd.</p>
+            <p>Vaktsiini väljatöötamise ajal võivad mitu erinevat teadlast või uurimisrühma töötada samade eesmärkide nimel. Töö edenemist tutvustatakse erinevatel kohtumistel (N: konverentsidel) ja eelretsenseeritavate ajakirjade artiklites. Kui mõni töö tundub paljutõotav, võidakse kaasata ka farmaatsiateadlased, et laiendada uurimistööd tootearenduse suunas.</p>
 
 
-            <h3>Testing</h3>
+            <h3>Testimine</h3>
 
-            <p>If a promising vaccine candidate has been found, it has to be tested on animals. This is called the pre-clinical phase. First small animals like mice, rats, rabbits, and others are used. If the candidate affects small animals, the effect has to be usually proven on larger animals like monkeys. If the vaccine triggers an immune response, it is tested in three phases in human clinical trials (WHO, 2021).</p>
-            <p>In Phase 1, the vaccine is given to a few volunteers to assess its safety, confirm it generates an immune response, and determine the proper dosage. Generally, in this phase, vaccines are tested in a small group of young, healthy adult volunteers.</p>
-            <p>In phase 2, the vaccine is given to several hundred volunteers to assess its safety and ability further to generate an immune response. Participants in this phase have the same characteristics (such as age and sex) as those for whom the vaccine is intended. There are usually multiple trials in this phase to evaluate various age groups (elderly, adults, children) and different vaccine formulations. Also, a group that does not get the vaccine is usually included in determining whether the changes in the vaccinated group are attributed to the vaccine or have happened by chance.</p>
-            <p>In phase 3, the vaccine is given to thousands of volunteers – compared to a similar group of people who did not get the vaccine but received a comparator product. This aims to determine if the vaccine is effective against the disease it is designed to protect against. Also, it aims to study its safety in a much larger group of people. Phase 3 trials are often conducted across multiple countries and sites within a country to ensure the findings of the vaccine performance apply to many different populations. </p>
-            <p>During phase 2 and 3 trials, the volunteers and the scientists conducting the study are shielded from knowing which volunteers had received the vaccine being tested or the comparator product. This is called “blinding” and is necessary to ensure that neither the volunteers nor the scientists are influenced in their assessment of effectiveness or safety by knowing who got which product.</p>
+            <p>Kui leitakse paljutõotav vaktsiinikandidaat, tuleb seda katsetada loomadel. Seda nimetatakse eelkliiniliseks faasiks. Kõigepealt kasutatakse väikseid loomi, nagu hiired, rotid, küülikud jne. Kui vaktsiinikandidaat avaldab mõju väikestele loomadele, tuleb seda tavaliselt tõestada suuremate loomade, näiteks ahvide puhul. Kui vaktsiin käivitab immuunvastuse, testitakse seda inimkatsetes kolmes etapis (WHO, 2021).</p>
+            <p>1. etapis antakse vaktsiini väikesele arvule vabatahtlikele, et hinnata selle ohutust, veenduda, et see tekitab immuunvastuse ja määrata õige annus. Üldiselt testitakse selles etapis vaktsiine väikeses noorte tervete täiskasvanud vabatahtlike rühmas.</p>
+            <p>2. etapis antakse vaktsiin juba mitmesajale vabatahtlikule, et hinnata täiendavalt selle ohutust ja võimet tekitada immuunvastust. Selles etapis osalejatel on samad omadused (nagu vanus, sugu), kui inimestel, kellele vaktsiin on mõeldud. Selles faasis on tavaliselt mitu katset, et hinnata erinevaid vanuserühmi (eakad, täiskasvanud, lapsed) ja vaktsiini erinevaid koostisi. Tavaliselt kaasatakse ka rühm, kes ei saa vaktsiini, et teha kindlaks, kas muutused vaktsineeritute rühmas on tingitud vaktsiinist või on saadud juhuslikult.</p>
+            <p>3. etapis manustatakse vaktsiini tuhandetele vabatahtlikele ja seda võrreldakse sarnase inimeste rühmaga, kes ei saanud vaktsiini, kuid said võrdlustoote. Selle eesmärk on kindlaks teha, kas vaktsiin on tõhus haiguse vastu, mille eest see on loodud kaitsma. Samuti on eesmärgiks uurida selle ohutust palju suuremas inimrühmas. 3. etapi uuringud viiakse sageli läbi mitmes riigis, sh ühe riigi mitmes regioonis, et tagada vaktsiini tõhusate tulemuste kehtivus erinevate populatsioonide peal.</p>
+            <p>2. ja 3. etapi uuringute ajal on vabatahtlikud ja uuringut läbi viivad teadlased olukorras, kus nad ei tea, millised vabatahtlikud on saanud testitavat vaktsiini või millised võrdluspreparaati. Seda nimetatakse pimekatseks ja see on vajalik, et tagada tulemuste objektiivsus, st et ei vabatahtlikud ega ka teadlased poleks mõjutatud ootustest vaktsiini suhtes ei selle tõhususe ega ohutuse mõttes.</p>
 
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viide</h4>
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed</a>
+                        <a href="https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed" target="_blank" rel="noopener noreferrer">https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed</a>
                     </li>
                 </ul>
             </section>
 
-            <h3>Authorization and monitoring</h3>
+            <h3>Autoriseerimine ja jälgimine</h3>
             
-            <p>When the results of all these clinical trials are available, a series of steps are required. Officials in European Medicines Agency and later in each country closely review the study data and decide whether to authorize the vaccine. All the trials have to be correctly done and well documented. A vaccine must be proven safe and effective across a broad population before it is approved. The bar for vaccine safety and efficacy is exceptionally high. This includes reviews of efficacy and safety for regulatory and public health policy approvals. </p>
-            <p>Further monitoring of safety and effectiveness takes place during the use of vaccines. This enables scientists to keep track of vaccine impact and safety even as they are used in many people over a long time frame. These data are used to adjust the policies for vaccine usage. </p>
+            <p>Kui kõigi nende kliiniliste uuringute tulemused on kätte saadud, on vaja teha rida edasisi samme. Euroopa Ravimiamet ja hiljem iga riigi vastav ametkond vaatavad uuringute andmed hoolikalt läbi ja otsustavad, kas anda vaktsiinile kasutusluba. Kõik katsed peavad olema korrektselt tehtud ja korralikult dokumenteeritud. Enne vaktsiini heakskiitmist peab olema tõestatud, et vaktsiin on ohutu ja tõhus paljudele inimestele. Vaktsiini ohutuse ja tõhususe tase peab seejuures olema äärmiselt kõrge.</p>
+            <p>Vaktsiinide kasutamise ajal toimub nende täiendav ohutuse ja tõhususe jälgimine. See võimaldab teadlastel jälgida vaktsiinide mõju ja ohutust isegi siis, kui neid kasutatakse suurel hulgal inimestel ja pika aja jooksul. Neid andmeid kasutatakse vaktsiini kasutamise eeskirjade kohandamiseks.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viide</h4>
                 
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034" target="_blank">https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034</a></li>
+                    <li><a href="https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034" target="_blank" rel="noopener noreferrer">https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034</a></li>
                 </ul>
             </section>
 
@@ -359,56 +366,58 @@
 
 
 
-            <hr id="section-5" class="mt-10 mb-40" />
-            <h2>5. Masks against viruses and bacteria</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-5">5. Maskid viiruste ja bakterite vastu</h2>
 
-            <p>Masks are often used to protect against viruses and bacteria. They had become widespread in the sense of protection against the SARS-CoV-2 virus. Among different types of masks, surgical face masks are among the most commonly used face coverings in the COVID-19 pandemic. Typically, they are blue colored from one side, which should be kept as an outer layer (Fig. 4). The main aim of surgical masks is to protect patients from potential contact with bacteria and viruses exhaled by the wearer. So, they well prevent the spread of the coronavirus through the air but are less effective means of protecting the wearer from the virus.</p>
-            <p>FFP2 or FFP3 masks (often called respirators) should be used to filter and better inhale air. The numbering system (FFP1, FPP2, FFP3) indicates these devices' filtration efficiency (certified as meeting the EN 149-2001 standard). FFP2 and FPP3 have a filtration efficiency for airborne particles (including those that contain the virus) of 92% and 98%, respectively. Both masks also have small inward leakage: &lt;8% and &lt;2%, respectively. In FFP2, special rubber is often used on the outer layer of the respirator. If in occupational environments, a valve (that makes exhaling easier) has been allowed, in the case of SARS-CoV-2, only non-valve respirators should be used in order to filter also exhaled air.  </p>
-            <p>With the COVID-19 pandemic, a new face mask has been introduced: the filtering mask. This type of mask is made of multilayer fabric (one has to be a nanofibre filter that guarantees a bacterial and harmful fine dust filtering capacity of at least 90%). This mask combines high filtration capacity with reusability as it can be machine washed at 60 degrees.</p>
+            <p>Maske kasutatakse tihti kaitseks viiruste ja bakterite eest. Need on muutunud eriti tavaliseks SARS-CoV-2 viiruse eest kaitsmisel. Erinevat tüüpi maskide hulgas on <b>kirurgilised näomaskid</b> olnud COVID-19 pandeemia ajal kõige sagedamini kasutatavateks näokateteks. Tavaliselt on need ühelt poolt sinist värvi, mida tuleks hoida väliskihina (Joonis 4). Kirurgiliste maskide peamine eesmärk on kaitsta patsiente võimaliku kokkupuute eest kandja poolt väljahingatavate bakterite ja viirustega. Maskid takistavad hästi koroonaviiruse levikut õhu kaudu, kuid ei ole nii tõhusad vahendid kandja enda kaitsmiseks viiruse eest. On leitud näiteks, et inimeste poolt hingamisel, rääkimisel ja aevastamisel tekitatud vedelikuosakeste läbimõõt algab 1.6 mikromeetrist ja võib ulatuda kuni paarisaja mikromeetrini</p>
+            <p>Et filtreerida sissehingatavat õhku paremini, tuleks kasutada <b>FFP2 või FFP3 maski</b> (mida sageli nimetatakse ka <b>respiraatoriteks</b>). Sertifitseeritud numeratsioon (FFP1, FPP2, FFP3 (vastavalt standardile EN 149-2001)), näitab nende filtreerimise tõhusust. FFP2 ja FPP3 filtreerimise tõhusus õhus lendlevate (kaasa arvatud viirust sisaldavate) osakeste  suhtes on vastavalt 92% ja 98%. Mõlemal maskil on ka küllaltki väike leke külgedelt: vastavalt &lt;8% ja &lt;2%. FFP2 väliskihil kasutatakse sageli spetsiaalset polümeeri. Kui töökeskkonnas (näiteks tolmu kaitseks) kasutatavate respiraatorite puhul on lubatud ventiil (mis teeb väljahingamise lihtsamaks), siis SARS-CoV-2 puhul tuleks kasutada ainult klapita respiraatoreid, et filtreerida ka väljahingatava õhku.</p>
+            <p>COVID-19 pandeemiaga võeti kasutusele uut tüüpi näomaskid: <b>filtreeriv mask</b>. Seda tüüpi mask on valmistatud mitmekihilisest kangast (üks neist peab olema nanokiudfilter, mis tagab bakterite ja kahjuliku peentolmu filtreerimisvõime vähemalt 90%). See mask ühendab endas suure filtreerimisvõime ja korduvkasutatavuse, kuna seda saab masinas pesta 60 kraadi juures.</p>
 
             <div class="grid gap-3 my-15 md:grid-cols-2 e-card">
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-06__mask-01.webp"
                 >
                     <template #caption>
-                        Surgical mask
+                        Kirurgiline mask
                     </template>
                 </UiContentImage>
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-06__mask-02.webp"
                     caption="">
                     <template #caption>
-                        FFP2 mask (respirator)
+                        FFP2 mask (respiraator)
                     </template>
                 </UiContentImage>
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-06__mask-03.webp">
                     <template #caption>
-                        FFP3 mask (respirator) with valve
+                        FFP3 mask (respiraator) klapiga
                     </template>
                 </UiContentImage>
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-06__mask-04.webp">
                     <template #caption>
-                        Filtering mask
+                        Filteeriv mask
                     </template>
                 </UiContentImage>
             </div>
 
-            <p>The efficiency of the masks has been tested in special laboratories, e.g., in the exposure chamber. In those studies, a carrying the viruses. Subsequently, particle concentrations behind the particle generator fill the exposure chamber with small particles; similar to aerosols, the masks are measured and compared to the concentration in the general atmosphere of the exposure chamber.</p>
-            <p>However, the strongest evidence is based on epidemiologic data from real-life situations. For instance, the daily COVID-19 growth rate is slowdown after mask mandates in 15 states and the District of Columbia in the US. Another study examined coronavirus deaths across 198 countries and found that those with cultural norms or government policies favoring mask-wearing had lower death rates.</p>
-            <p>Many Facebook and social media users have shared misleading posts regarding the prolonged use of face masks causing oxygen deficiency in the body - hypoxia. Nevertheless, research articles and experts suggest that such symptoms are unlikely to occur in most people unless the wearer has pre-existing respiratory illnesses such as asthma or chronic obstructive pulmonary disease (COPD). The risk of hypoxia and hypercapnia (having excessive carbon dioxide in the bloodstream) are unlikely to occur with cloth and surgical masks as they are not tight-fitting. Still, it is warned that face masks should not be placed on young children under two years old, those with breathing difficulty, or when exercising.</p>
+            <p class="italic">Joonis 4. Erinevad maskitüübid</p>
+
+            <p><b>Maskide tõhusust testitakse</b> pidevalt spetsiaalsetes laborites ehk nn. ekspositsioonikambrites. Nendes uuringutes täidab osakeste generaator kambri sama suurte aerosooliosakestega, mille abil viirus tavaliselt levib. Järgnvalt mõõdetakse osakeste kontsentratsiooni maski taga ja võrreldakse kontsentratsiooniga väljaspool seda ehk siis  ekspositsioonikambris üldiselt.</p>
+            <p>Maskikandmise tõhusust tõendavad kõige veenvamalt epidemioloogilised andmed, mis on võetud  nö päris elust. Lyu ja Wehby (2020) poolt läbiviidud uurimus näitas, et koroonasse nakatumise kasv aeglustus kohe, kui 15 USA osariigis ning Columbia ringkonnas kehtestatid maskikandmise kohustus.  Ühes uurimuses (Leffler jt. 2020) vaadeldi koroonaga seotud surmajuhtumite statistikat kokku 198 riigis. Selle tulemusena leiti, et nendes riikides, kus oli kas sotsiaalseks normiks kanda maski või kus ametlikult nõuti pandeemia ajal maski kandmist, oli ka surmajuhtumite määr tunduvalt väiksem muudest  riikidest.</p>
+            <p>Mitmed Facebooki jm sotsiaalmeedia kasutajad on jaganud eksitavaid postitusi näomaski pikaajalise kasutamise kohta, mis nende väitel põhjustab kehas hapnikuvaegust – hüpoksiat. Samas näitavad teadusartiklid ja ekspertide analüüsid, et selliseid sümptomeid ei esine enamikul inimestel, välja arvatud juhul, kui kasutajal on eelnevalt olnud hingamisteede haigusi, nagu astma või krooniline obstruktiivne kopsuhaigus. Riide ja kirurgiliste maskide puhul on hüpoksia ja hüperkapnia (liigse süsinikdioksiidi sisaldus vereringes) oht veelgi ebatõenäolisem, kuna need ei liibu näo ümber. Siiski hoiatatakse, et näomaski ei tohi kasutada alla kahe aastaste või hingamisraskustega laste puhul ning trenni tehes.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
-                    <li><a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266" target="_blank">https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266</a></li>
-                    <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818" target="_blank">https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818</a></li>
-                    <li><a href="https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml" target="_blank">https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml</a></li>
+                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank" rel="noopener noreferrer">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
+                    <li><a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266" target="_blank" rel="noopener noreferrer">https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266</a></li>
+                    <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818" target="_blank" rel="noopener noreferrer">https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818</a></li>
+                    <li><a href="https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml" target="_blank" rel="noopener noreferrer">https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml</a></li>
                     <li><a href="" target="_blank">https://www.epa.gov/sciencematters/epa-researchers-test-effectiveness-face-masks-disinfection-methods-against-covid-19 </a></li>
-                    <li><a href="https://journals.asm.org/doi/full/10.1128/mSphere.00637-20" target="_blank">https://journals.asm.org/doi/full/10.1128/mSphere.00637-20</a></li>
-                    <li><a href="" target="_blank">https://pubmed.ncbi.nlm.nih.gov/33626065/ </a></li>
+                    <li><a href="https://journals.asm.org/doi/full/10.1128/mSphere.00637-20" target="_blank" rel="noopener noreferrer">https://journals.asm.org/doi/full/10.1128/mSphere.00637-20</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/33626065/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/33626065/</a></li>
                 </ul>
             </section>
 
@@ -416,11 +425,11 @@
 
             <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:edit-document">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">For further study</h3>
+                    <h3 class="mt-6 pt-3 mb-10">Õpilastele edasiseks uurimiseks</h3>
                     <ul class="leading-tight">
-                        <li><a href="https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-face-masks-and-barrier-face-coverings#s3" target="_blank">N95 Respirators, Surgical Masks, Face Masks, and Barrier Face Coverings</a></li>
-                        <li><a href="https://www.sciencedirect.com/science/article/pii/S2452199X20301481" target="_blank">An overview of filtration efficiency through the masks: Mechanisms of the aerosols penetration</a></li>
-                        <li><a href="https://www.weforum.org/agenda/2020/10/covid-19-coronavirus-disease-size-compairson-zika-health-air-pollution/" target="_blank">This is how coronavirus compares to the world's smallest particles</a></li>
+                        <li><a href="https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-face-masks-and-barrier-face-coverings#s3" target="_blank" rel="noopener noreferrer">N95 Respirators, Surgical Masks, Face Masks, and Barrier Face Coverings</a></li>
+                        <li><a href="https://www.sciencedirect.com/science/article/pii/S2452199X20301481" target="_blank" rel="noopener noreferrer">An overview of filtration efficiency through the masks: Mechanisms of the aerosols penetration</a></li>
+                        <li><a href="https://www.weforum.org/agenda/2020/10/covid-19-coronavirus-disease-size-compairson-zika-health-air-pollution/" target="_blank" rel="noopener noreferrer">This is how coronavirus compares to the world's smallest particles</a></li>
                     </ul>
                 </div>
             </UiCardInfo>
@@ -438,72 +447,74 @@
 
 
 
-            <hr id="section-6" class="mt-10 mb-40" />
-            <h2>6. Viruses and hand hygiene</h2>
+            <hr  class="mt-10 mb-40" />
+            <h2 id="section-6">6. Viirused ja käte hügieen</h2>
 
-            <h3>Hand sanitiser or soap?</h3>
+            <h3>Käte desinfitseerimisvahend või seep?</h3>
             
-            <p>Our hands can be a critical vector in the transmission of infections. When applied to hands thoroughly and scrubbed for at least 20 seconds, alcohol-based hand sanitizers and soap will stop the coronavirus. However, soap disrupts the sticky bond between pathogens and your skin, allowing the pathogens to slide right off. Not only are you neutralizing the virus, but you are also physically knocking it off your hands. Practicing good hand hygiene is a simple preventative strategy that most people can easily undertake, and many studies have demonstrated the effectiveness of hand hygiene in preventing the transmission of infectious pathogens, including coronaviruses such as SARS-CoV-2.</p>
+            <p>Meie käed võivad olla nakkuste edasikandumisel kriitiliseks teguriks. Põhjalikult kätele kandes ja <a href="https://www.cdc.gov/handwashing/when-how-handwashing.html" target="_blank" rel="noopener noreferrer">vähemalt 20 sekundit küürides</a>, peatavad nii alkoholipõhised kätepuhastusvahendid kui ka seep koroona tüüpi viiruse leviku. Nii seep kui alkohol lõhuvad viiruse membraani. Seep vähendab ka patogeenide kleepumist naha külge, võimaldades patogeenid sealt veega maha pesta. See mitte ainult ei neutraliseeri viirust, vaid ka võimaldab selle kätelt eemaldamist. Üldiselt on hea kätehügieen lihtne ennetusmeede, mida enamik saab väikese vaevaga teha. Paljud uuringud on näidanud kätehügieeni tõhusust nakkuslike patogeenide, sealhulgas koroonaviiruste nagu SARS-CoV-2, edasikandumise ärahoidmisel.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viide</h4>
                 
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/" target="_blank">https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/</a>
+                        <a href="https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/" target="_blank" rel="noopener noreferrer">https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/</a>
                     </li>
                 </ul>
             </section>
 
-            <h3>Weakening the corona virus with soap</h3>
+            <h3>Koroonaviiruse nõrgendamine seebiga</h3>
             
-            <p>Coronaviruses get their name from the "corona" surrounding the virus— the protein spikes embedded in its surface. The spikes, which are responsible for infecting the host, are anchored into a membrane. The membrane is the "shell" of the virus and the virus's weak point. </p>
-            <p>Soap molecules have two chemically distinct parts: a hydrophilic (water-loving) "head" and a hydrophobic (water-hating) "tail". The head helps the soap mix with water, while the tail can interact with other hydrophobic molecules like lipids.</p>
-            <p>Luckily, the coronavirus's membrane is mainly made up of lipid molecules. They are held together by weak chemical interactions between individual molecules. The hydrophobic (water-hating) "tails" of soap molecules can break interactions between lipid molecules in the coronavirus membrane (see Fig. 5).</p>
-            <p>The soap's tail can disrupt the weak interactions between lipid molecules in the membrane, tearing it apart. Suppose the virus is broken up before being safely sheltered in a host cell. In that case, it will no longer be able to do its infectious job — like a machine with its parts falling out. Soap molecules then surround virus fragments with all tails facing inside. This cluster is called a micelle (see Fig. 6). The outward-facing hydrophilic heads allow the micelle to be washed down the drain with water. Water alone will not do.</p>
+            <p>Koronaviirused on saanud oma nime viirust ümbritseva "krooni" järgi, mille moodustavad selle membraanile kinnitunud valgu piigid, mis vastutavad peremeesorganismi nakatamise eest. Membraan on viiruse "kest" ja viiruse nõrk koht.</p>
+            <p>Seebimolekulidel on hüdrofiilne (vett armastav) "pea" ja hüdrofoobne (vett tõrjuv) "saba". “Pea” aitab seebil veega seguneda, samas kui “saba” võib interakteeruda (seguneda) hüdrofoobsete molekulidega, näiteks lipiididega (rasvadega).</p>
+            <p>Meie õnneks koosneb koroonaviiruse membraan enamasti lipiididest. Neid hoiavad koos molekulidevahelised nõrgad keemilised vastasmõjud. Seebimolekulide hüdrofoobsed (vett vihkavad) "sabad" võivad katkestada lipiidimolekulide vastasmõju koroonaviiruse membraanis (vt Joonis 5).</p>
+            <p>Seega häirib “saba” membraani lipiidimolekulide vahelist nõrka vastasmõju, rebides need lahti. Kui viirus lõhutakse enne, kui see on peremeesrakku turvaliselt varjunud, ei saa see enam oma nakatavat tööd teha – nagu masin, mille osad on välja kukkunud. Seejärel ümbritsevad seebimolekulid viiruse osi nii, et kõik sabad on suunatud sissepoole. Sellist kobarat nimetatakse mitselliks (vt Joonis 6). Seebiosakeste väljapoole suunatud hüdrofiilsed pead võimaldavad mitselli veega kätelt maha pesta. Ainult veest seega ei piisa.</p>
+            
 
 
             <div class="grid gap-2 md:grid-cols-2 e-card">
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-07.webp"
-                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
+                    credits="Allikas: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
                     <template #caption>
-                        <b>Figure 5.</b> Soap molecules destroying the virus
+                        <b>Joonis 5.</b> Seebi molekulid hävitamas viirust
                     </template>
                 </UiContentImage>
                 <UiContentImage
                     src="https://evidence.onkel.ee/assets/viruses-08.webp"
-                    credits="Source: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
+                    credits="Allikas: https://www.nytimes.com/2020/03/13/health/soap-coronavirus-handwashing-germs.html">
                     <template #caption>
-                        <b>Figure 6.</b> Micelle consisting of soap molecules and virus fragment
+                        <b>Joonis 6.</b> Seebi molekulidest ja viiruse osast koosnev mitsell
                     </template>
                 </UiContentImage>
             </div>
 
-            <p>The given information is also valid for the other enveloped viruses (Influenza, Hepatitis B and C, and Ebola Virus Disease) as their envelopes consist of phospholipids.</p>
+            <p>Antud teave kehtib ka teiste ümbrisega viiruste kohta (gripp, B- ja C-hepatiit ning Ebola), kuna nende ümbrised koosnevad samuti fosfolipiididest.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">Reference</h4>
+                <h4 class="mt-0">Allikas</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19" target="_blank">https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19</a></li>
+                    <li><a href="https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19" target="_blank" rel="noopener noreferrer">https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19</a></li>
                 </ul>
             </section>
 
-            <h3>Choosing hand sanitizer</h3>
+            <h3>Käte desinfitseerimisvahendi valimine</h3>
 
-            <p>The World Health Organization (WHO) recommends alcohol-based hand sanitizers if you have no soap on hand. </p>
+            <p>Kui pole käepärast seepi, soovitab Maailma Tervishoiu Organisatsioon (WHO) alkoholipõhiseid kätepuhastusvahendeid.</p>
             
-            <p><b>Alcohol-based hand sanitizers are thought to work by preventing the proteins of microbes—including bacteria and some viruses—from functioning normally. Hand sanitizers with a high alcohol content might also interfere with the lipid shell surrounding the coronavirus.</b> To be effective, hand sanitizers must contain at least 60 percent alcohol. The additives in the sanitizer can keep the alcohol from evaporating too fast, allowing the virus to be drenched for longer. </p>
-            <p>However, there are also certain risks related to using alcohol-based hand sanitizers. There is an increased alcohol poisoning risk for children, and frequent usage of hand sanitizers could result in antimicrobial resistance. There are alternative alcohol-free hand sanitizers, where benzalkonium is most commonly used. Recent studies have indicated that alcohol-free hand sanitizer works just as well and does not cause the familiar "burn" feeling known from using alcohol hand sanitizer.</p>
+            <p><b>Arvatakse, et alkoholipõhised kätepuhastusvahendid takistavad mikroobide, sh bakterite ja mõnede viiruste, valkude normaalset funktsioneerimist. Suure alkoholisisaldusega kätepuhastusvahendid võivad samuti lammutada koroonaviirust ümbritsevat lipiidkesta.</b> Et kätepuhastusvahendid oleksid tõhusad, peavad need sisaldama vähemalt 60 protsenti alkoholi. Desinfitseerimisvahendis olevad lisandid võivad takistada alkoholi liiga kiiret aurustumist, võimaldades sellel kauem viirust leotada.</p>
+            <p>Siiski on alkoholipõhiste kätepuhastusvahendite kasutamisega seotud ka teatud riskid. Lastel on suurenenud alkoholimürgituse oht ja kätepuhastusvahendite sagedane kasutamine võib põhjustada antimikroobse resistentsuse. On olemas alternatiivsed alkoholivabad kätepuhastusvahendid, kus kõige sagedamini kasutatakse bensalkooniumi. Hiljutised uuringud on näidanud, et alkoholivaba kätepuhastusvahend toimib sama hästi ega põhjusta alkoholiga kätepuhastusvahendi kasutamisel tuttavat "põletustunnet".</p>
             
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub</a></li>
-                    <li><a href="https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040" target="_blank">https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub" target="_blank" rel="noopener noreferrer">https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub</a></li>
+                    <li><a href="https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040" target="_blank" rel="noopener noreferrer">https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040</a></li>
                 </ul>
             </section>
 
+            
 
 
 
@@ -513,41 +524,39 @@
 
 
 
+            <hr  class="mt-20 mb-40" />
 
+            <h2 id="section-7">7. Vaktsiinidega seotud müüdid</h2>
 
+            <h3 id="myth-1"><span class="text-rose-400">Müüt nr 1:</span> Vaktsiinid põhjustavad autismi</h3>
 
-            <h1 class="mt-40">Vaccine myths</h1>
-
-            <hr id="myth-1" class="mt-10 mb-40" />
-            <h2>Myth 1: Vaccines cause autism/serious side effects.</h2>
-
-            <p>The widespread fear that vaccines increase the risk of autism originated with a 1997 study published by Andrew Wakefield, a British surgeon. The article was published in The Lancet, a prestigious medical journal, suggesting that the measles, mumps, and rubella (MMR) vaccine increased autism in British children.</p>
-            <p>The paper has since been thoroughly discredited due to serious procedural errors, having only 12 participants in the study, undisclosed financial conflicts of interest, and ethical violations. Andrew Wakefield lost his medical license, and the paper was retracted from The Lancet.</p>
-            <p>Currently, against the autism-vaccination link theory, several studies have now identified symptoms of autism in children well before they receive the MMR vaccine. Moreover, recent research provides evidence that autism develops in utero, well before a baby is born or receives vaccinations. None of the latter studies has reported a link between any vaccine and the likelihood of developing autism.</p>
+            <p>Laialt levinud hirm, et vaktsiinid suurendavad lastel autismiriski, sai alguse Briti kirurgi Andrew Wakefieldi 1997. aastal avaldatud uuringust. Artikkel avaldati mainekas meditsiiniajakirjas The Lancet, mis viitas sellele, et leetrite, mumpsi ja punetiste (MMR) vaktsiin võib olla põhjustanud Briti lastel autismi.</p>
+            <p>Sellest ajast alates on artikkel täielikult ümber lükatud tõsiste protseduuriliste vigade, valimi ebapiisavuse (uuriti vaid 12 last), rahaliste huvide konflikti ja eetikareeglite rikkumiste tõttu. Andrew Wakefield kaotas oma arstilitsentsi ja artikkel võeti The Lancetist tagasi.</p>
+            <p>Ükski hilisematest uuringutest ei ole näidanud seost vaktsiinide manustamise ja autismi väljakujunemise vahel. Praeguseks on mitmed autismi ja vaktsineerimise vaheliste võimalike seoste uuringud välja selgitanud, et autismi sümptomid esinevad lastel juba enne MMR-vaktsiini saamist. Veelgi uuemad uuringud annavad tõendeid selle kohta, et autism areneb välja emakas, palju enne lapse sündi või vaktsineerimist.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext</a></li>
-                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
+                    <li><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext" target="_blank" rel="noopener noreferrer">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext</a></li>
+                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank" rel="noopener noreferrer">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
                 </ul>
             </section>
 
 
             <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:edit-document">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">For further study</h3>
+                    <h3 class="mt-6 pt-3 mb-10">Edasiseks uurimiseks</h3>
                     <ul class="leading-tight">
-                        <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html" target="_blank">Possible Side Effects After Getting a COVID-19 Vaccine</a></li>
-                        <li><a href="https://www.bbc.com/news/health-55932832" target="_blank">Study reveals extent of Covid vaccine side-effects</a></li>
-                        <li><a href="https://www.nature.com/articles/d41586-021-00290-x" target="_blank">COVID vaccines and safety: what the research says</a></li>
-                        <li><a href="https://health.clevelandclinic.org/covid-19-vaccine-side-effects/" target="_blank">Here’s What to Know About the COVID-19 Vaccine Side Effects</a></li>
-                        <li><a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety" target="_blank">Coronavirus disease (COVID-19): Vaccines safety</a></li>
-                        <li><a href="https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events" target="_blank">Vaccine Side Effects and Adverse Events</a></li>
-                        <li><a href="https://www.bbc.com/news/health-56375307" target="_blank">Vaccine side effects: My experience of them and what they mean</a></li>
-                        <li><a href="https://vk.ovg.ox.ac.uk/vk/vaccine-side-effects" target="_blank">Vaccine side effects and adverse reactions</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=F6NKbQzo4aE" target="_blank">Vaccine side effects are actually a good thing</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank">Vaccines and the Immune Response: How Vaccines Work</a></li>
+                        <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html" target="_blank" rel="noopener noreferrer">Possible Side Effects After Getting a COVID-19 Vaccine</a></li>
+                        <li><a href="https://www.bbc.com/news/health-55932832" target="_blank" rel="noopener noreferrer">Study reveals extent of Covid vaccine side-effects</a></li>
+                        <li><a href="https://www.nature.com/articles/d41586-021-00290-x" target="_blank" rel="noopener noreferrer">COVID vaccines and safety: what the research says</a></li>
+                        <li><a href="https://health.clevelandclinic.org/covid-19-vaccine-side-effects/" target="_blank" rel="noopener noreferrer">Here’s What to Know About the COVID-19 Vaccine Side Effects</a></li>
+                        <li><a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety" target="_blank" rel="noopener noreferrer">Coronavirus disease (COVID-19): Vaccines safety</a></li>
+                        <li><a href="https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events" target="_blank" rel="noopener noreferrer">Vaccine Side Effects and Adverse Events</a></li>
+                        <li><a href="https://www.bbc.com/news/health-56375307" target="_blank" rel="noopener noreferrer">Vaccine side effects: My experience of them and what they mean</a></li>
+                        <li><a href="https://vk.ovg.ox.ac.uk/vk/vaccine-side-effects" target="_blank" rel="noopener noreferrer">Vaccine side effects and adverse reactions</a></li>
+                        <li>📺<a href="https://www.youtube.com/watch?v=F6NKbQzo4aE" target="_blank" rel="noopener noreferrer">Vaccine side effects are actually a good thing</a></li>
+                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank" rel="noopener noreferrer">Vaccines and the Immune Response: How Vaccines Work</a></li>
                     </ul>
                 </div>
             </UiCardInfo>
@@ -562,18 +571,18 @@
 
 
 
-            <hr id="myth-2" class="mt-10 mb-40" />
-            <h2>Myth 2: Infant immune systems cannot handle multiple vaccines</h2>
+            <hr  class="mt-10 mb-40" />
+            <h3 id="myth-2"><span class="text-rose-400">Müüt nr 2:</span> Imikute immuunsüsteem ei talu korraga mitut vaktsiini</h3>
 
-            <p>Children are given vaccines at a young age because they are at the highest risk of getting sick or dying if they get these diseases. Even newborn babies are immune to some diseases (e.g., chickenpox) because they get antibodies from their mothers; this immunity lasts only a few months. Moreover, most babies do not get protective antibodies against diphtheria, whooping cough, polio, tetanus, hepatitis B, or Hib from their mothers.</p>
-            <p>To reduce the number of shots a child receives in a doctor's visit, some vaccines are offered as a combination (two or more different vaccines have been combined into a single shot). Examples of combination vaccines are diphtheria-tetanus-pertussis (DTap) and measles-mumps-rubella (MMR). </p>
-            <p>Scientific data show that getting several vaccines simultaneously does not cause any health problems. Infant immune systems are tougher than you might think. Based on the number of antibodies present in the blood, a baby would theoretically have the ability to respond to a far larger number of vaccines than are ever shot (the question has risen if it is 1,000, 10,000, or 100,000 at one time). Even if all ~10 (depending on national vaccination plan) scheduled vaccines were given at once, it would only use a fraction of a baby's immune capacity. In reality, babies are exposed to countless bacteria and viruses every day, and immunisations are negligible in comparison. Also, studies have not shown that exposure to multiple vaccines through the first 23 months of life would be associated with an increased risk for infections not targeted by vaccines.</p>
+            <p>Põhjus, miks lastele antakse vaktsiine noores eas, on see, et neil on kõrgeim risk haigestuda või surra, kui nad haigestuvad nendesse haigustesse. Kuigi vastsündinud on immuunsed mõne haiguse (nt tuulerõuged) suhtes, kuna neil on emalt saadud antikehad, kestab see immuunsus vaid paar kuud. Pealegi ei saa enamik imikuid oma emadelt difteeria, läkaköha, lastehalvatuse, teetanuse, B-hepatiidi ega Hib-i vastu kaitsvaid antikehi.</p>
+            <p>Et vähendada lapsele arstivisiidil tehtavate süstide arvu, pakutakse mõnda vaktsiini kombineeritud vaktsiinina (üheks süstiks on kombineeritud kaks või enam erinevat vaktsiini). Kombineeritud vaktsiinid on näiteks difteeria-teetanuse-läkaköha ja leetrite-mumpsi-punetiste vaktsiinid.</p>
+            <p>Teadusuuringute tulemused näitavad, et mitme vaktsiini samaaegne saamine ei põhjusta terviseprobleeme. Imikute immuunsüsteem on tugevam, kui võiks arvata. Veres leiduvate antikehade arvu põhjal oleks beebil teoreetiliselt võime reageerida palju suuremale arvule vaktsiinidele (jääb ainult küsimus, kas see on korraga 1000, 10 000 või 100 000). Isegi kui kõik ~10 (olenevalt riiklikust vaktsineerimiskavast) plaanitud vaktsiini manustatakse korraga, kasutaks see vaid murdosa beebi immuunvõimest. Tegelikkuses puutuvad imikud iga päev kokku lugematute bakterite ja viirustega ning immuniseerimine on sellega võrreldes tühine. Samuti ei ole uuringud näidanud, et kokkupuude mitme vaktsiiniga esimese 23 elukuu jooksul oleks seotud suurenenud riskiga nakatuda muudesse infektsioonidesse, mis ei ole vaktsiinide sihtmärgiks.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
-                    <li><a href="https://www.bmj.com/content/364/bmj.l1481/rr-11" target="_blank">https://www.bmj.com/content/364/bmj.l1481/rr-11</a></li>
+                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank" rel="noopener noreferrer">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
+                    <li><a href="https://www.bmj.com/content/364/bmj.l1481/rr-11" target="_blank" rel="noopener noreferrer">https://www.bmj.com/content/364/bmj.l1481/rr-11</a></li>
                     <li><a href="https://pubmed.ncbi.nlm.nih.gov/11773551/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/11773551/</a></li>
                 </ul>
             </section>
@@ -588,34 +597,34 @@
 
 
 
-            <hr id="myth-3" class="mt-10 mb-40" />
-            <h2>Myth 3: Immunity acquired through a disease is better than immunity acquired through vaccination</h2>
+            <hr class="mt-10 mb-40" />
+            <h3 id="myth-3"><span class="text-rose-400">Müüt nr 3:</span> Loomulikul teel omandatud immuunsus on parem kui vaktsiiniga omandatud immuunsus</h3>
 
 
-            <p>It is true that natural infection almost always results in a stronger immunity to the disease than a vaccination. However, the dangers of this approach far outweigh the relative benefits. The price for immunity after natural infection might be pneumonia from chickenpox or pneumococcus, intellectual disability from Haemophilus influenzae type b (Hib), birth defects from rubella, liver cancer from hepatitis B virus, death from measles, etc. If you wanted to gain immunity to measles, for example, by contracting the disease, you would face a 1 in 500 chance of death from your symptoms. In contrast, the number of people who have had severe allergic reactions from an MMR vaccine is less than one-in-one million.</p>
-            <p>Nevertheless, few vaccines induce a better immune response than natural infection. For instance, the Human papillomavirus (HPV) vaccine contains a high purity of the specific protein, leading to a better immune response than natural infection. Other examples include tetanus, Haemophilus influenzae type b (Hib), and pneumococcal vaccine.</p>
-            <p>Regarding COVID-19, it needs to be clarified. It has been shown that permanent protection after infection is unlikely. Even though coronavirus patients gained “substantial immune memory” that involved all four significant parts of the immune system: memory B cells, antibodies, memory CD4+ T cells, and memory CD8+ T cells, the protection started to reduce after half a year. Also, scientists have shown a “massive dynamic range” in the immune response between individuals, with a 200-fold difference in antibody levels.</p>
-            <p>Other studies have shown that volunteers who received the Moderna vaccine (mRNA) had more antibodies — one marker of immune response — in their blood than did people who had been sick with COVID-19. However, this fact can be modified by the severity of the disease as there is a correlation between disease severity and lasting immune response – most asymptomatic patients had very few antibodies after six months of infection. Thus, the natural immunity generated from a SARS-CoV-2 infection is often unpredictable. Moreover, the antibodies elicited by the mRNA vaccine targeted a broader range of places on the Receptor Binding Domain (RBD) than those elicited by natural infection.</p>
+            <p>On tõsi, et loomulik nakatumine annab peaaegu alati tugevama immuunsuse haiguse vastu kui vaktsineerimine. Selle lähenemisviisi ohud kaaluvad siiski üles suhtelise kasu. Loodusliku nakatumise järgse immuunsuse eest makstavaks hinnaks võib olla tuulerõugete või pneumokokkide põhjustatud kopsupõletik, Haemophilus influenzae b (Hib) põhjustatud intellektuaalne puue, ema punetistest põhjustatud sünnidefektid, B-hepatiidi viiruse tagajärjel saadud maksavähk, surm leetrite tõttu jne. Näiteks leetritesse haigestudes on teil võimalus oma sümptomite tõttu surra 1:500. Seevastu inimeste arv, kellel on MMR-vaktsiini saanud raskeid allergilisi reaktsioone, on alla 1:1000000.</p>
+            <p>Sellegipoolest on vähe vaktsiine, mis kutsuvad esile parema immuunvastuse kui loomulikud infektsioonid. Näiteks sisaldab inimese papilloomiviiruse (HPV) vaktsiin kõrge puhtusastmega spetsiifilist valku, mis annab parema immuunvastuse kui loomulik infektsioon. Teised sarnased näited on teetanuse, Haemophilus influenzae tüüp b (Hib) ja pneumokoki vaktsiinid.</p>
+            <p>Seoses COVID-19-ga on andmed selles suhtes ebaselged. On näidatud, et püsiv kaitse pärast nakatumist on ebatõenäoline. Leiti, et koroonaviirusega patsientidel tekkis oluline “immuunmälu" - immuunsüsteemi reaktsioon tellis kõigis neljas olulises immuunsüsteemi osas: aktiveerides mälu B-rakud, antikehad, mälu CD4+ T-rakud ja mälu CD8+ T-rakud, kusjuures kaitse hakkas vähenema poole aasta pärast. Samuti on teadlased näidanud immuunvastuse suurt erinevust inimeste vahel - antikehade tasemete erinevus võib populatsiooni lõikes erineda 200 korda.</p>
+            <p>Teised uuringud näitasid aga, et Moderna vaktsiini (mRNA) saanud vabatahtlike veres oli rohkem antikehi, kui inimestel, kes olid põdenud COVID-19. Seda asjaolu võib aga muuta haiguse tõsidus, kuna haiguse tõsiduse ja kestva immuunvastuse vahel on seos – enamikul asümptomaatilistel patsientidel oli pärast 6-kuulist nakatumist väga vähe antikehi. Seega on SARS-CoV-2 infektsioonist tekkiv loomulik immuunsus sageli ettearvamatu. Veelgi enam, mRNA vaktsiini poolt esile kutsutud antikehad olid suunatud retseptori sidumisdomeeni (RBD) laiemale hulgale kohtadele kui need, mis tekkisid loomuliku infektsiooniga.</p>
 
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext</a>
+                        <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext" target="_blank" rel="noopener noreferrer">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext</a>
                     </li>
                     <li>
-                        <a href="https://science.sciencemag.org/content/371/6529/eabf4063" target="_blank">https://science.sciencemag.org/content/371/6529/eabf4063</a>
+                        <a href="https://science.sciencemag.org/content/371/6529/eabf4063" target="_blank" rel="noopener noreferrer">https://science.sciencemag.org/content/371/6529/eabf4063</a>
                     </li>
                     <li>
-                        <a href="https://www.nejm.org/doi/full/10.1056/NEJMc2032195" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMc2032195</a>
+                        <a href="https://www.nejm.org/doi/full/10.1056/NEJMc2032195" target="_blank" rel="noopener noreferrer">https://www.nejm.org/doi/full/10.1056/NEJMc2032195</a>
                     </li>
                     <li>
-                        <a href="https://www.researchsquare.com/article/rs-612205/v1" target="_blank">https://www.researchsquare.com/article/rs-612205/v1</a>
+                        <a href="https://www.researchsquare.com/article/rs-612205/v1" target="_blank" rel="noopener noreferrer">https://www.researchsquare.com/article/rs-612205/v1</a>
                     </li>
                     <li>
-                        <a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank">https://stm.sciencemag.org/content/13/600/eabi9915</a>
+                        <a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank" rel="noopener noreferrer">https://stm.sciencemag.org/content/13/600/eabi9915</a>
                     </li>
                 </ul>
             </section>
@@ -632,20 +641,20 @@
 
 
 
-            <hr id="myth-4" class="mt-10 mb-40" />
-            <h2>Myth #4: Vaccines contain life-threatening substances.</h2>
+            <hr  class="mt-10 mb-40" />
+            <h3 id="myth-4"><span class="text-rose-400">Müüt nr 4:</span> Vaktsiinid sisaldavad eluohtlikke toksiine</h3>
             
             
-            <p>People are concerned about using formaldehyde, mercury, or aluminium in vaccines. On the one hand, these chemicals are toxic to the human body at certain levels. On the other hand, only tiny amounts of these chemicals can be found in vaccines. Those amounts are smaller than we get from nutrition or formaldehyde is produced at higher rates by our own metabolic systems.</p>
-            <p>Certain elements, such as aluminium salts, are added to vaccines because they work as an adjuvant, which means their presence boosts the immune response when you are vaccinated. Also, only certain vaccines contain aluminium salts, and new COVID-19 vaccines do not contain them. A few vaccines have contained thimerosal as a preservative; however, none of the vaccines used in children currently contains this. Thimerosal contains ethylmercury, which is cleared from the human body quickly compared to methylmercury, which bioaccumulates – so there is also a difference in which form toxic metal is. Nevertheless, COVID-19 vaccines do not contain toxins (e.g.).</p>
+            <p>Inimesed tunnevad muret formaldehüüdi, elavhõbeda või alumiiniumi kasutamise pärast vaktsiinides. Ühest küljest on tõsi, et need kemikaalid on teatud tasemel inimkehale mürgised. Teisest küljest on vaktsiinides kasutatu kemikaalide väga väikesi koguseid ja need kogused on väiksemad kui toitumisest saadavad või formaldehüüdi toodavad meie enda ainevahetussüsteemid kiiremini.</p> 
+            <p>Põhjused, miks teatud elemendid, näiteks alumiiniumsoolad, lisatakse vaktsiinidele, on see, et need toimivad adjuvandina, mis tähendab, et selle olemasolu suurendab vaktsineerimisel immuunvastust. Samuti sisaldavad alumiiniumsoolasid ainult teatud vaktsiinid, uued COVID-19 vaktsiinid neid näiteks ei sisalda. Väike osa vaktsiinidest on sisaldanud säilitusainena timerosaali, kuid ükski lastel kasutatavatest vaktsiinidest ei sisalda seda praegu. Thimerosal sisaldab etüülelavhõbedat, mis eritub inimkehast kiiresti, võrreldes bioakumuleeruva metüülelavhõbedaga – seega on suur erinevus, mis kujul mürgine metall esineb. Sellest hoolimata ei sisalda COVID-19 vaktsiinid toksiine.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank">https://stm.sciencemag.org/content/13/600/eabi9915</a></li>
-                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/</a></li>
-                    <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li>
-                    <li><a href="https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/" target="_blank">https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/</a></li>
+                    <li><a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank" rel="noopener noreferrer">https://stm.sciencemag.org/content/13/600/eabi9915</a></li>
+                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/</a></li>
+                    <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li>
+                    <li><a href="https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/" target="_blank" rel="noopener noreferrer">https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/</a></li>
                 </ul>
             </section>
 
@@ -653,11 +662,11 @@
 
             <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:edit-document">
                 <div>
-                    <h3 class="mt-6 pt-3 mb-10">For further study</h3>
+                    <h3 class="mt-6 pt-3 mb-10">Edasiseks uurimiseks</h3>
                     <ul class="leading-tight">
-                        <li><a href="https://www.publichealth.org/public-awareness/understanding-vaccines/goes-vaccine/" target="_blank">What Goes Into A Vaccine?</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank">Vaccines and the Immune Response: How Vaccines Work</a></li>
-                        <li><a href="https://www.cdc.gov/vaccines/vac-gen/additives.htm" target="_blank">What’s in Vaccines?</a></li>
+                        <li><a href="https://www.publichealth.org/public-awareness/understanding-vaccines/goes-vaccine/" target="_blank" rel="noopener noreferrer">What Goes Into A Vaccine?</a></li>
+                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank" rel="noopener noreferrer">Vaccines and the Immune Response: How Vaccines Work</a></li>
+                        <li><a href="https://www.cdc.gov/vaccines/vac-gen/additives.htm" target="_blank" rel="noopener noreferrer">What’s in Vaccines?</a></li>
                     </ul>
                 </div>
             </UiCardInfo>
@@ -675,20 +684,20 @@
 
 
 
-            <hr id="myth-5" class="mt-10 mb-40" />
-            <h2>Myth 5: Better hygiene and sanitation are responsible for decreased infections, not vaccines</h2>
+            <hr  class="mt-10 mb-40" />
+            <h3 id="myth-5"><span class="text-rose-400">Müüt nr 5:</span> Nakatumiste arvu vähenemise põhjuseks maailmas on parem hügieen ja kanalisatsioon, mitte vaktsiinid.</h3>
             
-            <p>This is partly true that vaccines do not deserve all the credit for reducing or eliminating rates of infectious diseases. It has been shown that better sanitation, nutrition, and the development of antibiotics have also helped a lot. Infections such as typhoid and cholera transmitted by contaminated water, a major cause of illness and death early in the 20th century, have been reduced dramatically by better sanitation. A recent review concluded that handwashing in averting infectious diseases. Another recent evidence comes from the COVID-19 lockdown and improved hygiene with dramatically reduced seasonal flu rates.</p>
-            <p>However, when these factors are isolated, and infectious disease rates are analysed, the role of vaccines cannot be denied. One example is measles in the United States. When the first measles vaccine was introduced in 1963, infection rates had been steady at around 400,000 cases a year. And while hygienic habits and sanitation did not change much over the following decade, the rate of measles infections dropped precipitously following the vaccine's introduction, with only around 25,000 cases by 1970. Another example is Hib disease. According to CDC data, the incidence rate for this malady plummeted from 20,000 in 1990 to around 1,500 in 1993 following the vaccine's introduction.</p>
-            <p>Another piece of evidence comes from recent decades. There have not been changes in hygiene in the developed world, but there has been a decrease in vaccination rates. Now several countries, such as the UK, the USA, Germany, Spain, etc., are seeing increasing numbers of measles, and other vaccine-preventable diseases, identified as an emerging disease "hot spots".</p>
+            <p>See on osaliselt tõsi, et vaktsiinid ei vääri kogu tunnustust nakkushaiguste esinemissageduse vähendamise või kõrvaldamise eest. On näidatud, et palju on aidanud ka parem kanalisatsioon, toitumine ja antibiootikumide väljatöötamine. Saastunud vee kaudu levivad sellised nakkused, nagu tüüfus ja koolera, mis olid 20. sajandi alguses peamised haiguste ja surma põhjustajad. Paremate sanitaartingimuste tõttu on nende esinemine kindlasti oluliselt vähenenud. Hiljutine ülevaade jõudis järeldusele, et käte pesemine aitab ära hoida nakkushaigusi. Veel üks hiljutine tõend pärineb COVID-19 pandeemia ajast, mis näitas, et paranenud hügieen koos muude ohutusnõuetega, on  järsult vähendanud ka hooajalise gripi esinemissagedust.</p>
+            <p>Kui need tegurid aga uuringutes eraldada ja nakkushaiguste esinemissagedust analüüsida, ei saa vaktsiinide rolli eitada. Üks näide on leetrid Ameerika Ühendriikides. Kui 1963. aastal võeti kasutusele esimene leetrite vaktsiin, püsis nakatumise määr ligikaudu 400 000 juhtumi juures aastas. Kuigi hügieenilised harjumused ja sanitaartingimused ei muutunud järgmisel kümnendil palju, langes leetritesse nakatumise määr pärast vaktsiini kasutuselevõttu järsult, 1970. aastaks oli ainult ligikaudu 25 000 juhtu. Teine näide on Hib-tõbi. Andmete kohaselt langes selle haiguse esinemissagedus pärast vaktsiini kasutuselevõttu 20 000-lt 1990. aastal ligikaudu 1500-le 1993. aastal.</p>
+            <p>Veel üks tõend pärineb viimastest aastakümnetest. Hügieenis ei ole arenenud maailmas muudatusi toimunud, küll aga on vähenenud vaktsineerimise määr. Nüüd täheldatakse mitmetes riikides, nagu Ühendkuningriik, USA, Saksamaa, Hispaania jne, üha rohkem leetreid ja muid vaktsiinivälditavaid haigusi.</p>
 
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://jptcp.com/index.php/jptcp/article/view/711" target="_blank">https://jptcp.com/index.php/jptcp/article/view/711</a></li>
-                    <li><a href="https://www.nature.com/articles/d41586-020-01538-8" target="_blank">https://www.nature.com/articles/d41586-020-01538-8</a></li>
-                    <li><a href="https://www.nature.com/articles/d41586-020-03519-3" target="_blank">https://www.nature.com/articles/d41586-020-03519-3</a></li>
-                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/</a></li>
+                    <li><a href="https://jptcp.com/index.php/jptcp/article/view/711" target="_blank" rel="noopener noreferrer">https://jptcp.com/index.php/jptcp/article/view/711</a></li>
+                    <li><a href="https://www.nature.com/articles/d41586-020-01538-8" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/d41586-020-01538-8</a></li>
+                    <li><a href="https://www.nature.com/articles/d41586-020-03519-3" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/d41586-020-03519-3</a></li>
+                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/</a></li>
                 </ul>
             </section>
 
@@ -703,16 +712,16 @@
 
 
 
-            <hr id="myth-6" class="mt-10 mb-40" />
-            <h2>Myth 6: Vaccines can infect the child with the disease it is trying to prevent</h2>
+            <hr  class="mt-10 mb-40" />
+            <h3 id="myth-6"><span class="text-rose-400">Müüt nr 6:</span> Vaktsiinid võivad nakatada inimesi haigusega, mida see püüab ära hoida</h3>
 
-            <p>Some of the vaccines are live vaccines that contain live attenuated microorganisms/viruses, which are still capable of replicating within the host (vaccinee). The microorganisms are 'weakened', meaning they have lost most of their disease-causing capacity but still possess immunogenic properties. Thus, it is always much less severe than if a child became infected with the disease-causing virus itself. Live-attenuated vaccines are for measles, mumps, rubella (MMR combined vaccine), rotavirus, smallpox, chickenpox, and yellow fever vaccine. In most cases, live vaccines show significantly higher immunogenicity than inactivated vaccines since natural infection is imitated almost perfectly by eliciting a more comprehensive range of immunologic responses. However, these vaccines are not favoured for kids with weakened immune systems, such as those being treated for cancer.</p>
-            <p>Live vaccines can indeed cause mild symptoms resembling the disease they protect against. However, the vaccine recipients are experiencing a body's immune response to the vaccine, not the disease itself. There is only one recorded instance in which a vaccine was shown to cause disease. This was the Oral Polio Vaccine (OPV) which is no longer used and currently replaced with a killed virus form known as the inactivated polio vaccine (IPV).</p>
+            <p>Mõned vaktsiinid on elusvaktsiinid, mis sisaldavad elusaid, kuid nõrgestatud mikroorganisme/viirusi, mis on endiselt võimelised peremeesorganismis paljunema. Mikroorganismid on nõrgestatud, mis tähendab, et nad on kaotanud suurema osa oma haigust põhjustavatest võimetest, kuid neil on endiselt olemas immunogeensed omadused. Seega on see alati palju kergem variant kui siis, kui laps nakatub haigust põhjustavasse “päris” viirusesse. Nõrgestatud elusvaktsiinideks on leetrite, mumpsi ja punetiste kombineeritud vaktsiin ning rotaviiruse, rõugete, tuulerõugete ja kollapalaviku vaktsiinid. Enamikul juhtudel on elusvaktsiinidel oluliselt suurem immunogeensus kui inaktiveeritud vaktsiinidel, kuna loomulikku infektsiooni imiteeritakse peaaegu täiuslikult, kutsudes esile laiema immunoloogilise vastuse. Kuid nõrgenenud immuunsüsteemiga lastele, näiteks vähiravi saavatele lastele, neid vaktsiine ei eelistata.</p>
+            <p>On tõsi, et elusvaktsiinid võivad põhjustada kergeid sümptomeid, mis sarnanevad selle haigusega, mille eest nad kaitsevad. Vaktsiini saajad kogevad aga organismi immuunvastust vaktsiinile, mitte haigust ennast. On registreeritud ainult üks juhtum, kus vaktsiin põhjustas haigust. See oli suukaudne poliomüeliidi vaktsiin (OPV), mida enam ei kasutata ja mis on praegu asendatud tapetud viiruse vormiga, mida tuntakse inaktiveeritud poliomüeliidi vaktsiinina (IPV).</p>
 
             <section class="e-card">
-                <h4 class="mt-0">Reference</h4>
+                <h4 class="mt-0">Viide</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.sciencedirect.com/science/article/pii/B9781455710768000090" target="_blank">https://www.sciencedirect.com/science/article/pii/B9781455710768000090</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/B9781455710768000090" target="_blank" rel="noopener noreferrer">https://www.sciencedirect.com/science/article/pii/B9781455710768000090</a></li>
                 </ul>
             </section>
 
@@ -727,23 +736,22 @@
 
 
 
-            <hr id="myth-7" class="mt-10 mb-40" />
-            <h2>Myth 7: We do not need to vaccinate because many countries have low infection rates</h2>
-            <p>Herd immunity occurs when a large portion of a community (the herd) becomes immune to a disease, making the spread of disease from person to person unlikely. Thanks to "herd immunity," many people do not see the need for vaccination. As long as a large majority of people are immunised in any population, the unimmunised minority will also be protected. This is important because there is a portion of the population – infants, pregnant women, the elderly, and those with weakened immune systems – that cannot sometimes receive vaccines. However, suppose many people do not vaccinate themselves or their children. In that case, the "herd immunity" disappears, opening up opportunities for viruses and bacteria to establish themselves and spread. With so many people resistant, an infectious disease will never get a chance to establish itself and spread. </p>
-            <p>Moreover, international travel often carries a disease from abroad, and an unvaccinated individual will be at far greater risk of getting sick or people have got infected while travelling. The increased measles incidence illustrates this in the US in recent years. As long as disease exists, we are at risk of getting infected. </p>
+            <hr  class="mt-10 mb-40" />
+            <h3 id="myth-7"><span class="text-rose-400">Müüt nr 7:</span> Me ei pea enam vaktsineerima, sest nakatumise määr mitmetesse nakkushaigustesse on paljudes riikides nniikuinii madal</h3>
+            <p>Tänu karjaimmuunsusele ei näe paljud inimesed vaktsineerimise järele enam vajadust. Karjaimmuunsus tekib siis, kui suur osa kogukonnast (“kari”) muutub haiguse suhtes immuunseks, mistõttu on haiguse levik inimeselt inimesele ebatõenäoline. Niikaua kui suurem osa inimestest on immuniseeritud mis tahes populatsioonis, on kaitstud ka immuniseerimata vähemus. See on oluline, sest teatud osa elanikkonnast – imikud, rasedad naised, eakad ja nõrgenenud immuunsüsteemiga inimesed – ei saa mõnikord/mõndasid vaktsiine. Kui aga paljud inimesed iseennast ega oma lapsi enam ei vaktsineeri, kaob karjaimmuunsus, mis annab võimaluse viirustele ja bakteritele end levitada. Sageli tuuakse mõni haigus kaasa rahvusvahelistelt reisidelt. Vaktsineerimata inimesel on sel juhul palju suurem risk haigestuda või reisimise ajal nakatuda. Seda illustreerib leetrite esinemissageduse tõus USA-s viimastel aastatel. Kuni haigused eksisteerivad, on meil oht nakatuda.</p>
             
             <section class="e-card">
-                <h4 class="mt-0">References</h4>
+                <h4 class="mt-0">Viited</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm" target="_blank">https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm</a></li>
-                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
+                    <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm</a></li>
+                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank" rel="noopener noreferrer">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
                 </ul>
             </section>
 
 
 
             <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:edit-document">
-                More COVID-19 myths and related scientific research can be found from: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/science-in-5/episode-8---myth-vs-science" target="_blank">
+                Rohkem COVID-19 müüte ja sellega seotud teadusuuringuid leiate aadressilt: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/science-in-5/episode-8---myth-vs-science" target="_blank" rel="noopener noreferrer">
                     WHO - Myth vs Science
                 </a>
             </UiCardInfo>
