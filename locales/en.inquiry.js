@@ -1,6 +1,9 @@
 export default {
     inquiry: {
         reliability_table : {
+            txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte tabelisse.",
+            link_1: "tööriista",
+            url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",
             cols: {
               col_1:"Evidence / main conclusions / summary of the information relevant to the hypothesis",
               col_2:"Type and source of evidence",
@@ -9,6 +12,47 @@ export default {
             },
             add_row: "ADD ROW"
         },
+        variables_table: {
+            header: [
+              {thead:"Kontrollmuutujad", tsubhead:"(need, mida üritatakse hoida katse jooksul muutumatutena)"},
+              {thead:"Sõltumatu muutuja", tsubhead:"(see, mida muudetakse)"},
+              {thead:"Sõltuv muutuja", tsubhead:"(see mida sekkumise tulemusena mõõdetakse)"},
+            ]
+          },
+
+
+        cc_open: {
+            title: "Climate change",
+            subtitle: "Open inquiry",
+            choose: "Choose a myth",
+            q1_title: "1. Hakkame uurima järgmist müüti:",
+            myths: [
+              "Liikide väljasuremine on looduslik protsess.",
+              "Liigid suudavad kliimamuutustega kohaneda.",
+              "Kliimamuutuste alane teadus ei ole usaldusväärne.",
+              "Globaalne soojenemine on kasulik.",
+              "Seos CO₂ ja temperatuuri tõusu vahel puudub.",
+              "Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
+              "Maa kliima on alati muutunud ning see jätkab muutumist."
+            ],
+            q2_txt: "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
+            q2_link: "kontrollitavaks hüpoteesiks",
+            q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
+            q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+            
+            plan: {
+              txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab:",
+              label_1: "3. Tegevusplaan"
+            },
+      
+            reliability: {
+              txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
+              label_1: "4. Uuritud materjalide usaldusväärsus."
+            },
+            q4_title: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
+            q5_title: "6. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
+          },
+
         "cc-myth1":{
             "back": "Back",
             "title": "Climate change",

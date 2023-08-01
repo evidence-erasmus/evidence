@@ -35,7 +35,7 @@
                     <textarea v-if="printMode === false" 
                         v-model="storeToUpdate.reliability[i][j]" rows="1" class="textarea block w-full h-full py-1 px-2 leading-tight"></textarea>
                     <div v-else class="leading-tight px-2 py-2">
-                        {{ storeToUpdate.reliability[i][j] }} +
+                        {{ storeToUpdate.reliability[i][j] }}
                     </div>
                 </template>
             </div>

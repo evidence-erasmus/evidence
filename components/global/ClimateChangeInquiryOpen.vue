@@ -66,19 +66,28 @@
             <hr />
 
             <label for="q3" class="block mb-2 font-bold">
-                {{t('inquiry.cc_open.q3_title')}}
+                {{t('inquiry.cc_open.plan.label_1')}}
             </label>
+            <p>{{ t('inquiry.cc_open.plan.txt_1') }}</p>
             <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
             v-model="studentClimateOpen.q3"></textarea>
             <hr />
 
 
 
-            <p>Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks</p>
+            
 
             <p>
-                <b>3. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.</b>
+                <b>{{ t('inquiry.cc_open.reliability.label_1') }}</b>
             </p>
+
+
+            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="mb-0">
+                <template #link1>
+                    <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.reliability_table.link_1') }}</a>
+                </template>
+            </i18n-t>
+
 
             <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
                 <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" :addRow="true" currentSources="inquiry.cc_open.sources" key="ccOpenrlblty" />

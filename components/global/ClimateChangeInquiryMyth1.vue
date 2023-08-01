@@ -13,7 +13,7 @@
             climateMythOneAnswers.changeReliabilityValue(index, 1, rt(el.name));
         })
     }
-    addSources(tm('inquiry.cc-myth1.sources'));
+    addSources(tm('inquiry.cc_myth1.sources'));
 
 </script>
 
@@ -35,55 +35,55 @@
             <NuxtLink to="../student#myth1" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
-                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth1.back')}}</span>
+                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
                 </span>
             </NuxtLink>
 
-            <h1 class="mb-0">{{ t('inquiry.cc-myth1.title') }}</h1>
-            <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc-myth1.subtitle') }}</h5>
+            <h1 class="mb-0">{{ t('inquiry.cc_myth1.title') }}</h1>
+            <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc_myth1.subtitle') }}</h5>
         
             <!-- <h2>
                 Tegevus 3: Müüdimurdmine
             </h2> -->
 
             <h3>
-                {{ t('inquiry.cc-myth1.myth') }}
+                {{ t('inquiry.cc_myth1.myth') }}
             </h3>
 
             <label for="q1" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.hypothesis') }}</b>
+                <b>{{ t('inquiry.cc_myth1.hypothesis') }}</b>
             </label>
             <textarea id="q1" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="4"
             v-model="climateMythOneAnswers.hypothesis"></textarea>
             <hr />
 
             <p>
-                {{ t('inquiry.cc-myth1.argument.txt-1') }}
+                {{ t('inquiry.cc_myth1.argument.txt_1') }}
             </p>
             
             <UiCardInfo theme="rose-400" icon="game-icons:unicorn">
                 <h4 class="leading-tight my-2">
-                    {{ t('inquiry.cc-myth1.argument.argument') }}
+                    {{ t('inquiry.cc_myth1.argument.argument') }}
                 </h4>
             </UiCardInfo>
 
             <UiCardInfo theme="sky-400" icon="tabler:zoom-question" class="mt-6">
                 <h4 class="leading-tight my-2">
-                    {{ t('inquiry.cc-myth1.question.question') }}
+                    {{ t('inquiry.cc_myth1.question.question') }}
                 </h4>
             </UiCardInfo>
             
-            <i18n-t tag="p" keypath="inquiry.cc-myth1.question.txt-1" scope="global">
+            <i18n-t tag="p" keypath="inquiry.cc_myth1.question.txt_1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth1.flicc-sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth1.question.link-1') }}</a>
+                    <a :href="t('inquiry.cc_myth1.sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth1.question.link_1') }}</a>
                 </template>
                 <template #link2>
-                    <a :href="t('inquiry.cc-myth1.flicc-sources[1].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth1.question.link-2') }}</a>
+                    <a :href="t('inquiry.cc_myth1.sources[1].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth1.question.link_2') }}</a>
                 </template>
             </i18n-t>
             
             <label for="q2" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.q-1') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_1') }}</b>
             </label>
             <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="climateMythOneAnswers.q1"></textarea>
@@ -91,7 +91,7 @@
             <hr />
             
             <label for="q3" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.q-2') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_2') }}</b>
             </label>
             <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="climateMythOneAnswers.q2"></textarea>
@@ -99,7 +99,7 @@
             <hr />
             
             <label for="q4" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.q-3') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_3') }}</b>
             </label>
             <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="climateMythOneAnswers.q3"></textarea>
@@ -107,7 +107,7 @@
             <hr />
             
             <label for="q5" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.q-4') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_4') }}</b>
             </label>
             <textarea id="q5" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="climateMythOneAnswers.q4"></textarea>
@@ -115,49 +115,49 @@
             <hr />
             
             <label for="q6" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.q-5') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_5') }}</b>
             </label>
             <textarea id="q6" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="climateMythOneAnswers.q5"></textarea>
 
             <hr />
             
-            <i18n-t keypath="inquiry.cc-myth1.q-6.txt-1" scope="global">
+            <i18n-t keypath="inquiry.cc_myth1.q_6.txt_1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc-myth1.flicc-sources[2].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc-myth1.q-6.link-1') }}</a> 
+                    <a :href="t('inquiry.cc_myth1.sources[2].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth1.q_6.link_1') }}</a> 
                 </template>
             </i18n-t>
 
             <label for="q7" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.q-6.q-6') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_6.q_6') }}</b>
             </label>
             <textarea id="q7" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="climateMythOneAnswers.q6"></textarea>
             
             <hr />
 
-            <i18n-t tag="p" keypath="inquiry.cc-myth1.q-7.txt-1" scope="global">
+            <i18n-t tag="p" keypath="inquiry.cc_myth1.q_7.txt_1" scope="global">
                 <template #link1>
                     <a href="https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link" target="_blank" rel="noreferrer noopener">
-                        {{ t('inquiry.cc-myth1.q-7.link-1') }}
+                        {{ t('inquiry.cc_myth1.q_7.link_1') }}
                     </a>
                 </template>
             </i18n-t>
 
             <p>
-                <b>{{ t('inquiry.cc-myth1.q-7.q-7') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_7.q_7') }}</b>
             </p>
 
             <div class="e-card w-[90vw]" style="transform:translateX(-6vw)">
                 <ClientOnly>
-                    <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" currentSources="inquiry.cc-myth1.sources" />
+                    <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" currentSources="inquiry.cc_myth1.sources" />
                 </ClientOnly>
             </div>
 
             <hr />
 
             <label for="q8" class="block mb-2">
-                <b>{{ t('inquiry.cc-myth1.q-8') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_8') }}</b>
             </label>
             <textarea id="q8" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="climateMythOneAnswers.q8"></textarea>
@@ -165,7 +165,7 @@
             <hr />
 
             <p>
-                <b>{{ t('inquiry.cc-myth1.q-9') }}</b>
+                <b>{{ t('inquiry.cc_myth1.q_9') }}</b>
             </p>
 
             <div class="e-card w-[90vw]" style="transform:translateX(-6vw)">

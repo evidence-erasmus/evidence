@@ -3,7 +3,7 @@ export default {
     add_row: "Lisa rida",
     
     reliability_table : {
-      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.     Kirjutage oma uurimistulemustest kokkuvõte allpoololevasse tabelisse.",
+      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.     Kirjutage oma uurimistulemustest kokkuvõte  tabelisse.",
       link_1: "tööriista",
       url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",  
       cols: {
@@ -41,60 +41,68 @@ export default {
       q2_link: "kontrollitavaks hüpoteesiks",
       q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
       q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
-      q3_txt: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
-      q3_title: "3. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.",
-      q4_title: "4. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
-      q5_title: "5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
+      
+      plan: {
+        txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab:",
+        label_1: "3. Tegevusplaan"
+      },
+
+      reliability: {
+        txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
+        label_1: "4. Uuritud materjalide usaldusväärsus."
+      },
+      q4_title: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
+      q5_title: "6. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
     },
 
 
 
 
-    "cc-myth1": {
-      "back": "Tagasi",
-      "title": "Kliimamuutused",
-      "subtitle": "Juhitud uurimus, müüt 1",
-      "myth": "Müüt nr 1: Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.",
-      "hypothesis": "Püstitage selle kohta oma hüpotees:",
-      "argument": {
-        "txt-1": "Teile antakse müüdi nr. 1 põhiargument ja küsimus, millele peate vastama etteantud allikate abil.",
-        "argument": "Müüdi 1 põhiargument: Liikide massiline väljasuremine on loomulik protsess."
+    cc_myth1: {
+      back: "Tagasi",
+      title: "Kliimamuutused",
+      subtitle: "Juhitud uurimus, müüt 1",
+      myth: "Müüt nr 1: Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.",
+      hypothesis: "Püstitage selle kohta oma hüpotees:",
+      argument: {
+        txt_1: "Teile antakse müüdi nr. 1 põhiargument ja küsimus, millele peate vastama etteantud allikate abil.",
+        argument: "Müüdi 1 põhiargument: Liikide massiline väljasuremine on loomulik protsess."
       },
-      "question": {
-        "question": "Uurimisküsimus: Kas liikide massiline väljasuremine on loomulik protsess?",
-        "txt-1": "Uurige {link1} ja {link2} ning vastake järgnevatele küsimustele.",
-        "link-1": "allikat 1.1",
-        "link-2": "vaadake videot"
+      question: {
+        question: "Uurimisküsimus: Kas liikide massiline väljasuremine on loomulik protsess?",
+        txt_1: "Uurige {link1} ja {link2} ning vastake järgnevatele küsimustele.",
+        link_1: "allikat 1.1",
+        link_2: "vaadake videot"
       },
-      "q-1": "1. Mida me mõtleme „massilise väljasuremise” all?",
-      "q-2": "2. Kui palju massilist väljasuremist teie arvates toimub?",
-      "q-3": "3. Millised olid massilise väljasuremise põhjused?",
-      "q-4": "4. Millised olid massilise väljasuremise tagajärjed?",
-      "q-5": "5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?",
-      "q-6": {
-        "txt-1": "Uurige {link1} ning vastake järgmisele küsimusele:",
-        "link-1": "allikat 1.2",
-        "q-6": "6. Mis on pingviinide massilise hukkumise põhjus?"
+      q_1: "1. Mida me mõtleme „massilise väljasuremise” all?",
+      q_2: "2. Kui palju massilist väljasuremist teie arvates toimub?",
+      q_3: "3. Millised olid massilise väljasuremise põhjused?",
+      q_4: "4. Millised olid massilise väljasuremise tagajärjed?",
+      q_5: "5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?",
+      q_6: {
+        txt_1: "Uurige {link1} ning vastake järgmisele küsimusele:",
+        link_1: "allikat 1.2",
+        q_6: "6. Mis on pingviinide massilise hukkumise põhjus?"
       },
-      "q-7": {
-        "txt-1": "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.",
-        "link-1": "tööriista",
-        "q-7": "7. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse."
+      q_7: {
+        txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.",
+        link_1: "tööriista",
+        q_7: "7. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse."
       },
-      "q-8": "8. Esitatud tõendite põhjal on meie järeldus(ed) müüdi “Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud”, paikapidavuse kohta järgmine (järgmised):",
-      "q-9": "9. Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
-      "sources": [
+      q_8: "8. Esitatud tõendite põhjal on meie järeldus(ed) müüdi “Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud”, paikapidavuse kohta järgmine (järgmised):",
+      q_9: "9. Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      sources: [
         {
-          "name": "Allikas 1.1",
-          "url": "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
+          name: "Allikas 1.1",
+          url: "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
         },
         {
-          "name": "Video",
-          "url": "https://www.youtube.com/watch?v=nho73BtDQtE"
+          name: "Video",
+          url: "https://www.youtube.com/watch?v=nho73BtDQtE"
         },
         {
-          "name": "Allikas 1.2",
-          "url": "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
+          name: "Allikas 1.2",
+          url: "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
         }
       ]
     },
@@ -107,30 +115,30 @@ export default {
 
 
 
-    "cc-myth2": {
-      "back": "Tagasi",
-      "title": "Kliimamuutused",
-      "subtitle": "Juhitud uurimus, müüt 2",
-      "myth": "Müüt nr 2: Liigid suudavad kliimamuutustega kohaneda.",
-      "hypothesis": "Püstitage selle kohta oma hüpotees:",
+    cc_myth2: {
+      back: "Tagasi",
+      title: "Kliimamuutused",
+      subtitle: "Juhitud uurimus, müüt 2",
+      myth: "Müüt nr 2: Liigid suudavad kliimamuutustega kohaneda.",
+      hypothesis: "Püstitage selle kohta oma hüpotees:",
       
       
-      "a1": {
-        "argument": {
-          "txt-1": "Teile esitatakse müüdi nr. 2 põhiargumendid ja küsimused, millele peate vastama viidatud allikate abil.",
-          "argument": "Argument 1: Liigid on ebasoodsate tingimustega korduvalt kohanenud nii, et nad suudavad uutes kliimatingimustes ellu jääda."
+      a1: {
+        argument: {
+          txt_1: "Teile esitatakse müüdi nr. 2 põhiargumendid ja küsimused, millele peate vastama viidatud allikate abil.",
+          argument: "Argument 1: Liigid on ebasoodsate tingimustega korduvalt kohanenud nii, et nad suudavad uutes kliimatingimustes ellu jääda."
         },
-        "q1": {
-          "title-1": "Uurimisküsimus 1: Kas kliimamuutus mõjutab liikide kohanemisvõimet?",
-          "txt-1": "Vaadake animatsiooni {link1}  hoolikalt.",
-          "label-1": "Millest see räägib? Mis selle muutuse põhjustab?",
-          "label-2": "Millised on selle muudatuse tagajärjed?"
+        q1: {
+          title_1: "Uurimisküsimus 1: Kas kliimamuutus mõjutab liikide kohanemisvõimet?",
+          txt_1: "Vaadake animatsiooni {link1}  hoolikalt.",
+          label_1: "Millest see räägib? Mis selle muutuse põhjustab?",
+          label_2: "Millised on selle muudatuse tagajärjed?"
         },
-        "q2": {
-          "title-1": "Uurimisküsimus 2: Kas merevesi mõjutab korallide massi?",
-          "txt-1": "Allikas: Eksperiment “Teravnevad ookeanid”",
-          "list-1-title": "Vahendid ja materjalid:",
-          "list-1": [
+        q2: {
+          title_1: "Uurimisküsimus 2: Kas merevesi mõjutab korallide massi?",
+          txt_1: "Allikas: Eksperiment “Teravnevad ookeanid”",
+          list_1_title: "Vahendid ja materjalid:",
+          list_1: [
             "Teokarbid (samas suuruses ja hästi puhastatud)",
             "4,5%-line äädikhappe lahus (50g)", "2 plastkarpi koos kaanega",
             "Merevesi 400g või soolvesi, mis simuleerib 35‰ Suure Korallrahu juures olevat merevett",
@@ -140,8 +148,8 @@ export default {
             "Kuum vesi",
             "Kleebitavad etiketid"
           ],
-          "list-2-title": "Katse käik:",
-          "list-2": [
+          list_2_title: "Katse käik:",
+          list_2: [
             "Kaalu teokarbid. Pane saadud massid kirja. Jaotage teokarbid kaheks osaks nii, et need oleksid sama massiga.",
             "Pane kahte identsesse anumasse 200 g merevett. Lisa esimesse anumasse 50 grammi äädikat.",
             "Aseta mõlemasse anumasse sama massiga kogus teokarpe.",
@@ -150,94 +158,93 @@ export default {
             "Puhasta iga kest eraldi. Lase neil väga hästi kuivada.",
             "Kaalu kumbki osa eraldi ja pane nende uued massid kirja."
           ],
-          "data-table": [
+          data_table: [
             {
-              "thead": "Kontrollmuutujad",
-              "tsubhead": "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
+              thead: "Kontrollmuutujad",
+              tsubhead: "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
             },
             {
-              "thead": "Sõltumatu muutuja",
+              thead: "Sõltumatu muutuja",
               "tsubhead": "(see, mida muudetakse)"
             },
             {
-              "thead": "Sõltuv muutuja",
-              "tsubhead": "(see mida sekkumise tulemusena mõõdetakse)"
+              thead: "Sõltuv muutuja",
+              tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
             }
           ],
-          "table2-title": "Kogutud andmed",
-          "table2": {
-            "r1c2": "Teokarbid A",
-            "r1c3": "Teokarbid B",
-            "r2c1": "Algne mass (g):",
-            "r3c1": "Lõplik mass (g)",
-            "r4c1": "Masside vahe (g):"
+          table2_title: "Kogutud andmed",
+          table2: {
+            r1c2: "Teokarbid A",
+            r1c3: "Teokarbid B",
+            r2c1: "Algne mass (g):",
+            r3c1: "Lõplik mass (g)",
+            r4c1: "Masside vahe (g):"
           },
-          "hypothesis": "Hüpotees",
-          "conclusions": "Järeldused:",
-          "source-1": {
-            "txt-1": "Uurige {link1} ja vastake küsimusele:",
-            "link-1": "allikat 2.2",
-            "label-1": "Miks on korallide pleekimine murettekitav?"
+          hypothesis: "Hüpotees",
+          conclusions: "Järeldused:",
+          source_1: {
+            txt_1: "Uurige {link1} ja vastake küsimusele:",
+            link_1: "allikat 2.2",
+            label_1: "Miks on korallide pleekimine murettekitav?"
           },
-          "source-2": {
-            "txt-1": "Uurige {link1} ja vastake küsimusele:",
-            "link-1": "allikat 2.3",
-            "label-1": "Millest allikas räägib? Kuidas on omavahel seotud kliimamuutused ning viiruste ja haiguste levimine?"
+          source_2: {
+            txt_1: "Uurige {link1} ja vastake küsimusele:",
+            link_1: "allikat 2.3",
+            label_1: "Millest allikas räägib? Kuidas on omavahel seotud kliimamuutused ning viiruste ja haiguste levimine?"
           },
-          "source-3": {
-            "txt-1": "Vaadake animatsiooni: {link1}",
-            "link-1": "Kliimamuutused: Jää sulamine ja loomad",
-            "label-1": "Kuidas kliimamuutused mõjutavad jääkarude populatsioone?"
+          source_3: {
+            txt_1: "Vaadake animatsiooni: {link1}",
+            link_1: "Kliimamuutused: Jää sulamine ja loomad",
+            label_1: "Kuidas kliimamuutused mõjutavad jääkarude populatsioone?"
           }
         }
       },
 
-
-      "a2": {
-        "argument": "Argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema.",
-        "q1": {
-          "question": "Uurimisküsimus: Kas kliimamuutus mõjutab liikide evolutsiooni?",
-          "source-1": {
-            "txt-1": "Tutvuge {link1}",
-            "link-1": "allikaga 2.1",
-            "label-1": "Mida tähendab liikide evolutsioon?"
+      a2: {
+        argument: "Argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema.",
+        q1: {
+          question: "Uurimisküsimus: Kas kliimamuutus mõjutab liikide evolutsiooni?",
+          source_1: {
+            txt_1: "Tutvuge {link1}",
+            link_1: "allikaga 2.1",
+            label_1: "Mida tähendab liikide evolutsioon?"
           },
-          "label-2": "Kuidas kliimamuutused mõjutavad liikide evolutsiooni?"
+          label_2: "Kuidas kliimamuutused mõjutavad liikide evolutsiooni?"
         }
       },
 
 
-      "reliability": {
-        "txt-1": "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.",
-        "link-1": "tööriista",
-        "label-1": "Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.",
-        "url-1": "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link"
+      reliability: {
+        txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.",
+        link_1: "tööriista",
+        label_1: "Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.",
+        url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link"
       },
       
-      "conclusions": "Eelpooltoodud tõenditele tuginedes on meie järeldused müüdi “Liigid suudavad kliimamuutustega kohaneda”, paikapidavuse kohta järgmised:",
+      conclusions: "Eelpooltoodud tõenditele tuginedes on meie järeldused müüdi “Liigid suudavad kliimamuutustega kohaneda”, paikapidavuse kohta järgmised:",
 
-      "flicc-label": "Tuginedes kogutud teadmistele, mis te arvate, millise teaduse eitamise taktika tõttu antud müüt on tekkinud?",
+      flicc_label: "Tuginedes kogutud teadmistele, mis te arvate, millise teaduse eitamise taktika tõttu antud müüt on tekkinud?",
 
-      "sources": [
+      sources: [
         {
-          "name": "Mere ökosüsteem – korallide juhtum",
-          "url": "https://youtu.be/saUTXISSlBI"
+          name: "Mere ökosüsteem – korallide juhtum",
+          url: "https://youtu.be/saUTXISSlBI"
         },
         {
-          "name": "Allikas 2.2",
-          "url": "https://drive.google.com/file/d/1dsgBLIsNaDFpB7y2AMamJgC41GEDHpt3/view?usp=share_link"
+          name: "Allikas 2.2",
+          url: "https://drive.google.com/file/d/1dsgBLIsNaDFpB7y2AMamJgC41GEDHpt3/view?usp=share_link"
         },
         {
-          "name": "Allikas 2.3",
-          "url": "https://drive.google.com/file/d/1iVTPAHaL8bbUWskgKFvJfrRLjoQsQCde/view?usp=share_link"
+          name: "Allikas 2.3",
+          url: "https://drive.google.com/file/d/1iVTPAHaL8bbUWskgKFvJfrRLjoQsQCde/view?usp=share_link"
         },
         {
-          "name": "Jää sulamine ja loomad",
-          "url": "https://youtu.be/mEgYnOaiJnU"
+          name: "Jää sulamine ja loomad",
+          url: "https://youtu.be/mEgYnOaiJnU"
         },
         {
-          "name": "Allikas 2.1",
-          "url": "https://drive.google.com/file/d/19OENqL4uwh8YKd5SvAGUN44FC9md8nh5/view"
+          name: "Allikas 2.1",
+          url: "https://drive.google.com/file/d/19OENqL4uwh8YKd5SvAGUN44FC9md8nh5/view"
         }
       ]
     },
