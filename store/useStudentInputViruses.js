@@ -35,6 +35,9 @@ export const useStudentInputStore = defineStore("student", {
             activity3bConclusion: "",
             activity3bStatement: "",
         },
+        reliability: [
+            ["", "", "0", ""]
+        ]
     }),
     // getters: {
     //     getActivity3a: state => `Value is ${state.activity3a}`
@@ -44,10 +47,20 @@ export const useStudentInputStore = defineStore("student", {
             this.activity3a.activity3aPlan.push(["", "", ""]);
         },
         addReliabilityRow(){
-            this.activity3b.activity3bReliability.push(["", "", "?", ""]);
+            this.reliability.push(["", "", "0", ""]);
+        },
+        changeReliabilityValue(row, column, value){
+            console.log("Relaibility:", row, value);
+            this.reliability[row][column] = value;
         },
         changePath(index){
             this.learningPath = index;
+        },
+        addDynamicRow(key, row){
+            key.push(row);
+        },
+        changeDynamicRow(key, row, column, value){
+            key[row][column] = value;
         }
     },
     persist: {

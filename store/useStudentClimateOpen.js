@@ -22,8 +22,8 @@ export const useStudentClimateOpen = defineStore("studentClimateOpen", {
         addReliabilityRow(){
             this.reliability.push(["", "", "0", ""]);
         },
-        changeReliabilityValue(index, value){
-            this.reliability[index][2] = value;
+        changeReliabilityValue(row, column, value){
+            this.reliability[row][column] = value;
         },
         addFliccRow(){
             this.flicc.push(["", false, false, false, false, ""]);

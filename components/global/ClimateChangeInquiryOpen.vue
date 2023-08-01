@@ -81,7 +81,7 @@
             </p>
 
             <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
-                <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" :addRow="true" currentSources="inquiry.cc_open.sources" key="ccmyth6rlblty" />
+                <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" :addRow="true" currentSources="inquiry.cc_open.sources" key="ccOpenrlblty" />
             </div>
             
             <hr />

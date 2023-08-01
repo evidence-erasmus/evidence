@@ -18,10 +18,12 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+        <ClientOnly>
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="viruses-student-en" />
+        </ClientOnly>
 
 
-        <section class="e-article print:not-prose">
+        <section class="e-article print:not-prose" lang="en" style="hyphens:auto;">
             <Icon name="openmoji:person-raising-hand-medium-light-skin-tone" class="float-right text-[5em] text-slate-300" />
             <Icon name="openmoji:person-shrugging" class="float-right text-[5em] text-slate-300" />
             <h1 class="mb-0">Viruses</h1>

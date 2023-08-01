@@ -1,6 +1,7 @@
 export default {
   inquiry: {
     add_row: "Lisa rida",
+    
     reliability_table : {
       txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.     Kirjutage oma uurimistulemustest kokkuvõte allpoololevasse tabelisse.",
       link_1: "tööriista",
@@ -14,6 +15,13 @@ export default {
         add_row: "LISA RIDA"
     },
 
+    variables_table: {
+      header: [
+        {thead:"Kontrollmuutujad", tsubhead:"(need, mida üritatakse hoida katse jooksul muutumatutena)"},
+        {thead:"Sõltumatu muutuja", tsubhead:"(see, mida muudetakse)"},
+        {thead:"Sõltuv muutuja", tsubhead:"(see mida sekkumise tulemusena mõõdetakse)"},
+      ]
+    },
 
     cc_open: {
       title: "Kliimamuutused",
