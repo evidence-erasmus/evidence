@@ -101,7 +101,11 @@
 
             <!-- years table -->
 
-            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
+            <p class="block mb-2 mt-2">
+                <b>{{ t('inquiry.cc_myth7.table_years.label_1') }}</b>
+            </p>
+
+            <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
                 <ToolsDynamicTableFull 
                 :storeToUpdate="climateMyth7Answers" 
                 :keyToUpdate="climateMyth7Answers.yearsTable" 

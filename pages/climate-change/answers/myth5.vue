@@ -21,63 +21,71 @@
                 {{ climateMyth5Answers.hypothesis }}
             </p>
             
+            <p class="my-1 font-bold">{{ t('inquiry.cc_myth5.source_1.txt_2') }}</p>
+            <p class="whitespace-pre-wrap mt-1">
+                {{ climateMyth5Answers.videoNotes }}
+            </p>
+            
+            <hr />
 
-            <!-- <p class="my-1 font-bold">{{ t('inquiry.cc_myth3.hypothesis') }}</p>
+            <h4 class="mt-1 mb-8 font-bold">{{ t('inquiry.cc_myth5.exp_1.question') }}</h4>
+
+            <h4 class="my-1 font-bold">{{ t('inquiry.cc_myth5.exp_1.title') }}</h4>
+
+            <p class="my-1 font-bold">{{ t('inquiry.cc_myth5.exp_1.table_1.label') }}</p>
+            <ToolsDynamicTableFull class="mb-8"
+                :tableStructure="tm('inquiry.cc_myth5.exp_1.table_1.table')" 
+                :storeToUpdate="climateMyth5Answers" 
+                :keyToUpdate="climateMyth5Answers.exp.variableTable"
+                :print-mode="true" 
+            />
+
+            <p class="my-1 font-bold">{{ t('inquiry.cc_myth5.exp_1.hypothesis') }}</p>
             <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.a1.q1.hypothesis }}
+                {{ climateMyth5Answers.exp.hypothesis }}
             </p>
             
-            <p class="my-1 font-bold">{{ t('inquiry.cc_myth3.q_1') }}</p>
+            <p class="my-1 font-bold">{{ t('inquiry.cc_myth5.exp_1.table_2.title') }}</p>
+            <ToolsDynamicTableFull class="mb-8"
+                :store-to-update="climateMyth5Answers"
+                :key-to-update="climateMyth5Answers.exp.tempTable"
+                :table-structure="tm('inquiry.cc_myth5.exp_1.table_2')"
+                :print-mode="true"
+            />
+
+            <p class="my-1 font-bold">{{ t('inquiry.cc_myth5.exp_1.table_3.title') }}</p>
+            <ToolsDynamicTableFull class="mb-8"
+                :store-to-update="climateMyth5Answers"
+                :key-to-update="climateMyth5Answers.exp.dataTable"
+                :table-structure="tm('inquiry.cc_myth5.exp_1.table_3')"
+                :print-mode="true"
+            />
+
+            <p class="my-1 font-bold">{{ t('inquiry.cc_myth5.exp_1.collected_data') }}</p>
             <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.a1.q1.noaa1q1 }}
-            </p>
-            
-            <p class="my-1 font-bold">{{ t('inquiry.cc_myth3.q_2') }}</p>
-            <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.a1.q1.noaa1q2 }}
-            </p>
-            
-            <p class="my-1 font-bold">{{ t('inquiry.cc_myth3.q_3') }}</p>
-            <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.a1.q1.noaa1q3 }}
-            </p>
-            
-            <p class="my-1 font-bold">{{ t('inquiry.cc_myth3.q_4') }}</p>
-            <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.a1.q1.noaa1q4 }}
+                {{ climateMyth5Answers.exp.collectedData }}
             </p>
 
+            <hr />
 
-            <ToolsDynamicTableFull :tableStructure="tm('inquiry.cc_myth3.noaa1_table')" :storeToUpdate="climateMyth3Answers" :keyToUpdate="climateMyth3Answers.a1.q1.noaa1Table"
-            :print-mode="true" />
-
-            <p class="my-1 font-bold">{{ t('inquiry.cc_myth3.q_5') }}</p>
-            <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.a1.q1.noaa1q5 }}
-            </p>
-            
-            <p class="my-1 font-bold">{{ t('inquiry.cc_myth3.img_2.conclusion') }}</p>
-            <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.a1.q1.noaa2conclusion }}
-            </p>
 
 
             <p class="my-1 font-bold">{{ t('inquiry.reliability_table.txt_1') }}</p>
             <ToolsReliabilityTable class="mb-8"
-                :store-to-update="climateMyth3Answers" currentSources="inquiry.cc_myth3.sources" 
+                :store-to-update="climateMyth5Answers" currentSources="inquiry.cc_myth5.sources" 
                 :print-mode="true"
             />
 
-            <p class="mb-1"><b>{{ t('inquiry.cc_myth3.conclusion') }}</b></p>
+            <p class="mb-1"><b>{{ t('inquiry.cc_myth5.conclusion') }}</b></p>
             <p class="whitespace-pre-wrap mt-1">
-                {{ climateMyth3Answers.conclusions }}
+                {{ climateMyth5Answers.conclusions }}
             </p>
             
-            <p class="mb-1"><b>{{ t('inquiry.cc_myth3.flicc_label') }}</b></p>
+            <p class="mb-1"><b>{{ t('inquiry.cc_myth5.flicc_label') }}</b></p>
             <ToolsFlicc2Table 
-                :store-to-update="climateMyth3Answers" :print-mode="true" 
+                :store-to-update="climateMyth5Answers" :print-mode="true" 
 
-            /> -->
+            />
 
             <hr />
             

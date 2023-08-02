@@ -35,7 +35,7 @@
             <NuxtLink to="../student#myth6" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
-                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth2.back')}}</span>
+                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
                 </span>
             </NuxtLink>
 

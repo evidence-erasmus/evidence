@@ -18,7 +18,7 @@
         return name;
     });
 
-    const dynComp = ref();
+    const dynComp = shallowRef();
 
     const resolveDynComp = () => {
         const prm = route.params.inquiry;

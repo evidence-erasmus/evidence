@@ -35,7 +35,7 @@
             <NuxtLink to="../student#myth5" 
                 style="transform: translateY(-4rem); position:absolute;">
                 <span class="btn btn-outline btn-neutral btn-sm leading-none">
-                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('inquiry.cc-myth2.back')}}</span>
+                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
                 </span>
             </NuxtLink>
 
@@ -117,7 +117,7 @@
                 <b>{{ t('inquiry.cc_myth5.exp_1.table_1.label') }}</b>
             </label>
             <div style="transform:translateX(-5vw)" class="e-card w-[90vw] mb-8">
-                <ToolsDynamicTable 
+                <ToolsDynamicTableFull 
                     :tableStructure="tm('inquiry.cc_myth5.exp_1.table_1.table')" 
                     :storeToUpdate="climateMyth5Answers"
                     :keyToUpdate="climateMyth5Answers.exp.variableTable" 
@@ -139,87 +139,36 @@
 
 
             <h4>{{ t('inquiry.cc_myth5.exp_1.table_2.title') }}</h4>
-
             <p>{{ t('inquiry.cc_myth5.exp_1.table_2.txt_1') }}</p>
-
-            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
-                <div class="grid grid-cols-11 text-sm">
-                    <div v-for="cell in tm('inquiry.cc_myth5.exp_1.table_2.header')" class="flex justify-center items-center leading-tight border border-slate-300 py-1 px-2">
-                        <b>{{ rt(cell) }}</b>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-11 text-sm leading-tight">
-                    <div v-for="cell,i in tm('inquiry.cc_myth5.exp_1.table_2.header')" class="border border-slate-300 flex justify-center items-center">
-                        <template v-if="i === 0">
-                            <div class="py-1 px-2 font-bold"> {{ t('inquiry.cc_myth5.exp_1.table_2.col1_row1') }}</div>
-                        </template>
-                        <template v-else>
-                            <input type="text" maxlength="10" v-model="climateMyth5Answers.exp.tempTable[0][i]" rows="1" class="input  block w-full leading-tight" />
-                        </template>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-11 text-sm leading-tight">
-                    <div v-for="cell,j in tm('inquiry.cc_myth5.exp_1.table_2.header')" class="border border-slate-300 flex justify-center items-center">
-                        <template v-if="j === 0">
-                            <div class="py-1 px-2 font-bold">{{ t('inquiry.cc_myth5.exp_1.table_2.col1_row2') }}</div>
-                        </template>
-                        <template v-else>
-                            <input type="text" maxlength="10" v-model="climateMyth5Answers.exp.tempTable[1][j]" rows="1" class="input  block w-full leading-tight" />
-                        </template>
-                    </div>
-                </div>
+            <div class="e-card w-[90vw] transform -translate-x-[5vw]" >
+                <ToolsDynamicTableFull
+                    :store-to-update="climateMyth5Answers"
+                    :key-to-update="climateMyth5Answers.exp.tempTable"
+                    :table-structure="tm('inquiry.cc_myth5.exp_1.table_2')"
+                    :overwrite="true"
+                />
             </div>
-
-
-
-            <!-- table 3 - temperatures -->
+            
 
 
             <h4>{{ t('inquiry.cc_myth5.exp_1.table_3.title') }}</h4>
             <p>{{ t('inquiry.cc_myth5.exp_1.table_3.txt_1') }}</p>
-
-            <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
-                <div class="grid grid-cols-3 text-sm">
-                    <div v-for="cell in tm('inquiry.cc_myth5.exp_1.table_3.header')" class="flex justify-center items-center leading-tight border border-slate-300 py-3 px-2">
-                        <b>{{ rt(cell) }}</b>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-3 text-sm leading-tight">
-                    <div v-for="cell,i in tm('inquiry.cc_myth5.exp_1.table_3.header')" class="border border-slate-300 flex justify-center items-center">
-                        <template v-if="i === 0">
-                            <div class="py-1 px-2 font-bold"> {{ t('inquiry.cc_myth5.exp_1.table_3.col1_row1') }}</div>
-                        </template>
-                        <template v-else>
-                            <input type="text" maxlength="10" v-model="climateMyth5Answers.exp.dataTable[0][i]" rows="1" class="input  block w-full leading-tight" />
-                        </template>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-3 text-sm leading-tight">
-                    <div v-for="cell,j in tm('inquiry.cc_myth5.exp_1.table_3.header')" class="border border-slate-300 flex justify-center items-center">
-                        <template v-if="j === 0">
-                            <div class="py-1 px-2 font-bold">{{ t('inquiry.cc_myth5.exp_1.table_3.col1_row2') }}</div>
-                        </template>
-                        <template v-else>
-                            <input type="text" maxlength="10" v-model="climateMyth5Answers.exp.dataTable[1][j]" rows="1" class="input  block w-full leading-tight" />
-                        </template>
-                    </div>
-                </div>
-                <div class="grid grid-cols-3 text-sm leading-tight">
-                    <div v-for="cell,k in tm('inquiry.cc_myth5.exp_1.table_3.header')" class="border border-slate-300 flex justify-center items-center">
-                        <template v-if="k === 0">
-                            <div class="py-1 px-2 font-bold">{{ t('inquiry.cc_myth5.exp_1.table_3.col1_row3') }}</div>
-                        </template>
-                        <template v-else>
-                            <input type="text" maxlength="10" v-model="climateMyth5Answers.exp.dataTable[2][k]" rows="1" class="input  block w-full leading-tight" />
-                        </template>
-                    </div>
-                </div>
+            <div class="e-card w-[90vw] transform -translate-x-[5vw] mb-8" >
+                <ToolsDynamicTableFull 
+                    :storeToUpdate="climateMyth5Answers"
+                    :keyToUpdate="climateMyth5Answers.exp.dataTable"
+                    :table-structure="tm('inquiry.cc_myth5.exp_1.table_3')"
+                    :overwrite="true"
+                />
             </div>
-                
+
+
+
+            
+
+
+            
+            
 
 
 

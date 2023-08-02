@@ -650,40 +650,58 @@ export default {
         },
         table_1: {
           label: "Kirjuta oma vastused tabelisse:",
-          table: [
-            {
-              thead: "Kontrollmuutujad",
-              tsubhead: "(need, mida üritatakse hoida katse jooksul muutumatutena)"
-            },
-            {
-              thead: "Sõltumatu muutuja",
-              tsubhead: "(see, mida muudetakse)"
-            },
-            {
-              thead: "Sõltuv muutuja",
-              tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
-            }
-          ]
+          table: {
+            header: [
+              {
+                thead: "Kontrollmuutujad",
+                tsubhead: "(need, mida üritatakse hoida katse jooksul muutumatutena)"
+              },
+              {
+                thead: "Sõltumatu muutuja",
+                tsubhead: "(see, mida muudetakse)"
+              },
+              {
+                thead: "Sõltuv muutuja",
+                tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
+              }
+            ]
+          } 
         },
         hypothesis: "Hüpotees:",
         table_2: {
           title: "Kogutud temperatuurinäidud",
           txt_1: "Kirjuta vastused tabelisse:",
           header: [
-            "Aeg, min", "0","2","4","6","8","10","12","14","16","18" 
+            {thead: "Aeg, min"},
+            {thead: "0"},
+            {thead: "2"},
+            {thead: "4"},
+            {thead: "6"},
+            {thead: "8"},
+            {thead: "10"},
+            {thead: "12"},
+            {thead: "14"},
+            {thead: "16"},
+            {thead: "18"}
           ],
-          col1_row1: "Mahuti A Temperatuur °C",
-          col1_row2: "Mahuti B Temperatuur °C"
+          rows: [
+            ["Mahuti A Temperatuur °C", "", "", "", "", "", "", "", "", "", ""],
+            ["Mahuti B Temperatuur °C", "", "", "", "", "", "", "", "", "", ""]
+          ]
         },
         table_3: {
           title: "Kogutud andmed",
           txt_1: "Kirjuta vastused tabelisse:",
           header: [
-            "", "Mahuti A","Mahuti B"
+            {thead: " "},
+            {thead: "Mahuti A"},
+            {thead: "Mahuti B"}
           ],
-          col1_row1: "Algtemperatuur °C",
-          col1_row2: "Lõpptemperatuur °C",
-          col1_row3: "Temperatuuride vahe °C",
+          rows: [
+            ["Algtemperatuur °C", "", ""],
+            ["Lõpptemperatuur °C", "", ""],
+            ["Temperatuuride vahe °C", "", ""]
+          ]
         },
         collected_data: "Vaatlusandmed:"
 
@@ -793,8 +811,7 @@ export default {
             ["1980-2000", ""],
             ["2000-2020", ""]
           ]
-      },
-        
+        },
       },
       years_max: "Millal leidis aset suurim temperatuuri tõus?",
       conclusion: "Tuginedes kogutud tõenditele, millised on sinu järeldused müüdi “Maa kliima on alati muutunud ning see jätkab muutumist”, paikapidavuse kohta:",

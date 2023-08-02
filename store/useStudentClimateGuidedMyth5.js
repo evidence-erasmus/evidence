@@ -49,6 +49,9 @@ export const useStudentClimateGuidedMyth5 = defineStore("studentClimateGuidedMyt
         addDynamicRow(key, row){
             key.push(row);
         },
+        changeDynamicRow(key, row, column, value){
+            key[row][column] = value;
+        },
         addFliccRow(){
             this.flicc.push(["", false, false, false, false, ""]);
         },
