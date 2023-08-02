@@ -326,7 +326,7 @@
             </p>
 
             <div style="transform:translateX(-5vw)" class="e-card w-[90vw] my-8">
-                    <ModulesFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
+                    <ToolsFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
                     <!-- <ToolsFliccTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" /> -->
             </div>
             

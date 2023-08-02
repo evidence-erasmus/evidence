@@ -33,9 +33,14 @@
 
 
 <script setup>
-    const { locale } = useI18n({
-        useScope: 'global'
-    });
+
+    // import { ModulesClimateChangeInquiryOpen } from '#components'
+
+
+    // const { locale } = useI18n({
+    //     useScope: 'global'
+    // });
+
     const route = useRoute();
     //console.log(route.query); 
     
@@ -43,8 +48,53 @@
         layout: "content-left",
     });
 
-    const prm = route.params.inquiry;
-    const dynCompName = ref(`ClimateChangeInquiry${prm.charAt(0).toUpperCase()+prm.slice(1)}`);
-    const dynComp = resolveComponent(dynCompName.value);
+    const dynCompName = computed (() => {
+        const prm = route.params.inquiry;
+        const name = `ModulesClimateChangeInquiry${prm.charAt(0).toUpperCase()+prm.slice(1)}`;
+        return name;
+    });
+
+    
+    const dynComp = ref();
+
+    const resolveDynComp = () => {
+        const prm = route.params.inquiry;
+        switch (prm) {
+            case "open": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryOpen');
+                break;
+            }
+            case "myth1": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth1');
+                break;
+            }
+            case "myth2": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth2');
+                break;
+            }
+            case "myth3": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth3');
+                break;
+            }
+            case "myth4": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth4');
+                break;
+            }
+            case "myth5": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth5');
+                break;
+            }
+            case "myth6": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth6');
+                break;
+            }
+            case "myth7": {
+                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth7');
+                break;
+            }
+        }
+    }
+
+    resolveDynComp();
 
 </script>

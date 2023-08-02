@@ -518,7 +518,7 @@
         <label><b>{{ t('inquiry.cc_myth4.flicc_label') }}</b></label>
             
         <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
-            <ModulesFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
+            <ToolsFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
             <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
         </div>
            
