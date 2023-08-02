@@ -8,12 +8,12 @@
         </div>    
         <div 
         class="grid grid-cols-[1fr_100px_1fr]">
-            <div class="leading-tight p-3 border border-slate-300">
+            <div class="leading-tight p-2 border border-slate-300">
+                <img src="http://evidence.onkel.ee/assets/flicc-c1.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
-                    <img src="http://evidence.onkel.ee/assets/flicc-c1.webp" class="w-20 md:w-28" />
                     <b>{{ t('f1-title') }}</b>
                     <br />
-                    {{ t('f1-description') }}
+                    <span class="print:hidden">{{ t('f1-description') }}</span>
                 </p>
             </div>
             <div class="leading-tight p-2 border border-slate-300 flex items-center justify-center">
@@ -21,18 +21,18 @@
                 <Icon v-else-if="printMode===true && storeToUpdate.flicc2[0][0] === true" name="mdi:check-bold" />
             </div>
             <div class="leading-tight p-2 border border-slate-300">
-                <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                <textarea rows="2" class="textarea block w-full h-full py-1 px-2"
                     v-model="storeToUpdate.flicc2[0][1]"></textarea>
             </div>
         </div>
         <div 
         class="grid grid-cols-[1fr_100px_1fr]">
             <div class="leading-tight p-3 border border-slate-300">
+                <img src="http://evidence.onkel.ee/assets/flicc-l-j.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
-                    <img src="http://evidence.onkel.ee/assets/flicc-l-j.webp" class="w-20 md:w-28" />
                     <b>{{ t('f2-title') }}</b>
                     <br />
-                    {{ t('f2-description') }}
+                    <span class="print:hidden">{{ t('f2-description') }}</span>
                 </p>
             </div>
             <div class="leading-tight p-2 border border-slate-300 flex items-center justify-center">
@@ -40,18 +40,18 @@
                 <Icon v-else-if="printMode===true && storeToUpdate.flicc2[1][0] === true" name="mdi:check-bold" />
             </div>
             <div class="leading-tight p-2 border border-slate-300">
-                <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                <textarea rows="2" class="textarea block w-full h-full py-1 px-2"
                     v-model="storeToUpdate.flicc2[1][1]"></textarea>
             </div>
         </div>
         <div 
         class="grid grid-cols-[1fr_100px_1fr]">
             <div class="leading-tight p-3 border border-slate-300">
+                <img src="http://evidence.onkel.ee/assets/flicc-i.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
-                    <img src="http://evidence.onkel.ee/assets/flicc-i.webp" class="w-20 md:w-28" />
                     <b>{{ t('f3-title') }}</b>
                     <br />
-                    {{ t('f3-description') }}
+                    <span class="print:hidden">{{ t('f3-description') }}</span>
                 </p>
             </div>
             <div class="leading-tight p-2 border border-slate-300 flex items-center justify-center">
@@ -59,18 +59,18 @@
                 <Icon v-else-if="printMode===true && storeToUpdate.flicc2[2][0] === true" name="mdi:check-bold" />
             </div>
             <div class="leading-tight p-2 border border-slate-300">
-                <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                <textarea rows="2" class="textarea block w-full h-full py-1 px-2"
                     v-model="storeToUpdate.flicc2[2][1]"></textarea>
             </div>
         </div>
         <div 
         class="grid grid-cols-[1fr_100px_1fr]">
             <div class="leading-tight p-3 border border-slate-300">
+                <img src="http://evidence.onkel.ee/assets/flicc-l-o.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
-                    <img src="http://evidence.onkel.ee/assets/flicc-l-o.webp" class="w-20 md:w-28" />
                     <b>{{ t('f4-title') }}</b>
                     <br />
-                    {{ t('f4-description') }}
+                    <span class="print:hidden">{{ t('f4-description') }}</span>
                 </p>
             </div>
             <div class="leading-tight p-2 border border-slate-300 flex items-center justify-center">
@@ -78,22 +78,14 @@
                 <Icon v-else-if="printMode===true && storeToUpdate.flicc2[3][0] === true" name="mdi:check-bold" />
             </div>
             <div class="leading-tight p-2 border border-slate-300">
-                <textarea rows="4" class="textarea block w-full h-full py-1 px-2"
+                <textarea rows="2" class="textarea block w-full h-full py-1 px-2"
                     v-model="storeToUpdate.flicc2[3][1]"></textarea>
             </div>
         </div>
     </section>
 </template>
 
-<script setup>
-    const props = defineProps({
-        storeToUpdate: {},
-        printMode: {type:Boolean, default: false}
-    });
-    const { t } = useI18n({
-        useScope: 'local'
-    });
-</script>
+
 
 <i18n lang="json">
     {
@@ -138,3 +130,14 @@
       }
     }
 </i18n>
+
+
+<script setup>
+    const props = defineProps({
+        storeToUpdate: {},
+        printMode: {type:Boolean, default: false}
+    });
+    const { t } = useI18n({
+        useScope: 'local'
+    });
+</script>

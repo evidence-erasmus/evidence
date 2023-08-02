@@ -23,9 +23,7 @@
 
 
 <template>
-    <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-4 pl-6 pr-8 rounded-tr-xl z-50 ring-4 ring-slate-700">
-        <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="../../answers-climate-change-guided-myth1/" target="_blank" class="text-lg font-bold uppercase">Sinu vastused</nuxt-link>
-    </section>
+    <UiYourAnswersButton url="../answers/myth6" />
     
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 

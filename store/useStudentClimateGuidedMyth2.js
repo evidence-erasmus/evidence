@@ -19,8 +19,7 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
                 table2: [
                     ["", "", ""],
                     ["", "", ""],
-                    ["", "", ""],
-                    ["", "", ""],
+                    ["", "", ""]
                 ]
             }
         },
@@ -62,8 +61,11 @@ export const useStudentClimateGuidedMyth2 = defineStore("studentClimateGuidedMyt
         changeReliabilityValue(row, column, value){
             this.reliability[row][column] = value;
         },
-        addDynamicRow(key){
-            key.push(["", "", ""]);
+        addDynamicRow(key, row){
+            key.push(row);
+        },
+        changeDynamicRow(key, row, column, value){
+            key[row][column] = value;
         },
         addFliccRow(){
             this.flicc.push(["", false, false, false, false, ""]);

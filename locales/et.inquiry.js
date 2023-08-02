@@ -1,9 +1,10 @@
 export default {
   inquiry: {
+    your_answers:"Sinu vastused",
     add_row: "Lisa rida",
     
     reliability_table : {
-      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.     Kirjutage oma uurimistulemustest kokkuvõte  tabelisse.",
+      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte  tabelisse.",
       link_1: "tööriista",
       url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",  
       cols: {
@@ -132,7 +133,8 @@ export default {
           title_1: "Uurimisküsimus 1: Kas kliimamuutus mõjutab liikide kohanemisvõimet?",
           txt_1: "Vaadake animatsiooni {link1}  hoolikalt.",
           label_1: "Millest see räägib? Mis selle muutuse põhjustab?",
-          label_2: "Millised on selle muudatuse tagajärjed?"
+          label_2: "Millised on selle muudatuse tagajärjed?",
+          answer_1: "Korallriffide juhtum"
         },
         q2: {
           title_1: "Uurimisküsimus 2: Kas merevesi mõjutab korallide massi?",
@@ -158,28 +160,35 @@ export default {
             "Puhasta iga kest eraldi. Lase neil väga hästi kuivada.",
             "Kaalu kumbki osa eraldi ja pane nende uued massid kirja."
           ],
-          data_table: [
-            {
-              thead: "Kontrollmuutujad",
-              tsubhead: "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
-            },
-            {
-              thead: "Sõltumatu muutuja",
-              "tsubhead": "(see, mida muudetakse)"
-            },
-            {
-              thead: "Sõltuv muutuja",
-              tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
-            }
-          ],
-          table2_title: "Kogutud andmed",
-          table2: {
-            r1c2: "Teokarbid A",
-            r1c3: "Teokarbid B",
-            r2c1: "Algne mass (g):",
-            r3c1: "Lõplik mass (g)",
-            r4c1: "Masside vahe (g):"
+          data_table: { 
+            header: [
+              {
+                thead: "Kontrollmuutujad",
+                tsubhead: "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
+              },
+              {
+                thead: "Sõltumatu muutuja",
+                "tsubhead": "(see, mida muudetakse)"
+              },
+              {
+                thead: "Sõltuv muutuja",
+                tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
+              }
+            ]
           },
+          table_2 : {
+            header: [
+              {thead:" "},
+              {thead:"Teokarbid A"},
+              {thead:"Teokarbid B"}
+            ],
+            rows: [
+              ["Algne mass (g):", "", ""],
+              ["Lõplik mass (g):", "", ""],
+              ["Masside vahe (g):", "", ""]
+            ]
+          },
+          table2_title: "Kogutud andmed",
           hypothesis: "Hüpotees",
           conclusions: "Järeldused:",
           source_1: {
@@ -262,7 +271,7 @@ export default {
       hypothesis: "Püstitage selle kohta oma hüpotees.",
       argument : {
         txt_1: "Teile esitatakse müüdi 3 põhiargument ja uurimisküsimus, millele vastamiseks saate kasutada mitmeid allikaid.",
-        argument: "Müüdi 3 põhiargument: Vaatlusjaamadest kogutud andmed CO2 koguse kohta ei ole usaldusväärsed, seega pole kliimamuutus reaalne fakt."
+        argument: "Müüdi 3 põhiargument: Vaatlusjaamadest kogutud andmed CO₂ koguse kohta ei ole usaldusväärsed, seega pole kliimamuutus reaalne fakt."
       },
       question: "Uurimisküsimus: Kas saame toetuda vaatlusjaamadest kogutud andmetele CO₂ koguse kohta?",
       source_1: {
@@ -298,12 +307,14 @@ export default {
           url: "https://drive.google.com/file/d/195ONima1nfQYeiUaRb6_X8GiTvax13gB/view?usp=sharing"
         }
       },
-      noaa1_table: [
-        {thead:"Vaatlusjaam"},
-        {thead:"Pikkuskraad"},
-        {thead:"Laiuskraad"},
-        {thead:"Kõrgus"},
-      ],
+      noaa1_table: {
+        header: [
+          {thead:"Vaatlusjaam"},
+          {thead:"Pikkuskraad"},
+          {thead:"Laiuskraad"},
+          {thead:"Kõrgus"},
+        ]
+      },
       q_5: "Mida märkate nende asukohtade juures?",
       img_2: {
         txt_1: "Nende jaamade kaudu saame igal ajal teavet valitsevate ilmatingimuste kohta. {link1} Hawaii Mauna Loa jaama uusimaid salvestusi.",
