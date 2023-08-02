@@ -16,7 +16,7 @@
 
         <h3 v-if="props.title" class="bg-white text-center text-[13pt] leading-tight mt-0 mb-0 px-[2mm] py-[0.5mm] rounded-t"
         style="transform:translateY(-5mm)">{{ props.title }}</h3>
-        <p class="text-[9pt] m-0 leading-tight text-justify px-[4mm] pb-[4mm]
+        <p class="text-[9pt] m-0 leading-tight text-justify px-[4mm] pb-[4mm] pt-[2mm]
         print:font-sans" style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">{{ props.story }}</p>
         
         <div v-if="props.label" class="absolute top-0 left-[3mm] text-[8pt] bg-white px-1 rounded-b shadow">{{ props.label }}</div>

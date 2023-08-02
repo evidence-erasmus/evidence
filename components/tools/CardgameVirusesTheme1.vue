@@ -325,20 +325,20 @@
         ],
         "positionCards" : [
             {
-                "title" : "Position 1",
-                "position": "The State establishes a compulsory vaccination schedule for everyone. The vaccines it includes are free, and penalties are imposed on people who choose not to be vaccinated or not to have their children vaccinated."
+                "title" : "Seisukoht 1",
+                "position": "Riik kehtestab igaühele kohustusliku vaktsineerimisplaani. Vaktsiinid, mis on selles nimekirjas, on tasuta ning karistused on ette nähtud nendele, kes valivad enda või oma laste mittevaktsineerimise."
             },
             {
-                "title" : "Position 2",
-                "position": "The State insists on only a few vaccines, following a compulsory vaccination schedule. An optional schedule is also established for the vaccines not considered to be such high priorities. The vaccines included in the calendar are free, and penalties are not imposed on people who do not follow the compulsory vaccination schedule."
+                "title" : "Seisukoht 2",
+                "position": "Riik kohustab vaktsineerima vaid mõne kõige olulisema vaktsiiniga, mis on pandud kohustuslikku vaktsineerimisplaani. Lisaks on olemas vabatahtlik vaktsineerimisplaan vähemprioriteetsetele vaktsiinidele. Vaktsiinid, mis on lülitatud vaktsineerimisplaani, on tasuta ning karistusi neile, kes seda ei täida, ette nähtud ei ole."
             },
             {
-                "title" : "Position 3",
-                "position": "The State takes on the task of recommending some vaccines. It does not compel its citizens; it allows them to choose responsibly, providing them with all necessary information and covering the costs."
+                "title" : "Seisukoht 3",
+                "position": "Riik on võtnud endale ülesandeks soovitada kõige olulisemaid vaktsiine. Ta ei nõua kodanikelt, et need vaktsineeriksid, vaid laseb neil vastutustundlikult valida varustades inimesed kogu vajaliku informatsiooniga ning kattes kulud."
             },
             {
-                "title" : "Position 4",
-                "position": "Following the principle of freedom of choice, the State does not become involved in issues concerning vaccination. Citizens must get information for themselves (for example, via their doctors) and decide whether they want to be vaccinated and against which diseases. The State does not cover the cost of these vaccines. "
+                "title" : "Seisukoht 4",
+                "position": "Järgides valikuvabaduse põhimõtet, ei sekku riik vaktsineerimisega seotud küsimustesse. Kodanikud peavad hankima informatsiooni ise (näiteks oma perearstidelt) ning otsustama, kas ja milliste haiguste suhtes nad tahavad ennast lasta vaktsineerida. Riik ei kata vaktsineerimisega seotud kulusid."
             }
         ]
       },
