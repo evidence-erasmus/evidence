@@ -15,7 +15,6 @@ export default {
         },
         add_row: "LISA RIDA"
     },
-
     variables_table: {
       header: [
         {thead:"Kontrollmuutujad", tsubhead:"(need, mida üritatakse hoida katse jooksul muutumatutena)"},
