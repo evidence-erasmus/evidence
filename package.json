@@ -18,6 +18,7 @@
     "@vueuse/nuxt": "^10.2.1",
     "daisyui": "^3.2.1",
     "gh-pages": "^4.0.0",
+    "medium-zoom": "^1.0.8",
     "nuxt": "^3.6.2",
     "nuxt-headlessui": "^1.1.1",
     "nuxt-icon": "^0.4.0"

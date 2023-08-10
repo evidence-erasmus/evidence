@@ -7,6 +7,10 @@
         // caption : {
         //     type: String
         // },
+        zoom: {
+            type:Boolean,
+            default: true
+        },
         credits : {
             type: String,
             default: "."
@@ -29,7 +33,7 @@
                 :src="src" 
                 fit="contain"
                 loading="lazy"
-                class="block w-full"
+                class="block w-full" :class="zoom ? 'img-zoom' : ''"
             />
             <figcaption class="block text-sm text-center italic mt-4 w-full">
                 <slot name="caption"></slot>

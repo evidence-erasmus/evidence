@@ -1,13 +1,11 @@
 <template>
     <div>
-
         <template v-if="locale === 'et'">
-            <ModulesVirusesEt />
+            <ModulesRadiationEt />
         </template>
         <template v-else>
-            <ModulesVirusesEn />
+            <ModulesRadiationEn />
         </template>
-
     </div>
 </template>
 
@@ -15,7 +13,7 @@
     import { useI18n } from 'vue-i18n';
     const { locale, t } = useI18n({ useScope: 'global' });
     definePageMeta({
-        layout: "content",
+        layout: "content-left",
     });
 
 
