@@ -107,8 +107,6 @@
 
             <section>
                                 
-                <h5 class="mb-2 pb-0 leading-none text-slate-500 uppercase font-normal font-Body">Etapp 1</h5>
-                
                 <ModulesStructure>
                     <template #title>Tegevus 1<br />KÕIGE LEVINUMATE MÜÜTIDE TUTVUSTAMINE</template>
                     <template #icons>
@@ -143,9 +141,6 @@
                         </div>
                     </template>
                 </ModulesStructure>
-                
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Etapp 2</h5>
-
                 <ModulesStructure>
                     <template #title>Tegevus 3<br />MÜÜDIMURDMINE</template>
                     <template #icons>
@@ -182,10 +177,6 @@
                         </div>
                     </template>
                 </ModulesStructure>
-                
-
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Etapp 3</h5>
-                
                 <ModulesStructure>
                     <template #title>Tegevus 5<br />TÕESTUSMATERJALIDE JA TEHTUD JÄRELDUSTE TUTVUSTAMINE</template>
                     <template #icons>

@@ -305,7 +305,7 @@
 
  
             <section class="e-card mt-8">
-                <h4 class="mt-2">KAsutatud allikad</h4>
+                <h4 class="mt-2">Kasutatud allikad</h4>
                 <ul class="text-sm break-all">
                     <li><a href="https://www.youtube.com/watch?v=uNs2YMblqwU&ab_channel=JohnCook" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=uNs2YMblqwU</a></li>
                     <li><a href="https://www.youtube.com/watch?v=AqcUP0sDglg" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=AqcUP0sDglg</a></li>
