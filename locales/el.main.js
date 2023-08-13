@@ -15,7 +15,7 @@ export default{
   },
   message: "Hello from external",
   modules: {
-    toc: "Table of contents EL",
+    toc: "Πίνακας περιεχομένων",
     background_info: "ΥΠΌΒΑΘΡΟ",
     climateChange: {
       description: "Climate change description ing Greek",
@@ -25,7 +25,7 @@ export default{
     for_teachers: "Δάσκαλοι",
     radiation: {
       description: "Radiation module description in Greek",
-      title: "Radiation in Greek"
+      title: "Ακτινοβολία"
     },
     title: "Modules in Greek",
     viruses: {

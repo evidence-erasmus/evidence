@@ -56,6 +56,12 @@ export default defineNuxtConfig({
                 name: 'Portugese',
                 file: 'pt.main.js'
             },
+            {
+                code: 'sv',
+                iso: 'sv_SE',
+                name: 'Swedish',
+                file: 'sv.main.js'
+            },
         ],
         lazy: true,
         compilation: {

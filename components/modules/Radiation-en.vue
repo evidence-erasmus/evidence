@@ -11,28 +11,50 @@
 
         <section class="e-article print:not-prose">
             <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
-            <h1 class="mb-0">Kliimamuutused</h1>
-            <h5 class="font-normal uppercase leading-tight">Õpetaja materjalid</h5>
+            <h1 class="mb-0">Radiation</h1>
+            <h5 class="font-normal uppercase leading-tight">Teacher materials</h5>
         
             <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">Mooduli kirjeldus</h2>
+            <h2 id="section-1">Module description</h2>
         
             <section class="e-card e-module__meta">
                 <table class="m-0 leading-tight">
                     <tr>
-                        <td><b>Sihtgrupp:</b></td>
-                        <td>Õppematerjal on mõeldud 15-17 aastastele õpilastele.</td>
+                        <td><b>Target group:</b></td>
+                        <td>This learning material is meant for general and vocational school students 15-18 years old.</td>
                     </tr>
                     <tr>
-                        <td><b>Eeldatav ajakulu:</b></td>
-                        <td>4-11 tundi ( á 45 min).</td>
+                        <td><b>Anticipated time frame:</b></td>
+                        <td>5-6 hours, á 45 min and some homework time.</td>
                     </tr>
                 </table>
             </section>
 
-            <p>Selles moodulis peaksid õpilased ümber lükkama või kinnitama kliimamuutustega seotud müüte ja arusaamu. Sissejuhatavas videos tuuakse mõned neist ka välja, millele järgneb rühmaarutelu. Mooduli eesmärgiks on müüte tundma õppida ning selleks otsivad õpilased tõestusmaterjali valitud müüdi kohta.</p>
-            <p>Antud teema iseloomust lähtuvalt on see tegevus plaanis läbi viia kas sekundaarsete tõendite põhjal (otsingud internetist) või eksperimentaalselt. Selle tegevuse kaudu õpivad õpilased hindama teabe/allikate usaldusväärsust ja/või arendavad edasi oma katsete planeerimise ning läbiviimise oskusi. Pärast järelduste tegemist valmistuvad õpilased oma uurimise tulemusi esitlema klassikaaslastele (või muule publikule) nt videopostituse, posteri vm kujul. Mooduli lõpetab argumenteerimismäng, kus õpilased saavad teha sotsiaalteaduslikke otsuseid, kasutades oma loodusteaduslikke teadmisi, ühendades need samal ajal isiklike ja sotsiaalsete väärtustega.</p>
-            <p>Moodul koosneb õpetaja materjalist (õpetamissoovitused, loodusteaduslik taustainfo) ja õpilase materjalist (sissejuhatav video, interaktiivsed töölehed, faktivideod, õpivideod).</p>
+            <p>
+                In this module, students are invited to explore: falsify ("bust") or confirm common myths about radiation. In our everyday life circulate many deep-rooted fears, misconceptions, and conspiracy theories concerning the causes and effects of radiation. Chernobyl (also known as Chornobyl) catastrophe happened more than 35 years ago, but it still echoing and strongly influences current debates about Nuclear Power. Some conspiracy theorists state that "Chernobyl" was not caused by a combination of technical and human failures but was "organised" to accelerate the collapse of the Soviet Union. 
+            </p>
+
+            <p>
+                Our students are often not well informed about different forms of radiation and their impacts on the human body. Practical activities concerning the effects of radiation (especially ionising radiation) usually are excluded from science classrooms for safety reasons, and corresponding experiment materials are not available in schools. Eventually, smartphones and other mobile devices can open new opportunities for conducting qualitative electromagnetic radiation experiments. Therefore, we leave it to the teacher possibility to choose to do experiments depending on pre-conditions for such activities. Otherwise, suggesting evidence collection through reliable sources of scientific and professional information. Students can also use more than one of these methods, applying the so-called triangulation principle – increasing validity through the convergence of information from different sources.
+            </p>
+
+            <p>
+                In the introductory video, some misconceptions and myths are brought up, which are further discussed in groups. Group discussions lead to a myth-busting activity of evidence collection where students are looking for data allowing them to falsify or confirm a chosen myth.
+            </p>
+
+            <p>
+                The biological effects of low-dose radiation will probably attract the students' attention. However, this issue still has some scientific controversies, and studies often rely on statistical evidence from long-time observations. Therefore, based on the nature of this topic, activities suggested in this module will rely heavily on secondary evidence gathered through literature searches and data collected from the internet. Through these activities, students learn to assess the reliability of information sources and make evidence-based arguments. After making conclusions, students prepare to present their findings to their classmates (or other audiences) in a relevant and convincing manner (e.g. video posts). The module is finished with a debate game where students can make socio-scientific decisions using their scientific knowledge while incorporating it with personal and social values.
+            </p>
+
+            <p>
+                The module consists of teacher material (teaching suggestions, science background information) and student material (introductory video, interactive worksheets, fact videos, and a video tutorial).
+            </p>
+
+
+
+
+
+            
 
 
 
@@ -41,26 +63,32 @@
             
 
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-2">Mooduli õppe-eesmärgid</h2>
+            <h2 id="section-2">Learning objectives targeted by the module</h2>
             
             <ul>
-                <li><b>Kodanikupädevus:</b> arendada õpilaste teadmisi ja hoiakuid nii, et suudaksid teha  kliimamuutustega seotud vastutustundlike otsuseid.</li>
-                <li><b>Meediapädevus:</b>
-                    <ul class="my-0">
-                        <li>arendada õpilaste oskusi hinnata informatsiooni usaldusväärsust, esitada tõendusmaterjali antud kuulajaskonna jaoks asjakohasel viisil;</li>
-                        <li>reageerida adekvaatselt ja vastutustundlikult (sotsiaal)meedias esitatavatele võltsuudistele ja vandenõuteooriatele.</li>
-                    </ul>
-                </li>
-                <li><b>Digipädevus:</b> arendada õpilastes digimeedia kasutamise oskusi, esitledes samal ajal oma uurimistulemusi teistele rühmadele.</li>
                 <li>
-                    <b>Loodusteaduslik pädevus:</b>
+                    <b>Citizenship competence:</b> develop students' knowledge and attitudes toward making responsible decisions about radiation's advantages and risks.
+                </li>
+                <li><b>Media competence:</b>
                     <ul class="my-0">
-                        <li>arendada õpilaste arusaamist sellest, kuidas loodusteaduslikud teadmised tekivad ja miks peaksime teadust usaldama;</li>
-                        <li>arendada õpilaste teadmisi kliimamuutuste kohta;</li>
-                        <li>arendada õpilaste võimet planeerida ja kavandada tegevusi hüpoteeside kontrollimiseks ja tulemuste tõlgendamiseks.</li>
+                        <li>develop students' skills in assessing the reliability of the information, presenting the information in a manner relevant to a given audience;</li>
+                        <li>reacting adequately and responsibly to fake news and conspiracy theories presented in (social)media.</li>
                     </ul>
                 </li>
-                <li><b>Sotsiaalne pädevus:</b> arendada õpilaste argumenteerimisoskusi ja oskust saavutada rühmakonsensust kliimamuutustega seotud küsimustes.</li>
+                <li>
+                    <b>Digital competence:</b> develop students' skills in using digital media while presenting their inquiry results to the other groups.
+                </li>
+                <li>
+                    <b>Science competence:</b>
+                    <ul class="my-0">
+                        <li>develop students' understanding of the ways how science knowledge is generated and why we should trust science;</li>
+                        <li>develop further students' knowledge about the risks of different forms of radiation and protection;</li>
+                        <li>develop their ability to plan and devise procedures for testing the myth and interpreting the findings.</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Social competence:</b> develop students' argumentation skills and skills when finding group consensus on controversial radiation-related issues.
+                </li>
             </ul>
 
 
@@ -77,18 +105,27 @@
 
 
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-3">Eeldatavad eelteadmised kliimamuutustest</h2>
-
-            <p>Õpilased oskavad vastata järgmistele küsimustele:</p>
+            <h2 id="section-3">Expected prior knowledge about radiation</h2>
 
             <ul class="leading-tight">
-                <li>Mis on kliimamuutused?</li>
-                <li>Millised on kliimamuutusi põhjustavad tegurid?</li>
-                <li>Millised on kliimamuutuste tagajärjed?</li>
-                <li>Miks peetakse kliimamuutusi keskkonnaprobleemiks?</li>
+                <li>Basic knowledge of electricity and magnetism</li>
+                <li>Properties of waves</li>
+                <li>Light as a form of energy from the sun</li>
+                <li>Natural and artificial radiation sources</li>
+                <li>Structure of an atom</li>
+                <li>Basic knowledge about national policy on the use of nuclear energy</li>
             </ul>
 
 
+            <h2>Potential obstacles to consider</h2>
+
+            <p>
+                The concept of radiation might have negative psychological connotations for students. It could be related to the perceived danger of nuclear weapons and direct health risks associated with radiation exposure that leads to an increased risk for cancer and, possibly, additional ill-defined non-cancer risks, including atherosclerotic, cardiovascular, and neurodegenerative effects.
+            </p>
+
+            <p>
+                It is expected that students have the experience to evaluate the reliability of information sources on the Internet. Otherwise, it might take extra teaching time to work on this issue.
+            </p>
 
 
             
@@ -99,18 +136,15 @@
             
             
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-4">Mooduli struktuur</h2>
-            <h4>Evidence moodulite tegevuste järjestus</h4>
+            <h2 id="section-4">Module structure</h2>
             
-            <p>See moodul koosneb kuuest tegevusest. Tegevuste järjekord on välja toodud joonisel 1 ja tabelis 1 (vt allpool).</p>
+            <p>This module consists of 6 activities. The sequence of activities is given in Figure 1 and Table 1 (see below).</p>
 
 
             <section>
                                 
-                <h5 class="mb-2 pb-0 leading-none text-slate-500 uppercase font-normal font-Body">Etapp 1</h5>
-                
                 <ModulesStructure>
-                    <template #title>Tegevus 1<br />KÕIGE LEVINUMATE MÜÜTIDE TUTVUSTAMINE</template>
+                    <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
@@ -128,7 +162,7 @@
                     </template>
                 </ModulesStructure>
                 <ModulesStructure>
-                    <template #title>Tegevus 2<br />MÜÜDI VÄLJA VALIMINE</template>
+                    <template #title>Activity 2<br />CHOOSING A MYTH</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
@@ -144,10 +178,10 @@
                     </template>
                 </ModulesStructure>
                 
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Etapp 2</h5>
+                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 2</h5>
 
                 <ModulesStructure>
-                    <template #title>Tegevus 3<br />MÜÜDIMURDMINE</template>
+                    <template #title>Activity 3<br />MYTHBUSTING</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
@@ -165,7 +199,7 @@
                     </template>
                 </ModulesStructure>
                 <ModulesStructure>
-                    <template #title>Tegevus 4<br />TÕESTUSMATERJALILE SOBIVA VORMI VÄLJATÖÖTAMINE</template>
+                    <template #title>Activity 4<br />GIVING EVIDENCE A RELEVANT FORMAT</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
@@ -184,10 +218,10 @@
                 </ModulesStructure>
                 
 
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Etapp 3</h5>
+                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 3</h5>
                 
                 <ModulesStructure>
-                    <template #title>Tegevus 5<br />TÕESTUSMATERJALIDE JA TEHTUD JÄRELDUSTE TUTVUSTAMINE</template>
+                    <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
@@ -205,7 +239,7 @@
                     </template>
                 </ModulesStructure>
                 <ModulesStructure>
-                    <template #title>Tegevus 6<br />SOTSIAAl-TEADUSLIKU OTSUSE LANGETAMINE</template>
+                    <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
                             <Icon name="fa6-solid:people-group" class="text-white" />
@@ -220,119 +254,64 @@
                     </template>
                 </ModulesStructure>
                 
-                
-                <!-- Selection of icons -->
-                
-                <!--                 
-                <hr /> 
-                <Icon name="fluent-emoji-high-contrast:unicorn" />
-                <Icon name="mdi:unicorn" />
-                <Icon name="game-icons:unicorn" />
-                <br />
-                <Icon name="game-icons:witch-face" /> 
-                <Icon name="game-icons:witch-flight" /> 
-                <Icon name="game-icons:diablo-skull" /> 
-                <Icon name="fa6-solid:book-skull" /> 
-                <Icon name="fluent-emoji-high-contrast:skull-and-crossbones" /> 
-                <Icon name="fa:user-secret" /> 
-                <br />
-                <Icon name="game-icons:all-seeing-eye" /> 
-                <Icon name="fluent-emoji-high-contrast:love-you-gesture" /> 
-                <Icon name="fluent-emoji-high-contrast:ok-hand" /> 
-                <Icon name="game-icons:ouroboros" /> 
-                <Icon name="game-icons:freemasonry" /> 
-                <br />
-                <Icon name="fa6-solid:people-group" /> 
-                <Icon name="fluent:people-team-32-regular" /> 
-                <Icon name="fluent:people-team-toolbox-24-regular" /> 
-                <Icon name="material-symbols:groups-2" /> 
-                <Icon name="fluent:presenter-24-filled" /> 
-                <Icon name="carbon:group-presentation" /> 
-                <br />
-                <Icon name="healthicons:group-discussion-meeting" /> 
-                <Icon name="heroicons-solid:chat-bubble-left-right" />
-                <Icon name="heroicons-outline:chat-bubble-left-right" />
-                <Icon name="mdi:frequently-asked-questions" />
-                <br /> 
-                <Icon name="game-icons:rolling-dices" /> 
-                <Icon name="tabler:zoom-question" /> 
-                <Icon name="mdi:laptop-account" />
-                <Icon name="ic:baseline-ondemand-video" />
-                <Icon name="material-symbols:youtube-tv-outline" />
-                <br /> 
-                <Icon name="material-symbols:unknown-document-outline-rounded" />
-                <Icon name="mdi:graph-outline" />
-                <Icon name="material-symbols:lab-research-outline" />
-                <Icon name="healthicons:virus-lab-research-syringe" />
-                <Icon name="mdi:flask" />
-                <Icon name="game-icons:materials-science" />
-                <Icon name="healthicons:virus-research" />
-                <Icon name="tabler:microscope" /> -->
-
             </section>
 
 
 
-            <p class="mt-20"><b>Tabel 1.</b> Õpitegevuste järjestus kliimamuutuste moodulis</p>
+            <p class="mt-20"><b>Table 1.</b> Learning activities of the radiation module</p>
 
             <table>
                 <thead>
                     <tr>
-                        <th class="w-1/5"><b>Tegevused</b></th>
-                        <th>Kirjeldus</th>
+                        <th class="w-1/5"><b>Activity No</b></th>
+                        <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><b>Tegevus 1</b></td>
-                        <td>Sissejuhatava video esitlemine.</td>
+                        <td><b>Activity 1</b></td>
+                        <td>The presentation of the introductory video raises an issue of radiation fears by exposing some myths.
+                        <br />
+                        Teachers can also suggest getting insight into a broader spectrum of radiation-related myths.</td>
                     </tr>
                     <tr>
-                        <td><b>Tegevus 2</b></td>
+                        <td><b>Activity 2</b></td>
                         <td>
                             <ul>
                                 <li>
-                                    Arutelu rühmades:
+                                    Discussion in groups:
                                     <br />
-                                    Müüdi valimine selle järgnevaks purustamiseks/kinnitamiseks.
+                                    Choosing a myth to be busted.
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
-                        <td><b>Tegevus 3</b></td>
+                        <td><b>Activity  3</b></td>
                         <td>
-                            Rühmades:
+                            In groups:
                             <ul>
-                                <li>Uurimisküsimus(t)e ja testitavate hüpoteesi(de) püstitamine.</li>
-                                <li>
-                                    <b>Avatud uurimistöö:</b>
-                                    <br />
-                                    Materjalis toodud allikate uurimine ja/või katsete läbiviimine hüpoteesi kinnitamiseks või ümberlükkamiseks / uurimisküsimusele vastamiseks.
-                                </li>
-                                <li>
-                                    <b>Juhitud uurimistöö:</b>
-                                    <br />
-                                    Materjalis toodud allikate uurimine ja/või katsete läbiviimine hüpoteesi kinnitamiseks või ümberlükkamiseks / uurimisküsimusele vastamiseks.
-                                    <ul>
-                                        <li>Leitud tõendite usaldusväärsuse hindamine.</li>
-                                        <li>Järelduste tegemine.</li>
-                                    </ul>
-                                </li>
+                                <li>Posing relevant hypothesis and research questions;</li>
+                                <li>Searching for relevant information to confirm or falsify the posed hypothesis/research question;</li>
+                                <li>Assessing the reliability of the found evidence;</li>
+                                <li>Making conclusions.</li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
-                        <td><b>Tegevus 4</b></td>
-                        <td>Tõendite esitlemine antud publikule (eakaaslastele) sobivas vormis: õpetuse abil õpivad õpilased koostama lühikest videot vms, mille järel nad kavandavad ja viivad oma ideed ellu.</td>
+                        <td><b>Activity 4</b></td>
+                        <td>Transforming evidence into a format of a short video or a PowerPoint presentation in which they explain their ideas.</td>
                     </tr>
                     <tr>
-                        <td><b>Tegevus 5</b></td>
-                        <td>Rühmade esitlused (koos vastastikuse tagasisidestamisega).</td>
+                        <td><b>Activity 5</b></td>
+                        <td>Group presentations (coupled with peer assessment activities).</td>
                     </tr>
                     <tr>
-                        <td><b>Tegevus 6</b></td>
-                        <td>Õpilased arutavad rühmades ja langetavad otsuseid lauamängu kujul.</td>
+                        <td><b>Activity 6</b></td>
+                        <td>The teacher suggests a specific socially-acute question concerning the future of Nuclear Power which is actively debated in the EU context (see as an example the case of Sweden).
+                        <br />
+                        Students discuss, produce arguments and make decisions in a TV debate (role-play) format, where initial arguments can be presented in the form of the produced videos and PowerPoint presentations.
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -348,9 +327,9 @@
 
 
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-5">Nõuded füüsilisele õpikeskkonnale</h2>
+            <h2 id="section-5">Requirements for physical environment</h2>
             
-            <p>Nutitelefon, arvuti, internet, kuvaseadmed. Müütide eksperimentaalse purustamise kohta vt <a href="#section-7">“Õpetamissoovitused”</a>.</p>
+            <p>Smartphone, computer, internet, display equipment for demonstrating videos.</p>
             
             
             
@@ -360,21 +339,21 @@
             
             
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-6">Hindamine</h2>
+            <h2 id="section-6">Assessment</h2>
             
             
-            <p>Õpilasi saab mooduli jooksul hinnata mitmel erineval viisil, sh uurimuslikke oskusi, üldpädevusi, näiteks argumenteerimisoskust ning teemakohaseid teadmisi. </p>
+            <p>Students can be assessed differently throughout the module, including science process skills, general competencies, argumentation skills, and topic-related content knowledge. Assessments that could be applied in this module:</p>
 
-            <p><b>Kujundav hindamine:</b></p>
+            <p><b>formative:</b></p>
             <ul>
-                <li>Õpetaja suuline/kirjalik tagasiside (vaatluste, esitatud küsimuste jms põhjal) kogu mooduli vältel, katsete ning muude individuaalsete/rühmatööde käigus.</li>
-                <li>Kaaslaste tagasiside (rühmaesitluse kohta <nuxt-link to="../tools/peerfeedback" target="_blank">tagasiside tööriista</nuxt-link> abil).</li>
+                <li>Oral/written feedback from the teacher (based on observations, questions asked, etc.) throughout the module, during the experiments, and in other formats of individual/group work.</li>
+                <li>Peer feedback (on the group presentation using the following <nuxt-link to="../tools/peerfeedback" target="_blank">tool</nuxt-link> and self-assessment after the final debate game).</li>
             </ul>
             
-            <p><b>Kokkuvõttev hindamine:</b></p>
+            <p><b>Summative:</b></p>
             <ul>
-                <li>Õpetaja poolt rühma esitlusele pandud hinded (videod vms ja nende esitlemine koos küsimustele vastamisega).</li>
-                <li>Õpetaja poolt hinnatavad rühma- või individuaalsed töölehed.</li>
+                <li>Grades assigned by the teacher on the group presentation (based on the students’ video product and its performance and students’ ability to provide relevant answers/comments).</li>
+                <li>Grades are assigned by the teacher on group or individual worksheets.</li>
             </ul>
             
             
@@ -388,55 +367,110 @@
             
             
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-7">Õpetamissoovitused</h2>
+            <h2 id="section-7">Teaching suggestions</h2>
 
             <p>
-                Moodul algab sissejuhatavast videost, mis avab mõned müüdid kliimamuutuste kohta, et tõstatada õpilastes küsimusi, mitte anda neile koheseid vastuseid. Loodetavasti on õpilased pärast video vaatamist <b>(Tegevus 1)</b> sisemiselt motiveeritud uurima ühte müüti põhjalikumalt. Eesmärk on kaasata õpilasi tegevustesse, mis peaksid viima probleemi parema mõistmiseni. See peaks ühtlasi panema õpilasi mõtlema oma eelteadmiste üle ning jagama oma arusaamu ja mõtteid kaaslastega <b>(Tegevus 2)</b>. Samuti saab selleks kasutada valitud peatükke <nuxt-link to="climate-change/background">teadusliku taustainfo</nuxt-link> lehelt.
+                Work with this module can be structured in two parts. The first part (Activities 1-5) is mainly related to work with specific radiation myths identified in the Introductory video, recalled by the students, or suggested by the teacher. The second part (Activity 6) focuses on work with the socio-acute topic of Nuclear Power that is summed up with the help of a debate game / role-play (see student material).
             </p>
 
-            <p>Tegevuses 2 peavad õpilased oma valitud müüdi kitsendama hüpoteesiks/uurimisküsimuseks, mida saab ümber lükata /kinnitada / millele saab vastata</p>
+            <p>
+                The module starts with an introductory video for raising some issues and revealing fears, myths, or misconceptions about radiation, for example:
+            </p>
 
-            <p><b>Tegevust 3</b> võib läbi viia kahel viisil (joonis 2).</p>
+            <ul>
+                <li>Mobile phones emit dangerous electromagnetic radiation</li>
+                <li>5G is not safe</li>
+                <li>Rubber gloves can protect from electromagnetic radiation emitted by mobile phones</li>
+                <li>Electromagnetic radiation (radio waves) can be “frozen” at low temperature</li>
+                <li>It can be effectively stopped by the walls of a refrigerator</li>
+                <li>Plastic and aluminium foil can block electromagnetic waves</li>
+                <li>Electric cables emit dangerous electromagnetic radiation</li>
+                <li>Sun sends dangerous radiation</li>
+            </ul>
 
+            <p>
+                The <a href="https://www.youtube.com/watch?v=ccMo9WfKeOY" target="_blank" rel="noopener noreferrer">introductory video</a> aims to raise questions and stimulate reflections rather than give students immediate answers. It is expected that after watching the video <b>(Activity 1)</b>, students will get motivated to examine one of the identified myths related to different sources of electromagnetic radiation and explore common fears. Myths and fears can vary between different countries and age groups. Teachers could encourage students to find their ‘own’ myths.
+            </p>
+
+            <p>
+                The teacher can introduce an expanded view of the radiation spectrum that includes ionising components – from ultraviolet emitted by our Sun to the shorter wavelength and high-energy particles. The intention is to broaden students’ views on the physics of radiation and its applications and attract their attention to some myths related to the different effects of radiation. Students are also encouraged to recall their prior knowledge, including existing understandings in everyday life among people they know, family, and friends, and to share their conceptions and views with peers <b>(Activity 2)</b>. The “fact videos” can be demonstrated in this step to highlight and broaden radiation-related topics, concepts, and principles. Selected chapters from <nuxt-link to="./radiation/background">scientific background information</nuxt-link> can recur when necessary.
+            </p>
+
+
+
+            <p><b>Activity 2</b> should help students narrow down their chosen myth into a hypothesis/research question that can be confirmed/answered <b>(Activity 3)</b>. Further, this step can be enacted in the following two ways:</p>
+
+            <ol>
+                <li>
+                    Students can choose a myth that can be tested experimentally, collecting evidence through simple qualitative experiments. For example, the level of electromagnetic radiation exposure could be measured with the help of a free smartphone app, e.g. ElectroSmart or similar. ElectroSmart is a Radiofrequency Electromagnetic-Field (EMF) detector (see Figure 2).
+
+
+                    <UiContentImage
+                        src="https://evidence.onkel.ee/assets/radiation__image-2.webp"
+                        credits=""
+                        :elevated="true" class="max-w-sm">
+                        <template #caption>
+                            <b>Figure 1.</b> Measurement of EMF exposure, moderate is a range of under 0,3 V/m. 
+                        </template>
+                    </UiContentImage>
+
+                    <p>
+                        This app allows measurement of a current exposure using the ElectroSmart Index, indicating if exposure is suiting most people (low or moderate level) or high, that eventually needs some measures to be taken for its reduction. Students can see that increasing distance to the source can decrease (in square rate) the level of exposure. They can also try to use a shield of aluminium foil (on their smartphone) to see a decrease in exposure by shielding. For a variation of this test, see also <a href="https://www.youtube.com/watch?v=asmbgAeJqis" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=asmbgAeJqis</a>.
+                    </p>
+                    <p>
+                        If you have access to a simple analogue or digital physics tool - an EMF measuring device (see Figure 3), it is possible to measure the radiation emanating from each of your chosen electronic devices: laptop computer, tablet device, smartphone, printer, speakers, TV, remote control, lamp, refrigerator, modem and compare the amounts of radiation from each device.
+                    </p>
+
+                    <UiContentImage
+                        src="https://evidence.onkel.ee/assets/radiation__emf-meter.webp"
+                        credits=""
+                        :elevated="true" class="max-w-sm">
+                        <template #caption>
+                            <b>Figure 2.</b> A simple EMF measuring device
+                        </template>
+                    </UiContentImage>
+
+                    <p>
+                        If more advanced (and expensive) EMF measuring tools are available, more sophisticated measurements could be done; see for inspiration: <a href="https://www.youtube.com/watch?v=nKPw-dnxZTo" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=nKPw-dnxZTo</a>
+                    </p>
+                </li>
+                <li>
+                    However, radiation-related myths can often not be busted (debunked) experimentally in the classroom. Therefore, students are expected to gather evidence from secondary sources to confirm or falsify their hypothesis/answer to their research question. By juxtaposing media/data sources and their content, students critically analyse their reliability and make justified conclusions based on the evidence found. As reliability assessment can be a real challenge for students, the material is supplied with a tool for searching and analysing the information. It would be good if the teacher could explain its use by demonstrating and analysing both reliable and less reliable sources as examples before the students implement this tool on their own.
+                </li>
+            </ol>
+
+            <p>
+                In order to communicate their findings, students are guided to produce a visual presentation of their conclusions <b>(Activity 4)</b>. Video could be an exciting option. For this purpose, students can use a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>. Also, student material is provided with criteria the video should fulfil when ready. These criteria can be used formatively for self-assessment during the process and peer assessment when presenting the video and answering the questions of their peers and the teacher <b>(Activity 5)</b>. Students can use the following <nuxt-link to="/tools/PeerFeedback" target="_blank">assessment tool</nuxt-link> to give feedback to, or get it from, the other groups.
+            </p>
+
+            <p>
+                In the last activity <b>(Activity 6)</b>, socially-acute issues related to ionising radiation and nuclear energy will be debated. Suggested debate role-play is presented in the student material. It can be adapted freely to a particular educational context. Teachers can decide what kind of assessment to use or not to encourage the free expression of students' ideas and arguments. Based on the lessons learned from the earlier stages, students can juxtapose and reflect on their science knowledge and personal and social values.
+            </p>
+
+            <p>
+                We suggest using a specific topic, "Nuclear Power," currently focused on public attention and actively debated in many European countries. Almost every country has its own, more or less specific, "nuclear energy" debate. Teachers could encourage students to follow the debate in their own country. Often there are also apparent fears, misconceptions, and myths that could be identified related to this specific topic, such as….
+            </p>
             
-            <p><i><b>Joonis 2.</b> Tegevuses 3 pakutavad lahendused tundide läbiviimiseks</i></p>
+            <ul>
+                <li><b>Myth 1:</b> Nuclear energy is not safe.</li>
+                <li><b>Myth 2:</b> Nuclear energy contributes to carbon emissions and thus leads to atmospheric pollution and global warming.</li>
+                <li><b>Myth 3:</b> Nuclear waste needs to be stored for 100,000 years.</li>
+                <li><b>Myth 4:</b> Nuclear plants emit dangerous amounts of radiation.</li>
+                <li><b>Myth 5:</b> Radiation exposure only occurs from a nuclear power station.</li>
+                <li><b>Myth 6:</b> We do not need nuclear power in the EU.</li>
+                <li><b>Myth 7:</b> Nuclear plants are ageing and inefficient.</li>
+                <li><b>Myth 8:</b> Nuclear power plants can explode.</li>
+                <li><b>Myth 9:</b> Nuclear waste cannot be safely transported.</li>
+                <li><b>Myth 10:</b> Nuclear plant workers are radioactive themselves.</li>
+            </ul>
 
-            <section class="e-flow__chart">
-                <div class="e-flow__box"><b>Tegevus 3</b></div>
-                <div class="e-flow__connector"></div>
-                <div class="e-flow__connector-fork e-flow__connector-fork--down"></div>
-                <div class="e-flow__boxes">
-                    <div class="e-flow__box">
-                        <p class="m-0 leading-tight mb-4"><b>Avatud uurimus</b></p>
-                        <p class="m-0 leading-tight">Õpilased planeerivad ise uurimistegevused kasutades erinevaid teadmiste hankimise allikaid (näit. eksperiment, (teadus)artiklid jm.).</p>
-                    </div>
-                    <div class="e-flow__box">
-                        <p class="m-0 leading-tight mb-4"><b>Juhendatud uurimus</b></p>
-                        <p class="m-0 leading-tight">Õpilased uurivad etteantud allikaid (näit. tekstid, videod, graafikud, veebilehed, animatsioonid, kaardid, eksperiemndid) ja vastavad etteantud küsimustele.</p>
-                    </div>
-                </div>
-                <div class="e-flow__connector-fork e-flow__connector-fork--up"></div>
-                <div class="e-flow__connector"></div>
-                <div class="e-flow__box">
-                    Õpilased:
-                    <ul class="m-0">
-                        <li class="my-0 leading-tight">hindavad info usaldusväärsust vastava tööriista abil</li>
-                        <li class="my-0 leading-tight">teevad leitud tõendusmaterjalide põhjal põhjendatud järeldusi hüpoteesi paikapidavuse kohta, et vastata uurimisküsimustele</li>
-                    </ul>
-                </div>
-            </section>
+            <p>
+                Facts related to these myths about nuclear energy are presented in the <nuxt-link to="radiation/background">Scientific background information</nuxt-link>. 
+            </p>
 
-            <p>Teine võimalus on lasta õpilastel müüti ümber lükata või kinnitada juhendatud uurimistöö abil. Õpilase materjalides antakse ette eksperimendi kava ja usaldusväärsed allikad, kust leida vastused. Õpilastel palutakse vastata etteantud küsimustele, mis peaks järk-järgult  viima neid hüpoteesi kinnitamise või ümberlükkamiseni / vastuseni oma uurimisküsimusele.</p>
-
-            <p>Kumba varianti õpetaja otsustab kasutada, sõltub kasutada olevast ajaressursist ning õpilaste võimekusest leida iseseisvalt asjakohast infot.</p>
-            
-            <p>Meedia/andmeallikate ja nende sisu kõrvutamise kaudu analüüsivad õpilased kriitiliselt selles leiduva info usaldusväärsust ning teevad leitud tõendite põhjal põhjendatud järeldusi. Kuna usaldusväärsuse hindamine võib olla õpilastele tõeline väljakutse, on õppematerjal varustatud info usaldusväärsuse hindamise tööriistaga, mida saab kasutada info otsimisel ja analüüsimisel. Lisaks on võimalik kasutada videosid (eesti k.), mis juhendavad õpilasi kasutama Google Scholar-it.  Samuti võiks õpetaja info usaldusväärsuse hindamise tööriista kasutamist selgitada, demonstreerides ja analüüsides nii usaldusväärseid kui ka vähem usaldusväärseid allikaid näidetena enne, kui õpilased seda tööriista iseseisvalt rakendama hakkavad.</p>
-
-            <p>Et õppida, kuidas oma järeldusi teistele tutvustada, juhendatakse õpilasi tegema oma katsest tõendusmaterjalina video või tegema video oma järeldustest sekundaarsete tõendite põhjal  (Tegevus 4). Õpilaste materjal on varustatud kriteeriumidega, millele video vm vorm peaks vastama. Neid kriteeriume saab kasutada kujundavalt õpilaste enesehindamiseks protsessi käigus ning kaaslaste hindamiseks video esitlemisel ning kaaslaste ja õpetaja küsimustele vastamisel  (Tegevus 5). Viimase puhul saavad õpilased teistele rühmadele tagasiside andmiseks kasutada järgmist hindamisvahendit. Eelnevalt tuleks teha originaalfailist (küsitlusest) Google Drive kausta koopia ning siis jagada õpilastele vastamiseks küsitluse linki (kui selleks kasutatakse nutitelefone, siis võiks neile jagada lingi QR koodi). Õpetaja võiks anda igale rühmale kaaslaste antud tagasiside (soovitus: igal rühmal võiks olla juurdepääs ainult enda tagasisidele, mitte teistele). Õpetaja pääseb lihtsalt Google'i vormi kaudu antud tagasiside juurde, kui kasutab nuppu „Vastused”.</p>
-
-            <p>Viimases tegevuses (Tegevus 6), naaseb mooduli süžee sissejuhatava video ja esitatud müütide juurde. Varasematest tegevustest saadud teadmiste põhjal valmistuvad õpilased argumentatsioonimängu vormis otsuseid langetama, kus neil on võimalus kõrvutada ja reflekteerida oma õpitud loodusteaduslikke teadmisi, aga ka isiklikke ja ühiskonnas levinud väärtusi. Mängureeglid on antud õpilaste juhendis. Õpilasi tuleb juhendada vahetult enne algust, et nad mõistaksid mängu üldist kulgu.</p>
-
-            <p>Kõik müüdid on toetatud  teaduslik taustainfoga, mis selgitab iga müüdi taga olevat kaasaegset teaduslikku arusaama ja võimaldab õpetajal saada kiire ülevaate moodulis käsitletud teemade kohta, kuid seda saab kasutada ka õppimiseks (näiteks jagada sellest teatud osi õpilastele lugemiseks).</p>
+            <p>
+                Teachers should be aware of historical and social aspects leading to nuclear radiation fears. Some ideas related to this issue are also highlighted in the Scientific background information. There, teachers can get a quick overview of the science concepts and facts covered by the Radiation module and related areas that students can be curious about.
+            </p>
 
         </section>
     </div>
