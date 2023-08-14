@@ -21,8 +21,8 @@ export default {
       description: "Kliimamuutuste kirjeldav tekst",
       title: "Kliimamuutused"
     },
-    for_students: "Õpilasele",
-    for_teachers: "Õpetajale",
+    for_students: "Elevmaterial",
+    for_teachers: "Lärarmaterial",
     radiation: {
       description: "See on radiatsiooni mooduli kirjeldus siin. Lause või paar.",
       title: "Strålning"

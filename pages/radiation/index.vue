@@ -3,7 +3,13 @@
         <template v-if="locale === 'et'">
             <ModulesRadiationEt />
         </template>
-        <template v-if="locale === 'sv'">
+        <template v-else-if="locale === 'el'">
+            <ModulesRadiationEl />
+        </template>
+        <template v-else-if="locale === 'pt'">
+            <ModulesRadiationPt />
+        </template>
+        <template v-else-if="locale === 'sv'">
             <ModulesRadiationSv />
         </template>
         <template v-else>

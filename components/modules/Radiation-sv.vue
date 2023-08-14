@@ -376,54 +376,56 @@
             <h2 id="section-7">Undervisningsförslag</h2>
 
             <p>
-                Selle mooduliga töötamist võib vaadelda kaheosalisena. Esimene osa (tegevused 1-5) on peamiselt seotud tööga sissejuhatavas videos esitatud, õpilaste poolt meelde tuletatud või õpetaja soovitatud spetsiifiliste kiirgusega seotud müütidega. Teine osa (Tegevus 6) keskendub tööle sellise vastuolulise teemaga, nagu see on tuumaenergia, mis võetakse kokku väitlus-rollimängu abil (vt õpilase materjalid).
+                Arbetet med denna modul kan ses som strukturerat i två delar. Den första delen (Aktivitet 1-5) är huvudsakligen relaterad till arbete med specifika strålningsmyter som presenterats i introduktionsvideon, identifierats av eleverna eller föreslagits av läraren. Den andra delen (Aktivitet 6) fokuserar på arbetet med den socio-akuta frågan ”Kärnkraft” som bearbetas med hjälp av ett debattspel/rollspel (se elevmaterial).
             </p>
 
             <p>
-                Moodul algab sissejuhatavast videost, mis tõstab esile mõned probleemid ja paljastab hirmud, müüdid või väärarusaamad kiirguste kohta, näiteks:
+                Modulen utgår från en introduktionsvideo för att ta upp några problem och avslöja rädslor, idéer, myter eller missuppfattningar om strålning, till exempel:
             </p>
 
-            <ul>
-                <li>Mobiiltelefonid kiirgavad ohtlikku elektromagnetkiirgust</li>
-                <li>5G pole ohutu</li>
-                <li>Kummikindad võivad kaitsta mobiiltelefonide tekitatava elektromagnetkiirguse eest</li>
-                <li>Elektromagnetkiirgus (raadiolained) võib madalal temperatuuril külmuda</li>
-                <li>Kiirgust saab tõhusalt peatada külmiku seintega</li>
-                <li>Plastik ja alumiiniumfoolium võivad blokeerida elektromagnetlaineid</li>
-                <li>Elektrikaablid eraldavad ohtlikku elektromagnetkiirgust</li>
-                <li>Päikeselt meieni jõudev kiirgus on ohtlik</li>
+            <ul class="leading-tight">
+                <li>Mobiltelefoner avger farlig elektromagnetisk strålning</li>
+                <li>5G är inte säkert</li>
+                <li>Gummihandskar kan skydda mot elektromagnetisk strålning från mobiltelefoner</li>
+                <li>Elektromagnetisk strålning (radiovågor) kan "frysas" vid låg temperatur</li>
+                <li>Strålningen kan effektivt stoppas av väggarna i ett kylskåp</li>
+                <li>Plastpåse och aluminiumfolie kan blockera elektromagnetiska vågor</li>
+                <li>Elektriska kablar avger farlig elektromagnetisk strålning</li>
+                <li>Solen skickar farlig strålning</li>
             </ul>
 
             <p>
-                <a href="https://www.youtube.com/watch?v=ccMo9WfKeOY" target="_blank" rel="noopener noreferrer">Sissejuhatava video</a> eesmärk on tõstatada küsimusi ja ergutada õpilasi kaasa mõtlema, mitte anda neile koheseid vastuseid. Eeldatakse, et pärast video vaatamist (tegevus 1) on õpilased piisavalt motiveeritud uurima ühte müüti, mis on seotud mõne elektromagnetkiirguse allika või sellega seotud riskiga ning selgitama välja, kas müüdil on alust. Müüdid ja hirmud võivad eri riikides ja vanuserühmades erineda. Õpetajad võiksid julgustada õpilasi välja pakkuma ka nö "oma" müüte.
+                <a href="https://www.youtube.com/watch?v=ccMo9WfKeOY" target="_blank" rel="noopener noreferrer">Introduktionsvideon</a> syftar till att väcka frågor och stimulera reflektioner snarare än att ge eleverna omedelbara svar. Det förväntas att eleverna efter att ha sett videon <b>(Aktivitet 1)</b> blir motiverade att undersöka en av de identifierade myterna relaterad till olika källor till elektromagnetisk strålning och utforska vanliga rädslor. Myter och rädslor kan variera mellan olika länder och åldersgrupper. Lärare kan uppmuntra eleverna att hitta sina "egna" myter.
             </p>
 
             <p>
-                Õpetaja saab siinkohal võimaluse tutvustada nö laiendatud kiirgusspektrit, mis sisaldab ka ioniseerivat kiirgust – alustades Päikese kiiratavast ultraviolettkiirgusest kuni lühema lainepikkuse ja suure energiaga osakesteni (gamma kiirgus). Eesmärk on avardada õpilaste arusaamu kiirguse füüsikast ja selle rakendustest ning juhtida nende tähelepanu mõnele müüdile, mis on seotud kiirguse erinevate mõjudega. Samuti julgustatakse õpilasi meenutama oma eelteadmisi, sealhulgas tuttavate, pereliikmete ja sõprade igapäevaelus olemasolevaid arusaamu ning jagama oma arusaamu ja seisukohti kaaslastega (Tegevus 2). Selles etapis saab näidata ka nn faktivideosid, et tõsta esile ja laiendada kiirgusega seotud teemasid, mõisteid ja põhimõtteid. Valitud peatükke <nuxt-link to="./radiation/background">loodusteaduslikust taustainfost</nuxt-link> saab vajadusel kasutada põhiteadmiste kordamiseks.
+                Lärare kan här presentera en utökad bild av strålningsspektrumet som inkluderar joniserande strålning – från ultraviolett som kommer från vår sol till ännu kortare våglängder och högenergipartiklar. En avsikt är att vidga elevernas syn på strålningsfysik och dess tillämpningar och uppmärksamma några myter om olika effekter av strålning. Eleverna uppmuntras också att ta vara på sina förkunskaper, inklusive dominerande uppfattningar i deras vardag bland människor de känner, familj och vänner, och att dela sina föreställningar och åsikter med klasskamrater <b>(Aktivitet 2)</b>. "Faktavideorna" kan visas i detta steg för att lyfta fram och bredda strålningsrelaterade kunskaper och principer. Dessutom kan utvalda delar från <nuxt-link to="./radiation/background">vetenskaplig bakgrundsinformation</nuxt-link> användas för detta ändamål.
             </p>
 
 
 
-            <p><b>Tegevus 2</b> peaks aitama õpilastel oma valitud müüti kitsendada hüpoteesiks/uurimisküsimuseks, mida saab kinnitada/ümber lükata (3. tegevus). Lisaks saab selle sammu läbi viia kahel viisil:</p>
+            <p>
+                Aktivitet 2 ska hjälpa eleverna att begränsa sin valda myt till en hypotes/forskningsfråga som kan bekräftas/förkastas/besvaras (Aktivitet 3). Vidare kan detta steg genomföras på följande två sätt:
+            </p>
 
             <ol>
                 <li>
-                    Õpilased saavad valida müüdi, mida saab katseliselt testida, kogudes tõendeid lihtsate katsete abil. Näiteks saab elektromagneetilise kiirguse taset mõõta tasuta nutitelefoni rakendusega, näiteks ElectroSmart vms. abil. <b>ElectroSmart</b> on raadiosageduslik elektromagnetvälja (EMF) detektor.
+                    Eleverna kan välja en myt som kan testas experimentellt och samla bevis genom enkla kvalitativa experiment. Exponeringsnivån för elektromagnetisk strålning skulle kunna mätas med hjälp av en gratis smartphone-app, t ex <b>ElectroSmart</b> eller liknande. ElectroSmart är en radiofrekvensdetektor för elektromagnetiskt fält (EMF).
 
                     <UiContentImage
                         src="https://evidence.onkel.ee/assets/radiation__image-2.webp"
                         credits=""
                         :elevated="true" class="max-w-sm">
                         <template #caption>
-                            <b>Joonis 1.</b> ElecroSmart rakendus nutitelefonis 
+                            Mätning av EMF-exponering, måttlig (moderate) är under 0,3 V/m 
                         </template>
                     </UiContentImage>
 
                     <p>
-                        See rakendus võimaldab mõõta kiirguse taset ElectroSmart Indexi abil, mis näitab, kas kiirgustase sobib enamikule inimestele (madal ning mõõdukas tase) või kõrge, mille vähendamiseks tuleb kasutusele võtta meetmeid. Õpilased näevad, et kauguse suurenemine allikast võib vähendada kiirgustaset ruutsõltuvuses. Samuti võivad nad proovida kasutada oma nutitelefoni peal alumiiniumfooliumist tekitatud varjestust, et näha selle abil tekitatud kiirguse vähenemist. Selle testi variatsiooni leiate ka <a href="https://www.youtube.com/watch?v=asmbgAeJqis" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=asmbgAeJqis</a>.
+                        Denna app tillåter mätning av en aktuell exponering med hjälp av ElectroSmart Index som indikerar om exponeringen passar de flesta människor (låg eller måttlig nivå) eller hög, då behöver man vidta några åtgärder för att minska den . Elever kan se att ökande avstånd till källan kan minska exponeringsnivån (i kvadratisk takt). De kan också försöka använda en skärm av aluminiumfolie (till sin smartphone) för att se minskad exponering genom skärmning. För en variant av detta test, se även <a href="https://www.youtube.com/watch?v=asmbgAeJqis" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=asmbgAeJqis</a>.
                     </p>
                     <p>
-                        Kui te saate kasutada mõnda lihtsat analoog- või digitaalandurit (EMF-i mõõteseadmet), siis saate mõõta kiirgust, mida kiirgab ükskõik milline teie valitud elektroonikaseade: sülearvuti, tahvelarvuti, nutitelefon, printer, kõlarid, teler, kaugjuhtimispult, lamp, külmik, modem ja võrrelda iga seadme puhul kiirguse koguseid.
+                        Om ni har tillgång till ett enkelt analogt eller digitalt fysikverktyg - EMF-mätenhet, är det möjligt att mäta strålningen som kommer från olika enheter: bärbar dator, surfplatta, smart telefon, skrivare, högtalare, TV, fjärrkontroll, lampa, kylskåp, modem och jämföra mängden strålning från varje enhet.
                     </p>
 
                     <UiContentImage
@@ -431,46 +433,46 @@
                         credits=""
                         :elevated="true" class="max-w-sm">
                         <template #caption>
-                            <b>Joonis 2.</b> Lihne EMF mõõteseade
+                            En enkel EMF-mätare
                         </template>
                     </UiContentImage>
 
                     <p>
-                        Kui on kättesaadavad täiustatud (ja kallimad) EMF-i mõõteriistad, saab teha keerukamaid mõõtmisi, inspiratsiooniks võiks vaadata järgmist videot: <a href="https://www.youtube.com/watch?v=nKPw-dnxZTo" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=nKPw-dnxZTo</a>
+                        Om mer avancerade (och dyrare) EMF-mätverktyg finns tillgängliga kan mer sofistikerade mätningar göras, se för inspiration: <a href="https://www.youtube.com/watch?v=nKPw-dnxZTo" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=nKPw-dnxZTo</a>
                     </p>
                 </li>
                 <li>
-                    Sageli ei saa kiirgusega seotud müüte klassiruumis eksperimentaalselt uurida. Seetõttu eeldatakse, et õpilased koguvad tõendeid teisestest (sekundaarsetest) allikatest, et kinnitada oma hüpoteesi või leida vastust uurimisküsimusele. Meedia/andmeallikate ja nende sisu kõrvutamise kaudu analüüsivad õpilased kriitiliselt nende usaldusväärsust ning teevad leitud tõendite põhjal põhjendatud järeldusi. Kuna usaldusväärsuse hindamine võib olla õpilastele tõeline väljakutse, on õppematerjal varustatud tööriistaga, mida õpilased saavad kasutada info  otsimisel ja analüüsimisel. Oleks hea, kui õpetaja selgitaks selle kasutamist, näidates ja analüüsides nii usaldusväärseid kui ka vähem usaldusväärseid allikaid näitlikult enne, kui õpilased seda tööriista iseseisvalt kasutama hakkavad.
+                    Men ofta kan de strålningsrelaterade myterna inte motbevisas (avslöjas) experimentellt i klassrummet. Därför förväntas eleverna samla bevis från sekundära källor för att bekräfta eller motbevisa sin hypotes eller hitta svar på sin forskningsfråga. Genom att jämföra datakällor och deras innehåll, analyserar eleverna kritiskt deras tillförlitlighet och drar berättigade slutsatser, baserat på de bevis som hittats. Eftersom tillförlitlighetsbedömning kan vara en verklig utmaning för eleverna är elevmaterialet försett med ett verktyg som eleverna kan använda när de söker och analyserar informationen. Det skulle vara bra om läraren kunde förklara hur det används genom att demonstrera och analysera både tillförlitliga och mindre tillförlitliga källor som exempel innan eleverna börjar implementera detta verktyg på egen hand.
                 </li>
             </ol>
 
             <p>
-                Oma järelduste tutvustamiseks juhendatakse õpilasi neid oma klassikaaslastele visuaalselt esitlema (Tegevus 4). Üks võimalus on seda teha isetehtud video abil. Selleks saavad õpilased kasutada <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videojuhiseid</a>. Alternatiiviks on traditsiooniline slaidiettekanne, mida saab aga vormistada ka huvitavamalt, näiteks teha sellest video, kus õpilased räägivad oma slaidid ükshaaval “sisse” kasutades PowerPoint-i sisseehitatud funktsiooni (Vt juhendit siit) või luua poster kasutades näiteks visuaalse lihtsustamise tehnikat (Vt juhendit). Samuti on õpilase materjalides pakutud välja kriteeriumid, millele video peaks vastama. Neid kriteeriume saab kasutada kujundavalt protsessi käigus enesehindamiseks ning kaaslaste hindamisel esitluste ajal ning kaaslaste ja õpetaja küsimustele vastamisel (Tegevus 5). Õpilased saavad teistele rühmadele tagasiside andmiseks või nendelt tagasiside saamiseks kasutada järgmist <nuxt-link to="/tools/PeerFeedback" target="_blank">hindamisvahendit</nuxt-link>.
+                För att kommunicera sina resultat vägleds eleverna att producera en visuell presentation av sina slutsatser <b>(Aktivitet 4)</b>. Video kan vara ett intressant alternativ. För detta ändamål kan eleverna använda en <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videohandledning</a>. Studentmaterial är också försett med kriterier som videon ska uppfylla när den är klar. Dessa kriterier kan användas formativt för självbedömning under processen, och för kamratbedömning när videon presenteras och de svarar på frågor från sina klasskamrater och läraren (Aktivitet 5). Eleverna kan använda följande <nuxt-link to="/tools/PeerFeedback" target="_blank">bedömningsverktyg</nuxt-link> för att ge feedback till, eller få den från, de andra grupperna.
             </p>
 
             <p>
-                Viimases tegevuses (Tegevus 6) arutatakse sotsiaalselt teravaid ioniseeriva kiirguse ja tuumaenergiaga seotud teemasid[1]. Soovitatav väitlus-rollimäng esitatakse õpilasmaterjalis. Seda saab vabalt kohandada konkreetse haridusliku kontekstiga. Õpetajad saavad otsustada, millist hindamist kasutada või mitte, et soodustada õpilaste ideede ja argumentide vaba väljendamist. Varasematest etappidest saadud tundide põhjal on õpilastel võimalus kõrvutada ja mõtiskleda oma loodusteaduste, aga ka isiklike ja sotsiaalsete väärtuste üle.
+                I den sista aktiviteten <b>(Aktivitet 6)</b> kommer socialt-akuta frågor relaterade till joniserande strålning och kärnenergi att diskuteras. Förslag på debattrollspel presenteras i elevmaterialet. Den kan fritt anpassas till en viss utbildningskontext. Lärare kan bestämma vilken typ av bedömning som ska användas för att uppmuntra elevernas idéer och argument. Baserat på lärdomarna från de tidigare stadierna, kommer eleverna att ha en möjlighet att reflektera över sina vetenskapliga kunskaper, men också över sina personliga och sociala värderingar. 
             </p>
 
             <p>
-                Soovitame kasutada konkreetset teemat "Tuumaenergia", mis on praegu avalikkuse tähelepanu keskpunktis ja mida aktiivselt arutatakse paljudes Euroopa riikides. Peaaegu igas riigis on oma, enam-vähem spetsiifiline "tuumaenergia" debatt, õpetajad võiksid julgustada õpilasi oma riigis toimuvat debatti jälgima. Sageli on selle konkreetse teemaga seotud ka selgeid hirme, väärarusaamu ja müüte, näiteks:
+                Vi föreslår att man använder ett specifikt ämne "Kärnkraft", som för närvarande är i fokus för allmänhetens uppmärksamhet och som aktivt debatteras i många europeiska länder. Nästan varje land har sin egen, mer eller mindre specifika, "kärnenergi"-debatt. Lärare skulle kunna uppmuntra eleverna att följa debatten i sitt eget land. Ofta finns det också tydliga rädslor, missuppfattningar och myter som kan identifieras relaterade till detta specifika ämne, såsom:
             </p>
             
             <ul>
-                <li><b>Müüt 1:</b> Tuumaenergia ei ole ohutu.</li>
-                <li><b>Müüt 2:</b> Tuumaenergia suurendab süsinikdioksiidi heitkoguseid ja põhjustab seega õhusaastet ja globaalset soojenemist.</li>
-                <li><b>Müüt 3:</b> Tuumajäätmeid tuleb ladustada 100 000 aastat.</li>
-                <li><b>Müüt 4:</b> Tuumajaamad eraldavad ohtlikus koguses kiirgust.</li>
-                <li><b>Müüt 5:</b> Kokkupuude kiirgusega toimub ainult tuumaelektrijaamast.</li>
-                <li><b>Müüt 6:</b> Me ei vaja Euroopa Liidus tuumaenergiat.</li>
-                <li><b>Müüt 7:</b> Tuumajaamad vananevad ja on  ebaefektiivsed.</li>
-                <li><b>Müüt 8:</b> Tuumaelektrijaamad võivad plahvatada.</li>
-                <li><b>Müüt 9:</b> Tuumajäätmeid ei saa ohutult transportida.</li>
-                <li><b>Müüt 10:</b> Tuumajaama töötajad on ise radioaktiivsed.</li>
+                <li><b>Myt 1:</b> Kärnenergi är inte säker</li>
+                <li><b>Myt 2:</b> Kärnenergi bidrar till koldioxidutsläpp och leder därmed till luftföroreningar och global uppvärmning</li>
+                <li><b>Myt 3:</b> Kärnavfall måste lagras i minst 100 000 år</li>
+                <li><b>Myt 4:</b> Kärnkraftverk sänder ut farliga mängder av strålning</li>
+                <li><b>Myt 5:</b> Exponering för strålning sker endast från ett kärnkraftverk</li>
+                <li><b>Myt 6:</b> Vi behöver inte kärnkraft i EU</li>
+                <li><b>Myt 7:</b> Kärnkraftverk åldras och är ineffektiva</li>
+                <li><b>Myt 8:</b> Kärnkraftverk kan explodera</li>
+                <li><b>Myt 9:</b> Kärnavfall kan inte transporteras säkert</li>
+                <li><b>Myt 10:</b> Kärnkraftsarbetare är själva radioaktiva</li>
             </ul>
 
             <p>
-                Tumaenergiaga seotud müütide kohta käiva <nuxt-link to="radiation/background">loodusteadusliku taustainfo</nuxt-link> või leida siit. Õpetajad peaksid olema ka teadlikud ajaloolistest ja sotsiaalsetest aspektidest, mis põhjustavad tuumakiirgusega seotud hirme. Mõned selle probleemiga seotud ideed on toodud välja ka eelpoolnimetatud failis. Selle abil saavad õpetajad kiire ülevaate loodusteaduslikest põhimõtetest ja faktidest ning muudest kiirguse teemaga seotud valdkondadest, mille vastu õpilased võiksid huvi tunda.
+                Fakta relaterade till dessa myter om kärnenergi presenteras i den <nuxt-link to="radiation/background">vetenskapliga bakgrundsinformationen.</nuxt-link> Lärare bör vara medvetna om historiska och sociala aspekter som leder till rädsla för kärnstrålning. Vissa idéer relaterade till denna fråga lyfts också fram i den vetenskapliga bakgrundsinformationen. Där kan lärare få en snabb överblick över de naturvetenskapliga begrepp och fakta som inte bara omfattas av strålningsmodulen, utan även om närliggande områden som eleverna kan vara nyfikna på.
             </p>
 
 

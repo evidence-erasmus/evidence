@@ -9,7 +9,7 @@
         
 
 
-        <section class="e-article print:not-prose">
+        <section class="e-article print:not-prose" lang="en" style="hyphens: auto;">
             <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
             <h1 class="mb-0">Radiation</h1>
             <h5 class="font-normal uppercase leading-tight">Teacher materials</h5>
@@ -178,8 +178,6 @@
                     </template>
                 </ModulesStructure>
                 
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 2</h5>
-
                 <ModulesStructure>
                     <template #title>Activity 3<br />MYTHBUSTING</template>
                     <template #icons>
@@ -216,9 +214,6 @@
                         </div>
                     </template>
                 </ModulesStructure>
-                
-
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 3</h5>
                 
                 <ModulesStructure>
                     <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
