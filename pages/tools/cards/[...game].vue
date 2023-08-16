@@ -22,6 +22,8 @@
             v-else-if="route.params.game[0] === 'viruses' && route.params.game[1] === 'theme2'" :printMode="true" />
         <ToolsCardgameClimateChange 
             v-else-if="route.params.game[0] === 'climate-change'" :printMode="true" />
+        <ToolsCardgameRadiation 
+            v-else-if="route.params.game[0] === 'radiation'" :printMode="true" />
 
 
         

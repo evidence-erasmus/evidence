@@ -231,55 +231,107 @@
                 The specific aim of working with this theme is to enable debate and argumentation to develop your critical thinking regarding nuclear energy. The debate is related to the myth that “Nuclear energy is not safe.” This theme has two positions: in favour and against nuclear power. Thus, the class is divided into two groups according to their attributed roles.
             </p>
 
-            <div class="grid grid-cols-2 gap-4">
-                <div class="bg-amber-200 rounded-lg">
-                    <h4 class="m-0 p-4 text-center">
+            <div class="md:grid md:grid-cols-2 gap-4">
+                <div class="border-4 border-blue-400 rounded-lg p-3  text-center">
+                    <h4 class="my-2">
                         Position 1: In favour
                     </h4>
+                    <p>
+                        The state must recognise that nuclear energy is safe and offers a "golden opportunity" to create a cleaner and more equitable world. The state must invest in creating a safe nuclear waste cemetery (final depository).
+                    </p>
                 </div>
-                <div class="bg-amber-200 rounded-lg">
-                    <h4 class="m-0 p-4 text-center">
+                <div class="border-4 border-red-400 rounded-lg p-3  text-center">
+                    <h4 class="my-2">
                         Position 2: Against
                     </h4>
+                    <p>
+                        The state must close all nuclear reactors in the country by 2030. A safe nuclear station and a safe waste cemetery are an illusion.
+                    </p>
                 </div>
             </div>
 
 
+            <h3>
+                Phase I (≈ 25 minutes)
+            </h3>
+
+            <p>
+                Each team is given (a selection method could be decided with your teacher) a role card containing a brief profile of the role the team will represent, along with the arguments supporting the perspective to be defended. In addition to the role cards, each team is given the worksheet they must complete during the role-play <span class="bg-red-300">(see worksheet)</span>.
+            </p>
+
+            <p>
+                You will need to present informed arguments for your position.
+            </p>
+
+            <p>
+                The nuclear energy theme has several info cards related to it.
+            </p>
+
+            <div class="grid grid-cols-5 gap-2">
+                <div v-for="i in 4" class="bg-blue-700 text-blue-50 text-center py-2 rounded-lg">
+                    Info {{ i }}
+                </div>
+                <div class="bg-blue-700 text-blue-50 text-center py-2 rounded-lg">...</div>
+            </div>
+
+            <p>
+                All players have access to all info cards. Each team chooses those they find especially relevant for their role. They also search for additional information on the Internet, considering the importance of choosing reliable sources, as done previously in Activity 3.
+            </p>
 
 
-            <h3>Game Instructions:</h3>
-            
-            <ol>
-                <li>Players are divided into equal groups.</li>
-                <li>
-                    <b>Choosing cards.</b> Each team chooses a green and a blue card. 
-                    <ul>
-                        <li>
-                            <b>Green cards</b> record stories related to climate change. Stories are based on facts. 
-                        </li>
-                        <li>
-                            Each green card corresponds to a <b>blue information card</b> related to the story it contains and gives the answer to it.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <b>Discussion in groups.</b> All players in each team read the green card. Then, the players discuss their stories with their teams. 
-                    <br />
-                    For example, the first green card tells a true story about a 16-year-old male polar bear found dead in Svalbard by starvation. Next, the team players try to explain why the polar bear died.
-                </li>
-                <li>
-                    <b>Plenary discussion.</b> When each group presents the story in plenary, the group with the corresponding blue information card tries to respond to the script with its own arguments. 
-                    <br />
-                    At this stage, players share their views with others and improve their responses as they hear different arguments and opinions. In this case, the blue card team claims that the bear died due to climate change.
-                </li>
-                <li>
-                    At the end of the game, players will link the story cards to info cards. Each argument gets 3 points. The team with the highest score wins the game.
-                </li>
-            </ol>
 
-            
-            <hr>
-            
+
+
+            <h3>
+                Phase II (≈ 20 minutes)
+            </h3>
+
+            <h4>
+                Group discussion:
+            </h4>
+
+            <p>
+                In this stage, students share their opinions with others and refine common arguments within their teams. Players use the info cards and other information to support their position.
+            </p>
+
+            <p>
+                Phases I and II can continue as homework and preparation for debate <b>(phase III)</b> that will take place in the following teaching occasion. Initial arguments can be prepared in enhanced visual form using prepared short videos and PowerPoint presentations
+            </p>
+
+
+
+
+
+            <h3>
+                Phase III (≈ 45 min., time might need to be extended)
+            </h3>
+
+            <p>
+                Debate or actual role-play is divided into two parts. In the first part, the spokesperson of each team is given three minutes to present their role and initial arguments, which they also listed on the worksheet in phase II (see the first column in the worksheet). This worksheet also included columns for noting down the counter arguments put forward by other teams, as well as refutations of these (see second and third columns of worksheet) that would be used further in the role play. Once each of the eight teams has presented its arguments, there will be a five-minute break, thus allowing refutations to be developed; the counter arguments put forward by other teams, and the refutations of these.
+            </p>
+
+            <p>
+                Following the five-minute break, in the second part of the role-play, the various spokespersons debated with one another, attempting to counter each other's arguments in support of their position. During this part of the role play, advisors (other team members) are tasked to support their team spokesperson by proposing refutations of the arguments put forward by the teams representing other roles.
+            </p>
+
+            <p>
+                Feel free to express your arguments and "professional" ideas.
+            </p>
+
+            <p>
+                During the debate, the TV programme presenters moderate the activity. At the end of the debate, the moderators provide a summing-up, highlighting key themes and opinions that had emerged during the discussion. This stage invites players to take the issues as a group (whole class): in favour or against, or reaching other shared group opinions.
+            </p>
+
+            <p>
+                If moderators consider it necessary, they ask participants to vote in favour or against the proposed phasing out of nuclear energy production.
+            </p>
+
+
+
+
+
+
+
             <h3>The cards</h3>
 
 
@@ -289,7 +341,7 @@
                 <div>
                     <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
                     
-                    <nuxt-link to="../tools/cards/climate-change" target="_blank" 
+                    <nuxt-link to="../tools/cards/radiation" target="_blank" 
                     class="mb-3 px-4 py-2 inline-flex items-center gap-2 
                     bg-sky-600 text-md rounded text-white no-underline uppercase transition
                     hover:bg-sky-700
@@ -299,7 +351,7 @@
                 </div>
             </UiCardInfo>
 
-            <ToolsCardgameClimateChange :printMode="false" />
+            <ToolsCardgameRadiation :printMode="false" />
 
             <hr>
 
