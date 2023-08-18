@@ -2,19 +2,7 @@
     <div class="border-r-2 border-r-sky-400 pr-8">
         <h2>Activity 3b: Mythbusting based on secondary sources</h2>
 
-        <p>
-            In  this activity, you are expected to:
-        </p>
         
-        <ul class="leading-tight">
-            <li>Develop a testable hypothesis/research question.</li>
-            <li>Search for relevant information that will confirm or falsify your hypothesis/ answer your research question.</li>
-            <li>Present collected data in tables, graphs, or similar.</li>
-            <li>Use your findings to draw a conclusion.</li>
-            <li><i>And finally…</i>
-                <br />Make a video post, PowerPoint presentation, or similar of your main findings to inform the public (this step is related to activity 4).</li>
-        </ul>
-
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
         

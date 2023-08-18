@@ -8,10 +8,9 @@
         >
             
             <ToolsCardgameCard v-for="(cardR, i) in tm('roleCardsFavour')" :key="`cardR${i}`"
-                :title="rt(cardR.title)" :story="rt(cardR.story)" :label="`${t('roleCardsLabel')} ${i+1}`" border="border-green-500"
+                :title="rt(cardR.title)" :story="rt(cardR.story)" :label="`${t('roleCardsLabel')} ${i+1}`" border="border-green-400"
                 :image="rt(cardR.image)" 
-                class="print:w-[89mm] print:h-[146mm]"
-                :class="props.printMode ? 'w-[89mm] h-[146mm]' : ''"
+                :class="props.printMode ? `w-[${cardSize.w}mm] h-[${cardSize.h}mm]` : `print:w-[${cardSize.w}mm] print:h-[${cardSize.h}mm]`"
             />
 
         </section>
@@ -24,10 +23,9 @@
         >
             
             <ToolsCardgameCard v-for="(cardR, i) in tm('roleCardsAgainst')" :key="`cardR${i}`"
-                :title="rt(cardR.title)" :story="rt(cardR.story)" :label="`${t('roleCardsLabel')} ${i+1}`" border="border-green-500"
+                :title="rt(cardR.title)" :story="rt(cardR.story)" :label="`${t('roleCardsLabel')} ${i+1}`" border="border-red-400"
                 :image="rt(cardR.image)" 
-                class="print:w-[89mm] print:h-[146mm]"
-                :class="props.printMode ? 'w-[89mm] h-[146mm]' : ''"
+                :class="props.printMode ? `w-[${cardSize.w}mm] h-[${cardSize.h}mm]` : `print:w-[${cardSize.w}mm] print:h-[${cardSize.h}mm]`"
             />
         </section>
     
@@ -40,8 +38,7 @@
             <ToolsCardgameCard v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
                 :title="rt(cardI.title)" :story="rt(cardI.story)" :label="`${t('infoCardsLabel')} ${i+1}`"
                 border="border-blue-500"
-                class="print:w-[89mm] print:h-[146mm]"
-                :class="props.printMode ? 'w-[89mm] h-[146mm]' : ''"
+                :class="props.printMode ? `w-[${cardSize.w}mm] h-[${cardSize.h}mm]` : `print:w-[${cardSize.w}mm] print:h-[${cardSize.h}mm]`"
             />
         </section>
 
@@ -50,6 +47,11 @@
 
 
 <script setup>
+
+    // sizes: 64x89  ///   70x120   ///   89x146  /// 
+
+    const cardSize = ref({w:70, h:120});
+
     const { t, tm, rt } = useI18n({
         useScope: 'local'
     });
@@ -214,6 +216,154 @@
             {
                 title: "Wind turbines",
                 story: "One of the most significant downsides of wind energy is noise and visual pollution. Wind turbines can be noisy when operating due to both the mechanical operation and the wind vortex created when the blades are rotating. Additionally, because wind turbines need to be built up high enough to capture a good amount of wind, the turbines can often interrupt otherwise scenic landscapes, such as mountain ranges, lakes, oceans, and more. A wind turbine's blades are huge and rotate at very high speeds. Unfortunately, their blades can harm and kill species that fly into them, like birds and bats. The construction of wind farms can also disrupt local species' natural habitats if not conducted sustainably. However, these problems can be solved to some extent with technological advancements and properly-siting wind farms. In many cases, turbines and generation sites may be located quite far from the population centres where electricity is needed. Therefore, transmission lines are an additional infrastructure that must be built."
+            }
+        ]
+      },
+
+
+
+      et: {
+        roleCardsFavourTitle : "Rollid, mis toetavad 1. seiskohta (Poolt)",
+        roleCardsAgainstTitle : "Rollid, mis toetavad 2. seisukohta (Vastu)",
+        infoCardsTitle : "Infokaardid",
+        roleCardsLabel : "Roll",
+        infoCardsLabel : "Info",
+        roleCardsFavour : [
+            {
+                title: "Valitsuse poliitik",
+                image: "card_c-change_coral-reefs.webp",
+                story: "Praeguse valitsuse poliitikuna on teil valimishuvid ja soovite tõsta tööhõivet. Teie erakond toetab tuumaenergiat kui teostatavat, säästlikku ja säästvat energialahendust. Kaitsete töökohtade loomist, mis tuleneks tuumajaama või tuumajäätmete hoidla rajamisest ning energia- ja jäätmekäitlussõltuvuse vähenemisest teistest riikidest.",
+                story2: "Otsite argumente tuumaenergia kasuks, et astuda vastu oma poliitilisele vastasele."
+            },
+            {
+                title: "Tuumajäätmete hoidla mänedžer",
+                image: "card_c-change_polar-bears.webp",
+                story: "Pooldate tuumaenergiat ja proovite kaitsta oma ettevõtte majandushuve. Püüate müüa oma projekti tuumakalmistu rajamiseks ja haldamiseks kui rajatist, mis on seotud tuumajaama tööga. Apelleerite selliste hoidlate turvalisusele.",
+                story2: "Seda tuleb toetada tõenditega, et töötavates jaamades tekkivaid tuumajäätmeid on vaja käidelda nii, et neid ei peaks saatma teistesse riikidesse."
+            },
+            {
+                title: "Tuumateadlane",
+                image: "card_c-change_turtles.webp",
+                story: "Olete teadlane, kes uurib uusi meetodeid uraani taaskasutamiseks elektrijaamades, et jäätmed oleksid lühema aja jooksul pärast kõrvaldamist vähem ohtlikud.",
+                story2: "Peaksite otsima teavet, et toetada rohkemate tuumaelektrijaamade ja/või tuumajäätmete matmispaikade ehitamist, tuginedes uute tehnikate kohta käivatele teaduslikele tõenditele. Otsite argumente tuumaenergia toetamiseks."
+            },
+            {
+                title: "Tuumajaama töötaja",
+                image: "card_c-change_floods.webp",
+                story: "Tuumaelektrijaama töötajana pooldate selle tööstuse toimimist. Teie linnas said paljud inimesed tööd tuumaelektrijaama tööjõuvajaduse tõttu. Seega on teil seda tüüpi ettevõtte kohta väga positiivne arvamus.",
+                story2: "Peate otsima tõendeid, mis näitavad teie riigis või ELis asuva tuumaelektrijaama või tuumajäätmete hoidlate loomisega tekitatud töökohtade eeliseid."
+            }
+        ],
+        roleCardsAgainst : [
+            {
+                title: "Ökoloog",
+                image: "card_c-change_coral-reefs.webp",
+                story: "Te suhtute tuumaenergiasse täiesti negatiivselt ja loomulikult ei näe te ette uute tuumarajatiste võimalust. Pooldate taastuvenergiat, isegi kui teate, et need mõjutavad samuti keskkonda. Olete kõigi riigi tuumaelektrijaamade ja tuumajäätmejaamade sulgemise poolt.",
+                story2: "Peate otsima tõendeid looduse ja keskkonna säilitamise ning taastuvenergia poolt ning tuumaenergia vastu."
+            },
+            {
+                title: "Opositsioonipoliitik",
+                image: "card_c-change_polar-bears.webp",
+                story: "Opositsioonipoliitikuna on teil  valimishuvid ning seega olete oma poliitilise vastase vastu. Teie erakond toetab taastuvenergiat kui alternatiivi traditsioonilistele energiaallikatele ja tuumaenergiale, väites, et energiasõltuvust teistest riikidest on võimalik vähendada. Siiski arvate, et kõigi tuumaelektrijaamade kiire sulgemine ei ole otstarbekas. Samuti väidate, et tekkivaid tuumajäätmeid tuleks käidelda (mis võib olla riigi jaoks majanduslikult kasulik), mistõttu ei ole te täielikult tuumajäätmehoidlate hoidlate rajamise vastu.",
+                story2: "Otsige argumente tuumaenergia vastu ja taastuvate energiaallikate poolt, et astuda vastu oma poliitilisele vastasele."
+            },
+            {
+                title: "Taastuvenergia teadlane",
+                image: "card_c-change_turtles.webp",
+                story: "Olete taastuvenergia ekspert ja veendunud, et riigi energiavajadust on võimalik rahuldada ainuüksi alternatiivsete energiaallikatega, ilma et oleks vaja kasutada tuumaenergiat. Olete tuumajaamade ja -hoidlate rajamise vastu, kuigi te ei poolda olemasolevate sulgemist kui energia üleminekuvarianti säästvama mudeli suunas.",
+                story2: "Peate otsima teaduslikke argumente veenmaks, et riiki on võimalik varustada ainult taastuvenergiaga."
+            },
+            {
+                title: "Tuuleenergia ettevõtja",
+                image: "card_c-change_floods.webp",
+                story: "Olete tuumaenergia kasutamise vastu ja soovite müüa oma projekti tuumaelektrijaamade asendamiseks loodava avamere tuulepargiga. Teid juhivad majanduslikud ja ärihuvid ning väidate, et taastuvenergia on täiesti keskkonnasõbralik.",
+                story2: "Peate otsima majandus-, töö- ja keskkonnatõendeid, mis toetaksid tuumaenergia kasutamise vastast seisukohta."
+            }
+        ],
+        infoCards : [
+            {
+                title: "Väljakutsed",
+                story: "Tuumatööstusel on kolm peamist väljakutset, mis takistavad tema täielikku panust säästvasse arengusse ja kliimamuutustega võitlemisse: rahastamine, avalik arvamus ja reguleerimine. Tuumasektor peab olema osa “rohelise rahastamise klassifikaatoritest”. Poliitikakujundajad ja avalikkus on üha enam tunnustanud tuumaenergia vähese CO₂-heitega omadusi ja kõrget töökindlust. Reaktorite projekteerimise litsentsimine peab toimuma riigipiiride üleselt."
+            },
+            {
+                title: "Ühe riigi (USA) näide",
+                story: "USA-s on viimastel aastatel päästetud ligi 20 reaktorit tarbetust enneaegsest sulgemisest – sulgemised ei suurendaks mitte üksnes kasvuhoonegaaside emissiooni, vaid ka energiasõltuvust ja põhjustaksid surmava õhusaaste. Praeguse reaktoripargi eluea pikendamist nii kaua kui võimalik peetakse eluliselt oluliseks ka paljude kohalike kogukondade jaoks, kelle majandus sõltub nendest reaktoritest."
+            },
+            {
+                title: "Peatage globaalne soojenemine",
+                story: "Temperatuuritõusu eesmärgi (1,5 °C) täitmine kulutõhusal ja sotsiaalselt õiglasel viisil nõuab palju suurema hulga tuumaenergia kiiret kasutuselevõttu. Tuumaenergia on hädavajalik õhusaasteainete ja kasvuhoonegaaside heitkoguste vähendamiseks, et tagada üleminek vähese CO₂-heitega tulevikule. Samuti, et see toimuks õiglasel moel pakkudes inimestele üle maailma energia ja jätkusuutlik tulevik."
+            },
+            {
+                title: "Dekarboniseerimine",
+                story: "(süsihappegaasiheitmest vabastamine) Tuumaenergia võimaldab massiliselt kiiret dekarboniseerimist ja seda on tõestatud. Tuumatehnoloogiad võivad toota elektrit nii suurtele võrkudele kui ka väikestele kogukondadele, pakkudes kaugkütet ja -jahutust, varustades tööstust protsessisoojust, tootdes vesinikku ja palju muud. See on ainuke energiaallikas, mis suudab toota vähese CO2-heitega elektrit ja vähese süsinikdioksiidiheitega soojust, see võib olla mängumuutus kogu maailmamajanduse süsihappegaasist vabastamisel."
+            },
+            {
+                title: "Jätkusuutlikkus",
+                story: "Maailma säästva arengu vajaduste rahuldamiseks tuleb 2050. aastaks paigaldada rohkem kui 1200 GW tuumaenergiat. See tähendab 30 uue reaktori ehitamist aastas. Seda on varemgi tehtud, aga tänaseks pole me veel sellele tasemele jõudnud."
+            },
+            {
+                title: "Uued arengud",
+                story: "On vaja kiirendada väikeste modulaarsete reaktorite (SMR) ja kõrgtehnoloogiliste tuumatehnoloogiate väljatöötamist ja kasutuselevõttu. SMR-idel ja täiustatud tuumaenergialahendustel on oluline roll tuumasektori edasisel mitmekesistamisel ning tuumaenergia toomisel uute turgude ja rakenduste jaoks."
+            },
+            {
+                title: "Kiirgus on meie elu loomulik osa",
+                story: "Me kõik puutume iga päev kokku kiirgusega, saades keskmiselt 2-3 millisiivertit (mSv) aastas. Suurem osa sellest kiirgusest pärineb radoonist. Tuumatööstus vastutab väga väikese osa inimeste  kiirgusega kokkupuute eest. Tuumaelektrijaama läheduses elamine ohustab kohalikku elanikkonda keskmiselt 0,00009 mSv aastas. Seda perspektiivi silmas pidades annab 10 banaani või kahe brasiilia pähkli söömine sama kiirgusdoosi, kui elades aasta aega tuumajaama läheduses. Inimene on ka oma olemuselt radioaktiivne ja ühe aasta jooksul kellegi teise kõrval magamisel tekkiv kiirgusdoos on kümme korda suurem kui sama aja jooksul tuumajaama läheduses elades saadav kiiritus."
+            },
+            {
+                title: "Õhusaaste põhjustatud suremus",
+                story: "Fossiilkütused moodustavad praegu ligikaudu 80% kogu energiavarustusest, mis põhjustab nii kasvuhoonegaaside kui ka õhusaasteainete heitkoguseid. Õhusaaste tõttu sureb maailmas enneaegselt üle 8,5 miljoni inimese."
+            },
+            {
+                title: "Surmavad õnnetused",
+                story: "Hüdroenergia on surmavaim elektritootja, seda peamiselt tammide kokkuvarisemise ja üleujutuste tagajärgede tõttu. Banqiao tammi purunemine Hiinas 1975. aastal viis vähemalt 26 000 inimese uppumiseni ja õnnetuse teiseste tagajärgede tõttu hukkus kuni 150 000 inimest. Võrdluseks põhjustas Tšernobõli järgne kiirgusega kokkupuude 54 surmaga (sh 28 tuletõrjujat, kes puutusid õnnetuse ööl kokku surmava koguse kiirgusega, ja 15 surmaga lõppenud kilpnäärme- vähi juhtumit), samas kui kiirguse tõttu kannatanuid tõenäoliselt ei olnud Fukushima tuumaelektrijaama õnnetuses Jaapanis."
+            },
+            {
+                title: "Radoon",
+                story: "Radioaktiivse radooni sissehingamine on kopsuvähi peamine põhjus kogu maailmas ja on inimese ehitatud keskkonna tagajärg. Radoon-222 (222Rn) ja selle lagunemissaaduste, nagu poloonium (218Po) ja (214Po) alfaosakeste ioniseeriv kiirgus kahjustab kopsurakkude DNA-d, tekitades vähi teket soodustavaid geneetilisi mutatsioone. Radooni ja selle saadusi - alfaosakesi mõõdetakse bekerellides (Bq) kuupmeetri (m³) kohta, mis võrdub ühe osakese emissiooniga sekundis kuupmeetri õhu kohta. 100 Bq/m³ tähistab kokkupuudet, mille ületamisel on suurenenud suhteline eluaegne risk haigestuda kopsuvähki; statistiliselt oluliselt suureneb kopsuvähi suhteline risk kogu elu jooksul 16%3 pikaajalise radooniga kokkupuute tõttu."
+            },
+            {
+                title: "Tuumajäätmehoidlad",
+                story: "Rootsi valitsus kiitis 2022. aasta jaanuaris heaks Rootsi tuumaelektrijaamade radioaktiivsete jäätmete Rootsi lõpphoidla (tuumakalmistu) arendamise, hoolimata sõltumatute teadlaste suurest kriitikast. Juhtumit nimetatakse Rootsi kõigi aegade suurimaks keskkonnajuhtumiks, kuna kasutatud tuumkütust tuleks ohutult säilitada vähemalt 100 000 aastat."
+            },
+            {
+                title: "Prantsusmaa näide",
+                story: "Tuumaenergia moodustab peaaegu 75% Prantsusmaa elektritoodangust. 2022. aasta veebruaris teatas Prantsusmaa, et ehitab kuus uut tuumareaktorit, kaalub veel kaheksa ehitamist ja jätkab väikeste modulaarsete reaktorite arendamist. Samuti tuleks laiendada kõigi olemasolevate reaktorite tööd, ilma et see kahjustaks ohutust."
+            },
+            {
+                title: "Uued arengud",
+                story: "Maailma esimene kõrge temperatuuriga gaasjahutusega reaktor (HTGR) on Hiinas võrku ühendatud. HTGR-i kasutatakse elektritootmiseks, soojusvarustuseks, merevee magestamiseks jne. Hiina kavatseb kiirendada HTGR-tehnoloogia massilist kasutuselevõttu, luues samas arenenud tuumatööstuse."
+            },
+            {
+                title: "Greenpeace",
+                story: "Greenpeace väidab, et tuumaenergia maksaks liiga palju, et tarnida liiga vähe ja liiga hilja, suurendades samas ohtu ülemaailmsele julgeolekule. Greenpeace juhib tähelepanu tuumaenergia suurtele investeeringutele, regulaarsetele kulude ületamisele, pikkadele ehitusperioodidele, tohututele toetustele, tegevusriskidele, radioaktiivsete jäätmete tootmisele ja julgeoleku- probleemidele, mis on seotud tuumarelvade leviku ja terrorismiga."
+            },
+            {
+                title: "Ioniseeriv kiirgus",
+                story: "Ioniseeriv kiirgus võib kahjustada eluskudesid, muutes rakustruktuuri ja kahjustades DNA-d. Kahju suurus sõltub kiirguse liigist, kokkupuute rajast, kiirguse energiast ja neeldunud kiirguse koguhulgast. Väikese või isegi mõõduka kokkupuute mõju ei pruugi olla märgatav. Enamik rakukahjustusi on paranevad.  Kuid mõned rakud ei pruugi taastuda nii hästi kui teised ja võivad kahjustuda või muutuda vähkkasvajaks. Lapsed on ioniseeriva kiirguse suhtes tundlikumad kui täiskasvanud, sest lapsed on alles kasvamisjärgus. Seal on rohkem rakke jagunemas ja kiirgusel suurem võimalus  kasvuprotsessi häirida."
+            },
+            {
+                title: "Meditsiiniline kiirgus",
+                story: "Meditsiiniline kiirgus (röntgen) tekitab pildi, mis aitab leida luumurrud, kasvajad ja võõrkehad kehas ning seda kasutatakse ka kompuutertomograafias (CT-skaneeringud), mammograafias ja fluoroskoopias. Meditsiinilises röntgenikiirguses, hambaröntgenis ja mammogrammis kasutatakse suhteliselt väikeses koguses ioniseerivat kiirgust. CT-skaneerimine ja fluoroskoopilised protseduurid toovad kaasa suuremad kiirgusdoosid, kuna on vaja teha mitu pilti ja/või on pikem kokkupuuteaeg. CT-skaneerimine kiirgab kehale kuni mitusada korda rohkem kiirgust kui tavaline röntgenikiirgus."
+            },
+            {
+                title: "Riski tajumine",
+                story: "Märkimisväärne hulk psühholoogilisi uuringuid, mille eesmärk on mõista, miks me sageli ignoreerime mõningaid statistiliselt suurimaid riske (nt autojuhtimine, suitsetamine), samas kui kardame mõnda kõige väiksemat (nt tuumaenergia), on jõudnud järeldusele, et sellised tegurid nagu emotsioonid, vaimsed kujutluspildid ja usaldus, on riskide hindamisel kesksel kohal. Vähesed riskid kutsuvad esile nii tugeva vastuse kui kiirgus, eriti kui see on seotud tuumaenergiaga, seda suuresti tänu selle nähtamatusele, seostele vähiga ja meedias kuvatavatele piltidele."
+            },
+            {
+                title: "Tuumaenergia",
+                story: "Tuumatööstus väidab, et tuumaenergia kui vähese süsinikdioksiidiheitega allikas peab olema osa energiaallikate valikust ja lahendusest. Tuumaenergia on maailma üha kasvava energianõudluse rahuldamiseks ülioluline tänu selle võimele pakkuda taskukohast, usaldusväärset ja säästvat elektrit ja soojust. Vaatamata tuumaenergia paljudele eelistele, on selle kasutuselevõtt mõnes maailma paigas takistatud pikaajaliste väärarusaamade tõttu selle riskide kohta. Isegi selle ohutusrekordi juures – millele pole võrreldav ükski teine ​​energiaallikas – jääb tuumaenergia ainuohtlikkuse tajumine püsima. Inimesi tuleb harida tuumaenergia riskide ja eeliste kohta."
+            },
+            {
+                title: "Kiirgusfoobia",
+                story: "Vaadeldes kiirgusriske eraldiseisvalt, oleme loonud midagi kiirgusfoobia sarnast, mis nii otseselt kui ka kaudselt kahjustab inimesi kogu maailmas. Näiteks on hästi tõestatud, et suurem osa Tšernobõli ja Fukushima Daiichi tervisemõjudest ei olnud radioloogilised, vaid pigem psühhosotsiaalsed. on täheldatav ja järsult suurenenud depressioon, PTSH (posttraumaatiline stressihäire), ainete kuritarvitamine ja enesetappude arv, mida võib olulisel määral seostada ebakõlaga  tegelike ja tajutavate kiirgusriskide ning nende stigmatiseerimise vahel."
+            },
+            {
+                title: "Kiirgusallikad",
+                story: "Inimpopulatsioon puutub pidevalt kokku mitmest looduslikust allikast pärineva ioniseeriva kiirgusega, mille võib liigitada kahte suurde kategooriasse: suure energiaga kosmilised kiired, mis langevad Maa atmosfääri ja eraldavad sekundaarset kiirgust (kosmiline panus); ja Maa tekke käigus tekkinud radioaktiivsed nukliidid, mis on siiani maakoores (maapealne panus). Maapealne panus koosneb peamiselt uraani ja tooriumi lagunemisahelate radionukliididest koos radioaktiivse kaaliumiga. Enamikul juhtudel on radoon, uraani radioaktiivsel lagunemisel tekkiv väärisgaas, kõige olulisem kiirgusega kokkupuude."
+            },
+            {
+                title: "Pärast Tšernobõli",
+                story: "Tšernobõli avarii mõjude uuringud on näidanud, et esialgsed hirmud kiirgusmõjude ees olid tugevalt liialdatud. Lisaks 38 kiirabitöötajate surmale õnnetuse varajases staadiumis on kilpnäärmevähi tõttu surnud 16 inimest, kuid muidu pole sagenenud haigestumine vähkkasvajatesse,  leukeemiasse  ega esinenud  suguelundite väärarenguid ning pärilikke tagajärgi. Inimeste evakueerimise ja mitme miljoni elaniku Tšernobõli ohvrite nimekirja kandmise otsused olid põhjendamatud ja seda ei tehtaks praeguste teadmiste valguses."
             }
         ]
       }

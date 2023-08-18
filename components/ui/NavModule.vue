@@ -5,10 +5,10 @@
             :class="activePart == 'teacher' ? 'border-b-4 border-b-slate-700 py-3' : ''">
                 <span class="uppercase text-sm leading-none">{{ t('modules.for_teachers') }}</span>  
             </a>
-            <a :href="`/${activeModule}/student`" class="flex items-center gap-2 font-bold transition-all"
+            <NuxtLink :to="`/${activeModule}/student`" class="flex items-center gap-2 font-bold transition-all"
             :class="activePart == 'student' ? 'border-b-4 border-b-slate-700 py-3' : ''">
                 <span class="uppercase text-sm leading-none">{{ t('modules.for_students') }}</span>
-            </a>
+            </NuxtLink>
             <a :href="`/${activeModule}/background`" class="flex items-center gap-2 font-bold transition-all"
             :class="activePart == 'background' ? 'border-b-4 border-b-slate-700 py-3' : ''">
                 <span class="uppercase text-sm leading-none">{{ t('modules.background_info') }}</span>  

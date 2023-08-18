@@ -232,7 +232,7 @@
             </p>
 
             <div class="md:grid md:grid-cols-2 gap-4">
-                <div class="border-4 border-blue-400 rounded-lg p-3  text-center">
+                <div class="border-4 border-green-400 rounded-lg p-3  text-center">
                     <h4 class="my-2">
                         Position 1: In favour
                     </h4>
