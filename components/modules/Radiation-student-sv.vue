@@ -350,15 +350,15 @@
 
             <UiCardInfo>
                 <div>
-                    <p>Siin võtavad kaardid ruumi just nii palju kui on vaja brauseri aknasse sobitumiseks <b>Kui soovid kaarte välja printida, on seda parem teha eraldi printimise vaates.</b></p>
+                    <p>Här passar korten in i sidlayouten och tar så lite plats som deras inre innehåll kräver. Så detta är bara en förhandstitt. <b>Om du vill se korten som spelkort i normal storlek och skriva ut dem, vänligen öppna den speciella sidan för "kortvy".</b></p>
                     
-                    <a to="../tools/cards/radiation" target="_blank" 
+                    <NuxtLink to="../tools/cards/radiation" target="_blank" 
                     class="mb-3 px-4 py-2 inline-flex items-center gap-2 
                     bg-sky-600 text-md rounded text-white no-underline uppercase transition
                     hover:bg-sky-700
                     print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Ava prinditavad kaardid
-                    </a> (uues aknas)
+                        <icon name="material-symbols:print-outline-rounded" /> Öppna utskrivbara kort 
+                    </NuxtLink> (ny flik)
                 </div>
             </UiCardInfo>
 

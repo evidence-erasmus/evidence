@@ -346,8 +346,8 @@
                     bg-sky-600 text-md rounded text-white no-underline uppercase transition
                     hover:bg-sky-700
                     print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
-                    </nuxt-link> (new tab)
+                        <icon name="material-symbols:print-outline-rounded" />Öppna utskrivbara kort
+                    </nuxt-link> (ny flik)
                 </div>
             </UiCardInfo>
 

@@ -6,7 +6,7 @@
         rounded-lg shadow-md break-inside-avoid 
         print:shadow-none" 
         :class="props.border"
-        style="hyphens: auto;"
+        style="hyphens:auto;"
     >
         <div v-if="props.image" 
             :style="`background:url(https://evidence.onkel.ee/assets/cards/${props.image}); background-size:cover; background-position:50% 50%;`" 
@@ -21,7 +21,8 @@
         </h3>
 
         <p 
-        class="text-[9pt] m-0 leading-tight text-justify px-[4mm] pb-[4mm] pt-[2mm]
+        class="text-[9pt] m-0 leading-tight text-justify 
+        px-[4mm] pb-[4mm] pt-[2mm]
         print:font-sans" 
         style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">
             {{ props.story }}
