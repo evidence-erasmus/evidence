@@ -34,23 +34,33 @@
 </template>
 
 <i18n lang="json">
-    {
-      "en": {
+{
+    "en": {
         "title-1" : "Role playing card game",
         "button-title" : "PRINT",
         "button-note" : "- or save as pdf"
-    },
+        },
     "et": {
         "title-1" : "Rollimäng",
         "button-title" : "PRINDI",
         "button-note" : "- või salvesta pdf-ina"
     },
     "el": {
-        "title-1" : "Role playing card game EL",
-        "button-title" : "PRINDI",
-        "button-note" : "- või salvesta pdf-ina"
-      }
+        "title-1" : "Παιχνίδι καρτών ρόλων",
+        "button-title" : "Εκτύπωση",
+        "button-note" : "- ή αποθήκευση ως pdf"
+    },
+    "pt": {
+        "title-1" : "Jogo de cartas role play",
+        "button-title" : "Imprima",
+        "button-note" : "- ou salve como pdf"
+    },
+    "sv": {
+        "title-1" : "Rollspel kortspel",
+        "button-title" : "SKRIV UT",
+        "button-note" : "- eller spara som pdf"
     }
+}
 </i18n>
 
 <script setup>

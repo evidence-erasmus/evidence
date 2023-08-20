@@ -60,7 +60,7 @@ export default defineNuxtConfig({
                 code: 'sv',
                 iso: 'sv_SE',
                 name: 'Swedish',
-                file: 'sv.main.js'
+                files: ['sv.main.js', 'sv.inquiry.js']
             },
         ],
         lazy: true,

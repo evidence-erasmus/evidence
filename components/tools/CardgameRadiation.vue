@@ -1,6 +1,6 @@
 <template>
     <div >
-        <h2 class="mt-8">{{ t('roleCardsFavourTitle') }}</h2>
+        <h2 class="mt-8 text-2xl">{{ t('roleCardsFavourTitle') }}</h2>
         
         <section class="mb-10 mt-5 
             print:flex print:flex-wrap print:gap-2"
@@ -11,11 +11,26 @@
                 :title="rt(cardR.title)" :story="rt(cardR.story)" :label="`${t('roleCardsLabel')} ${i+1}`" border="border-green-400"
                 :image="rt(cardR.image)" 
                 :class="dynStyles"
-            />
+            >
+                <p 
+                    class="text-[9pt] m-0 leading-tight text-justify 
+                    px-[4mm] pb-[1mm] -mt-[3mm]
+                    print:font-sans" 
+                    style="hyphens:auto;">
+                    {{rt(cardR.story)}}
+                </p>    
+                <p 
+                    class="text-[9pt] m-0 leading-tight text-justify 
+                    px-[4mm] py-[1mm]
+                    print:font-sans" 
+                    style="hyphens:auto;">
+                    {{rt(cardR.story2)}}
+                </p>    
+            </ToolsCardgameCard>
 
         </section>
 
-        <h2 class="mt-8">{{ t('roleCardsAgainstTitle') }}</h2>
+        <h2 class="mt-8 text-2xl">{{ t('roleCardsAgainstTitle') }}</h2>
         
         <section class="mb-10 mt-5 
             print:flex print:flex-wrap print:gap-2"
@@ -26,10 +41,25 @@
                 :title="rt(cardR.title)" :story="rt(cardR.story)" :label="`${t('roleCardsLabel')} ${i+1}`" border="border-red-400"
                 :image="rt(cardR.image)" 
                 :class="dynStyles"
-            />
+            >
+                <p 
+                    class="text-[9pt] m-0 leading-tight text-justify 
+                    px-[4mm] pb-[1mm] -mt-[3mm]
+                    print:font-sans" 
+                    style="hyphens:auto;">
+                    {{rt(cardR.story)}}
+                </p>    
+                <p 
+                    class="text-[9pt] m-0 leading-tight text-justify 
+                    px-[4mm] py-[1mm]
+                    print:font-sans" 
+                    style="hyphens:auto;">
+                    {{rt(cardR.story2)}}
+                </p>    
+            </ToolsCardgameCard>
         </section>
     
-        <h2 class="print:break-before-page">{{ t('infoCardsTitle') }}</h2>
+        <h2 class="print:break-before-page text-2xl">{{ t('infoCardsTitle') }}</h2>
 
         <section class="mb-10 mt-5 
             print:flex print:flex-wrap print:gap-2"
@@ -39,7 +69,15 @@
                 :title="rt(cardI.title)" :story="rt(cardI.story)" :label="`${t('infoCardsLabel')} ${i+1}`"
                 border="border-blue-500"
                 :class="dynStyles"
-            />
+            >
+                <p 
+                    class="text-[9pt] m-0 leading-tight text-justify 
+                    px-[4mm] pb-[2mm] -mt-[3mm]
+                    print:font-sans" 
+                    style="hyphens:auto;">
+                    {{rt(cardI.story)}}
+                </p>   
+            </ToolsCardgameCard>
         </section>
 
     </div>
@@ -208,6 +246,10 @@
             {
                 title: "Radiation phobia",
                 story: "By looking at radiation risks in isolation, we have created something akin to a “radiation phobia” that both directly and indirectly harms people worldwide. For instance, it is well established that the vast majority of Chernobyl and Fukushima Daiichi health impacts were not radiological but rather psychosocial. There has been an observable and dramatic increase in depression, PTSD, substance abuse, and suicides following these events, which can be significantly attributed to the dissonance between the actual and perceived risks of radiation and the stigmatisation they caused."
+            },
+            {
+                title: "Effects of fossil fuels",
+                story: "The historical use of fossil fuels has contributed significantly to climate change through greenhouse gas emissions, causing unprecedented changes in the liveability of the Earth. By 2025, half of the world’s population will live in water-stressed areas, as extreme heat and droughts exacerbate water resources. Between 2030 and 2050, climate change is expected to cause an additional 250,000 deaths yearly from malnutrition, malaria, diarrhoea and heat stress. Yet, despite the enormous risks associated with climate change, our addiction to coal, oil, and fossil gas remains, with fossil fuels providing 84% of global primary energy in 2019. Household and ambient air pollution, causing 8.7 million deaths yearly due to the continued use of fossil fuels. Currently, 770 million people worldwide do not have access to electricity, with over 75% of that population living in Sub-Saharan Africa."
             },
             {
                 title: "Radiation sources",
@@ -571,9 +613,9 @@
     pt: {
         roleCardsFavourTitle : "Papéis a favor da Posição 1",
         roleCardsAgainstTitle : "Papéis a favor da Posição 2",
-        infoCardsTitle : "Info kort",
+        infoCardsTitle : "Cartões de informação",
         roleCardsLabel : "Papel",
-        infoCardsLabel : "Info",
+        infoCardsLabel : "Informação",
         roleCardsFavour : [
             {
                 title: " Político do governo",

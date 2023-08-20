@@ -12,7 +12,7 @@
             :style="`background:url(https://evidence.onkel.ee/assets/cards/${props.image}); background-size:cover; background-position:50% 50%;`" 
             class="h-[42mm] mb-0 w-full" >
         </div>
-        <div v-else class="h-[24mm]"></div>
+        <div v-else class="h-[14mm]"></div>
 
         <h3 v-if="props.title" 
         class="bg-white text-center text-[13pt] leading-tight mt-0 mb-0 px-[2mm] py-[0.5mm] rounded-t"
@@ -20,13 +20,15 @@
             {{ props.title }}
         </h3>
 
-        <p 
+        <!-- <p 
         class="text-[9pt] m-0 leading-tight text-justify 
         px-[4mm] pb-[4mm] pt-[2mm]
         print:font-sans" 
         style="hyphens:auto; hyphenate-limit-chars: 5 2 2;">
             {{ props.story }}
-        </p>
+        </p> -->
+
+        <slot />
         
         <div v-if="props.label" 
         class="absolute top-0 left-[3mm] text-[8pt] bg-white px-1 rounded-b shadow">

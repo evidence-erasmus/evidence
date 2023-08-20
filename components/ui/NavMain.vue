@@ -2,7 +2,7 @@
     <nav class="flex gap-5">
         <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1">{{t('menu.about')}}</NuxtLink>
         <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1"
-        :class="route.name.includes('viruses') || route.name.includes('climate-change') ? 'router-link-active router-link-exact-active' : ''"
+        :class="isActiveClass"
         >{{t('menu.modules')}}</NuxtLink>
     </nav>
 </template>
@@ -13,10 +13,19 @@
     })
     const localePath = useLocalePath()
     const route = useRoute();
-    // console.log(route);
-    // const availableLocales = computed(() => {
-    //     return (locales.value).filter(i => i.code !== locale.value)
-    // })
+    
+    const isActiveClass = computed(() => {
+        if(
+            route.name.includes('viruses') || 
+            route.name.includes('climate-change') ||
+            route.name.includes('radiation') ||
+            route.name.includes('drugs') ||
+            route.name.includes('space') ||
+            route.name.includes('evolution')
+             ){
+            return 'router-link-active router-link-exact-active'
+        }
+    })
     
 </script>
 

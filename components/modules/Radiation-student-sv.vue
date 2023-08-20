@@ -155,10 +155,10 @@
             
                     <TabPanels class="mt-2">
                         <TabPanel class="focus:outline-none">
-                            <ModulesRadiationStudentActivity3aEt />
+                            <ModulesRadiationStudentActivity3aSv />
                         </TabPanel>
                         <TabPanel class="focus:outline-none">
-                            <ModulesRadiationStudentActivity3bEt />
+                            <ModulesRadiationStudentActivity3bSv />
                         </TabPanel>
                     </TabPanels>
                 </TabGroup>
