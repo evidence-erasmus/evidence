@@ -21,6 +21,9 @@ export const useStudentInputStore = defineStore("student", {
             activity3aPlan: [
                ["independent variable", "dependent variable", "control variables"]
             ],
+            activity3aVariables: [
+                ["", "", ""]
+            ],
             activity3aResults: "",
             activity3aConclusion: "",
             activity3aSecondary: "",
@@ -30,7 +33,7 @@ export const useStudentInputStore = defineStore("student", {
             activity3bHypothesis: "",
             activity3bPlan: "",
             activity3bReliability: [
-                [" "," ","?"," "]
+                ["", "", "0", ""]
             ],
             activity3bConclusion: "",
             activity3bStatement: "",
