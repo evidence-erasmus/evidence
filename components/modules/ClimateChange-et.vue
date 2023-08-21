@@ -359,7 +359,7 @@
             <p><b>Kujundav hindamine:</b></p>
             <ul>
                 <li>Õpetaja suuline/kirjalik tagasiside (vaatluste, esitatud küsimuste jms põhjal) kogu mooduli vältel, katsete ning muude individuaalsete/rühmatööde käigus.</li>
-                <li>Kaaslaste tagasiside (rühmaesitluse kohta <nuxt-link to="../tools/peerfeedback" target="_blank">tagasiside tööriista</nuxt-link> abil).</li>
+                <li>Kaaslaste tagasiside (rühmaesitluse kohta <NuxtLink :to="localePath('/tools/PeerFeedback')" target="_blank">tagasiside tööriista</NuxtLink> abil).</li>
             </ul>
             
             <p><b>Kokkuvõttev hindamine:</b></p>
@@ -382,7 +382,7 @@
             <h2 id="section-7">Õpetamissoovitused</h2>
 
             <p>
-                Moodul algab sissejuhatavast videost, mis avab mõned müüdid kliimamuutuste kohta, et tõstatada õpilastes küsimusi, mitte anda neile koheseid vastuseid. Loodetavasti on õpilased pärast video vaatamist <b>(Tegevus 1)</b> sisemiselt motiveeritud uurima ühte müüti põhjalikumalt. Eesmärk on kaasata õpilasi tegevustesse, mis peaksid viima probleemi parema mõistmiseni. See peaks ühtlasi panema õpilasi mõtlema oma eelteadmiste üle ning jagama oma arusaamu ja mõtteid kaaslastega <b>(Tegevus 2)</b>. Samuti saab selleks kasutada valitud peatükke <nuxt-link to="climate-change/background">teadusliku taustainfo</nuxt-link> lehelt.
+                Moodul algab sissejuhatavast videost, mis avab mõned müüdid kliimamuutuste kohta, et tõstatada õpilastes küsimusi, mitte anda neile koheseid vastuseid. Loodetavasti on õpilased pärast video vaatamist <b>(Tegevus 1)</b> sisemiselt motiveeritud uurima ühte müüti põhjalikumalt. Eesmärk on kaasata õpilasi tegevustesse, mis peaksid viima probleemi parema mõistmiseni. See peaks ühtlasi panema õpilasi mõtlema oma eelteadmiste üle ning jagama oma arusaamu ja mõtteid kaaslastega <b>(Tegevus 2)</b>. Samuti saab selleks kasutada valitud peatükke <NuxtLink :to="localePath('/climate-change/background')">teadusliku taustainfo</NuxtLink> lehelt.
             </p>
 
             <p>Tegevuses 2 peavad õpilased oma valitud müüdi kitsendama hüpoteesiks/uurimisküsimuseks, mida saab ümber lükata /kinnitada / millele saab vastata</p>
@@ -432,6 +432,15 @@
         </section>
     </div>
 </template>
+
+
+<script setup>
+
+const localePath = useLocalePath();
+
+</script>
+
+
 
 <style scoped>
    .e-flow__chart {

@@ -296,7 +296,7 @@
             <p><b>Formativ:</b></p>
             <ul class="leading-tight">
                 <li>Muntlig / skriftlig återkoppling från läraren (baserad på observationer, ställda frågor etc.) under hela modulen, under experimenten och andra former av individuellt/grupparbete.</li>
-                <li>Självvärdering och kamratåterkoppling  på gruppresentationen med hjälp av följande <nuxt-link to="../tools/peerfeedback" target="_blank">verktyg</nuxt-link>.</li>
+                <li>Självvärdering och kamratåterkoppling  på gruppresentationen med hjälp av följande <nuct-link to="../tools/peerfeedback" target="_blank">verktyg</nuct-link>.</li>
                 <li>Muntlig / skriftlig feedback från läraren på individuella / grupparbetsblad.</li>
             </ul>
             
@@ -321,13 +321,13 @@
 
             <p>Modulen utgår från en introduktionsvideo för att öppna upp ämnet "Virus" och för att väcka ytterligare frågor hos elever istället för att ge dem omedelbara svar. Det förväntas att elever i grupper efter att ha sett <a href="https://youtu.be/t4v-36h2noo" target="_blank" rel="noopener noreferrer">videon</a> (<b>Aktivitet 1</b>) känner sig motiverade att undersöka virusrelaterade myter och föreställningar mer ingående. En avsikt är att engagera eleverna i aktiviteter som leder till en bättre förståelse av frågan – en fråga som eleverna ser som relevant för deras liv, inte bara relevant för kursplanen. Aktiviteterna  uppmuntrar eleverna att ta vara på sina förkunskaper och dela sina föreställningar och åsikter med klasskamrater <b>(Aktivitet 2)</b>. Inom Aktivitet 2 introduceras eleverna för 10 myter om virus, vaccination och maskbärande, från vilka de måste välja en för at analysera. Aktivitet 2 ska hjälpa eleverna att begränsa sin valda myt till en hypotes / forskningsfråga som kan motbevisas /bekräftas/besvaras <b>(Aktivitet 3)</b>. Det kan vara så att elever behöver hjälp med det. Därför skulle läraren kunna hjälpa dem med exempel på bra (t.ex. testbara) och dåliga hypoteser/frågor innan de själva ska formulera egna hypoteser. Följande <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">resurs</a> kan vara till hjälp för det.</p>
             
-            <p><a href="https://youtu.be/eMAn2mfqR3A" target="_blank" rel="noopener noreferrer">"Faktavideon"</a> kan också demonstreras i detta steg för att påminna om de tidigare studerade (t.ex. tidigare under detta läsår eller tidigare läsår) virusrelaterade koncept och principer. Dessutom kan utvalda kapitel från <nuxt-link to="/viruses/background">vetenskaplig bakgrundsinformation</nuxt-link> användas för detta ändamål.</p>
+            <p><a href="https://youtu.be/eMAn2mfqR3A" target="_blank" rel="noopener noreferrer">"Faktavideon"</a> kan också demonstreras i detta steg för att påminna om de tidigare studerade (t.ex. tidigare under detta läsår eller tidigare läsår) virusrelaterade koncept och principer. Dessutom kan utvalda kapitel från <nuct-link to="/viruses/background">vetenskaplig bakgrundsinformation</nuct-link> användas för detta ändamål.</p>
 
             <p>Vidare kan <b>aktivitet 3</b> genomföras på två olika sätt:</p>
 
             <h3>1. baserat på experiment</h3>
 
-            <p>Eleverna väljer en myt som kan testas experimentellt. Från de angivna myterna (se <nuxt-link to="/viruses/student#activity-2">Aktivitet 2</nuxt-link>) kan endast Myt 9 och 10 vara lämpliga för detta ändamål.</p>
+            <p>Eleverna väljer en myt som kan testas experimentellt. Från de angivna myterna (se <nuct-link to="/viruses/student#activity-2">Aktivitet 2</nuct-link>) kan endast Myt 9 och 10 vara lämpliga för detta ändamål.</p>
 
             <h4 class="text-rose-400">Myt 9</h4>
 
@@ -352,7 +352,7 @@
             </UiContentImage>
             
                     
-            <p>Före och under hela testet bör eleverna uppmuntras att noggrant tänka igenom hur man kontrollerar de andra variablerna än maskens kvalité. Eleverna bör analysera vilka de potentiella felkällorna är, om och hur de kan undvikas, eller i efterhand efter experimentet, hur de kunde ha undvikits. I slutet av denna aktivitet förväntas det också att eleverna försöker hitta bevis från sekundära källor för att bekräfta sina egna fynd (de genomför även <nuxt-link to="/viruses/student#activity-3ab">aktivitet 3b</nuxt-link> i en förkortat form).</p>
+            <p>Före och under hela testet bör eleverna uppmuntras att noggrant tänka igenom hur man kontrollerar de andra variablerna än maskens kvalité. Eleverna bör analysera vilka de potentiella felkällorna är, om och hur de kan undvikas, eller i efterhand efter experimentet, hur de kunde ha undvikits. I slutet av denna aktivitet förväntas det också att eleverna försöker hitta bevis från sekundära källor för att bekräfta sina egna fynd (de genomför även <nuct-link to="/viruses/student#activity-3ab">aktivitet 3b</nuct-link> i en förkortat form).</p>
             
             
             <h3>2. baserat på sekundära bevis</h3>
@@ -361,7 +361,7 @@
             
             <p>För att lära sig att kommunicera sina resultat guidas eleverna att producera en video av deras experimentella resultat eller en video av deras slutsatser baserat på analys av sekundära källor <b>(Aktivitet 4)</b>. För detta ändamål kan eleverna använda en <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videohandledning</a>. Alternativt kan eleverna göra en poster eller ett bildspel för att presentera sina resultat.</p>
                 
-            <p>Dessutom tillhandahålls elevmaterial med kriterier som videon (poster, etc) ska uppfylla. Dessa kriterier kan användas formativt för självbedömning av elever under processen, och för kamratbedömning när de presenterar videon (poster, etc) och svarar på frågor från sina kamrater och läraren <b>(Aktivitet 5)</b>. Slutligen kan eleverna använda följande <nuxt-link to="../tools/peerfeedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> bedömningsverktyg för</nuxt-link> att ge feedback till de andra grupperna. Läraren kan ge varje grupp sammanfattande feedback på deras videopresentation (förslag: varje grupp kan bara ha tillgång till sin egen feedback, inte till de andras). Läraren kan enkelt komma åt feedbacken från Google Form genom att använda knappen "Svar". Gör en kopia av filen till samma mapp; efter det kan du dela länken till den kopierade filen med dina elever (inte originalfilen!).</p>
+            <p>Dessutom tillhandahålls elevmaterial med kriterier som videon (poster, etc) ska uppfylla. Dessa kriterier kan användas formativt för självbedömning av elever under processen, och för kamratbedömning när de presenterar videon (poster, etc) och svarar på frågor från sina kamrater och läraren <b>(Aktivitet 5)</b>. Slutligen kan eleverna använda följande <nuct-link to="../tools/peerfeedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> bedömningsverktyg för</nuct-link> att ge feedback till de andra grupperna. Läraren kan ge varje grupp sammanfattande feedback på deras videopresentation (förslag: varje grupp kan bara ha tillgång till sin egen feedback, inte till de andras). Läraren kan enkelt komma åt feedbacken från Google Form genom att använda knappen "Svar". Gör en kopia av filen till samma mapp; efter det kan du dela länken till den kopierade filen med dina elever (inte originalfilen!).</p>
 
             <p>I den sista aktiviteten <b>(Aktivitet 6)</b> återgår berättelsen i modulen till introduktionsvideon och de presenterade myterna. Baserat på lärdomarna från de tidigare stadierna, förbereder sig eleverna på att fatta beslut på individ- eller gruppnivå m.h.a. av ett brädspel där de har möjlighet att jämföra och reflektera över sina kunskaper, men också över sina personliga och sociala värderingar. Det finns två teman som kan användas för att spela. Temat "Vaccination" är menat för elever som kan hantera mer information och överväga fler aspekter samtidigt, medan "Bära masker vid övre luftvägsinfektionspandemier" har mindre information att läsa igenom och kan användas av yngre elever eller elever med inlärningssvårigheter. Det finns också en möjlighet att läraren själv kan utelämna några berättelser eller informationskort.</p>
 
@@ -545,12 +545,20 @@
 
             <p>Spelreglerna finns i elevmaterial. Eleverna måste instrueras kort före start för att förstå spelets regler.</p>
             
-            <p>Alla myter backas upp av <nuxt-link to="/viruses/background">Vetenskaplig bakgrundsinformation</nuxt-link> som förklarar den senaste vetenskapen bakom och gör det möjligt för läraren att få en snabb överblick över vetenskapliga frågor som inkluderas i modulen "Virus", men kan också användas som ett läromedel för elever att fräscha upp virusrelaterad kunskap.</p>
+            <p>Alla myter backas upp av <NuxtLink :to="localePath('/viruses/background')">Vetenskaplig bakgrundsinformation</NuxtLink> som förklarar den senaste vetenskapen bakom och gör det möjligt för läraren att få en snabb överblick över vetenskapliga frågor som inkluderas i modulen "Virus", men kan också användas som ett läromedel för elever att fräscha upp virusrelaterad kunskap.</p>
 
 
         </section>
     </div>
 </template>
+
+
+
+
+<script setup>
+    const localePath = useLocalePath();
+</script>
+
 
 <style scoped>
     .card-table td, .card-table th {

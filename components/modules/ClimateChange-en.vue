@@ -374,7 +374,7 @@
             <p><b>Formative:</b></p>
             <ul>
                 <li>Oral/written feedback from the teacher (based on observations, questions asked, etc.) throughout the module, during the experiments, and in other formats of individual / group work.</li>
-                <li>Peer feedback (on the group presentation using the following <nuxt-link to="../tools/peerfeedback" target="_blank">following tool</nuxt-link> and self-assessment after the game).</li>
+                <li>Peer feedback (on the group presentation using the following <NuxtLink to="../tools/peerfeedback" target="_blank">following tool</NuxtLink> and self-assessment after the game).</li>
                 <li>Oral/written feedback from the teacher on individual / group worksheets.</li>
             </ul>
             
@@ -400,7 +400,7 @@
             <p>
                 The module starts with an introductory video opening up a few myths about climate change to raise further questions in students rather than giving them immediate answers. It is expected that after watching the video (Activity 1), students in groups will feel intrinsically motivated to examine one myth in depth. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It draws students' attention to thinking about their prior knowledge and sharing their conceptions and views with peers (Activity 2).
                 <br>
-                Also, selected chapters from <nuxt-link to="/climate-change/background">Scientific background information</nuxt-link> can be used for this purpose. In Activity 2, students have to narrow down their chosen myth into a hypothesis that can be falsified/confirmed.
+                Also, selected chapters from <NuxtLink to="/climate-change/background">Scientific background information</NuxtLink> can be used for this purpose. In Activity 2, students have to narrow down their chosen myth into a hypothesis that can be falsified/confirmed.
             </p>
 
             <p><b>Activity 3</b> is the myth-busting activity. Two alternative options are proposed for implementing Activity 3 (Figure 2).</p>

@@ -53,7 +53,7 @@
             <hr  class="mt-10 mb-40 print:my-10" />
             <h2 id="activity-1">Activity 1: Presentation of the video introduction</h2>
             
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                     <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -70,14 +70,12 @@
                             <Icon name="game-icons:all-seeing-eye" class="text-white" />
                         </div>
                     </template>
-                </ModulesStructure>
+                </ModulesStructure> -->
 
             <p>Please watch the video carefully. Write down your initial thoughts and feelings about the issues presented.</p>
 
             <UiYoutube video="t4v-36h2noo" /> 
             
-            <!-- <label class="text-sm font-bold">Find Activity 1 inWrite your answer here:</label> -->
-            <!-- <textarea rows="3" class="px-4 py-2 border border-slate-400 shadow w-full rounded"></textarea> -->
 
             
 
@@ -96,7 +94,7 @@
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="activity-2">Activity 2: Group discussion</h2>
             
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                     <template #title>Activity 2<br />CHOOSING A MYTH</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -111,7 +109,7 @@
                             <Icon name="game-icons:unicorn" class="text-white" />
                         </div>
                     </template>
-                </ModulesStructure>
+                </ModulesStructure> -->
             
             <p>After watching the video, you are invited to discuss the topic within your group (4-6 members).</p>
             <ol>
@@ -171,7 +169,7 @@
             <hr  class="mt-10 mb-40 print:my-10" />
             <h2 id="activity-3">Activity 3: Mythbusting</h2>
 
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                 <template #title>Activity 3<br />MYTHBUSTING</template>
                 <template #icons>
                     <div class="e-icon--rounded ">
@@ -188,7 +186,7 @@
                         <Icon name="game-icons:horse-head" class="text-white" />
                     </div>
                 </template>
-            </ModulesStructure>
+            </ModulesStructure> -->
 
 
             <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
@@ -270,7 +268,7 @@
 
             <p class="text-sm italic">This game is adopted from, and modified based on the following source: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
 
-            <ModulesStructure>
+            <!-- <ModulesStructure>
                     <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
                     <template #icons>
                         <div class="e-icon--rounded ">
@@ -279,12 +277,11 @@
                         <div class="e-icon--rounded ">
                             <Icon name="game-icons:rolling-dices" class="text-white" />
                         </div>
-                        <!-- <Icon name="mdi:check-bold" /> -->
                         <div class="e-icon--rounded">
                             <Icon name="healthicons:group-discussion-meeting" class="text-white" />
                         </div>
                     </template>
-            </ModulesStructure>
+            </ModulesStructure> -->
 
             <p>In the following activity, you are invited to play a card game with your group/classmates to practice simple, respectful, and fact-based group discussion that is expected to model socio-scientific decision-making processes in our society. The game enables you to explore a topic in-depth in an informal and informative way, reflect on thoughts and opinions that would be difficult to get to and express them in other ways.</p>
             
