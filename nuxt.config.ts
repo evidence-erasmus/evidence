@@ -54,7 +54,7 @@ export default defineNuxtConfig({
                 code: 'pt',
                 iso: 'pt_PT',
                 name: 'Portugese',
-                file: 'pt.main.js'
+                files: ['pt.main.js', 'pt.inquiry.js']
             },
             {
                 code: 'sv',

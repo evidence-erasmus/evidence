@@ -10,10 +10,9 @@
         </div> -->
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label for="3aMyth" class="font-bold block mb-2 leading-tight">Rühma otsus: Me kavatseme hakata ümber lükkama või kinnitama järgmist viirustega seotud müüti
-</label>
+        <label for="3aMyth" class="font-bold block mb-2 leading-tight">Rühma otsus: Me kavatseme hakata ümber lükkama või kinnitama järgmist viirustega seotud müüti</label>
         
-        <textarea id="3aMyth" class="ring-slate-600 ring-1 p-2 rounded block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="abc...✍"></textarea>
+        <textarea id="3aMyth" class="ring-slate-600 ring-1 p-2 rounded block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
         <hr />
 
@@ -40,7 +39,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label for="3aHypothesis" class="font-bold block">Meie hüpotees / uurimisküsimus on:</label>
 
-        <textarea id="3aHypothesis" class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="abc...✍"></textarea>
+        <textarea id="3aHypothesis" class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
 
         <hr />
@@ -89,8 +88,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label for="3aConcl" class="font-bold block">Põhinedes eksperimendi tulemustele jõudsime järgmistele järeldustele:</label>
-        <textarea id="3aConcl" class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="abc...✍"></textarea>
-
+        <textarea id="3aConcl" class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
         <hr />
 
@@ -103,7 +101,7 @@
             Kas muud allikad kinnitasid / toetasid teie poolt saadud tulemusi? Kui ei, siis miks see võib nii olla?<br />
             Katsuge nüüd teha  järeldus valitud müüdi paikapidavuse kohta:
         </p>
-        <textarea id="3aSummary" class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="abc...✍"></textarea>
+        <textarea id="3aSummary" class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
 
     </div>
 </template>

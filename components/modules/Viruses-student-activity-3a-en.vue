@@ -55,19 +55,15 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Define research variables:</label>
 
-        <section>
-            <div class="grid grid-cols-3 gap-2">
-                <p class="text-sm font-bold">Independent variable</p>
-                <p class="text-sm font-bold">Dependent variable</p>
-                <p class="text-sm font-bold">Control variables</p>
-            </div>
-            <div v-for="row, i in studentInputs.activity3a.activity3aPlan" class="grid grid-cols-3 gap-2">
-                <div v-for="variable, j in row"
-                ><input v-model="studentInputs.activity3a.activity3aPlan[i][j]" class="w-full ring-1 ring-slate-300 px-1 rounded text-ellipsis overflow-hidden focus:bg-amber-50" placeholder="abc...✍" /></div>
-            </div>
-
-            <button @click="studentInputs.addVariableRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD VARIABLES ROW</button>
-        </section>
+        <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
+            <ToolsDynamicTableFull
+                :tableStructure="tm('inquiry.variables_table')"
+                :storeToUpdate="studentInputs"
+                :keyToUpdate="studentInputs.activity3a.activity3aPlan"
+                :addRow="true"
+                :newRow="['', '', '']"
+            />
+        </div>
 
         <label class="font-bold block mt-8">Your research results:</label>
         <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="abc...✍"></textarea>
@@ -100,7 +96,6 @@
 
 <script setup>
     import { useStudentInputStore } from '~~/store/useStudentInputViruses.js';
-
     const studentInputs = useStudentInputStore();
-
+    const {tm} = useI18n({scope:"global"});
 </script>
