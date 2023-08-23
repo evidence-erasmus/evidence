@@ -42,7 +42,7 @@ export default defineNuxtConfig({
                 code: 'el',
                 iso: 'el_CY',
                 name: 'Ελληνικά',
-                file: 'el.main.js'
+                files: ['el.main.js', 'el.inquiry.js']
             },
             {
                 code: 'et',

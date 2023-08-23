@@ -163,7 +163,7 @@
 
 
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="activity-3">Activity 3: Mythbusting</h2>
+            <h2 id="activity-3">Atividade 3: Desmitificar Mitos</h2>
 
             <!-- <ModulesStructure>
                 <template #title>Activity 3<br />MYTHBUSTING</template>

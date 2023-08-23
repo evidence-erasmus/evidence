@@ -3,6 +3,9 @@
         <template v-if="locale === 'et'">
             <ModulesVirusesStudentEt />
         </template>
+        <template v-else-if="locale === 'el'">
+            <ModulesVirusesStudentEl />
+        </template>
         <template v-else-if="locale === 'pt'">
             <ModulesVirusesStudentPt />
         </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="w-full py-6 border bg-white shadow sticky top-[5rem] 
         max-h-screen max-h-[100dvh] overflow-y-auto 
-        bg-yellow-100
+        bg-yellow-100 z-10
         md:block" >
         <div class="flex items-center justify-between px-4 text-md font-Body font-bold cursor-pointer" @click="userPrefs.toggleToC()">
             <span>{{ t('modules.toc') }}</span><Icon name="tabler:chevron-down" size="24" class="transition-all duration-300" :class="userPrefs.tocOpen ? '-scale-y-100' : 'scale-y-100'" />
