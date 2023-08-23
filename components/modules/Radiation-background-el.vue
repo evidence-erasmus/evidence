@@ -9,7 +9,7 @@
 
 
 
-        <section class="e-article" lang="et" style="hyphens: auto;">
+        <section class="e-article" lang="el" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Ακτινοβολία</h1>
             <h5 class="font-normal uppercase leading-tight">Επιστημονικές Πληροφορίες για την ανάπτυξη ενός σεναρίου</h5>

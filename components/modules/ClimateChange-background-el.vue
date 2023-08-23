@@ -6,7 +6,7 @@
         <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
 
 
-        <section class="e-article"  lang="en" style="hyphens: auto;">
+        <section class="e-article" lang="el" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Κλιματική Αλλαγή</h1>
             <h5 class="font-normal uppercase leading-tight">Επιστημονικό Υπόβαθρο</h5>
