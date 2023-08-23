@@ -6,7 +6,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
         
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth" placeholder="✍️"></textarea>
 
         <hr />
 
@@ -25,7 +25,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Our hypothesis / research question is:</label>
 
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis" placeholder="✍️"></textarea>
 
 
         <hr />
@@ -38,7 +38,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Write your plan here:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan" placeholder="✍️"></textarea>
 
 
         <hr />
@@ -57,23 +57,6 @@
                 :addRow="true" 
             />
         </div>
-
-        <!-- <section class="e-card w-[90vw] -ml-[3vw] sm:w-[90vw] sm:-ml-[3vw] lg:w-[92vw] lg:-ml-[7vw]">
-            <div 
-            class="grid grid-cols-[1fr_1fr_80px_1fr]">
-                <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Evidence / main conclusions / summary of the information relevant to the hypothesis</div>
-                <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Type and source of evidence</div>
-                <div class="text-sm font-bold leading-none p-2 border-l border-l-slate-300">Reliability rate</div>
-                <div class="text-sm font-bold leading-none p-2 border-x border-x-slate-300">Comments</div>
-            </div>
-            <div v-for="row, i in studentInputs.activity3b.activity3bReliability" 
-            class="grid grid-cols-[1fr_1fr_80px_1fr]">
-                <div v-for="cell, j in row"
-                ><textarea v-model="studentInputs.activity3b.activity3bReliability[i][j]" rows="1" class="w-full object-fill h-full ring-1 ring-slate-300 p-2 leading-tight  focus:bg-amber-50"></textarea></div>
-            </div>
-            <button @click="studentInputs.addReliabilityRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD ROW</button>
-        </section> -->
-
 
 
     </div>

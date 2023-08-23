@@ -120,7 +120,7 @@
             <hr class="mt-10 mb-40" />
             <h2 id="section-2">2. Varför dödar inte antibiotika virus?</h2>
             
-            <p>Antibiotika riktar in sig på tillväxtmaskineriet i bakterier (inte virus) för att döda eller hämma just dessa bakterier. Antibiotika kan inte döda virus eftersom virus har olika strukturer och replikerar annorlunda än bakterier. Dessutom leder överanvändning av antibiotika över hela världen till ökningen av den globala <a href="https://www.drugs.com/article/antibiotic-resistance.html" target="_blank">antibiotikaresistensen</a>. Se Tabell 2 under vilka tillstånd antibiotika kan vara till hjälp (OBS! Beslutet om dess användning tas av behandlande läkare).</p>
+            <p>Antibiotika riktar in sig på tillväxtmaskineriet i bakterier (inte virus) för att döda eller hämma just dessa bakterier. Antibiotika kan inte döda virus eftersom virus har olika strukturer och replikerar annorlunda än bakterier. Dessutom leder överanvändning av antibiotika över hela världen till ökningen av den globala <a href="https://www.drugs.com/article/antibiotic-resistance.html" target="_blank" rel="noopener noreferrer">antibiotikaresistensen</a>. Se Tabell 2 under vilka tillstånd antibiotika kan vara till hjälp (OBS! Beslutet om dess användning tas av behandlande läkare).</p>
             
             
             <table class="leading-tight e-card">
@@ -220,10 +220,10 @@
                 <h4 class="mt-0">Referens</h4>
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.drugs.com/article/antibiotics-and-viruses.html" target="_blank">https://www.drugs.com/article/antibiotics-and-viruses.html</a>
+                        <a href="https://www.drugs.com/article/antibiotics-and-viruses.html" target="_blank" rel="noopener noreferrer">https://www.drugs.com/article/antibiotics-and-viruses.html</a>
                     </li>
                     <li>
-                        <a href="https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/" target="_blank">https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/</a>
+                        <a href="https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/" target="_blank" rel="noopener noreferrer">https://www.virology.ws/2009/10/19/ten-cool-facts-about-viruses/</a>
                     </li>
                 </ul>
             </section>
@@ -282,10 +282,10 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work</a></li>
-                    <li><a href="" target="_blank">https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html </a></li>
-                    <li><a href="" target="_blank">https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf </a></li>
-                    <li><a href="" target="_blank">https://opentextbc.ca/biology/chapter/12-1-viruses/ </a></li>
+                    <li><a href="https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work" target="_blank" rel="noopener noreferrer">https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work</a></li>
+                    <li><a href="https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html" target="_blank" rel="noopener noreferrer">https://www.nytimes.com/interactive/2020/health/pfizer-biontech-covid-19-vaccine.html</a></li>
+                    <li><a href="https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf" target="_blank" rel="noopener noreferrer">https://media.nature.com/original/magazine-assets/d41586-021-03552-w/d41586-021-03552-w.pdf</a></li>
+                    <li><a href="https://opentextbc.ca/biology/chapter/12-1-viruses/" target="_blank" rel="noopener noreferrer">https://opentextbc.ca/biology/chapter/12-1-viruses/</a></li>
                 </ul>
             </section>
 
@@ -324,7 +324,7 @@
                 <h4 class="mt-0">Referens</h4>
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed" target="_blank">https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed</a>
+                        <a href="https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed" target="_blank" rel="noopener noreferrer">https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed</a>
                     </li>
                 </ul>
             </section>
@@ -338,7 +338,7 @@
                 <h4 class="mt-0">Referens</h4>
                 
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034" target="_blank">https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034</a></li>
+                    <li><a href="https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034" target="_blank" rel="noopener noreferrer">https://www.worldscientific.com/doi/pdf/10.1142/S2529732521400034</a></li>
                 </ul>
             </section>
 
@@ -403,13 +403,13 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
-                    <li><a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266" target="_blank">https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266</a></li>
-                    <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818" target="_blank">https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818</a></li>
-                    <li><a href="https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml" target="_blank">https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml</a></li>
-                    <li><a href="" target="_blank">https://www.epa.gov/sciencematters/epa-researchers-test-effectiveness-face-masks-disinfection-methods-against-covid-19 </a></li>
-                    <li><a href="https://journals.asm.org/doi/full/10.1128/mSphere.00637-20" target="_blank">https://journals.asm.org/doi/full/10.1128/mSphere.00637-20</a></li>
-                    <li><a href="" target="_blank">https://pubmed.ncbi.nlm.nih.gov/33626065/ </a></li>
+                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank" rel="noopener noreferrer">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
+                    <li><a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266" target="_blank" rel="noopener noreferrer">https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2774266</a></li>
+                    <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818" target="_blank" rel="noopener noreferrer">https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.00818</a></li>
+                    <li><a href="https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml" target="_blank" rel="noopener noreferrer">https://www.ajtmh.org/view/journals/tpmd/103/6/article-p2400.xml</a></li>
+                    <li><a href="https://www.epa.gov/sciencematters/epa-researchers-test-effectiveness-face-masks-disinfection-methods-against-covid-19" target="_blank" rel="noopener noreferrer">https://www.epa.gov/sciencematters/epa-researchers-test-effectiveness-face-masks-disinfection-methods-against-covid-19</a></li>
+                    <li><a href="https://journals.asm.org/doi/full/10.1128/mSphere.00637-20" target="_blank" rel="noopener noreferrer">https://journals.asm.org/doi/full/10.1128/mSphere.00637-20</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/33626065/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/33626065/</a></li>
                 </ul>
             </section>
 
@@ -464,7 +464,7 @@
                 
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/" target="_blank">https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/</a>
+                        <a href="https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/" target="_blank" rel="noopener noreferrer">https://www.uchealth.org/today/why-soap-and-water-work-better-than-hand-sanitizer-to-remove-the-coronavirus/</a>
                     </li>
                 </ul>
             </section>
@@ -499,7 +499,7 @@
             <section class="e-card">
                 <h4 class="mt-0">Referens</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19" target="_blank">https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19</a></li>
+                    <li><a href="https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19" target="_blank" rel="noopener noreferrer">https://www.science.org.au/curious/people-medicine/hand-sanitiser-or-soap-making-informed-choice-covid-19</a></li>
                 </ul>
             </section>
 
@@ -513,8 +513,8 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub</a></li>
-                    <li><a href="https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040" target="_blank">https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub" target="_blank" rel="noopener noreferrer">https://www.sciencedirect.com/science/article/abs/pii/S0048969720340833?via%3Dihub</a></li>
+                    <li><a href="https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040" target="_blank" rel="noopener noreferrer">https://www.journalofhospitalinfection.com/article/S0195-6701(20)30547-8/fulltext#secsectitle0040</a></li>
                 </ul>
             </section>
 
@@ -542,8 +542,8 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext</a></li>
-                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
+                    <li><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext" target="_blank" rel="noopener noreferrer">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)11096-0/fulltext</a></li>
+                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank" rel="noopener noreferrer">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
                 </ul>
             </section>
 
@@ -552,16 +552,16 @@
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">För ytterligare studie</h3>
                     <ul class="leading-tight">
-                        <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html" target="_blank">Possible Side Effects After Getting a COVID-19 Vaccine</a></li>
-                        <li><a href="https://www.bbc.com/news/health-55932832" target="_blank">Study reveals extent of Covid vaccine side-effects</a></li>
-                        <li><a href="https://www.nature.com/articles/d41586-021-00290-x" target="_blank">COVID vaccines and safety: what the research says</a></li>
-                        <li><a href="https://health.clevelandclinic.org/covid-19-vaccine-side-effects/" target="_blank">Here’s What to Know About the COVID-19 Vaccine Side Effects</a></li>
-                        <li><a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety" target="_blank">Coronavirus disease (COVID-19): Vaccines safety</a></li>
-                        <li><a href="https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events" target="_blank">Vaccine Side Effects and Adverse Events</a></li>
-                        <li><a href="https://www.bbc.com/news/health-56375307" target="_blank">Vaccine side effects: My experience of them and what they mean</a></li>
-                        <li><a href="https://vk.ovg.ox.ac.uk/vk/vaccine-side-effects" target="_blank">Vaccine side effects and adverse reactions</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=F6NKbQzo4aE" target="_blank">Vaccine side effects are actually a good thing</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank">Vaccines and the Immune Response: How Vaccines Work</a></li>
+                        <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html" target="_blank" rel="noopener noreferrer">Possible Side Effects After Getting a COVID-19 Vaccine</a></li>
+                        <li><a href="https://www.bbc.com/news/health-55932832" target="_blank" rel="noopener noreferrer">Study reveals extent of Covid vaccine side-effects</a></li>
+                        <li><a href="https://www.nature.com/articles/d41586-021-00290-x" target="_blank" rel="noopener noreferrer">COVID vaccines and safety: what the research says</a></li>
+                        <li><a href="https://health.clevelandclinic.org/covid-19-vaccine-side-effects/" target="_blank" rel="noopener noreferrer">Here’s What to Know About the COVID-19 Vaccine Side Effects</a></li>
+                        <li><a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety" target="_blank" rel="noopener noreferrer">Coronavirus disease (COVID-19): Vaccines safety</a></li>
+                        <li><a href="https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events" target="_blank" rel="noopener noreferrer">Vaccine Side Effects and Adverse Events</a></li>
+                        <li><a href="https://www.bbc.com/news/health-56375307" target="_blank" rel="noopener noreferrer">Vaccine side effects: My experience of them and what they mean</a></li>
+                        <li><a href="https://vk.ovg.ox.ac.uk/vk/vaccine-side-effects" target="_blank" rel="noopener noreferrer">Vaccine side effects and adverse reactions</a></li>
+                        <li>📺<a href="https://www.youtube.com/watch?v=F6NKbQzo4aE" target="_blank" rel="noopener noreferrer">Vaccine side effects are actually a good thing</a></li>
+                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank" rel="noopener noreferrer">Vaccines and the Immune Response: How Vaccines Work</a></li>
                     </ul>
                 </div>
             </UiCardInfo>
@@ -586,9 +586,9 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
-                    <li><a href="https://www.bmj.com/content/364/bmj.l1481/rr-11" target="_blank">https://www.bmj.com/content/364/bmj.l1481/rr-11</a></li>
-                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/11773551/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/11773551/</a></li>
+                    <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home" target="_blank" rel="noopener noreferrer">https://www.nejm.org/doi/full/10.1056/NEJMoa1307491?query=featured_home</a></li>
+                    <li><a href="https://www.bmj.com/content/364/bmj.l1481/rr-11" target="_blank" rel="noopener noreferrer">https://www.bmj.com/content/364/bmj.l1481/rr-11</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/11773551/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/11773551/</a></li>
                 </ul>
             </section>
 
@@ -617,19 +617,19 @@
                 
                 <ul class="text-sm break-all">
                     <li>
-                        <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext" target="_blank">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext</a>
+                        <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext" target="_blank" rel="noopener noreferrer">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00675-9/fulltext</a>
                     </li>
                     <li>
-                        <a href="https://science.sciencemag.org/content/371/6529/eabf4063" target="_blank">https://science.sciencemag.org/content/371/6529/eabf4063</a>
+                        <a href="https://science.sciencemag.org/content/371/6529/eabf4063" target="_blank" rel="noopener noreferrer">https://science.sciencemag.org/content/371/6529/eabf4063</a>
                     </li>
                     <li>
-                        <a href="https://www.nejm.org/doi/full/10.1056/NEJMc2032195" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMc2032195</a>
+                        <a href="https://www.nejm.org/doi/full/10.1056/NEJMc2032195" target="_blank" rel="noopener noreferrer">https://www.nejm.org/doi/full/10.1056/NEJMc2032195</a>
                     </li>
                     <li>
-                        <a href="https://www.researchsquare.com/article/rs-612205/v1" target="_blank">https://www.researchsquare.com/article/rs-612205/v1</a>
+                        <a href="https://www.researchsquare.com/article/rs-612205/v1" target="_blank" rel="noopener noreferrer">https://www.researchsquare.com/article/rs-612205/v1</a>
                     </li>
                     <li>
-                        <a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank">https://stm.sciencemag.org/content/13/600/eabi9915</a>
+                        <a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank" rel="noopener noreferrer">https://stm.sciencemag.org/content/13/600/eabi9915</a>
                     </li>
                 </ul>
             </section>
@@ -656,10 +656,10 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank">https://stm.sciencemag.org/content/13/600/eabi9915</a></li>
-                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/</a></li>
-                    <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li>
-                    <li><a href="https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/" target="_blank">https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/</a></li>
+                    <li><a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank" rel="noopener noreferrer">https://stm.sciencemag.org/content/13/600/eabi9915</a></li>
+                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/</a></li>
+                    <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li>
+                    <li><a href="https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/" target="_blank" rel="noopener noreferrer">https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/</a></li>
                 </ul>
             </section>
 
@@ -669,9 +669,9 @@
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">För vidare studier</h3>
                     <ul class="leading-tight">
-                        <li><a href="https://www.publichealth.org/public-awareness/understanding-vaccines/goes-vaccine/" target="_blank">What Goes Into A Vaccine?</a></li>
-                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank">Vaccines and the Immune Response: How Vaccines Work</a></li>
-                        <li><a href="https://www.cdc.gov/vaccines/vac-gen/additives.htm" target="_blank">What’s in Vaccines?</a></li>
+                        <li><a href="https://www.publichealth.org/public-awareness/understanding-vaccines/goes-vaccine/" target="_blank" rel="noopener noreferrer">What Goes Into A Vaccine?</a></li>
+                        <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank" rel="noopener noreferrer">Vaccines and the Immune Response: How Vaccines Work</a></li>
+                        <li><a href="https://www.cdc.gov/vaccines/vac-gen/additives.htm" target="_blank" rel="noopener noreferrer">What’s in Vaccines?</a></li>
                     </ul>
                 </div>
             </UiCardInfo>
@@ -699,10 +699,10 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://jptcp.com/index.php/jptcp/article/view/711" target="_blank">https://jptcp.com/index.php/jptcp/article/view/711</a></li>
-                    <li><a href="https://www.nature.com/articles/d41586-020-01538-8" target="_blank">https://www.nature.com/articles/d41586-020-01538-8</a></li>
-                    <li><a href="https://www.nature.com/articles/d41586-020-03519-3" target="_blank">https://www.nature.com/articles/d41586-020-03519-3</a></li>
-                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/</a></li>
+                    <li><a href="https://jptcp.com/index.php/jptcp/article/view/711" target="_blank" rel="noopener noreferrer">https://jptcp.com/index.php/jptcp/article/view/711</a></li>
+                    <li><a href="https://www.nature.com/articles/d41586-020-01538-8" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/d41586-020-01538-8</a></li>
+                    <li><a href="https://www.nature.com/articles/d41586-020-03519-3" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/d41586-020-03519-3</a></li>
+                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222407/</a></li>
                 </ul>
             </section>
 
@@ -726,7 +726,7 @@
             <section class="e-card">
                 <h4 class="mt-0">Referens</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.sciencedirect.com/science/article/pii/B9781455710768000090" target="_blank">https://www.sciencedirect.com/science/article/pii/B9781455710768000090</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/B9781455710768000090" target="_blank" rel="noopener noreferrer">https://www.sciencedirect.com/science/article/pii/B9781455710768000090</a></li>
                 </ul>
             </section>
 
@@ -749,15 +749,15 @@
             <section class="e-card">
                 <h4 class="mt-0">Referenser</h4>
                 <ul class="text-sm break-all">
-                    <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm" target="_blank">https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm</a></li>
-                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
+                    <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/mmwr/volumes/68/wr/mm6819a4.htm</a></li>
+                    <li><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9" target="_blank" rel="noopener noreferrer">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10652-9</a></li>
                 </ul>
             </section>
 
 
 
             <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:edit-document">
-                Fler covid-19-myter och relaterad vetenskaplig forskning kan hittas från: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/science-in-5/episode-8---myth-vs-science" target="_blank">
+                Fler covid-19-myter och relaterad vetenskaplig forskning kan hittas från: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/science-in-5/episode-8---myth-vs-science" target="_blank" rel="noopener noreferrer">
                     WHO - Myt vs Vetenskap
                 </a>
             </UiCardInfo>
