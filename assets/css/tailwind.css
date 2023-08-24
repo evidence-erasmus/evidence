@@ -16,7 +16,7 @@
     }
     h1, h2, h3, h4, h5, h6 {
         font-family: "Alegreya", sans-serif;
-        font-weight: 900;
+        font-weight: 800;
     }
     .e-font__normal {
       font-family: "Roboto Flex", serif;
@@ -28,7 +28,7 @@
 }
 
 @layer components {
-
+    
     .e-btn {
       @apply bg-slate-500 text-white font-semibold rounded-lg shadow-md;
     }
@@ -36,12 +36,12 @@
       @apply text-white bg-blue-500;
     }
     .e-article {
-      @apply w-full prose prose-slate prose-headings:text-slate-800 prose-a:text-blue-500 py-20 px-6 sm:px-8 md:pl-[3vw] lg:pl-[7vw] md:prose-lg lg:prose-xl print:prose-xl print:text-sm print:container print:mx-auto;
+      @apply w-full prose prose-slate prose-p:text-slate-900 prose-li:text-slate-900 prose-td:text-slate-900  prose-headings:text-slate-800 prose-a:text-blue-500 py-20 px-6 sm:px-8 md:pl-[3vw] lg:pl-[7vw] md:prose-lg lg:prose-xl print:prose-xl print:text-sm print:container print:mx-auto;
       /* @apply prose-headings:text-slate-800 prose prose-slate py-20 px-6 sm:px-8; */
     }
 
     .e-term {
-      @apply italic text-blue-500 font-bold text-[120%];
+      @apply italic text-fuchsia-500 font-bold text-[120%];
     }
     .e-card {
       @apply p-2 bg-white rounded-xl shadow-md border md:p-4;

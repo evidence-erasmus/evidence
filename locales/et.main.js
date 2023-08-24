@@ -15,19 +15,43 @@ export default {
   },
   "message": "Tervitusi välisest failist!",
   modules: {
+    title: "Moodulid",
     toc: "Sisukord",
+    for_students: "Õpilasele",
+    for_teachers: "Õpetajale",
     background_info: "Teadusinfo",
     climateChange: {
       description: "Kliimamuutuste kirjeldav tekst",
       title: "Kliimamuutused"
     },
-    for_students: "Õpilasele",
-    for_teachers: "Õpetajale",
     radiation: {
-      description: "See on radiatsiooni mooduli kirjeldus siin. Lause või paar.",
-      title: "Radiatsioon"
+      description: "See on kiirguste mooduli kirjeldus siin. Lause või paar.",
+      title: "Kiirgused"
     },
-    title: "Moodulid",
+    climateChange: {
+      description: "Kliimamuutuste kirjeldus",
+      title: "Kliimamutused"
+    },
+    radiation: {
+      description: "Kiirguste kirjeldus",
+      title: "Kiirgused"
+    },
+    space: {
+      description: "Kosmose mooduli kirjeldus",
+      title: "Kosmos"
+    },
+    evolution: {
+      description: "Evolutsiooni mooduli kirjeldus",
+      title: "Evolutsioon"
+    },
+    drugs: {
+      description: "Uimastite kirjeldus",
+      title: "Uimastid"
+    },
+    viruses: {
+      description: "Viruses module description",
+      title: "Viruses"
+    },
     viruses: {
       description: "See on viiruste mooduli kirjeldus siin. Lause või paar.",
       title: "Viirused"

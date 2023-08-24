@@ -8,9 +8,8 @@
         </ClientOnly>
         
 
-
-
         <section class="e-article print:not-prose" lang="en" style="hyphens: auto;">
+
             <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
             <h1 class="mb-0">Climate change</h1>
             <h5 class="font-normal uppercase leading-tight">Materials for teacher</h5>
@@ -111,8 +110,6 @@
 
             <section>
                                 
-                <h5 class="mb-2 pb-0 leading-none text-slate-500 uppercase font-normal font-Body">Stage 1</h5>
-                
                 <ModulesStructure>
                     <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
                     <template #icons>
@@ -148,8 +145,6 @@
                     </template>
                 </ModulesStructure>
                 
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 2</h5>
-
                 <ModulesStructure>
                     <template #title>Activity 3<br />MYTHBUSTING</template>
                     <template #icons>
@@ -187,9 +182,6 @@
                     </template>
                 </ModulesStructure>
                 
-
-                <h5 class="mb-2 pb-0 mt-8 leading-none text-slate-500 uppercase font-normal font-Body">Stage 3</h5>
-                
                 <ModulesStructure>
                     <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
                     <template #icons>
@@ -223,55 +215,6 @@
                         </div>
                     </template>
                 </ModulesStructure>
-                
-                
-                <!-- Selection of icons -->
-                
-                <!--                 
-                <hr /> 
-                <Icon name="fluent-emoji-high-contrast:unicorn" />
-                <Icon name="mdi:unicorn" />
-                <Icon name="game-icons:unicorn" />
-                <br />
-                <Icon name="game-icons:witch-face" /> 
-                <Icon name="game-icons:witch-flight" /> 
-                <Icon name="game-icons:diablo-skull" /> 
-                <Icon name="fa6-solid:book-skull" /> 
-                <Icon name="fluent-emoji-high-contrast:skull-and-crossbones" /> 
-                <Icon name="fa:user-secret" /> 
-                <br />
-                <Icon name="game-icons:all-seeing-eye" /> 
-                <Icon name="fluent-emoji-high-contrast:love-you-gesture" /> 
-                <Icon name="fluent-emoji-high-contrast:ok-hand" /> 
-                <Icon name="game-icons:ouroboros" /> 
-                <Icon name="game-icons:freemasonry" /> 
-                <br />
-                <Icon name="fa6-solid:people-group" /> 
-                <Icon name="fluent:people-team-32-regular" /> 
-                <Icon name="fluent:people-team-toolbox-24-regular" /> 
-                <Icon name="material-symbols:groups-2" /> 
-                <Icon name="fluent:presenter-24-filled" /> 
-                <Icon name="carbon:group-presentation" /> 
-                <br />
-                <Icon name="healthicons:group-discussion-meeting" /> 
-                <Icon name="heroicons-solid:chat-bubble-left-right" />
-                <Icon name="heroicons-outline:chat-bubble-left-right" />
-                <Icon name="mdi:frequently-asked-questions" />
-                <br /> 
-                <Icon name="game-icons:rolling-dices" /> 
-                <Icon name="tabler:zoom-question" /> 
-                <Icon name="mdi:laptop-account" />
-                <Icon name="ic:baseline-ondemand-video" />
-                <Icon name="material-symbols:youtube-tv-outline" />
-                <br /> 
-                <Icon name="material-symbols:unknown-document-outline-rounded" />
-                <Icon name="mdi:graph-outline" />
-                <Icon name="material-symbols:lab-research-outline" />
-                <Icon name="healthicons:virus-lab-research-syringe" />
-                <Icon name="mdi:flask" />
-                <Icon name="game-icons:materials-science" />
-                <Icon name="healthicons:virus-research" />
-                <Icon name="tabler:microscope" /> -->
 
             </section>
 

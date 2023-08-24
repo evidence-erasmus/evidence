@@ -1,0 +1,693 @@
+<template>
+    <div class="flex flex-col items-start 
+        lg:flex-row-reverse lg:justify-end 
+        xl:gap-10
+        2xl:gap-20">
+        <ClientOnly>
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-bg-et" />
+        </ClientOnly>
+
+
+
+        <section class="e-article" lang="et" style="hyphens: auto;">
+            <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
+            <h1 class="mb-0">Klimatförändringar</h1>
+            <h5 class="font-normal uppercase leading-tight">Vetenskaplig bakgrundsinformation</h5>
+        
+            <!-- <h2 class="e-huge-number">1.</h2> -->
+            <h2 id="section-1">1. Vad är klimatförändringar och vilka är dess orsaker?</h2>
+        
+            <p>
+                Klimatförändringar avser långsiktiga förändringar i temperaturer och vädermönster. Dessa förändringar kan vara naturliga, till exempel genom variationer i solcykeln. Men sedan 1800-talet har mänsklig verksamhet varit den främsta drivkraften bakom klimatförändringarna, främst på grund av förbränning av fossila bränslen som kol, olja och gas. Förbränning av fossila bränslen genererar utsläpp av växthusgaser som fungerar som en filt lindad runt jorden. Den fångar upp värmestrålning från jorden och höjer temperaturen. Närmare bestämt fångar CO₂ den långvågiga strålningen som avges av planeten. Infångningen av långvågsstrålningen förklaras av kvantmekaniken men kan också tolkas på ett enklare sätt. De två syreatomerna i CO₂ vibrerar med kolatomen i centrum och frekvensen av denna vibration sammanfaller med några av de infraröda våglängderna för den långvågiga strålningen. När frekvensen av strålningen från jordens yta och atmosfären sammanfaller med frekvensen av CO₂ -vibrationer, absorberas strålningen av CO₂, och omvandlas till värme genom kollision med andra luftmolekyler, och återges sedan tillbaka till ytan. Som ett resultat av denna infångning reduceras den utgående långvågsstrålningen genom ökande CO₂. Det kommer inte lika mycket värme ut för att balansera nettoinkommande solstrålning. Det finns överskott av värmeenergi på jorden, dvs systemet är ur energibalans. När CO₂ ökar med tiden blir den infraröda filten tjockare och planeten ackumulerar denna överskottsenergi.
+            </p>
+
+            <UiContentImage
+                src="https://evidence.onkel.ee/assets/c-change__the-greenhouse-effect.webp"
+                credits="From Le Treut et al., 2007"
+                :elevated="true">
+                <template #caption>
+                    <b>Figure 1.</b> A simplified diagram illustrating the greenhouse effect
+                </template>
+            </UiContentImage>
+            
+            
+
+            <p><b>Gaser som bidrar till växthuseffekten inkluderar:</b></p>
+            <dl>
+                <dt class="font-bold">Vattenånga:</dt>
+                <dd>Den är viktigast av allt. Vattenånga ökar när jordens atmosfär värms upp, men den skapar också moln och nederbörd, som är några av de viktigaste regleringsmekanismerna till växthuseffekten.</dd>
+                
+                <dt class="font-bold">Koldioxid (CO₂):</dt>
+                <dd>En mindre men mycket viktig komponent i atmosfären, koldioxid frigörs genom naturliga processer som andning och vulkanutbrott och genom mänskliga aktiviteter som avskogning och förbränning av fossila bränslen. Människor har ökat CO2 -koncentrationen i atmosfären med 48 % sedan den industriella revolutionen började. Detta är den viktigaste långlivade "pådrivningen" av klimatförändringarna.</dd>
+                
+                <dt class="font-bold">Metan (CH₄):</dt>
+                <dd>En kolvätgas CH₄ som produceras både genom naturliga källor och mänskliga aktiviteter, inklusive nedbrytning av avfall i soptippar, jordbruk och särskilt risodling. Stor andel av metanutsläppen kommer från idisslarna (nötkreatur och får) vid deras fodersmältning. På molekyl-för-molekyl-basis är metan en mycket mer aktiv växthusgas än koldioxid, men också en som är mycket mindre förekommande i atmosfären.</dd>
+                
+                <dt class="font-bold">Lustgas (dikväveoxid N₂O):</dt>
+                <dd>En kraftfull växthusgas som produceras av markberedningsmetoder, särskilt användningen av kommersiella och organiska gödningsmedel, förbränning av fossila bränslen, produktion av salpetersyra och förbränning av biomassa. I tillverkningen av konstgödsel sker också utsläpp av lustgas.</dd>
+
+                <dt class="font-bold">Klorfluorkolväten (CFC-d):</dt>
+                <dd>Syntetiska föreningar helt av industriellt ursprung som används i ett antal tillämpningar, men nu till stor del reglerade i produktion och utsläpp till atmosfären av internationella överenskommelse om deras förmåga att bidra till förstörelsen av ozonskiktet.</dd>
+            </dl>
+
+            <UiContentImage
+                src="https://evidence.onkel.ee/assets/c-change__greenhouse-gas-emission-75-20.webp"
+                credits="From NOAA Global Monitoring Laboratory"
+                :elevated="true" class="mt-8">
+                <template #caption>
+                    <span class="bg-rose-100"><b>Joonis 2.</b> Kasvuhoonegaaside emissioon atmosfääri aastatel 1975-2020</span>
+                </template>
+            </UiContentImage>
+            
+        
+            
+            <section class="e-card mt-8">
+                <h4 class="mt-2">Referenser:</h4>
+                <ul class="text-sm break-all">
+                    <li><a href="https://climate.nasa.gov/causes/" target="_blank" rel="noopener noreferrer">https://climate.nasa.gov/causes/</a></li>
+                    <li><a href="https://www.un.org/en/climatechange/what-is-climate-change" target="_blank" rel="noopener noreferrer">https://www.un.org/en/climatechange/what-is-climate-change</a></li>
+                    <li><a href="https://gml.noaa.gov/about/networks.html" target="_blank" rel="noopener noreferrer">https://gml.noaa.gov/about/networks.html</a></li>
+                    <li><a href="https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/faq-1-3-figure-1.html" target="_blank" rel="noopener noreferrer">https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/faq-1-3-figure-1.html</a></li>
+                    <li><a href="https://www.youtube.com/watch?app=desktop&v=3JX-ioSmNW8 " target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?app=desktop&v=3JX-ioSmNW8</a></li>
+                    <li><b>Ramanathan, V.</b>, <b>Feng, Y.</b> (2009). Luftföroreningar, växthusgaser och klimat   förändring: Globala och regionala perspektiv. Atmosfärisk miljö , 43(1), 37-50.</li>
+                </ul>
+            </section>
+            
+            
+            
+             
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-2">2. Vilka är effekterna av klimatförändringar?</h2>
+            
+            <p>Intergovernmental Panel on Climate Change (IPCC), som omfattar mer än 1 300 forskare från olika länder hänvisar till att omfattningen av klimatförändringens effekter på enskilda regioner kommer att variera över tid och med förmågan hos olika samhälleliga och miljömässiga system att mildra eller anpassa sig till förändringar.</p>
+            
+            <p>
+                <b>Effekterna av klimatförändringar varierar och inkluderar:</b>
+            </p>
+            
+            
+            <ul>
+                <li>
+                    Stigande global temperatur: Med tanke på de globala havens enorma storlek och värmekapacitet krävs det en enorm mängd värmeenergi för att höja jordens genomsnittliga årliga yttemperatur ens en liten mängd. Den ungefär 2 grader Fahrenheit (1 grad Celsius) ökningen av den globala genomsnittliga yttemperaturen som har inträffat sedan den förindustriella eran (1880-1900) kan tyckas liten, men det innebär en betydande ökning av ackumulerad värme.
+                </li>
+                <li>
+                    Stigande havsnivåer
+                    <UiContentImage
+                        src="https://evidence.onkel.ee/assets/c-change__sea-level-rise.webp"
+                        credits="From NOAA Climate.gov image based on analysis and data from Philip Thompson, University of Hawaii Sea Level Center"
+                        :elevated="true" class="mt-8">
+                        <template #caption>
+                            <span class="bg-rose-100"><b>Joonis 3.</b> Meretaseme tõus aastast 1995-2020</span>
+                        </template>
+                    </UiContentImage>
+                </li>
+                <li>
+                    Krympande bergsglaciärer
+                </li>
+                <li>
+                    Is smälter snabbare än vanligt på Grönland, Antarktis och Arktis
+                </li>
+                <li>
+                    Torka eller ökad nederbörd beroende på planetens region
+                </li>
+                <li>
+                    Vissa laboratorieförsök tyder på att förhöjda CO₂-nivåer kan öka växternas tillväxt. Andra faktorer, såsom ändrade temperaturer, ozon och vatten- och näringsbegränsningar, kan dock motverka eventuella ökningar av skörden. Om optimala temperaturintervall för vissa grödor överskrids, kan tidigare möjliga skördevinster minska eller även tvärvända.
+                </li>
+                <li>
+                    Extrema klimat, som torka, översvämningar och extrema temperaturer, kan leda till skördeförluster och hota jordbruksproducenternas försörjning och livsmedelsförsörjningen i samhällen över hela världen. Klimatförändringar kommer sannolikt att öka spridningen av ogräs och skadedjur.
+                </li>
+                <li>
+                    Forskning har visat att det också kan minska näringsvärdet hos de flesta matgrödor genom att minska koncentrationerna av protein och viktiga mineraler i de flesta växtarter.
+                </li>
+                <li>
+                    Förändringar i blom- och växternas blomningstider
+                </li>
+                <li>
+                    Havets ekosystem upplever redan storskaliga förändringar och kritiska tröskelvärden förväntas nås vid 1,5°C av global uppvärmning
+                </li>
+                <li>
+                    Förändrade klimat orsakar direkt och indirekt stress för djur över hela världen. Många arter närmar sig – eller har redan nått – gränsen för vart de kan gå för att hitta gästvänliga klimat. I polarområdena kämpar nu djur som isbjörnar som lever på polarisen för att överleva när isen smälter.
+                </li>
+                <li>
+                    Värmande havstemperaturer smälter polarisen, skiftar havsströmmar och fiskvandringar, vilket leder till korallblekning och att korallrev dör.
+                </li>
+                <li>
+                    Riskerna för lokala artförluster och följaktligen riskerna för utrotning är mycket mindre i en 1,5°C jämfört med en 2°C varmare värld
+                </li>
+                <li>
+                    Varje ökning av den globala temperaturen (t.ex. +0,5°C) förväntas påverka människors hälsa, med främst negativa konsekvenser
+                </li>
+                <li>
+                    Riskerna för global aggregerad ekonomisk tillväxt till följd av klimatförändringens effekter beräknas vara lägre vid 1,5°C än vid 2°C i slutet av detta århundrade
+                </li>
+            </ul>
+
+
+            <section class="e-card mt-8">
+                <h4 class="mt-2">Referenser:</h4>
+                <ul class="text-sm break-all">
+                    <li><a href="https://climatekids.nasa.gov/climate-change-meaning/" target="_blank" rel="noopener noreferrer">https://climatekids.nasa.gov/climate-change-meaning/</a></li>
+                    <li><a href="https://climate.nasa.gov/effects/" target="_blank" rel="noopener noreferrer">https://climate.nasa.gov/effects/</a></li>
+                    <li><a href="https://www.un.org/en/climatechange/what-is-climate-change" target="_blank" rel="noopener noreferrer">https://www.un.org/en/climatechange/what-is-climate-change</a></li>
+                    <li><a href="https://www.un.org/en/global-issues/climate-change" target="_blank" rel="noopener noreferrer">https://www.un.org/en/global-issues/climate-change</a></li>
+                    <li><a href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature" target="_blank" rel="noopener noreferrer">https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature</a></li>
+                    <li><a href="https://www.nature.org/en-us/what-we-do/our-priorities/tackle-climate-change/climate-change-stories/climate-change-frequently-asked-questions/#threats" target="_blank" rel="noopener noreferrer">https://www.nature.org/en-us/what-we-do/our-priorities/tackle-climate-change/climate-change-stories/climate-change-frequently-asked-questions/#threats</a></li>
+                    <li><a href="https://www.ipcc.ch/sr15/chapter/chapter-3" target="_blank" rel="noopener noreferrer">https://www.ipcc.ch/sr15/chapter/chapter-3</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=rVjp3TO_juI&t=3s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=rVjp3TO_juI&t=3s</a></li>
+                    <li><b>Ramanathan, V.</b>, <b>Feng, Y.</b> (2009). Luftföroreningar, växthusgaser och klimatförändringar: Globala och regionala perspektiv. Atmosfärisk miljö , 43 (1), 37-50.</li>
+                </ul>
+            </section>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-3">3. Klimatförändringar: En socio-vetenskaplig fråga</h2>
+
+            <p>I vetenskapens historia har det funnits många exempel där motsägelsefulla åsikter om specifika vetenskapliga frågor spridits till allmänheten. Klimatförändringar är ett exempel där människor och grupper intar och försvarar olika ståndpunkter. Även om klimatvetenskapen nu har fastställt att den globala uppvärmningen sker, att mänskliga aktiviteter bidrar till denna uppvärmning och att nuvarande och framtida uppvärmning visar negativa effekter på både ekologiska och sociala system (National Research Council, 2010), en betydande del av Den amerikanska allmänheten förblir ambivalent eller obekymrad (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) och många beslutsfattare (särskilt i USA) förnekar nödvändigheten av att vidta åtgärder för att minska koldioxidutsläppen (Brownstein, 2010).</p>
+
+            <p>Klimatvetenskapliga förnekelser accepterar inte bevis som stöder förekomsten av klimatförändringar, mänsklighetens roll i att orsaka den senaste tidens globala uppvärmning och/eller svårighetsgraden av klimatpåverkan. Skepsis, kontrarism, oliktänkande, tvivel eller anti-klimatförändringar är några av de termer som har använts för att karakterisera klimatvetenskapliga förnekelser (Cook, 2017).</p>
+
+            <p>Desinformation om klimatet är orsaken till allmänhetens missuppfattningar om klimatförändringar (McCright och Dunlap, 2010). Därför är det många frågor, t.ex.</p>
+
+            <ul>
+                <li>
+                    Orsakar en ökning av jordens temperatur en ökning av koldioxid eller orsakar en ökning av koldioxid en ökning av jordens temperatur?
+                </li>
+                <li>
+                    Ger mänskliga aktiviteter lika, mindre eller mer koldioxid än naturliga processer?
+                </li>
+                <li>
+                    Förändras klimatet över tiden? Om ja, är klimatförändringen en tillfällig förändring som de tidigare?
+                </li>
+                <li>
+                    Är massutrotningen av arter nuförtiden ett resultat av klimatförändringar eller en vanlig företeelse under åren?
+                </li>
+            </ul>
+
+            <p>
+                Dessa frågor berör de medborgare som är oroliga för planetens framtid och de nya generationerna. Massmedia spelar en central roll i debatter om klimatvetenskap och policyskapande, som noteras i nästa bidrag. Maxwell Boykoff bygger på sin långa erfarenhet av att analysera hur media representerar klimatförändringar för att tillhandahålla en analys av de många faktorer som bidrar till att "outlier voices" – skeptiker, kontrarister och förnekare – får omotiverad mediesynlighet och därmed inflytande på politiska debatter.
+            </p>
+
+            <section class="e-card mt-8">
+                <h4 class="mt-2">Referenser:</h4>
+                <ul class="text-sm break-all">
+                    <li><a href="https://www.youtube.com/watch?app=desktop&v=u9KxE4Kv9A8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?app=desktop&v=u9KxE4Kv9A8</a></li>
+                    <li><a href="https://www.researchgate.net/publication/274306932_Climate_Change_Skepticism_and_Denial_An_Introduction" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/publication/274306932_Climate_Change_Skepticism_and_Denial_An_Introduction</a></li>
+                    
+                    <li><b>Karakas, L. D.</b>, & <b>Mitra, D.</b> (2020). Troende vs förnekare: Klimatförändringar och miljöpolitisk polarisering . European Journal of Political Economy , 65, 101948.</li>
+                    <li><b>Corry, O.</b>, & <b>Jørgensen, D.</b> Bortom "förnekare" och "troende": Mot en karta över klimatförändringarnas politik. Global Environmental Change , 32, 165-174.</li>
+                    <li><b>Cook, J.</b> Förstå och motverka klimatvetenskapligt förnekande . Journal & Proceedings of the Royal Society of New South Wales, 150.</li>
+                    <li><b>McCright, A. M.</b> & <b>Dunlap, R. E.</b> (2010). Antireflexivitet: Den amerikanska konservativa rörelsens framgång med att undergräva klimatvetenskap och politik. Theory, Culture & Society , 27(2-3), 100-133.</li>
+                </ul>
+            </section>
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-4">4. Tekniker för vetenskapsförnekande</h2>
+
+            
+            <p>Bland de olika rörelser som förkastar en vetenskaplig konsensus, observeras fem tekniker för vetenskapsförnekelse som förklaras nedan:</p>
+
+            <UiContentImage
+                src="https://evidence.onkel.ee/assets/c-change__flicc.webp"
+                credits=""
+                :elevated="true" class="mt-8">
+                <template #caption>
+                </template>
+            </UiContentImage>
+            
+
+            <dl>
+                <dt class="font-bold">
+                    Falska experter:
+                </dt>
+                <dd>
+                    Det handlar om talespersoner som förmedlar intryck av expertis i ett ämne och ändå har lite relevant expertis. Global Warming Petition Project är den typiska formen av denna teknik inom klimatdesinformation, med 31 000 undertecknare av en online-petition som ifrågasätter människans orsakad global uppvärmning. Emellertid har 99,9 % av undertecknarna, medan de har en naturvetenskaplig examen, ingen expertis inom klimatvetenskap. Denna petition har visat sig vara ett av de mest effektiva förnekelseargumenten för att minska acceptansen av klimatförändringar.
+                </dd>
+                <dt class="font-bold mt-4">
+                    Logiska felaktigheter
+                </dt>
+                <dd>
+                    Argument utformade för att övertyga människor består av en eller flera premisser, som leder till en slutsats. Klimatförnekande argument innehåller vanligtvis grova logiska brister. Det finns tre klasser av logiska felaktigheter:                    <ul>
+                        <li>
+                            av relevans (där premisserna är irrelevanta för slutsatsen), 
+                        </li>
+                        <li>
+                            i omfattning (där inte alla relevanta bevis beaktas), och 
+                        </li>
+                        <li>
+                            i antagande (där argumentet innehåller falska premisser).
+                        </li>
+                    </ul>
+                </dd>
+                <dt class="font-bold mt-4">
+                    Omöjliga förväntningar:
+                </dt>
+                <dd>
+                    Detta innebär att kräva orealistiska nivåer på bevis eller att felaktigt framställa naturvetenskaplig osäkerhet. Eftersom vetenskap vanligtvis är probabilistisk är krav på absolut vetenskaplig säkerhet en effektiv metod för att tvivla på vetenskapliga rön. Denna förnekande teknik är känd som <i>"Scientific Certainty Argumentation Methods"</i>.
+                </dd>
+                <dt class="font-bold mt-4">
+                    Körsbärsplockning (Cherry picking):
+                </dt>
+                <dd>
+                    Denna teknik definieras som "selektivt val av data som leder till en önskad slutsats som skiljer sig från slutsatsen som uppkommer från analys av alla tillgängliga data".
+                </dd>
+                <dt class="font-bold mt-4">
+                    Konspirationsteorier:
+                </dt>
+                <dd>
+                    Cirka 20 % av den amerikanska allmänheten tror att klimatförändringar är en vetenskaplig bluff. Konspirationsteorier har en rad negativa effekter, även när människor inte övertygas av dem. De kan minska stödet för klimatåtgärder, minska ens avsikt att minska sitt koldioxidavtryck och minska förtroendet för regeringen.
+                </dd>
+            </dl>
+
+ 
+            <section class="e-card mt-8">
+                <h4 class="mt-2">Referenser:</h4>
+                <ul class="text-sm break-all">
+                    <li><a href="https://www.youtube.com/watch?v=uNs2YMblqwU&ab_channel=JohnCook" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=uNs2YMblqwU</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=AqcUP0sDglg" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=AqcUP0sDglg</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=wXA777yUndQ" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=wXA777yUndQ</a></li>
+                    <li><a href="http://www.petitionproject.org/" target="_blank" rel="noopener noreferrer">http://www.petitionproject.org</a></li>
+                </ul>
+            </section>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <h2 id="section-7" class="mt-40">7. Myter om klimatförändringar</h2>
+
+
+
+            <hr id="myth-1" class="mt-10 mb-40" />
+            <h3>Myt 1: Utrotning av arter är en naturlig process. Massutrotningar av arter har alltid förekommit.</h3>
+
+            <p>Utrotningen av arter är ett historiskt problem. Från förhistorisk tid har vi bevis på ett antal massutrotningar, framför allt utrotningen av dinosaurierna. Denna utrotning, som ägde rum för 66 000 000 år sedan, sägs bero på ett asteroidnedslag på jorden. Andra välkända exempel är utrotning av mammutar. Men orsakerna till utrotning som har registrerats varierar.</p>
+            <p>Förslaget om att mänskligheten är kapabel att påverka och störa krafter av sådan omfattning reflekterar också en självcentrerad arrogans som är bedrövande. Mänskligheten är en delmängd av naturen. Naturen är inte en delmängd av mänskligheten. Människor kan varken orsaka eller ingripa för att korrigera dessa processer (Financial Sense University).</p>
+            <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
+
+
+
+
+
+            <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 1 paikapidavuse kohta:</h3>
+                    <p class="font-Heading text-2xl"><i>“Kõik liigid ei suuda kliimamuutustega kohaneda. Mõned liigid (nt linnud) võivad kliimamuutustega kohaneda erineval viisil (nt muuta rände- või pesitsusaega). Kuid mitte kõik liigid (nt imetajad) ei saa seda teha. Samuti ei ole võimalik kiiresti saavutada igasuguseid muutusi (nt morfoloogiliste omaduste muutumine). Üldiselt ei saa evolutsioon kiiresti toimudaehk liikide kohanemise määr on enamasti ebapiisav. 
+                    <br />
+                    (Visser, 2008)”</i></p>
+                </div>
+            </UiCardInfo>
+            
+
+            <p>Õpilased, kes uurivad müüti 1 juhendatud uurimuse vormis, uurivad tõendeid selle kohta, kuidas liigid kliimamuutustega kohanevad (nt korallijuhtum), nad osalevad konkreetses korallide massimuutusi uurivas katses ning vaatlevad hiljutisi tõestusmaterjale kliimamuutuste mõju kohta imetajatele. Õpilased uurivad teadusallikaid ja teevad oma järeldused. Teise võimalusena koguvad õpilased, kes uurivad müüti 1 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.</p>
+            
+            <p>Mõlema uurimisvormi puhul tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
+
+
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.nationalgeographic.com/science/article/mass-extinction" target="_blank" rel="noopener noreferrer">Mass extinction facts and information from National Geographic</a>
+                </li>
+                <li>
+                    <a href="https://www.nationalgeographic.com/animals/article/vanishing-what-we-lose-when-an-animal-goes-extinct-feature" target="_blank" rel="noopener noreferrer">What we lose when animals go extinct</a>
+                </li>
+            </ul> -->
+
+
+
+
+
+
+
+
+            
+
+            
+
+
+
+
+
+
+
+
+
+            <hr id="myth-2" class="mt-10 mb-40" />
+            <h3>Myt 2: Naturen kan anpassa sig till klimatförändringar.</h3>
+
+            <p>Jorden har en historia på 4,54 miljarder år. De väderförhållanden som har rått på planeten förändras ständigt. Därför tvingades de arter/organismer som levde på jorden anpassa sig till nya förutsättningar för att överleva. På så sätt utvecklas arter. Växter och djur har redan flera gånger anpassat sig till ogynnsamma förhållanden (klimatförändringar, meteoritfall, vulkanutbrott, etc.). Det gör att de kan anpassa sig till stigande temperaturer och den situation vi nu kallar klimatförändringar. Med andra ord är arter naturligt kapabla att överleva under nya förhållanden.</p>
+            <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
+
+
+            <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 2 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">Tänapäeval toimuvad väljasuremised sadu kordi kiiremini kui loomulikult. See on tingitud inimeste põhjustatud kliimamuutustest.</p>
+                </div>
+            </UiCardInfo>
+
+            <p>Õpilased, kes uurivad müüti 1 juhitud uurimuse vormis, uurivad tõendeid varasemate massiliste väljasuremiste kohta. Samuti uurivad nad uusimaid tõendeid konkreetsete kliimamuutustest põhjustatud väljasuremiste (nt Magellani pingviinide) kohta ja vaatavad BBC videot massiliste väljasuremiste kohta. Teise võimalusena koguvad õpilased avatud uurimuse vormis tõendeid teaduslikest allikatest, et oma hüpoteesi ümber lükata või kinnitada.</p>
+            <p>Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
+
+
+            <p><b>Teaduslike arusaamade kohta leiab infot järgmistest allikatest:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.nationalgeographic.com/environment/article/many-animals-can-adapt-climate-change-just-not-fast-enough-" target="_blank" rel="noopener noreferrer">Some animals can adapt to climate change—just not fast enough</a>
+                </li>
+                <li>
+                    <b>Visser, M. E.</b> (2008). Keeping up with a warming world; assessing the rate of adaptation to climate change. Proceedings of the Royal Society B: Biological Sciences, 275(1635), 649-659.
+                </li>
+            </ul> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <hr id="myth-3" class="mt-10 mb-40" />
+            <h2 id="section-7">Myt 3: Vetenskapen om klimatförändringar är inte trovärdig.</h2>
+
+            <p>
+                Meteorologiska stationer är belägna i områden där insamlade data inte är representativa för klimatförändringar och därför opålitliga för studier av det globala klimatet. Forskare riktar in sig på global terrorism för data som de skapar under de förhållanden de vill ha.
+            </p>
+
+            <p>
+                <i>
+                    “Vi hittade [amerikanska väderstationer] belägna bredvid luftkonditioneringsenheternas frånluftsfläktar, omgivna av asfalterade parkeringsplatser och vägar, på blixtrande heta hustak och nära trottoarer och byggnader som absorberar och utstrålar värme.”
+                </i>
+            </p>
+            <ul>
+                <li>
+                    <a class="text-sm" href="http://wattsupwiththat.files.wordpress.com/2009/05/surfacestationsreport_spring09.pdf" target="_blank" rel="noopener noreferrer">Watts 2009</a>
+                </li>
+                <li>
+                    <a class="text-sm" href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
+                </li>
+            </ul>
+
+            
+
+
+            <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 4 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">Kliimamuutustega seotud tõendid pärinevad aastakümneid kestnud intensiivsetest uuringutest ning põhinevad vaatlustel, väli- ja laborikatsetel ning simulatsioonimudelitel (Higgins, 2019). On meelevaldne arvata, et teaduslikud andmed kliimamuutuste kohta on ebausaldusväärsed.</p>
+                </div>
+            </UiCardInfo>
+
+            <p>Õpilased, kes uurivad müüti 4 juhendatud uurimuse vormis, uurivad NOAA-lt pärinevaid konkreetseid tõendeid (nt vaatlusjaamade asukohtade ja mõõtmiste kohta), et teha ise järeldusi nende usaldusväärsuse kohta. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi kas ümber lükata või kinnitada.</p>
+            <p>Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
+
+
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.ametsoc.org/ams/assets/File/Climate_Assessment_Credibility_10-2019.pdf" target="_blank" rel="noopener noreferrer">Climate_Assessment_Credibility_10-2019.pdf (ametsoc.org)</a>
+                </li>
+                <li>
+                    <a href="https://gml.noaa.gov/" target="_blank" rel="noopener noreferrer">NOAA ESRL Global Monitoring Laboratory</a>
+                </li>
+            </ul> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <hr id="myth-4" class="mt-10 mb-40" />
+            <h2>Myt 4: Temperaturökningen är bra!</h2>
+            
+            <p>
+                <i>"Förresten, om du ska rösta på något, rösta på uppvärmning. Mindre dödsfall på grund av kyla, regioner mer beboeliga ..... Det är bra!"</i>
+                (John MacArthur)
+            </p>
+
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s</a>
+                </li>
+                <li>
+                    <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
+                </li>
+            </ul>
+
+             
+            <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 4 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">Müüt 4 põhineb ainult ülaltoodud John MacArthuri väitel. Teaduslikud tõendid näitavad täpselt vastupidist. Kliimamuutus (kuumus)suurendab otseselt inimeste surmade arvu. Kliimamuutused on üks ühiskonda, keskkonda, majandust ja rahvatervist mõjutavate globaalsete muutuste põhjuseid.</p>
+                </div>
+            </UiCardInfo>
+
+            <p>Õpilased, kes uurivad müüti 6 juhitud uurimuse vormis, uurivad Maailma Terviseorganisatsiooni konkreetseid tõendeid temperatuuri tõusu ja inimeste surmade kohta, hiljutisi tõendeid kliimamuutustest mõjutatud inimsurmade kohta, viivad läbi eksperimendi temperatuuri tõusu ja elamuks või harimiseks kasutatava maa seoste kohta. Õpilased pääsevad ligi teaduslikule allikale ja teevad oma järeldused. Teise võimalusena koguvad õpilased, kes uurivad müüti 6 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.</p>
+            <p>Mõlema uurimisvormi  korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
+
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.epa.gov/climate-indicators/climate-change-indicators-heat-related-deaths#:~:text=Some%20statistical%20approaches%20estimate%20that,set%20shown%20in%20Figure%201" target="_blank" rel="noopener noreferrer">Climate Change Indicators: Heat-Related Deaths</a>
+                </li>
+                <li>
+                    <a href="https://health2016.globalchange.gov/low/ClimateHealth2016_FullReport_small.pdf" target="_blank" rel="noopener noreferrer">The Impacts Of Climate Change On Human Health In The United States</a>
+                </li>
+                <li>
+                    Ajakirjas Scientific American avaldatud 2009. aasta <a href="http://www.scientificamerican.com/article/global-warming-and-health/" target="_blank" rel="noopener noreferrer">artikli kohaselt</a> leidis Maailma Terviseorganisatsiooni (WHO) kliimamuutuste uurijate rühm, et "globaalne soojenemine on [vastutav] igal aastal umbes 150 000 surmajuhtumi eest kogu maailmas"; nad kartsid, et see arv kahekordistub aastaks 2030. 
+                </li>
+            </ul> -->
+
+ 
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <hr id="myth-5" class="mt-10 mb-40" />
+            <h2 id="section-9">Myt 5: CO₂ ning temperatuuri vahel puudub seos.</h2>
+            
+            <p>
+                <i>“Kahekümnenda sajandi globaalne soojenemine algas alles 1910. aastal. Selleks ajaks oli süsinikdioksiidi heitkogus juba tõusnud tööstusrevolutsiooni käivitatud söe laialdasest kasutamisest ja heitkogused kasvasid aeglaselt 3,5 gigatonnilt 1910. aastal alla 4 gigatonnini Teise Maailmasõja lõpuks.
+                <br />
+                Just sõjajärgne industrialiseerimine põhjustas globaase CO₂ heitkoguse kiire tõusu, kuid 1945. aastaks oli Maa juba jahtumisfaasis, mis algas umbes 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiirele globaalsele temperatuuri tõusule ja vaid väikesele CO₂ heitkoguse suurenemisele järgnes 33 aastat aeglast globaalse temperatuuri langust koos CO₂ heitkoguse kiire suurenemisega. Järelikult oli IPCC poolt petlik väita, et CO₂ heitkoguste suurenemine oli 20. sajandi globaalse soojenemise peamiseks põhjuseks."</i>
+                <br />
+                (<a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer">Norm Kalmanovitch</a>)
+                <br />
+                <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
+            </p>
+
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 5 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">
+                        <i>“Viimase 800 000+ aasta paleoklima andmed näitavad, et seos temperatuuri ja CO₂ vahel on selgelt tuvastatav. Wellingtoni Victoria ülikooli professori James Renwick’i sõnul on teadlased avastanud CO₂ rolli planeedi soojendamises juba 19. sajandi keskel. Viimase 2,6 miljoni aasta jooksul, viimaste jääaegade perioodi jooksul, on süsinikdioksiidi sisaldus tõusnud ja langenud koos temperatuuriga, saavutades põhja umbes 180 ppm-i jääaja maksimumi sügavustes ja haripunkti umbes 280 ppm-i juures soojematel interglatsiaalsetel perioodidel, ütleb ta ülevaates. "Kui minna tagasi, siis CO₂ tase oli kindlasti praegusest kõrgem, aga ka temperatuurid." Teadlased on kindlad, et suurenenud CO₂ kontsentratsioon põhjustab Maa temperatuuri tõusu. Kuna CO₂ ja muud kasvuhoonegaasid paisatakse atmosfääri, püüavad need kinni suurema osa päikeseenergiast, põhjustades soojenemist. "On selge, et inimmõju on atmosfääri, ookeani ja maad soojendanud,”</i> märgib IPCC oma kuuendas hindamisaruandes.
+                    </p>
+                </div>
+            </UiCardInfo>
+            
+            <p>
+                Õpilased, kes uurivad müüti 5 juhitud uurimuse vormis, uurivad tõendeid selle kohta, kuidas süsinik mõjutab kliimat ja elu Maal. Nad viivad ka läbi eksperimendi, milles uuritakse, kuidas süsinikdioksiid mõjutab temperatuuri Maal. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada. 
+                <br />
+                Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused. 
+            </p>
+
+            <p><b>Click the following links for the scientific view:</b></p>
+            <ul>
+                <li>
+                    <a href="https://climatefeedback.org/claimreview/link-between-co2-earth-temperature-well-established-despite-claims-fox-news-tom-harris/" target="_blank" rel="noopener noreferrer">https://climatefeedback.org/claimreview/link-between-co2-earth-temperature-well-established-despite-claims-fox-news-tom-harris/</a>
+                </li>
+                <li>
+                    <a href="https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature" target="_blank" rel="noopener noreferrer">https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature</a>
+                </li>
+            </ul>
+
+
+
+            
+
+
+
+
+
+
+
+
+            <hr id="myth-6" class="mt-10 mb-40" />
+            <h2 id="section-10">Myt 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h2>
+
+            <p>
+                <i>
+                    “Eitajad kahtlevad, kas kasvuhoonegaaside heitkoguste vähendamise jõupingutused fossiilkütuste kasutamise vähendamiseks on ülemaailmse arengu jaoks hädavajalikud. See on levinud arvamus, et taastuvenergia on kallis. Tuuleenergia on kalleim viis energia tootmiseks kui alternatiivid.”
+                </i>
+                <br />
+                (David Montgomery)
+            </p>
+
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam antud müüdi 6 kohta:</h3>
+                    <p class="text-2xl">
+                        Vaesust suurendavad kliimamuutused, mitte meetmed selle leevendamiseks.
+                    </p>
+                    <p class="text-2xl">
+                        Kliimamuutuste mõjud ja vaeste kogukondade haavatavus kliimamuutuste suhtes võib olla väga mitut liiki. Kliimamuutused vähendavad veelgi juurdepääsu joogiveele, mõjutavad negatiivselt vaeste inimeste tervist ja kujutavad endast reaalset ohtu toiduga kindlustatusele paljudes Aafrika, Aasia ja Ladina-Ameerika riikides. Mõnes piirkonnas, kus elatusvahendite valikud on piiratud, ähvardab saagikuse vähenemine näljahäda ning seal, kus rannikualadel on oodata maa kadumist, võib ränne olla ainus lahendus. Kliimamuutuste mõjude makromajanduslikud kulud on väga ebakindlad, kuid tõenäoliselt võivad need ohustada paljude riikide arengut. Seetõttu on eesseisev ülesanne suurendada mõjutatud vaeste kogukondade ja riikide kohanemisvõimet.
+                        <br />
+                        Otsus keskenduda kohanemisele on tahtlik ja tehtud arusaamisega, et kohanemine ei saa asendada leevendamispüüdlusi. Kliimamuutuste ulatus ja kiirus sõltuvad suuresti jõupingutustest vähendada kasvuhoonegaaside (KHG) kontsentratsiooni atmosfääris. Mida kõrgem on kasvuhoonegaaside kontsentratsioon, seda suurem on inimeste ja bioloogiliste süsteemide pöördumatute ja tõsiste kahjustuste tõenäosus. Seetõttu on kohanemine vaid üks osa lahendusest. Teine asendamatu osa on kliimamuutuste leevendamine kasvuhoonegaaside kontsentratsiooni piiramisega atmosfääris.
+                    </p>
+                </div>
+            </UiCardInfo>
+
+            <p>
+                Õpilased, kes uurivad müüti 5 juhitud uurimuse vormis, otsivad tõendeid taastuvelektri kasutamisele ülemineku majandusliku kasu, erinevate energiaallikate kasutamise eelseisvate mõjude ja taastuvate energiaallikate kasutamisega kaasnevate töökohtade kohta. Teise võimalusena koguvad õpilased, kes uurivad müüti 5 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.
+                <br />
+                Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.
+            </p>
+
+
+            <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.oecd.org/env/cc/2502872.pdf" target="_blank" rel="noopener noreferrer">https://www.oecd.org/env/cc/2502872.pdf</a>
+                </li>
+                <li>
+                    <a href="https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective</a>
+                </li>
+                <li>
+                    <a href="https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty" target="_blank" rel="noopener noreferrer">https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty</a>
+                </li>
+            </ul>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+            <hr id="myth-7" class="mt-10 mb-40" />
+            <h2 id="section-11">Myt 7: Maa kliima on alati muutunud ja nüüd kordub see taas.</h2>
+
+            <p>
+                <i>
+                    “Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi  CO₂ tase on praegusest madalam. viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”
+                </i>
+                <br />
+                (<a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer">Richard Lindzen</a>)
+                <br />
+                <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
+            </p>
+            
+            
+            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+                <div>
+                    <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr. 7 paikapidavuse kohta:</h3>
+                    <p class="text-2xl">
+                        Suurimad globaalsed kliimamuutused Maa lähimas geoloogilises minevikus on jääaja tsüklid, millele järgnevad lühemad soojaperioodid. Mõned viimased neist looduslikest tsüklitest on kordunud ligikaudu iga 100 000 aasta tagant. CO2 sisaldus on viimase 200 aastaga tõusnud enam kui 40%, millest suur osa alates 1970. aastatest, põhjustades inimtekkelist energiabilansi muutumist Maal  1 °C võrra  (1,8 °F). Kui CO2 kasv jätkub pidurdamatult, võib selle sajandi lõpuks või varsti pärast seda oodata soojenemist, mis on sama suur, kui jääajast väljuv tõus. Selline soojenemise kiirus on üle kümne korra suurem kui see oli jääaja lõpus, mis on maailma mastaabis kiireim teadaolev looduslik püsiv muutus.
+                    </p>
+                </div>
+            </UiCardInfo>
+
+            <p>
+                Õpilased, kes uurivad müüti 7 juhitud uurimuse vormis, uurivad Maa temperatuuri (NASA tõendid) ja võrdlevad temperatuuri muutusi iga kahekümne aasta tagant. Nad selgitavad välja suurimad temperatuuritõusud ja salvestavad nende kohta konkreetset teavet. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.
+                <br />
+                Mõlema uurimisvõimaluse puhul pääsevad õpilased juurde teaduslikele allikatele ja teevad oma järeldused.
+            </p>
+
+            
+ 
+
+
+        </section>
+    </div>
+</template>

@@ -26,8 +26,7 @@ export const useStudentClimateGuidedMyth4 = defineStore("studentClimateGuidedMyt
                 ["","","","","","",""],
                 ["","","","","","",""]
             ],
-            sealevelTableAnswer: "",
-            conclusion: ""
+            sealevelTableAnswer: ""
         },
         a3: {
             source431Table: [

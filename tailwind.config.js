@@ -35,6 +35,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {          
             css: {
+              '--tw-text-opacity': '1',
               maxWidth: '85ch',
               h4: {
                 fontSize: '1.25em'
