@@ -86,8 +86,24 @@
             
 
             
+
             
-            
+
+
+
+
+
+
+
+<!-- 
+    333333 
+        33
+     33333
+        33
+    333333
+ -->
+
+
             
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-4" class="bg-rose-100">Tegevus 3: Kliimamuutuste müüdid</h2>
@@ -255,84 +271,7 @@
 
 
 
-
-
-
-
-<!-- 
-    333333 
-        33
-     33333
-        33
-    333333
- -->
-
-
-            <!-- <hr id="activity-35" class="mt-10 mb-40 print:my-10" />
-            <h2>Tegevus 3: Mythbusting</h2>
-
-            <ModulesStructure>
-                <template #title>Activity 3<br />MYTHBUSTING</template>
-                <template #icons>
-                    <div class="e-icon--rounded ">
-                        <Icon name="fa6-solid:people-group" class="text-white" />
-                    </div>
-                    <div class="e-icon--rounded ">
-                        <Icon name="tabler:zoom-question" class="text-white" />
-                    </div>
-                    <div class="e-icon--rounded ">
-                        <Icon name="tabler:microscope" class="text-white" />
-                    </div>
-                    <Icon name="fa6-solid:arrows-spin" />
-                    <div class="e-icon--rounded bg-slate-600">
-                        <Icon name="game-icons:horse-head" class="text-white" />
-                    </div>
-                </template>
-            </ModulesStructure>
-
-
-            <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
-
-            <UiCardInfo class="my-8" theme="blue" icon="material-symbols:alt-route">
-                <div>
-                    Now, consider whether your hypothesis can be tested based only <b>on secondary evidence</b> (relying on published material of already conducted experiments) or <b>on your own experiment</b>. Based on that, you should choose <b>Activity 3a</b> or <b>Activity 3b</b> from below for further study.
-                </div>
-            </UiCardInfo>
-
             
-
-
-
-
-            <div class="w-full px-2 py-16 sm:px-0" id="activity-3ab">
-                <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
-                <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
-                    <Tab as="template" v-slot="{ selected }">
-                        <button
-                        class="w-full rounded py-3 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                        :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                        >Activity 3a</button>
-                    </Tab>
-                    
-                    <Tab as="template" v-slot="{ selected }">
-                        <button
-                        class="w-full rounded py-3 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                        :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                        >Activity 3b</button>
-                    </Tab>
-                    
-                    </TabList>
-            
-                    <TabPanels class="mt-2">
-                        <TabPanel class="focus:outline-none">
-                            <ModulesVirusesStudentActivity3aEn />
-                        </TabPanel>
-                        <TabPanel class="focus:outline-none">
-                            <ModulesVirusesStudentActivity3bEn />
-                        </TabPanel>
-                    </TabPanels>
-                </TabGroup>
-                </div> -->
 
 
 
@@ -347,7 +286,7 @@
 
 
 
-            <ModulesStudentActivity45Et />
+            <ModulesStudentActivity45El />
 
 
 
@@ -366,63 +305,33 @@
 
 
             <hr class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-7">Tegevus 6: Argumenteerimismäng</h2>
+            <h2 id="section-7">Δραστηριότητα 6: Παιγνίδι Επιχειρηματολογίας</h2>
 
-            <!-- <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale.s <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p> -->
-
-            <!-- <ModulesStructure>
-                    <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="game-icons:rolling-dices" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded">
-                            <Icon name="healthicons:group-discussion-meeting" class="text-white" />
-                        </div>
-                    </template>
-            </ModulesStructure> -->
-
-            <p>Kliimamuutuste mooduli lõpus rakendatakse järgmist argumentatsioonimängu. Lugege hoolikalt järgmisi juhiseid.</p>
             
 
-            <h3>Mängu juhised:</h3>
+            <p>Το ακόλουθο παιγνίδι επιχειρηματολογίας ολοκληρώνει τη θεματική ενότητα της κλιματικής αλλαγής. Διαβάστε προσεχτικά τις ακόλουθες οδηγίες.</p>
+            
+
+            <h3>Οδηγίες Παιγνιδιού:</h3>
             
             <ol>
-                <li>Mängijad jagunevad võrdsetesse rühmadesse.</li>
+                <li>Οι παίκτες χωρίζονται σε ισάριθμες ομάδες.</li>
                 <li>
-                    <b>Lugude valik.</b> Iga võistkond valib 1 rohelise ja 1 sinise kaardi. 
-                    <ul>
-                        <li>
-                            <b>Rohelised kaardid</b> tutvustavad kliimamuutustega seotud lugusid. Lood põhinevad faktidel. 
-                        </li>
-                        <li>
-                            <b>Sinistel infokaartidel</b> on vastused vastavale rohelisele loole, aga rohelise kaardi meeskonnal vastavat sinist vastusekaarti ei ole.
-                        </li>
-                    </ul>
+                    Κάθε ομάδα επιλέγει μια πράσινη και μια μπλε κάρτα. Στις πράσινες κάρτες καταγράφονται ιστορίες που σχετίζονται με την κλιματική αλλαγή. Οι ιστορίες βασίζονται σε πραγματικά γεγονότα. Κάθε πράσινη κάρτα αντιστοιχεί σε μια μπλε κάρτα πληροφοριών που σχετίζονται με την ιστορία που περιλαμβάνει και δίνουν την απάντηση σε αυτήν.
                 </li>
                 <li>
-                    <b>Arutelu meeskonnas.</b> Kõik mängijad meeskonnas loevad lugu roheliselt kaardilt. Seejärel arutatakse lugu omavahel. 
-                    <br />
-                    Näiteks räägib esimene roheline kaart tõestisündinud loo 16-aastasest isasest jääkarust, kes leiti Svalbardis nälga surnuna. Meeskonna mängijad püüavad välja selgitada miks jääkaru suri.
+                    Όλοι οι παίκτες της  κάθε ομάδας διαβάζουν την πράσινη κάρτα. Οι παίκτες συζητούν την ιστορία τους στην ομάδα. Για παράδειγμα, στην πρώτη πράσινη κάρτα καταγράφεται μια πραγματική ιστορία για ένα16χρονο αρσενικό πολικό αρκουδάκι που βρέθηκε νεκρό στο Σβάλμπαρντ από ασιτία. Οι παίκτες της ομάδας προσπαθούν να εξηγήσουν γιατί πέθανε το αρκουδάκι.
                 </li>
                 <li>
-                    <b>Ühisarutelu.</b> Peale arutelu meeskonnas toimub seisukohtade esitlemine ühisarutelu käigus kõigi gruppide vahel.
-                    <br />
-                    Kui rühm esitleb oma lugu paneelarutelul, püüab vastava sinise infokaardiga rühm neile oma argumentidega vastata.
-                    <br />
-                    Selles etapis jagavad mängijad oma seisukohti teistega ja parandavad oma vastuseid, kui kuulevad erinevaid argumente ja arvamusi.</li>
-                <li>
-                    Mängu lõpus võrdlevad mängijad lugude kaarte infokaartidega. Iga tõene argument saab 3 punkti. Mängu võidab kõige suurema punktisumma saanud meeskond.
+                    Όταν κάθε ομάδα παρουσιάζει την ιστορία στην ολομέλεια, η ομάδα που έχει την αντίστοιχη μπλε κάρτα πληροφοριών προσπαθεί να απαντήσει στο σενάριο με τα δικά της επιχειρήματα. Σε αυτό το στάδιο, οι παίκτες μοιράζονται τις απόψεις τους με άλλους και βελτιώνουν την απάντησή τους καθώς ακούν διαφορετικά επιχειρήματα και απόψεις. Σε αυτήν την περίπτωση, η ομάδα της μπλε κάρτας υποστηρίζει ότι η αρκούδα πέθανε λόγω της κλιματικής αλλαγής.
                 </li>
+                <li>Στο τέλος του παιγνιδιού, οι παίκτες θα συνδέσουν τις κάρτες ιστορίας με τις κάρτες πληροφοριών. Κάθε επιχείρημα παίρνει 3 βαθμούς. Η ομάδα με την υψηλότερη βαθμολογία κερδίζει το παιχνίδι.</li>
             </ol>
 
             
             <hr>
             
-            <h3>Mängukaardid</h3>
+            <h3>Playing cards</h3>
 
             <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
 
