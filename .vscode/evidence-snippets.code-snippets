@@ -4,7 +4,7 @@
 		"description": "a-blank",
 		"scope": "",
 		"body": [
-			"<a href=\"\\$1\" target=\"_blank\" rel=\"noopener noreferrer\">\\$2</a>"
+			"<a href=\"\" target=\"_blank\" rel=\"noopener noreferrer\"></a>"
 		]
 	},
 	"textarea-n-label": {
@@ -43,6 +43,22 @@
 			"                    <a :href=\"t('inquiry.cc_myth4.sources[2].url')\" target=\"_blank\" rel=\"noopener noreferrer\">{{ t('inquiry.cc_myth4.sources[2].name') }}</a>",
 			"                </template>",
 			"            </i18n-t>"
+		]
+	},
+	"note": {
+		"prefix": "note",
+		"description": "Sup-note",
+		"scope": "",
+		"body": [
+			"<sup><span class=\"tooltip\" data-tip=\"\">[]</span></sup>"
+		]
+	},
+	"linkWithTooltip": {
+		"prefix": "att",
+		"description": "Link with tooltip",
+		"scope": "",
+		"body": [
+			"<a href=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"tooltip\" data-tip=\"\"></a>"
 		]
 	}
 	// Place your evidence workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 

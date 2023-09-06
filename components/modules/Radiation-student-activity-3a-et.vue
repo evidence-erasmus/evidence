@@ -4,11 +4,11 @@
         <h2> Tegevus 3a: Müüdimurdmine eksperimendi läbiviimise abil</h2>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block">Rühma otsus − me kavatseme hakata ümber lükkama või kinnitama järgmist kiirgustega seotud müüti:</label>
+        <label class="font-bold block leading-tight my-2">Rühma otsus − me kavatseme hakata ümber lükkama või kinnitama järgmist kiirgustega seotud müüti:</label>
         
         <textarea class="textarea textarea-bordered w-full text-lg" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
-        <hr />
+        
 
         
         
@@ -35,13 +35,44 @@
         
 
         
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block">Meie hüpotees / uurimisküsimus on:</label>
-
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="font-bold block leading-tight my-2">Meie hüpotees / uurimisküsimus on:</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="4" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
-
+        
 
         
+        <!-- independent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Sõltumatu muutuja</b> (see, mida muudetakse):</label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍"></textarea>
+        
+        <!-- dependent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Sõltuv muutuja</b> (see mida sekkumise tulemusena mõõdetakse):</label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍"></textarea>
+        
+        <!-- control variables -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Kontrollmuutujad</b> (need muutujad, mida püütakse hoida katse käigus püsivana):</label>
+
+        <ToolsDynamicTableFull class="e-card"
+            :tableStructure = "controlTable" 
+            :addRow = "true"
+            :newRow = "['']"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
+        />
+
+
+
+
+
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
         
 
         <h3>Tegevusplaan</h3>
@@ -53,6 +84,12 @@
         </section>
 
 
+
+
+
+
+
+        
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block">Muutujate määratlemine:</label>
@@ -112,5 +149,21 @@
             {thead: "Sõltuv muutuja", tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"},
             {thead: "Kontrollmuutujad", tsubhead: "(need, mida üritatakse hoida katse jooksul muutumatutena)"},
         ]
+    });
+    const controlTable = ref({
+        header: [
+            {thead: "", tsubhead: "Iga muutuja eraldi reale"}
+        ]
+    });
+    const resultsTable = computed(() => {
+        
+        let structure = {
+            header: [
+                {thead: "", tsubhead: "sõltumatu muutuja"},
+                {thead: "", tsubhead: "sõltuv muutuja"},
+            ]
+        }
+
+        return structure;
     });
 </script>

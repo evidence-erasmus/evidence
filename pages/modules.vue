@@ -12,7 +12,7 @@
                 <UiCardModule path="climate-change" 
                     :title="t('modules.climateChange.title')" 
                     :description="t('modules.climateChange.description')" 
-                    icon="material-symbols:mode-cool-off-rounded" 
+                    icon="material-symbols:mode-cool-off" 
                     class="w-full"
                 />
                 <UiCardModule path="radiation" 
@@ -27,7 +27,7 @@
                     icon="mdi:dna" 
                     class="w-full md:mt-4"
                 />
-                <UiCardModule path="radiation" 
+                <UiCardModule path="drugs" 
                     :title="t('modules.drugs.title')" 
                     :description="t('modules.drugs.description')" 
                     icon="material-symbols:syringe-outline" 

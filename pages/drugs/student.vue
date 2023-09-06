@@ -1,16 +1,19 @@
 <template>
     <div>
         <template v-if="locale === 'et'">
-            <ModulesClimateChangeStudentEt />
+            <ModulesDrugsStudentEn />
         </template>
-        <template v-if="locale === 'el'">
-            <ModulesClimateChangeStudentEl />
+        <template v-else-if="locale === 'el'">
+            <ModulesDrugsStudentEn />
         </template>
-        <template v-if="locale === 'sv'">
-            <ModulesClimateChangeStudentSv />
+        <template v-else-if="locale === 'pt'">
+            <ModulesDrugsStudentEn />
+        </template>
+        <template v-else-if="locale === 'sv'">
+            <ModulesDrugsStudentEn />
         </template>
         <template v-else>
-            <ModulesClimateChangeStudentEn />
+            <ModulesDrugsStudentEn />
         </template>
     </div>
 </template>
@@ -21,6 +24,5 @@
     definePageMeta({
         layout: "content-left",
     });
-
 
 </script>

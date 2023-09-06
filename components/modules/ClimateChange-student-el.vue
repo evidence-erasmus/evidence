@@ -333,8 +333,6 @@
             
             <h3>Playing cards</h3>
 
-            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
-
             <UiCardInfo>
                 <div>
                     <p>Siin võtavad kaardid ruumi just nii palju kui on vaja brauseri aknasse sobitumiseks <b>Kui soovid kaarte välja printida, on seda parem teha eraldi printimise vaates.</b></p>

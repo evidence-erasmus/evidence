@@ -6,6 +6,13 @@ export const useStudentRadiation = defineStore("studentRadiation", {
         activity3a: {
             activity3aMyth: "",
             activity3aHypothesis: "",
+            experimentVariables: {
+                independent: "",
+                dependent: "",
+                control: [
+                    [""]
+                ]
+            },
             activity3aVariables: [
                ["", "", ""]
             ],
