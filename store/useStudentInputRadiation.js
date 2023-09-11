@@ -16,7 +16,7 @@ export const useStudentRadiation = defineStore("studentRadiation", {
             activity3aVariables: [
                ["", "", ""]
             ],
-            activity3aResults: "",
+            activity3aResults: ["", "", "", ""],
             activity3aConclusion: "",
             activity3aSummary: "",
         },
@@ -46,6 +46,9 @@ export const useStudentRadiation = defineStore("studentRadiation", {
         },
         addDynamicRow(key, row){
             key.push(row);
+        },
+        deleteDynamicRow(key, row){
+            key.splice(row, 1);
         },
         changeDynamicRow(key, row, column, value){
             key[row][column] = value;

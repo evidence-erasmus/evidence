@@ -58,12 +58,23 @@
         <ToolsDynamicTableFull class="e-card"
             :tableStructure = "controlTable" 
             :addRow = "true"
+            addRowTitle = "Lisa muutuja"
             :newRow = "['']"
             :storeToUpdate = "studentInputs" 
             :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
+            :deleteRow = "true"
         />
+        
+        Results table 
 
-
+        <ToolsDynamicTableFull class="e-card"
+            :tableStructure = "resultsTable" 
+            :addRow = "true"
+            :newRow = "new Array(2 + studentInputs.activity3a.experimentVariables.control.length)"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.activity3aResults"
+            :deleteRow = "true"
+        />
 
 
 
@@ -157,12 +168,18 @@
     });
     const resultsTable = computed(() => {
         
+        const variables = studentInputs.activity3a.experimentVariables;
+
         let structure = {
             header: [
-                {thead: "", tsubhead: "sõltumatu muutuja"},
-                {thead: "", tsubhead: "sõltuv muutuja"},
+                {thead: `${variables.independent}`, tsubhead: "Sõltumatu muutuja"},
+                {thead: `${variables.dependent}`, tsubhead: "Sõltuv muutuja"},
             ]
         }
+
+        studentInputs.activity3a.experimentVariables.control.forEach( (variable) => {
+            structure.header.push({thead: `${variable}`, tsubhead:"Kontrollmuutuja"});
+        } );
 
         return structure;
     });

@@ -14,7 +14,7 @@
                     </p>
                 </div>
         </div>
-        <div v-for="row, i in keyToUpdate" :key="`r${i}-${keyToUpdate.length}`" class="grid" :style="`grid-template-columns:repeat(${tableStructure.header.length}, 1fr)`">
+        <div v-for="row, i in keyToUpdate" :key="`r${i}-${keyToUpdate.length}`" class="grid relative" :style="`grid-template-columns:repeat(${tableStructure.header.length}, 1fr)`">
             <div v-for="cell, j in row"
             class="text-sm leading-none ">
                 <p v-if="overwrite && j === overwritePos || printMode === true" class="text-sm m-2 leading-none">
@@ -22,11 +22,11 @@
                 </p>
                 <textarea v-else v-model="keyToUpdate[i][j]" rows="1" class="textarea textarea-bordered block w-full h-full py-1 px-2 leading-tight" :key="`ta-${i}-${j}-${keyToUpdate.length}`">
                 </textarea>
-                
             </div>
+            <button v-if="deleteButton" class="absolute -right-2 top-1 text-red-500" @click="deleteRow(i)"><Icon name="material-symbols:cancel" size="24" /></button>
         </div>
         
-        <button v-if="addButton" @click="addRow" class="btn btn-sm btn-neutral mt-3">{{ t('inquiry.add_row') }}</button>
+        <button v-if="addButton" @click="addRow" class="btn btn-sm btn-neutral mt-3">{{ addRowTitle ? addRowTitle : t('inquiry.add_row') }}</button>
     </section>
 </template>
 
@@ -46,6 +46,13 @@
         addRow: {
             type: Boolean,
             default: false
+        },
+        deleteRow: {
+            type: Boolean,
+            default: false
+        },
+        addRowTitle: {
+            type: String
         },
         overwrite: {
             type: Boolean,
@@ -72,9 +79,22 @@
             return true;
         }
     });
+    const deleteButton = computed(()=>{
+        if(!props.deleteRow || props.printMode){
+            return false;
+        } else {
+            return true;
+        }
+    });
+
     const addRow = () => {
+        // const dynRow = props.keyToUpdate
         const row = new Array(...props.newRow);
         props.storeToUpdate.addDynamicRow(props.keyToUpdate, row);
+    }
+
+    const deleteRow = (row) => {
+        props.storeToUpdate.deleteDynamicRow(props.keyToUpdate, row);
     }
 
     // Overwrite rows to storeToUpdate object?
