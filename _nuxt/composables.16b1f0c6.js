@@ -1,0 +1,1 @@
+import{a8 as i,n as a,j as r,a9 as s,Z as n,aa as c}from"./entry.6cca6deb.js";function p(e){const{route:t,router:o,i18n:u}=e||{};return i({route:t||a(),router:o||r(),i18n:u||s(n().$i18n)})}function l(e){const{route:t,router:o,i18n:u}=e||{};return c({route:t||a(),router:o||r(),i18n:u||s(n().$i18n)})}export{l as a,p as u};
