@@ -16,14 +16,14 @@
         </div>
         <div v-for="row, i in keyToUpdate" :key="`r${i}-${keyToUpdate.length}`" class="grid relative" :style="`grid-template-columns:repeat(${tableStructure.header.length}, 1fr)`">
             <div v-for="cell, j in row"
-            class="text-sm leading-none ">
+            class="text-sm leading-none">
                 <p v-if="overwrite && j === overwritePos || printMode === true" class="text-sm m-2 leading-none">
                     {{ keyToUpdate[i][j] }}
                 </p>
-                <textarea v-else v-model="keyToUpdate[i][j]" rows="1" class="textarea textarea-bordered block w-full h-full py-1 px-2 leading-tight" :key="`ta-${i}-${j}-${keyToUpdate.length}`">
+                <textarea v-else v-model="keyToUpdate[i][j]" rows="1" class="textarea textarea-bordered ring-inset block w-full h-full py-1 px-2 leading-tight rounded-md focus:bg-yellow-50 focus:text-slate-800" style="outline-offset:-4px" :key="`ta-${i}-${j}-${keyToUpdate.length}`">
                 </textarea>
             </div>
-            <button v-if="deleteButton" class="absolute -right-2 top-1 text-red-500" @click="deleteRow(i)"><Icon name="material-symbols:cancel" size="24" /></button>
+            <button v-if="deleteButton" class="absolute -right-2 top-1 text-red-700" @click="deleteRow(i)"><Icon name="material-symbols:cancel" size="24" /></button>
         </div>
         
         <button v-if="addButton" @click="addRow" class="btn btn-sm btn-neutral mt-3">{{ addRowTitle ? addRowTitle : t('inquiry.add_row') }}</button>

@@ -65,7 +65,8 @@
             :deleteRow = "true"
         />
         
-        Results table 
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Tulemuste tabel</b></label> 
 
         <ToolsDynamicTableFull class="e-card"
             :tableStructure = "resultsTable" 
@@ -166,6 +167,7 @@
             {thead: "", tsubhead: "Iga muutuja eraldi reale"}
         ]
     });
+    
     const resultsTable = computed(() => {
         
         const variables = studentInputs.activity3a.experimentVariables;
