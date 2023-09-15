@@ -21,24 +21,24 @@
                     icon="icon-park-outline:radiation" 
                     class="w-full"
                 />
-                <UiCardModule path="radiation" 
+                <!-- <UiCardModule path="radiation" 
                     :title="t('modules.evolution.title')" 
                     :description="t('modules.evolution.description')" 
                     icon="mdi:dna" 
                     class="w-full md:mt-4"
-                />
+                /> -->
                 <UiCardModule path="drugs" 
                     :title="t('modules.drugs.title')" 
                     :description="t('modules.drugs.description')" 
                     icon="material-symbols:syringe-outline" 
                     class="w-full md:mt-4"
                 />
-                <UiCardModule path="radiation" 
+                <!-- <UiCardModule path="radiation" 
                     :title="t('modules.space.title')" 
                     :description="t('modules.space.description')" 
                     icon="material-symbols:rocket-launch-outline" 
                     class="w-full md:mt-4"
-                />
+                /> -->
                 
         </section>
     </div>

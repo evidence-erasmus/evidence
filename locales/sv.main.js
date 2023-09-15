@@ -4,22 +4,22 @@ export default {
     "title": "Projektist"
   },
   hero: {
-    about: "Projektist pikemalt",
+    about: "Mer om projektet",
     erasmus: "Erasmus+ projekt",
-    intro: "Meie eesmärk on edendada õpilaste võtmepädevusi tõenduspõhiste otsuste tegemisel vastuolulistes sotsiaalteaduslikes küsimustes",
-    modules: "Tutvu moodulitega"
+    intro: "Vårt mål är att främja studenters nyckelkompetenser för evidensbaserat beslutsfattande i kontroversiella samhällsvetenskapliga frågor",
+    modules: "Kolla in modulerna"
   },
   menu: {
-    about: "Projektist",
-    modules: "Moodulid"
+    about: "Om projektet",
+    modules: "Modulerna"
   },
-  "message": "Tervitusi välisest failist!",
+  message: "Tervitusi välisest failist!",
   modules: {
     toc: "Innehållsförteckning",
     background_info: "Vetenskaplig bakgrund",
     climateChange: {
       description: "Kliimamuutuste kirjeldav tekst",
-      title: "Kliimamuutused"
+      title: "Klimatförändring"
     },
     for_students: "Elevmaterial",
     for_teachers: "Lärarmaterial",
@@ -34,7 +34,7 @@ export default {
     }
   },
   print: {
-    hint: "Saate selle lehe printida või salvestada pdf failina",
+    hint: "Du kan skriva ut den här sidan eller spara som .pdf-fil  ",
     print: "Skriva ut"
   },
   ui: {

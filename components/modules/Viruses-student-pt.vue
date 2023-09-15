@@ -10,9 +10,11 @@
 </script>
 
 <template>
-    <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl z-50 ring-4 ring-slate-700">
+    <!-- <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl z-50 ring-4 ring-slate-700">
         <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Your answers</nuxt-link>
-    </section>
+    </section> -->
+
+    <UiYourAnswersButton url="" />
     
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 
@@ -384,39 +386,15 @@
 
             <h3>Tema 1: Vacinação</h3>
 
-            <UiCardInfo>
-                <div>
-                    <p>Aqui os cartões se ajustam ao layout da página e ocupam tão pouco espaço quanto seu conteúdo interno exige. Portanto, esta é apenas uma prévia. <b>Se você quiser ver as cartas como cartas de tamanho uniforme e imprimi-las, abra a página especial "visualização de cartas".</b></p>
-                    
-                    <nuxt-link to="../tools/cards/viruses/theme1" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Abra cartões imprimíveis
-                    </nuxt-link> (abre em uma nova aba)
-                </div>
-            </UiCardInfo>
-
+            <UiCardGamePrintMessage />
+            
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
             <hr>
 
             <h3>Tema 2 Usar máscaras por explosão pandémica de infeção respiratória superior</h3>
 
-            <UiCardInfo>
-                <div>
-                    <p>Aqui os cartões se ajustam ao layout da página e ocupam tão pouco espaço quanto seu conteúdo interno exige. Portanto, esta é apenas uma prévia. <b>Se você quiser ver as cartas como cartas de tamanho uniforme e imprimi-las, abra a página especial "visualização de cartas".</b></p>
-                    
-                    <nuxt-link to="../tools/cards/viruses/theme2" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Abra cartões imprimíveis
-                    </nuxt-link> (abre em uma nova aba)
-                </div>
-            </UiCardInfo>
+            <UiCardGamePrintMessage />
 
             <ToolsCardgameVirusesTheme2 :printMode="false" />
 

@@ -10,9 +10,10 @@
 </script>
 
 <template>
-    <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl z-50 ring-4 ring-slate-700">
+    <!-- <section class="fixed bottom-0 left-0 flex bg-amber-400 pt-2 pb-6 px-10 rounded-tr-xl z-50 ring-4 ring-slate-700">
         <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Your answers</nuxt-link>
-    </section>
+    </section> -->
+    <UiYourAnswersButton url="answers" />
     
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 
@@ -349,19 +350,7 @@
 
             <h3>Tema 1: Vaccination</h3>
 
-            <UiCardInfo>
-                <div>
-                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
-                    
-                    <nuxt-link to="../tools/cards/viruses/theme1" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
-                    </nuxt-link> (opens in new tab)
-                </div>
-            </UiCardInfo>
+            <UiCardGamePrintMessage />
 
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
@@ -369,19 +358,7 @@
 
             <h3>Tema 2: Att bära munskydd/masker vid övre luftvägsinfektion pandemiutbrott</h3>
 
-            <UiCardInfo>
-                <div>
-                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
-                    
-                    <nuxt-link to="../tools/cards/viruses/theme2" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
-                    </nuxt-link> (opens in new tab)
-                </div>
-            </UiCardInfo>
+            <UiCardGamePrintMessage />
 
             <ToolsCardgameVirusesTheme2 :printMode="false" />
 

@@ -338,19 +338,7 @@
 
             <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
 
-            <UiCardInfo>
-                <div>
-                    <p>Siin võtavad kaardid ruumi just nii palju kui on vaja brauseri aknasse sobitumiseks <b>Kui soovid kaarte välja printida, on seda parem teha eraldi printimise vaates.</b></p>
-                    
-                    <a href="../tools/cards/radiation" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Ava prinditavad kaardid
-                    </a> (uues aknas)
-                </div>
-            </UiCardInfo>
+           <UiCardGamePrintMessage />
 
             <ToolsCardgameRadiation :printMode="false" />
 

@@ -6,6 +6,6 @@
         <div class="mt-28">
             <slot />
         </div>
-        <UiLangSwitcher class="fixed right-0 bottom-10 print:invisible" />
+        <!-- <UiLangSwitcher class="fixed right-0 bottom-10 print:invisible" /> -->
     </div>
 </template>

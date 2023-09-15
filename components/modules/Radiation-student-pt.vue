@@ -334,22 +334,7 @@
 
             <h2>Cartas de jogar</h2>
 
-
-            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
-
-            <UiCardInfo>
-                <div>
-                    <p>Aqui, os cartões se ajustam ao layout da página e ocupam o mínimo de espaço que seu conteúdo interno exige. Portanto, esta é apenas uma prévia. <b>Se você quiser ver as cartas como cartas de baralho de tamanho uniforme regular e imprimi-las, abra a página especial "visualização de cartas".</b></p>
-                    
-                    <nuxt-link to="../tools/cards/radiation" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Cartões imprimíveis abertos
-                    </nuxt-link> (nova guia do navegador)
-                </div>
-            </UiCardInfo>
+            <UiCardGamePrintMessage />
 
             <ToolsCardgameRadiation :printMode="false" />
 

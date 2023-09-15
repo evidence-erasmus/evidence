@@ -51,10 +51,10 @@ module.exports = {
         mytheme: {
           "primary": "#facc15",
           "secondary": "#3b82f6",
-          "accent": "#fb7185",
+          "accent": "#000000",
           "neutral": "#6b7280",
           "base-100": "#FFFFFF",
-          "info": "#d8b4fe",
+          "info": "rgb(14, 165, 233)",
           "success": "#36D399",
           "warning": "#fb923c",
           "error": "#dc2626",

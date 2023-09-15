@@ -1,18 +1,20 @@
 <template>
-    <nav class="flex gap-5">
-        <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1">{{t('menu.about')}}</NuxtLink>
-        <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1"
+    <nav class="flex gap-2">
+        <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1 uppercase">{{t('menu.about')}}</NuxtLink>
+        <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1 uppercase"
         :class="isActiveClass"
         >{{t('menu.modules')}}</NuxtLink>
     </nav>
+
 </template>
 
 <script setup>
-    const { locale, locales, t } = useI18n({
+    const { locale, t } = useI18n({
         useScope: 'global'
-    })
+    });
     const localePath = useLocalePath()
     const route = useRoute();
+
     
     const isActiveClass = computed(() => {
         if(
@@ -25,21 +27,18 @@
              ){
             return 'router-link-active router-link-exact-active'
         }
-    })
+    });
+
     
 </script>
 
 
 
 <style scoped>
-/* home route and active route will show in bold as it matches / and /about */
     a.router-link-active {
-        /* font-weight: bold; */
         font-weight: 700;
-        border-bottom:1px solid black !important;
+        text-decoration: underline;
+        text-underline-offset: 0.5ch;
+        /* border-bottom:1px solid black !important; */
     }
-/* exact link will show the primary color for only the exact matching link */
-    /* a.router-link-exact-active {
-        color: #00c58e;
-    } */
 </style>
