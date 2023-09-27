@@ -15,7 +15,7 @@ export default {
   },
   message: "Hello from external",
   modules: {
-    toc: "Índice",
+    toc: "Lista de conteúdos",
     background_info: "Informação científica",
     climateChange: {
       description: "Climate change description",

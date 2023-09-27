@@ -17,37 +17,50 @@
             <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1">1. What is Climate Change, and which are its causes?</h2>
         
-            <p>Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle. But since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels like coal, oil and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun’s heat and raising temperatures (Figure 1). Specifically, CO₂ traps the longwave radiation given off by the planet. The trapping of the long wave radiation is dictated by quantum mechanics. The two oxygen atoms in CO₂ vibrate with the carbon atom in the center, and the frequency of this vibration coincides with some of the infrared wavelengths of the long wave radiation. When the frequency of the radiation from the Earth’s surface and the atmosphere coincides with the frequency of CO₂ vibration, the radiation is absorbed by CO₂, converted to heat by collision with other air molecules, and then returned to the surface. As a result of this trapping, the outgoing longwave radiation is reduced by increasing CO₂. Not as much heat is escaping to balance the net incoming solar radiation. As a result, there is excess heat energy on the planet, i.e., the system is out of energy balance. As CO₂ is increasing with time, the infrared blanket is becoming thicker, and the planet is accumulating this excess energy.</p>
+            <p>
+                In simple terms, Climate Change can be defined as the global phenomenon of climate transformation, characterized by the changes in the usual climate of the planet (regarding temperature, precipitation, and wind) that are especially caused by human activities. For a more scientific definition, we can adopt NASA’s definition of climate change as “a broad range of global phenomena created predominantly by burning fossil fuels, which add heat-trapping gases to Earth’s atmosphere. These phenomena include the increased temperature trends described by global warming, but also encompass changes such as sea-level rise; ice mass loss in Greenland, Antarctica, the Arctic and mountain glaciers worldwide; shifts in flower/plant blooming; and extreme weather events”. Nowadays, many activists, scientists, authors and politicians argue that we should substitute the term ‘climate change’ with the term ‘climate crisis’, in these sense that “Climate change is no longer considered to accurately reflect the seriousness of the overall situation; We sould use climate emergency or climate crisis instead to describe the broader impact of climate change” (Sophie Zeldin O-Neil, columnist in ‘The Guardian’ newspaper).
+            </p>
+            <p>
+                Bu, how climate change is happening? To explain it, is necessary to say few words about the “greenhouse effect”.
+            </p>
+            <p>
+                Greenhouse effect it is the natural process that warms the Earth’s surface. It is called the greenhouse effect because the exchange of incoming and outgoing radiation that warms the planet works in a similar way to a greenhouse. As a greenhouse is constructed of glass, it allows sunlight to penetrate the exterior and warm the air and plants inside. The heat that isn’t absorbed by plants is trapped by the glass and can’t escape. Throughout daylight hours, sunlight keeps coming through the glass, adding more and more heat energy so the inside gets warmer and warmer (and continues to stay warm after the sun sets).
+            </p>
+            <p>
+                The Earth and the Sun work in a similar fashion (on a much more massive scale and a different physical process). The sun shines through the Earth’s atmosphere and the earth’s surface warms up. Some of the Sun’s energy is reflected directly back to space, the rest is absorbed by land, ocean, and the atmosphere and it is transformed into heat. The heat that gases such as carbon dioxide, methane, and other “greenhouse gases” trap would otherwise escape Earth’s atmosphere. In the right proportion, these gases do a critical job ensuring the atmosphere holds onto enough heat to support every kind of life on the planet. Without them, the Earth would lose so much heat that life as we know it would be impossible. Although the greenhouse effect is a naturally occurring phenomenon, the effect could be intensified by the emission of greenhouse gases into the atmosphere as the result of human activity. In that case the greenhouse gases trap too much of the sun’s energy as heat and upset the natural systems that regulate our climate. Things keep getting hotter and hotter and we start seeing more and more extreme weather and other impacts. Even small changes in the global average temperature can cause major and dangerous shifts in climate and weather. Just consider the difference between 0 and 1 degrees Celsius– that one degree means the difference between ice and water.
+            </p>
 
-            <UiContentImage
+            <!-- <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__the-greenhouse-effect.webp"
                 credits="From Le Treut et al., 2007"
                 :elevated="true">
                 <template #caption>
                     <b>Figure 1.</b> A simplified diagram illustrating the greenhouse effect
                 </template>
-            </UiContentImage>
+            </UiContentImage> -->
         
-            <p><b>Gases that contribute to the greenhouse effect include:</b></p>
+            <p><b>Here is some information of the most common greenhouse gases:</b></p>
             <dl>
                 <dt class="font-bold">Water vapor:</dt>
-                <dd>The most abundant greenhouse gas, but importantly, it acts as feedback to the climate. Water vapor increases as the Earth's atmosphere warms, but so does the possibility of clouds and precipitation, making these some of the most important feedback mechanisms to the greenhouse effect.</dd>
+                <dd>Water vapour is the biggest overall contributor to the greenhouse effect. However, almost all the water vapour in the atmosphere comes from natural processes. </dd>
                 <dt class="font-bold">Carbon dioxide (CO₂):</dt>
-                <dd>A minor but essential component of the atmosphere, carbon dioxide is released through natural processes such as respiration and volcano eruptions and human activities such as deforestation, land use changes, and burning fossil fuels. Humans have increased atmospheric CO₂ concentration by 48% since the Industrial Revolution began. This is the most important long-lived "forcing" of climate change.</dd>
+                <dd>A minor but essential component of the atmosphere, carbon dioxide is released through natural processes such as respiration and volcano eruptions  but also from human activities such as deforestation, land use changes, and most importantly fossil fuels burning. Humans have increased atmospheric CO₂ concentration by 48% since the Industrial Revolution began.</dd>
                 <dt class="font-bold">Methane:</dt>
-                <dd>A hydrocarbon gas produced through natural sources and human activities, including the decomposition of wastes in landfills, agriculture, and especially rice cultivation, as well as ruminant digestion and manure management associated with domestic livestock. On a molecule-for-molecule basis, methane is a far more active greenhouse gas than carbon dioxide, but also one which is much less abundant in the atmosphere.</dd>
+                <dd>It is produced through natural sources and human activities, including the decomposition of wastes in landfills, agriculture (e.g. rice cultivation), and especially rice cultivation, as well as ruminant digestion and manure management associated with domestic livestock.  It is a far more active greenhouse gas than carbon dioxide, but also one which is much less abundant in the atmosphere.</dd>
                 <dt class="font-bold">Nitrous oxide:</dt>
-                <dd>A powerful greenhouse gas produced by soil cultivation practices, primarily commercial and organic fertilizers, fossil fuel combustion, nitric acid production, and biomass burning. Chlorofluorocarbons (CFCs): Synthetic compounds entirely of industrial origin used in several applications but now largely regulated in production and release to the atmosphere by international agreement for their ability to contribute to the destruction of the ozone layer. They are also greenhouse gases.</dd>
+                <dd> It is produced by soil cultivation practices, commercial and organic fertilizers, fossil fuel combustion, nitric acid production, and biomass burning.</dd>
+                <dt class="font-bold">Chlorofluorocarbons (CFCs):</dt>
+                <dd>Synthetic compounds entirely of industrial origin used in several applications but now largely regulated in production and release to the atmosphere by international agreement for their ability to contribute to the destruction of the ozone layer. They are also greenhouse gases.</dd>
             </dl>
 
-            <UiContentImage
+            <!-- <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__greenhouse-gas-emission-75-20.webp"
                 credits="From NOAA Global Monitoring Laboratory"
                 :elevated="true" class="mt-8">
                 <template #caption>
                     <b>Figure 2.</b> Greenhouse gas emissions into the atmosphere from 1975-2020
                 </template>
-            </UiContentImage>
+            </UiContentImage> -->
             
         
             
@@ -100,7 +113,7 @@
                         credits="From NOAA Climate.gov image based on analysis and data from Philip Thompson, University of Hawaii Sea Level Center"
                         :elevated="true" class="mt-8">
                         <template #caption>
-                            <b>Figure 3.</b> Sea level rise from 1993-2020
+                            <b>Figure 2.</b> Sea level rise from 1995-2020
                         </template>
                     </UiContentImage>
                 </li>
@@ -117,34 +130,19 @@
                     Some laboratory experiments suggest that elevated CO₂ levels can increase plant growth. However, other factors, such as changing temperatures, ozone, and water and nutrient constraints, may more than counteract any potential increase in yield. If optimal temperature ranges for some crops are exceeded, earlier possible gains in yield may be reduced or reversed altogether.
                 </li>
                 <li>
-                    Climate extremes, such as droughts, floods and extreme temperatures, can lead to crop losses and threaten the livelihoods of agricultural producers and the food security of communities worldwide. Depending on the crop and ecosystem, weeds, pests, and fungi can also thrive under warmer temperatures, wetter climates, and increased CO₂ levels, and climate change will likely increase weeds and pests.
+                    Climate extremes, such as droughts, floods and extreme temperatures, can lead to crop losses and threaten the livelihoods of agricultural producers and the food security of communities worldwide. Depending on the crop and ecosystem, weeds, pests, and fungi can also thrive under warmer temperatures, wetter climates.
                 </li>
                 <li>
-                    Research has shown that it can also reduce the nutritional value of most food crops by reducing the concentrations of protein and essential minerals in most plant species.
+                    Research has shown that temperature increase can also reduce the nutritional value of most food crops by reducing the concentrations of protein and essential minerals in most plant species.
                 </li>
                 <li>
                     Changes in flower and plant blooming times.
-                </li>
-                <li>
-                    Constraining global warming to 1.5°C, rather than 2°C and higher, is projected to have many benefits for terrestrial and wetland ecosystems and the preservation of their services to humans.
-                </li>
-                <li>
-                    Ocean ecosystems are already experiencing large-scale changes, and critical thresholds are expected to be reached at 1.5°C and higher levels of global warming.
                 </li>
                 <li>
                     Changing climates, directly and indirectly, cause stress to animals across the world. Many species are approaching—or have already reached—the limit of where they can go to find hospitable climates. In the polar regions, animals like polar bears that live on polar ice are now struggling to survive as that ice melts.
                 </li>
                 <li>
                     Warming ocean temperatures are melting polar ice, shifting ocean currents and fish migrations, leading to coral bleaching and die-off. Because of oceans’ vital role in regulating Earth’s climate by absorbing greenhouse gas emissions, they’re taking a direct hit from climate change.
-                </li>
-                <li>
-                    Risks of local species losses and, consequently, risks of extinction are much less in a 1.5°C versus a 2°C warmer world.
-                </li>
-                <li>
-                    Any increase in global temperature (e.g., +0.5°C) is projected to affect human health, with primarily negative consequences.
-                </li>
-                <li>
-                    Risks to global aggregated economic growth due to climate change impacts are projected to be lower at 1.5°C than at 2°C by the end of this century.
                 </li>
             </ul>
 
@@ -176,7 +174,8 @@
 
 
 
-            <hr  class="mt-10 mb-40" />
+            <!-- 
+                <hr  class="mt-10 mb-40" />
             <h2 id="section-3">3. Climate Change: A socio-scientific and controversial issue</h2>
 
             <p>In the history of Science, there have been, and there are many examples where contradictory views on specific scientific issues were spread to the general population. Climate change is one example where people and groups take and defend different positions on it. Even though climate science has now firmly established that global warming is occurring, that human activities contribute to this warming, and that current and future warming portend negative impacts on both ecological and social systems (National Research Council, 2010), a significant portion of the American public remains ambivalent or unconcerned (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) and many policymakers (especially in the United States) deny the necessity of taking steps to reduce carbon emissions (Brownstein, 2010).</p>
@@ -197,7 +196,7 @@
                     <li><b>Cook, J.</b> (2017). Understanding and countering climate science denial. Journal & Proceedings of the Royal Society of New South Wales, 150.</li>
                     <li><b>McCright, A. M.</b> & <b>Dunlap, R. E.</b> (2010). Anti-reflexivity: The American conservative movement’s success in undermining climate science and policy. Theory, Culture & Society, 27(2-3), 100-133.</li>
                 </ul>
-            </section>
+            </section> -->
 
 
              
@@ -217,11 +216,11 @@
 
 
 
-            <hr  class="mt-10 mb-40" />
-            <h2 id="section-4">4. Techniques of Science Denial</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="section-4">3. Techniques of Science Denial</h2>
 
             
-            <p>Among the various movements that reject a scientific consensus, five characteristics or techniques of science denial are observed:</p>
+            <p>Cook (2020) has categorized the different arguments proposed by climate change deniers into five main categories: Fake Experts; Logical Fallacies; Impossible Expectations; Cherry Picking; Conspiracy Theories.</p>
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__flicc.webp"
@@ -237,42 +236,31 @@
                     Fake experts:
                 </dt>
                 <dd>
-                    This involves spokespeople who convey the impression of expertise on a topic yet possess little relevant expertise. The Global Warming Petition Project is the most prevalent form of this technique within climate misinformation, featuring 31,000 signatories of an online petition dissenting against human-caused global warming. However, 99.9% of the signatories, while holding a science degree, possess no expertise in climate science. This petition has been found experimentally to be one of the most effective denialist arguments in lowering the acceptance of climate change. 
+                    This involves spokespeople who convey the impression of expertise on a topic while possessing little to no relevant expertise. The Global Warming Petition Project is the most prevalent example of this technique within climate misinformation, featuring 31,000 signatories of an online petition dissenting against human-caused global warming. However, 99.9% of the signatories, while holding a science degree, possess no expertise in climate science.
                 </dd>
                 <dt class="font-bold mt-4">
                     Logical fallacies:
                 </dt>
                 <dd>
-                    Arguments that persuade people to consist of one or more premises, leading to a conclusion. Climate denialist arguments typically contain fatal logical flaws. There are three classes of logical fallacies found in climate misinformation:
-                    <ul>
-                        <li>
-                            fallacies of relevance (where the premises are irrelevant to the conclusion), 
-                        </li>
-                        <li>
-                            scope (where not all relevant evidence is considered), and 
-                        </li>
-                        <li>
-                            presumption (where the argument contains false premises).
-                        </li>
-                    </ul>
+                    These are arguments where the premises or starting assumptions do not logically lead to the conclusion. Climate denialists’ arguments typically contain fatal logical flaws. For example, the argument that climate has changed naturally in the past, therefore modern climate change must be natural, contains the unspoken false assumption that because natural factors have caused climate change in the past, then they must always be the cause of climate change, when human influence may also be a factor.
                 </dd>
                 <dt class="font-bold mt-4">
                     Impossible expectations:
                 </dt>
                 <dd>
-                    This involves demanding unrealistic levels of proof or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty effectively cast doubt on scientific findings. This denialist technique is known as the “Scientific Certainty Argumentation Method”. 
+                    This involves demanding unrealistic levels of proof or misrepresenting the nature of scientific uncertainty. For example, after being presented with data demonstrating that sea level is increasing, climate change doubters may request data demonstrating that the phenomena of sea level rising have accelerated in recent years! 
                 </dd>
                 <dt class="font-bold mt-4">
                     Cherry picking:
                 </dt>
                 <dd>
-                    This technique is defined as “selectively choosing data leading to the desired conclusion that differs from the conclusion arising from all the available data”. 
+                    This technique is defined as “selectively choosing data leading to the desired conclusion that differs from the conclusion arising from all the available data”. For example, in order to prove that climate change is not occurring, it is common practice to cherry-pick data from years that were particularly cold or wet, while ignoring data that show the trend of temperature change over many centuries. 
                 </dd>
                 <dt class="font-bold mt-4">
                     Conspiracy theories:
                 </dt>
                 <dd>
-                    Around 20% of the U.S. public believe climate change is a scientific hoax. Conspiracy theories have several adverse effects, even when people are not convinced by them. They can lower support for climate action, decrease one’s intent to reduce one’s carbon footprint, and decrease trust in government.
+                    involve the suggestion of secret plans to implement nefarious schemes, and are a common theme in climate misinformation. Climate science expertise has been characterized by deniers as a “climate cartel” of scientists, regulators, activists, and business entities
                 </dd>
             </dl>
 
@@ -280,6 +268,7 @@
             <section class="e-card mt-8">
                 <h4 class="mt-2">References</h4>
                 <ul class="text-sm break-all">
+                    <li>Cook, J. (2020). Deconstructing Climate Science Denial. In Holmes, D. & Richardson, L. M. (Eds.) Edward Elgar Research Handbook in Communicating Climate Change. Cheltenham: Edward Elgar.</li>
                     <li><a href="https://www.youtube.com/watch?v=uNs2YMblqwU&ab_channel=JohnCook" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=uNs2YMblqwU</a></li>
                     <li><a href="https://www.youtube.com/watch?v=AqcUP0sDglg" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=AqcUP0sDglg</a></li>
                     <li><a href="https://www.youtube.com/watch?v=wXA777yUndQ" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=wXA777yUndQ</a></li>
@@ -413,7 +402,7 @@
             <h2 id="section-7">Myth 3: The science of climate change is unreliable.</h2>
 
 
-            <p>Meteorological stations are located in areas where the data collected are not representative of climate change and therefore unreliable for the study of the global climate. Scientists target global terrorism for data they create under the conditions they want.</p>
+            <p>Meteorological stations are located in areas where the data collected is not representative of climate change and therefore unreliable for the study of the global climate. Scientists target global terrorism for data they create under the conditions they want.</p>
 
             <p>
                 <i>"We found [U.S. weather] stations located next to the exhaust fans of air conditioning units, surrounded by asphalt parking lots and roads, on blistering-hot rooftops, and near sidewalks and buildings that absorb and radiate heat."</i> (Watts 2009)
@@ -429,7 +418,7 @@
                 </div>
             </UiCardInfo>
 
-            <p>Students investigating Myth 3 during the Guided Inquiry option are studying specific evidence (e.g., the location of the observatory stations and measurements) coming from the NOAA organization in order to criticize on their own if that evidence are reliable or no.  Alternatively, students investigating Myth 3 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
+            <p>Students investigating Myth 3 during the Guided Inquiry option are studying specific evidence (e.g., the location of the observatory stations and measurements) coming from the NOAA organization in order to criticize on their own if that evidence is reliable or no. Alternatively, students investigating Myth 3 following the Open Inquiry, collect evidence from scientific sources in order to falsify/or confirm their hypothesis.</p>
             <p>In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
 
 
@@ -480,8 +469,8 @@
                 </div>
             </UiCardInfo>
 
-            <p>Students investigating Myth 4 during the Guided Inquiry option are studying specific evidence from the World Health Organization about the rise temperature and human deaths, recent evidence about human deaths affected from climate change, make an experimental investigation about rise temperature and land used for housing or cultivation etc.  Students access the scientific source and come up with their conclusions.  Alternatively, students investigating Myth 4 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.</p>
-            <p>In both inquiry options, students access the scientific sources and come up with their conclusions. </p>
+            <p>Students investigating Myth 4 during the Guided Inquiry option are studying specific evidence from the World Health Organization about the rise temperature and human deaths, recent evidence about human deaths affected from climate change, make an experimental investigation about the rise of the temperature and the land used for housing or cultivation etc. Students access the scientific source and come up with their conclusions. Alternatively, students investigating Myth 4 following the Open Inquiry, collect evidence from scientific sources in order to falsify or confirm their hypothesis.</p>
+            <p>In both inquiry options, students access the scientific sources and come up with their conclusions.</p>
 
             <p><b>Click the following links for the scientific view:</b></p>
             <ul>
@@ -516,7 +505,7 @@
             <h2 id="section-9">Myth 5: There's no correlation between CO₂ and temperature.</h2>
             
             <p>
-                <i>“It was the post-war industrialization that caused the rapid rise in global CO₂ emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO₂ emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO₂ emissions, it was deceitful for the IPCC to make any claim that CO₂ emissions were primarily responsible for observed 20th-century global warming."</i>
+                <i>“It was the post-war industrialization that caused the rapid rise in global CO₂ emissions, but by 1945 when this began, the Earth was already in a cooling phase that started around 1942 and continued until 1975. With 32 years of rapidly increasing global temperatures and only a minor increase in global CO₂ emissions, followed by 33 years of slowly cooling global temperatures with rapid increases in global CO₂ emissions, it was deceitful for the IPCC to make any claims that CO₂ emissions were primarily responsible for observed 20th-century global warming."</i>
                 <br />
                 (<a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer">Norm Kalmanovitch</a>)
                 <br />
@@ -533,7 +522,7 @@
             </UiCardInfo>
             
             <p>
-                Students investigating Myth 5 during the Guided Inquiry option are studying evidence about how Carbon affects climate and life on Earth. They are also getting involved into an experimental procedure investigating how carbon dioxide affect temperature on Earth. They access those scientific sources and come up with their final conclusions. Alternatively, students investigating Myth 5 following the Open Inquiry, collect evidences from scientific sources in order to falsify/or confirm their hypothesis.
+                Students investigating Myth 5 during the Guided Inquiry option are studying evidence about how Carbon affects climate and life on Earth. They are also getting involved into an experimental procedure investigating how carbon dioxide affect temperature on Earth. They access those scientific sources and come up with their final conclusions. Alternatively, students investigating Myth 5 following the Open Inquiry, collect evidence from scientific sources in order to falsify/or confirm their hypothesis.
                 <br />
                 In both inquiry options, students access the scientific sources and come up with their conclusions. 
             </p>
@@ -563,9 +552,9 @@
             <h2 id="section-10">Myth 6: Actions to mitigate climate change will make people poorer.</h2>
 
             <p>
-                <i>"By the way, if you’re going to vote for something, vote for warming. Less deaths due to cold, more habitable regions, larger crops, longer growing season. That’s good. Warming helps the poor."</i>
+                <i>“Fossil fuels have powered vehicles, factories and technology, allowing people in the last century to do things at a scale and speed that would have been impossible before. This enabled people to make, sell and buy more things and become richer. Therefore, stopping the use of coal will make people poorer. Efforts to reduce greenhouse gas emissions will have consequences. Fossil fuels are essential for global development. Therefore, limiting their use will inevitably hinder this growth and increase the cost of living, hurting the poorest.”</i>
                 <br />
-                (John MacArthur)
+                (David Montgomery)
                 <br />
                 <a href="https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ZTlYl8E_B14&t=353s</a>
             </p>
@@ -634,7 +623,7 @@
 
             <p>
                 <i>
-                    “Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen. Ice ages have occurred in a hundred thousand year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO₂ levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”
+                    “Climate is always changing. We have had ice ages and warmer periods when alligators were found in Spitzbergen (an island in the Arctic Ocean). Ice ages have occurred in a hundred thousand year cycle for the last 700 thousand years, and there have been previous periods that appear to have been warmer than the present despite CO₂ levels being lower than they are now. More recently, we have had the medieval warm period and the little ice age.”
                 </i>
                 <br />
                 (<a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer">Richard Lindzen</a>)
@@ -658,7 +647,11 @@
                 In both inquiry options, students access the scientific sources and come up with their conclusions.
             </p>
 
-            
+            <hr />
+
+            <p>
+                Click the following link for the scientific view: <a href="https://royalsociety.org/topics-policy/projects/climate-change-evidence-causes/question-6/" target="_blank" rel="noopener noreferrer" class="break-all">https://royalsociety.org/topics-policy/projects/climate-change-evidence-causes/question-6/</a>
+            </p>
  
 
 

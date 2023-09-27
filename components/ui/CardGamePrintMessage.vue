@@ -8,7 +8,7 @@
             </p>
 
             <div class="flex items-center flex-wrap gap-3 mb-3">
-                <nuxt-link to="../tools/cards/radiation" target="_blank"
+                <nuxt-link :to="url" target="_blank"
                     class="btn btn-md btn-secondary text-white font-sans no-underline"
                 >
                     <icon name="material-symbols:print-outline-rounded" />
@@ -60,5 +60,10 @@
 </i18n>
 
 <script setup>
+    const props = defineProps({
+        "url": {
+            type: String
+        }
+    });
     const {t} = useI18n({useScope: 'local'});
 </script>

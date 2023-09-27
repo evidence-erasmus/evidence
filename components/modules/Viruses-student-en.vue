@@ -55,24 +55,6 @@
             <hr  class="mt-10 mb-40 print:my-10" />
             <h2 id="activity-1">Activity 1: Presentation of the video introduction</h2>
             
-            <!-- <ModulesStructure>
-                    <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
-                        </div>
-                        <Icon name="mdi:arrow-right-thick" />
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:ouroboros" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:all-seeing-eye" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
 
             <p>Please watch the video carefully. Write down your initial thoughts and feelings about the issues presented.</p>
 
@@ -386,7 +368,7 @@
 
             <h3>Game cards: Theme 1</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme1" />
 
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
@@ -394,7 +376,7 @@
 
             <h3>Game cards: Theme 2</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme2" />
 
             <ToolsCardgameVirusesTheme2 :printMode="false" />
 

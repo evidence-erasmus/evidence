@@ -379,15 +379,15 @@
 
             <h3>Θέμα 1: Εμβολιασμός</h3>
 
-            <UiCardGamePrintMessage />
-
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme1" />
+            
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
             <hr>
 
             <h3>Θέμα 2: Φορώντας μάσκες λόγω πανδημικής έκρηξης της λοίμωξης του ανώτερου αναπνευστικού</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme2" />
 
             <ToolsCardgameVirusesTheme2 :printMode="false" />
 

@@ -386,7 +386,7 @@
 
             <h3>Tema 1: Vacinação</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme1" />
             
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
@@ -394,7 +394,7 @@
 
             <h3>Tema 2 Usar máscaras por explosão pandémica de infeção respiratória superior</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme2" />
 
             <ToolsCardgameVirusesTheme2 :printMode="false" />
 

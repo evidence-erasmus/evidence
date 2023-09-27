@@ -320,7 +320,7 @@
 
             <h3>The cards</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/radiation" />
             
             <ToolsCardgameRadiation :printMode="false" />
 

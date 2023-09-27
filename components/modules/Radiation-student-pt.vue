@@ -334,7 +334,7 @@
 
             <h2>Cartas de jogar</h2>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/radiation" />
 
             <ToolsCardgameRadiation :printMode="false" />
 

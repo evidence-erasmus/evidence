@@ -350,7 +350,8 @@
 
             <h3>Tema 1: Vaccination</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme1" />
+
 
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
@@ -358,7 +359,8 @@
 
             <h3>Tema 2: Att bära munskydd/masker vid övre luftvägsinfektion pandemiutbrott</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme2" />
+
 
             <ToolsCardgameVirusesTheme2 :printMode="false" />
 

@@ -414,6 +414,10 @@
                         </tr>
                     </tbody>
                 </table>
+
+                <p>
+                    <b>{{ t('source.txt') }}</b> <a :href="t('source.link')" target="_blank" rel="noopener noreferrer">{{ t('source.link') }}</a>
+                </p>
             </div>
 
         </section>
@@ -425,6 +429,10 @@
 <i18n lang="json">
 {
     "en" : {
+        "source": {
+            "txt": "Source:",
+            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
+        },
         "title": "Reliability assessment guidelines",
         "videos-title": "Videos on assessing sources' reliability and using Google Scholar:",
         "table1": {
@@ -575,6 +583,164 @@
             },
             "row13": {
                 "c2": "The purpose is to sell something"
+            }
+        }
+    },
+    "pt" : {
+        "source": {
+            "txt": "Fontes:",
+            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
+        },
+        "title": "Como avaliar a fiabilidade das fontes de informação: Tutorial",
+        "videos-title": "Videos on assessing sources' reliability and using Google Scholar:",
+        "table1": {
+            "thead": {
+                "th1": "Tipo de fonte de informação",
+                "th2": "Onde encontrar?",
+                "th3": "Nível de fiabilidade"
+            },
+            "row1": {
+                "c1": "Artigos científicos revistos por pares",
+                "c2": {
+                    "title": "Base de dados:",
+                    "source1" : {
+                        "txt": "Google Académico",
+                        "link": "https://scholar.google.com/",
+                        "txt2": "read more about {link1}",
+                        "link2": "#googleScholar",
+                        "txt3": "how to use Google Scholar"
+                    },
+                    "source2": {
+                        "txt": "Medical studies’ database:",
+                        "link": "https://pubmed.ncbi.nlm.nih.gov"
+                    }
+                }
+            },
+            "row2": {
+                "c1": "Estatísticas / Informação publicada por organizações (inter)nacionais relevantes e de confiança (.org): INE, WHO, United Nations, Eurostat, Universidades, etc.",
+                "c2": {
+                    "source1": {
+                        "txt": "Eurostat",
+                        "link": "https://ec.europa.eu/eurostat/web/main/data/database"
+                    },
+                    "source2": {
+                        "txt": "UNdata",
+                        "link": "http://data.un.org/"
+                    },
+                    "source3": {
+                        "txt": "WHO data",
+                        "link": "https://www.who.int/data"
+                    },
+                    "source4": {
+                        "txt": "National Academies Press",
+                        "link": "https://nap.nationalacademies.org/"
+                    },
+                    "source5": {
+                        "txt": "NE.se (Swedish database)",
+                        "link": "https://www.ne.se/"
+                    }
+                }
+            },
+            "row3": {
+                "c1": "Enciclopédias",
+                "c2": {
+                    "source1": {
+                        "txt": "Wikipedia",
+                        "link": "https://www.wikipedia.org/"
+                    },
+                    "source2": {
+                        "txt": "Britannica",
+                        "link": "https://www.britannica.com/"
+                    }
+                }
+            },
+            "row4": {
+                "c1": "Sites governamentais (em países com governos eleitos democraticamente) (.gov)"
+            },
+            "row5": {
+                "c1": "Livros e revistas de divulgação científica, artigos escritos por especialistas (as fontes que citam são identificáveis)."
+            },
+            "row6": {
+                "c1": "Jornais de referência e outros media que fazem prova de factos ou que usam especialistas conhecidos."
+            },
+            "row7": {
+                "c1": {
+                    "li1": "Revistas",
+                    "li2": "Sites de empresas",
+                    "li3": "Blogs pessoais, Vlogs, etc",
+                    "li4": "Fontes com agenda política",
+                    "li5": "Posts em redes sociais, etc."
+                }
+            }
+        },
+        "table2": {
+            "thead": {
+                "th1": "Quem é o autor?",
+                "th12": "(se identificado)",
+                "th2": "Como detetar?",
+                "th3": "Nível de fiabilidade"
+            },
+            "row1": {
+                "c1": "Cientista / investigador",
+                "c2": "É possível identificar  a sua filiação académica, grau académico e  publicações?",
+                "c22": ""
+            },
+            "row2": {
+                "c1": "Especialista conhecido",
+                "c2": "É possível identificar  a sua filiação académica ou organizacional, grau académico e  publicações?"
+            },
+            "row3": {
+                "c1": "If an organisation"
+            }
+        },
+        "table3": {
+            "thead": {
+                "th1": "Natureza do conteúdo",
+                "th2": "Indicadores",
+                "th3": "Nível de fiabilidade"
+            },
+            "row1": {
+                "c1": "Relação do editor com o tópico",
+                "c2": "Equilibrado ou neutro"
+            },
+            "row2": {
+                "c2":"Editor é financiado por uma fonte de confiança"
+            },
+            "row3": {
+                "c2":"Claramente tendencioso ou favorecendo uma posição com um propósito"
+            },
+            "row4": {
+                "c1": "Data",
+                "c12": "",
+                "c2":"Publicado ou revisto recentemente"
+            },
+            "row5": {
+                "c2": "Desatualizado"
+            },
+            "row6": {
+                "c2": "Sem data indicada"
+            },
+            "row7": {
+                "c1": "Text credibility",
+                "c2": "A finalidade é informar"
+            },
+            "row8": {
+                "c2": "O tom é convincente, mas não forçado."
+            },
+            "row9": {
+                "c2": "O texto tem fatos e detalhes específicos para apoiar as ideias"
+            },
+            "row10": {
+                "c2": "O objetivo é persuadir e o texto está carregado de emoção"
+            },
+            "row11": {
+                "c2": "A finalidade é vender"
+            },
+            "row12": {
+                "c2": ""
+            },
+            "row13": {
+                "c2": ""
             }
         }
     }

@@ -389,7 +389,7 @@
 
             <h3>Mängu kaardid: Teema 1</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme1" />
 
             <ToolsCardgameVirusesTheme1 :printMode="false" />
 
@@ -397,7 +397,7 @@
 
             <h3>Mängu kaardid: Teema 2</h3>
 
-            <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/viruses/theme2" />
 
             <ToolsCardgameVirusesTheme2 :printMode="false" />
 

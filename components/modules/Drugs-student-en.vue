@@ -344,22 +344,8 @@
             <h3>The cards</h3>
 
 
-            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
-
-            <UiCardInfo>
-                <div>
-                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
-                    
-                    <nuxt-link to="../tools/cards/radiation" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Öppna utskrivbara kort
-                    </nuxt-link> (ny flik)
-                </div>
-            </UiCardInfo>
-
+            <UiCardGamePrintMessage url="../tools/cards/radiation" />
+            
             <ToolsCardgameRadiation :printMode="false" />
 
             <hr>

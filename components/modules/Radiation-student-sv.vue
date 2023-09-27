@@ -339,7 +339,7 @@
 
 
 
-            <UiCardGamePrintMessage />            
+            <UiCardGamePrintMessage url="../tools/cards/radiation" />
 
             <ToolsCardgameRadiation :printMode="false" />
 

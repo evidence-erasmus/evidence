@@ -336,9 +336,8 @@
             <h3>Kaardid</h3>
 
 
-            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
 
-           <UiCardGamePrintMessage />
+            <UiCardGamePrintMessage url="../tools/cards/radiation" />
 
             <ToolsCardgameRadiation :printMode="false" />
 

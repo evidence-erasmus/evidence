@@ -287,10 +287,10 @@
 
 
     "pt": {
-        "storyCardsTitle" : "Lookaardid",
-        "infoCardsTitle" : "Infokaardid",
-        "storyCardsLabel" : "Lugu",
-        "infoCardsLabel" : "Info",
+        "storyCardsTitle" : "Cartas de história",
+        "infoCardsTitle" : "Cartas de informação",
+        "storyCardsLabel" : "História",
+        "infoCardsLabel" : "Informação",
         "storyCards" : [
         {
             "title": "Tartarugas",
