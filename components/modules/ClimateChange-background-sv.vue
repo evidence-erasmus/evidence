@@ -323,12 +323,12 @@
 
 
 
-            <h2 id="section-7" class="mt-40">4. Myter om klimatförändringar</h2>
+            <h2 id="myths" class="mt-40">4. Myter om klimatförändringar</h2>
 
 
 
-            <hr id="myth-1" class="mt-10 mb-40" />
-            <h3>Myt 1: Utrotning av arter är en naturlig process. Massutrotningar av arter har alltid förekommit.</h3>
+            <hr class="mt-10 mb-40" />
+            <h2>Myt 1: Utrotning av arter är en naturlig process. Massutrotningar av arter har alltid förekommit.</h2>
 
             <p>Utrotningen av arter är ett historiskt problem. Från förhistorisk tid har vi bevis på ett antal massutrotningar, framför allt utrotningen av dinosaurierna. Denna utrotning, som ägde rum för 66 000 000 år sedan, sägs bero på ett asteroidnedslag på jorden. Andra välkända exempel är utrotning av mammutar. Men orsakerna till utrotning som har registrerats varierar.</p>
             <p>Förslaget om att mänskligheten är kapabel att påverka och störa krafter av sådan omfattning reflekterar också en självcentrerad arrogans som är bedrövande. Mänskligheten är en delmängd av naturen. Naturen är inte en delmängd av mänskligheten. Människor kan varken orsaka eller ingripa för att korrigera dessa processer (Financial Sense University).</p>
@@ -372,18 +372,9 @@
 
             
 
-            
 
-
-
-
-
-
-
-
-
-            <hr id="myth-2" class="mt-10 mb-40" />
-            <h3>Myt 2: Naturen kan anpassa sig till klimatförändringar.</h3>
+            <hr class="mt-10 mb-40" />
+            <h2 id="myth-2">Myt 2: Naturen kan anpassa sig till klimatförändringar.</h2>
 
             <p>Jorden har en historia på 4,54 miljarder år. De väderförhållanden som har rått på planeten förändras ständigt. Därför tvingades de arter/organismer som levde på jorden anpassa sig till nya förutsättningar för att överleva. På så sätt utvecklas arter. Växter och djur har redan flera gånger anpassat sig till ogynnsamma förhållanden (klimatförändringar, meteoritfall, vulkanutbrott, etc.). Det gör att de kan anpassa sig till stigande temperaturer och den situation vi nu kallar klimatförändringar. Med andra ord är arter naturligt kapabla att överleva under nya förhållanden.</p>
             <p><a href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
@@ -422,8 +413,8 @@
 
 
 
-            <hr id="myth-3" class="mt-10 mb-40" />
-            <h2 id="section-7">Myt 3: Vetenskapen om klimatförändringar är inte trovärdig.</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="myth-3">Myt 3: Vetenskapen om klimatförändringar är inte trovärdig.</h2>
 
             <p>
                 Meteorologiska stationer är belägna i områden där insamlade data inte är representativa för klimatförändringar och därför opålitliga för studier av det globala klimatet. Forskare riktar in sig på global terrorism för data som de skapar under de förhållanden de vill ha.
@@ -482,8 +473,8 @@
 
 
 
-            <hr id="myth-4" class="mt-10 mb-40" />
-            <h2>Myt 4: Temperaturökningen är bra!</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="myth-4">Myt 4: Temperaturökningen är bra!</h2>
             
             <p>
                 <i>"Förresten, om du ska rösta på något, rösta på uppvärmning. Mindre dödsfall på grund av kyla, regioner mer beboeliga ..... Det är bra!"</i>
@@ -539,20 +530,18 @@
 
 
 
-            <hr id="myth-5" class="mt-10 mb-40" />
-            <h2 id="section-9">Myt 5: CO₂ ning temperatuuri vahel puudub seos.</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="myth-5">Myt 5: Det finns ingen korrelation mellan CO₂ och temperatur.</h2>
             
             <p>
-                <i>“Kahekümnenda sajandi globaalne soojenemine algas alles 1910. aastal. Selleks ajaks oli süsinikdioksiidi heitkogus juba tõusnud tööstusrevolutsiooni käivitatud söe laialdasest kasutamisest ja heitkogused kasvasid aeglaselt 3,5 gigatonnilt 1910. aastal alla 4 gigatonnini Teise Maailmasõja lõpuks.
-                <br />
-                Just sõjajärgne industrialiseerimine põhjustas globaase CO₂ heitkoguse kiire tõusu, kuid 1945. aastaks oli Maa juba jahtumisfaasis, mis algas umbes 1942. aasta paiku ja kestis kuni 1975. aastani. 32 aastat kestnud kiirele globaalsele temperatuuri tõusule ja vaid väikesele CO₂ heitkoguse suurenemisele järgnes 33 aastat aeglast globaalse temperatuuri langust koos CO₂ heitkoguse kiire suurenemisega. Järelikult oli IPCC poolt petlik väita, et CO₂ heitkoguste suurenemine oli 20. sajandi globaalse soojenemise peamiseks põhjuseks."</i>
+                <i>“Det var efterkrigstidens industrialiseringen som orsakade den snabba ökningen av de globala CO₂-utsläppen, men 1945 när detta började var jorden redan i en avkylningsfas som startade runt 1942 och fortsatte till 1975. Med 32 år av snabbt ökande globala temperaturer och endast en mindre ökning av de globala CO₂-utsläppen, följt av 33 år av långsamt svalnande globala temperaturer med snabba ökningar av globala CO₂-utsläpp, var det bedrägligt av IPCC att göra något påstående om att CO₂-utsläppen var primärt ansvariga för den observerade globala uppvärmningen på 1900-talet."</i>
                 <br />
                 (<a href="https://archive.md/q3Tim" target="_blank" rel="noopener noreferrer">Norm Kalmanovitch</a>)
                 <br />
                 <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
             </p>
 
-            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+            <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 5 paikapidavuse kohta:</h3>
                     <p class="text-2xl">
@@ -575,7 +564,7 @@
                 <li>
                     <a href="https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature" target="_blank" rel="noopener noreferrer">https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature</a>
                 </li>
-            </ul>
+            </ul> -->
 
 
 
@@ -588,18 +577,18 @@
 
 
 
-            <hr id="myth-6" class="mt-10 mb-40" />
-            <h2 id="section-10">Myt 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h2>
+            <hr class="mt-10 mb-40" />
+            <h2 id="myth-6">Myt 6: Åtgärder för att mildra klimatförändringarna kommer att göra människor fattigare.</h2>
 
             <p>
                 <i>
-                    “Eitajad kahtlevad, kas kasvuhoonegaaside heitkoguste vähendamise jõupingutused fossiilkütuste kasutamise vähendamiseks on ülemaailmse arengu jaoks hädavajalikud. See on levinud arvamus, et taastuvenergia on kallis. Tuuleenergia on kalleim viis energia tootmiseks kui alternatiivid.”
+                    “Klimatförändringar leder till större skördar och längre växtsäsong. Uppvärmning hjälper de fattiga.”
                 </i>
                 <br />
-                (David Montgomery)
+                (John MacArthur)
             </p>
 
-            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+            <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam antud müüdi 6 kohta:</h3>
                     <p class="text-2xl">
@@ -631,7 +620,7 @@
                 <li>
                     <a href="https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty" target="_blank" rel="noopener noreferrer">https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty</a>
                 </li>
-            </ul>
+            </ul> -->
 
 
             
@@ -647,12 +636,12 @@
 
 
 
-            <hr id="myth-7" class="mt-10 mb-40" />
-            <h2 id="section-11">Myt 7: Maa kliima on alati muutunud ja nüüd kordub see taas.</h2>
+            <hr  class="mt-10 mb-40" />
+            <h2 id="myth-7">Myt 7: Jordens klimat har alltid förändrats, och nu händer samma sak.</h2>
 
             <p>
                 <i>
-                    “Kliima muutub alati. Meil on olnud jääaegu ja soojemaid perioode, mil Teravmägedest leiti alligaatoreid. Jääajad on toimunud saja tuhande aastase tsükliga viimase 700 tuhande aasta jooksul ning varasemad perioodid on olnud praegusest soojemad, kuigi  CO₂ tase on praegusest madalam. viimasel ajal on meil olnud keskaegne soe periood ja väike jääaeg.”
+                    “Klimatet förändras alltid. Vi har haft istider och varmare perioder då alligatorer hittades i Spitzbergen. Istider har inträffat i hundratusen års cykler under de senaste 700 tusen åren, och det har tidigare förekommit perioder som verkar ha varit varmare än idag trots att CO₂-nivåerna var lägre än de är nu. På senare tid har vi haft den  så kallade medeltida värmeperioden och den lilla istiden.”
                 </i>
                 <br />
                 (<a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer">Richard Lindzen</a>)
@@ -661,7 +650,7 @@
             </p>
             
             
-            <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
+            <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                 <div>
                     <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr. 7 paikapidavuse kohta:</h3>
                     <p class="text-2xl">
@@ -674,7 +663,7 @@
                 Õpilased, kes uurivad müüti 7 juhitud uurimuse vormis, uurivad Maa temperatuuri (NASA tõendid) ja võrdlevad temperatuuri muutusi iga kahekümne aasta tagant. Nad selgitavad välja suurimad temperatuuritõusud ja salvestavad nende kohta konkreetset teavet. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.
                 <br />
                 Mõlema uurimisvõimaluse puhul pääsevad õpilased juurde teaduslikele allikatele ja teevad oma järeldused.
-            </p>
+            </p> -->
 
             
  
