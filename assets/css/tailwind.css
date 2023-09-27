@@ -35,6 +35,9 @@
     .e-btn--blue {
       @apply text-white bg-blue-500;
     }
+    .e-btn-outline {
+      @apply px-3 ring-2 ring-inset ring-blue-600 rounded-full inline-block no-underline hover:bg-yellow-50;
+    }
     .e-article {
       @apply w-full prose prose-slate prose-p:text-slate-900 prose-li:text-slate-900 prose-td:text-slate-900  prose-headings:text-slate-800 prose-a:text-blue-500 py-20 px-6 sm:px-8 md:pl-[3vw] lg:pl-[7vw] md:prose-lg lg:prose-xl print:prose-xl print:text-sm print:container print:mx-auto;
       /* @apply prose-headings:text-slate-800 prose prose-slate py-20 px-6 sm:px-8; */

@@ -12,7 +12,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
         
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="abc...✍"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
         <hr />
 
@@ -39,7 +39,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Our hypothesis / research question is:</label>
 
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="abc...✍"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
 
         <hr />
@@ -66,7 +66,7 @@
         </div>
 
         <label class="font-bold block mt-8">Your research results:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="abc...✍"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
 
 
         <hr />
@@ -74,13 +74,13 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Based on the experiment, our conclusion(s) is/are:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="abc...✍"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
 
         <hr />
 
     
-        <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool. [[[LINK TO RELIABILITY TOOL]]]</p>
+        <p>You are now expected to find evidence from secondary sources to confirm your own findings using <NuxtLink to="../tools/reliability-assessment" target="_blank" class="e-btn-outline no-underline"><Icon name="mdi:tools" /> this tool</NuxtLink>.</p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Write a short summary of your findings here:</label>
@@ -88,7 +88,7 @@
             Did secondary data confirm your findings? If not, what do you think why?<br />
             Please make a statement conclusion on whether the selected myth is confirmed or rejected based on your findings.
         </p>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="abc...✍"></textarea>
+        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
 
     </div>
 </template>

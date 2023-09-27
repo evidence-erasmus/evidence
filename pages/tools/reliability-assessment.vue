@@ -6,11 +6,9 @@
 
             <h3>{{ t('videos-title') }}</h3>
 
-            <div class="e-card">
-                <UiYoutube video="Jy3sDnKAg0Q" />
-            </div>
-            <div class="e-card mt-8">
-                <UiYoutube video="s7FKnMC_cIU" />
+            <div class="e-card grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <UiYoutube video="s7FKnMC_cIU"  />
+                    <UiYoutube video="Jy3sDnKAg0Q"  />
             </div>
 
             <div class="e-card mt-10">

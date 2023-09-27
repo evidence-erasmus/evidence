@@ -18,18 +18,26 @@
             <h2 id="section-1">1. Vad är klimatförändringar och vilka är dess orsaker?</h2>
         
             <p>
-                Klimatförändringar avser långsiktiga förändringar i temperaturer och vädermönster. Dessa förändringar kan vara naturliga, till exempel genom variationer i solcykeln. Men sedan 1800-talet har mänsklig verksamhet varit den främsta drivkraften bakom klimatförändringarna, främst på grund av förbränning av fossila bränslen som kol, olja och gas. Förbränning av fossila bränslen genererar utsläpp av växthusgaser som fungerar som en filt lindad runt jorden. Den fångar upp värmestrålning från jorden och höjer temperaturen. Närmare bestämt fångar CO₂ den långvågiga strålningen som avges av planeten. Infångningen av långvågsstrålningen förklaras av kvantmekaniken men kan också tolkas på ett enklare sätt. De två syreatomerna i CO₂ vibrerar med kolatomen i centrum och frekvensen av denna vibration sammanfaller med några av de infraröda våglängderna för den långvågiga strålningen. När frekvensen av strålningen från jordens yta och atmosfären sammanfaller med frekvensen av CO₂ -vibrationer, absorberas strålningen av CO₂, och omvandlas till värme genom kollision med andra luftmolekyler, och återges sedan tillbaka till ytan. Som ett resultat av denna infångning reduceras den utgående långvågsstrålningen genom ökande CO₂. Det kommer inte lika mycket värme ut för att balansera nettoinkommande solstrålning. Det finns överskott av värmeenergi på jorden, dvs systemet är ur energibalans. När CO₂ ökar med tiden blir den infraröda filten tjockare och planeten ackumulerar denna överskottsenergi.
+                Klimatförändringar avser långsiktiga förändringar i temperaturer och vädermönster. 
+                <!-- Dessa förändringar kan vara naturliga, till exempel genom variationer i solcykeln. Men sedan 1800-talet har mänsklig verksamhet varit den främsta drivkraften bakom klimatförändringarna, främst på grund av förbränning av fossila bränslen som kol, olja och gas. Förbränning av fossila bränslen genererar utsläpp av växthusgaser som fungerar som en filt lindad runt jorden. Den fångar upp värmestrålning från jorden och höjer temperaturen. Närmare bestämt fångar CO₂ den långvågiga strålningen som avges av planeten. Infångningen av långvågsstrålningen förklaras av kvantmekaniken men kan också tolkas på ett enklare sätt. De två syreatomerna i CO₂ vibrerar med kolatomen i centrum och frekvensen av denna vibration sammanfaller med några av de infraröda våglängderna för den långvågiga strålningen. När frekvensen av strålningen från jordens yta och atmosfären sammanfaller med frekvensen av CO₂ -vibrationer, absorberas strålningen av CO₂, och omvandlas till värme genom kollision med andra luftmolekyler, och återges sedan tillbaka till ytan. Som ett resultat av denna infångning reduceras den utgående långvågsstrålningen genom ökande CO₂. Det kommer inte lika mycket värme ut för att balansera nettoinkommande solstrålning. Det finns överskott av värmeenergi på jorden, dvs systemet är ur energibalans. När CO₂ ökar med tiden blir den infraröda filten tjockare och planeten ackumulerar denna överskottsenergi. -->
             </p>
 
-            <UiContentImage
+            <!-- <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__the-greenhouse-effect.webp"
                 credits="From Le Treut et al., 2007"
                 :elevated="true">
                 <template #caption>
                     <b>Figure 1.</b> A simplified diagram illustrating the greenhouse effect
                 </template>
-            </UiContentImage>
+            </UiContentImage> -->
             
+            <p>
+                Vi antar NASA:s definition av klimatförändringar som ”ett brett spektrum av globala fenomen skapade främst av förbränning av fossila bränslen, som tillför värmefångande gaser till jordens atmosfär. Dessa fenomen inkluderar de ökade temperaturtrenderna som beskrivs av global uppvärmning, men omfattar också förändringar som höjning av havsnivån; förlust av ismassa på Grönland, Antarktis, Arktis och bergsglaciärer över hela världen; skiftningar i växt blomning; och extrema väderhändelser”. Nuförtiden är många aktivister, vetenskapsmän, författare och politiker hävdar att vi bör ersätta termen "klimatförändringar" med termen 'klimatkris'.
+            </p>
+
+            <p>
+                Men hur sker klimatförändringarna? För att förklara det är nödvändigt att säga några ord om ”växthuseffekten”. Växthuseffekten är den naturliga processen som värmer jordens yta. Det kallas växthuseffekten på grund av utbytet av inkommande och utgående strålning som värmer planeten fungerar på samma sätt som ett växthus. Som ett växthus är konstruerad av glas, låter den solljus tränga igenom utsidan och värma luften och växter inuti. Värmen som inte absorberas av växter fångas av glaset och kan inte fly. Under dagen kommer solljus hela tiden genom glaset och tillför mer och mer energi så att insidan blir varmare och varmare (och fortsätter att hålla sig varm efter att solen gått ner). Jordens atmosfär fungerar på ett liknande sätt. Solen skiner genom jordens atmosfär och jordens yta värms upp. En del av solens energi reflekteras direkt tillbaka till rymden, resten absorberas av land, hav och atmosfären och förvandlas till värme. Värmen fångas av gaser som koldioxid, metan och andra "växthusgaser". Dessa gaser gör ett kritiskt jobb för att se till att atmosfären håller tillräckligt värme för att stödja alla slags liv på planeten. Utan dem skulle jorden förlora så mycket värme att livet som vi känner det skulle vara omöjligt. Även om växthuseffekten är ett naturligt förekommande fenomen, kan effekten förstärkas av utsläpp av växthusgaser till atmosfären till följd av mänsklig aktivitet. I det fallet fångar växthusgaserna för mycket av solens energi som värme och stör det naturliga system som reglerar vårt klimat. Saker och ting blir hetare och hetare och vi börjar se mer och mer extremt väder och andra effekter. Även små förändringar i den globala medeltemperaturen kan orsaka stora och farliga förändringar i klimatet. Tänk bara på skillnaden mellan 0 och 1 grad Celsius – att en grad betyder skillnaden mellan is och vatten.
+            </p>
             
 
             <p><b>Gaser som bidrar till växthuseffekten inkluderar:</b></p>
@@ -127,31 +135,19 @@
                     Vissa laboratorieförsök tyder på att förhöjda CO₂-nivåer kan öka växternas tillväxt. Andra faktorer, såsom ändrade temperaturer, ozon och vatten- och näringsbegränsningar, kan dock motverka eventuella ökningar av skörden. Om optimala temperaturintervall för vissa grödor överskrids, kan tidigare möjliga skördevinster minska eller även tvärvända.
                 </li>
                 <li>
-                    Extrema klimat, som torka, översvämningar och extrema temperaturer, kan leda till skördeförluster och hota jordbruksproducenternas försörjning och livsmedelsförsörjningen i samhällen över hela världen. Klimatförändringar kommer sannolikt att öka spridningen av ogräs och skadedjur.
+                    Extrema klimat, som torka, översvämningar och extrema temperaturer, kan leda till skördeförluster och hota livsmedelsförsörjningen i samhällen över hela världen. Beroende på gröda och ekosystem kan ogräs, skadedjur och svampar också frodas under varmare temperaturer och blötare klimat.
                 </li>
                 <li>
-                    Forskning har visat att det också kan minska näringsvärdet hos de flesta matgrödor genom att minska koncentrationerna av protein och viktiga mineraler i de flesta växtarter.
+                    Forskning har visat att temperaturökning kan också minska näringsvärdet hos de flesta matgrödor genom att minska koncentrationerna av protein och viktiga mineraler i de flesta växtarter.
                 </li>
                 <li>
                     Förändringar i blom- och växternas blomningstider
-                </li>
-                <li>
-                    Havets ekosystem upplever redan storskaliga förändringar och kritiska tröskelvärden förväntas nås vid 1,5°C av global uppvärmning
                 </li>
                 <li>
                     Förändrade klimat orsakar direkt och indirekt stress för djur över hela världen. Många arter närmar sig – eller har redan nått – gränsen för vart de kan gå för att hitta gästvänliga klimat. I polarområdena kämpar nu djur som isbjörnar som lever på polarisen för att överleva när isen smälter.
                 </li>
                 <li>
                     Värmande havstemperaturer smälter polarisen, skiftar havsströmmar och fiskvandringar, vilket leder till korallblekning och att korallrev dör.
-                </li>
-                <li>
-                    Riskerna för lokala artförluster och följaktligen riskerna för utrotning är mycket mindre i en 1,5°C jämfört med en 2°C varmare värld
-                </li>
-                <li>
-                    Varje ökning av den globala temperaturen (t.ex. +0,5°C) förväntas påverka människors hälsa, med främst negativa konsekvenser
-                </li>
-                <li>
-                    Riskerna för global aggregerad ekonomisk tillväxt till följd av klimatförändringens effekter beräknas vara lägre vid 1,5°C än vid 2°C i slutet av detta århundrade
                 </li>
             </ul>
 
@@ -183,7 +179,7 @@
 
 
 
-            <hr class="mt-10 mb-40" />
+            <!-- <hr class="mt-10 mb-40" />
             <h2 id="section-3">3. Klimatförändringar: En socio-vetenskaplig fråga</h2>
 
             <p>I vetenskapens historia har det funnits många exempel där motsägelsefulla åsikter om specifika vetenskapliga frågor spridits till allmänheten. Klimatförändringar är ett exempel där människor och grupper intar och försvarar olika ståndpunkter. Även om klimatvetenskapen nu har fastställt att den globala uppvärmningen sker, att mänskliga aktiviteter bidrar till denna uppvärmning och att nuvarande och framtida uppvärmning visar negativa effekter på både ekologiska och sociala system (National Research Council, 2010), en betydande del av Den amerikanska allmänheten förblir ambivalent eller obekymrad (Leiserowitz, Maibach, Roser-Renouf, & Hmielowski, 2012) och många beslutsfattare (särskilt i USA) förnekar nödvändigheten av att vidta åtgärder för att minska koldioxidutsläppen (Brownstein, 2010).</p>
@@ -222,7 +218,7 @@
                     <li><b>Cook, J.</b> Förstå och motverka klimatvetenskapligt förnekande . Journal & Proceedings of the Royal Society of New South Wales, 150.</li>
                     <li><b>McCright, A. M.</b> & <b>Dunlap, R. E.</b> (2010). Antireflexivitet: Den amerikanska konservativa rörelsens framgång med att undergräva klimatvetenskap och politik. Theory, Culture & Society , 27(2-3), 100-133.</li>
                 </ul>
-            </section>
+            </section> -->
 
 
              
@@ -243,10 +239,10 @@
 
 
             <hr class="mt-10 mb-40" />
-            <h2 id="section-4">4. Tekniker för vetenskapsförnekande</h2>
+            <h2 id="section-4">3. Tekniker för vetenskapsförnekande</h2>
 
             
-            <p>Bland de olika rörelser som förkastar en vetenskaplig konsensus, observeras fem tekniker för vetenskapsförnekelse som förklaras nedan:</p>
+            <p>Cook (2020) har kategoriserat de olika argument som föreslås av klimatförändringsförnekare i fem huvudkategorier: “Fake Experts; Logical Fallacies; Impossible Expectations; Cherry Picking; Conspiracy Theories” som förklaras nedan.</p>
 
             <UiContentImage
                 src="https://evidence.onkel.ee/assets/c-change__flicc.webp"
@@ -262,41 +258,37 @@
                     Falska experter:
                 </dt>
                 <dd>
-                    Det handlar om talespersoner som förmedlar intryck av expertis i ett ämne och ändå har lite relevant expertis. Global Warming Petition Project är den typiska formen av denna teknik inom klimatdesinformation, med 31 000 undertecknare av en online-petition som ifrågasätter människans orsakad global uppvärmning. Emellertid har 99,9 % av undertecknarna, medan de har en naturvetenskaplig examen, ingen expertis inom klimatvetenskap. Denna petition har visat sig vara ett av de mest effektiva förnekelseargumenten för att minska acceptansen av klimatförändringar.
+                    Det handlar om talespersoner som förmedlar intryck av expertis i ett ämne och ändå har lite relevant expertis. Global Warming Petition Project är den typiska formen av denna teknik inom klimatdesinformation, med 31 000 undertecknare av en online-petition som ifrågasätter människans orsakad global uppvärmning. Emellertid har 99,9 % av undertecknarna, medan de har en naturvetenskaplig examen, ingen expertis inom klimatvetenskap.
                 </dd>
                 <dt class="font-bold mt-4">
                     Logiska felaktigheter
                 </dt>
                 <dd>
-                    Argument utformade för att övertyga människor består av en eller flera premisser, som leder till en slutsats. Klimatförnekande argument innehåller vanligtvis grova logiska brister. Det finns tre klasser av logiska felaktigheter:                    <ul>
-                        <li>
-                            av relevans (där premisserna är irrelevanta för slutsatsen), 
-                        </li>
-                        <li>
-                            i omfattning (där inte alla relevanta bevis beaktas), och 
-                        </li>
-                        <li>
-                            i antagande (där argumentet innehåller falska premisser).
-                        </li>
-                    </ul>
+                    Argument utformade för att övertyga människor består av en eller flera premisser, som inte leder logiskt till en slutsats.
+                    <br />
+                    Till exempel, argumentet att klimatet har förändrats naturligt tidigare, därför måste moderna klimatförändringar vara naturliga, innehåller det outtalade falska antagandet att eftersom naturliga faktorer har orsakat klimatförändringar i det förflutna, då måste de alltid vara orsaken till klimatförändringarna, när mänsklig påverkan också kan vara en faktor.
                 </dd>
                 <dt class="font-bold mt-4">
                     Omöjliga förväntningar:
                 </dt>
                 <dd>
-                    Detta innebär att kräva orealistiska nivåer på bevis eller att felaktigt framställa naturvetenskaplig osäkerhet. Eftersom vetenskap vanligtvis är probabilistisk är krav på absolut vetenskaplig säkerhet en effektiv metod för att tvivla på vetenskapliga rön. Denna förnekande teknik är känd som <i>"Scientific Certainty Argumentation Methods"</i>.
+                    Detta innebär att kräva orealistiska nivåer på bevis eller att felaktigt framställa innebörden av naturvetenskaplig osäkerhet. Eftersom vetenskap vanligtvis är probabilistisk är krav på absolut vetenskaplig säkerhet en effektiv metod för att tvivla på vetenskapliga rön.
+                    <br />
+                    Till exempel, efter att ha presenterats med data som visar att havsnivån ökar, kan klimattvivlare begära data som visar att havsnivåhöjningar har accelererats under de senaste åren!
                 </dd>
                 <dt class="font-bold mt-4">
                     Körsbärsplockning (Cherry picking):
                 </dt>
                 <dd>
                     Denna teknik definieras som "selektivt val av data som leder till en önskad slutsats som skiljer sig från slutsatsen som uppkommer från analys av alla tillgängliga data".
+                    <br />
+                    Till exempel, för att bevisa att klimatförändringar inte sker, är det vanligt att plocka data från år som var särskilt kalla eller blöta, samtidigt som man ignorerar data som visar trenden med temperaturförändringar under århundraden.
                 </dd>
                 <dt class="font-bold mt-4">
                     Konspirationsteorier:
                 </dt>
                 <dd>
-                    Cirka 20 % av den amerikanska allmänheten tror att klimatförändringar är en vetenskaplig bluff. Konspirationsteorier har en rad negativa effekter, även när människor inte övertygas av dem. De kan minska stödet för klimatåtgärder, minska ens avsikt att minska sitt koldioxidavtryck och minska förtroendet för regeringen.
+                    involvera förslaget om hemliga planer för att genomföra skändliga komplott, och är ett vanligt tema inom desinformation om klimatet. Klimatvetenskapligexpertis karaktäriseras av förnekare som en "klimatkartell" av forskare, tillsynsmyndigheter, aktivister och affärsenheter.
                 </dd>
             </dl>
 
@@ -331,7 +323,7 @@
 
 
 
-            <h2 id="section-7" class="mt-40">7. Myter om klimatförändringar</h2>
+            <h2 id="section-7" class="mt-40">4. Myter om klimatförändringar</h2>
 
 
 
