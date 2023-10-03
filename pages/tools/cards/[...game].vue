@@ -1,19 +1,15 @@
 <template>
     <div class="p-6 md:p-10">
-        <div class="prose">
+        <div class="prose print:hidden">
             <h1 class="mb-8">{{ t('title-1') }}</h1>
         </div>
         
-        <hr />
-
         <button @click="printMe" class="my-6 px-4 py-2 flex items-center gap-2 bg-sky-600 text-md  
             rounded text-white uppercase transition
             hover:bg-sky-700
             print:hidden">
             <icon name="material-symbols:print-outline-rounded" /> {{ t('button-title') }} {{ t('button-note') }}
         </button>
-
-        <hr />
 
 
         <ToolsCardgameVirusesTheme1 
@@ -62,6 +58,7 @@
     }
 }
 </i18n>
+
 
 <script setup>
     const { t } = useI18n({ useScope: 'local' });

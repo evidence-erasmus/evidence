@@ -18,11 +18,8 @@ export default defineNuxtConfig({
         inlineSSRStyles: false
     },
     devtools: {
-        // Enable devtools (default: true)
         enabled: true,
-        // VS Code Server options
         vscode: {},
-        // ...other options
     },
     // router: {
     //     base: '/evidence/'

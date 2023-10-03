@@ -14,7 +14,8 @@
         <Icon name="fa6-solid:people-group" class="absolute text-slate-800 w-10 h-10" style="transform: translateY(-3.75ch)" /> <nuxt-link href="answers" target="_blank" class="text-lg font-bold uppercase">Your answers</nuxt-link>
     </section> -->
 
-    <UiYourAnswersButton url="answers" />
+    <UiYourAnswersButton 
+        :url="userPrefs.learnPathViruses === 0 ? 'answers/experiment' : 'answers/secondary-sources'" />
     
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 

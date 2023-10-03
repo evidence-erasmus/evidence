@@ -18,13 +18,23 @@ export const useStudentInputStore = defineStore("student", {
         activity3a: {
             activity3aMyth: "",
             activity3aHypothesis: "",
-            activity3aPlan: [
-               ["independent variable", "dependent variable", "control variables"]
-            ],
+            // activity3aPlan: [
+            //    ["independent variable", "dependent variable", "control variables"]
+            // ],
+            experimentVariables: {
+                independent: "",
+                dependent: "",
+                control: [
+                    [""]
+                ]
+            },
             activity3aVariables: [
                 ["", "", ""]
             ],
-            activity3aResults: "",
+            reliability: [
+                ["", "", "'0'", ""]
+            ],
+            activity3aResults: [],
             activity3aConclusion: "",
             activity3aSecondary: "",
         },
@@ -61,6 +71,9 @@ export const useStudentInputStore = defineStore("student", {
         },
         addDynamicRow(key, row){
             key.push(row);
+        },
+        deleteDynamicRow(key, row){
+            key.splice(row, 1);
         },
         changeDynamicRow(key, row, column, value){
             key[row][column] = value;

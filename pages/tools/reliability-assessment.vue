@@ -1,14 +1,14 @@
 <template>
         
-        <section class="e-article print:not-prose max-w-6xl" lang="en" style="hyphens: auto;">
+        <section class="e-article print:not-prose max-w-6xl" :lang="locale" style="hyphens: auto;">
             
             <h1>{{ t('title') }}</h1>
 
             <h3>{{ t('videos-title') }}</h3>
 
             <div class="e-card grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <UiYoutube video="s7FKnMC_cIU"  />
-                    <UiYoutube video="Jy3sDnKAg0Q"  />
+                    <UiYoutube :video="locale === 'et' ? 'pCEpRmtCwzQ' : 's7FKnMC_cIU'"  />
+                    <UiYoutube :video="locale === 'et' ? 'vTKzVpmN-ws' : 'Jy3sDnKAg0Q'"  />
             </div>
 
             <div class="e-card mt-10">
@@ -97,7 +97,7 @@
                                             {{ t('table1.row2.c2.source4.txt') }}
                                         </a>
                                     </li>
-                                    <li>
+                                    <li v-if="locale === 'sv'">
                                         <a :href="t('table1.row2.c2.source5.link')" target="_blank" rel="noopener noreferrer">
                                             {{ t('table1.row2.c2.source5.txt') }}
                                         </a>
@@ -414,16 +414,17 @@
                         </tr>
                     </tbody>
                 </table>
-
-                <p>
-                    <b>{{ t('source.txt') }}</b> <a :href="t('source.link')" target="_blank" rel="noopener noreferrer">{{ t('source.link') }}</a>
-                </p>
             </div>
+
+            <p>
+                <b>{{ t('source.txt') }}</b> <a :href="t('source.link')" target="_blank" rel="noopener noreferrer">{{ t('source.link') }}</a>
+            </p>
 
         </section>
 
-    
 </template>
+
+
 
 
 <i18n lang="json">
@@ -583,6 +584,172 @@
             },
             "row13": {
                 "c2": "The purpose is to sell something"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    "et" : {
+        "source": {
+            "txt": "Allikas:",
+            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
+        },
+        "title": "Juhend, kuidas hinnata info usaldusväärsust",
+        "videos-title": "Google Scholar’i kasutamise õppevideod",
+        "table1": {
+            "thead": {
+                "th1": "Millise allikaga on tegemist?",
+                "th2": "Kuidas leida?",
+                "th3": "Usaldusväärsuse määr"
+            },
+            "row1": {
+                "c1": "Eelretsenseeritud teadusartiklid Tasub läbi lugeda sisukokkuvõte ning vaadata tsiteeringute arvu (NB! uutel artiklitel võivad puududa). Kõige kõrgemal astmel on usaldusväärsuse mõttes metauuringud ning teadusartiklite süstemaatilised kirjalduse ülevaated eelretsenseeritud ajakirjades.",
+                "c2": {
+                    "title": "Teadusliku uurimistöö andmebaasid:",
+                    "source1": {
+                        "txt": "Google Scholar",
+                        "link": "https://scholar.google.com/",
+                        "txt2": "Loe kuidas {link1}",
+                        "link2": "#googleScholar",
+                        "txt3": "kasutada Google Scholarit"
+                    },
+                    "source2": {
+                        "txt": "Meditsiiniuuringute andmebaas:",
+                        "link": "https://pubmed.ncbi.nlm.nih.gov"
+                    }
+                }
+            },
+            "row2": {
+                "c1": "Statistika / info avaldatud asjakohaste ja usaldusväärsete rahvusvaheliste või rahvuslike organisatsioonide poolt (domeeni laiend: .org - viimane ei taga aga, et kõik sellelõpulised veebilehed on usaldusväärsed). WHO, Ühinenud Rahvaste Organisatsioon, ÜRO (United Nations, UN), NASA, National Academies of Science ning  tuntud ülikoolide veebilehed jms.",
+                "c2": {
+                    "source1": {
+                        "txt": "Eurostat",
+                        "link": "https://ec.europa.eu/eurostat/web/main/data/database"
+                    },
+                    "source2": {
+                        "txt": "UNdata",
+                        "link": "http://data.un.org/"
+                    },
+                    "source3": {
+                        "txt": "WHO data",
+                        "link": "https://www.who.int/data"
+                    },
+                    "source4": {
+                        "txt": "National Academies Press",
+                        "link": "https://nap.nationalacademies.org/"
+                    }
+                }
+            },
+            "row3": {
+                "c1": "Tuntud entsüklopeediad",
+                "c2": {
+                    "source1": {
+                        "txt": "Wikipedia",
+                        "link": "https://www.wikipedia.org/"
+                        // kindlasti mõelda siinkohal ingliskeelset kui kõige rikkalikumat ning enim faktikontrollitud Wikipedia versiooni
+                    },
+                    "source2": {
+                        "txt": "Britannica",
+                        "link": "https://www.britannica.com/"
+                    }
+                }
+            },
+            "row4": {
+                "c1": "Riiklikud veebilehed (kuuluvad demokraatlikele riikidele, milles toimuvad vabad valimised) (ingliskeelsetes maades sageli domeeni lõpp: .gov)"
+            },
+            "row5": {
+                "c1": "Populaarteaduslikud väljaanded antud valdkonna  ekspertidelt. Viidatakse algallikat ning see on kirjelduse põhjal tuvastatav."
+            },
+            "row6": {
+                "c1": "Mainekad ajalehed, mis kasutavad faktikontrolli. Muud meediaväljalasked antud valdkonnas tuntud ekspertidelt."
+            },
+            "row7": {
+                "c1": {
+                    "li1": "Elustiili väljaanded.",
+                    "li2": "Äriettevõtete veebilehed.",
+                    "li3": "Isiklikud blogid, vlogid jms.",
+                    "li4": "Poliitiliselt ja ideoloogiliselt  kallutatud väljaanded (N: ajalehed, mis on kantud äärmuslikust agendast).",
+                    "li5": "Sotsiaalmeedia postitused."
+                }
+            }
+        },
+        "table2": {
+            "thead": {
+                "th1": "Kes on autor (kui on viidatud)?",
+                "th12": "",
+                "th2": "Kuidas tuvastada?",
+                "th3": "Usaldusväärsuse määr"
+            },
+            "row1": {
+                "c1": "Teadlane / uurija",
+                "c2": "Kas tema saavutused on tuvastavad (väidetud amet ja organisatsioon, haridustase, publikatsioonid, auhinnad)? N: kasutada GoogleScholar-it, Eesti teadlaste kohta leiab infot: www.etis.ee",
+                "c22": ""
+            },
+            "row2": {
+                "c1": "Antud valdkonna tuntud ekspert",
+                "c2": "Kas tema saavutused on tuvastavad (väidetud amet ja organisatsioon / asutus, haridustase, publikatsioonid, auhinnad)?"
+            },
+            "row3": {
+                "c1": "" // If an organisation
+            }
+        },
+        "table3": {
+            "thead": {
+                "th1": "Teksti olemus",
+                "th2": "Indikaatorid",
+                "th3": "Usaldusväärsuse määr"
+            },
+            "row1": {
+                "c1": "Avaldaja seos teemaga",
+                "c2": "Tasakaalustatud / neutraalne"
+            },
+            "row2": {
+                "c2":"Rahastaja on usaldusväärne (riik, tuntud rahvusvaheline organisatsioon; N: väljaande valmimist on rahastanud Euroopa Sotsiaalarengu Fond)"
+            },
+            "row3": {
+                "c2":"Selgelt kallutatud, eirab üldtunnustatud tõekspidamisi."
+            },
+            "row4": {
+                "c1": "Väljaandmise aeg",
+                "c12": "",
+                "c2":"Hiljuti avaldatud või ülevaadatud"
+            },
+            "row5": {
+                "c2": "Aegunud (nõuab lisakontrolli: mitte iga rohkem kui paari aasta tagune väljaanne pole kaotanud oma pädevust)"
+            },
+            "row6": {
+                "c2": "Pole võimalik tuvastada"
+            },
+            "row7": {
+                "c1": "Teksti tõepärasus",
+                "c2": "Eesmärgiks on informeerida"
+            },
+            "row8": {
+                "c2": "Toon on veenev, kuid mitte pealetükkiv"
+            },
+            "row9": {
+                "c2": "Tekst sisaldab spetsiifilisi fakte ja detaile, et toetada väljakäidud ideid"
+            },
+            "row10": {
+                "c2": "The purpose is to entertain"
+            },
+            "row11": {
+                "c2": "Eesmärgiks on veenda, tekst on emotsionaalselt laetud"
+            },
+            "row12": {
+                "c2": "Eesmärk on hirmutada"
+            },
+            "row13": {
+                "c2": "Eesmärk on midagi müüa"
             }
         }
     },
@@ -749,7 +916,7 @@
 
 <script setup>
     import { useI18n } from 'vue-i18n';
-    const { t } = useI18n({ useScope: 'local' });
+    const { locale, t } = useI18n({ useScope: 'local' });
 
     definePageMeta({
         layout: "base",

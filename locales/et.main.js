@@ -21,14 +21,6 @@ export default {
     for_teachers: "Õpetajale",
     background_info: "Teadusinfo",
     climateChange: {
-      description: "Kliimamuutuste kirjeldav tekst",
-      title: "Kliimamuutused"
-    },
-    radiation: {
-      description: "See on kiirguste mooduli kirjeldus siin. Lause või paar.",
-      title: "Kiirgused"
-    },
-    climateChange: {
       description: "Kliimamuutuste kirjeldus",
       title: "Kliimamutused"
     },
@@ -45,15 +37,11 @@ export default {
       title: "Evolutsioon"
     },
     drugs: {
-      description: "Uimastite kirjeldus",
-      title: "Uimastid"
+      description: "Siin kirjeldus",
+      title: "Rohud"
     },
     viruses: {
-      description: "Viruses module description",
-      title: "Viruses"
-    },
-    viruses: {
-      description: "See on viiruste mooduli kirjeldus siin. Lause või paar.",
+      description: "Viiruste kirjeldus",
       title: "Viirused"
     }
   },
