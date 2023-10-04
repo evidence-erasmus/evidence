@@ -1,1 +1,0 @@
-import{a7 as i,n as r,j as a,a8 as s,Y as n,a9 as c}from"./entry.40a99e8b.js";function p(e){const{route:t,router:o,i18n:u}=e||{};return i({route:t||r(),router:o||a(),i18n:u||s(n().$i18n)})}function l(e){const{route:t,router:o,i18n:u}=e||{};return c({route:t||r(),router:o||a(),i18n:u||s(n().$i18n)})}export{l as a,p as u};
