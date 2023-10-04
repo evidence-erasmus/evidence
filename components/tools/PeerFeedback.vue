@@ -2,8 +2,9 @@
     <div>
         
         <label class="block mb-2 font-bold">{{ t('names') }}</label>
+        <textarea placeholder="✍️" class="textarea textarea-bordered w-full max-w-xl"></textarea>
 
-        <contenteditable 
+        <!-- <contenteditable 
             tag="div" 
             contenteditable="true" 
             v-model="message" 
@@ -11,7 +12,8 @@
             :no-html="false" 
             class="p-2 border border-slate-400 rounded mb-6 
             focus-visible:outline-blue-500 
-            print:outline-0 print:mb-1" />
+            print:outline-0 print:mb-1" /> -->
+
         
         <table class="text-sm">
             <thead>
@@ -31,8 +33,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(question, i) in tm('questions')" :key="`q${i}`"
-                class="">
+                <tr v-for="(question, i) in tm('questions')" :key="`q${i}`">
                     <th class="border-b border-slate-300 text-left align-middle px-1 py-2 leading-tight">{{ rt(question) }}</th>
                     <td v-for="radio in tm('options')"
                     class="border-b border-slate-300 text-center align-middle px-1 py-2 
@@ -47,13 +48,14 @@
 
 
 
-<script setup lang="ts">
-    import contenteditable from 'vue-contenteditable';
+<script setup>
+    // import contenteditable from 'vue-contenteditable';
+    
     const { t, tm, rt } = useI18n({
         useScope: 'local'
     });
 
-    const isEditable = ref(true);
+    // const isEditable = ref(true);
     const message = ref("")
     function enterPressed(){
         console.log("Enter pressed");

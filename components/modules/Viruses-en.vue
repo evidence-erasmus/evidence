@@ -355,7 +355,7 @@
             <p><b>Formative:</b></p>
             <ul>
                 <li>Oral/written feedback from the teacher (e.g. based on observations, questions asked) throughout the module, during the experiments, and in other formats of individual / group work.</li>
-                <li>Self- and peer assessment on the group presentation using the pre-determined criteria and the <NuxtLink to="../tools/peerfeedback" target="_blank">following tool</NuxtLink>.</li>
+                <li>Self- and peer assessment on the group presentation using the pre-determined criteria and the <NuxtLink to="../tools/peer-feedback" target="_blank">following tool</NuxtLink>.</li>
                 <li>Oral/written feedback from the teacher on individual / group worksheets.</li>
             </ul>
             
@@ -444,7 +444,7 @@
             </p>
                 
             <p>
-                Also, student material is provided with criteria the video (poster, etc.) should fulfill. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video (poster, etc.) and answering the questions of their peers and the teacher (<b>Activity 5</b>). For the last, students can use the following <NuxtLink to="../tools/peerfeedback" target="_blank" class="e-btn-outline"><Icon name="mdi:tools" /> assessment tool</NuxtLink> to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only the feedback given to their own presentation, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.
+                Also, student material is provided with criteria the video (poster, etc.) should fulfill. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video (poster, etc.) and answering the questions of their peers and the teacher (<b>Activity 5</b>). For the last, students can use the following <NuxtLink to="../tools/peer-feedback" target="_blank" class="e-btn-outline"><Icon name="mdi:tools" /> assessment tool</NuxtLink> to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only the feedback given to their own presentation, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.
             </p>
 
             <p>

@@ -359,7 +359,7 @@
             <p><b>Kujundav hindamine:</b></p>
             <ul>
                 <li>Õpetaja suuline/kirjalik tagasiside (vaatluste, esitatud küsimuste jms põhjal) kogu mooduli vältel, katsete ning muude individuaalsete/rühmatööde käigus.</li>
-                <li>Kaaslaste tagasiside (rühmaesitluse kohta <NuxtLink :to="localePath('/tools/PeerFeedback')" target="_blank">tagasiside tööriista</NuxtLink> abil).</li>
+                <li>Kaaslaste tagasiside (rühmaesitluse kohta <NuxtLink to="./tools/peer-feedback" target="_blank">tagasiside tööriista</NuxtLink> abil).</li> 
             </ul>
             
             <p><b>Kokkuvõttev hindamine:</b></p>

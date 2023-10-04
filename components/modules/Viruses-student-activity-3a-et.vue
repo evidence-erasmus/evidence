@@ -26,10 +26,9 @@
             <li>kitsendate oma valitud müüdi <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">kontrollitava hüpoteesi</a> / vastatava uurimisküsimuse kujule;</li>
             <li>kavandate eksperimendi, et hüpoteesi kinnitada või siis ümber lükata/vastata püstitatud uurimisküsimusele;</li>
             <li>
-                kogute andmeid ning esitate need tabelite ja/või graafikutena, ning näiteks salvestate oma eksperimendi osana tõestusmaterjalist;
-                <br />
-                <a href="#" class="btn btn-accent btn-sm not-prose text-white"
-                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="24" /> Vaata õpivideot</a>
+                kogute andmeid ning esitate need tabelite ja/või graafikutena, ning näiteks salvestate oma eksperimendi osana tõestusmaterjalist; 
+                <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
+                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="22" /> Vaata õpivideot</a>
             </li>
             <li>selgitate oma tulemusi kasutades õpitud loodusteaduslikke teadmisi ning sõnastate järeldused;</li>
             <!-- <li class="bg-orange-200">Use your results to form a conclusion.</li>
@@ -105,11 +104,11 @@
         <textarea id="3aResults" class="textarea textarea-bordered block w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea> -->
 
 
-        
+        <hr />
     
         <p>
             Palun kasutage info otsimiseks ning selle usaldusväärsuse hindamiseks <nuxt-link target="_blank" href="../tools/reliability-assessment"
-            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools"></Icon> järgmisi tööriistu</nuxt-link>.
+            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> järgmisi tööriistu</nuxt-link>.
         </p>
         
         

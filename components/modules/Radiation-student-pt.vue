@@ -40,7 +40,7 @@
                 Neste módulo, é convidado a refletir sobre os medos existentes e desmistificar ou confirmar mitos sobre diferentes formas de radiação. Parta de um vídeo introdutório onde alguns medos e mitos relacionados com a radiação são criados e discuta-os em grupos. A discussão em grupo levará à seleção de uma atividade de desmistificação de mitos onde procurará evidências para desmistificar ou confirmar um mito escolhido. Esta atividade poderá ser conduzida experimentalmente ou utilizando provas secundárias (informações da literatura científica e da internet). Através desta atividade, aprenderá a avaliar a fiabilidade das fontes de informação (bases de dados científicas, ciência cidadã e outros meios de comunicação). Tem que colocar uma hipótese testável (veja a Figura 1).
             </p>
 
-            mythbusting img here
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-pt.webp" />
 
             <p>
                 Depois de encontrar provas e tirar conclusões, irá preparar uma apresentação dos seus resultados aos seus colegas (ou outros públicos) de forma relevante e convincente (por exemplo, sob a forma de posts/publicações de vídeo ou apresentações de PowerPoint).  O módulo termina com um role-play sobre questões de radiação relacionadas com a Energia Nuclear onde pode tomar posições e sugerir soluções usando conhecimento científico e valores pessoais atribuídos a diferentes papéis.

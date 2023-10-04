@@ -7,7 +7,7 @@
         <ToolsPeerFeedback />
 
 
-        <button @click="printMe" class="mt-8 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('button-title') }} {{ t('button-note') }}</button>
+        <button @click="printMe" class="mt-8 btn btn-info no-underline text-white uppercase print:hidden"><Icon name="material-symbols:print-outline-rounded" size="24" /> {{ t('button-title') }} {{ t('button-note') }}</button>
     </div>
 </template>
 
@@ -32,14 +32,13 @@
 </i18n>
 
 <script setup>
-    // import { useI18n } from 'vue-i18n';
-    const { t } = useI18n({ useScope: 'local' });
+    const { t } = useI18n();
+    
     definePageMeta({
         layout: "base",
     });
 
     const printMe = () => {
-        // console.log("printing");
         window.print();
     }
 </script>

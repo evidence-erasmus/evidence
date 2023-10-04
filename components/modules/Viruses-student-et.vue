@@ -33,54 +33,30 @@
             <h1 class="mb-0">Viirused</h1>
             <h5 class="font-normal uppercase leading-tight">Õpilase materjal</h5>
         
-            <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">Sissejuhatus</h2>
 
-            
-            <!-- <section class="e-card e-module__meta">
-                <p class="m-0 leading-tight font-bold">
-                    You may find <a href="https://docs.google.com/document/d/1DAi745eJ9z4-Nky9xG8-qXZk5kiMgk_Ti8yDXuFU7tI/edit?usp=sharing" target="_blank">this Google Docs document</a> useful to write down your answers.
+
+
+            <section>
+                <h2 id="section-1">Sissejuhatus</h2>
+                <p>
+                    Antud moodulis kutsume Sind “murdma” viirustega seotud müüte, millest mõned tuuakse välja ka sissejuhatavas videos. Pärast video vaatamist ja rühmaarutelu peaksite te valima välja ühe müüdi, mida eksperimendi abil või internetiallikatele  tuginedes kas ümber lükata või kinnitada. Seejärel peaksite te püstitama kontrollitava hüpoteesi või uurimisküsimuse ning otsima selle kinnitamiseks (sellele vastamiseks) tõestusmaterjali (Joonis 1).
                 </p>
-            </section> -->
-
-
-            <p>
-                Antud moodulis kutsume Sind “murdma” viirustega seotud müüte, millest mõned tuuakse välja ka sissejuhatavas videos. Pärast video vaatamist ja rühmaarutelu peaksite te valima välja ühe müüdi, mida eksperimendi abil või internetiallikatele  tuginedes kas ümber lükata või kinnitada. Seejärel peaksite te püstitama kontrollitava hüpoteesi või uurimisküsimuse ning otsima selle kinnitamiseks (sellele vastamiseks) tõestusmaterjali (Joonis 1). 
-            </p>
-            <p>
-                Ühtlasi õpid Sa selle käigus otsima infot andmebaasidest, hindama leitud nfo usaldusväärsust ning arendama edasi oma uurimuslikke oskusi. Pärast järelduste tegemist hüpoteesi kehtivuse üle, peaksite te esitama oma uurimistulemused veenvalt teistele, töötades välja videopostituse, postri vms. Moodul lõpeb lauamänguga rühmades, mille lõpuks peaksite ideaalis jõudma rühmakonsensuseni ühes vastuolulistes viirustega seotud küsimuses.
-            </p>
+                <p>
+                    Ühtlasi õpid Sa selle käigus otsima infot andmebaasidest, hindama leitud nfo usaldusväärsust ning arendama edasi oma uurimuslikke oskusi. Pärast järelduste tegemist hüpoteesi kehtivuse üle, peaksite te esitama oma uurimistulemused veenvalt teistele, töötades välja videopostituse, postri vms. Moodul lõpeb lauamänguga rühmades, mille lõpuks peaksite ideaalis jõudma rühmakonsensuseni ühes vastuolulistes viirustega seotud küsimuses.
+                </p>
+            </section>
                 
             
 
-            <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="activity-1">Tegevus 1: Sissejuhatava video vaatamine</h2>
+            <section>
+                <hr  class="mt-10 mb-40 print:my-10" />
+                <h2 id="activity-1">Tegevus 1: Sissejuhatava video vaatamine</h2>
+                
+                <p>Vaata tähelepanelikult järgnevat videot. Pane kirja oma esialgsed mõtted ja tunded, mida nähtu Sinus tekitab.</p>
+                <UiYoutube video="t4v-36h2noo" lang="et" />
+            </section>
             
-            <!-- <ModulesStructure>
-                    <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
-                        </div>
-                        <Icon name="mdi:arrow-right-thick" />
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:ouroboros" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:all-seeing-eye" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
-
-            <p>Vaata tähelepanelikult järgnevat videot. Pane kirja oma esialgsed mõtted ja tunded, mida nähtu Sinus tekitab.</p>
-
-            <UiYoutube video="t4v-36h2noo" lang="et" /> 
             
-            <!-- <label class="text-sm font-bold">Find Activity 1 inWrite your answer here:</label> -->
-            <!-- <textarea rows="3" class="px-4 py-2 border border-slate-400 shadow w-full rounded"></textarea> -->
 
             
 
@@ -96,66 +72,41 @@
             
 
 
-            <hr class="mt-10 mb-40 print:my-10" />
-            <h2 id="activity-2">Tegevus 2: Arutelu rühmades</h2>
-            
-            <!-- <ModulesStructure>
-                    <template #title>Activity 2<br />CHOOSING A MYTH</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="mdi:frequently-asked-questions" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
-            
-            <p>Pärast video vaatamist arutlege rühmas (4-6 inimest) nähtud video üle.</p>
-            <ol>
-                <li>Palun jaga teistega oma esialgseid mõtteid, mida nähtud video Sinus tekitas.</li>
-                <li>Valige välja üks müüt järgnevast loetelust, mida kas eksperimendi abil või interneti vm allikatele toetudes ümber lükata või kinnitada.</li>
-            </ol>
-            <p>Teil on valida järgnevate müütide vahel või kui ükski neist ei paku huvi, siis pakkuge välja enda oma. Viimasel juhul rääkige oma valik kindlasti läbi õpetajaga.</p>
-
-            
-            <h3><span class="text-rose-400">Müüt nr 1:</span>  Vaktsiinid põhjustavad autismi / tõsiseid kõrvalmõjusid</h3>
-            <p>Osa inimesi usub, et vaktsiinid ise ning/või nendes sisalduvad lisa- ja säilitusained  põhjustavad tõsiseid reaktsioone organismis, näiteks lastel autismi. Viimane kujutab endast arenguhäirete rühma, mis põhjustavad lastel ning hiljem ka täiskasvanutel olulisi suhtlemis- ning käitumuslikke häireid. Autism on aga vaid üks probleem, millega mõned inimesed vaktsiinide kasutamist seostavad. Kas niisugustel väidetel on alust?</p>
-
-            
-            <h3><span class="text-rose-400">Müüt nr 2:</span> Vastsündinu organism ei suuda taluda korraga mitut vaktsiini.</h3>
-            <p>Mõned päevad pärast sündi ning pärast mõnda nädalat ning kuud manustatakse vastsündinutele erinevaid vaktsiine, enamasti mitu korraga. Mõnede inmiseste hulgas tekitab see küsimusi, kas vastsündinu tõepoolest talub nii mitut vaktsiini korraga.</p>
-
-            <h3><span class="text-rose-400">Müüt nr 3:</span> Haiguse läbipõdemise teel omandatud immuunsus on parem kui vaktsineerimisel saadud immuunsus.</h3>
-            <p>Immuunsus omandatakse, kui organism puutub kokku haigustekitajaga. Vaktsineerimisel kutsutakse immuunsus esile laboris toodetud surmatud või nõrgestatud haigustekitajate poolt, nende poolt toodetud toksiiniga, mis on muudetud mittetoksiliseks või mõne nende pinnal oleva valguga. Mis omakorda tõstatab küsimuse, kas saavutatud immuunsus on mõlemal puhul võrdse tugevusega või mitte.</p>
-
-            <h3><span class="text-rose-400">Müüt nr 4:</span> Vaktsiinid sisaldavad toksiine (mürgiseid aineid).</h3>
-            <p>Mõnikord räägitakse, et vaktsiinid sisaldavad lisa- ja säilitusaineid, selliseid nagu elavhõbe, alumiinium, formaldehüüd jm. Kas ja mil määral on niisugused väited tõesed?</p>
-
-            <h3><span class="text-rose-400">Müüt nr 5:</span> Parem hügieen ning sanitaartingimused on põhjusteks, miks nakkushaigused on maailmas vähenenud, mitte vaktsiinid.</h3>
-            <p>Nakkushaiguste järjest väiksema leviku põhjuseks terves maailmas peetakse paremaid keskkonna- ja sanitaartingimusi ning inimeste isiklikke hügieeniharjumusi. Viimase kahe sajandi jooksul on toimunud positiivsed arengud kõigis neis valdkondades. Samal ajal on vaktsineerimiste arv maailmas tõusnud. Kuid kas me saame öelda, et vaktsiinidel pole enam tähtsust?</p>
-
-            <h3><span class="text-rose-400">Müüt nr 6:</span> Vaktsiinid võivad nakatada lapse haigusega, mida see püüab ära hoida.</h3>
-            <p>Mõned vaktsiinid (leetrid, tuulerõuged, jm.) sisaldavad haigustekitajate nõrgestatud vorme. Mis tõstatab küsimuse, ega see äkki ei või last nakatada?</p>
-
-            <h3><span class="text-rose-400">Myth 7:</span> Me ei vaja vaktsiine, sest nakatumise näitajad maailmas on niikuinii madalad.</h3>
-            <p>Kuna vaid vähesed inimesed on nakatunud, siis on väga väike tõenäosus, et satutakse kontakti nendega, kes on nakatunud. Eriti kui pole kavas reisida nendesse piirkondadesse, kus näitajad on kõrged. Seetõttu arvavad mõned, et võiks lõpetada lastele vaktsiinide rutiinse manustamise. Mida räägivad meile aga faktid?</p>
-
-            <h3><span class="text-rose-400">Müüt nr 8:</span> Seep on teatud viiruste nagu näiteks SARS-CoV-2 (põhjustab COVID-19) tapmiseks sama hea kui etüülalkohol</h3>
-            <p>Üks võimalus viiruste desaktiveerimiseks on töödelda käsi alkoholiga. Teised eelistavad aga pesemist tavalise seebiga. Kuid kas nad on võrdselt tõhusad?</p>
-
-            <h3><span class="text-rose-400">Müüt nr 9:</span> Maskidest pole mingit kasu ülemiste hingamisteede viirushaiguste (nagu näiteks COVID-19) ärahoidmisel.</h3>
-            <p>Palju on ühiskonnas vaieldud maskide kandmise tõhususe või mittetõhususe üle - et kas nad aitavad vältida viiruste levikut piisknakkuse teel nakatunud inimeselt mittenakatunule. Samas on mõnedes kultuurides (näiteks Aasias) see olnud normaalseks käitumisviisiks juba aastaid. Mida räägivad maskide tõhususest aga läbiviidud uurimused? Või on võimalik seda ka ise katseliselt kontrollida?</p>
-            
-            <h3><span class="text-rose-400">Müüt nr 10:</span> Maski kandmine põhjustab organismis hüpoksiat (hapnikuvaegust) /Maski kandmine põhjustab organismi  süsihappegaasimürgistust.</h3>
-            <p>Mitmed inimesed usuvad, et läbi maski hingates saab organism vähem hapnikku. Kui see on tõsi, siis peaks see esile kutsuma organismis hapnikupuuduse, mida nimetatakse hüpoksiaks. Samal ajal vabastab meie keha pidevalt süsihappegaasi, mille sisalduse suurenemine organismis peaks esile kutsuma mürgistuse. Kuid kas need eeldused on tegelikult õiged?</p>
-
-            
+            <section>
+                <hr class="mt-10 mb-40 print:my-10" />
+                <h2 id="activity-2">Tegevus 2: Arutelu rühmades</h2>
+                
+                <p>Pärast video vaatamist arutlege rühmas (4-6 inimest) nähtud video üle.</p>
+                <ol>
+                    <li>Palun jaga teistega oma esialgseid mõtteid, mida nähtud video Sinus tekitas.</li>
+                    <li>Valige välja üks müüt järgnevast loetelust, mida kas eksperimendi abil või interneti vm allikatele toetudes ümber lükata või kinnitada.</li>
+                </ol>
+                <p>Teil on valida järgnevate müütide vahel või kui ükski neist ei paku huvi, siis pakkuge välja enda oma. Viimasel juhul rääkige oma valik kindlasti läbi õpetajaga.</p>
+                
+                <h3><span class="text-rose-400">Müüt nr 1:</span>  Vaktsiinid põhjustavad autismi / tõsiseid kõrvalmõjusid</h3>
+                <p>Osa inimesi usub, et vaktsiinid ise ning/või nendes sisalduvad lisa- ja säilitusained  põhjustavad tõsiseid reaktsioone organismis, näiteks lastel autismi. Viimane kujutab endast arenguhäirete rühma, mis põhjustavad lastel ning hiljem ka täiskasvanutel olulisi suhtlemis- ning käitumuslikke häireid. Autism on aga vaid üks probleem, millega mõned inimesed vaktsiinide kasutamist seostavad. Kas niisugustel väidetel on alust?</p>
+                
+                <h3><span class="text-rose-400">Müüt nr 2:</span> Vastsündinu organism ei suuda taluda korraga mitut vaktsiini.</h3>
+                <p>Mõned päevad pärast sündi ning pärast mõnda nädalat ning kuud manustatakse vastsündinutele erinevaid vaktsiine, enamasti mitu korraga. Mõnede inmiseste hulgas tekitab see küsimusi, kas vastsündinu tõepoolest talub nii mitut vaktsiini korraga.</p>
+                <h3><span class="text-rose-400">Müüt nr 3:</span> Haiguse läbipõdemise teel omandatud immuunsus on parem kui vaktsineerimisel saadud immuunsus.</h3>
+                <p>Immuunsus omandatakse, kui organism puutub kokku haigustekitajaga. Vaktsineerimisel kutsutakse immuunsus esile laboris toodetud surmatud või nõrgestatud haigustekitajate poolt, nende poolt toodetud toksiiniga, mis on muudetud mittetoksiliseks või mõne nende pinnal oleva valguga. Mis omakorda tõstatab küsimuse, kas saavutatud immuunsus on mõlemal puhul võrdse tugevusega või mitte.</p>
+                <h3><span class="text-rose-400">Müüt nr 4:</span> Vaktsiinid sisaldavad toksiine (mürgiseid aineid).</h3>
+                <p>Mõnikord räägitakse, et vaktsiinid sisaldavad lisa- ja säilitusaineid, selliseid nagu elavhõbe, alumiinium, formaldehüüd jm. Kas ja mil määral on niisugused väited tõesed?</p>
+                <h3><span class="text-rose-400">Müüt nr 5:</span> Parem hügieen ning sanitaartingimused on põhjusteks, miks nakkushaigused on maailmas vähenenud, mitte vaktsiinid.</h3>
+                <p>Nakkushaiguste järjest väiksema leviku põhjuseks terves maailmas peetakse paremaid keskkonna- ja sanitaartingimusi ning inimeste isiklikke hügieeniharjumusi. Viimase kahe sajandi jooksul on toimunud positiivsed arengud kõigis neis valdkondades. Samal ajal on vaktsineerimiste arv maailmas tõusnud. Kuid kas me saame öelda, et vaktsiinidel pole enam tähtsust?</p>
+                <h3><span class="text-rose-400">Müüt nr 6:</span> Vaktsiinid võivad nakatada lapse haigusega, mida see püüab ära hoida.</h3>
+                <p>Mõned vaktsiinid (leetrid, tuulerõuged, jm.) sisaldavad haigustekitajate nõrgestatud vorme. Mis tõstatab küsimuse, ega see äkki ei või last nakatada?</p>
+                <h3><span class="text-rose-400">Müüt nr 7:</span> Me ei vaja vaktsiine, sest nakatumise näitajad maailmas on niikuinii madalad.</h3>
+                <p>Kuna vaid vähesed inimesed on nakatunud, siis on väga väike tõenäosus, et satutakse kontakti nendega, kes on nakatunud. Eriti kui pole kavas reisida nendesse piirkondadesse, kus näitajad on kõrged. Seetõttu arvavad mõned, et võiks lõpetada lastele vaktsiinide rutiinse manustamise. Mida räägivad meile aga faktid?</p>
+                <h3><span class="text-rose-400">Müüt nr 8:</span> Seep on teatud viiruste nagu näiteks SARS-CoV-2 (põhjustab COVID-19) tapmiseks sama hea kui etüülalkohol</h3>
+                <p>Üks võimalus viiruste desaktiveerimiseks on töödelda käsi alkoholiga. Teised eelistavad aga pesemist tavalise seebiga. Kuid kas nad on võrdselt tõhusad?</p>
+                <h3><span class="text-rose-400">Müüt nr 9:</span> Maskidest pole mingit kasu ülemiste hingamisteede viirushaiguste (nagu näiteks COVID-19) ärahoidmisel.</h3>
+                <p>Palju on ühiskonnas vaieldud maskide kandmise tõhususe või mittetõhususe üle - et kas nad aitavad vältida viiruste levikut piisknakkuse teel nakatunud inimeselt mittenakatunule. Samas on mõnedes kultuurides (näiteks Aasias) see olnud normaalseks käitumisviisiks juba aastaid. Mida räägivad maskide tõhususest aga läbiviidud uurimused? Või on võimalik seda ka ise katseliselt kontrollida?</p>
+                
+                <h3><span class="text-rose-400">Müüt nr 10:</span> Maski kandmine põhjustab organismis hüpoksiat (hapnikuvaegust) /Maski kandmine põhjustab organismi  süsihappegaasimürgistust.</h3>
+                <p>Mitmed inimesed usuvad, et läbi maski hingates saab organism vähem hapnikku. Kui see on tõsi, siis peaks see esile kutsuma organismis hapnikupuuduse, mida nimetatakse hüpoksiaks. Samal ajal vabastab meie keha pidevalt süsihappegaasi, mille sisalduse suurenemine organismis peaks esile kutsuma mürgistuse. Kuid kas need eeldused on tegelikult õiged?</p>
+                
+            </section>
 
 
 
@@ -195,7 +146,7 @@
             </ModulesStructure> -->
 
 
-            <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp" />
 
             <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:alt-route">
                 <div>
@@ -269,25 +220,11 @@
 
 
 
-            <hr  class="mt-10 mb-40 print:my-10" />
+            
+            <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="activity-6">Tegevus 6: Lauamäng</h2>
 
             <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale. <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
-
-            <!-- <ModulesStructure>
-                    <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="game-icons:rolling-dices" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded">
-                            <Icon name="healthicons:group-discussion-meeting" class="text-white" />
-                        </div>
-                    </template>
-            </ModulesStructure> -->
 
             <p>Antud tegevuse käigus kutsutakse Sind osalema kaardimängus koos oma rühmakaaslastega, et harjutada lihtsat, üksteist arvestavat ning faktipõhist rühmaarutelu, mis peaks modelleerima ühiskondlikke/poliitilisi otsustusprotsesse. Mäng võimaldab Sul uurida teemat sügavuti sundimatul viisil, väljendada oma mõtteid ja arvamusi.</p>
             

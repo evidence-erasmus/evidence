@@ -52,16 +52,17 @@
     // )
 
     onMounted(() => {
-            observer.value = new IntersectionObserver((entries) => {
-                entries.forEach((entry) => {
-                    const id = entry.target.getAttribute('id')
-                    if (entry.isIntersecting) {
-                        // console.log(id);
-                        activeTocId.value = id
-                    }
-                })
+        observer.value = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                const id = entry.target.getAttribute('id')
+                if (entry.isIntersecting) {
+                    // console.log(id);
+                    activeTocId.value = id
+                }
+            })
             }, observerOptions)
             tocH2.value = document.querySelectorAll('.e-article h2[id]');
+            // tocH2.value = document.querySelectorAll('.e-article section[id]');
             tocH2.value.forEach((section) => {
                 section.style.cssText += 'scroll-margin:10rem;';
                 observer.value?.observe(section)

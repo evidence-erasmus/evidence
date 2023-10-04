@@ -40,7 +40,7 @@
                 Antud moodulis kutsutakse Sind mõtlema kiirgustega seoses levivate müütide üle ning  neid kas ümber lükkama või kinnitama. Sissejuhatavas videos tuuakse välja mõned kiirgusega seotud hirmud, mille üle võiksite rühmades järgnevalt arutleda. Rühmaarutelu tulemusel valitakse müüdimurdmise tegevus, mille käigus otsite tõendeid valitud müüdi ümberlükkamiseks või kinnitamiseks. Seda tegevust võib läbi viia eksperimentaalselt või sekundaarsete andmete/tõestusmaterjali (teaduskirjandus jm Internetist saadav info) abil (Vt. Joonis 1).
             </p>
 
-            mythbusting img here
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp" />
 
             <p>
                 Selle käigus õpid Sa hindama infoallikate (teadusandmebaasid, populaarteaduslik kirjandus, muu meedia) usaldusväärsust. Esmalt peate püstitama kontrollitava hüpoteesi. Pärast tõendite leidmist ja järelduste tegemist valmistate ette oma tulemuste esitluse klassikaaslastele (või muule publikule) asjakohasel ja veenval viisil (näiteks videopostituse või PowerPointi esitluse vormis). Mooduli lõpetab rollimäng tuumaenergiaga seotud kiirgusprobleemidest, mille käigus tuleb võtta seisukoht ja pakkuda lahendusi, kasutades loodusteaduslikke teadmisi ja erinevatele rollidele omistatud väärtushinnanguid.

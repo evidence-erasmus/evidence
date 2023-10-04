@@ -1,45 +1,22 @@
 <template>
     <hr class="mt-10 mb-40 print:my-10" />
-    <h2 id="section-5">Tegevus 4: Tõestusmaterjalile asjakohase vormi väljatöötamine</h2>
+    <h2 id="activity-4">Tegevus 4: Tõestusmaterjalile asjakohase vormi väljatöötamine</h2>
 
-            <!-- <ModulesStructure>
-                <template #title>Activity 4<br />GIVING EVIDENCE A SUITABLE FORMAT</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded">
-                            <Icon name="material-symbols:unknown-document-outline-rounded" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="mdi:laptop-account" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        <div class="e-icon--rounded bg-slate-600">
-                            <Icon name="game-icons:horse-head" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
-
+            
             <p>Antud tegevuse käigus peaksite te välja mõtlema, kuidas oma uurimistulemusi teistele tutvustada. Oluline on, et see valitud sihtgruppi veenvalt ja arusaadavalt kõnetaks. Leppige esitluse vorm kokku oma õpetajaga.</p>
 
             <p class="font-bold">Valikud:</p>
             <ul class="leading-tight">
                 <li>
                     Videopostitus eksperimendi käigu ja selle tulemuste kohta
-                    <br />
-                    (vt <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videoõpetust</a>).
+                    <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a>
                 </li>
                 <li>
-                    Video slaidiesitluse põhjal
-                    <br />
-                    (vt <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer">videoõpetust</a> ).
+                    Video slaidiesitluse põhjal <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a>
                 </li>
                 <li>Slaidiesitlus.</li>
                 <li>
-                    Poster, kasutades näiteks visuaalse lihtsustamise tehnikat
-                    <br />
-                    (vt videoõpetust).
+                    Poster, kasutades näiteks visuaalse lihtsustamise tehnikat <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a>
                 </li>
                 <li>Muu.</li>
             </ul>
@@ -76,26 +53,9 @@
 
 
             <hr class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-6">Tegevus 5: Esitlused</h2>
+            <h2 id="activity-5">Tegevus 5: Esitlused</h2>
 
-            <!-- <ModulesStructure>
-                    <template #title>Activity 5<br />COMMUNICATING EVIDENCE AND CONCLUSIONS MADE</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="heroicons-outline:chat-bubble-left-right" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="carbon:group-presentation" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        <div class="e-icon--rounded">
-                            <Icon name="game-icons:horse-head" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
+            
 
             <p>
                 Nüüd peaksite tutvustama oma uurimistegevuse tulemusi klassile. Olge valmis vastama klassikaaslaste ja õpetaja esitatud  küsimustele! 
@@ -103,10 +63,8 @@
                 Lisaks oled oodatud andma teiste esitlustele konstruktiivset tagasisidet.
             </p>
 
-            <!-- <ToolsPeerFeedback /> -->
-
             <!-- <p>
-                <a href="../../tools/PeerFeedback" target="_blank">
+                <a href="../../tools/peer-feedback" target="_blank">
                     Open the questionnaire 
                 </a>
                 in a new page to share or print it

@@ -42,7 +42,7 @@
 
             <p>This module invites you to falsify or confirm a common myth about climate change. After watching <a href="#activity-1">the introductory video</a> on climate change-related myths, you will discuss them in groups and choose one myth. Group discussion will lead to a myth-busting activity where you will look for evidence to falsify or confirm a chosen myth (see Figure 1).</p>
 
-            mythbusting img here
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
 
             <p>You could follow the open or guided inquiry option. In the first case (open inquiry), you will search for any scientific sources on the web (e.g. video, articles, webpages, animations) and apply your plan of activities to falsify or confirm your myth. In the 2nd case (guided inquiry), you will be involved in a specific suggested plan of activities (e.g. watch recommended video, read chosen articles, apply recommended experiments) in order to falsify or confirm your myth. Through the myth-busting activity, you will learn to assess the reliability of information sources (science/research databases, popular science, and other media). Of course, you have first to pose a testable hypothesis. After making conclusions, you will prepare to present your findings to your classmates (or different audiences) in a relevant and convincing manner (e.g. in the form of video posts). The module is finished with a role-play where you can suggest solutions using your scientific knowledge and departing from your personal and social values.</p>
                         
@@ -71,23 +71,6 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-3">Activity 2: Group discussion</h2>
-            
-            <!-- <ModulesStructure>
-                    <template #title>Activity 2<br />CHOOSING A MYTH</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="mdi:frequently-asked-questions" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
             
             <p>After watching the video, you are invited to discuss the topic in small groups (4-6 members).</p>
 
@@ -304,22 +287,6 @@
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-7">Activity 6: Argumentation game</h2>
 
-            <!-- <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale.s <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p> -->
-
-            <!-- <ModulesStructure>
-                    <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="game-icons:rolling-dices" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded">
-                            <Icon name="healthicons:group-discussion-meeting" class="text-white" />
-                        </div>
-                    </template>
-            </ModulesStructure> -->
 
             <p>The following argumentation game is implemented at the end of the climate change module. Read the following guidelines carefully.</p>
             
@@ -360,21 +327,7 @@
             <h3>The cards</h3>
 
 
-            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
-
-            <UiCardInfo>
-                <div>
-                    <p>Here the cards are fitting into the page layout and take as little space as their inner content demands. So this is just a preview. <b>If you want to see the cards as regular uniform size playing cards and print them out, please open the special "card-view" page.</b></p>
-                    
-                    <nuxt-link to="../tools/cards/climate-change" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Open printable cards
-                    </nuxt-link> (new tab)
-                </div>
-            </UiCardInfo>
+            <UiCardGamePrintMessage url="../tools/cards/climate-change" />
 
             <ToolsCardgameClimateChange :printMode="false" />
 

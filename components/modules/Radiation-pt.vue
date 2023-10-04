@@ -348,7 +348,7 @@
             <p><b>Formativo:</b></p>
             <ul>
                 <li>Feedback oral/escrito do professor (baseado em observações, perguntas feitas, etc.) ao longo do módulo, durante as experiências e em outros formatos de trabalho individual/em grupo.</li>
-                <li>Feedback por pares (na apresentação do grupo utilizando a seguinte <nuxt-link to="../tools/peerfeedback" target="_blank">tool</nuxt-link> e autoavaliação após o jogo de debate final).</li>
+                <li>Feedback por pares (na apresentação do grupo utilizando a seguinte <nuxt-link to="../tools/peer-feedback" target="_blank">tool</nuxt-link> e autoavaliação após o jogo de debate final).</li>
                 <li>Feedback oral/escrito do professor em folhas de cálculo individuais/em grupo.</li>
             </ul>
             
@@ -446,7 +446,7 @@
             </ol>
 
             <p>
-                Para comunicar as suas descobertas, os alunos são orientados a produzir uma apresentação visual das suas conclusões <b>(Atividade 4)</b>. O vídeo pode ser uma opção motivadora. Para isso, os alunos podem utilizar tutoriais <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>. Além disso, o material do aluno é fornecido com critérios que o vídeo deve cumprir quando estiver pronto. Estes critérios podem ser utilizados formativamente para autoavaliação durante o processo e avaliação pelos pares ao apresentar o vídeo e responder às perguntas dos seus pares e do professor <b>(Atividade 5)</b>. Os alunos podem usar a seguinte <nuxt-link to="/tools/PeerFeedback" target="_blank">ferramenta de avaliação</nuxt-link> para dar feedback ou obtê-lo dos outros grupos.
+                Para comunicar as suas descobertas, os alunos são orientados a produzir uma apresentação visual das suas conclusões <b>(Atividade 4)</b>. O vídeo pode ser uma opção motivadora. Para isso, os alunos podem utilizar tutoriais <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>. Além disso, o material do aluno é fornecido com critérios que o vídeo deve cumprir quando estiver pronto. Estes critérios podem ser utilizados formativamente para autoavaliação durante o processo e avaliação pelos pares ao apresentar o vídeo e responder às perguntas dos seus pares e do professor <b>(Atividade 5)</b>. Os alunos podem usar a seguinte <nuxt-link to="./tools/peer-feedback" target="_blank">ferramenta de avaliação</nuxt-link> para dar feedback ou obtê-lo dos outros grupos.
             </p>
 
             <p>

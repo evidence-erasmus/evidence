@@ -345,7 +345,7 @@
                     <b>kujundavalt</b>
                     <ul>
                         <li>õpetaja suuline või kirjalik tagasiside, mis põhineb vaatlusel ning individuaalsete või rühmatöö käigus valmivate töölehtede jooksval  analüüsil;</li>
-                        <li>klassikaaslased annavad vastastikku hinnangu videotele ja nende esitlusele, kasutades järgmist <nuxt-link target="_blank" to="/tools/PeerFeedback">tagasiside küsimustikku</nuxt-link>;</li>
+                        <li>klassikaaslased annavad vastastikku hinnangu videotele ja nende esitlusele, kasutades järgmist <nuxt-link target="_blank" to="./tools/peer-feedback">tagasiside küsimustikku</nuxt-link>;</li>
                         <li>õpilased hindavad ennast ise kasutades vastavaid hindamismudeleid.</li>
                     </ul>
                 </li>
@@ -437,7 +437,7 @@
             </ol>
 
             <p>
-                Oma järelduste tutvustamiseks juhendatakse õpilasi neid oma klassikaaslastele visuaalselt esitlema (Tegevus 4). Üks võimalus on seda teha isetehtud video abil. Selleks saavad õpilased kasutada <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videojuhiseid</a>. Alternatiiviks on traditsiooniline slaidiettekanne, mida saab aga vormistada ka huvitavamalt, näiteks teha sellest video, kus õpilased räägivad oma slaidid ükshaaval “sisse” kasutades PowerPoint-i sisseehitatud funktsiooni (Vt juhendit siit) või luua poster kasutades näiteks visuaalse lihtsustamise tehnikat (Vt juhendit). Samuti on õpilase materjalides pakutud välja kriteeriumid, millele video peaks vastama. Neid kriteeriume saab kasutada kujundavalt protsessi käigus enesehindamiseks ning kaaslaste hindamisel esitluste ajal ning kaaslaste ja õpetaja küsimustele vastamisel (Tegevus 5). Õpilased saavad teistele rühmadele tagasiside andmiseks või nendelt tagasiside saamiseks kasutada järgmist <nuxt-link to="/tools/PeerFeedback" target="_blank">hindamisvahendit</nuxt-link>.
+                Oma järelduste tutvustamiseks juhendatakse õpilasi neid oma klassikaaslastele visuaalselt esitlema (Tegevus 4). Üks võimalus on seda teha isetehtud video abil. Selleks saavad õpilased kasutada <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videojuhiseid</a>. Alternatiiviks on traditsiooniline slaidiettekanne, mida saab aga vormistada ka huvitavamalt, näiteks teha sellest video, kus õpilased räägivad oma slaidid ükshaaval “sisse” kasutades PowerPoint-i sisseehitatud funktsiooni (Vt juhendit siit) või luua poster kasutades näiteks visuaalse lihtsustamise tehnikat (Vt juhendit). Samuti on õpilase materjalides pakutud välja kriteeriumid, millele video peaks vastama. Neid kriteeriume saab kasutada kujundavalt protsessi käigus enesehindamiseks ning kaaslaste hindamisel esitluste ajal ning kaaslaste ja õpetaja küsimustele vastamisel (Tegevus 5). Õpilased saavad teistele rühmadele tagasiside andmiseks või nendelt tagasiside saamiseks kasutada järgmist <nuxt-link to="./tools/peer-feedback" target="_blank">hindamisvahendit</nuxt-link>.
             </p>
 
             <p>

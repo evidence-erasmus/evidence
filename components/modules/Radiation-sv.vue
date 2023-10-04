@@ -349,7 +349,7 @@
                     <b>Formativ:</b>
                     <ul>
                         <li>Muntlig/skriftlig återkoppling från läraren (baserad på observationer, ställda frågor etc.) under hela modulen, under experimenten och andra former av individuellt/grupparbete.</li>
-                        <li>Peer-feedback (på gruppresentationen med hjälp av följande <nuxt-link target="_blank" to="/tools/PeerFeedback">verktyg</nuxt-link>  och självvärdering efter debattspelet).</li>
+                        <li>Peer-feedback (på gruppresentationen med hjälp av följande <nuxt-link target="_blank" to="/tools/peer-feedback">verktyg</nuxt-link>  och självvärdering efter debattspelet).</li>
                         <li>Muntlig/skriftlig feedback från läraren på individuella/grupparbetsblad.</li>
                     </ul>
                 </li>
@@ -447,7 +447,7 @@
             </ol>
 
             <p>
-                För att kommunicera sina resultat vägleds eleverna att producera en visuell presentation av sina slutsatser <b>(Aktivitet 4)</b>. Video kan vara ett intressant alternativ. För detta ändamål kan eleverna använda en <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videohandledning</a>. Studentmaterial är också försett med kriterier som videon ska uppfylla när den är klar. Dessa kriterier kan användas formativt för självbedömning under processen, och för kamratbedömning när videon presenteras och de svarar på frågor från sina klasskamrater och läraren (Aktivitet 5). Eleverna kan använda följande <nuxt-link to="/tools/PeerFeedback" target="_blank">bedömningsverktyg</nuxt-link> för att ge feedback till, eller få den från, de andra grupperna.
+                För att kommunicera sina resultat vägleds eleverna att producera en visuell presentation av sina slutsatser <b>(Aktivitet 4)</b>. Video kan vara ett intressant alternativ. För detta ändamål kan eleverna använda en <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videohandledning</a>. Studentmaterial är också försett med kriterier som videon ska uppfylla när den är klar. Dessa kriterier kan användas formativt för självbedömning under processen, och för kamratbedömning när videon presenteras och de svarar på frågor från sina klasskamrater och läraren (Aktivitet 5). Eleverna kan använda följande <nuxt-link to="/tools/peer-feedback" target="_blank">bedömningsverktyg</nuxt-link> för att ge feedback till, eller få den från, de andra grupperna.
             </p>
 
             <p>

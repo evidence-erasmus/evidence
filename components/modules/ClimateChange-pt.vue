@@ -317,7 +317,7 @@
             <p><b>Formative:</b></p>
             <ul>
                 <li>Oral/written feedback from the teacher (based on observations, questions asked, etc.) throughout the module, during the experiments, and in other formats of individual / group work.</li>
-                <li>Peer feedback (on the group presentation using the following <NuxtLink to="../tools/peerfeedback" target="_blank">following tool</NuxtLink> and self-assessment after the game).</li>
+                <li>Peer feedback (on the group presentation using the following <NuxtLink to="../tools/peer-feedback" target="_blank">following tool</NuxtLink> and self-assessment after the game).</li>
                 <li>Oral/written feedback from the teacher on individual / group worksheets.</li>
             </ul>
             

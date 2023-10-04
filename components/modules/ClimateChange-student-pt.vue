@@ -28,17 +28,19 @@
             <h1 class="mb-0">Alterações Climáticas</h1>
             <h5 class="font-normal uppercase leading-tight">Materiais para os alunos</h5>
         
+            
+            
             <h2 id="section-1">Introdução</h2>
-
-
             <p>
                 Este módulo convida-o a contrariar ou confirmar um mito comum sobre as alterações climáticas. Depois de verem o vídeo introdutório sobre os mitos relacionados com as alterações climáticas, vão discuti-los em grupos e escolher um mito. A discussão em grupo conduzirá a uma atividade de desmistificação de mitos em que procurará provas para contrariar ou confirmar o mito escolhido (ver Figura 1). Pode seguir a opção de investigação aberta ou guiada. No primeiro caso (investigação aberta), procurará fontes científicas na Internet (por exemplo, vídeos, artigos, páginas Web, animações) e aplicará o seu plano de atividades para contrariar ou confirmar o seu mito. No segundo caso (investigação guiada), será envolvido num plano de atividades específico sugerido (por exemplo, ver vídeos recomendados, ler artigos escolhidos, aplicar experiências recomendadas) para contrariar ou confirmar o seu mito. Através da atividade de desmistificação de mitos, aprenderá a avaliar a fiabilidade das fontes de informação (bases de dados de ciência/investigação, ciência popular e outros meios de comunicação). É claro que, em primeiro lugar, tens de colocar uma hipótese testável. Depois de tirar conclusões, prepara-se para apresentar as suas descobertas aos seus colegas (ou a diferentes audiências) de uma forma relevante e convincente (por exemplo, sob a forma de publicações em vídeo). O módulo termina com uma dramatização em que podes sugerir soluções utilizando os teus conhecimentos científicos e partindo dos teus valores pessoais e sociais.
             </p>
 
-            mythbusting img here
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-pt.webp" />
 
-                        
             
+
+
+
 
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-2">Atividade 1: Apresentação do vídeo de introdução</h2>
@@ -356,8 +358,6 @@
             <hr>
             
             <h3>The cards</h3>
-
-
 
 
             <UiCardGamePrintMessage url="../tools/cards/climate-change" />

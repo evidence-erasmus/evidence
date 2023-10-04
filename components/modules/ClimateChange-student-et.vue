@@ -44,7 +44,7 @@
 
             <p>Selles moodulis palutakse teil ümber lükata või kinnitada mõnda levinud müüti kliimamuutuste kohta. <a href="#activity-1">Sissejuhatavas videos</a>  tuuakse välja mõned kliimamuutustega seotud arusaamad (uskumused). Rühmaarutelu tulemusel peaksite valima välja müüdi, mida ümber lükata või kinnitada (Joonis 1).</p>
 
-            mythbusting img here
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp" />
 
             <p>Seda on võimalik teha nii eksperimentaalselt kui ka sekundaarsete allikate uurimise kaudu. Viimase kaudu õpite ühtlasi hindama infoallikate (teaduskirjandus, populaarteaduslik kirjandus, muud allikad) usaldusväärsust. Pärast järelduste tegemist peate te esitlema oma järeldusi  asjakohaselt ja veenvalt klassikaaslastele (või muule publikule). Mooduli lõpetab argumentatsioonimäng, kus saate kasutada oma loodusteaduslikke teadmisi ning kõrvutada neid isiklike ja  sotsiaalsetest väärtustega.</p>
                         
@@ -53,25 +53,6 @@
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-2">Tegevus 1:  Video vaatamine</h2>
             
-            <!-- <ModulesStructure>
-                    <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
-                        </div>
-                        <Icon name="mdi:arrow-right-thick" />
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:ouroboros" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:all-seeing-eye" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
-
             <p>Vaadake videot ning pange kirja oma mõtted, mis teil teema kohta tekkisid.</p>
 
             <UiYoutube video="CbJ7GmgEAAo" />
@@ -92,23 +73,6 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-3">Tegevus 2: Rühmaarutelu</h2>
-            
-            <!-- <ModulesStructure>
-                    <template #title>Activity 2<br />CHOOSING A MYTH</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="mdi:frequently-asked-questions" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
             
             <p>Pärast video vaatamist moodustage väikesed rühmad (3-4 liiget) ning arutage teemat.</p>
 
@@ -417,22 +381,6 @@
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-7">Tegevus 6: Argumenteerimismäng</h2>
 
-            <!-- <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale.s <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p> -->
-
-            <!-- <ModulesStructure>
-                    <template #title>Activity 6<br />SOCIO-SCIENTIFIC DECISION-MAKING</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="game-icons:rolling-dices" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded">
-                            <Icon name="healthicons:group-discussion-meeting" class="text-white" />
-                        </div>
-                    </template>
-            </ModulesStructure> -->
 
             <p>Kliimamuutuste mooduli lõpus rakendatakse järgmist argumentatsioonimängu. Lugege hoolikalt järgmisi juhiseid.</p>
             
@@ -473,21 +421,8 @@
             
             <h3>Mängukaardid</h3>
 
-            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
-
-            <UiCardInfo>
-                <div>
-                    <p>Siin võtavad kaardid ruumi just nii palju kui on vaja brauseri aknasse sobitumiseks <b>Kui soovid kaarte välja printida, on seda parem teha eraldi printimise vaates.</b></p>
-                    
-                    <nuxt-link to="../tools/cards/climate-change" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Ava prinditavad kaardid
-                    </nuxt-link> (uues aknas)
-                </div>
-            </UiCardInfo>
+            <UiCardGamePrintMessage url="../tools/cards/climate-change" />
+            
 
             <ToolsCardgameClimateChange :printMode="false" />
 

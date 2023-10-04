@@ -40,7 +40,7 @@
                 In this module, you are invited to reflect on existing fears and falsify or confirm myths concerning different forms of radiation. Depart from an introductory video where some radiation-related fears and myths are brought up and discuss them in groups. Group discussion will lead to selecting a myth-busting activity where you will look for evidence to falsify or confirm a chosen myth. This activity could be conducted experimentally or using secondary evidence, such as information from scientific literature and the internet. Through this activity, you will learn to assess the reliability of information sources (science databases, popular science, and other media). You have first to pose a testable hypothesis (see Figure 1).
             </p>
 
-            mythbusting img here
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
 
             <p>
                 After finding evidence and making conclusions, you will prepare a presentation of your results to your classmates (or other audiences) in a relevant and convincing manner (for example, in the form of video posts or PowerPoint presentations).  The module is finished with a role-play about radiation issues related to Nuclear Power where you can take positions and suggest solutions using scientific knowledge and personal values attributed to different roles.

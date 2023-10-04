@@ -323,7 +323,7 @@
             <p><b>formative:</b></p>
             <ul>
                 <li>Oral / written feedback from the teacher (based on observations, questions asked, etc.) on individual / group work throughout the module.</li>
-                <li>Peer feedback (on the group presentation using the following <nuxt-link to="../tools/peerfeedback" target="_blank">tool</nuxt-link> and self-assessment within the case study).</li>
+                <li>Peer feedback (on the group presentation using the following <NuxtLink to="../tools/peer-feedback" target="_blank">tool</NuxtLink> and self-assessment within the case study).</li>
             </ul>
             
             <p><b>Summative:</b></p>

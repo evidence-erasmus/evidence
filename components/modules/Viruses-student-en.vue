@@ -173,7 +173,7 @@
             </ModulesStructure> -->
 
 
-            <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/viruses__mythbusting--tp.webp" />
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
 
             <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:alt-route">
                 <div>

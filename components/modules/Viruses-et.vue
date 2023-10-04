@@ -306,7 +306,7 @@
                     õpilaste enesehindamine, mis põhineb etteantud kriteeriumitele (hindamismudelile);
                 </li>
                 <li>
-                    klassikaaslased annavad vastastikku hinnangu rühmaesitlusele, kasutades näiteks järgmist <nuxt-link to="../tools/peerfeedback" target="_blank">tagasiside küsimustikku</nuxt-link>.
+                    klassikaaslased annavad vastastikku hinnangu rühmaesitlusele, kasutades näiteks järgmist <nuxt-link to="../tools/peer-feedback" target="_blank">tagasiside küsimustikku</nuxt-link>.
                 </li>
             </ul>
             
@@ -329,7 +329,7 @@
             <h2 id="section-7">Õpetamissoovitused</h2>
             
             <p>
-                Moodul algab <a href="https://youtu.be/t4v-36h2noo" target="_blank" rel="noopener noreferrer">sissejuhatava videoga</a> (<b>Tegevus 1</b>), mis läbi huumoriprisma tutvustab teemaga seotud uskumusi ning suhtumisi. Video mõte ei ole anda koheseid vastuseid, vaid pigem tõstatada küsimusi, mida õpilased saaksid ise edasi uurida. Videos esitatud probleemipüstitusega loodetakse kõnetada õpilasi (tegevused videos toimuvad nende  eakaaslastega) muutes järgneva õppimise loodetavasti neile sisemiselt motiveerivaks. Järgnev arutelu peaks panema õpilasi mõtlema ka oma eelnevatele teadmistele ja neid vastastikku jagama (<b>Tegevus 2</b>). Kui tajutakse, et viirustega seotud teadmistes (põhimõisted, seaduspärasused) esinevad lüngad, mis segavad edasise töö planeerimist, võiks kas koos või individuaalselt vaadata ära nn <a href="https://youtu.be/eMAn2mfqR3A" target="_blank" rel="noopener noreferrer">faktivideo</a> viiruste kohta ning/või lugeda läbi punktid 1-6 <NuxtLink to="/viruses/background">Loodusteadusliku taustainfo</NuxtLink> materjalist (või kasutada selleks õpetaja enda valitud materjale). Tegevuse 2 käigus tutvustatakse õpilastele mitut teemaga seotud rahvalikku müüti, mille hulgast peaksid rühmad valima endale enim huvipakkuva. Õpetaja võiks ühtlasi aidata õpilastel seda kitsendada ja sõnastada müüt ümber nii, et see muutuks testitavaks hüpoteesiks või uurimisküsimuseks, millele saab eksperimentaalselt või sekundaarsetele allikatele tuginedes vastata.
+                Moodul algab <a href="https://youtu.be/t4v-36h2noo" target="_blank" rel="noopener noreferrer">sissejuhatava videoga</a> (<b>Tegevus 1</b>), mis läbi huumoriprisma tutvustab teemaga seotud uskumusi ning suhtumisi. Video mõte ei ole anda koheseid vastuseid, vaid pigem tõstatada küsimusi, mida õpilased saaksid ise edasi uurida. Videos esitatud probleemipüstitusega loodetakse kõnetada õpilasi (tegevused videos toimuvad nende  eakaaslastega) muutes järgneva õppimise loodetavasti neile sisemiselt motiveerivaks. Järgnev arutelu peaks panema õpilasi mõtlema ka oma eelnevatele teadmistele ja neid vastastikku jagama (<b>Tegevus 2</b>). Kui tajutakse, et viirustega seotud teadmistes (põhimõisted, seaduspärasused) esinevad lüngad, mis segavad edasise töö planeerimist, võiks kas koos või individuaalselt vaadata ära nn <a href="https://youtu.be/eMAn2mfqR3A" target="_blank" rel="noopener noreferrer">faktivideo</a> viiruste kohta ning/või lugeda läbi punktid 1-6 <NuxtLink :to="localePath('/viruses/background')">Loodusteadusliku taustainfo</NuxtLink> materjalist (või kasutada selleks õpetaja enda valitud materjale). Tegevuse 2 käigus tutvustatakse õpilastele mitut teemaga seotud rahvalikku müüti, mille hulgast peaksid rühmad valima endale enim huvipakkuva. Õpetaja võiks ühtlasi aidata õpilastel seda kitsendada ja sõnastada müüt ümber nii, et see muutuks testitavaks hüpoteesiks või uurimisküsimuseks, millele saab eksperimentaalselt või sekundaarsetele allikatele tuginedes vastata.
             </p>
             
             
@@ -338,7 +338,7 @@
 
             <h3>1. variant</h3>
 
-            <p>Õpilased valivad rühmas koos müüdi, mida saab eksperimentaalselt kinnitada või ümber lükata. Antud müütidest (Vt <a href="/viruses/student#activity-2">Tegevus 2</a>) sobivad eksperimentaalseks testimiseks ilmselt vaid müüdid nr. 9 ja 10.</p>
+            <p>Õpilased valivad rühmas koos müüdi, mida saab eksperimentaalselt kinnitada või ümber lükata. Antud müütidest (Vt <nuxt-link :to="{ path: localePath('/viruses/student'), hash:'#activity-2'}">Tegevus 2</nuxt-link>) sobivad eksperimentaalseks testimiseks ilmselt vaid müüdid nr. 9 ja 10.</p>
 
             <h4>Müüt nr 9</h4>
 
@@ -353,9 +353,18 @@
             
             <h4>Müüt nr 10</h4>
             
-            <p>Müüti “Maski kandmine põhjustab hüpoksiat” saab testida näiteks, kui mõõta näpu otsa käiva pulssoksümeetriga  (Vt. joonis 2) vere hapnikusisaldust maskikandmise ajal (viies läbi näitude ülesmärkimise ajahetkedel 0 min, 15 min, 30 min jne.). Vt tööjuhendi näidist. Pulssoksümeetreid müüakse nii tavalistes kui netiapteekides ning veebikaubamajades. Hinnad algavad mõnest eurost ning ulatuvad mitmesaja euroni.</p>
+            <p>Müüti “Maski kandmine põhjustab hüpoksiat” saab testida näiteks, kui mõõta näpu otsa käiva pulssoksümeetriga (Vt. joonis 2) vere hapnikusisaldust maskikandmise ajal (viies läbi näitude ülesmärkimise ajahetkedel 0 min, 15 min, 30 min jne.). Vt tööjuhendi näidist. Pulssoksümeetreid müüakse nii tavalistes kui netiapteekides ning veebikaubamajades. Hinnad algavad mõnest eurost ning ulatuvad mitmesaja euroni.</p>
                     
-            Figure 2. Pulssoksümeetri kasutamine 
+            <UiContentImage
+                src="https://evidence.onkel.ee/assets/viruses-09__pulse-oxymeter.webp"
+                
+                :elevated="true">
+                <template #caption>
+                    <b>Joonis 2.</b> Pulssoksümeetri kasutamine 
+                </template>
+            </UiContentImage>
+            
+            
                     
             <p>Enne eksperimendi läbiviimist tuleks õpilaste tähelepanu pöörata sellele, kuidas kontrollida muutujaid, v.a sõltumatut muutujat, milleks on maski materjal/ tüüp (maski kandmine / mittekandmine). Samuti võiksid õpilased analüüsida katse tegemise ajal ja pärast seda, millised võivad/võisid olla võimalikud katsevigade allikad ning kuidas neid edaspidi vältida. Samuti oodatakse Tegevus 3 lõpuks, et õpilased otsiksid sekundaarsetest allikatest tõestusmaterjali, et kinnitada nende enda eksperimendi tulemusi (ehk vähendatud mahus viiakse läbi ka Tegevus 3b).</p>
             
@@ -368,9 +377,9 @@
 
 
             <p>
-                Selleks, et oma uurimistulemusi teistega paremini kommunikeerida, õpivad õpilased looma lühivideot oma eksperimendist, saadud tulemustest ning tehtud järeldustest (Tegevus 4). Abiks on õpilastele seejuures <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">õppevideod</a>. Alternatiiviks on traditsiooniline slaidiettekanne, mida saab aga vormistada ka huvitavamalt, näiteks teha sellest video, kus õpilased räägivad oma slaidid ükshaaval “sisse” kasutades PowerPoint-i sisseehitatud funktsiooni (Vt juhendit) või luuakse koos poster kasutades näiteks visuaalse lihtsustamise tehnikat (Vt juhendit). Lisaks võib õpilase materjalidest leida kriteeriumid, mida saab kasutada nii õpilaste juhendamiseks, enesehindamiseks kui ka vastastikuseks hindamiseks, kui toimuvad rühmade esitlused ja kaaslaste ja õpetaja küsimustele vastamine (<b>Tegevus 5</b>). 
+                Selleks, et oma uurimistulemusi teistega paremini kommunikeerida, õpivad õpilased looma lühivideot oma eksperimendist, saadud tulemustest ning tehtud järeldustest (Tegevus 4). Abiks on õpilastele seejuures <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> õppevideod</a>. Alternatiiviks on traditsiooniline slaidiettekanne, mida saab aga vormistada ka huvitavamalt, näiteks teha sellest video, kus õpilased räägivad oma slaidid ükshaaval “sisse” kasutades PowerPoint-i sisseehitatud funktsiooni <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a> või luuakse koos poster kasutades näiteks visuaalse lihtsustamise tehnikat <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a>. Lisaks võib õpilase materjalidest leida kriteeriumid, mida saab kasutada nii õpilaste juhendamiseks, enesehindamiseks kui ka vastastikuseks hindamiseks, kui toimuvad rühmade esitlused ja kaaslaste ja õpetaja küsimustele vastamine (<b>Tegevus 5</b>). 
                 
-                <!-- <nuxt-link to="../tools/peerfeedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> vastastikuseks hindamiseks</nuxt-link> -->
+                <!-- <nuxt-link to="../tools/peer-feedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> vastastikuseks hindamiseks</nuxt-link> -->
                 
                 <!-- Õpetaja saab rühmadele antud tagasisidele kerge vaevaga ligi, kui ta vajutab Google Vormis “Vastuste” lingile ning tekitab vastustest tabeli (soovitus: iga rühm võiks saada  vaid neile antud tagasiside). Eelnevalt tuleks teha originaalfailist (küsitlusest) Google Drive kausta koopia ning siis jagada õpilastele vastamiseks kopeeritud küsitluse linki (kui selleks kasutatakse nutitelefone, siis võiks neile jagada lingi QR koodi). -->
             </p>
@@ -555,14 +564,17 @@
                     </table>
             </div>
 
-            <p>Mängu täpsemad reeglid on välja toodud <a href="/viruses/student#activity-6">õpilase materjalides</a>.</p>
+            <p>Mängu täpsemad reeglid on välja toodud <nuxt-link :to="{ path:localePath('/viruses/student'),hash:'#activity-6'}">õpilase materjalides</nuxt-link>.</p>
             
-            <p>Kõik müüdid on varustatud <a href="/viruses/background">loodusteadusliku taustainfoga</a>, mis selgitab iga müüti puudutavaid kaasaegseid teaduslikke seisukohti võimaldades saada õpetajal neist kiire ülevaade. Samuti saab seda kasutada õpilastele sobivate  allikate soovitamisel, kui õpilased peaksid jääma info otsimisel hätta või õppematerjalina, kui on vaja meenutada juba õpitud materjali.</p>
-
+            <p>Kõik müüdid on varustatud <nuxt-link :to="localePath('/viruses/background')">loodusteadusliku taustainfoga</nuxt-link>, mis selgitab iga müüti puudutavaid kaasaegseid teaduslikke seisukohti võimaldades saada õpetajal neist kiire ülevaade. Samuti saab seda kasutada õpilastele sobivate  allikate soovitamisel, kui õpilased peaksid jääma info otsimisel hätta või õppematerjalina, kui on vaja meenutada juba õpitud materjali.</p>
 
         </section>
     </div>
 </template>
+
+<script setup>
+    const localePath = useLocalePath();
+</script>
 
 <style scoped>
     .card-table td, .card-table th {

@@ -342,7 +342,7 @@
             <p><b>formative:</b></p>
             <ul>
                 <li>Oral/written feedback from the teacher (based on observations, questions asked, etc.) throughout the module, during the experiments, and in other formats of individual/group work.</li>
-                <li>Peer feedback (on the group presentation using the following <nuxt-link to="../tools/peerfeedback" target="_blank">tool</nuxt-link> and self-assessment after the final debate game).</li>
+                <li>Peer feedback (on the group presentation using the following <nuxt-link to="../tools/peer-feedback" target="_blank">tool</nuxt-link> and self-assessment after the final debate game).</li>
             </ul>
             
             <p><b>Summative:</b></p>
@@ -435,7 +435,7 @@
             </ol>
 
             <p>
-                In order to communicate their findings, students are guided to produce a visual presentation of their conclusions <b>(Activity 4)</b>. Video could be an exciting option. For this purpose, students can use a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>. Also, student material is provided with criteria the video should fulfil when ready. These criteria can be used formatively for self-assessment during the process and peer assessment when presenting the video and answering the questions of their peers and the teacher <b>(Activity 5)</b>. Students can use the following <nuxt-link to="/tools/PeerFeedback" target="_blank">assessment tool</nuxt-link> to give feedback to, or get it from, the other groups.
+                In order to communicate their findings, students are guided to produce a visual presentation of their conclusions <b>(Activity 4)</b>. Video could be an exciting option. For this purpose, students can use a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>. Also, student material is provided with criteria the video should fulfil when ready. These criteria can be used formatively for self-assessment during the process and peer assessment when presenting the video and answering the questions of their peers and the teacher <b>(Activity 5)</b>. Students can use the following <nuxt-link to="./tools/peer-feedback" target="_blank">assessment tool</nuxt-link> to give feedback to, or get it from, the other groups.
             </p>
 
             <p>

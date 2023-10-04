@@ -305,7 +305,7 @@
             <p><b>Formativa:</b></p>
             <ul>
                 <li>Feedback oral/escrito do professor (por exemplo, baseado em observações, perguntas feitas) ao longo do módulo, durante as experiências e em outros formatos de trabalho individual/em grupo.</li>
-                <li>Autoavaliação e avaliação pelos pares na apresentação do grupo utilizando os critérios pré-determinados e os seguintes <NuxtLink :to="localePath('/tools/PeerFeedback')" target="_blank">questionários</NuxtLink> <NuxtLink to="../tools/PeerFeedback" target="_blank">[test]</NuxtLink>.</li>
+                <li>Autoavaliação e avaliação pelos pares na apresentação do grupo utilizando os critérios pré-determinados e os seguintes <NuxtLink :to="localePath('/tools/peer-feedback')" target="_blank">questionários</NuxtLink> <NuxtLink to="../tools/peer-feedback" target="_blank">[test]</NuxtLink>.</li>
                 <li>Feedback oral/escrito do professor sobre folhas de cálculo individuais/em grupo.</li>
             </ul>
             
@@ -394,7 +394,7 @@
             </p>
                 
             <p>
-                Além disso, o material do aluno é fornecido com critérios que o vídeo (cartaz, etc.) deve cumprir. Estes critérios podem ser utilizados formativamente para a autoavaliação por parte dos alunos durante o processo e para a avaliação pelos pares ao apresentar o vídeo (cartaz, etc.) e responder às perguntas dos seus pares e do professor (<b>Atividade 5</b>). Por último, os alunos podem usar a seguinte <NuxtLink to="../tools/peerfeedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> ferramenta de avaliação</NuxtLink> para dar feedback aos outros grupos. O professor poderia fornecer a cada grupo um feedback sumário sobre a sua apresentação em vídeo (sugestão: cada grupo poderia aceder apenas ao feedback da sua apresentação, não ao dos outros). O professor pode aceder facilmente ao feedback dos Formulários do Google recorrendo ao botão "Respostas".
+                Além disso, o material do aluno é fornecido com critérios que o vídeo (cartaz, etc.) deve cumprir. Estes critérios podem ser utilizados formativamente para a autoavaliação por parte dos alunos durante o processo e para a avaliação pelos pares ao apresentar o vídeo (cartaz, etc.) e responder às perguntas dos seus pares e do professor (<b>Atividade 5</b>). Por último, os alunos podem usar a seguinte <NuxtLink to="../tools/peer-feedback" target="_blank" class="px-2 ring-2 ring-inset ring-blue-600 rounded inline-block no-underline hover:bg-yellow-100"><Icon name="mdi:tools" /> ferramenta de avaliação</NuxtLink> para dar feedback aos outros grupos. O professor poderia fornecer a cada grupo um feedback sumário sobre a sua apresentação em vídeo (sugestão: cada grupo poderia aceder apenas ao feedback da sua apresentação, não ao dos outros). O professor pode aceder facilmente ao feedback dos Formulários do Google recorrendo ao botão "Respostas".
                 <br />
                 <b>Por favor, faça uma cópia do arquivo na mesma pasta, depois disso, compartilhe o link do arquivo copiado com seus alunos (não o arquivo original!).</b>
             </p>

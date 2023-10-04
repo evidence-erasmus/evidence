@@ -4,10 +4,10 @@
 
     <p class="font-bold">Possible formats:</p>
     <ul class="leading-tight">
-        <li>Video post about the course of the experiment and its results (see <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>).</li>
-        <li>Video of your slideshow (see instructional material).</li>
+        <li>Video post about the course of the experiment and its results <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> video tutorial</a></li>
+        <li>Video of your slideshow <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> video tutorial</a></li>
         <li>Slide show.</li>
-        <li>Poster using, for example, the visual facilitation technique (see video tutorial).</li>
+        <li>Poster using, for example, the visual facilitation technique <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> video tutorial</a></li>
     </ul>
     <p>The following criteria will help you to develop your presentation:</p>
 

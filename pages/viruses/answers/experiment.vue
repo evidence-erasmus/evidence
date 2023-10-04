@@ -2,6 +2,9 @@
     <div class="p-6 md:p-10" :lang="locale" style="hyphens:auto">
 
         <div class="prose-lg print:prose">
+            <!-- <a id="exportAnswersLink" style="display: none;">Export</a>
+            <button class="btn btn-accent btn-sm text-white" @click="exportAnswers">Download your answers</button> -->
+            
             <h1 class="mb-2">{{ t('title') }}</h1>
             <p class="uppercase my-2">{{ t('subtitle') }}</p>
             <p class="italic mt-2 print:hidden">{{ t('hint') }}</p>
@@ -113,7 +116,22 @@
     });
 
     const printMe = () => {
-        // console.log("printing");
         window.print();
     }
+
+    function exportAnswers() {  
+        const answers = JSON.stringify(localStorage.getItem('student'), null, 4); 
+        const vLink = document.getElementById('exportAnswersLink');
+
+        // const vBlob = new Blob(answers, {type: "octet/stream"});
+        const vBlob = new Blob([answers], {type: "application/json"});
+        const vName = 'your-answers.json';
+        const vUrl = window.URL.createObjectURL(vBlob);
+
+        vLink.setAttribute('href', vUrl);
+        vLink.setAttribute('download', vName );
+        vLink.click();
+    }
+
+
 </script>

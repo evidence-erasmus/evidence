@@ -31,47 +31,24 @@
             <h1 class="mb-0">Kliimamuutused</h1>
             <h5 class="font-normal uppercase leading-tight">Õpilaste materjal</h5>
         
-            <!-- <h2 class="e-huge-number">1.</h2> -->
             <h2 id="section-1">Sissejuhatus</h2>
 
             
-            <!-- <section class="e-card e-module__meta">
-                <p class="m-0 leading-tight font-bold">
-                    You may find <a href="https://docs.google.com/document/d/1DAi745eJ9z4-Nky9xG8-qXZk5kiMgk_Ti8yDXuFU7tI/edit?usp=sharing" target="_blank">this Google Docs document</a> useful to write down your answers.
-                </p>
-            </section> -->
-
 
             <p>Selles moodulis palutakse teil ümber lükata või kinnitada mõnda levinud müüti kliimamuutuste kohta. <a href="#activity-1">Sissejuhatavas videos</a>  tuuakse välja mõned kliimamuutustega seotud arusaamad (uskumused). Rühmaarutelu tulemusel peaksite valima välja müüdi, mida ümber lükata või kinnitada (Joonis 1).</p>
 
-            mythbusting img here
+            <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
 
             <p>Seda on võimalik teha nii eksperimentaalselt kui ka sekundaarsete allikate uurimise kaudu. Viimase kaudu õpite ühtlasi hindama infoallikate (teaduskirjandus, populaarteaduslik kirjandus, muud allikad) usaldusväärsust. Pärast järelduste tegemist peate te esitlema oma järeldusi  asjakohaselt ja veenvalt klassikaaslastele (või muule publikule). Mooduli lõpetab argumentatsioonimäng, kus saate kasutada oma loodusteaduslikke teadmisi ning kõrvutada neid isiklike ja  sotsiaalsetest väärtustega.</p>
-                        
-            
+
+
+
+
+
 
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-2">Tegevus 1:  Video vaatamine</h2>
             
-            <!-- <ModulesStructure>
-                    <template #title>Activity 1<br />OUTLINING THE MOST COMMON TOPIC-RELATED MYTHS</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="material-symbols:youtube-tv-outline" class="text-white" />
-                        </div>
-                        <Icon name="mdi:arrow-right-thick" />
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:ouroboros" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:all-seeing-eye" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
-
             <p>Vaadake videot ning pange kirja oma mõtted, mis teil teema kohta tekkisid.</p>
 
             <UiYoutube video="CbJ7GmgEAAo" />
@@ -93,22 +70,6 @@
             <hr class="mt-10 mb-40 print:my-10" />
             <h2 id="section-3">Tegevus 2: Rühmaarutelu</h2>
             
-            <!-- <ModulesStructure>
-                    <template #title>Activity 2<br />CHOOSING A MYTH</template>
-                    <template #icons>
-                        <div class="e-icon--rounded ">
-                            <Icon name="fa6-solid:people-group" class="text-white" />
-                        </div>
-                        <div class="e-icon--rounded ">
-                            <Icon name="mdi:frequently-asked-questions" class="text-white" />
-                        </div>
-                        <Icon name="mdi:check-bold" />
-                        
-                        <div class="e-icon--rounded bg-rose-400">
-                            <Icon name="game-icons:unicorn" class="text-white" />
-                        </div>
-                    </template>
-                </ModulesStructure> -->
             
             <p>Pärast video vaatamist moodustage väikesed rühmad (3-4 liiget) ning arutage teemat.</p>
 
@@ -456,21 +417,7 @@
             
             <h3>Mängukaardid</h3>
 
-            <!-- Lauamäng võiks pigem õpetaja materjalide all olla? -->
-
-            <UiCardInfo>
-                <div>
-                    Här passar korten in i sidlayouten och tar så lite plats som deras inre innehåll kräver. Så detta är bara en förhandstitt. <b>Om du vill se korten som spelkort av vanlig enhetlig storlek och skriva ut dem, vänligen öppna den speciella sidan för "kortvy"</b>.
-                    
-                    <nuxt-link to="../tools/cards/climate-change" target="_blank" 
-                    class="mb-3 px-4 py-2 inline-flex items-center gap-2 
-                    bg-sky-600 text-md rounded text-white no-underline uppercase transition
-                    hover:bg-sky-700
-                    print:hidden">
-                        <icon name="material-symbols:print-outline-rounded" />Öppna utskrivbara kort
-                    </nuxt-link> (i en ny flik)
-                </div>
-            </UiCardInfo>
+            <UiCardGamePrintMessage url="../tools/cards/climate-change" />
 
             <ToolsCardgameClimateChange :printMode="false" />
 
