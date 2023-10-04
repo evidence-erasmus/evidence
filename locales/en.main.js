@@ -47,7 +47,8 @@ export default {
   },
   print: {
     hint: "You can print this page or save as a pdf file",
-    print: "Print"
+    print: "Print",
+    pdf: "save as pdf file"
   },
   ui: {
     back: "Back"

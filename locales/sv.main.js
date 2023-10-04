@@ -34,8 +34,9 @@ export default {
     }
   },
   print: {
-    hint: "Du kan skriva ut den här sidan eller spara som .pdf-fil  ",
-    print: "Skriva ut"
+    hint: "Du kan skriva ut den här sidan eller spara som .pdf-fil",
+    print: "Skriva ut",
+    pdf: "eller spara som .pdf-fil"
   },
   ui: {
     back: "Tillbaka"

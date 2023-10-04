@@ -6,8 +6,9 @@
         
         <ToolsPeerFeedback />
 
+        <UiPrintMessage />
 
-        <button @click="printMe" class="mt-8 btn btn-info no-underline text-white uppercase print:hidden"><Icon name="material-symbols:print-outline-rounded" size="24" /> {{ t('button-title') }} {{ t('button-note') }}</button>
+        <!-- <button @click="printMe" class="mt-8 btn btn-info no-underline text-white uppercase print:hidden"><Icon name="material-symbols:print-outline-rounded" size="24" /> {{ t('button-title') }} {{ t('button-note') }}</button> -->
     </div>
 </template>
 

@@ -306,7 +306,7 @@
                     õpilaste enesehindamine, mis põhineb etteantud kriteeriumitele (hindamismudelile);
                 </li>
                 <li>
-                    klassikaaslased annavad vastastikku hinnangu rühmaesitlusele, kasutades näiteks järgmist <nuxt-link to="../tools/peer-feedback" target="_blank">tagasiside küsimustikku</nuxt-link>.
+                    klassikaaslased annavad vastastikku hinnangu rühmaesitlusele, kasutades näiteks järgmist <NuxtLink to="./tools/peer-feedback" target="_blank">tagasiside küsimustikku</NuxtLink>.
                 </li>
             </ul>
             

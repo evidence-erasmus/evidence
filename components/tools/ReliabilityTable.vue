@@ -6,13 +6,11 @@
                 {{ rt(thead) }}
             </div>
         </div>
-        
-
 
         <div v-for="row, i in storeToUpdate.reliability" 
             class="grid grid-cols-[1fr_1fr_110px_1fr]">
             <div v-for="cell, j in row" class="border border-slate-300">
-                <template v-if="j === 1 && i < tm(currentSources).length ">
+                <template v-if="j === 1 && i < tm(currentSources).length">
                     <div class="px-2 py-1 text-sm">
                         <a v-if="tm(currentSources)[i].url" :href="rt( tm(currentSources)[i].url)" target="_blank" rel="noopener noreferrer">
                             {{ rt( tm(currentSources)[i].name ) }}

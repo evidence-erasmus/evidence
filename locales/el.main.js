@@ -32,5 +32,10 @@ export default{
       description: "Viruses module description in Greek",
       title: "Viruses GR"
     }
-  }
+  },
+  print: {
+    hint: "Μπορείτε να εκτυπώσετε αυτήν τη σελίδα ή να την αποθηκεύσετε ως αρχείο .pdf",
+    print: "Για εκτύπωση",
+    pdf: "ή αποθηκεύστε ως αρχείο .pdf"
+  },
 }

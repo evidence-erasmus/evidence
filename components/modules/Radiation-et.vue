@@ -466,10 +466,46 @@
             </p>
 
 
+            <!-- <ul>
+                <li>
+                    <NuxtLink target="_blank" to="./tools/peer-feedback">NuxtLink to="./tools/peer-feedback"</NuxtLink> local:OK  ghp:OK
+                </li>
+                <li>
+                    <NuxtLink target="_blank" to="/tools/peer-feedback">NuxtLink to="/tools/peer-feedback"</NuxtLink> local:EN  ghp:404
+                </li>
+                <li>
+                    <NuxtLink target="_blank" to="../tools/peer-feedback">NuxtLink to="../tools/peer-feedback"</NuxtLink> local:EN  ghp:OK
+                </li>
+                <li>
+                    <NuxtLink target="_blank" to="tools/peer-feedback">NuxtLink to="tools/peer-feedback"</NuxtLink> local:OK  ghp:OK
+                </li>
+                <hr />
+                <li>
+                    <a target="_blank" href="./tools/peer-feedback">a href="./tools/peer-feedback"</a> local: OK ghp:OK
+                </li>
+                <li>
+                    <a target="_blank" href="/tools/peer-feedback">a href="/tools/peer-feedback"</a> local:EN  ghp:404
+                </li>
+                <li>
+                    <a target="_blank" href="../tools/peer-feedback">a href="../tools/peer-feedback"</a> local:EN  ghp:OK
+                </li>
+                <li>
+                    <a target="_blank" href="tools/peer-feedback">a href="tools/peer-feedback"</a> local:OK  ghp:OK
+                </li>
+                <hr />
+                <li>
+                    <NuxtLink target="_blank" :to="localePath('./tools/peer-feedback')">localePath './tools/peer-feedback'</NuxtLink> local:NULL  ghp:
+                </li>
+                <li>
+                    <NuxtLink target="_blank" :to="localePath('/tools/peer-feedback')">localePath '/tools/peer-feedback'</NuxtLink> local:404 (reload ok)  ghp:NULL
+                </li>
+                <li>
+                    <NuxtLink target="_blank" :to="localePath('../tools/peer-feedback')">localePath '../tools/peer-feedback'</NuxtLink> local:  ghp:404
+                </li>
+            </ul> -->
+
+
+
         </section>
     </div>
 </template>
-
-<style scoped>
-
-</style>

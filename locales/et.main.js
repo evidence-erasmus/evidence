@@ -47,7 +47,8 @@ export default {
   },
   print: {
     hint: "Saate selle lehe printida või salvestada pdf failina",
-    print: "Prindi"
+    print: "Prindi",
+    pdf: "või salvesta .pdf failina"
   },
   ui: {
     back: "Tagasi"
