@@ -211,55 +211,6 @@
                     </template>
                 </ModulesStructure>
                 
-                
-                <!-- Selection of icons -->
-                
-                <!--                 
-                <hr /> 
-                <Icon name="fluent-emoji-high-contrast:unicorn" />
-                <Icon name="mdi:unicorn" />
-                <Icon name="game-icons:unicorn" />
-                <br />
-                <Icon name="game-icons:witch-face" /> 
-                <Icon name="game-icons:witch-flight" /> 
-                <Icon name="game-icons:diablo-skull" /> 
-                <Icon name="fa6-solid:book-skull" /> 
-                <Icon name="fluent-emoji-high-contrast:skull-and-crossbones" /> 
-                <Icon name="fa:user-secret" /> 
-                <br />
-                <Icon name="game-icons:all-seeing-eye" /> 
-                <Icon name="fluent-emoji-high-contrast:love-you-gesture" /> 
-                <Icon name="fluent-emoji-high-contrast:ok-hand" /> 
-                <Icon name="game-icons:ouroboros" /> 
-                <Icon name="game-icons:freemasonry" /> 
-                <br />
-                <Icon name="fa6-solid:people-group" /> 
-                <Icon name="fluent:people-team-32-regular" /> 
-                <Icon name="fluent:people-team-toolbox-24-regular" /> 
-                <Icon name="material-symbols:groups-2" /> 
-                <Icon name="fluent:presenter-24-filled" /> 
-                <Icon name="carbon:group-presentation" /> 
-                <br />
-                <Icon name="healthicons:group-discussion-meeting" /> 
-                <Icon name="heroicons-solid:chat-bubble-left-right" />
-                <Icon name="heroicons-outline:chat-bubble-left-right" />
-                <Icon name="mdi:frequently-asked-questions" />
-                <br /> 
-                <Icon name="game-icons:rolling-dices" /> 
-                <Icon name="tabler:zoom-question" /> 
-                <Icon name="mdi:laptop-account" />
-                <Icon name="ic:baseline-ondemand-video" />
-                <Icon name="material-symbols:youtube-tv-outline" />
-                <br /> 
-                <Icon name="material-symbols:unknown-document-outline-rounded" />
-                <Icon name="mdi:graph-outline" />
-                <Icon name="material-symbols:lab-research-outline" />
-                <Icon name="healthicons:virus-lab-research-syringe" />
-                <Icon name="mdi:flask" />
-                <Icon name="game-icons:materials-science" />
-                <Icon name="healthicons:virus-research" />
-                <Icon name="tabler:microscope" /> -->
-
             </section>
 
 

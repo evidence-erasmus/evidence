@@ -32,12 +32,7 @@
         
         <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
-            <NuxtLink to="../student#myth7" 
-                style="transform: translateY(-4rem); position:absolute;">
-                <span class="btn btn-outline btn-neutral btn-sm leading-none">
-                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
-                </span>
-            </NuxtLink>
+            <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
 
             <h1 class="mb-0">{{ t('inquiry.cc_myth7.title') }}</h1>
             <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc_myth7.subtitle') }}</h5>

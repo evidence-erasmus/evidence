@@ -1,6 +1,5 @@
 <template>
-    <div class="inline-flex flex-col sm:flex-row gap-2 border border-slate-300 p-3 items-center shadow rounded-lg " >
-    <!-- <div class="jin"> -->
+    <div class="inline-flex flex-col sm:flex-row gap-2 border border-slate-300 p-3 items-center shadow rounded-xl " >
         <template v-for="b in buttons">
             <span v-if="b.url.length < 1" 
             class="text-center">{{b.text}}</span>
@@ -9,12 +8,10 @@
                 <button class="btn btn-secondary font-normal text-lg">{{ b.text }}</button>
             </NuxtLink> -->
             <NuxtLink v-else
-                :to="localePath(`/${b.url}`)">
-                <button class="btn btn-secondary font-normal text-lg">{{ b.text }}</button>
+                :to="b.url" :target="b.blank === true ? '_blank' : '_self'" class="btn btn-secondary text-white no-underline">
+                {{ b.text }}
             </NuxtLink>
         </template>
-        <!-- class="px-4 py-2 text-center no-underline bg-slate-500 text-white rounded transition duration-300 -->
-        
     </div>
 </template>
 

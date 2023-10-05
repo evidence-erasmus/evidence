@@ -1,6 +1,6 @@
 <template>
     <div>
-        <UiHeader />
+        <UiHeader :navModule="true" />
         
         <!-- <UiNavModule class="md:pl-[3vw] lg:pl-[7vw] print:hidden" /> -->
         <div class="mt-28">

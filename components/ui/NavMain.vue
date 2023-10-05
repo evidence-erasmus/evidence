@@ -1,7 +1,7 @@
 <template>
-    <nav class="flex gap-2">
-        <NuxtLink :to="localePath( 'about', locale ) " class="px-2 py-1 uppercase">{{t('menu.about')}}</NuxtLink>
-        <NuxtLink :to="localePath( 'modules', locale )" class="px-2 py-1 uppercase"
+    <nav class="flex justify-end md:flex-row md:gap-2">
+        <NuxtLink :to="localePath( 'about', locale ) " class="px-2 md:py-1 uppercase">{{t('menu.about')}}</NuxtLink>
+        <NuxtLink :to="localePath( 'modules', locale )" class="px-2 md:py-1 uppercase"
         :class="isActiveClass"
         >{{t('menu.modules')}}</NuxtLink>
     </nav>

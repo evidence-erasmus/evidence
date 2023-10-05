@@ -5,11 +5,11 @@
     const { locale, t, tm, rt } = useI18n({
         useScope: 'global'
     });
-    const router = useRouter();
+    // const router = useRouter();
 
-    const goBack = () => {
-        router.back();
-    }
+    // const goBack = () => {
+    //     router.back();
+    // }
 
 </script>
 
@@ -25,13 +25,14 @@
 
         <section class="e-article print:not-prose" :lang="locale" style="hyphens:auto;">
             
+            <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
 
-            <button @click="goBack" 
-                style="transform: translateY(-4rem); position:absolute;">
-                <span class="btn btn-outline btn-neutral btn-sm leading-none">
+
+            <!-- <Button @click="goBack()" 
+                class="btn btn-outline btn-neutral btn-sm leading-none bg-slate-50"
+                style="position:fixed; top:9rem; left:2rem; z-index:1000;">
                     <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
-                </span>
-            </button>
+            </Button> -->
 
 
             <h1 class="mb-0">{{ t('inquiry.cc_open.title') }}</h1>
