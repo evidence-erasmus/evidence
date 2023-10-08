@@ -279,7 +279,7 @@
                 credits="https://slideplayer.com/slide/10275303/"
                 :elevated="true">
                 <template #caption>
-                    <b>Figure 3.</b> Examples of radionuclide therapy <sup><a href=" https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[19]</a></sup> 
+                    <b>Figure 3.</b> Examples of radionuclide therapy <sup><a href="https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[19]</a></sup> 
                 </template>
             </UiContentImage>
 

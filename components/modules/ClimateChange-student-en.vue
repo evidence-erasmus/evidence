@@ -121,8 +121,8 @@
                 </p>
                 
                 <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                    {text:'Open inquiry', url:'inquiry/open/'},
-                    {text:'Guided inquiry', url:'inquiry/guided/myth-1'}
+                    {text:'Open inquiry', url:'./inquiry/open/', blank:false},
+                    {text:'Guided inquiry', url:'./inquiry/guided/myth1', blank:false}
                 ]" />
 
             </UiCardInfo>
@@ -142,8 +142,8 @@
 
                 <UiNavButtonBar :buttons="[
                     // {text:'Juhised', url:''},
-                    {text:'Avatud uurimus', url:'inquiry/open/'},
-                    {text:'Juhitud uurimus', url:'/'}
+                    {text:'Avatud uurimus', url:'./inquiry/open/', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/guided/myth2', blank:false}
                 ]" class="mb-6 font-Body"
                 />
                 
@@ -170,8 +170,8 @@
                 
                 <UiNavButtonBar :buttons="[
                     // {text:'Juhised', url:''},
-                    {text:'Avatud uurimus', url:'inquiry/open/'},
-                    {text:'Juhitud uurimus', url:'/'}
+                    {text:'Avatud uurimus', url:'./inquiry/open/', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/guided/myth3', blank:false}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>

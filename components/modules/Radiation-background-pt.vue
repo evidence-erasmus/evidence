@@ -281,7 +281,7 @@
                 credits="https://slideplayer.com/slide/10275303/"
                 :elevated="true">
                 <template #caption>
-                    <b>Figura 3.</b> Exemplos de terapia de radionuclídeos <sup><a href=" https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[23]</a></sup> 
+                    <b>Figura 3.</b> Exemplos de terapia de radionuclídeos <sup><a href="https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[23]</a></sup> 
                 </template>
             </UiContentImage>
 

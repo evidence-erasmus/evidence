@@ -122,8 +122,8 @@
                 </p>
                 
                 <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                    {text:'Avatud uurimus 1', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth1'}
+                    {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/myth1', blank:false}
                 ]" />
 
             </UiCardInfo>
@@ -140,8 +140,8 @@
                 </p>
 
                 <UiNavButtonBar :buttons="[
-                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth2'}
+                    {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/myth2', blank:false}
                 ]" class="mb-6 font-Body"
                 />
                 
@@ -166,8 +166,8 @@
                 </p>
                 
                 <UiNavButtonBar :buttons="[
-                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth3'}
+                    {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/myth3', blank:false}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>
@@ -192,8 +192,8 @@
                 </p>
 
                 <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                    {text:'Avatud uurimus 1', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth4'}
+                    {text:'Avatud uurimus 1', url:'./inquiry/open', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/myth4', blank:false}
                 ]" />
             </UiCardInfo>
             
@@ -215,8 +215,8 @@
                 </p>
 
                 <UiNavButtonBar :buttons="[
-                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth5'}
+                    {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/myth5', blank:false}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>
@@ -236,8 +236,8 @@
                     </a>
                 </p>
                 <UiNavButtonBar :buttons="[
-                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth6'}
+                    {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/myth6', blank:false}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>
@@ -259,8 +259,8 @@
                     <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
                 </p>
                 <UiNavButtonBar :buttons="[
-                    {text:'Avatud uurimus', url:'climate-change/inquiry/open'},
-                    {text:'Juhitud uurimus', url:'climate-change/inquiry/myth7'}
+                    {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                    {text:'Juhitud uurimus', url:'./inquiry/myth7', blank:false}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>

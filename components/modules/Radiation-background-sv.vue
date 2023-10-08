@@ -293,7 +293,7 @@
                 credits="https://slideplayer.com/slide/10275303/"
                 :elevated="true">
                 <template #caption>
-                    <b>Figur 3.</b> Exempel på radionuklidterapi <sup><a href=" https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[19]</a></sup> 
+                    <b>Figur 3.</b> Exempel på radionuklidterapi <sup><a href="https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[19]</a></sup> 
                 </template>
             </UiContentImage>
 

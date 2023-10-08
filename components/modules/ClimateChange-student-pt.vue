@@ -131,8 +131,8 @@
                 </p>
                 
                 <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                    {text:'Inquérito aberto', url:'inquiry/open/'},
-                    {text:'Inquérito guiado', url:'inquiry/guided/myth-1'}
+                    {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
+                    {text:'Inquérito guiado', url:'./inquiry/guided/myth1', blank:false}
                 ]" />
 
             </UiCardInfo>
@@ -162,8 +162,8 @@
 
                 <UiNavButtonBar :buttons="[
                     // {text:'Juhised', url:''},
-                    {text:'Inquérito aberto', url:'inquiry/open/'},
-                    {text:'Inquérito guiado', url:'/'}
+                    {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
+                    {text:'Inquérito guiado', url:'./inquiry/guided/myth2', blank:false}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>
@@ -195,9 +195,8 @@
                 </p>
                 
                 <UiNavButtonBar :buttons="[
-                    // {text:'Juhised', url:''},
-                    {text:'Inquérito aberto', url:'inquiry/open/'},
-                    {text:'Juhitud uurimus', url:'/'}
+                    {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
+                    {text:'Inquérito guiado', url:'./inquiry/guided/myth3', blank:false}
                 ]" class="mb-6 font-Body"
                 />
             </UiCardInfo>

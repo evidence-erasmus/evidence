@@ -102,11 +102,41 @@
       "el": {
         "col-1": "Source",
         "col-2": "Cherry picking",
+        "col-2-description": "Selektiivne andmete valimine, mis viib soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest.",
         "col-3": "Slippery slope",
-        "col-4": "Unexpected expectations",
-        "col-5": "Oversimplification",
+        "col-3-description": "Informatsiooni mittetundmine ja meelevaldne järeldus.",
+        "col-4": "Unex­pected expectations",
+        "col-4-description": "Hõlmab ebarealistlike tõendite nõudmist või teadusliku määramatuse olemuse vale esitamist. Kuna teadus on  tavaliselt tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks.",
+        "col-5": "Over­simplification",
+        "col-5-description": "Andmete lihtsustamine määrani, et see viib ebaõigete järeldusteni.",
         "col-6": "Comments",
-        "add-row": "ADD ROW"
+        "add-row": "ADD SOURCE"
+      },
+      "pt": {
+        "col-1": "Source",
+        "col-2": "Cherry picking",
+        "col-2-description": "Selektiivne andmete valimine, mis viib soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest.",
+        "col-3": "Slippery slope",
+        "col-3-description": "Informatsiooni mittetundmine ja meelevaldne järeldus.",
+        "col-4": "Unex­pected expectations",
+        "col-4-description": "Hõlmab ebarealistlike tõendite nõudmist või teadusliku määramatuse olemuse vale esitamist. Kuna teadus on  tavaliselt tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks.",
+        "col-5": "Over­simplification",
+        "col-5-description": "Andmete lihtsustamine määrani, et see viib ebaõigete järeldusteni.",
+        "col-6": "Comments",
+        "add-row": "ADD SOURCE"
+      },
+      "sv": {
+        "col-1": "Source",
+        "col-2": "Cherry picking",
+        "col-2-description": "Selektiivne andmete valimine, mis viib soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest.",
+        "col-3": "Slippery slope",
+        "col-3-description": "Informatsiooni mittetundmine ja meelevaldne järeldus.",
+        "col-4": "Unex­pected expectations",
+        "col-4-description": "Hõlmab ebarealistlike tõendite nõudmist või teadusliku määramatuse olemuse vale esitamist. Kuna teadus on  tavaliselt tõenäosuslik, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike leidude kahtluse alla seadmiseks.",
+        "col-5": "Over­simplification",
+        "col-5-description": "Andmete lihtsustamine määrani, et see viib ebaõigete järeldusteni.",
+        "col-6": "Comments",
+        "add-row": "ADD SOURCE"
       }
     }
 </i18n>

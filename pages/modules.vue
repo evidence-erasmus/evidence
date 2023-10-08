@@ -33,11 +33,11 @@
                     icon="mdi:dna" 
                     class="w-full md:mt-4 opacity-50"
                 />
-                <UiCardModule path="radiation" 
+                <UiCardModule path="space" 
                     :title="t('modules.space.title')" 
                     :description="t('modules.space.description')" 
                     icon="material-symbols:rocket-launch-outline" 
-                    class="w-full md:mt-4 opacity-50"
+                    class="w-full md:mt-4"
                 />
                 
         </section>

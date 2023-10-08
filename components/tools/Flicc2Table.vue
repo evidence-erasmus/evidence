@@ -117,16 +117,42 @@
       },
       "el": {
         "col-1": "Evidence / main conclusions / summary of the information relevant to the hypothesis",
-        "col-2": "Type and source of evidence",
-        "col-3": "Reliability rate",
-        "f1-title": "Kirsside noppimine:",
-        "f1-description": "Selektiivne andmete valimine, mis viib soovitud järelduseni, mis erineb kõigist saadaolevatest andmetest tulenevatest järeldustest.",
-        "f2-title": "Kiirustamine järelduste tegemisel:",
-        "f2-description": "Informatsiooni mittetundmine ja meelevaldne järeldus.",
-        "f3-title": "Võimatud ootused:",
-        "f3-description": "Ebarealistlike tõendite nõudmine või teadusliku määramatuse olemuse vale esitamine. Kuna teaduslikud teadmised on  tavaliselt tõenäosuslikud, on absoluutse teadusliku kindluse nõudmine tõhus meetod teaduslike väidete  kahtluse alla seadmiseks.",
-        "f4-title": "Liigne lihtsustamine",
-        "f4-description": "Andmete lihtsustamine määrani, et see viib ebaõigete järeldusteni."
+        "col-2": "Yes / no",
+        "col-3": "Comments",
+        "f1-title": "Cherry picking:",
+        "f1-description": "This technique is defined as “selectively chooses data leading to a desired conclusion that differs from the conclusion arising from all the available data”.",
+        "f2-title": "Jumping to conclusions:",
+        "f2-description": "Ignorance of information and arbitrary conclusion.",
+        "f3-title": "Impossible expectations:",
+        "f3-description": "This involves demanding unrealistic levels of proof, or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty are an effective method of casting doubt on scientific findings. This denialist technique is known as “Scientific Certainty Argumentation Methods”.",
+        "f4-title": "Oversimplification",
+        "f4-description": "Data simplification."
+      },
+      "pt": {
+        "col-1": "Evidence / main conclusions / summary of the information relevant to the hypothesis",
+        "col-2": "Yes / no",
+        "col-3": "Comments",
+        "f1-title": "Cherry picking:",
+        "f1-description": "This technique is defined as “selectively chooses data leading to a desired conclusion that differs from the conclusion arising from all the available data”.",
+        "f2-title": "Jumping to conclusions:",
+        "f2-description": "Ignorance of information and arbitrary conclusion.",
+        "f3-title": "Impossible expectations:",
+        "f3-description": "This involves demanding unrealistic levels of proof, or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty are an effective method of casting doubt on scientific findings. This denialist technique is known as “Scientific Certainty Argumentation Methods”.",
+        "f4-title": "Oversimplification",
+        "f4-description": "Data simplification."
+      },
+      "sv": {
+        "col-1": "Evidence / main conclusions / summary of the information relevant to the hypothesis",
+        "col-2": "Yes / no",
+        "col-3": "Comments",
+        "f1-title": "Cherry picking:",
+        "f1-description": "This technique is defined as “selectively chooses data leading to a desired conclusion that differs from the conclusion arising from all the available data”.",
+        "f2-title": "Jumping to conclusions:",
+        "f2-description": "Ignorance of information and arbitrary conclusion.",
+        "f3-title": "Impossible expectations:",
+        "f3-description": "This involves demanding unrealistic levels of proof, or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty are an effective method of casting doubt on scientific findings. This denialist technique is known as “Scientific Certainty Argumentation Methods”.",
+        "f4-title": "Oversimplification",
+        "f4-description": "Data simplification."
       }
     }
 </i18n>

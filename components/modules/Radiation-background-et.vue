@@ -273,7 +273,7 @@
                     credits="https://slideplayer.com/slide/10275303/"
                     :elevated="true">
                     <template #caption>
-                        <b>Joonis 3.</b> Radionukliidravi näited <sup><a href=" https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[23]</a></sup>
+                        <b>Joonis 3.</b> Radionukliidravi näited <sup><a href="https://slideplayer.com/slide/10275303/" target="_blank" rel="noopener noreferrer">[23]</a></sup>
                     </template>
                 </UiContentImage>
                 <h4>
