@@ -4,8 +4,8 @@
     const userPrefs = useUserPreferences();
     // const showSpaceExplorationDebate = ref(false);
     
-    const toggleModal = () => {
-        userPrefs.toggleModal();
+    const toggleModal = (modalName) => {
+        userPrefs.toggleModal(modalName);
     }
 
 </script>
@@ -425,7 +425,7 @@
                 This is related to principles or myths/misconceptions concerning rocket movement, for example, “Rockets need an atmosphere to push against to fly”. 
             </p>
             <p>
-                A rocket creates thrust by expelling mass. When burned fuel flows out, the spaceship is accelerated in the opposite direction. This general principle of movement is the same as for a water rocket (Pressurised water with air is expelled from the PET bottle in the case of a water rocket). 
+                A rocket creates thrust by expelling mass. When burned fuel flows out, the spaceship is accelerated in the opposite direction. This general principle of movement is the same as for a <button class="btn btn-sm btn-accent " @click="toggleModal('space__water-rocket')"><Icon name="mdi:open-in-new" size="20" /> water rocket</button> (Pressurised water with air is expelled from the PET bottle in the case of a water rocket). 
             </p>
             <h4>
                 Virtual experiments: 
@@ -497,7 +497,7 @@
             </p>
 
             <p>
-                Suppose the teacher experiences a shortage of time for full-scale role-play activity. In that case, we can suggest, as an alternative, a shorter version of the <button class="btn btn-sm btn-accent" @click="toggleModal"><Icon name="mdi:tools" size="20" /> Space Exploration Debate</button> that could be implemented just during one lesson <sup><span class="tooltip" data-tip="This is an adopted version of activity from National Schools’ Observatory teaching resources prepared by colleagues from John Moores University in Liverpool.">[2]</span></sup>. 
+                Suppose the teacher experiences a shortage of time for full-scale role-play activity. In that case, we can suggest, as an alternative, a shorter version of the <button class="btn btn-sm btn-accent" @click="toggleModal('space__exploration-debate')"><Icon name="mdi:open-in-new" size="22" /> Space Exploration Debate</button> that could be implemented just during one lesson <sup><span class="tooltip" data-tip="This is an adopted version of activity from National Schools’ Observatory teaching resources prepared by colleagues from John Moores University in Liverpool.">[2]</span></sup>. 
             </p>
 
             <p>
@@ -507,7 +507,29 @@
         </section>
 
 
-        <teleport to="#theEnd" v-if="userPrefs.modalOpen === true">
+
+
+
+
+
+
+
+<!--
+    TTTTTTTTTTTTT
+    TTTTTTTTTTTTT
+         TTT
+         TTT
+         TTT
+         TTT
+         TTT
+         TTT
+-->
+
+
+
+
+
+        <teleport to="#theEnd" v-if="userPrefs.modalOpen === true && userPrefs.modalName === 'space__exploration-debate'">
             
             <UiDrawer>
 
@@ -553,7 +575,7 @@
                     </li>
                     <li>
                         Allocate four corners or areas of the room as
-                        <ul>
+                        <ul class="leading-tight">
                             <li>
                                 “Space should be explored by humans, not robots”
                             </li>
@@ -590,7 +612,7 @@
                 <h3>
                     Facilitation tips:
                 </h3>
-                <ul>
+                <ul class="leading-tight">
                     <li>
                         Ensure students know there is no absolute right or wrong answer
                     </li>
@@ -610,31 +632,47 @@
             </UiDrawer>
         </teleport>
 
+        <teleport to="#theEnd" v-if="userPrefs.modalOpen === true && userPrefs.modalName === 'space__water-rocket'">
+            <UiDrawer>
+                <h2>
+                    Building and launching a water rocket
+                </h2>
+
+                <p>
+                    You have probably already built a water rocket from a PET bottle. 
+                    <br />
+                    Materials needed: 
+                    <ul class="leading-tight">
+                        <li>
+                            a larger (1,5 l) PET bottle
+                        </li>
+                        <li>
+                            wine cork (could be plastic)
+                        </li>
+                        <li>
+                            bicycle valve
+                        </li>
+                        <li>
+                            plastic hose that fits on the bicycle valve
+                        </li>
+                        <li>
+                            possibly some steel wire and a powerful bicycle pump or foot pump 
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Carefully drill a hole through the cork, a little smaller in diameter than the hose. Push the hose through the hole so that it protrudes 1–2 cm on one side, and attach the bicycle valve to the other end of the hose. If the valve is loose, you can use the steel wire as a hose clamp – in that case, wrap it tightly with pliers. Next, it is necessary to manufacture a launch pad so that the rocket stands firmly. 
+                </p>
+                <p>
+                    Fill the bottle to a third with water, insert the cork, place the rocket in the launch pad, and connect the pump to the valve and pump. Extra air pressure builds up in the bottle; it is the pump's energy that is stored. In the end, the pressure becomes so high that it overcomes the friction between the cork and the bottleneck, and the cork comes off. The stored energy is released, the water is pushed out with a huge force, and the rocket flies away. You can try to launch your rocket with different “fuel compositions” – much less water or just with air in the bottle and see how this will influence rocket flying capability.
+                </p>
+                <p>
+                    <a href="https://www.scienceprojectideas.org/water-bottle-rocket.htm" target="_blank" rel="noopener noreferrer">DIY water rocket</a>
+                </p>
+            </UiDrawer>
+        </teleport>
 
 
     </div>
 </template>
 
-<style scoped>
-   .e-flow__chart {
-      @apply flex flex-col items-center;
-    }
-    .e-flow__boxes {
-      @apply flex gap-4;
-    }
-    .e-flow__box {
-      @apply border-2 border-slate-400 p-4;
-    }
-    .e-flow__connector {
-      @apply border-x h-6 border-slate-400 grow-0;
-    }
-    .e-flow__connector-fork {
-      @apply border-x-2 h-6 border-slate-400 grow-0 w-1/2;
-    }
-    .e-flow__connector-fork--up {
-      @apply border-b-2;
-    }
-    .e-flow__connector-fork--down {
-      @apply border-t-2;
-    }
-</style>

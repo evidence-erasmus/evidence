@@ -3,7 +3,7 @@
         class="flex flex-col justify-start items-center relative
         border-4
         text-center
-        rounded-lg shadow-md break-inside-avoid 
+        rounded-lg shadow-md break-inside-avoid break-word
         print:shadow-none" 
         :class="props.border"
         style="hyphens:auto;"

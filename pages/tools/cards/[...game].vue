@@ -20,6 +20,8 @@
             v-else-if="route.params.game[0] === 'climate-change'" :printMode="true" />
         <ToolsCardgameRadiation 
             v-else-if="route.params.game[0] === 'radiation'" :printMode="true" />
+        <ToolsCardgameSpace 
+            v-else-if="route.params.game[0] === 'space'" :printMode="true" />
 
 
         
