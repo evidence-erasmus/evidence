@@ -1,3 +1,15 @@
+<script setup>
+    import { useUserPreferences } from '~~/store/useUserPreferences'; 
+
+    const userPrefs = useUserPreferences();
+    // const showSpaceExplorationDebate = ref(false);
+    
+    const toggleModal = () => {
+        userPrefs.toggleModal();
+    }
+
+</script>
+
 <template>
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 
@@ -372,109 +384,234 @@
                 After a short introduction, as a warm-up activity, students can, in small groups, think about what questions they would like to ask an astronaut/space researcher if they had a chance (two-three questions per group to be presented). This will allow them to probe their interests and expectations concerning the subject raised in the module. 
             </p>
             <p>
-                After watching and selecting an introductory video (Activity 1), students can examine one of the identified myths, misconceptions or issues. Teachers can also introduce here other myths and issues related to space. Students can be encouraged to recall existing understandings about space from their everyday life. The “fact videos” can be used in this step to highlight and broaden space-related topics, concepts, and principles. Selected parts from scientific background information can recur when necessary. 
-            </p>
-
-
-
-
-
-            <ul>
-                <li>Mobile phones emit dangerous electromagnetic radiation</li>
-                <li>5G is not safe</li>
-                <li>Rubber gloves can protect from electromagnetic radiation emitted by mobile phones</li>
-                <li>Electromagnetic radiation (radio waves) can be “frozen” at low temperature</li>
-                <li>It can be effectively stopped by the walls of a refrigerator</li>
-                <li>Plastic and aluminium foil can block electromagnetic waves</li>
-                <li>Electric cables emit dangerous electromagnetic radiation</li>
-                <li>Sun sends dangerous radiation</li>
-            </ul>
-
-            <p>
-                The <a href="https://www.youtube.com/watch?v=ccMo9WfKeOY" target="_blank" rel="noopener noreferrer">introductory video</a> aims to raise questions and stimulate reflections rather than give students immediate answers. It is expected that after watching the video <b>(Activity 1)</b>, students will get motivated to examine one of the identified myths related to different sources of electromagnetic radiation and explore common fears. Myths and fears can vary between different countries and age groups. Teachers could encourage students to find their ‘own’ myths.
+                After watching and selecting an <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">introductory video</a> <b>(Activity 1)</b>, students can examine one of the identified myths, misconceptions or issues. Teachers can also introduce here other <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">myths and issues</a> related to space. Students can be encouraged to recall existing understandings about space from their everyday life. The <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">“fact videos”</a> can be used in this step to highlight and broaden space-related topics, concepts, and principles. Selected parts from scientific <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">background information</a> can recur when necessary. 
             </p>
 
             <p>
-                The teacher can introduce an expanded view of the radiation spectrum that includes ionising components – from ultraviolet emitted by our Sun to the shorter wavelength and high-energy particles. The intention is to broaden students’ views on the physics of radiation and its applications and attract their attention to some myths related to the different effects of radiation. Students are also encouraged to recall their prior knowledge, including existing understandings in everyday life among people they know, family, and friends, and to share their conceptions and views with peers <b>(Activity 2)</b>. The “fact videos” can be demonstrated in this step to highlight and broaden radiation-related topics, concepts, and principles. Selected chapters from <nuxt-link to="./radiation/background">scientific background information</nuxt-link> can recur when necessary.
+                <b>Activity 2</b> should help students to narrow down their chosen myth or issue into a hypothesis/research question that can be confirmed/answered during <b>Activity 3</b>. Activity 3 can be enacted in two ways: 
+                <ol class="leading-tight">
+                    <li>
+                        through practical experience or 
+                    </li>
+                    <li>
+                        through theoretical investigation based on secondary evidence. 
+                    </li>
+                </ol>
             </p>
 
-
-
-            <p><b>Activity 2</b> should help students narrow down their chosen myth into a hypothesis/research question that can be confirmed/answered <b>(Activity 3)</b>. Further, this step can be enacted in the following two ways:</p>
-
-            <ol>
-                <li>
-                    Students can choose a myth that can be tested experimentally, collecting evidence through simple qualitative experiments. For example, the level of electromagnetic radiation exposure could be measured with the help of a free smartphone app, e.g. ElectroSmart or similar. ElectroSmart is a Radiofrequency Electromagnetic-Field (EMF) detector (see Figure 2).
-
-
-                    <UiContentImage
-                        src="https://evidence.onkel.ee/assets/radiation__image-2.webp"
-                        credits=""
-                        :elevated="true" class="max-w-sm">
-                        <template #caption>
-                            <b>Figure 1.</b> Measurement of EMF exposure, moderate is a range of under 0,3 V/m. 
-                        </template>
-                    </UiContentImage>
-
-                    <p>
-                        This app allows measurement of a current exposure using the ElectroSmart Index, indicating if exposure is suiting most people (low or moderate level) or high, that eventually needs some measures to be taken for its reduction. Students can see that increasing distance to the source can decrease (in square rate) the level of exposure. They can also try to use a shield of aluminium foil (on their smartphone) to see a decrease in exposure by shielding. For a variation of this test, see also <a href="https://www.youtube.com/watch?v=asmbgAeJqis" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=asmbgAeJqis</a>.
-                    </p>
-                    <p>
-                        If you have access to a simple analogue or digital physics tool - an EMF measuring device (see Figure 3), it is possible to measure the radiation emanating from each of your chosen electronic devices: laptop computer, tablet device, smartphone, printer, speakers, TV, remote control, lamp, refrigerator, modem and compare the amounts of radiation from each device.
-                    </p>
-
-                    <UiContentImage
-                        src="https://evidence.onkel.ee/assets/radiation__emf-meter.webp"
-                        credits=""
-                        :elevated="true" class="max-w-sm">
-                        <template #caption>
-                            <b>Figure 2.</b> A simple EMF measuring device
-                        </template>
-                    </UiContentImage>
-
-                    <p>
-                        If more advanced (and expensive) EMF measuring tools are available, more sophisticated measurements could be done; see for inspiration: <a href="https://www.youtube.com/watch?v=nKPw-dnxZTo" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=nKPw-dnxZTo</a>
-                    </p>
-                </li>
-                <li>
-                    However, radiation-related myths can often not be busted (debunked) experimentally in the classroom. Therefore, students are expected to gather evidence from secondary sources to confirm or falsify their hypothesis/answer to their research question. By juxtaposing media/data sources and their content, students critically analyse their reliability and make justified conclusions based on the evidence found. As reliability assessment can be a real challenge for students, the material is supplied with a tool for searching and analysing the information. It would be good if the teacher could explain its use by demonstrating and analysing both reliable and less reliable sources as examples before the students implement this tool on their own.
-                </li>
-            </ol>
+            <h3>1. through practical experience</h3>
 
             <p>
-                In order to communicate their findings, students are guided to produce a visual presentation of their conclusions <b>(Activity 4)</b>. Video could be an exciting option. For this purpose, students can use a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>. Also, student material is provided with criteria the video should fulfil when ready. These criteria can be used formatively for self-assessment during the process and peer assessment when presenting the video and answering the questions of their peers and the teacher <b>(Activity 5)</b>. Students can use the following <nuxt-link to="./tools/peer-feedback" target="_blank">assessment tool</nuxt-link> to give feedback to, or get it from, the other groups.
+                <b>Students who choose a myth/issue that can be tested practically</b> collect evidence through simple qualitative experiments. For example, let us consider a myth that “eating requires gravity for food to move to our stomach”.
             </p>
 
-            <p>
-                In the last activity <b>(Activity 6)</b>, socially-acute issues related to ionising radiation and nuclear energy will be debated. Suggested debate role-play is presented in the student material. It can be adapted freely to a particular educational context. Teachers can decide what kind of assessment to use or not to encourage the free expression of students' ideas and arguments. Based on the lessons learned from the earlier stages, students can juxtapose and reflect on their science knowledge and personal and social values.
-            </p>
+            <h4>
+                Try it out with your body:
+            </h4>
 
             <p>
-                We suggest using a specific topic, "Nuclear Power," currently focused on public attention and actively debated in many European countries. Almost every country has its own, more or less specific, "nuclear energy" debate. Teachers could encourage students to follow the debate in their own country. Often there are also apparent fears, misconceptions, and myths that could be identified related to this specific topic, such as….
+                Take a mouthful of food, bend over until your head is below your stomach and swallow! You will find it is easy to do that despite the food going in the opposite direction to gravity. The passage of food through our bodies does not require gravity. A system of muscular gut contractions called “peristalsis” actively propels the food in the desired direction. 
             </p>
-            
-            <ul>
-                <li><b>Myth 1:</b> Nuclear energy is not safe.</li>
-                <li><b>Myth 2:</b> Nuclear energy contributes to carbon emissions and thus leads to atmospheric pollution and global warming.</li>
-                <li><b>Myth 3:</b> Nuclear waste needs to be stored for 100,000 years.</li>
-                <li><b>Myth 4:</b> Nuclear plants emit dangerous amounts of radiation.</li>
-                <li><b>Myth 5:</b> Radiation exposure only occurs from a nuclear power station.</li>
-                <li><b>Myth 6:</b> We do not need nuclear power in the EU.</li>
-                <li><b>Myth 7:</b> Nuclear plants are ageing and inefficient.</li>
-                <li><b>Myth 8:</b> Nuclear power plants can explode.</li>
-                <li><b>Myth 9:</b> Nuclear waste cannot be safely transported.</li>
-                <li><b>Myth 10:</b> Nuclear plant workers are radioactive themselves.</li>
-            </ul>
-
             <p>
-                Facts related to these myths about nuclear energy are presented in the <nuxt-link to="radiation/background">Scientific background information</nuxt-link>. 
+                The system works that way also because our intestines loop around - sometimes going upwards instead of downwards. If gravity alone did the job, we would be unable to function. So, astronauts have no problems digesting food in a microgravity environment, as on ISS. We can also drink quite easily using a straw while hanging upside down. The hardest part of eating or drinking upside down is usually getting the food or drink to your mouth. Students can also be asked here to research astronauts' eating habits and space food.
+            </p>
+
+            <h4>
+                Experience Rocket launches
+            </h4>
+            <p>
+                (Activity can be done as a demonstration by the teacher).
+                <br />
+                This is related to principles or myths/misconceptions concerning rocket movement, for example, “Rockets need an atmosphere to push against to fly”. 
+            </p>
+            <p>
+                A rocket creates thrust by expelling mass. When burned fuel flows out, the spaceship is accelerated in the opposite direction. This general principle of movement is the same as for a water rocket (Pressurised water with air is expelled from the PET bottle in the case of a water rocket). 
+            </p>
+            <h4>
+                Virtual experiments: 
+            </h4>
+            <p>
+                These experiments could help to collect evidence concerning several myths/misconceptions, for example, about rocket movement and gravity in outer space: 
+                <ul class="leading-tight">
+                    <li>
+                        "A spaceship needs a rocket engine working all the time on orbit (or on the way to Mars)."
+                    </li>
+                    <li>
+                        "There is no gravity in space."
+                    </li>
+                    <li>
+                        "Astronauts orbiting Earth on the ISS are weightless because they are far from Earth."
+                    </li>
+                </ul>
+                To name some.
             </p>
 
             <p>
-                Teachers should be aware of historical and social aspects leading to nuclear radiation fears. Some ideas related to this issue are also highlighted in the Scientific background information. There, teachers can get a quick overview of the science concepts and facts covered by the Radiation module and related areas that students can be curious about.
+                Teachers can choose what is more suitable for their class from various virtual experiments and simulations available on the Internet. We recommend materials from the <a href="https://phet.colorado.edu/" target="_blank" rel="noopener noreferrer">PhET Interactive Simulations project</a>, founded by Nobel Laureate Carl Wieman, that provides free simulations (PhET sims) to engage students to learn through exploration and discovery. For example, <a href="https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html" target="_blank" rel="noopener noreferrer">Gravity and Orbits</a> interactive simulation can help to 
+                <ul class="leading-tight">
+                    <li>
+                        analyse the relationship between the Sun, Earth, Moon and space station;
+                    </li>
+                    <li>
+                        illustrate how gravity controls the motion of our solar system;
+                    </li>
+                    <li>
+                        explore the variables that affect the strength of gravity;
+                    </li>
+                    <li>
+                        predict how the motion would change if gravity were stronger or weaker.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Another virtual experiment that the students could test is <a href="https://play.google.com/store/apps/details?id=com.StefMorojna.SpaceflightSimulator&hl=en_US&gl=US&pli=1" target="_blank" rel="noopener noreferrer">Spaceflight Simulator</a> which seeks to represent a vessel's behaviour under the influence of the laws of physics. This app allows the construction of different models of rockets. Students can see how the number of stages increases lifting capacity to different orbits. 
+            </p>
+
+            <h3>
+                2. through theoretical investigation based on secondary evidence
+            </h3>
+
+            <p>
+                However, space-related myths and misconceptions can often <b>not be busted (debunked) experimentally</b> in the classroom. Therefore, <b>students are expected to gather evidence from secondary sources</b> to confirm or falsify their hypothesis/answer to their research question. By juxtaposing media/data sources and their content, students critically analyse their reliability and make justified conclusions based on the evidence. The student material is supplied with a <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20" /> tool</NuxtLink> that can be used for analysing the information. It would be good if the teacher could explain its use by demonstrating and analysing reliable and less reliable sources as examples before the students implement this tool on their own.
+            </p>
+
+            <p>
+                To communicate their findings, students are guided to present their conclusions visually <b>(Activity 4)</b>. Video could be an exciting option. For this purpose, students can use a <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">tutorial</a>. Alternatively, students could make a poster or slides to show their findings.
+            </p>
+
+            <p>
+                Also, student material is provided with criteria (<NuxtLink to="./tools/peer-feedback" target="_blank">assessment tool</NuxtLink>) the visual presentation should fulfil when ready. These criteria can be used for self-assessment during the process and for peer assessment when presenting the results and answering the questions of their peers and the teacher <b>(Activity 5)</b>. 
+                <!-- The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only the feedback given to their production, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button. Please, make a copy of the file into the same folder; after that, please share the link of the copied file with your students (not the original file!). -->
+            </p>
+
+            <p>
+                In the last activity <b>(Activity 6)</b>, socio-scientific issues and controversies related to space exploration will be debated <sup><span class="tooltip" data-tip="Design of a role-playing game about a socio-scientific problem related to space followed the role-play methodology developed by the science educators at Malaga University"><a href="http://www.encic.uma.es/" target="_blank" rel="noopener noreferrer">[1]</a></span></sup>. For decades, scientists and policymakers have argued whether space exploration is better suited to humans or robots (see, for example, a recent book: “The End of Astronauts” by Donald Goldsmith and Martin, Rees Belknap Press, 2022). In Europe's harsh economic situation, this issue became even more actualised, as manned space flights are significantly more expensive than robotic—suggested debate role-play presented in the student material concerns this issue.
+            </p>
+
+            <p>
+                This activity allows students to think about why and how to explore Space. The activity supports students in debating a cross-disciplinary topic linked to physics, astronomy, biology, health and environmental studies and social sciences. This debate can provide students with insights into how scientists and professionals make and defend claims and deal with the uncertainty inherent in modern science and technology. Teachers can decide what kind of assessment to encourage the free expression of students’ ideas and arguments. The teacher can also serve as a moderator of the activity.
+            </p>
+
+            <p>
+                Relevant information is presented in the Scientific background information. 
+            </p>
+
+            <p>
+                Suppose the teacher experiences a shortage of time for full-scale role-play activity. In that case, we can suggest, as an alternative, a shorter version of the <button class="btn btn-sm btn-accent" @click="toggleModal"><Icon name="mdi:tools" size="20" /> Space Exploration Debate</button> that could be implemented just during one lesson <sup><span class="tooltip" data-tip="This is an adopted version of activity from National Schools’ Observatory teaching resources prepared by colleagues from John Moores University in Liverpool.">[2]</span></sup>. 
+            </p>
+
+            <p>
+                At the end of the module, the teacher can include a summing-up reflective activity about what the students have learned by participating in the module activities and how they collaborated, preparing arguments and presentations and providing feedback for the peers. Artistic reflections on Space by the art school students (see <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">photography books</a> and <span class="bg-red-400">virtual exhibition</span>) can show alternative ways of exploring space-related phenomena. They could serve as a point of departure for discussing what the students would wish to learn more in this area. 
             </p>
 
         </section>
+
+
+        <teleport to="#theEnd" v-if="userPrefs.modalOpen === true">
+            
+            <UiDrawer>
+
+                <h2>
+                    Space Exploration Debate
+                </h2>
+
+                <h3>
+                    Introduction:
+                </h3>
+                <p>
+                    Introduce the concept of a ‘debate’. Ask students to share their experience of debate-style events. Why do we need to argue and be persuasive?
+                </p>
+                <h3>
+                    Warm-up activity:
+                </h3>
+                <ol>
+                    <li>
+                        Students get into groups of 4. Set the scene – they are going to space. They should decide on one thing each to take with them and tell their group what it is. This item is not critical to the mission but is something just for them.
+                    </li>
+                    <li>
+                        We are in the rocket when we realise we don’t have enough fuel. We must scrap some supplies to reduce our weight. 
+                    </li>
+                    <li>
+                        In their groups, students should choose only 1 of their group’s items to save.
+                    </li>
+                    <li>
+                        Ask students to feedback to the other groups.
+                    </li>
+                </ol>
+                <h3>
+                    Debate topic:
+                </h3>
+                <p>
+                    “How should we proceed with space exploration”
+                </p>
+                <h3>
+                    Debate activity:
+                </h3>
+                <ol>
+                    <li>
+                        Read the debate topic
+                    </li>
+                    <li>
+                        Allocate four corners or areas of the room as
+                        <ul>
+                            <li>
+                                “Space should be explored by humans, not robots”
+                            </li>
+                            <li>
+                                ‘Only robots should explore space’
+                            </li>
+                            <li>
+                                ‘Both humans and robots should explore space’
+                            </li>
+                            <li>
+                                “We should not spend taxpayer's money on the space industry
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Ask students to decide individually what position they agree with and move to the area of the room that corresponds to their belief. If they do not have a strong opinion either way, get them to make an initial decision – but make it clear to everyone that they can change position at any time.
+                    </li>
+                    <li>
+                        Once students have chosen their position, give them some time to discuss with others in their corner why they chose that position and how they could persuade others to join them.
+                    </li>
+                    <li>
+                        Students nominate someone from their team to state their case.
+                    </li>
+                    <li>
+                        The debate begins! You can decide whether students can talk openly between groups or if they should put their hands up and wait for you to call on them.
+                    </li>
+                </ol>
+                <h3>
+                    Wrap up:
+                </h3>
+                <p>
+                    Summarise the main points from the debate and create a class pro and con list. Let the students know that this topic is continually under debate among scientists and politicians.
+                </p>
+                <h3>
+                    Facilitation tips:
+                </h3>
+                <ul>
+                    <li>
+                        Ensure students know there is no absolute right or wrong answer
+                    </li>
+                    <li>
+                        Encourage students to give reasons for their opinions
+                    </li>
+                    <li>
+                        Step in if the students go off topic
+                    </li>
+                    <li>
+                        Ensure one or two students do not dominate the debate
+                    </li>
+                    <li>
+                        Try not to influence the students’ opinions.
+                    </li>
+                </ul>
+            </UiDrawer>
+        </teleport>
+
+
+
     </div>
 </template>
 

@@ -12,6 +12,7 @@ export const useUserPreferences = defineStore("userPreferences", {
         },
         toggleModal(){
             this.modalOpen = !this.modalOpen;
+            console.log("MODAL",this.modalOpen);
         },
         setLearnPath(module, value){
             this[module] = value;

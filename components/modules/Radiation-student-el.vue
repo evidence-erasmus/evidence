@@ -7,6 +7,7 @@
     const changeTab = (index) => {
         userPrefs.setLearnPath("learnPathViruses", index);
     }
+    
 </script>
 
 <template>
