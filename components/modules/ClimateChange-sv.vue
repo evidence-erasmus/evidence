@@ -8,10 +8,10 @@
         </ClientOnly>
         
 
-        <section class="e-article print:not-prose" lang="en" style="hyphens: auto;">
+        <section class="e-article print:not-prose" lang="sv" style="hyphens: auto;">
 
             <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
-            <h1 class="mb-0">Climate change</h1>
+            <h1 class="mb-0">Climate change på Svensk</h1>
             <h5 class="font-normal uppercase leading-tight">Materials for teacher</h5>
         
 

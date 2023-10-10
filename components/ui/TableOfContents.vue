@@ -6,11 +6,11 @@
         </div>
         <div class="mt-3" :class="userPrefs.tocOpen ? 'block' : 'hidden'">
             <ol class="transition-all">
-                <li v-for="link in tocH2" :key="`${route.name}-${link.id}`"
-                    :id="`toc-${link.id}`" 
-                    @click="onTocClick(link.id)"
+                <li v-for="section, i in tocSections" :key="`${route.name}-${section.id}`"
+                    :id="`toc-${section.id}`" 
+                    @click="onTocClick(section.id)"
                     class="leading-tight my-0 cursor-pointer p-2 border-l-[0.5rem] transition"
-                    :class="activeTocId===link.id ? 'border-l-blue-400' : 'border-l-yellow-50'">{{ link.textContent }}</li>
+                    :class="activeTocId===section.id ? 'border-l-blue-400' : 'border-l-yellow-50'">{{ tocH2[i].textContent }}</li>
             </ol>
         </div>
     </div>
@@ -33,13 +33,14 @@
         }
     }
     
-    const tocH2 = ref(null)
+    const tocH2 = ref(null);
+    const tocSections = ref(null);
     const activeTocId = ref(null);
     const observer = ref(null);
     const observerOptions = reactive({
-        // root: document.querySelector('.e-article'),
-        rootMargin: "100px 0px -100px 0px",
-        threshold: 0.5
+        root: null,
+        // rootMargin: "300px 0px 300px 0px",
+        // threshold: [0, 0.1, 0.5, 0.9, 1]
     });
 
     // watchDebounced(
@@ -56,14 +57,15 @@
             entries.forEach((entry) => {
                 const id = entry.target.getAttribute('id')
                 if (entry.isIntersecting) {
+                    activeTocId.value = id;
                     // console.log(id);
-                    activeTocId.value = id
                 }
             })
             }, observerOptions)
-            tocH2.value = document.querySelectorAll('.e-article h2[id]');
+            tocH2.value = document.querySelectorAll('.e-article section h2[id]');
+            tocSections.value = document.querySelectorAll('.e-article section[id]');
             // tocH2.value = document.querySelectorAll('.e-article section[id]');
-            tocH2.value.forEach((section) => {
+            tocSections.value.forEach((section) => {
                 section.style.cssText += 'scroll-margin:10rem;';
                 observer.value?.observe(section)
             }
@@ -72,6 +74,7 @@
 
     onBeforeUnmount(() => {
         tocH2.value = null
+        tocSections.value = null
         observer.value?.disconnect()
         observer.value = null;
     })

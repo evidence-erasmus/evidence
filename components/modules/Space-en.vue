@@ -15,9 +15,9 @@
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
         2xl:gap-20">
-        <ClientOnly>
+        <!-- <ClientOnly> -->
             <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-et" />
-        </ClientOnly>
+        <!-- </ClientOnly> -->
         
 
 
@@ -25,8 +25,10 @@
             <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
             <h1 class="mb-0">Space</h1>
             <h5 class="font-normal uppercase leading-tight">Teacher material</h5>
-        
-            <h2 id="section-1">Module description</h2>
+            
+
+            <section id="s-1">
+            <h2 id="s-1-title">Module description</h2>
         
             <section class="e-card e-module__meta">
                 <table class="m-0 leading-tight">
@@ -80,9 +82,8 @@
             <p>
                 The module comprises teacher material (teaching suggestions, science background information) and student material (introductory video, interactive worksheets, fact videos, and a video tutorial).
             </p>
-            
 
-
+        </section>
 
 
 
@@ -95,7 +96,9 @@
             
 
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-2">Learning objectives targeted by the module</h2>
+
+            <section id="s-2">
+            <h2 id="s-2-title">Learning objectives targeted by the module</h2>
             
             <ul>
                 <li>
@@ -122,19 +125,21 @@
                     <b>Social competence:</b> develop students’ argumentation skills and skills when finding group consensus on controversial space-related issues.
                 </li>
             </ul>
-
+        </section>
 
             
 
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-3">
+
+        <section id="s-3">
+            <h2 id="s-3-title">
                 Potential obstacles to consider
             </h2>
 
             <p>
                 Students are expected to have experience evaluating the reliability of information sources on the Internet. Otherwise, it might take extra teaching time to work on this issue.
             </p>
-            
+          </section>  
 
 
 
@@ -146,7 +151,9 @@
             
             
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-4">Module structure</h2>
+
+            <section id="s-4">
+            <h2 id="s-4-title">Module structure</h2>
             
             <p>This module consists of 6 activities. The sequence of activities is given in Figure 1 and Table 1 (see below).</p>
 
@@ -321,7 +328,7 @@
                     </tr>
                 </tbody>
             </table>
-
+        </section>
 
 
 
@@ -333,10 +340,12 @@
 
 
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-5">Requirements for physical environment</h2>
+
+        <section id="s-5">
+            <h2 id="s-5-title">Requirements for physical environment</h2>
             
             <p>Smartphone, computer, internet, display equipment for demonstrating videos.</p>
-            
+        </section>  
             
             
             
@@ -345,9 +354,11 @@
             
             
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-6">Assessment</h2>
-            
-            
+
+
+        <section id="s-6">
+            <h2 id="s-6-title">Assessment</h2>
+                        
             <p>
                 Students can be assessed in different ways throughout the module, including science process skills, general competencies, such as argumentation skills, and topic-related content knowledge. Assessments that could be applied in this module:
             </p>
@@ -363,7 +374,7 @@
                 <li>Grades assigned by the teacher on the group presentation (based on the students’ video product, poster, etc. and its performance and students’ ability to provide relevant answers/comments).</li>
                 <li>Grades assigned by the teacher on group or individual worksheets.</li>
             </ul>
-            
+        </section>    
             
             
             
@@ -375,7 +386,9 @@
             
             
             <hr  class="mt-10 mb-40 print:my-10" />
-            <h2 id="section-7">Teaching suggestions</h2>
+
+            <section id="s-7">
+            <h2 id="s-7-title">Teaching suggestions</h2>
 
             <p>
                 The module activities can be structured in two parts. The first part (Activities 1-5) concerns work with specific space-related myths, ideas, controversies and issues that could be identified in an introductory video, recalled by the students or suggested by the teacher. The second part (Activity 6) focuses on work with the socio-scientific topic of human space travels that is summed up with the help of a debate game/role-play (see student material moderated by the teacher).
@@ -503,6 +516,8 @@
             <p>
                 At the end of the module, the teacher can include a summing-up reflective activity about what the students have learned by participating in the module activities and how they collaborated, preparing arguments and presentations and providing feedback for the peers. Artistic reflections on Space by the art school students (see <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">photography books</a> and <span class="bg-red-400">virtual exhibition</span>) can show alternative ways of exploring space-related phenomena. They could serve as a point of departure for discussing what the students would wish to learn more in this area. 
             </p>
+        </section>
+
 
         </section>
 

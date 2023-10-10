@@ -14,28 +14,29 @@
             <h1 class="mb-0">Space</h1>
             <h5 class="font-normal uppercase leading-tight">Scientific background information</h5>
         
-            <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">Introduction</h2>
+            
+            <section id="s-1">
+            <h2 id="s-1-title">Introduction</h2>
         
             <p>
                 The Space Age began with the launch of Sputnik 1 in 1957 and undeniably reached its climax in 1969 when a man made first step on the moon. Space exploration was driven by competition between two countries USA and USSR – leaders of capitalist and socialist blocks. So, space exploration was on front line of competition between two different social systems. 
             </p>
 
             <p>
-                Currently, private companies started vast space activities and creating their own satellite architecture around our planet (see https://en.wikipedia.org/wiki/Starlink) for commercial communication and navigation. Satellites and space-based technology assist airplanes to fly safely in congested airspace, ships to navigate the oceans and boost their efficiency, and everyday technologies - such as cash machines, satellite TV and car satnav systems. Space technology is already helping us tackle climate change on Earth, monitoring emissions in different sectors of economy and measuring of global carbon emissions. However, problems have always followed when new technologies are deployed on Earth without due care and scrutiny.  Space pollution by space debris is a long-term issue that need to be properly understood and addressed through robust and enforceable regulation. We must appreciate that space – just like our planet – needs to be protected for future generations.
+                Currently, private companies started vast space activities and creating their own satellite architecture around our planet (see <a href="https://en.wikipedia.org/wiki/Starlink" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Starlink</a>) for commercial communication and navigation. Satellites and space-based technology assist airplanes to fly safely in congested airspace, ships to navigate the oceans and boost their efficiency, and everyday technologies - such as cash machines, satellite TV and car satnav systems. Space technology is already helping us tackle climate change on Earth, monitoring emissions in different sectors of economy and measuring of global carbon emissions. However, problems have always followed when new technologies are deployed on Earth without due care and scrutiny.  Space pollution by space debris is a long-term issue that need to be properly understood and addressed through robust and enforceable regulation. We must appreciate that space – just like our planet – needs to be protected for future generations.
             </p>
 
             <p>
                 Undeniably, space technology is a part of our daily life. However, the research shows (Inmarsat, 2022) that most of the people do not appear to understand the role space is already playing in our everyday lives, nor its potential to deliver a brighter future for humanity. Of the 20 000 people surveyed across 11 countries, only 8% associated space with connectivity and communication satellites and a mere 38% wished they knew more about it. There was an overwhelming sense of fear about space, with 97% seeing it as a threat. Their top concerns were space debris and collisions, polluting space and damaging the Earth’s atmosphere. Younger people are more excited about the potential of space than the older demographics. Likewise, young people tend to wish they knew more about space. This module is intended to contribute to this purpose. 
             </p>
 
-            
+        </section>
 
 
 
+        <section id="s-2">
 
-
-            <h2 id="section-2">
+            <h2 id="s-2-title">
                 How satellites move around the Earth: Velocities and altitudes
             </h2>
 
@@ -73,13 +74,13 @@
                 <a href="https://www.geospatialworld.net/videos/how-many-satellites-are-orbiting-around-earth-in-2022/" target="_blank" rel="noopener noreferrer">How Many Satellites are orbiting around Earth in 2022?</a>
             </p>
 
+        </section>
 
 
 
 
-
-
-            <h2 id="section-3">
+        <section id="s-3">
+            <h2 id="s-3-title">
                 Rockets
             </h2>
 
@@ -110,12 +111,15 @@
             <p>
                 Many different countries and private companies are now active in space, and much of the world depends on space-based services. However, we must ensure that robust policies are in place to preserve both the safety and sustainability of space exploration.
             </p>
+        </section>
 
 
 
 
 
-            <h2 id="section-4">
+
+        <section id="s-4">
+            <h2 id="s-4-title">
                 Humans in space
             </h2>
 
@@ -209,14 +213,14 @@
                 On Mars, astronauts would need to live in three-eighths of Earth’s gravitational pull. Gravity on Mars is 3/8 of that on Earth. But on the trek between Earth and Mars explorers will experience total weightlessness, when rocket motors are switched off.
             </p>
 
+        </section>
 
 
 
 
 
-
-
-            <h2 id="section-5">
+        <section id="s-5">
+            <h2 id="s-5-title">
                 Environmental pollution caused by space exploration
             </h2>
 
@@ -260,13 +264,13 @@
             <p>
                 But what can we do more to stop spaceships’ polluting exhausts to accelerate climate change? Researchers fear that the space industry has little incentive to change because of the absence of regulations, a reluctance to abandon safe and proven technology, and the fact that new propellants mean expensive new engines and lengthy testing.
             </p>
+        </section>
 
 
 
 
-
-
-            <h2 id="section-6">
+            <section id="s-6">
+            <h2 id="s-6-title">
                 How humans experience weightlessness?
             </h2>
 
@@ -324,10 +328,13 @@
             <p>
                 To partially overcome these problems astronauts must exercise at least two hours every day on specially adapted to weightlessness machines (treadmill, rowing machine, bicycle). 
             </p>
+        </section>
 
-            <h3>
+
+        <section id="s-7">
+            <h2 id="s-7-title">
                 References
-            </h3>
+            </h2>
 
             <ul class="leading-tight text-sm">
                 <li>
@@ -370,7 +377,7 @@
                     <a class="break-all" href="https://www.geospatialworld.net/" target="_blank" rel="noopener noreferrer">https://www.geospatialworld.net/</a>
                 </li>
             </ul>
-
+        </section>
 
 
 
