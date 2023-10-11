@@ -10,7 +10,7 @@
             <ModulesSpaceEn />
         </template>
         <template v-else-if="locale === 'sv'">
-            <ModulesSpaceEn />
+            <ModulesSpaceSv />
         </template>
         <template v-else>
             <ModulesSpaceEn />
