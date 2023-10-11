@@ -152,7 +152,7 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-66">
+            <section id="s-6">
                 <h2 id="s-6-title">Activity 6: Debate role-play</h2>
 
                 <h4>

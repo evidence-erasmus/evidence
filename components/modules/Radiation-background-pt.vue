@@ -14,157 +14,157 @@
             <h1 class="mb-0">Radiação</h1>
             <h5 class="font-normal uppercase leading-tight">Informação Científica</h5>
         
-            <!-- <h2 class="e-huge-number">1.</h2> -->
-            <h2 id="section-1">A radiação faz parte do nosso dia-a-dia.</h2>
-        
-            <p>
-                A radiação está à nossa volta e está presente desde o nascimento deste planeta. Estamos diariamente expostos a radiações (de fundo) naturais do espaço exterior, do sol, do solo, e até mesmo de dentro dos nossos corpos.
-            </p>
-
-            <p>
-                A radiação é energia na forma de ondas ou partículas. Isto geralmente inclui:
-            </p>
-
-            <ol>
-                <li class="leading-tight">
-                    radiações eletromagnéticas, tais como ondas de rádio, micro-ondas, infravermelhos, luz visível, ultravioleta, raio-X e radiação gama;
-                </li>
-                <li class="leading-tight">
-                    radiação de partículas, tais como radiação alfa (α), radiação beta (β), radiação de protões e radiação de neutrões (ver figura 1).
-                </li>
-            </ol>
-
-            <UiContentImage
-                src="https://evidence.onkel.ee/assets/radiation__em-spectrum-properties.webp"
-                credits="https://commons.wikimedia.org/wiki/File:EM_Spectrum_Properties_edit.svg"
-                :elevated="true">
-                <template #caption>
-                    <b>Figura 1.</b> Elektromagnetspekter <sup><a href="https://www.science-sparks.com/what-is-the-electromagnetic-spectrum/" target="_blank" rel="noopener noreferrer">[1]</a></sup> 
-                </template>
-            </UiContentImage>
+            <section id="s-1">
+                <h2 id="s-1t">A radiação faz parte do nosso dia-a-dia.</h2>
             
+                <p>
+                    A radiação está à nossa volta e está presente desde o nascimento deste planeta. Estamos diariamente expostos a radiações (de fundo) naturais do espaço exterior, do sol, do solo, e até mesmo de dentro dos nossos corpos.
+                </p>
+                <p>
+                    A radiação é energia na forma de ondas ou partículas. Isto geralmente inclui:
+                </p>
+                <ol>
+                    <li class="leading-tight">
+                        radiações eletromagnéticas, tais como ondas de rádio, micro-ondas, infravermelhos, luz visível, ultravioleta, raio-X e radiação gama;
+                    </li>
+                    <li class="leading-tight">
+                        radiação de partículas, tais como radiação alfa (α), radiação beta (β), radiação de protões e radiação de neutrões (ver figura 1).
+                    </li>
+                </ol>
+                <UiContentImage
+                    src="https://evidence.onkel.ee/assets/radiation__em-spectrum-properties.webp"
+                    credits="https://commons.wikimedia.org/wiki/File:EM_Spectrum_Properties_edit.svg"
+                    :elevated="true">
+                    <template #caption>
+                        <b>Figura 1.</b> Elektromagnetspekter <sup><a href="https://www.science-sparks.com/what-is-the-electromagnetic-spectrum/" target="_blank" rel="noopener noreferrer">[1]</a></sup> 
+                    </template>
+                </UiContentImage>
+
+
+                <h3>
+                    Radiação não ionizante
+                </h3>
+
+                <p>
+                    A radiação não ionizante inclui radiações de baixa frequência e de alta frequência moderadamente elevadas, incluindo ondas de rádio, micro-ondas, radiação infravermelha e luz visível. A radiação não ionizante tem energia suficiente para se mover em torno dos átomos numa molécula ou fazê-los vibrar, mas não o suficiente para remover eletrões. A radiação não ionizante é utilizada em muitas tarefas do dia-a-dia. Usamos:
+                </p>
+
+                <ul>
+                    <li>
+                        Radiação de micro-ondas para telecomunicações e aquecimento de alimentos.
+                    </li>
+                    <li>
+                        Radiação infravermelha para lâmpadas de infravermelhos para manter os alimentos quentes nos restaurantes.
+                    </li>
+                    <li>
+                        Ondas de rádio para radiodifusão.
+                    </li>
+                </ul>
+
+                <p>
+                    Fontes de alta frequência de radiações não ionizantes e ionizantes (como o sol e o ultravioleta) podem causar queimaduras e danos nos tecidos com sobre-exposição.
+                </p>
+
+
+                <h4>
+                    Campos eletromagnéticos (EMF)
+                </h4>
+                <p>
+                    Os campos elétricos e magnéticos, também conhecidos como campos eletromagnéticos (EMF), consistem em ondas de energia elétrica e magnética que se movem em conjunto. Estes campos de energia rodeiam-nos permanentemente. Estudos científicos não demonstraram claramente se a exposição ao FEM aumenta o risco para a saúde. Alguns estudos ligaram o FEM e os efeitos para a saúde, mas os cientistas não foram capazes de repetir os resultados. Isto significa que são inconclusivos. Os cientistas continuam a investigar o assunto. Os campos elétricos são produzidos por cargas elétricas e campos magnéticos são produzidos pelo fluxo de corrente elétrica através de cabos ou dispositivos elétricos. A resistência do EMF é proporcional à quantidade de corrente elétrica que passa pelo cabo de alimentação e diminui com a distância.
+                </p>
+
+                
+                <h4>
+                    Radiação Eletromagnética da Tecnologia Sem Fios
+                </h4>
+                
+                <p class="mt-0">
+                    Os dispositivos eletrónicos que enviam sinais eletromagnéticos através do ar em Radiofrequência (RF) estão por todo o lado: routers Wi-Fi, telemóveis, rádios e outras redes. Transmitem informação sob a forma de ondas de rádio. Estamos numa nuvem constante de radiação eletromagnética. Algumas pessoas estão preocupadas com os potenciais efeitos para a saúde da radiação eletromagnética da tecnologia sem fios. Os telemóveis e as redes sem fios enviam radiação eletromagnética em radiofrequência a níveis de energia que não causam aquecimento significativo. A maioria dos estudos não encontrou quaisquer efeitos para a saúde no uso do telemóvel. Alguns estudos ligaram o RF e os efeitos para a saúde, mas os cientistas não foram capazes de repetir os resultados. Isto significa que são inconclusivos. <sup><a href="ttps://www.epa.gov/radtown/electric-and-magnetic-fields-power-lines#what-you-can-do" target="_blank" rel="noopener noreferrer">[2]</a></sup>.
+                </p>
+
+                <p>
+                    A radiação de frequência de ondas de rádio dos telemóveis não é suficientemente forte para afetar diretamente a estrutura dos átomos ou danificar o ADN; no entanto, faz vibrar os átomos, o que pode fazê-los aquecer. Quando a energia das ondas de rádio é muito forte, como por exemplo dos transmissores de radar, pode ser perigosa. Pode aquecer partes do corpo humano muito rapidamente e causar ferimentos graves, como queimaduras graves. A energia da radiofrequência diminui à medida que viaja na atmosfera, o que significa que fica mais fraca quanto mais longe está do transmissor. As torres de telemóveis podem transmitir níveis mais altos de energia RF, por isso têm avisos que limitam o acesso à própria torre ou à área circundante.
+                    <sup><a href="ttps://www.epa.gov/radtown/non-ionizing-radiation-wireless-technology#about-non-ionizing-radiation" target="_blank" rel="noopener noreferrer">[3]</a></sup>.
+                </p>
+
+                <p>
+                    As tecnologias móveis de telecomunicações (por exemplo, telemóveis) transmitem e recebem campos eletromagnéticos de radiofrequência (RF EMF) de formas definidas que permitem a comunicação. O método específico de utilização dos EMF rf é referido como uma "norma sem fios". Por exemplo, o padrão sem fios utilizado para a Primeira Geração de telecomunicações móveis é referido como "1G", enquanto a quinta geração da norma sem fios, é conhecida como "5G".
+                </p>
+
+                <h4>
+                    Efeitos RF no corpo e nas implicações para a saúde
+                </h4>
+
+                <p class="mt-0">
+                    A radiação eletromagnética da tecnologia sem fios pode penetrar no corpo humano provocando, como principal efeito, um aumento da temperatura no tecido exposto. O corpo humano pode ajustar-se a pequenos aumentos de temperatura, como durante o exercício, banho ou na sauna. Isto porque o corpo pode regular a sua temperatura interna.
+                </p>
+                <p>
+                    Outra característica geral é que quanto maior for a frequência, menor a profundidade de penetração da radiação EM da tecnologia sem fios no corpo. Como as tecnologias 5G utilizam frequências mais elevadas (>24 GHz), serão absorvidas superficialmente (e menos entrando com menor profundidade de penetração no tecido cerebral) do que as anteriores tecnologias de telecomunicações móveis (4G, etc.). No entanto, embora a proporção de potência que é absorvida superficialmente (em oposição à mais profunda no corpo) seja maior para as frequências mais elevadas, foram definidas restrições ICNIRP (2020) para garantir que o pico de potência espacial resultante permanecerá muito inferior ao necessário para afetar negativamente a saúde. Assim, as exposições 5G não causarão danos, uma vez que aderem às orientações do ICNIRP (2020). Levantar preocupações sobre a utilização do 5G não é novidade; preocupações semelhantes refletiram-se em relação a 1G, 2G, 3G e 4G. Independentemente destas preocupações, as taxas de cancro do cérebro não mudaram de forma significativa, passando da total ausência de utilização de telefones nos anos 80 para uma utilização avassaladora pela maioria da população atual dos países ocidentais. <sup><a href="https://www.icnirp.org/en/applications/5g/index.html" target="_blank" rel="noopener noreferrer">[4.1]</a> <a href="https://www.icnirp.org/en/activities/news/news-article/rf-guidelines-2020-published.html" target="_blank" rel="noopener noreferrer">[4.2]</a> <a href="https://www.sciencealert.com/what-s-5g-and-why-are-people-so-scared-of-it-here-s-what-you-need-to-know" target="_blank" rel="noopener noreferrer">[4.3]</a></sup>
+                </p>
 
 
 
-            <h3>
-                Radiação não ionizante
-            </h3>
+                <h4>
+                    Utilização de fornos micro-ondas
+                </h4>
 
-            <p>
-                A radiação não ionizante inclui radiações de baixa frequência e de alta frequência moderadamente elevadas, incluindo ondas de rádio, micro-ondas, radiação infravermelha e luz visível. A radiação não ionizante tem energia suficiente para se mover em torno dos átomos numa molécula ou fazê-los vibrar, mas não o suficiente para remover eletrões. A radiação não ionizante é utilizada em muitas tarefas do dia-a-dia. Usamos:
-            </p>
-
-            <ul>
-                <li>
-                    Radiação de micro-ondas para telecomunicações e aquecimento de alimentos.
-                </li>
-                <li>
-                    Radiação infravermelha para lâmpadas de infravermelhos para manter os alimentos quentes nos restaurantes.
-                </li>
-                <li>
-                    Ondas de rádio para radiodifusão.
-                </li>
-            </ul>
-
-            <p>
-                Fontes de alta frequência de radiações não ionizantes e ionizantes (como o sol e o ultravioleta) podem causar queimaduras e danos nos tecidos com sobre-exposição.
-            </p>
+                <p>
+                    Os fornos de micro-ondas usam radiação eletromagnética para aquecer os alimentos. A radiação não ionizante utilizada por um micro-ondas não torna os alimentos radioativos. As micro-ondas só são produzidas quando o forno está em funcionamento. As micro-ondas produzidas no interior do forno são absorvidas pelos alimentos e produzem o calor necessário para a sua confeção. Os fornos de micro-ondas são construídos para garantir que a radiação eletromagnética não sai do forno. 
+                    <!-- <sup><a href="https://www.epa.gov/radtown/non-ionizing-radiation-used-microwave-ovens " target="_blank" rel="noopener noreferrer">[7]</a></sup> -->
+                </p>
 
 
-            <h4>
-                Campos eletromagnéticos (EMF)
-            </h4>
-            <p>
-                Os campos elétricos e magnéticos, também conhecidos como campos eletromagnéticos (EMF), consistem em ondas de energia elétrica e magnética que se movem em conjunto. Estes campos de energia rodeiam-nos permanentemente. Estudos científicos não demonstraram claramente se a exposição ao FEM aumenta o risco para a saúde. Alguns estudos ligaram o FEM e os efeitos para a saúde, mas os cientistas não foram capazes de repetir os resultados. Isto significa que são inconclusivos. Os cientistas continuam a investigar o assunto. Os campos elétricos são produzidos por cargas elétricas e campos magnéticos são produzidos pelo fluxo de corrente elétrica através de cabos ou dispositivos elétricos. A resistência do EMF é proporcional à quantidade de corrente elétrica que passa pelo cabo de alimentação e diminui com a distância.
-            </p>
+                <h3>
+                    Radiação ionizante
+                </h3>
 
-            
-            <h4>
-                Radiação Eletromagnética da Tecnologia Sem Fios
-            </h4>
-            
-            <p class="mt-0">
-                Os dispositivos eletrónicos que enviam sinais eletromagnéticos através do ar em Radiofrequência (RF) estão por todo o lado: routers Wi-Fi, telemóveis, rádios e outras redes. Transmitem informação sob a forma de ondas de rádio. Estamos numa nuvem constante de radiação eletromagnética. Algumas pessoas estão preocupadas com os potenciais efeitos para a saúde da radiação eletromagnética da tecnologia sem fios. Os telemóveis e as redes sem fios enviam radiação eletromagnética em radiofrequência a níveis de energia que não causam aquecimento significativo. A maioria dos estudos não encontrou quaisquer efeitos para a saúde no uso do telemóvel. Alguns estudos ligaram o RF e os efeitos para a saúde, mas os cientistas não foram capazes de repetir os resultados. Isto significa que são inconclusivos. <sup><a href="ttps://www.epa.gov/radtown/electric-and-magnetic-fields-power-lines#what-you-can-do" target="_blank" rel="noopener noreferrer">[2]</a></sup>.
-            </p>
+                <p>
+                    A radiação ionizante inclui radiação eletromagnética de maior frequência: ultravioleta, raios-X e raios gama. A radiação ionizante tem energia suficiente para quebrar ligações químicas em moléculas ou remover eletrões dos átomos, criando moléculas ou átomos carregados (iões). A radiação ionizante pode danificar o tecido vivo alterando a estrutura celular e danificando o ADN. Os danos dependem do tipo de radiação, da via de exposição, da energia e da quantidade total de radiação absorvida. O efeito de uma exposição menor ou mesmo moderada pode não ser percetível. A maioria dos danos celulares é reparado. No entanto, algumas células podem não recuperar tão bem como outras e podem ficar danificadas ou cancerígenas. A radiação também pode matar as células. As crianças são mais sensíveis à radiação ionizante do que os adultos porque as crianças ainda estão em processo de crescimento. Mais células estão a dividir-se, e existe uma maior oportunidade para a radiação perturbar o processo de crescimento.
+                </p>
 
-            <p>
-                A radiação de frequência de ondas de rádio dos telemóveis não é suficientemente forte para afetar diretamente a estrutura dos átomos ou danificar o ADN; no entanto, faz vibrar os átomos, o que pode fazê-los aquecer. Quando a energia das ondas de rádio é muito forte, como por exemplo dos transmissores de radar, pode ser perigosa. Pode aquecer partes do corpo humano muito rapidamente e causar ferimentos graves, como queimaduras graves. A energia da radiofrequência diminui à medida que viaja na atmosfera, o que significa que fica mais fraca quanto mais longe está do transmissor. As torres de telemóveis podem transmitir níveis mais altos de energia RF, por isso têm avisos que limitam o acesso à própria torre ou à área circundante.
-                <sup><a href="ttps://www.epa.gov/radtown/non-ionizing-radiation-wireless-technology#about-non-ionizing-radiation" target="_blank" rel="noopener noreferrer">[3]</a></sup>.
-            </p>
 
-            <p>
-                As tecnologias móveis de telecomunicações (por exemplo, telemóveis) transmitem e recebem campos eletromagnéticos de radiofrequência (RF EMF) de formas definidas que permitem a comunicação. O método específico de utilização dos EMF rf é referido como uma "norma sem fios". Por exemplo, o padrão sem fios utilizado para a Primeira Geração de telecomunicações móveis é referido como "1G", enquanto a quinta geração da norma sem fios, é conhecida como "5G".
-            </p>
+                <p>
+                    O <span class="e-term font-serif">sievert</span> (símbolo: <b>Sv</b>) é uma unidade de dose de radiação ionizante no Sistema Internacional de Unidades (SI) e mede o efeito para a saúde da radiação ionizante no corpo humano. O sievert é importante na dosimetria e na proteção contra radiações. Foi nomeado em homenagem a Rolf Maximilian Sievert, um físico médico sueco conhecido pelo seu trabalho na medição da dose de radiação e pesquisa sobre os efeitos biológicos da radiação.
+                </p>
 
-            <h4>
-                Efeitos RF no corpo e nas implicações para a saúde
-            </h4>
+                <h4>
+                    Radiação ionizante e cancro
+                </h4>
 
-            <p class="mt-0">
-                A radiação eletromagnética da tecnologia sem fios pode penetrar no corpo humano provocando, como principal efeito, um aumento da temperatura no tecido exposto. O corpo humano pode ajustar-se a pequenos aumentos de temperatura, como durante o exercício, banho ou na sauna. Isto porque o corpo pode regular a sua temperatura interna.
-            </p>
-            <p>
-                Outra característica geral é que quanto maior for a frequência, menor a profundidade de penetração da radiação EM da tecnologia sem fios no corpo. Como as tecnologias 5G utilizam frequências mais elevadas (>24 GHz), serão absorvidas superficialmente (e menos entrando com menor profundidade de penetração no tecido cerebral) do que as anteriores tecnologias de telecomunicações móveis (4G, etc.). No entanto, embora a proporção de potência que é absorvida superficialmente (em oposição à mais profunda no corpo) seja maior para as frequências mais elevadas, foram definidas restrições ICNIRP (2020) para garantir que o pico de potência espacial resultante permanecerá muito inferior ao necessário para afetar negativamente a saúde. Assim, as exposições 5G não causarão danos, uma vez que aderem às orientações do ICNIRP (2020). Levantar preocupações sobre a utilização do 5G não é novidade; preocupações semelhantes refletiram-se em relação a 1G, 2G, 3G e 4G. Independentemente destas preocupações, as taxas de cancro do cérebro não mudaram de forma significativa, passando da total ausência de utilização de telefones nos anos 80 para uma utilização avassaladora pela maioria da população atual dos países ocidentais. <sup><a href="https://www.icnirp.org/en/applications/5g/index.html" target="_blank" rel="noopener noreferrer">[4.1]</a> <a href="https://www.icnirp.org/en/activities/news/news-article/rf-guidelines-2020-published.html" target="_blank" rel="noopener noreferrer">[4.2]</a> <a href="https://www.sciencealert.com/what-s-5g-and-why-are-people-so-scared-of-it-here-s-what-you-need-to-know" target="_blank" rel="noopener noreferrer">[4.3]</a></sup>
-            </p>
+                <p>
+                    O risco mais significativo da exposição à radiação ionizante é o cancro. Estudos de mais de 100.000 sobreviventes das bombas atómicas em Hiroshima e Nagasaki, Japão, no final da Segunda Guerra Mundial mostram:
+                </p>
+
+                <ul>
+                    <li>
+                        A probabilidade de desenvolver cancro aumenta à medida que a dose de radiação aumenta.
+                    </li>
+                    <li>
+                        Os cancros causados pela radiação só aparecem anos após a exposição.
+                    </li>
+                    <li>
+                        Algumas pessoas são mais propensas a desenvolver cancro por exposição à radiação do que outras.
+                    </li>
+                </ul>
+
+
+                <h4>
+                    Radiação ultravioleta (UV) e exposição solar
+                </h4>
+
+                <p>
+                    O sol envia energia para a Terra de várias maneiras diferentes: luz visível que podemos ver, radiação infravermelha que parece calor, e raios de radiação UV que não podemos ver ou sentir. Os raios UV causam o envelhecimento da pele e danos nos olhos e podem diminuir a capacidade do seu corpo de combater a doença. Os raios UV de comprimento de onda mais curtos (os chamados UVB) causam queimaduras solares e cancro da pele. A incidência do cancro da pele na UE atinge 90.000 novos casos por ano, mais de metade deles na Suécia. É uma das formas de cancro que mais cresce. <sup><a href="https://ec.europa.eu/research/health/pdf/factsheets/melanoma_skin_cancer.pdf" target="_blank" rel="noopener noreferrer">[5]</a></sup>. 
+                </p>
+
+                <p>
+                    Embora todos devam proteger-se contra a radiação UV, é crucial proteger as crianças. A maior parte da exposição aos UV de uma pessoa comum, ocorre antes dos 18 anos de idade. Demasiada exposição UV ou queimaduras solares frequentes, particularmente durante a infância, podem aumentar a probabilidade de desenvolver de cancro da pele.
+                </p>
+            </section>
 
 
 
-            <h4>
-                Utilização de fornos micro-ondas
-            </h4>
 
-            <p>
-                Os fornos de micro-ondas usam radiação eletromagnética para aquecer os alimentos. A radiação não ionizante utilizada por um micro-ondas não torna os alimentos radioativos. As micro-ondas só são produzidas quando o forno está em funcionamento. As micro-ondas produzidas no interior do forno são absorvidas pelos alimentos e produzem o calor necessário para a sua confeção. Os fornos de micro-ondas são construídos para garantir que a radiação eletromagnética não sai do forno. 
-                <!-- <sup><a href="https://www.epa.gov/radtown/non-ionizing-radiation-used-microwave-ovens " target="_blank" rel="noopener noreferrer">[7]</a></sup> -->
-            </p>
-
-
-            <h3>
-                Radiação ionizante
-            </h3>
-
-            <p>
-                A radiação ionizante inclui radiação eletromagnética de maior frequência: ultravioleta, raios-X e raios gama. A radiação ionizante tem energia suficiente para quebrar ligações químicas em moléculas ou remover eletrões dos átomos, criando moléculas ou átomos carregados (iões). A radiação ionizante pode danificar o tecido vivo alterando a estrutura celular e danificando o ADN. Os danos dependem do tipo de radiação, da via de exposição, da energia e da quantidade total de radiação absorvida. O efeito de uma exposição menor ou mesmo moderada pode não ser percetível. A maioria dos danos celulares é reparado. No entanto, algumas células podem não recuperar tão bem como outras e podem ficar danificadas ou cancerígenas. A radiação também pode matar as células. As crianças são mais sensíveis à radiação ionizante do que os adultos porque as crianças ainda estão em processo de crescimento. Mais células estão a dividir-se, e existe uma maior oportunidade para a radiação perturbar o processo de crescimento.
-            </p>
-
-
-            <p>
-                O <span class="e-term font-serif">sievert</span> (símbolo: <b>Sv</b>) é uma unidade de dose de radiação ionizante no Sistema Internacional de Unidades (SI) e mede o efeito para a saúde da radiação ionizante no corpo humano. O sievert é importante na dosimetria e na proteção contra radiações. Foi nomeado em homenagem a Rolf Maximilian Sievert, um físico médico sueco conhecido pelo seu trabalho na medição da dose de radiação e pesquisa sobre os efeitos biológicos da radiação.
-            </p>
-
-            <h4>
-                Radiação ionizante e cancro
-            </h4>
-
-            <p>
-                O risco mais significativo da exposição à radiação ionizante é o cancro. Estudos de mais de 100.000 sobreviventes das bombas atómicas em Hiroshima e Nagasaki, Japão, no final da Segunda Guerra Mundial mostram:
-            </p>
-
-            <ul>
-                <li>
-                    A probabilidade de desenvolver cancro aumenta à medida que a dose de radiação aumenta.
-                </li>
-                <li>
-                    Os cancros causados pela radiação só aparecem anos após a exposição.
-                </li>
-                <li>
-                    Algumas pessoas são mais propensas a desenvolver cancro por exposição à radiação do que outras.
-                </li>
-            </ul>
-
-
-            <h4>
-                Radiação ultravioleta (UV) e exposição solar
-            </h4>
-
-            <p>
-                O sol envia energia para a Terra de várias maneiras diferentes: luz visível que podemos ver, radiação infravermelha que parece calor, e raios de radiação UV que não podemos ver ou sentir. Os raios UV causam o envelhecimento da pele e danos nos olhos e podem diminuir a capacidade do seu corpo de combater a doença. Os raios UV de comprimento de onda mais curtos (os chamados UVB) causam queimaduras solares e cancro da pele. A incidência do cancro da pele na UE atinge 90.000 novos casos por ano, mais de metade deles na Suécia. É uma das formas de cancro que mais cresce. <sup><a href="https://ec.europa.eu/research/health/pdf/factsheets/melanoma_skin_cancer.pdf" target="_blank" rel="noopener noreferrer">[5]</a></sup>. 
-            </p>
-
-            <p>
-                Embora todos devam proteger-se contra a radiação UV, é crucial proteger as crianças. A maior parte da exposição aos UV de uma pessoa comum, ocorre antes dos 18 anos de idade. Demasiada exposição UV ou queimaduras solares frequentes, particularmente durante a infância, podem aumentar a probabilidade de desenvolver de cancro da pele.
-            </p>
-
+            <hr />
 
 
             <h2 id="section-misconceptions">
