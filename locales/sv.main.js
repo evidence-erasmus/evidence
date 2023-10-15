@@ -15,21 +15,30 @@ export default {
   },
   message: "Tervitusi välisest failist!",
   modules: {
+    title: "Modulerna",
     toc: "Innehållsförteckning",
-    background_info: "Vetenskaplig bakgrund",
+    for_teachers: "Lärarmaterial",
+    for_students: "Elevmaterial",
+    background_info: "NV-info",
+    
     climateChange: {
-      description: "Kliimamuutuste kirjeldav tekst",
+      description: "We can have a short destcription here",
       title: "Klimatförändring"
     },
-    for_students: "Elevmaterial",
-    for_teachers: "Lärarmaterial",
+    drugs: {
+      description: "We can have a short destcription here",
+      title: "Droger"
+    },
     radiation: {
-      description: "See on radiatsiooni mooduli kirjeldus siin. Lause või paar.",
+      description: "We can have a short destcription here",
       title: "Strålning"
     },
-    title: "Moodulid",
+    space: {
+      description: "We can have a short destcription here",
+      title: "Rymden"
+    },
     viruses: {
-      description: "See on viiruste mooduli kirjeldus siin. Lause või paar.",
+      description: "We can have a short destcription here",
       title: "Virus"
     }
   },

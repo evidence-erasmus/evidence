@@ -16,7 +16,7 @@ export default {
   message: "Hello from external",
   modules: {
     toc: "Lista de conteúdos",
-    background_info: "Informação científica",
+    background_info: "Informação Científica",
     climateChange: {
       description: "Climate change description",
       title: "Alterações Climáticas"
@@ -31,6 +31,10 @@ export default {
     viruses: {
       description: "Viruses module description",
       title: "Vírus"
+    },
+    space: {
+      description: "Espaço module description",
+      title: "Espaço"
     }
   },
   print: {

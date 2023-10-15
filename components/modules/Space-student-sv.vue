@@ -13,40 +13,40 @@
         </ClientOnly>
 
 
-        <section class="e-article print:not-prose" lang="en" style="hyphens:auto;">
+        <section class="e-article print:not-prose" lang="sv" style="hyphens:auto;">
             <Icon name="openmoji:person-raising-hand-medium-light-skin-tone" class="float-right text-[5em] text-slate-300" />
             <!-- <Icon name="openmoji:person-shrugging" class="float-right text-[5em] text-slate-300" /> -->
-            <h1 class="mb-0">Space</h1>
-            <h5 class="font-normal uppercase leading-tight">Student material</h5>
+            <h1 class="mb-0">Rymden</h1>
+            <h5 class="font-normal uppercase leading-tight">Elevmaterial</h5>
         
             <section id="s-0">
-                <h2 id="s-0-title">Introduction</h2>
+                <h2 id="s-0-title">Introduktion</h2>
 
                 <p>
-                    As a child, you were perhaps curious about space and what is out there, about different celestial bodies and the infinity of space. This module invites you to reflect on human space explorations and investigate various space-related myths and issues. Depart from the <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introductory video</a>, where some space-related ideas, dreams, risks, fears and myths are brought up and discussed in groups. Group discussion will lead to selecting a myth-busting or exploration activity where you will look for evidence to falsify or confirm a chosen myth or clarify existing misconceptions. This activity could be conducted practically or using secondary evidence (information from science literature and the internet). As a first step in working with a myth or issue you want to explore, you have to pose a testable hypothesis (see Figure 1). 
+                    Redan som liten var du kanske nyfiken på rymden och vad som finns där ute, om olika himlakroppar och rymdens oändlighet.  I denna modul ska du få möjlighet att reflektera över rymden och rymdutforskningar. Välj en <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introduktionsvideo </a>, där några rymdrelaterade idéer, drömmar och myter tas upp och diskutera dem i grupper. I grupper ska ni välja en myt eller fråga att undersöka som kan utföras praktiskt eller med hjälp av s information från vetenskaplig litteratur och internet (se Figur 1). 
                 </p>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp">
                     <template #caption>
-                        <b>Figure 1.</b> Mythbusting/investigation activities
+                        <b>Figur 1.</b> Undersökande arbetssätt (Mythbusting Aktivitet)
                     </template>
                 </UiContentImage>
 
                 <p>
-                    After finding evidence for your results and making conclusions, you will prepare a presentation to your classmates in a relevant and convincing manner (for example, in the form of a short video post, poster or PowerPoint presentation).  The module is finished with a role-play about space travel issues.
+                    Resultatet av undersökningar och slutsatser ska ni presentera för klasskamraterna till exempel i form av videoinlägg eller PowerPoint-presentationer. Modulen avslutas med ett rollspel om rymdfärdsfrågor.
                 </p>
             </section>        
             
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-1">
-                <h2 id="s-1-title">
-                    Activity 1: Presentation of the video introduction
+            <section id="s1">
+                <h2 id="s1-title">
+                    Aktivitet 1: Videointroduktion
                 </h2>
             
                 <p>
-                    Please watch an introductory video (Earth Calls Martha). Write down your initial thoughts and feelings about the issues presented.
+                    Se introduktionsvideon. Anteckna dina första tankar och känslor om det som presenteras.
                 </p>
     
                 <UiYoutube video="a95oKCDgIow" />
@@ -65,38 +65,38 @@
 
         <hr class="mt-10 mb-40 print:my-10" />
 
-        <section id="s-2">
-            <h2 id="s-2-title">Activity 2: Group discussion</h2>
+        <section id="s2">
+            <h2 id="s2t">Aktivitet 2: Gruppdiskussion</h2>
             
-            <p>After watching the video, you are invited to discuss the topic in small groups (3-4 members).</p>
+            <p>Efter att ha sett videon, diskutera ämnet i små grupper.</p>
 
             <ol>
-                <li>Please, express your thoughts and feelings about the issues presented in the video to your peers.</li>
-                <li>As a group, you are invited to choose one of the issues (from the introductory video) for further exploration or/and look at other myths, ideas and issues (see below) that could be of interest to your group.</li>
+                <li>Berätta om dina tankar och känslor gällande de frågor som presenteras i videon för de andra.</li>
+                <li>Som grupp ska ni välja en av frågorna från introduktionsvideon eller andra myter och idéer (se nedan) för vidare utforskning.</li>
             </ol>
             
             <h3>
-                Some myths and ideas about space
+                Några myter och idéer om rymden
             </h3>
             
             <ul>
-                <li><span class="text-rose-400 font-bold">Myth 1:</span> Astronauts orbiting Earth are weightless because they are far from Earth.</li>
-                <li><span class="text-rose-400 font-bold">Myth 2:</span> Eating requires gravity for food to move to our stomach. Astronauts need special training to eat in microgravity (in a space station).</li>
-                <li><span class="text-rose-400 font-bold">Myth 3:</span> Space travel will soon be stopped by space debris.</li>
-                <li><span class="text-rose-400 font-bold">Myth 4:</span> Aliens visit the Earth with unidentified flying objects (UFOs), but the governments and astronauts hide UFO evidence from us</li>
-                <li><span class="text-rose-400 font-bold">Myth 5:</span> Space flights contribute to atmospheric pollution and global warming</li>
-                <li><span class="text-rose-400 font-bold">Myth 6:</span> Humans should colonise Mars to ensure our future survival</li>
-                <li><span class="text-rose-400 font-bold">Myth 7:</span> There is life elsewhere in the Universe</li>
-                <li><span class="text-rose-400 font-bold">Myth 8:</span> Space waste cannot be safely removed</li>
-                <li><span class="text-rose-400 font-bold">Myth 9:</span> A spaceship needs a rocket engine working all the time on the way to Mars.</li>
-                <li><span class="text-rose-400 font-bold">Myth 10:</span> Rockets need air (atmosphere) to push against.</li>
-                <li><span class="text-rose-400 font-bold">Myth 11:</span> Microgravity in a space station orbiting Earth damages astronauts' health.</li>
-                <li><span class="text-rose-400 font-bold">Myth 12:</span> Hypergravity during launch and landing damages the astronauts' health.</li>
-                <li><span class="text-rose-400 font-bold">Myth 13:</span> Cosmic radiation is dangerous for astronauts on the ISS.</li>
+                <li><span class="text-rose-400 font-bold">Myt 1:</span> Astronauter som kretsar runt jorden är viktlösa eftersom de är långt från jorden.</li>
+                <li><span class="text-rose-400 font-bold">Myt 2:</span> Att äta kräver gravitation för att maten ska komma ner till magsäcken. Astronauter behöver specialutbildning för att äta i mikrogravitation (i en rymdstation).</li>
+                <li><span class="text-rose-400 font-bold">Myt 3:</span> Rymdresor kommer snart att stoppas av rymdskräp.</li>
+                <li><span class="text-rose-400 font-bold">Myt 4:</span> Utomjordingar besöker jorden med oidentifierade flygande objekt (UFO), men regeringarna och astronauterna döljer UFO-bevis för oss</li>
+                <li><span class="text-rose-400 font-bold">Myt 5:</span> Rymdfärder bidrar till luftföroreningar och global uppvärmning</li>
+                <li><span class="text-rose-400 font-bold">Myt 6:</span> Människor borde kolonisera Mars för att säkerställa vår framtida överlevnad</li>
+                <li><span class="text-rose-400 font-bold">Myt 7:</span> Det finns liv någon annanstans i universum</li>
+                <li><span class="text-rose-400 font-bold">Myt 8:</span> Rymdavfall kan inte tas bort från rymden på ett säkert sätt</li>
+                <li><span class="text-rose-400 font-bold">Myt 9:</span> För att ta sig till Mars, måste ett rymdskepp ha en raketmotor igång på hela vägen</li>
+                <li><span class="text-rose-400 font-bold">Myt 10:</span> Raketer behöver luft (atmosfär) som skapar en motkraft för att fungera</li>
+                <li><span class="text-rose-400 font-bold">Myt 11:</span> Den svaga gravitation (mikrogravitation) som är i rymdstationen ISS som kretsar runt jorden, är skadlig för astronauternas hälsa</li>
+                <li><span class="text-rose-400 font-bold">Myt 12:</span> Den stora gravitation (hypergravitation) som sker under raketfarkostuppskjutning och landning är skadligt för astronauters hälsa</li>
+                <li><span class="text-rose-400 font-bold">Myt 13:</span> Kosmisk strålning är farlig för astronauterna på ISS</li>
             </ul>
 
             <p>
-                Is there another space-related myth or issue that you would like to explore? Check with your teacher.
+                Någon annan myt om rymden som kanske kan undersökas? Kolla med läraren.
             </p>
         </section>
 
@@ -114,9 +114,9 @@
 
             <section id="s-3">
                 <h2 id="s-3-title">
-                    Activity 3: Mythbusting/ Investigation
+                    Aktivitet 3: Undersökning/ Mythbusting
                 </h2>
-                <ModulesSpaceStudentActivityEn />
+                <ModulesSpaceStudentActivitySv />
             </section>
             
             

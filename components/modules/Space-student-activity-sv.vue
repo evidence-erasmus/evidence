@@ -2,20 +2,20 @@
     <div>
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Group decision - We are going to examine the following myth or study the issue:</label>
+        <label class="font-bold block">Gruppbeslut: Vi kommer att undersöka följande myt eller frågan:</label>
         
         <textarea class="textarea textarea-bordered w-full text-lg" v-model="studentInputs.myth" placeholder="✍"></textarea>
 
         <hr />
 
         <p>
-            You are now invited to narrow down the myth/issue into a testable hypothesis - a statement that can be tested or a question that can be answered through your investigation. 
+            Begränsa myten/frågan till en testbar hypotes. Tänk på att en hypotes inte bara är en gissning – den måste vara testbart – du kan stödja eller motbevisa den genom din studie.
         </p>
         <p>
-            Plan your further activities following the steps given in Figure 1. You should consider whether your myth/issue can be tested experimentally, confirmed/falsified using digital technology, for example, mobile phone Apps, computer models and simulations, or using secondary evidence (e.g., published information or available in the form of YouTube videos). You can use more than one of these methods, applying the so-called triangulation principle – increasing the validity of your findings through the convergence of information from different sources.
+            Planera dina fortsatta aktiviteter genom att följa stegen som anges i figur 1. Går det att testa din myt/fråga experimentellt? Ska ni bekräfta/motbevisa den med digital teknik, till exempel datorsimuleringar, eller med hjälp av information från Internet.
         </p>
         
-        <h4>In this activity, you are expected to do the following:</h4>
+        <!-- <h4>In this activity, you are expected to do the following:</h4>
         <ul class="leading-tight">
             <li>develop a testable hypothesis/ research question,</li>
             <li>plan your simple experiment or search for relevant information that will confirm or falsify your hypothesis/ answer your research question,</li>
@@ -27,7 +27,7 @@
         
         <p>
             While doing this, please consider sharing the workload equally within your group. 
-        </p>
+        </p> -->
 
 
 
@@ -35,7 +35,7 @@
 
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block">Our hypothesis / research question is:</label>
+        <label class="font-bold block">Vår hypotes/ forskningsfråga är:</label>
 
         <textarea class="textarea textarea-bordered w-full text-lg" rows="4" v-model="studentInputs.hypothesis" placeholder="✍"></textarea>
 
@@ -43,14 +43,11 @@
         <hr />
         
 
-        <h3>Plan of activities</h3>
-        <p>
-            (you could indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, please, who is responsible for what).
-        </p>
-        
+        <h3>Plan över aktiviteter</h3>
+            
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500" />
         <label for="planOfActivities" class="block mb-2 mt-2">
-            <b>Write your plan here:</b>
+            <b>Skriv ner vem som är ansvarig för vad:</b>
         </label>
         <textarea id="planOfActivities" class="textarea textarea-bordered block w-full text-lg mb-8" placeholder="✍️" rows="5"
         v-model="studentInputs.planOfActivities"></textarea>
@@ -70,7 +67,11 @@
         <label class="font-bold block mt-8">Your research results:</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea> -->
 
-        <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool.</p>
+        <p>
+            Använd <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm  btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" /> detta verktyg</NuxtLink> för att söka information och bedöma dess tillförlitlighet.
+            <br />
+            Skriv sammanfattningen av dina resultat här.
+        </p>
 
         <ToolsReliabilityTable class="mb-8"
             :store-to-update="studentInputs" 
@@ -80,7 +81,7 @@
         <hr />
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Based on the experiment, our conclusion(s) is/are:</label>
+        <label class="font-bold block">Baserat på de givna bevisen är våra slutsatser:</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.conclusions" placeholder="✍"></textarea>
 
 

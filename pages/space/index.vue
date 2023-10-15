@@ -1,13 +1,13 @@
 <template>
     <div>
         <template v-if="locale === 'et'">
-            <ModulesSpaceEn />
+            <ModulesSpaceEt />
         </template>
         <template v-else-if="locale === 'el'">
             <ModulesSpaceEn />
         </template>
         <template v-else-if="locale === 'pt'">
-            <ModulesSpaceEn />
+            <ModulesSpacePt />
         </template>
         <template v-else-if="locale === 'sv'">
             <ModulesSpaceSv />
