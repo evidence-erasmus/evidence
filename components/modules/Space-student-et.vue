@@ -116,7 +116,7 @@
                 <h2 id="s-3-title">
                     Tegevus 3: Müüdimurdmine / uurimine
                 </h2>
-                <ModulesSpaceStudentActivityEn />
+                <ModulesSpaceStudentActivityEt />
             </section>
             
             
