@@ -13,7 +13,7 @@
         xl:gap-10
         2xl:gap-20">
         <ClientOnly>
-            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" />
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="space-student-pt" />
         </ClientOnly>
 
 

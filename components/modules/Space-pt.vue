@@ -343,7 +343,7 @@
                         <tr>
                             <td><b>Atividade 6</b></td>
                             <td>
-                                O professor sugere uma questão específica relativa a prioridades no desenvolvimento de capacidades e infraestruturas de voos espaciais (ver, por exemplo, o caso da Suécia). Os alunos discutem, produzem argumentos e tomam decisões no formato de um jogo de debate (role-play). 
+                                O professor sugere uma questão específica relativa a prioridades no desenvolvimento de capacidades e infraestruturas de voos espaciais (ver, por exemplo, o <button class="btn btn-sm btn-accent" @click="toggleModal('space__swedish-case')"><Icon name="mdi:open-in-new" size="20" />caso da Suécia</button>). Os alunos discutem, produzem argumentos e tomam decisões no formato de um jogo de debate (role-play). 
                                 <br />
                                 Como alternativa mais curta, o <button class="btn btn-sm btn-accent" @click="toggleModal('space__exploration-debate')"><Icon name="mdi:open-in-new" size="20" /> Debate sobre a Exploração Espacial</button> − pode ser implementado apenas durante uma aula.
                             </td>
@@ -681,39 +681,64 @@
         <teleport to="#theEnd" v-if="userPrefs.modalOpen === true && userPrefs.modalName === 'space__water-rocket'">
             <UiDrawer>
                 <h2>
-                    Veeraketi ehitamine ja väljalaskmine
+                    Construir e lançar um foguetão de água
                 </h2>
 
                 <p>
-                    Tõenäoliselt olete juba PET-pudelist veeraketi ehitanud.
+                    Provavelmente já construiu um foguetão de água a partir de uma garrafa PET. 
                     <br />
-                    Vajalikud materjalid: 
+                    Materiais necessários: 
                     <ul class="leading-tight">
                         <li>
-                            suurem (1,5 l) PET pudel
+                            uma garrafa PET maior (1,5 l), 
                         </li>
                         <li>
-                            veinikork (võib olla plast)
+                            uma rolha de vinho (pode ser de plástico), 
                         </li>
                         <li>
-                            jalgratta klapp
+                            uma válvula de bicicleta, 
                         </li>
                         <li>
-                            plastvoolik, mis sobib jalgratta klapile
+                            uma mangueira de plástico que encaixe na válvula da bicicleta, 
                         </li>
                         <li>
-                            võimalik, et mõni terastraat ja võimas jalgrattapump või jalgpump
+                            possivelmente um pouco de fio de aço e uma bomba de bicicleta potente ou uma bomba de pé. 
                         </li>
                     </ul>
                 </p>
                 <p>
-                    Puurige ettevaatlikult läbi korgi auk, mille läbimõõt on veidi väiksem kui voolik. Lükake voolik läbi augu nii, et see ulatuks ühelt poolt 1–2 cm välja ja kinnitage jalgratta ventiil vooliku teise otsa. Kui klapp on lahti, võite terastraati kasutada voolikuklambrina – sel juhul keerake see tangidega tihedalt kinni. Järgmiseks on vaja valmistada stardiplatvorm nii, et rakett seisaks kindlalt.
+                    Faça cuidadosamente um furo na rolha, com um diâmetro um pouco mais pequeno do que o da mangueira. Empurre a mangueira através do buraco de modo a que sobressaia 1-2 cm de um lado e prenda a válvula da bicicleta à outra extremidade da mangueira. Se a válvula estiver solta, pode utilizar o fio de aço como braçadeira da mangueira - nesse caso, enrole-o firmemente com um alicate. Em seguida, é necessário fabricar uma rampa de lançamento para que o foguetão fique bem firme. 
                 </p>
                 <p>
-                    Täitke pudel kolmandiku osas veega, sisestage kork, asetage rakett stardiplatvormile, ühendage pump ventiiliga ja pumbake. Pudelisse tekib ülerõhk. Sinna on salvestunud pumba töö energia kujul. Lõpuks läheb rõhk nii suureks, et ületab korgi ja pudelikaela hõõrdumise ning kork tuleb ära. Salvestatud energia vabaneb, vesi surutakse tohutu jõuga välja ja rakett lendab minema. Võite proovida oma raketti käivitada erineva "kütuse koostisega" - palju vähem vett või lihtsalt pudelis oleva õhuga ja vaadata, kuidas see raketi lennuvõimet mõjutab.
+                    Encher a garrafa até um terço com água, inserir a rolha, colocar o foguetão na plataforma de lançamento, ligar a bomba à válvula e bombear. A pressão extra do ar acumula-se na garrafa, é a energia da bomba que é armazenada. No final, a pressão torna-se tão elevada que ultrapassa a fricção entre a rolha e o gargalo da garrafa, e a rolha sai. A energia armazenada é libertada, a água é empurrada para fora com uma força enorme e o foguetão voa. Podes tentar lançar o teu foguetão com diferentes "composições de combustível" - muito menos água ou apenas com ar na garrafa - e ver como isso influencia a capacidade de voo do foguetão.
                 </p>
                 <p>
-                    <a href="https://www.scienceprojectideas.org/water-bottle-rocket.htm" target="_blank" rel="noopener noreferrer">Veeraketi ehitamine</a>
+                    <a href="https://www.scienceprojectideas.org/water-bottle-rocket.htm" target="_blank" rel="noopener noreferrer">Construir um foguetão de água</a>
+                </p>
+            </UiDrawer>
+        </teleport>
+
+
+        <teleport to="#theEnd" v-if="userPrefs.modalOpen === true && userPrefs.modalName === 'space__swedish-case'">
+            <UiDrawer>
+                <h2>
+                    Um caso do programa espacial sueco
+                </h2>
+
+                <p>
+                    A exploração espacial é um domínio sócio científico e tecnológico em desenvolvimento ativo na Suécia. O desenvolvimento técnico é efetuado sob a égide do <a href="https://sscspace.com/about-ssc/ssc-company-presentations/" target="_blank" rel="noopener noreferrer">Swedish Space Corporation</a> (SSC) criada há mais de cinquenta anos (em 1972), que tem atualmente ligações comerciais em todo o mundo. A SSC fornece ligações de comunicação para controlo de satélites, apoio ao lançamento, serviços de dados de carga útil e teleportos. Através da rede global de estações terrestres da SSC, os clientes têm acesso às suas naves espaciais na maioria das altitudes e inclinações de órbita, desde <a href="https://en.wikipedia.org/wiki/Low_Earth_orbit" target="_blank" rel="noopener noreferrer">Low Earth Orbit</a> (LEO) para o espaço lunar e profundo.
+                </p>
+                <p>
+                    O SSC presta apoio a voos de aeronaves parabólicas para experiências científicas e tecnológicas em gravidade reduzida. Trata-se de uma forma económica e flexível de verificar a funcionalidade das experiências e a afinação dos parâmetros antes de as experiências serem levadas para o espaço. 
+                </p>
+                <p>
+                    A SSC opera o Centro Espacial de Esrange, situado a 40 km da cidade de Kiruna, no extremo norte da Suécia, acima do Círculo Polar Ártico, que tem acesso a uma vasta área terrestre de impacto e recuperação, despovoada, com 5200 quilómetros quadrados. É também utilizado para testar motores de foguetões e veículos aéreos não tripulados (UAV).
+                </p>
+                <p>
+                    Em janeiro de 2023, foi inaugurado um novo complexo de lançamento no porto espacial de Esrange, capaz de lançar foguetões para LEO com uma carga útil de satélites e até missões espaciais humanas. Este é o primeiro complexo de lançamento orbital da UE continental, oferecendo uma porta de entrada europeia independente para o espaço. A iniciativa europeia de foguetões reutilizáveis - o programa Themis - encomendada pela Agência Espacial Europeia (ESA) e liderada pelo ArianeGroup será a primeira a entrar em funcionamento no porto espacial de Esrange em 2023.
+                </p>
+                <p>
+                    A SSC também manifestou o seu interesse em organizar missões de turismo espacial a partir de Esrange, onde os turistas poderiam voar para ver a Aurora Boreal. Este projeto poderia ser complementar, em muitos aspetos, aos portos espaciais do Sul.
                 </p>
             </UiDrawer>
         </teleport>
