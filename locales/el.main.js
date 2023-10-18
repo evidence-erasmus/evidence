@@ -16,21 +16,33 @@ export default{
   message: "Hello from external",
   modules: {
     toc: "Πίνακας περιεχομένων",
+    title: "Modules in Greek",
+    for_teachers: "Δάσκαλοι",
+    for_students: "Φοιτητές",
     background_info: "ΥΠΌΒΑΘΡΟ",
     climateChange: {
-      description: "Climate change description ing Greek",
-      title: "Climate Change in Greek"
+      description: "Climate change description in Greek",
+      title: "Κλιματική αλλαγή"
     },
-    for_students: "Φοιτητές",
-    for_teachers: "Δάσκαλοι",
     radiation: {
       description: "Radiation module description in Greek",
       title: "Ακτινοβολία"
     },
-    title: "Modules in Greek",
     viruses: {
       description: "Viruses module description in Greek",
-      title: "Viruses GR"
+      title: "Ιοί"
+    },
+    space: {
+      description: "Description in Greek",
+      title: "Διάστημα"
+    },
+    evolution: {
+      description: "Description in Greek",
+      title: "❌"
+    },
+    drugs: {
+      description: "Description in Greek",
+      title: "Ναρκωτικά"
     }
   },
   print: {
