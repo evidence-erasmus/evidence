@@ -1,7 +1,7 @@
 <template>
     <div>
         <template v-if="locale === 'et'">
-            <ModulesDrugsBackgroundEn />
+            <ModulesDrugsBackgroundEt />
         </template>
         <template v-else-if="locale === 'el'">
             <ModulesDrugsBackgroundEn />
