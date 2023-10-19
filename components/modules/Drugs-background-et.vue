@@ -20,7 +20,7 @@
                     Moodul keskendub peamiselt kanepile ning sellest toodetud narkootikumitele. Alternatiivne tegevusliin, mida selles moodulis uurida, on skandaalne aine nimega MMS (Miracle Mineral Solution), mis on kloordioksiidi vesilahuse kaubamärgi nimetus, mida ühtlasi kasutatakse tööstusliku pleegitusainena, mida aga on ekslikult reklaamitud mitmete haiguste, sealhulgas HIV-i, vähi, COVID-19, külmetushaiguste aga ka autismi ravimina.
                 </p>
                 <p>
-                    Allpoololevast tekstist leiab selgitused järgmistele probleemidele/väidetele/müütidele.
+                    Allpoololevast tekstist leiab selgitused järgmistele probleemidele / väidetele / müütidele.
                 </p>
                 <h4>
                     <a href="#s2">Mis on kanep?</a>
@@ -48,7 +48,7 @@
                         <a href="#myth-7">Müüt nr 7: Kanepiga ei saa üledoosi</a>
                     </li>
                     <li class="my-0">
-                        <a href="#myth-8">Müüt nr 9: Kanepisuits on ohutu</a>
+                        <a href="#myth-8">Müüt nr 8: Kanepisuits on ohutu</a>
                     </li>
                 </ul>
 
@@ -63,12 +63,12 @@
                         <a href="#miracle-drug">MMS-i kui “imeravimi” turundamine</a>
                     </li>
                     <li class="my-0">
-                        <a href="#myth-9">MMS ja valeväited COVID-19 ravivõimete kohta</a>
+                        <a href="#myth-9">MMS ja valeväited COVID-19 ravi kohta</a>
                     </li>
                     <li class="my-0">
                         <a href="#myth-10">MMS ja valeväited tema muude ravivõimete kohta</a>
                     </li>
-                    <li>
+                    <li class="my-0">
                         <a href="#myth-11">Müüt nr 11: MMS aitab langetada kehakaalu</a>
                     </li>
                 </ul>

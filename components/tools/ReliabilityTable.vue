@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <button v-if="addButton" @click="storeToUpdate.addReliabilityRow" class="btn btn-sm btn-neutral mt-3">{{ t('inquiry.reliability_table.add_row') }}</button>
+        <button v-if="addButton" @click="storeToUpdate.addReliabilityRow" class="btn btn-sm btn-neutral mt-3"><Icon name="mdi:plus-circle" style="font-size:140%" /> {{ t('inquiry.reliability_table.add_row') }}</button>
     </section>
 </template>
 

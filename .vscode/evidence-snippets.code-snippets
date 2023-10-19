@@ -54,7 +54,7 @@
 		]
 	},
 	"linkWithTooltip": {
-		"prefix": "att",
+		"prefix": "linkWithT",
 		"description": "Link with tooltip",
 		"scope": "",
 		"body": [
