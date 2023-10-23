@@ -33,7 +33,7 @@
                 <p>
                     I denna modul uppmanas du att reflektera över strålningsrelaterade rädslor och motbevisa eller bekräfta myter om olika former av strålning. Utgå från en introduktionsvideo där några strålningsrelaterade rädslor och myter tas upp och diskutera dem i grupp. Gruppdiskussion kommer att leda till val av en nybearbetningsaktivitet där du kommer att leta efter bevis för att motbevisa eller bekräfta en vald myt. Denna aktivitet kan utföras experimentellt eller med hjälp av så kallade sekundära bevis (information från vetenskaplig litteratur och pålitliga källor on the internet). Genom denna aktivitet lär du dig att bedöma tillförlitligheten hos informationskällor (vetenskapliga databaser, populärvetenskap, andra medier). Du måste först ställa en testbar hypotes (se Figur 1). 
                 </p>
-                <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
+                <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-sv.webp" />
                 <p>
                     Efter att ha hittat bevis och dragit slutsatser kommer du att förbereda en presentation av dina resultat för klasskamraterna (eller annan publik) på ett relevant och övertygande sätt (till exempel i form av videoinlägg eller PowerPoint-presentation). Modulen avslutas med ett rollspel om strålningsfrågor relaterade till kärnkraft där du kan ta ställning och föreslå lösningar med hjälp av vetenskaplig kunskap och personliga värderingar som tillskrivs till olika roller i spelet.
                 </p>

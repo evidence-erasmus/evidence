@@ -117,7 +117,7 @@
                 <h2 id="s-3-title">
                     Δραστηριότητα 3: Διαπραγμάτευση Μύθου
                 </h2>
-                <ModulesSpaceStudentActivityEt />
+                <ModulesSpaceStudentActivityEl />
             </section>
             
             

@@ -68,7 +68,7 @@
         <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea> -->
 
         <p>
-            Använd <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm  btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" /> detta verktyg</NuxtLink> för att söka information och bedöma dess tillförlitlighet.
+            Använd <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm  btn-neutral text-white no-underline"><Icon name="mdi:tools" size="20" /> detta verktyg</NuxtLink> för att söka information och bedöma dess tillförlitlighet.
             <br />
             Skriv sammanfattningen av dina resultat här.
         </p>

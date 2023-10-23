@@ -295,7 +295,7 @@
             <p><b>Formativ:</b></p>
             <ul>
                 <li>Muntlig/skriftlig återkoppling från läraren (baserad på observationer, ställda frågor etc.) under hela modulen, under experimenten och andra former av individuellt/grupparbete.</li>
-                <li>Peer-feedback (på gruppresentationen med hjälp av följande <NuxtLink to="./tools/peer-feedback" target="_blank">verktyg</NuxtLink> och självutvärdering efter det sista debattrollspelet).</li>
+                <li>Peer-feedback (på gruppresentationen med hjälp av följande <NuxtLink to="../tools/peer-feedback" target="_blank">verktyg</NuxtLink> och självutvärdering efter det sista debattrollspelet).</li>
                 <li>Muntlig/ skriftlig återkoppling från läraren på individuella/ grupparbetsblad.</li>
             </ul>
             
@@ -346,7 +346,7 @@
                     <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">Introduktionsvideo</a> syftar till att väcka frågor och stimulera till reflektioner. Efter att ha valt en video för grupparbete <b>(Activity 1)</b>, kan eleverna undersöka en av de identifierade myterna eller frågorna relaterade till olika aspekter av mänsklig rymdfärd och utforska vanliga missuppfattningar, risker och rädslor.
                 </p>
                 <p>
-                    Läraren kan här med fördel introducera raketmotorns funktion och relaterade miljöfrågor. En avsikt är att vidga elevernas syn på vetenskapen bakom rymdutforskning och få dem att uppmärksamma några myter och frågor relaterade till rymden. Aktiviteterna avser också att uppmuntra eleverna att ta vara på sina förkunskaper och dela sina föreställningar och åsikter om rymdutforskning med sina klasskamrater <b>(Aktivitet 2)</b>. <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">Faktavideorna</a> kan demonstreras i detta steg för att lyfta fram och bredda elevernas  uppfattningar av rymdrelaterade ämnen, koncept och principer. Utvalda delar från <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">vetenskaplig bakgrundsinformation</a> kan åberopas vid behov.
+                    Läraren kan här med fördel introducera raketmotorns funktion och relaterade miljöfrågor. En avsikt är att vidga elevernas syn på vetenskapen bakom rymdutforskning och få dem att uppmärksamma några myter och frågor relaterade till rymden. Aktiviteterna avser också att uppmuntra eleverna att ta vara på sina förkunskaper och dela sina föreställningar och åsikter om rymdutforskning med sina klasskamrater <b>(Aktivitet 2)</b>. <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">Faktavideorna</a> kan demonstreras i detta steg för att lyfta fram och bredda elevernas  uppfattningar av rymdrelaterade ämnen, koncept och principer. Utvalda delar från <NuxtLink to="./space/background">vetenskaplig bakgrundsinformation</NuxtLink> kan åberopas vid behov.
                 </p>
 
                 <p>
@@ -445,7 +445,7 @@
                 </p>
 
                 <p>
-                    Dessa kriterier kan användas för självbedömning under arbetsprocessen, och för kamratbedömning när resultat presenteras och diskuteras (Aktivitet 5). Eleverna kan använda följande (<NuxtLink to="./tools/peer-feedback" target="_blank">bedömningsverktyg </NuxtLink>) för att ge feedback till, eller få den från, de andra grupperna.
+                    Dessa kriterier kan användas för självbedömning under arbetsprocessen, och för kamratbedömning när resultat presenteras och diskuteras (Aktivitet 5). Eleverna kan använda följande (<NuxtLink to="../tools/peer-feedback" target="_blank">bedömningsverktyg</NuxtLink>) för att ge feedback till, eller få den från, de andra grupperna.
                 </p>
 
                 <p>

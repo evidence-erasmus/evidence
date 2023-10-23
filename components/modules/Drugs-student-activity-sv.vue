@@ -61,7 +61,7 @@
 
 
         <p>
-            Använd detta <NuxtLink to="../tools/reliability-assessment" target="_blank" class=""><Info name="mdi:tools" size="20"></Info> verktyg</NuxtLink> för att söka information och bedöma dess tillförlitlighet
+            Använd detta <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyg</NuxtLink> för att söka information och bedöma dess tillförlitlighet.
         </p>
         <p>
             Skriv en sammanfattning av dina resultat till följande tabell:

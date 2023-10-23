@@ -72,7 +72,7 @@
 
 
     
-        <p>Du förväntas nu hitta bevis från sekundära källor för att bekräfta dina egna fynd med hjälp av följande verktyg.</p>
+        <p>Du förväntas nu hitta bevis från sekundära källor för att bekräfta dina egna fynd med hjälp av följande <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyg</NuxtLink>.</p>
 
         <ToolsReliabilityTable class="mb-8"
             :store-to-update="studentInputs" 

@@ -9,12 +9,12 @@
 
         <section class="e-article" lang="sv" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
-            <h1 class="mb-0">Drogar</h1>
+            <h1 class="mb-0">Droger</h1>
             <h5 class="font-normal uppercase leading-tight">Vetenskaplig bakgrundsinformation</h5>
         
             
             <section id="s-1">
-                <h2 id="s-1t">Introduction</h2>
+                <h2 id="s-1t">Introduktion</h2>
                 
                 <p class="mt-20">
                     Modulen är inriktad på cannabis (även känd som marijuana, bland andra namn), som är en psykoaktiv drog från cannabisväxten. 

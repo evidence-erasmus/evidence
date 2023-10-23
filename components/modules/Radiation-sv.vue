@@ -237,7 +237,7 @@
                         <b>Formativ:</b>
                         <ul>
                             <li>Muntlig/skriftlig återkoppling från läraren (baserad på observationer, ställda frågor etc.) under hela modulen, under experimenten och andra former av individuellt/grupparbete.</li>
-                            <li>Peer-feedback (på gruppresentationen med hjälp av följande <nuxt-link target="_blank" to="/tools/peer-feedback">verktyg</nuxt-link>  och självvärdering efter debattspelet).</li>
+                            <li>Peer-feedback (på gruppresentationen med hjälp av följande <NuxtLink to="../tools/peer-feedback" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyg</NuxtLink> och självvärdering efter debattspelet).</li>
                             <li>Muntlig/skriftlig feedback från läraren på individuella/grupparbetsblad.</li>
                         </ul>
                     </li>
@@ -324,7 +324,7 @@
                     </li>
                 </ol>
                 <p>
-                    För att kommunicera sina resultat vägleds eleverna att producera en visuell presentation av sina slutsatser <b>(Aktivitet 4)</b>. Video kan vara ett intressant alternativ. För detta ändamål kan eleverna använda en <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videohandledning</a>. Studentmaterial är också försett med kriterier som videon ska uppfylla när den är klar. Dessa kriterier kan användas formativt för självbedömning under processen, och för kamratbedömning när videon presenteras och de svarar på frågor från sina klasskamrater och läraren (Aktivitet 5). Eleverna kan använda följande <nuxt-link to="/tools/peer-feedback" target="_blank">bedömningsverktyg</nuxt-link> för att ge feedback till, eller få den från, de andra grupperna.
+                    För att kommunicera sina resultat vägleds eleverna att producera en visuell presentation av sina slutsatser <b>(Aktivitet 4)</b>. Video kan vara ett intressant alternativ. För detta ändamål kan eleverna använda en <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videohandledning</a>. Studentmaterial är också försett med kriterier som videon ska uppfylla när den är klar. Dessa kriterier kan användas formativt för självbedömning under processen, och för kamratbedömning när videon presenteras och de svarar på frågor från sina klasskamrater och läraren (Aktivitet 5). Eleverna kan använda följande <NuxtLink to="../tools/peer-feedback" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> bedömningsverktyg</NuxtLink> för att ge feedback till, eller få den från, de andra grupperna.
                 </p>
                 <p>
                     I den sista aktiviteten <b>(Aktivitet 6)</b> kommer socialt-akuta frågor relaterade till joniserande strålning och kärnenergi att diskuteras. Förslag på debattrollspel presenteras i elevmaterialet. Den kan fritt anpassas till en viss utbildningskontext. Lärare kan bestämma vilken typ av bedömning som ska användas för att uppmuntra elevernas idéer och argument. Baserat på lärdomarna från de tidigare stadierna, kommer eleverna att ha en möjlighet att reflektera över sina vetenskapliga kunskaper, men också över sina personliga och sociala värderingar. 

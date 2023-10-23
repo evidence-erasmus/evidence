@@ -48,7 +48,7 @@
 
         <h3>Realiability check</h3>
         <p>
-            PAnvänd detta verktyg för att söka information och bedöma dess tillförlitlighet <br />
+            Använd detta <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyg</NuxtLink> för att söka information och bedöma dess tillförlitlighet <br />
         </p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>

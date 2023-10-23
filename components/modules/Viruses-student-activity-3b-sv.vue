@@ -6,7 +6,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Gruppbeslut - vi kommer att motbevisa följande myt:</label>
         
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth"></textarea>
 
         <hr />
 
@@ -24,8 +24,7 @@
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Vår hypotes / forskningsfråga är:</label>
-
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis"></textarea>
 
 
         <hr />
@@ -38,30 +37,31 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Skriv din plan här:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan"></textarea>
 
 
         <hr />
 
         <h3>Reliability check</h3>
         <p>
-            Använd det här verktyget för att söka information och bedöma dess tillförlitlighet
+            Använd det här <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyget</NuxtLink> för att söka information och bedöma dess tillförlitlighet
         </p>
 
-        <div class="e-card w-[90vw] mb-8" style="transform:translateX(-5vw)">
+        <div class="e-card mb-8">
                 <ToolsReliabilityTable :storeToUpdate="studentInputs" 
-                
+                :addRow = "true" 
                 key="virus3breliability" />
             </div>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Baserat på de givna bevisen är våra slutsatser:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bConclusion"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bConclusion"></textarea>
         
+        <hr />
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Gör ett uttalande om huruvida den valda myten bekräftas eller förkastas baserat på den utförda undersökningen:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bStatement"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bStatement"></textarea>
 
 
     </div>

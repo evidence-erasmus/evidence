@@ -11,8 +11,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
-        
-        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
         <hr />
 
@@ -24,10 +23,10 @@
         <ul class="leading-tight">
             <li>Narrow down your myth into a <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">testable hypothesis</a>/research question.</li>
             <li>Design an experiment that will confirm or falsify your hypothesis/ answer your research question.</li>
-            <li>Present your collected data in tables and graphs, and preferably, videotape your experiment as evidence
+            <li>Present your collected data in tables and graphs, and preferably, videotape your experiment as evidence 
                 <br />
-                <a href="#" class="inline-block my-2 py-0.5 px-2 ring-2 ring-slate-700 rounded no-underline"
-                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" /> look at the tutorial</a>
+                look at <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
+                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> the tutorial</a>
             </li>
             <li>Explain your results using scientific evidence.</li>
             <li>Use your results to form a conclusion.</li>
@@ -38,8 +37,7 @@
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Our hypothesis / research question is:</label>
-
-        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
 
         <hr />
@@ -55,7 +53,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Define research variables:</label>
 
-        <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
+        <div class="e-card mb-8">
             <ToolsDynamicTableFull
                 :tableStructure="tm('inquiry.variables_table')"
                 :storeToUpdate="studentInputs"
@@ -66,7 +64,7 @@
         </div>
 
         <label class="font-bold block mt-8">Your research results:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
 
 
         <hr />
@@ -74,7 +72,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Based on the experiment, our conclusion(s) is/are:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
 
         <hr />
@@ -84,11 +82,11 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Write a short summary of your findings here:</label>
-        <p class="italic">
+        <p class="italic mt-0">
             Did secondary data confirm your findings? If not, what do you think why?<br />
             Please make a statement conclusion on whether the selected myth is confirmed or rejected based on your findings.
         </p>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
 
     </div>
 </template>

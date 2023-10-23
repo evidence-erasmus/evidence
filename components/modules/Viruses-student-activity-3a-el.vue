@@ -11,8 +11,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Απόφαση Ομάδας - Θα διαπραγματευτούμε τον ακόλουθο μύθο:</label>
-        
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
         <hr />
 
@@ -26,8 +25,8 @@
             <li>σχεδιάστε ένα πείραμα που θα επιβεβαιώσει ή θα απορρίψει την υπόθεσή σας/ θα απαντήσει στο ερευνητικό σας ερώτημα</li>
             <li>παρουσιάστε τα δεδομένα που έχετε συλλέξει με τη μορφή πινάκων και γραφημάτων και, κατά προτίμηση, βιντεοσκοπήστε το πείραμά σας ως τεκμήριο (δείτε το σχετικό
                 <br />
-                <a href="#" class="inline-block my-2 py-0.5 px-2 ring-2 ring-slate-700 rounded no-underline"
-                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" />βίντεο</a>)
+                <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
+                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> βίντεο</a> )
             </li>
             <li>εξηγήστε τα αποτελέσματά σας χρησιμοποιώντας τεκμήρια</li>
             <li>χρησιμοποιήστε τα αποτελέσματά σας για να διατυπώσετε ένα συμπέρασμα</li>
@@ -37,8 +36,7 @@
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Η υπόθεσή μας/το διερευνήσιμο μας ερώτημα είναι:</label>
-
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
 
         <hr />
@@ -54,7 +52,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Ορίστε τις μεταβλητές</label>
 
-        <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
+        <div class="e-card mb-8">
             <ToolsDynamicTableFull
                 :tableStructure="tm('inquiry.variables_table')"
                 :storeToUpdate="studentInputs"
@@ -65,7 +63,7 @@
         </div>
 
         <label class="font-bold block mt-8">Τα αποτελέσματά σας:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
 
 
         <hr />
@@ -73,7 +71,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Με βάση το πείραμα, το/τα συμπέρασμα(τα) μας είναι:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
 
         <hr />
@@ -83,11 +81,11 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Γράψετε μια σύντομη περίληψη των ευρημάτων σας εδώ:</label>
-        <p class="italic">
+        <p class="italic mt-0">
             Τα δευτερεύοντα δεδομένα επιβεβαίωσαν τα ευρήματά σας; Εάν όχι, γιατί πιστεύετε;<br />
             Παρακαλούμε όπως δηλώσετε εάν ο μύθος που επιλέξατε επιβεβαιώθηκε ή απορρίφθηκε βάση των ευρημάτων σας.
         </p>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
 
     </div>
 </template>

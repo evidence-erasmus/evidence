@@ -6,7 +6,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Απόφαση Ομάδας - Θα διαπραγματευτούμε τον ακόλουθο μύθο:</label>
         
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth" placeholder="✍️"></textarea>
 
         <hr />
 
@@ -25,7 +25,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Η υπόθεσή μας/το ερευνητικό μας ερώτημα είναι:</label>
 
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis" placeholder="✍️"></textarea>
 
 
         <hr />
@@ -38,7 +38,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Γράψετε την πορεία δραστηριοτήτων εδώ:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan" placeholder="✍️"></textarea>
 
 
         <hr />
@@ -62,13 +62,13 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) μας είναι:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bConclusion" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bConclusion" placeholder="✍️"></textarea>
 
         <hr />
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Δηλώστε εάν ο μύθος που επιλέξατε επιβεβαιώθηκε ή απορρίφθηκε βάση των ευρημάτων σας.</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bStatement" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bStatement" placeholder="✍️"></textarea>
 
 
 

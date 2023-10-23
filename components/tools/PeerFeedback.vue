@@ -165,7 +165,7 @@
             "Bevisen hämtades från tillförlitliga källor",
             "Budskapet i presentationen är tydligt",
             "Redovisningen fick mig att ändra min uppfattning om myten",
-            "Redovisningen är snygg gjort",
+            "Redovisningen är snyggt gjort",
             "Gruppen kunde svara på de ställda frågorna"
         ],
         "button-title" : "PRINT",

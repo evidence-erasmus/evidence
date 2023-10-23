@@ -6,7 +6,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Decisão do grupo - Decisão do grupo: Vamos desmistificar o seguinte mito:</label>
         
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth"></textarea>
 
         <hr />
 
@@ -25,7 +25,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> A nossa hipótese/questão de investigação é:</label>
 
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis"></textarea>
 
 
         <hr />
@@ -38,7 +38,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Escreva o seu plano aqui:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan"></textarea>
 
 
         <hr />
@@ -51,7 +51,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Escreva um resumo das suas descobertas na tabela seguinte:</label>
 
-        <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+        <div class="e-card mb-8">
             <ToolsReliabilityTable
                 :storeToUpdate="studentInputs"
                 :addRow="true" 
@@ -61,13 +61,13 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label for="3bConcl" class="font-bold block">Com base nas evidências dadas, a nossa(s) conclusão é/são:</label>
-        <textarea id="3bConcl" class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bConclusion"></textarea>
+        <textarea id="3bConcl" class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bConclusion"></textarea>
 
         <hr />
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label for="3bConcl" class="font-bold block">Com base nas suas descobertas, faça uma declaração sobre se o mito selecionado é confirmado ou rejeitado.</label>
-        <textarea id="3bConcl" class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bStatement"></textarea>
+        <textarea id="3bConcl" class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bStatement"></textarea>
 
     </div>
 </template>

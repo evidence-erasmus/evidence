@@ -124,7 +124,7 @@
             <section id="s4">
                 <h2 id="s4t">Δραστηριότητα 3: Διαπραγμάτευση Μύθου</h2>
 
-                <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
+                <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/mythbusting-el.webp" />
 
                 <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:alt-route">
                     <div>

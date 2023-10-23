@@ -26,12 +26,9 @@
             <li>jagate omavahel töökoormust ja -ülesandeid rühmas.</li>    
         </ul>
         
-        <!-- <p class="bg-orange-200">While doing this, you should think carefully about how to share the workload within your group. You could designate everybody to a different role, for example, to a leader who is organizing the activities, to a secretary who is making notes and comments about the information found, to an investigator who is doing searches, to a critic who is scrutinizing the reliability of the information.</p> -->
-
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
         <label for="3bHypothesis" class="font-bold block">Meie hüpotees / uurimisküsimus on:</label>
-
         <textarea id="3bHypothesis" class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis"></textarea>
 
 

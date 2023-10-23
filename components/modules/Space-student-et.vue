@@ -26,7 +26,7 @@
                     Võib-olla tundsite juba lapsena uudishimu kosmose ja seal leiduva, erinevate taevakehade ja kosmose lõputuse vastu. Selles moodulis kutsutakse teid mõtisklema inimeste kosmoseuuringute üle ning uurima erinevaid kosmosega seotud müüte ja küsimusi. <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">Sissejuhatavas videos</a>tuuakse välja mõned kosmosealased ideed, unistused, riskid, hirmud ja müüdid ning arutatakse neid rühmades. Rühmaarutelu tulemusel valitakse müüt, mida põhjalikumalt uurida otsides tõendeid selle kummutamiseks või kinnitamiseks. Seda tegevust saab läbi viia eksperimentaalselt või kasutades sekundaarseid allikaid (teave teaduskirjandusest ja Internetist). Esimese sammuna peaksite püstitama kontrollitava hüpoteesi (vt joonis 1).
                 </p>
 
-                <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp">
+                <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp">
                     <template #caption>
                         <b>Joonis 1.</b> Müüdimurdmise / uurimistegevused
                     </template>

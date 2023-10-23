@@ -7,7 +7,6 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label for="3aMyth" class="font-bold block mb-2 leading-tight">Rühma otsus: Me kavatseme hakata ümber lükkama või kinnitama järgmist viirustega seotud müüti:</label>
         
-
         <select class="select select-bordered w-full max-w-xl" v-model="studentInputs.activity3a.activity3aMyth">
             <option>Vaktsiinid põhjustavad autismi / tõsiseid kõrvalmõjusid</option>
             <option>Vastsündinu organism ei suuda taluda korraga mitut vaktsiini</option>
@@ -27,8 +26,9 @@
             <li>kavandate eksperimendi, et hüpoteesi kinnitada või siis ümber lükata/vastata püstitatud uurimisküsimusele;</li>
             <li>
                 kogute andmeid ning esitate need tabelite ja/või graafikutena, ning näiteks salvestate oma eksperimendi osana tõestusmaterjalist; 
+                <br />
                 <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
-                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="22" /> Vaata õpivideot</a>
+                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> Vaata õpivideot</a>
             </li>
             <li>selgitate oma tulemusi kasutades õpitud loodusteaduslikke teadmisi ning sõnastate järeldused;</li>
             <!-- <li class="bg-orange-200">Use your results to form a conclusion.</li>

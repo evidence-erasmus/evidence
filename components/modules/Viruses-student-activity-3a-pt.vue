@@ -5,14 +5,9 @@
 
         
         
-        <!-- <div contenteditable="true" class="ring-slate-600 ring-1 p-2 rounded" ref="studentInput3a">
-            {{ studentInputs.activity3a }}
-        </div> -->
-
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Decisão do grupo - Vamos desmistificar o seguinte mito:</label>
-        
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
         <hr />
 
@@ -26,8 +21,8 @@
             <li>Crie uma experiência que confirme ou falsifique a sua hipótese/responda à pergunta de investigação.</li>
             <li>PApresente os dados recolhidos em tabelas e gráficos e, de preferência, grave em vídeo a sua experiência como prova 
                 <br />
-                <a href="#" class="inline-block my-2 py-0.5 px-2 ring-2 ring-slate-700 rounded no-underline"
-                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" /> veja os Tutoriais</a>
+                <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
+                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> veja os Tutoriais</a>
             </li>
             <li>Explique os seus resultados com recurso a provas científicas.</li>
             <li>Use os seus resultados para formar uma conclusão.</li>
@@ -38,13 +33,9 @@
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> A nossa hipótese / questão de investigação é:</label>
-
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
-
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
         <hr />
-        
-        
 
         <h3>Plano de atividades</h3>
         
@@ -55,8 +46,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Definição de variáveis:</label>
 
-
-        <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
+        <div class="e-card">
             <ToolsDynamicTableFull
                 :tableStructure="tm('inquiry.variables_table')"
                 :storeToUpdate="studentInputs"
@@ -67,46 +57,26 @@
         </div>
 
 
-        <!-- <section>
-            <div class="grid grid-cols-3 gap-2">
-                <p class="text-sm font-bold">Independent variable</p>
-                <p class="text-sm font-bold">Dependent variable</p>
-                <p class="text-sm font-bold">Control variables</p>
-            </div>
-            <div v-for="row, i in studentInputs.activity3a.activity3aPlan" class="grid grid-cols-3 gap-2">
-                <div v-for="variable, j in row"
-                ><input v-model="studentInputs.activity3a.activity3aPlan[i][j]" class="w-full ring-1 ring-slate-300 px-1 rounded text-ellipsis overflow-hidden focus:bg-amber-50" placeholder="abc...✍" /></div>
-            </div>
-
-            <button @click="studentInputs.addVariableRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD VARIABLES ROW</button>
-        </section> -->
-
         <label class="font-bold block mt-8">Os seus resultados:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
-
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
 
         <hr />
-
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Com base na experiência, a(s) nossa(s) conclusão(ões) é/são:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
-
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
         <hr />
-
     
         <p>Agora espera-se que encontre provas de fontes secundárias para confirmar as suas próprias descobertas com recurso às seguintes ferramentas.</p>
 
-        
-
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Escreva um breve resumo das suas conclusões aqui:</label>
-        <p class="italic">
+        <p class="italic mt-0">
             Os dados secundários confirmaram as suas conclusões? Em caso negativo, o que pensa porquê?<br />
             Por favor, faça uma conclusão sobre se o mito selecionado é confirmado ou rejeitado com base nas suas descobertas.
         </p>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
 
     </div>
 </template>

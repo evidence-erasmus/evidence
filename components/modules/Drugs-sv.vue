@@ -203,7 +203,7 @@
                 </p>
                 <p><b>Formativ:</b></p>
                 <ul>
-                    <li>Muntlig / skriftlig återkoppling från läraren (baserat på observationer, ställda frågor etc.) under hela modulen, och i andra format av individuellt/grupparbete.</li>
+                    <li>Muntlig / skriftlig återkoppling från läraren (baserat på observationer, ställda frågor etc.) under hela modulen, och i andra format av individuellt / grupparbete.</li>
                     <li>Peer feedback (på gruppresentationen med hjälp av följande <NuxtLink to="../tools/peer-feedback" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyg</NuxtLink> och självvärdering efter fallstudien).</li>
                     <li>
                         Muntlig / skriftlig feedback från läraren på individuella / grupparbetsblad.

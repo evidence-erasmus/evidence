@@ -34,15 +34,13 @@
                 <p>
                     I den här modulen uppmanas du att motbevisa (”bust”) eller bekräfta en vanlig myt om virus. I en videointroduktion tas några virusrelaterade föreställningar upp, varefter du förväntas uttrycka din åsikt om och diskutera ämnet inom din grupp. Du erbjuds också att välja en myt om virus som motbevisas genom användning av sekundära källor (t.ex. informationssökningar på internet) eller experimentellt (se figur 1). 
                 </p>
-                <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
+                <UiContentImage class="mt-10" src="https://evidence.onkel.ee/assets/mythbusting-sv.webp" />
                 <p>
-                    Genom denna aktivitet lär du dig källkritik (att bedöma tillförlitligheten hos olika informationskällor: vetenskapliga, populärvetenskapliga och andra medier) och/eller vidareutveckla dina laborativa färdigheter. I båda fallen måste du ställa en testbar hypotes eller en undersökningsfråga och sedan hitta bevis för att bekräfta/motbevisa hypotesen eller besvara din forskningsfråga. Efter att ha gjort slutsatser uppmanas du att förbereda och presentera dina resultat för klasskamraterna (eller annan publik) på ett relevant och övertygande sätt genom ett kort videoinlägg, poster,  bildspel, etc. Modulen avslutas med ett brädspel där du behöver fatta beslut om virusrelaterade frågor.
+                    Genom denna aktivitet lär du dig källkritik (att bedöma tillförlitligheten hos olika informationskällor: vetenskapliga, populärvetenskapliga och andra medier) och/eller vidareutveckla dina laborativa färdigheter. I båda fallen måste du ställa en testbar hypotes eller en undersökningsfråga och sedan hitta bevis för att bekräfta/motbevisa hypotesen eller besvara din forskningsfråga. Efter att ha gjort slutsatser uppmanas du att förbereda och presentera dina resultat för klasskamraterna (eller annan publik) på ett relevant och övertygande sätt genom ett kort videoinlägg, poster,  bildspel, etc. Modulen avslutas med ett kortspel där du behöver fatta beslut om virusrelaterade frågor.
                 </p>
             </section>
 
             
-
-
 
                 
             

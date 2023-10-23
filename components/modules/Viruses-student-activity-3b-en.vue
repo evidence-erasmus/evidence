@@ -6,7 +6,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
         
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth" placeholder="✍️"></textarea>
 
         <hr />
 
@@ -24,8 +24,7 @@
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Our hypothesis / research question is:</label>
-
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis" placeholder="✍️"></textarea>
 
 
         <hr />
@@ -38,7 +37,7 @@
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Write your plan here:</label>
-        <textarea class="ring-slate-600 ring-1 p-2 rounded block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan" placeholder="✍️"></textarea>
+        <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan" placeholder="✍️"></textarea>
 
 
         <hr />
@@ -51,7 +50,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Write a summary of your findings in the following table:</label>
 
-        <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+        <div class="e-card mb-8">
             <ToolsReliabilityTable
                 :storeToUpdate="studentInputs"
                 :addRow="true" 
