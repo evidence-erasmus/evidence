@@ -22,16 +22,16 @@
                     class="w-full"
                 />
                 <UiCardModule path="drugs" 
-                :title="t('modules.drugs.title')" 
-                :description="t('modules.drugs.description')" 
-                icon="material-symbols:syringe-outline" 
-                class="w-full md:mt-4"
+                    :title="t('modules.drugs.title')" 
+                    :description="t('modules.drugs.description')" 
+                    icon="material-symbols:syringe-outline" 
+                    class="w-full md:mt-4"
                 />
-                <UiCardModule path="radiation" 
+                <UiCardModule path="evolution" 
                     :title="t('modules.evolution.title')" 
                     :description="t('modules.evolution.description')" 
                     icon="mdi:dna" 
-                    class="w-full md:mt-4 opacity-50"
+                    class="w-full md:mt-4"
                 />
                 <UiCardModule path="space" 
                     :title="t('modules.space.title')" 

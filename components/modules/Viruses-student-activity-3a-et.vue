@@ -3,7 +3,6 @@
         
         <h2>Tegevus 3a: Müüdimurdmine eksperimendi läbiviimise abil</h2>
 
-        
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label for="3aMyth" class="font-bold block mb-2 leading-tight">Rühma otsus: Me kavatseme hakata ümber lükkama või kinnitama järgmist viirustega seotud müüti:</label>
         
@@ -22,35 +21,37 @@
         
         <h4>Järgneva tegevuse käigus oodatakse, et te:</h4>
         <ul class="leading-tight">
-            <li>kitsendate oma valitud müüdi <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">kontrollitava hüpoteesi</a> / vastatava uurimisküsimuse kujule;</li>
-            <li>kavandate eksperimendi, et hüpoteesi kinnitada või siis ümber lükata/vastata püstitatud uurimisküsimusele;</li>
+            <li>
+                kitsendate oma valitud müüdi <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">kontrollitava hüpoteesi</a> / vastatava uurimisküsimuse kujule;
+            </li>
+            <li>
+                kavandate eksperimendi, et hüpoteesi kinnitada või siis ümber lükata/vastata püstitatud uurimisküsimusele;
+            </li>
             <li>
                 kogute andmeid ning esitate need tabelite ja/või graafikutena, ning näiteks salvestate oma eksperimendi osana tõestusmaterjalist; 
                 <br />
                 <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
                 target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> Vaata õpivideot</a>
             </li>
-            <li>selgitate oma tulemusi kasutades õpitud loodusteaduslikke teadmisi ning sõnastate järeldused;</li>
-            <!-- <li class="bg-orange-200">Use your results to form a conclusion.</li>
-            <li class="bg-orange-200">Estimate the plausibility of the chosen myth.</li> -->
-            <li>jagate omavahel töökoormust ja -ülesandeid rühmas.</li>
+            <li>
+                selgitate oma tulemusi kasutades õpitud loodusteaduslikke teadmisi ning sõnastate järeldused;
+            </li>
+            <li>
+                jagate omavahel töökoormust ja -ülesandeid rühmas.
+            </li>
         </ul>
         
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label for="3aHypothesis" class="font-bold block">Meie hüpotees / uurimisküsimus on:</label>
-
         <textarea id="3aHypothesis" class="textarea textarea-bordered block w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
-
 
         <hr />
         
-        
-
         <h3>Tegevusplaan</h3>
         
         <section class="e-card mb-8">
-            <p class="italic my-0">Mõelge hoolikalt, kuidas  kontrollida kõiki muutujaid v.a ühte, millega hakkate manipuleerima; palun näidake ka ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad, viimasel juhul näidake ära ka igaühe vastutusala kirjutades nime tegevuse järele sulgudesse</p>
+            <p class="italic my-0">Mõelge hoolikalt, kuidas kontrollida kõiki muutujaid v.a ühte, millega hakkate manipuleerima; palun näidake ka ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad, viimasel juhul näidake ära ka igaühe vastutusala kirjutades nime tegevuse järele sulgudesse</p>
         </section>
 
 
@@ -58,7 +59,7 @@
 
 
 
-
+        <h4>Muutujate defineerimine:</h4>
 
         <!-- independent variable -->
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>

@@ -3,12 +3,6 @@
         
         <h2>Aktivitet 3a: Mythbusting baserat på experiment</h2>
 
-        
-        
-        <!-- <div contenteditable="true" class="ring-slate-600 ring-1 p-2 rounded" ref="studentInput3a">
-            {{ studentInputs.activity3a }}
-        </div> -->
-
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Grupp beslut: Vi kommer att motbevisa följande myt:</label>
         
@@ -22,16 +16,29 @@
         
         <h4>Du förväntas att:</h4>
         <ul class="leading-tight">
-            <li>utveckla en <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">testbar hypotes</a> / forskningsfråga;</li>
-            <li>planera ett experiment som kommer att bekräfta eller förfalska din hypotes/ svara på din forskningsfråga;</li>
-            <li>presentera dina insamlade data i form av tabeller och grafer, och helst videofilma ditt experiment som ett bevis 
+            <li>
+                utveckla en <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">testbar hypotes</a> / forskningsfråga;
+            </li>
+            <li>
+                planera ett experiment som kommer att bekräfta eller förfalska din hypotes/ svara på din forskningsfråga;
+            </li>
+            <li>
+                presentera dina insamlade data i form av tabeller och grafer, och helst videofilma ditt experiment som ett bevis 
                 <br />
                 (titta på <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline" target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> handledning</a> );
             </li>
-            <li>förklara dina resultat på vetenskapliga grunder;</li>
-            <li>använda dina resultat för att dra en slutsats;</li>
-            <li>uppskatta hur rimligt det är att resultat kan motbevisa/ ta kål på den valda myten;</li>
-            <li>fördela arbetet inom din grupp (t.ex. genom att utse alla till olika roller - gruppledare, sekreterare, forskare).</li>
+            <li>
+                förklara dina resultat på vetenskapliga grunder;
+            </li>
+            <li>
+                använda dina resultat för att dra en slutsats;
+            </li>
+            <li>
+                uppskatta hur rimligt det är att resultat kan motbevisa/ ta kål på den valda myten;
+            </li>
+            <li>
+                fördela arbetet inom din grupp (t.ex. genom att utse alla till olika roller - gruppledare, sekreterare, forskare).
+            </li>
         </ul>
         
         
@@ -39,19 +46,53 @@
         <label class="font-bold block"> Vår hypotes/forskningsfråga är:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
-
         <hr />
         
-        
-
         <h3>Plan över aktiviteter</h3>
         
         <section class="e-card mb-8">
             <p class="italic my-0">Tänk noga på hur du kommer att kontrollera alla andra variabler utom den du ska ändra på. Du bör också tänka noga på hur du fördelar arbetsuppgifterna inom din grupp. Ange vilka aktiviteter (1), (2), (3) … ni är involverade i som ett helt team och i vilka ni ska dela upp ansvarsområden, i det här fallet, skriv ner vem som är ansvarig för vad</p>
         </section>
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Definiera variabler:</label>
+        <h4>Definiera variabler:</h4>
+
+        <!-- independent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Oberoende variabel</b> (den som kommer att ändras):</label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍"></textarea>
+
+        <!-- dependent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Beroende variabel</b> (den som ska mätas):</label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍"></textarea>
+
+        <!-- control variables -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Kontrollvariabler</b> (de som kommer att hållas konstanta):</label>
+
+
+        <ToolsDynamicTableFull class="e-card mb-8"
+            :tableStructure = "controlTable" 
+            :addRow = "true"
+            addRowTitle = "Lägg till kontrollvariabel"
+            :newRow = "['']"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
+            :deleteRow = "true"
+        />
+
+
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Resultat tabell</b></label> 
+        <ToolsDynamicTableFull class="e-card mb-8"
+            :tableStructure = "resultsTable" 
+            :addRow = "true"
+            :newRow = "new Array(2 + studentInputs.activity3a.experimentVariables.control.length)"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.activity3aResults"
+            :deleteRow = "true"
+        />
+
 
         <!-- <section>
             <div class="grid grid-cols-3 gap-2">
@@ -89,7 +130,7 @@
 
         <hr />
 
-    
+     
         <p>Du förväntas nu hitta bevis från sekundära källor för att bekräfta dina egna fynd med hjälp av följande <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyg</NuxtLink>.</p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
@@ -115,6 +156,31 @@
             {thead: "Beroende variabel", tsubhead: "(den som ska mätas)"},
             {thead: "Kontrollvariabler", tsubhead: "(de som kommer att hållas konstanta)"},
         ]
+    });
+
+
+    const controlTable = ref({
+        header: [
+            {thead: "", tsubhead: "Varje variabel till ny rad"}
+        ]
+    });
+    
+    const resultsTable = computed(() => {
+        
+        const variables = studentInputs.activity3a.experimentVariables;
+
+        let structure = {
+            header: [
+                {thead: `${variables.independent}`, tsubhead: "Oberoende variabel"},
+                {thead: `${variables.dependent}`, tsubhead: "Beroende variabel"},
+            ]
+        }
+
+        studentInputs.activity3a.experimentVariables.control.forEach( (variable) => {
+            structure.header.push({thead: `${variable}`, tsubhead:"Kontrollvariabel"});
+        } );
+
+        return structure;
     });
 
 </script>

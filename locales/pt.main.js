@@ -15,19 +15,23 @@ export default {
   },
   message: "Hello from external",
   modules: {
+    title: "Modules",
     toc: "Lista de conteúdos",
     background_info: "Informação Científica",
+    for_students: "Materiais alunos",
+    for_teachers: "Materiais professor",
     climateChange: {
       description: "Climate change description",
       title: "Alterações Climáticas"
     },
-    for_students: "Materiais alunos",
-    for_teachers: "Materiais professor",
+    drugs: {
+      description: "Drugs description",
+      title: "Drogas"
+    },
     radiation: {
       description: "Radiation module description",
       title: "Radiação"
     },
-    title: "Modules",
     viruses: {
       description: "Viruses module description",
       title: "Vírus"
