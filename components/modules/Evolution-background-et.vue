@@ -9,15 +9,15 @@
 
 
 
-        <section class="e-article" lang="en" style="hyphens: auto;">
+        <section class="e-article" lang="et" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
-            <h1 class="mb-0">Evolution</h1>
-            <h5 class="font-normal uppercase leading-tight">Scientific background information</h5>
+            <h1 class="mb-0">Evolutsioon</h1>
+            <h5 class="font-normal uppercase leading-tight">Loodusteaduslik taustainfo</h5>
         
             <section id="s1">
-                <h2 id="s1t">What is Evolution?</h2>
+                <h2 id="s1t">Mis on evolutsioon?</h2>
                 <p>
-                    Evolution refers to the processes, more or less gradual, that have transformed life on Earth from its earliest forms to the vast diversity that characterizes it today. The first primitive living organisms are dated as far back as 3800 million years ago. In fact, everything in the Universe evolves, nothing stays still. We can talk about the evolution of a star, the evolution of the lithosphere… and the evolution of living organisms. It seems obvious that living beings have appeared and disappeared throughout geologic time, and that many species, nowadays with different characteristics, have common ancestors. It is known that there are species that existed in past times and are now extinct, and others which did not exist in older geologic times but that exist today. Generally speaking, evolutionary change is based on the interactions between populations of organisms and their environment. As there have been changes in the environment, different characteristics have been needed in order to adapt to such changes. 
+                    Evolutsioon viitab enam-vähem järkjärgulistele protsessidele, mis on muutnud elu Maal selle varaseimatest vormidest tänase mitmekesisuseni. Esimesed primitiivsed elusorganismid pärinevad 3800 miljoni aasta tagusest ajast. Tegelikult kõik Universumis areneb ning miski ei püsi paigal. Võime rääkida tähe evolutsioonist, litosfääri evolutsioonist … ja elusorganismide evolutsioonist. Näib ilmselge, et elusolendid on geoloogilise aja jooksul tekkinud ja kadunud ning et paljudel tänapäeval esinevate erinevate omadustega liikidel on ühised esivanemad. On teada liike, mis eksisteerisid minevikus ja on nüüdseks välja surnud ning teisi, mida vanemal geoloogilisel ajal ei eksisteerinud, kuid mis eksisteerivad tänapäeval. Üldiselt toimuvad evolutsioonilised muutused organismide populatsioonide ja nende keskkonna vastastikmõjul. Kuna keskkonnas on toimunud muutused, on selliste muutustega kohanemiseks olnud vaja erinevaid omadusi.
                 </p>
             </section>
             
@@ -27,179 +27,184 @@
 
             <section id="s2">
                 <h2 id="s2t">
-                    Evolutionary theories
+                    Evolutsiooniteooriad
                 </h2>
                 <h3>
-                    Lamarck’s Theory of Evolution
+                    Lamarcki evolutsiooniteooria
                 </h3>
                 <ol>
-                    Lamarck’s theory is based on:
+                    Lamarcki teooria põhineb alljärgneval:
                     <li>
-                        Evolution was driven by an innate tendency towards higher and greater complexity, towards perfection. (vital force).
+                        Evolutsiooni ajendas organismide kaasasündinud kalduvus muutuda järjest keerukamaks, täiuslikumaks (elujõud).
                     </li>
                     <li>
-                        This innate tendency to perfection is influenced by environmental changes, therefore becoming better adapted to their environments. These environmental changes would create ‘new needs’ in organisms, needing to use certain organs or characteristics more than others.
+                        Kaasasündinud kalduvust täiuslikkusele mõjutavad keskkonnamuutused, mistõttu nad kohanevad paremini oma keskkonnaga. 
                     </li>
                     <li>
-                        This use and disuse of certain organs causes those organs that are used more often to cope better with the environment, making them become larger and stronger, while those that are not used deteriorate. In other words: the function makes the organ. So, organisms could acquire certain characteristics throughout its lifetime, and lose others.
+                        Need keskkonnamuutused tekitavad organismides "uusi vajadusi", mis panevad neid  teatud elundeid (organeid) või omadusi  kasutama rohkem kui teisi.
                     </li>
                     <li>
-                        Lamarck believed that the modifications an organism acquires during its lifetime are passed to its offspring (inheritance of acquired characteristics).
+                        Teatud elundite kasutamine või mittekasutamine paneb sagedamini kasutatavad elundid keskkonnaga paremini toime tulema, muutes need suuremaks ja tugevamaks, samas kui need, mida ei kasutata, halvenevad. Teisisõnu: funktsioon mõjutab elundit. Seega võivad organismid omandada teatud omadused kogu oma elu jooksul ja kaotada teised.
                     </li>
                     <li>
-                        One species cannot transform into any other species, but only into a similar one where the species can evolve gradually. Lamarck established the fact of evolution, but his theory had several flaws:
+                        Lamarck uskus, et modifikatsioonid, mille organism oma elu jooksul omandab, kanduvad edasi tema järglastele (omandatud omaduste pärand).
+                    </li>
+                    <li>
+                        Üks liik ei saa muutuda teiseks liigiks, vaid ainult tolle liigi sarnaseks, võimaldades liigil järk-järgult areneda. Lamarck tegi kindlaks evolutsiooni põhifaktid, kuid tema teoorial oli mitmeid puudusi:
                         <ul>
                             <li>
-                                There is no evidence to prove that innate tendency (vital impulse) of organisms toward complexity.
+                                Puuduvad tõendid, mis näitaksid organismide kaasasündinud kalduvust keerukuse poole.
                             </li>
                             <li>
-                                Acquired characteristics are not inherited. We all know that physical exercise will make our muscles develop, but such acquired physical characteristics (which are not genetic) are not passed down to offspring. Such acquired characteristics are produced by environmental factors and development, but not by genes. Only those characters which are regulated by genes are hereditary, and only if such genes are found in the reproductive cells. Whatever happens to somatic cells due to their use or disuse will not affect the genes in the gametes, therefore it will not be hereditary. F.L. August Weissmann (1834-1914) carried out the following experiment to refute Lamarck’s theory: He cut off the tails of fifteen hundred mice, repeatedly over 20 generations, and reporting that no mouse was ever born in consequence without a tail. According to Lamarck and his theory, the disuse of the tail should have given offspring without a tail or with an undeveloped tail, however that was never the case.
+                                Omandatud omadused ei ole päritavad. Me kõik teame, et füüsiline treening paneb meie lihased arenema, kuid sellised omandatud füüsilised omadused (mis ei ole geneetilised) ei kandu järglastele edasi. Selliseid omandatud omadusi võimaldavad keskkonnategurid ja areng, kuid mitte geenid. Pärilikud on ainult need tunnused, mida reguleerivad geenid ja ainult siis, kui selliseid geene leidub sugurakkudes. Ükskõik, mis ka ei juhtuks somaatiliste rakkudega (keharakkudega) nende kasutamise või mittekasutamise tõttu, ei mõjuta see sugurakkude geene, seega ei ole see pärilik. August F. L.  Weissmann (1834-1914) viis Lamarcki teooria ümberlükkamiseks läbi järgmise katse: ta lõikas ära viiesajal hiirel nende sabad, korduvalt 20 põlvkonna jooksul ja teatas, et ükski hiir ei ole kunagi sündinud ilma sabata. Lamarcki ja tema teooria kohaselt oleks saba mittekasutamine pidanud andma järglasi ilma sabata või arenemata sabaga, kuid seda ei juhtunud.
                             </li>
                         </ul>
                     </li>
                 </ol>
 
                 <h3>
-                    The Darwin-Wallace theory of evolution
+                    Darwin-Wallace evolutsiooniteooria
                 </h3>
                 <p>
-                    Charles Darwin was 22 years old when he sailed from England with the Beagle in December 1831; a voyage around the world that would last five years. During the expedition Darwin collected thousands of specimens of the exotic and exceedingly diverse faunas and floras of different places. He was also able to observe the various adaptations of plants and animals that inhabited such diverse environments.
+                    Charles Darwin oli 22-aastane, kui ta 1831. aasta detsembris Inglismaalt purjetamist alustas, kusjuures ümbermaailmareis kestis viis aastat. Darwin kogus ekspeditsiooni käigus eri paikadest tuhandeid kõige mitmekesisemaid ja eksootilisemaid loomastiku ja taimestiku esindajaid. Samuti suutis ta jälgida taimede ja loomade erinevaid kohastumisi, mis olid tekkinud erinevates keskkondades.
                 </p>
                 <ul>
-                    While Darwin knew nothing about the mechanism of inheritance, he was very aware of many other aspects of living organisms. Among these, three are particularly emphasized:
+                    Kuigi Darwin ei teadnud pärimisest midagi, siis oli ta väga teadlik paljudest muudest elusorganismide aspektidest. Nende hulgas on eriliselt esile tõstetud järgmised kolm:
                     <li>
-                        The species that inhabit the Earth today are not the same species that existed in the past, although they do resemble them. This aspect of evolution was very apparent to Darwin from the fossil record.
+                        Tänapäeval Maad asustavad liigid ei ole samad liigid, mis eksisteerisid minevikus, kuigi need meenutavad varaseimaid liike. See evolutsiooni aspekt oli Darwinile väga ilmne fossiilide põhjal.
                     </li>
                     <li>
-                        Each species possesses a number of characters that adapt individuals within that species to their way of life and their particular environment. Much of The Origin of Species is devoted to detailed descriptions of the adaptations of individual species, for example the various beak shapes of finches on the Galapagos Islands.
+                        Igal liigil on mitmeid tunnuseid, mis kohanevad vastavalt nende eluviisile või keskkonnale. Suur osa teosest "Liikide tekkimine" on pühendatud üksikute liikide kohanemise üksikasjalisele kirjeldustele, näiteks Galapagose saarte vintide erinevatele nokakujudele.
                     </li>
                     <li>
-                        Selective breeding of domestic species can produce characters in a diversity of forms. For example, dog breeders have produced numerous breeds that differ in characters such as ear length, stature and behaviour: different breeds have different forms of a character.
+                        Koduloomade selektiivne aretus võib anda erineva tunnustega isendeid. Näiteks on koerakasvatajad loonud arvukalt tõuge, mis erinevad oma tunnuste poolest, nagu kõrva pikkus, kasv ja käitumine, st erinevatel tõugudel on erinevad tunnused.
                     </li>
                 </ul>
                 <p>
-                    Another naturalist, Alfred Wallace who was working in the East Indies, sent a manuscript to Darwin in which he developed a theory of natural selection essentially identical to Darwin’s. 
+                    Teine loodusteadlane Alfred Wallace, kes töötas Ida-Indias, saatis Darwinile käsikirja, milles ta oli välja töötanud Darwini omaga sisuliselt identse loodusliku valiku teooria.
                 </p>
                 <p>
-                    In 1858 they published together their theory of Evolution, which replaced Lamarck’s evolutionary theory. Darwin explained this theory in his book The Origin of Species, where he presented his theory of natural selection as the mechanism of evolution.
+                    1858. aastal avaldasid nad koos oma evolutsiooniteooria, mis asendas Lamarcki evolutsiooniteooria. Darwin selgitas seda teooriat oma raamatus “Liikide tekkimine”, kus ta esitas oma loodusliku valiku teooriat kui evolutsiooni mehhanismi.
                 </p>
                 <ul>
-                    Darwin's theory of natural selection can be expressed as four propositions:
+                    Darwini loodusliku valiku teooriat saab väljendada nelja väitega:
                     <li>
-                        Within a given species, more individuals are produced by reproduction than can survive within the constraints (e.g. food supply) imposed by the species' environment.
+                        Teatud liigi sees saadakse rohkem isendeid, kui neid suudab ellu jääda liigi keskkonnast tulenevate piirangute (nt toidu ressurss) tõttu.
                     </li>
                     <li>
-                        Consequently, there is a <b><i>struggle for existence</i></b>, because of the disparity between the number of individuals produced by reproduction and the number that can survive.
+                        Järelikult on olemas <b><i>olelusvõitlus</i></b>, sest saadud järglaste arv ja ellujäämisvõime on erinevad.
                     </li>
                     <li>
-                        Individuals within a species show <b><i>variation</i></b>; no two individuals are exactly alike. Those with advantageous characters have a greater probability of survival, and therefore of reproducing, in the struggle for existence.
+                        Liigisisesed isendid näitavad <b><i>varieeruvust</i></b>; pole kahte täpselt ühesugust inimest. Paremate tunnustega inimestel on olelusvõitluses suurem tõenäosus ellu jääda ja seega paljuneda.
                     </li>
                     <li>
-                        Individuals produce offspring that tend to resemble their parents (the principle of <b><i>inheritance</i></b>). Provided that the advantageous characters that promote survival are inherited by offspring, individuals possessing those characters will become more common in the population over successive generations because they are more likely than individuals not possessing those characters to survive and produce offspring in the next generation.
+                        Isendid saavad järglasi, kes kipuvad sarnanema oma vanematega (<b><i>pärandumine</i></b>). Eeldusel, et ellujäämist soodustavad tunnused on päritud järglastelt, muutuvad neid tunnuseid omavad isendid populatsioonis järjestikuste põlvkondade jooksul arvukamaks, kuna neil on suurem tõenäosus järgmise põlvkonna jooksul ellu jääda ja järglasi saada.
                     </li>
                 </ul>
 
                 <p>
-                    The essence of Darwin's theory is that natural selection will occur if three conditions are met. These conditions are a <b><i>struggle for existence</i></b>, <b><i>variation</i></b> and <b><i>inheritance</i></b>.
+                    Darwini teooria olemus seisneb selles, et looduslik valik toimub kolme tingimuse täitmisel. Need tingimused on <b><i>olelusvõitlus</i></b>, <b><i>varieerumine</i></b> ja <b><i>pärandumine</i></b>.
                 </p>
                 <p>
-                    <b>Some clarifications about this theory:</b>
+                    <b>
+                        Mõned selgitused selle teooria kohta:
+                    </b>
                 </p>
                 <ul>
                     <li>
-                        According to Darwin, evolution is gradual, slow and continuous: there are no sudden or brusque changes. It is a gradual accumulation of minute changes.
+                        Darwini järgi on evolutsioon järk-järguline, aeglane ja pidev: äkilisi ega järske muutusi pole. 
                     </li>
                     <li>
-                        Environmental factors are what drive natural selection. With time, those individuals with characteristics less fit to their environment would disappear, and those with favourable variations would be perpetuated. (Survival of the fittest).
+                        Looduslikku valikut juhivad keskkonnategurid. Aja jooksul kaovad need organismid, kelle omadused ei sobi nende keskkonda, ja need, kellel on soodsad kohastumused, jäävad ellu. (Tugevamad jäävad ellu.)
                     </li>
                     <li>
-                        Over vast spans of time, and always due to environmental factors, a group of individuals could accumulate a considerable amount of favourable characteristics giving rise to a new species from the original population.
+                        Pika ajaperioodi jooksul ja alati keskkonnategurite mõjul võib populatsioon saada märkimisväärsel hulgal soodsaid omadusi/tunnuseid, mille tulemusena tekib algsest populatsioonist uus liik.
                     </li>
                     <li>
-                        Still nowadays, many people mistakenly believe that it is Darwinism that explains evolution. There are many objections to the Darwinian view, (many of those objections were presented whilst he was still alive).
+                        Tänapäeval arvavad paljud inimesed ekslikult, et evolutsiooni selgitab vaid darvinism. Darwini vaatele on palju vastuväiteid (paljud neist vastuväidetest esitati siis, kui ta oli veel elus).
                     </li>
                     <li>
-                        When Darwin had to explain what caused individual variations among organisms of a population he had to borrow Lamarck’s acquired characteristics theory (Weissman will not carry out his experiments until 1880). Mendel enunciated the laws of heredity six years after Darwin published his book, however Mendel’s work was not recognized or appreciated until 30 years later, which considerably slowed down the understanding of evolutionary mechanisms.
+                        Kui Darwin pidi selgitama, mis põhjustas populatsiooni organismide individuaalseid erinevusi, pidi ta laenama Lamarcki omandatud omaduste teooria (Weissman viis oma katsed läbi alles 1880. aastal). Mendel kuulutas pärilikkuse seadused välja kuus aastat pärast Darwini raamatu avaldamist, kuid Mendeli tööd tunnustati ja hinnati alles 30 aastat hiljem. See omakorda aeglustas oluliselt evolutsioonimehhanismide mõistmist.
                     </li>
                 </ul>
 
                 <h3>
-                    The modern evolutionary synthesis or neo-Darwinism
+                    Neodarvinism
                 </h3>
                 <p>
-                    A comprehensive theory of evolution that became known as the modern synthesis or neo-Darwinism was forged in the early 1940s. This theory is not the work of one but many scientists. It is called the synthesis because it integrated discoveries and ideas from many different fields, including population genetics, paleontology, taxonomy, etc. It brings together Charles Darwin's theory of the evolution of species by natural selection with Gregor Mendel's theory of genetics as the basis for biological inheritance. 
+                    Põhjalik evolutsiooniteooria, mida hakati nimetama neodarvinismiks, töötati välja 1940. aastate alguses. See teooria ei ole ühe, vaid paljude teadlaste töö. Seda nimetatakse sünteesiks, kuna see ühendas avastusi ja ideid paljudest erinevatest valdkondadest, sealhulgas populatsioonigeneetikast, paleontoloogiast, taksonoomiast jne. See ühendab Charles Darwini liikide evolutsiooni teooria loodusliku valiku teel Gregor Mendeli klassikalise geneetika teooriaga (bioloogiline pärandumine).
                 </p>
                 <p>
-                    <b><i>We can define evolution as the natural selection</i></b> (which is seen through differential reproduction), that <b><i>acts upon genetic variations</i></b> (which are the outcome of mutations or sexual recombination) <b><i>which appear among the members of a population</i></b>.
+                    <b>Evolutsiooni võime defineerida kui looduslikku valikut</b> (mida nähakse paljunemise kaudu), <b>mis toimib tänu geneetilistele variatsioonidele</b> (mis on mutatsioonide või rekombinatsiooni tulemus), <b>mis ilmnevad populatsiooni liikmete seas</b>.
                 </p>
                 <ul>
-                    Some important aspects of this definition are:
+                    Mõned olulised aspektid selle definitsiooni kohta:
                     <li>
-                        A population is a localised group of individuals belonging to the same species, where the individuals interbreed amongst themselves, and occasionally, with members of other populations.
+                        Populatsioon on samasse liiki kuuluvate isendite lokaalne rühm, kus isendid ristuvad omavahel ja aeg-ajalt ka teiste populatsioonide liikmetega.
                     </li>
                     <li>
-                        As a result of this closed sexual interaction in a population, a gene flow is created (that is to say that the genes of the different individuals circulate within the population, and could be transmitted to the entire population).
+                        Selle suletud interaktsiooni tulemusena tekib populatsioonis  geenivoog (see tähendab, et erinevate isendite geenid ringlevad populatsioonis ja võivad kanduda edasi kogu populatsioonile).
                     </li>
                     <li>
-                        The genetic variations among individuals could be due to: 
+                        Indiviidide vahelised geneetilised variatsioonid võivad olla tingitud:
                         <ul>
                             <li>
-                                <b>mutations</b> (this variations can take place in individuals with both types of reproduction, asexual and sexual); and 
+                                <b>mutatsioonid</b> (need variatsioonid võivad aset leida indiviididel, mis paljunevad nii suguliselt kui ka mittesuguliselt);
                             </li>
                             <li>
-                                <b>meiotic or sexual recombination</b> (this takes place during meiosis I, therefore, it can only happen in individuals with sexual reproduction).
+                                <b>meiootiline rekombinatsioon</b> (see toimub meioosi I etapis, seetõttu võib see juhtuda ainult suguliselt paljunevatel organismidel, nt. inimestel).
                             </li>
                         </ul>
                     </li>
                     <li>
-                        Because of mutations and meiotic recombinations, individuals with new characteristics are constantly born. If those individuals survive and have offspring, their new characteristics will stay within the gene pool or group of genes of the population. In successive generations those genetic variations could be passed down to many (or all) members of the population.
+                        Mutatsioonide ja meiootiliste rekombinatsioonide tõttu sünnib pidevalt uute omadustega isendeid. Kui need isendid jäävad ellu ja saavad järglasi, nende uued omadused jäävad populatsiooni genofondi või geenide rühma. Järjestikuste põlvkondade jooksul võivad need geneetilised variatsioonid edasi kanduda paljudele (või kõigile) populatsiooni liikmetele.
                     </li>
                     <li>
-                        Whether that would happen or not depends on natural selection (some individuals have more offspring than others). Those organisms best adapted to a given environment will be most likely to survive to reproductive age and have offspring of their own. Organisms that are successful in their environments will be more likely to be successful in reproduction, and therefore the better-adapted organisms will reproduce at a greater rate than the less well-adapted organisms. Therefore, the genes of the ones that reproduce more will predominate in the gene pool of the population. This is known as differential reproduction.
+                        Kas see juhtub või mitte, sõltub looduslikust valikust (mõnel isendil on rohkem järglasi kui teistel). Need organismid, mis on antud keskkonnaga kõige paremini kohanenud, jäävad kõige tõenäolisemalt reproduktiivse vanuseni ellu ja saavad järglasi. Organismid, mis on oma keskkonnas edukad, on suurema tõenäosusega edukad paljunemisel ja seetõttu paljunevad paremini kohanenud organismid kiiremini kui vähem kohanenud organismid. Seetõttu hakkavad populatsiooni genofondis domineerima nende geenid, kes paljunevad. Seda nimetatakse diferentsiaalseks reprodutseerumiseks.
                     </li>
                     <li>
-                        It is important to understand that it is not just how well adapted they are, but how well they are able to reproduce, in order to be able to pass down the new characters. For example, it could be that an individual is very well adapted to its environment, however, it has a mutation that makes it sterile. Would this individual have any impact in the evolution of its population?
+                        Oluline on mõista, et uute omaduste edasiandmiseks pole oluline mitte ainult see, kui hästi indiviid on kohanenud, vaid ka see, kui hea on tema paljunemisvõime. Näiteks võib juhtuda, et indiviid on oma keskkonnaga väga hästi kohanenud, kuid tal on mutatsioon, mis muudab ta steriilseks. Kas sellel indiviidil oleks oma populatsiooni arengule mingit mõju?
                     </li>
                     <li>
-                        The process of evolution has therefore two stages:
+                        Seetõttu on evolutsiooniprotsessil kaks etappi:
                         <ul>
                             <li>
-                                genetic variation must occur due to mutations and/or meiotic recombinations; 
+                                geneetiline varieeruvus peab toimuma mutatsioonide ja/või meiootiliste rekombinatsioonide tõttu;
                             </li>
                             <li>
-                                those variations must spread throughout the population by differential reproduction (natural selection) in successive generations.
+                                need variatsioonid peavad levima kogu populatsioonis erineva paljunemise (loodusliku valiku) teel järjestikuste põlvkondade kaupa.
                             </li>
                         </ul>
                     </li>
                     <li>
-                        Individuals do not evolve, populations do. The genetic characteristics that an individual has usually don’t vary throughout its life and once it dies they disappear. However, if the individual reproduces sexually, it could introduce genetic variations to its offspring.
+                        Indiviidid ei arene, populatsioonid arenevad. Inimese geneetilised omadused tavaliselt elu jooksul ei muutu ja pärast surma nad kaovad. Kui aga isend paljuneb seksuaalselt, võib see tuua järglastele kaasa geneetilisi variatsioone.
                     </li>
                     <li>
-                        The process of evolution does not follow a fixed pattern, as genetic variations happen randomly. This does not mean that evolution lacks a driving force: as the individuals that are most successful in reproduction are those that are best adapted, the driving force of evolution is natural selection. - Therefore, natural selections acts by means of differential reproduction, and not by the struggle for survival.
+                        Evolutsiooniprotsess ei järgi kindlat mustrit, kuna geneetilised variatsioonid toimuvad juhuslikult. See ei tähenda, et evolutsioonil puuduks liikumapanev jõud: kuna paljunemisel on kõige edukamad isendid, kes on kõige paremini kohanenud, on evolutsiooni liikumapanev jõud looduslik valik. Seetõttu toimivad looduslikud valikud paljunemisel.
                     </li>
                 </ul>
 
                 <h2>
-                    Examples
+                    Näited
                 </h2>
 
                 <h3>
-                    Evolution of the giraffe according to Lamarck: 
+                    Kaelkirjaku evolutsioon Lamarcki järgi: 
                 </h3>
                 <p>
-                    The ancestors of the giraffe (with a short neck and short legs), also ate leaves. As the lower leaves were eaten, it had to stretch its neck to new lengths in pursuit to eat the higher leaves. Due to that ‘innate impulse’, its neck and legs began to grow. The long neck and legs of the giraffe Lamarck reasoned, evolved gradually as the cumulative product of a great many generations of ancestors stretching higher and higher, which would be inherited by offspring.
+                    Kaelkirjaku (lühikese kaela ja lühikeste jalgadega) esivanemad sõid samuti lehti. Kuna alumised lehed olid ära söödud, pidi ta oma kaela uue pikkusega venitama, et kõrgemaid lehti süüa. Selle välise impulsi tõttu hakkasid tema kael ja jalad kasvama. Lamarck arvas, et kaelkirjaku pikk kael ja jalad arenesid järk-järgult paljude esivanemate põlvkondade kumulatiivse arengu tulemusena, ulatudes järjest kõrgemale ning pärandudes järglastele.
                 </p>
                 <h3>
-                    Evolution of the giraffe according to Darwin:
+                    Kaelkirjaku evolutsioon Darwini järgi: 
                 </h3>
                 <p>
-                    The variability which appeared in giraffe populations in each generation (some would stretch their neck or legs more than others) gave rise to the appearance of some individuals within the population with longer legs and a longer neck. These characters were transferred to their offspring. At first, this was not of any advantage to the individual, as there were enough low leaves on trees. However, as the lower leaves became scarse, only the individuals with the longer neck and longer legs could reach the higher leaves, which allowed them to survive through generations and have more offspring. With time it became the only type of giraffe that existed.
+                    Iga põlvkonna kaelkirjakupopulatsioonides ilmnenud varieeruvus põhjustas populatsioonis mõne pikema jala ja pikema kaelaga isendi ilmumise. Need omadused kanti üle nende järglastele. Alguses polnud see indiviidile kasulik, kuna puudel oli piisavalt madalaid lehti. Kuna aga alumised lehed jäid hõredamaks, pääsesid kõrgemate lehtedeni vaid pikema kaela ja pikemate jalgadega isendid, mis võimaldas neil põlvkondade kaupa ellu jääda ja rohkem järglasi saada. Aja jooksul sai see ainsaks eksisteerivaks kaelkirjaku tüübiks.
                 </p>
                 <h3>
-                    Evolution of the giraffe according to the modern evolutionary synthesis:
+                    Kaelkirjaku evolutsioon neodarvinismi järgi:
                 </h3>
                 <p>
-                    The ancestors of today’s giraffes did not have a long neck nor long front legs. By mutation and/or genetic recombination new individuals presenting a long neck and/or long legs appeared in a population. Those new individuals were better adapted to the environment. They ate more, found mating partners more easily and therefore reproduced more often. With time they became the only existing giraffes. Obviously, the individuals that presented the short neck and short legs (both negative characteristics), as they were less well adapted to the environment, they did not reproduce as successfully as the well adapted giraffes. And eventually the less favorable genes disappeared from the population.
+                    Tänapäeva kaelkirjakute esivanematel ei olnud pikka kaela ega pikki esijalgu. Mutatsiooni ja/või geneetilise rekombinatsiooni tulemusena ilmusid populatsiooni uued pika kaela ja/või pikkade jalgadega isikud. Need uued indiviidid olid keskkonnaga paremini kohanenud. Nad sõid rohkem, leidsid kergemini paaritumispartnereid ja paljunesid seetõttu sagedamini. Aja jooksul said neist ainsad olemasolevad kaelkirjakud. Ilmselgelt ei paljunenud isendid, kellel oli lühike kael ja lühikesed jalad (mõlemad negatiivsed omadused), kuna nad olid keskkonnaga vähem kohanenud nii edukalt, kui hästi kohanenud kaelkirjakud. Lõpuks kadusid vähem soodsad geenid populatsioonist.
                 </p>
             </section>
         
@@ -211,186 +216,190 @@
 
             <section id="s3">
                 <h2 id="s3t">
-                    Evolution Myths 
+                    Müüdid evolutsiooni kohta
                 </h2>
 
                 <h3>
                     <span class="text-rose-400">
-                        Myth 1:
+                        Müüt 1:
                     </span>
-                    Evolution produces perfectly adapted creatures
+                    “Evolutsioon toodab ideaalselt kohanenud isendeid”
                 </h3>
                 <p>
-                    Natural selection is not all-powerful. There are many reasons that natural selection cannot produce “perfectly-engineered” traits. For example, living things are made up of traits resulting from a complicated set of trade-offs — changing one feature for the better may mean changing another for the worse (e.g., a bird with the “perfect” tail plumage to attract mates maybe be particularly vulnerable to predators because of its long tail). And of course, because organisms have arisen through complex evolutionary histories (not a design process), their future evolution is often constrained by traits they have already evolved. For example, even if it were advantageous for an insect to grow in some way other than molting, this switch simply could not happen because molting is embedded in the genetic makeup of insects at many levels. After all you don’t have to be perfectly adapted to survive, you just have to be as well adapted as your competitors. 
+                    Looduslik valik pole kõikvõimas. On palju põhjuseid, miks looduslik valik ei suuda luua "täiuslikult disainitud" omadusi. Näiteks koosnevad elusolendid omadustest, mis tulenevad keerulisest kompromisside komplektist – ühe tunnuse muutmine paremaks võib tähendada teise muutmist halvemaks (nt lind, kellel on kaaslaste meelitamiseks "täiuslik" sabasulestik, on oma pika saba tõttu eriti haavatav kiskjate suhtes). Ja kuna organismid on tekkinud keeruka evolutsiooniajaloo (mitte disainiprotsessi) jooksul, piiravad nende edasist arengut sageli juba välja kujunenud tunnused. Näiteks isegi, kui putukal oleks kasulik areneda muul viisil kui moonde teel, ei saaks see muutus lihtsalt toimuda, sest putukate geenidesse on erinevatel tasanditel nö sisse kirjutatud  moone. Lõppude lõpuks ei pea keegi olema ellujäämiseks ideaalselt kohanenud, ta peab lihtsalt olema sama hästi kohanenud kui tema konkurendid.
                 </p>
                 <p>
-                    There are many reasons why natural selection may not produce a “perfectly-engineered” trait. For example, you might imagine that cheetahs could catch more prey and produce more offspring if they could run just a little faster. For example, here are a few reasons why natural selection might not produce perfection or faster cheetahs:
+                    On palju põhjuseid, miks looduslik valik ei pruugi luua "täiuslikult disainitud" tunnust. Näiteks võite ette kujutada, et gepardid võiksid püüda rohkem saaki ja saada rohkem järglasi, kui nad suudaksid joosta vaid veidi kiiremini. Siin on mõned põhjused, miks looduslik valik ei pruugi anda täiuslikke või kiiremaid gepardeid:
                 </p>
                 <ul>
                     <li>
                         <b>
-                            Lack of necessary genetic variation
+                            Vajaliku geneetilise variatsiooni puudumine
                         </b>
                         <br />
-                        Selection can only operate on the available genetic variation. A cheetah might run faster if it had “faster” alleles — but if faster alleles are not in the population from mutation or gene flow, evolution in this direction will not happen.
+                        Valik saab toimida ainult olemasoleva geneetilise variatsiooni alusel. Gepard võiks kiiremini joosta, kui tal oleks "kiiremad" alleelid – aga kui populatsioonis pole mutatsiooni või geenivoo tõttu kiiremaid alleele, siis evolutsiooni selles suunas ei toimu.
                     </li>
                     <li>
                         <b>
-                            Constraints due to history
+                            Ajaloost tingitud piirangud
                         </b>
                         <br />
-                        Perhaps a different arrangement of leg muscles and bones would produce cheetahs that run faster — however, the basic body form of mammals is already laid out in their genes and development in such a mutually constrained way, that it is unlikely to be altered. There really may be “no way to get there from here.”
+                        Võib-olla annaks jalalihaste ja luude teistsugune paigutus kiiremini jooksvaid gepardeid – imetajate põhiline kehakuju on aga nende geenides ja arengus vastastikku limiteeritud viisil, et see tõenäoliselt ei muutu. 
                     </li>
                     <li>
                         <b>
-                            Trade-offs
+                            Kompromissid
                         </b>
                         <br />
-                        Changing one feature for the better might change another for the worse. Perhaps faster alleles exist in the cheetah population — but there is a trade-off associated with them: the alleles produce cheetahs with longer legs (and hence more speed), but these long legs are hazardously delicate. Although longer limb bones increase stride, their chances of failing due to bending loads increases as well. In this case, perhaps no net increase in fitness would result from the faster alleles.
+                        Ühe funktsiooni paremaks muutmine võib muuta teise halvemaks. Võib-olla eksisteerivad gepardipopulatsioonis nö kiiremad alleelid, kuid nendega on seotud kompromiss: alleelid toodavad pikemate jalgadega (ja seega ka kiiremaid) gepardeid, kuid need pikad jalad on ohtlikult õrnad. Kuigi pikemad jäsemeluud pikendavad sammu, suureneb ka nende vigastuste tõenäosus paindekoormuse tõttu. Sel juhul ei põhjustaks kiiremad alleelid võib-olla füüsilise vormi üldist tõusu.
                     </li>
                 </ul>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Myth 2:
+                        Müüt 2:
                     </span>
-                    Evolution is just a theory
+                    “Evolutsioon on kõigest teooria”
                 </h3>
                 <p>
-                    In science, a theory is an explanation for a phenomenon that can be tested and verified by the scientific method. It includes multiple sources of evidence that build up into a framework of understanding that can change over time to account for new discoveries and new evidence.
+                    Teooriad on selgitused, mida teadus püüab leida. Igapäevakasutuses on see sõna aga pigem vähem konkreetselt määratletud.
                 </p>
                 <p>
-                    Theories are the explanations that science seeks to find. In everyday use the word is rather less concrete.
-                </p>
-                <p>
-                    The misconception “Evolution is just a theory” stems from a mix-up between casual and scientific use of the word theory. In everyday language, theory is often used to mean a hunch with little evidential support. “Scientific theory” on the other hand, does not imply uncertainty. It is a coherent group of general propositions used as principles of explanation for a class of phenomena. In order to be accepted by the scientific community, a theory must be strongly supported by many different lines of evidence. In the case of the theory of evolution, the following are some of the evidence: 
+                    Väärarusaam „Evolutsioon on vaid teooria“ tuleneb sõna „teooria“ kõnekeelse ja teadusliku kasutuse segiajamisest. Kõnekeeles väjendatakse sõnaga „teooria“ aimdust, millel on vähe tõenduslikku tuge. Teisest küljest ei tähenda "teaduslik teooria" ebakindlust. Teaduslik teooria on maailma ja Universumi mingi aspekti selgitus, mida saab korduvalt katsetada ja teadusliku meetodi abil kinnitada, kasutades tunnustatud vaatlus-, mõõtmis- ja tulemuste hindamise reeglistikke / strateegiaid. Teooria peab olema teadlaskonna poolt tugevalt toetatud, et seda aktsepteeritaks. See hõlmab mitmeid tõestusmaterjale, mis loovad arusaamade raamistiku, mis võib aja jooksul muutuda uute avastuste ja uue tõendusmaterjali olemasolul. Evolutsiooniteooria puhul on teada järgmised faktid:
                 </p>
                 <ul>
                     <li>
-                        Life appeared on earth more than two billion years ago;
+                        Elu tekkis Maal üle kahe miljardi aasta tagasi.
                     </li>
                     <li>
-                        Life forms have changed and diversified over life's history;
+                        Eluvormid on muutunud ja mitmekesistunud elu ajaloo jooksul.
                     </li>
                     <li>
-                        Species are related via common descent from one or a few common ancestors;
+                        Liigid on seotud ühise päritolu kaudu, nad pärinevad ühest või mõnest ühisest esivanemast.
                     </li>
                     <li>
-                        Natural selection is a significant factor affecting how species change.
+                        Looduslik valik on oluline tegur, mis mõjutab liikide muutumist.
                     </li>
                 </ul>
-                <p>
-                    The theory of evolution has proved itself in practice. It has useful applications in epidemiology, pest control, drug discovery, and other areas.
-                </p>
-                <p>
-                    Besides the theory, there is the fact of evolution, the observation that life has changed greatly over time. The fact of evolution was recognized even before Darwin's theory. The theory of evolution explains the fact.
-                </p>
-                <p>
-                    If "only a theory" someone should also reject the theory of gravity, atomic theory, the germ theory of disease, and the theory of limits (on which calculus is based). The theory of evolution is no less valid than any of these. Even the theory of gravity still receives serious challenges. Yet the phenomenon of gravity, like evolution, is still a fact.
-                </p>
-                <p>
-                    So, evolution is a well-supported and broadly accepted scientific theory; it is not ‘just’ a hunch.
-                </p>
 
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Myth 3:
+                        Müüt 3:
                     </span> 
-                    Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?)
+                    “Evolutsioon järgib ettemääratud, sirget teed” (või kui inimene on ahvidest arenenud, siis miks on endiselt ahvid olemas?)
                 </h3>
                 <p>
-                    Another misconception is that evolution is a strictly linear process — that is, it occurs in a straight line from primitive to advanced.
+                    Järgmine vääritimõistmine on see, et evolutsioon on rangelt lineaarne protsess – see tähendab, et see kulgeb sirgjooneliselt algelistest kuni arenenud organismideni.
                 </p>
                 <UiContentImage src="asdads" :elevated="true">
                     
                 </UiContentImage>
                 <p>
-                    Originating with Plato and Aristotle the traditional view of how the world was organized was through a “progression in perfection.” This concept is explicit in the idea of the “scala naturae”: All beings on earth, animate and inanimate, could be organized according to an increasing scale of perfection from, say, mushrooms at the bottom up through lobsters and rabbits, all the way to human beings at the top. This view gets three main things wrong:
+                    Platoni ja Aristotelesega on alguse saanud traditsiooniline käsitlus maailma korraldusest „täiuslikkuse arengu“ kaudu. See kontseptsioon väljendub "scala naturae" idees: kõiki maapealseid olendeid, elusaid ja eluta, saab rühmitada järjestikku paigutuvas täiuslikkuse skaalas, näiteks alustades seentest, kuni vähkide ja küülikuteni ning lõpuks inimesteni tipus. See käsitlus eksib kolme peamise asja osas:
                 </p>
                 <ul>
                     <li>
-                        It holds that nature is organized hierarchically. It is not a random assortment of beings.
+                        See eeldab, et loodus on korraldatud hierarhiliselt – et see pole juhuslik olelusvormide kogu.
                     </li>
                     <li>
-                        It envisions two organizing criteria: things progress from simple to perfect and from primitive to modern.
+                        See kujutab ette kahte korralduskriteeriumit: asjad liiguvad lihtsast täiuslikkuse poole ja primitiivsest tänapäevaseni.
                     </li>
                     <li>
-                        It supposes there are no intermediary stages between levels in this hierarchy. Each level is a watertight compartment of similar complexity. No one is halfway between two steps.
+                        See eeldab, et hierarhia eri tasandite vahel pole vaheetappe. Iga tase on sarnase keerukusega ning keegi ei asu kahe astme vahel.
                     </li>
                 </ul>
                 <p>
-                    The truth is that we didn't evolve from any of the any animals that are alive today. Humans didn’t evolve from the gorillas or the chimpanzees we see at the zoo and is a common misconception that apes are a step away from becoming human. According to Darwin, all current organisms are equally evolved and are all still affected by natural selection. So, a starfish and a person, for example, are both at the forefront of the evolution of their particular building plans. And they happen to share a common ancestor that lived about 580 million years ago. That means humans descended from common (and now extinct) ape ancestors that lived millions of years ago. The bottom line is that all humans are apes and, as such, all humans are related to other apes.
+                    Tõde on see, et me ei arenenud välja ühestki tänapäeval eksisteerivast loomaliigist. Inimesed ei arenenud gorilladest ega šimpansitest, keda me näeme loomaaias ning levinud eksiarvamus on, et ahvid on vaid ühe sammu kaugusel inimeseks saamisest. Darwini järgi on kõik praegused organismid ühtemoodi arenenud ja kõik sõltuvad endiselt looduslikust valikust. Seega on näiteks praegune meritäht ja inimene mõlemad oma evolutsiooni tippudeks. Inimene ja meritäht jagavad ühist esivanemat, kes elas umbes 580 miljonit aastat tagasi. Darwini teooria ei eelda evolutsioonis mingit erilist suunda, vaid järkjärgulist muutumist ja mitmekesistumist. Kuna evolutsioon toimib siiani, on kõik praegused organismid oma liigi kõige arenenumad.
                 </p>
                 <p>
-                    Darwin’s theory doesn’t presuppose any special direction in evolution. It assumes gradual change and diversification. And, as evolution is still operating today, all present organisms are the most evolved of their kind. 
-                </p>
-                <p>
-                    Evolution is not a linear process that starts with more “primitive” looking organisms we can observe today, and ends in mankind (as shown in Figure above). A cladogram captures the most important aspect of the evolutionary process: “branching,” or what biologists refer to as cladogenesis. Cladogenetic events are the moments in time during which one species “splits” into two species – these events are also known as speciation events. The branching nature of cladogenesis has an important consequence: Because two or more new species always originate from an ancestor species (and this process has been occurring since the origin of life), any two species we observe in the present are related.
+                    Evolutsioon pole lineaarne protsess, mis algab tänapäeval vaadeldavatest "primitiivsematest" organismidest ja lõpeb inimkonnaga (Vt joonis 1). Kladogramm jäädvustab evolutsiooniprotsessi kõige olulisema aspekti: "hargnemise" ehk selle, mida bioloogid nimetavad kladogeneesiks. Kladogeneetilised sündmused on ajahetked, mil üks liik "hargneb" kaheks liigiks. Kladogenees omab olulist tagajärge: kuna kaks või enam uut liiki pärinevad alati esivanemliigist (ja see protsess on toimunud alates elu algusest), on kõik tänapäeval vaadeldavad liigid omavahel seotud.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Myth 4:
+                        Müüt 4:
                     </span>
-                    Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.
+                    “Evolutsioon ei ole teaduslik, kuna seda ei saa testida ega ümber lükata. See esitab väiteid sündmuste kohta, mida ei ole vaadeldud ja mida ei saa kunagi taasluua.”
                 </h3>
                 <p>
-                    The Science of Evolution is divided into at least two areas: microevolution and macroevolution. 
+                    See arusaam hõlmab kahte väära ideed:
                 </p>
                 <ul>
                     <li>
-                        <b>Microevolution</b> looks at changes within species over time that may be preludes to speciation, the origin of new species.
+                        et kogu teadus sõltub kontrollitud laboriuuringutest ja
                     </li>
                     <li>
-                        <b>Macroevolution</b> studies how taxonomic groups above the level of species change. Its evidence draws frequently from the fossil record and DNA comparisons to reconstruct how various organisms may be related.
+                        et evolutsiooni ei saa taoliste katsetega uurida.
                     </li>
                 </ul>
                 <p>
-                    These days even most creationists acknowledge that microevolution has been upheld by tests in the laboratory (as in studies of cells, plants and fruit flies) and in the field (as in the Grants' studies of evolving beak shapes among Galpagos finches). Natural selection and other mechanisms (chromosomal changes, symbiosis and hybridization) can drive profound changes in populations over time.
+                    Esiteks ei hõlma paljud teaduslikud uurimused katseid ega otsest vaatlust. Astronoomid ei saa tähti käes hoida ja geoloogid ei saa ajas tagasi minna, kuid mõlemad teadlased saavad vaatluse ja võrdlemise kaudu universumi kohta palju õppida. Sarnaselt saavad evolutsioonibioloogid testida oma ideid elu ajaloo kohta, tehes vaatlusi reaalses maailmas.
                 </p>
                 <p>
-                    Macroevolutionary study involves inference from fossils and DNA rather than direct observation. Yet in the historical sciences (which include astronomy, geology and archaeology, as well as evolutionary biology), hypotheses can still be tested by checking whether they accord with physical evidence and whether they lead to verifiable predictions about future discoveries. For instance, evolution implies that between the earliest known ancestors of humans (roughly five million years old) and the appearance of anatomically modern humans (about 200,000 years ago), one should find a succession of hominin creatures with features progressively less apelike and more modern, which is indeed what the fossil record shows. But one should not (and does not) find modern human fossils embedded in strata from the Jurassic period (65 million years ago). Evolutionary biology routinely makes predictions far more refined and precise than this, and researchers test them constantly.
+                    Teiseks, kuigi me ei saa teha eksperimenti, mis ütleks meile, kuidas dinosauruse liin hargnes, saame me kontrollitud katsetega laboratoorsetes tingimustes uurida paljusid evolutsiooni aspekte. 
+                </p>
+                <p>
+                    Evolutsiooni on jaotatud mikroevolutsiooniks ja makroevolutsiooniks.
+                </p>
+                <ul>
+                    <li>
+                        <b>Mikroevolutsiooni</b> puhul uuritakse liikide sees toimuvaid muutusi ajas. Need võivad eelneda uute liikide tekkele.
+                    </li>
+                    <li>
+                        <b>Makroevolutsioon</b> on liigist kõrgemal tasemel toimuv evolutsioon ja seega erinev mikroevolutsioonist, mis toimub liigi või tema populatsioonide piires. Selle tõendusmaterjal pärineb sageli fossiilsest teabest (jäänukitest) ja DNA võrdlustest, et rekonstrueerida, kuidas erinevad organismid võivad olla omavahel seotud.
+                    </li>
+                </ul>
+                <p>
+                    Tänapäeval tunnistab enamus inimesi, et mikroevolutsioon on laboratoorsete testide (nt rakkude, taimede ja äädikakärbse uurimine) ja välitööde (nt Galápagose saarte rändlindude nokkade areng) abil tõestatud. Looduslik valik ja muud mehhanismid (kromosomaalsed muutused, sümbioos ja hübridiseerumine) võivad populatsioonides esile kutsuda sügavaid muutusi.
+                </p>
+                <p>
+                    Makroevolutsiooniline uurimine hõlmab järelduste tegemist fossiilide ja DNA põhjal, mitte otsese vaatluse kaudu. Siiski saab ajalooteadustes (mis hõlmavad astronoomiat, geoloogiat ja arheoloogiat, samuti evolutsioonibioloogiat) hüpoteese ikkagi testida, kontrollides, kas need vastavad füüsilistele tõenditele ja kas need viivad tulevikus leitavate avastuste suhtes kontrollitavatele ennustustele. Näiteks evolutsioon viitab sellele, et inimese varaseimate teadaolevate esivanemate (umbes viis miljonit aastat tagasi) ja anatoomiliselt kaasaegsete inimeste ilmumise (umbes 200 000 aastat tagasi) vahel peaks leiduma eellasi. Kuid ei tohiks (ja ei leita) kaasaegseid inimese fossiile kihistustest, mis pärinevad juura perioodist (65 miljonit aastat tagasi). Evolutsioonibioloogia teeb tavapäraselt ennustusi, mis on palju täpsemad.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Myth 5:
+                        Müüt 5:
                     </span>
-                    Species are immutable.
+                    “Liigid on muutumatud”
                 </h3>
                 <p>
-                    The notion that living species of animals and plants are immutable is probably as old as humankind. A casual observation of the natural world does not readily suggest that species evolve. This is because human life spans are too short to witness these events directly. Speciation might take centuries. Furthermore, recognizing a new species during a formative stage can be difficult because biologists sometimes disagree about how best to define a species.
+                    Arvamus, et loomade ja taimede liigid on muutumatud, on tõenäoliselt sama vana kui inimkond. Loodusmaailma juhusliku vaatluse põhjal ei ole kohe võimalik tajuda, et liigid arenevad. Seda seetõttu, et inimese eluea pikkus on liiga lühike, et neid sündmusi ise näha. Muutumine võib võtta sajandeid. Lisaks võib uue liigi tuvastamine tema kujunemise etapil olla keeruline, kuna bioloogid vaidlevad mõnikord selle üle, kuidas uut liiki kõige paremini defineerida.
                 </p>
                 <p>
-                    Nevertheless, the scientific literature does contain reports of apparent speciation events in plants, insects and worms. In most of these experiments, researchers subjected organisms to various types of selection—for anatomical differences, mating behaviours, habitat preferences and other traits—and found that they had created populations of organisms that did not breed with outsiders. 
+                    Siiski sisaldab teaduslik kirjandus aruandeid ilmselgetest muutustest taimedes, putukates ja ussides. Enamikus katsetest panid teadlased organismid erinevate valikumeetodite alla — anatoomiliste erinevuste, paaritumiskäitumise, elupaiga eelistuste ja muude omaduste osas – ning leidsid, et nad olid loonud organismide populatsioone, kes ei paaritu isenditega väljaspool oma populatsiooni.
                 </p>
                 <p>
-                    Though we can’t run an experiment that will tell us how the dinosaur lineage radiated, we can study many aspects of evolution with controlled experiments in a laboratory setting. In organisms with short generation times (e.g., bacteria or fruit flies), we can actually observe evolution in action over the course of an experiment. The Evolution of Bacteria on a <a href="https://www.youtube.com/watch?v=plVk4NVIUh8" target="_blank" rel="noopener noreferrer">The Evolution of Bacteria on a “Mega-Plate” Petri Dish</a>. In another example, William R. Rice of the University of New Mexico and George W. Salt of the University of California, Davis, demonstrated that if they sorted a group of fruit flies by their preference for certain environments and bred those flies separately over 35 generations, the resulting flies would refuse to breed with those from a very different environment. In some cases, biologists have observed evolution occurring in the wild (e.g. mosquito populations that evolve rapid resistance to DDT, antibiotic-resistant Bacteria and drug-resistant HIV can evolve resistance to drugs very rapidly).
+                    Kuigi me ei saa teha katset, mis ütleks meile, kuidas dinosaurused hargnesid, siis saame kontrollitud eksperimentide abil laborikeskkonnas uurida paljusid evolutsiooni aspekte. Organismide puhul, kelle põlvkondade vahetus toimub kiiresti (nt bakterid või kärbsed), saame tegelikult jälgida evolutsiooni toimumist katse käigus. Näiteks bakterite evolutsiooni videos <a href="https://www.youtube.com/watch?v=plVk4NVIUh8" target="_blank" rel="noopener noreferrer">Bakterite evolutsioon Petri tassil</a>. Teine näide pärineb William R. Rice’lt Mehhiko Ülikoolist ja George W. Salt’ilt Davise Ülikoolist, kes näitasid, et kui nad sorteerivad ühe kärbserühma nende eelistuste põhjal teatud keskkonnas ja aretavad neid eraldi 35 põlvkonna vältel, on tulemuseks järglased, kes keelduvad lõpuks paaritumast nendega, kes on pärit sellest erinevast keskkonnast. Mõnel juhul on bioloogid evolutsiooni toimumist täheldanud ka lihtsalt teatud protsesse jälgides (nt sääsepopulatsioonid, kes on kiiresti arenenud DDT (teatud pestitsiid) suhtes vastupidavaks või antibiootikumiresistentsete bakterite ja ravimiresistentse HIV-viiruse teke).
                 </p>
 
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Myth 6:
+                        Müüt 6:
                     </span>
-                    The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species. 
+                    “Mingi organismis kehaosa olemasolu võib päranduda järglastele ja need võivad viia liikide muutusteni” 
                 </h3>
 
                 <p>
-                    Lamarck proposed a theory of evolution based on the principle that physical changes in organisms during their lifetime—such as greater development of an organ or a part through increased use—could be transmitted to their offspring.
+                    Lamarck pakkus välja evolutsiooniteooria, mille kohaselt võivad organismi füüsilised muutused, mis on tekkinud tema elu jooksul, tema järglastele päranduda.
                 </p>
                 <p>
-                    Biologists define an acquired characteristic as one that has developed in the course of the life of an individual in the somatic or body cells, usually as a direct response to some external change in the environment or through the use or disuse of a part. The inheritance of such a characteristic means its reappearance in one or more individuals in the next or in succeeding generations. but there is no evidence supporting this case. 
+                    Bioloogid defineerivad omandatud omadust kui midagi, mis on arenenud indiviidi elu jooksul somaatilistes rakkudes (keharakkudes), tavaliselt otsese reaktsioonina väliskeskkonna muutusele või mõne osa kasutamisele või mittekasutamisele. Selle omaduse pärandumine tähendab selle taasilmumist ühes või mitmes järgmises põlvkonnas, kuid selle kohta pole tõendeid.
                 </p>
                 <p>
-                    As well as growing, individual organisms may develop particular skills or physical characters during the course of their lives as a result of differences in the way they live. For example, the human practices of ear-piercing, circumcision and decorative body scars. These characters, which are acquired deliberately during the course of an individual's life, are not inherited by that individual's offspring even though the practice may have been carried out for hundreds of generations. Likewise, a plant that has grown particularly large in a patch of good ground, or a toad that has grown very big because it lives in a garden full of food, will not pass their large size on to their progeny. So, inheritance of acquired characters does not occur.
+                    Lisaks võivad organismid oma elu jooksul arendada teatud oskusi või füüsilisi omadusi erinevuste tõttu nende eluviisis, näiteks inimestele tehtavad kõrvaaugud ja ümberlõikamine. Kuigi need omadused omandatakse organismi elu jooksul tahtlikult, ei pärandu need tema järglastele, hoolimata sellest, et seda võib olla kasutatud sadu põlvkondi. Sama kehtib taime kohta, mis on kasvanud eriti suureks hea mulla peal või konn, mis on kasvanud väga suureks tänu aiale, mis on täis toitu - nad ei edasta oma suurust oma järglastele. Seega ei esine omandatud omaduste pärandumist.
                 </p>
                 <p>
-                    Another example would be found in the supposed inheritance of a change brought about by the use and disuse of a special organ. The blacksmith’s arm (or any other set of muscles) enlarges when used continually against an external resistance, such as the weight of the hammer. If the effect were inherited, the smith’s children at birth would have unusually large arms—if not at birth, then when they became adults, even though they had not used their arms excessively. There is no evidence supporting this case. 
+                    Veel üks näide erilise organi kasutamise või mittekasutamise põhjustatud muutuse pärandumise kohta: sepa käsi (või mis tahes muu lihasgrupp) suureneb, kui seda kasutatakse pidevalt vasara tõstmiseks. Kui sellel oleks päranduv mõju, oleks sepa lastel sündides ebatavaliselt suured käed – kui mitte sündides, siis täiskasvanuks saades, hoolimata sellest, et nad ei ole oma käsi liigselt kasutanud. Selle kohta pole tõendeid.
                 </p>
                 <p>
-                    A more subtle illustration is found in the supposed inheritance of an increased dexterity of the hands of a musician through practice. The skill acquired, although causing no visible increase in the size of the fingers, might be imagined to be passed along to the musician’s children, and they might then be expected to play skilfully with minimal practice. Just how the intricate interplay of cerebral sequences that has given the dexterity to the musician’s fingers could ever be transferred to the musician’s sex cells (spermatozoa or ova), and through them to any potential children, has never been brought within the range of biological possibilities.
+                    Veel ekstreemsem näide võiks käia muusiku käteosavuse, mis saavutatakse harjutamise teel, oletatava pärandumise kohta. Kuigi osavus, mis on omandatud harjutamise käigus, ei põhjusta nähtavat sõrmede pikkuse suurenemist, võib arvata, et see võib kanduda edasi muusiku lastele ning neilt võib oodata oskust mängida osavalt minimaalse harjutamisega. Kuidas aga võiks see, mis on andnud muusiku sõrmedele osavuse, kunagi kanduda muusiku sugurakkudesse (spermidesse või munarakkudesse) ja nende kaudu võimalike lasteni, pole kunagi bioloogiliselt tõestust leidnud.
                 </p>
             </section>
 
