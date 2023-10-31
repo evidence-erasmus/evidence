@@ -407,91 +407,88 @@
 
 
 
+
+
+
+
+
+
+
             <hr class="mt-10 mb-40" />
 
             <section id="s4">
                 <h2 id="s4t">
-                    Evolution misconceptions
+                    Väärarusaamad evolutsiooni kohta
                 </h2>
 
                 <p>
-                    On occasion, teachers find themselves on the receiving end of questions about the inclusion of evolution in the curriculum. Students may bring up challenges in class. Parents may object to their child learning about evolution. School administrators or other teachers may fail to support teachers in their efforts to teach evolution. Community members may present intentional challenges to individual teachers, to school districts, or even to statewide entities by attempting to influence science education standards or by changing legislation.
+                    Allpool on esitatud mõned levinud väärarusaamad evolutsiooni kohta ja kuidas õpetaja võiks neid adresseerida.
                 </p>
-                <p>
-                    All teachers, even those in communities thoroughly supportive of teaching evolution, should keep in mind that some students perceive evolution to be incompatible with religious faith. Although many religious views are compatible with evolutionary theory and although many religious organizations support the teaching of evolution, students may be unaware of these facts. 
-                </p>
-                <p>
-                    The perception of a clash between science and students’ beliefs can cause discomfort in class. To make these students more comfortable, teachers can help them understand that evolution, like all of science, seeks to explain natural things through natural causes. It need not be considered incompatible with their faith because science does not rely on, and cannot evaluate or test, supernatural explanations. At the same time, your teaching should reflect the fact that evolution is the only scientifically valid and accepted theory that accounts for our observations of the biological world. Alternative “theories” that have been proposed for insertion into the science curriculum have not been supported by valid science.
-                </p>
-                <p>
-                    Below are presented some of the common misconceptions about evolution and how teachers can address them.
-                </p>
+                
 
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 1:
+                        Väärarusaam 1:
                     </span>
-                    Evolution is a theory about the origin of life
+                    “Evolutsioon on teooria elu päritolu kohta”
                 </h3>
                 <p>
-                    Evolutionary theory does encompass ideas and evidence regarding life’s origins (e.g., whether or not it happened near a deep-sea vent, which organic molecules came first, etc.), but this is not the central focus of evolutionary theory. Most of evolutionary biology deals with how life changed after its origin. Regardless of how life started, afterwards it branched and diversified, and most studies of evolution are focused on those processes.
+                    Evolutsiooniteooria hõlmab küll ideid ja tõendeid elu päritolu kohta (nt kas see juhtus ürgmeres, millised orgaanilised molekulid tekkisid esimesena jne.), kuid see pole evolutsiooniteooria olulisim fookus. Enamik evolutsioonibioloogiast tegeleb sellega, kuidas elu pärast selle tekkimist muutus. Sõltumata sellest, kuidas elu algas, hargnes ja mitmekesistus elu hiljem – enamik evolutsiooniuuringuid keskendub just nendele protsessidele.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 2:
+                        Väärarusaam 2:
                     </span>
-                    Evolutionary theory implies that life evolved (and continues to evolve) randomly, or by chance.
+                    “Evolutsiooniteooria eeldab, et elu arenes (ja jätkab arengut) juhuslikult või juhuse läbi”
                 </h3>
                 <p>
-                    Some important mechanisms of evolution are non-random and these make the overall process non-random. 
-                </p>
-                <p>
-                    For example, natural selection, results in adaptations (e.g., the ability of bats to echolocate). Such amazing adaptations clearly did not come about “by chance.” They evolved via a combination of random and non-random processes. 
-                </p>
-                <p>
-                    The process of mutation, which generates genetic variation, is random, but selection is non-random. Selection favoured variants that were better able to survive and reproduce (e.g., to navigate in the dark). Over many generations of random mutation and non-random selection, complex adaptations evolved.
+                    Mõned evolutsioonimehhanismid ei ole juhuslikud ja muudavad seetõttu  üldise protsessi mittejuhuslikuks. Näiteks looduslik valik põhjustab kohastumisi (nt nahkhiirte kajalokatsiooni võimet). Sellised hämmastavad kohastumused ei saanud ilmselgelt sündida "juhuslikult". Need kujunesid läbi juhuslike ja mittejuhuslike protsesside kombinatsiooni. Mutatsioonide protsess, mis tekitab geneetilist varieeruvust, on juhuslik, kuid valik on mittejuhuslik. Valik soosib variante, mis suudavad paremini ellu jääda ja paljuneda (nt pimedas navigeerimine nahkhiirtel). Mitmete põlvkondade juhuslike mutatsioonide ja mittejuhusliku valiku tulemusel tekkisid keerukad kohastumused.
                 </p>
 
+
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 3:
+                        Väärarusaam 3:
                     </span>
-                    Individual organisms can evolve during a single lifespan.
+                    “Üksikud organismid võivad evolutsioneeruda ühe eluea jooksul”
                 </h3>
                 <p>
-                    Evolutionary change is based on changes in the genetic makeup of populations over time. Populations, not individual organisms, evolve. New gene variants (i.e., alleles) are produced by random mutation, and over the course of many generations, natural selection may favour advantageous variants, causing them to become more common in the population.
+                    Evolutsioon toimub aja jooksul populatsioonide geneetilise koostise muutuste kaudu. Uued geenivariandid (nt alleelid) tekivad juhusliku mutatsiooni teel ning mitmete põlvkondade jooksul võib looduslik valik soosida kasulikke variante, muutes need populatsioonis levinumaks. Seega populatsioonid evolutsioneeruvad, kuid mitte üksikud organismid.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 4:
+                        Väärarusaam 4:
                     </span>
-                    Because evolution is slow, humans cannot influence it.
+                    “Kuna evolutsioon on aeglane, ei saa inimesed seda mõjutada”
                 </h3>
                 <p>
-                    Since humans often cause major changes in the environment, we are frequently the instigators of evolution in other organisms. Some examples of human-caused evolution:
+                    Kuna inimesed põhjustavad sageli suuri muutusi keskkonnas, oleme tihti evolutsiooni algatajaks teistes organismides. Mõned näited inimese põhjustatud evolutsioonist:
                 </p>
                 <ul>
                     <li>
-                        Insects like bedbugs and crop pests have evolved resistance to pesticides.
+                        Putukad, nagu lutikad jt kahjurid, mis hävitavad saaki, on arenenud vastupidavaks pestitsiididele.
                     </li>
                     <li>
-                        Bacteria, HIV, malaria, and cancer have evolved resistance to drugs.
+                        Bakterid, HIV, malaaria ja vähk on arenenud vastupidavamaks teatud ravimitele.
                     </li>
                 </ul>
 
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 5:
+                        Väärarusaam 5:
                     </span>
-                    Humans are not currently evolving.
+                    “Inimesed praegu ei arene”
                 </h3>
                 <p>
-                    Humans are now able to modify our environments with technology. We have invented medical treatments, agricultural practices, and economic structures that significantly alter the challenges to reproduction and survival faced by modern humans. So, for example, because we can now treat diabetes with insulin, the gene versions that contribute to juvenile diabetes are no longer strongly selected against in developed countries. Some have argued that such technological advances mean that we have stopped evolving.
+                    Inimesed suudavad tänapäeval oma keskkonda tehnoloogia abil muuta. Oleme välja mõelnud meditsiinilised ravimeetodid, põllumajandustehnoloogiad ja majanduslikud struktuurid, mis oluliselt muudavad kaasaegsete inimeste paljunemist ja ellujäämist. Näiteks kuna me suudame nüüd diabeeti insuliiniga ravida, siis diabeedi varase algusele kaasa aitavad geeniversioonid ei ole arenenud riikides enam tugevalt valiku all. On väidetud, et sellised tehnoloogilised edusammud tähendavad, et oleme lõpetanud evolutsiooni.
                 </p>
                 <p>
-                    However, this is not the case. Humans still face challenges to survival and reproduction, just not the same ones that we did 20,000 years ago. The direction, but not the fact of our evolution has changed. For example, modern humans living in densely populated areas face greater risks of epidemic diseases than did our hunter-gatherer ancestors (who did not come into close contact with so many people on a daily basis) — and this situation favours the spread of gene versions that protect against these diseases. Scientists have uncovered many such cases of recent human evolution. Explore these links to learn about:
+                    See pole aga nii. Inimestel on endiselt ellujäämise ja paljunemisega seotud väljakutseid, kuid mitte samasuguseid kui 20 000 aastat tagasi. Meie evolutsiooni kulg on muutunud, kuid mitte fakt ise. Näiteks kaasaegsed inimesed, kes elavad tihedalt asustatud piirkondades, omavad suuremat riski epideemiliste haiguste suhtes kui meie kütt-korilase esivanemad (kes ei puutunud igapäevaselt nii paljude inimestega kokku). See olukord soosib geenide levikut, mis kaitsevad neid haiguste vastu. Teadlased on avastanud mitmeid taolisi hiljutise inimarengu juhtumeid. Tutvuge järgmiste materjalidega, et saada rohkem teada:
                 </p>
                 <ul>
                     <li>
@@ -511,124 +508,126 @@
                     </li>
                 </ul>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 6:
+                        Väärarusaam 6:
                     </span>
-                    Natural selection involves organisms trying to adapt.
+                    “Looduslik valik hõlmab organismide püüdu kohaneda”
                 </h3>
                 <p>
-                    Natural selection leads to the adaptation of species over time, but the process does not involve effort, trying, or wanting. Natural selection naturally results from genetic variation in a population and the fact that some of those variants may be able to leave more offspring in the next generation than other variants. That genetic variation is generated by random mutation — a process that is unaffected by what organisms in the population want or what they are “trying” to do. Either an individual has genes that are good enough to survive and reproduce, or it does not; it can’t get the right genes by “trying.” 
+                    Looduslik valik viib liikide kohastumiseni ajas, kuid protsess ei hõlma pingutust, püüdu ega soovi. Looduslik valik tuleneb geneetilisest varieeruvusest populatsioonis ja asjaolust, et mõned nende variantide kandjatest suudavad rohkem järglasi saada kui teiste variantide kandjad. Geneetiline varieeruvus tekib juhusliku mutatsiooni tõttu – see on protsess, mis ei sõltu sellest, mida populatsioonis olevad organismid “tahavad” või mida nad "püüavad" teha. Kas indiviidil on piisavalt häid geene ellujäämiseks ja järglaste saamiseks, sõltub tema geneetikast – ta ei saa õigeid geene "proovimise" teel.
                 </p>
                 <p>
-                    For example, bacteria do not evolve resistance to our antibiotics because they “try” so hard. Instead, resistance evolves because random mutation happens to generate some individuals that are better able to survive the antibiotic, and these individuals can reproduce more than other, leaving behind more resistant bacteria. 
+                    Näiteks ei arenda bakterid resistentsust meie antibiootikumide suhtes, sest nad "püüavad" kõvasti. Selle asemel areneb resistentsus, kuna juhuslik mutatsioon tekib mõnes üksikus isendis, kes on antibiootikumi suhtes ellujäämisvõimelisem ning nende järglased paljunevad rohkem kui teised, mistõttu tekib rohkem resistentsed bakterid.
+                </p>
+
+                <hr />
+                <h3>
+                    <span class="text-rose-400">
+                        Väärarusaam 7:
+                    </span>
+                    “Inimesed ei saa ökosüsteemidele negatiivset mõju avaldada, sest liigid lihtsalt evolutsioneeruvad ja kohanevad ellujäämiseks vajalike omadustega.”
+                </h3>
+                <p>
+                    Looduslik valik ei taga organismidele automaatselt ellujäämiseks vajalikke omadusi. Mõned liigid võivad küll omada omadusi, mis võimaldavad neil inimeste poolt põhjustatud keskkonnamuutustega edukalt toime tulla ja seega võivad need omadused evolutsiooni käigus selekteeruda. Kuid teised liigid võivad omada vähem sobivaid omadusi ja seetõttu võivad nad välja surra. Kui populatsioon või liik ei oma sobivat geneetilist varieeruvust, ei pruugi ta suuta inimeste põhjustatud keskkonnamuutustega kohaneda ja võib seetõttu ka välja surra.
+                </p>
+                <p>
+                    Näiteks kuna kliimamuutused põhjustavad Arktika merejää aina õhemaks muutumist ja varasemat lagunemist, siis on toidu hankimine muutunud jääkarudele raskemaks. Kui jääkaru populatsioonidel pole geneetilist varieeruvust, mis võimaldaks mõnel indiviidil pidada jahti väljaspool merejääd, võivad nad metsikus looduses välja surra.
+                </p>
+                
+                <hr />
+                <h3>
+                    <span class="text-rose-400">
+                        Väärarusaam 8:
+                    </span>
+                    “Kõige sobivamad organismid populatsioonis ei ole tugevamad, tervemad, kiiremad ja/või suuremad”
+                </h3>
+                <p>
+                    Evolutsioonilises mõttes on "sobivusel" erinev tähendus sellest, mida kasutame igapäevases keelekasutuses. Organismi evolutsiooniline sobivus ei näita tema tervist, vaid tema võimet viia/kanda edasi oma geenid järgmisesse põlvkonda. Mida viljakamaid järglasi organism järgmisesse põlvkonda tekitab, seda sobivam ta on. See ei korreleeru alati tugevuse, kiiruse ega suurusega. Näiteks võib habras isaslind erksate sabasulgedega saada rohkem järglasi kui tugevam isane.
+                </p>
+                
+                <hr />
+                <h3>
+                    <span class="text-rose-400">
+                        Väärarusaam 9:
+                    </span>
+                    “Evolutsiooniteooria on kehtetu, sest see on lõpetamata ja ei suuda anda täielikku selgitust meie ümber nähtavale bioloogilisele mitmekesisusele.”
+                </h3>
+                
+                <p>
+                    See väärarusaam tuleneb teaduslike teooriate olemuse valesti mõistmisest. Kõik teaduslikud teooriad (evolutsiooniteooriast aatomiteooriani) on veel töös. Uute tõendite avastamisel ja uute ideede väljaarendamisel muutub meie arusaam sellest, kuidas maailm toimib, ning seega ka arusaam teaduslikust teooriast. Kuigi me ei tea kõike evolutsiooni kohta (ega ükskõik millise muu teadusharu kohta), teame siiski palju elu ajaloo, lineaarsuse ja nende muutuste põhjuste kohta. Tulevikus õpitakse ja teatakse veelgi rohkem.
+                </p>
+                <p>
+                    Evolutsiooniteooria, nagu iga teaduslik teooria, ei selgita kõike, mida me loodusmaailmas jälgime. Siiski aitab evolutsiooniteooria meil mõista laia valikut vaatlusi (alates antibiootikumidele vastupidavamate bakterite tekkest kuni tolmeldajate ja nende õie-eelistuste füüsilise sobitumiseni), teeb täpseid ennustusi uutes olukordades (näiteks et AIDS-i patsiente ravides mitme ravimiga peaks viiruse evolutsiooni aeglustama) ning on end korduvalt tõestanud tuhandete katsete ja vaatlusuuringutega. Tänapäevani on evolutsiooniteooria ainus hästi toetatud selgitus elu mitmekesisusele.
+                </p>
+
+                <hr />
+                <h3>
+                    <span class="text-rose-400">
+                        Väärarusaam 10:
+                    </span>
+                    “Lüngad fossiilsete andmete kogudes lükkavad evolutsiooni ümber.” 
+                </h3>
+                <p>
+                    Kuigi on tõsi, et fossiilide kogudes on lünki, ei tõesta see evolutsiooniteooria paikapidamatust. Teadlased hindavad hüpoteese ja teooriaid, selgitades välja, mida võiksime jälgida, kui konkreetne idee oleks tõsi, ja seejärel vaadates, kas need ootused täituvad. Kui evolutsiooniteooria vastaks tõele, siis eeldaksime, et on olemas üleminekuvormid, mis ühendavad iidseid liike nende esivanemate ja järeltulijatega.
+                </p>
+                <p>
+                    See ootus on täitunud. Paleontoloogid on leidnud palju üleminekutunnustega fossiile ja uusi fossiile avastatakse pidevalt. Siiski ei saa me eeldada, et kõik need vormid säiliksid fossiilsetes kogudes. Paljudel organismidel ei ole kehaosi, mis fossiliseeruks hästi, keskkonnatingimused heade fossiilide moodustumiseks on haruldased ja loomulikult oleme avastanud vaid väikese protsendi fossiilidest, mis võivad kusagil Maal leiduda. Seega eeldavad teadlased, et paljude evolutsiooniliste üleminekute puhul on fossiilide kogudes lünki.
+                </p>
+
+
+
+                <hr />
+                <h2>
+                    Väärarusaamad, mis on seotud usuliste veendumustega
+                </h2>
+                <p>
+                    Õpetajad võivad aeg-ajalt kokku puutuda küsimustega evolutsiooni õpetamise vajalikkuse kohta õppekavas. Näiteks võivad mõned õpilased klassis esitada õpetajale selle kohta küsimusi või mõnikord ka vanemad vastu seista oma lapse evolutsiooniõpetuse õppimisele, põhjenduseks  selle  kokkusobimatus nende usuliste veendumustega. Kuigi paljud religioossed õpetused ei vastanda ennast evolutsiooniteooriale ja paljud usuorganisatsioonid toetavad evolutsiooni õpetamist, ei pruugi õpilased ja nende vanemad sellest teadlikud olla.
+                </p>
+                <p>
+                    Teaduse ja õpilase uskumuste vahelise konflikti tajumine võib klassis tekitada ebamugavust. Sellisel juhul võiks õpetaja aidata mõista, et teaduse valdkond, mis uurib evolutsiooni, nagu ka teised teadused, püüavad loodusnähtusi selgitada looduslike põhjuste kaudu. See ei pea olema kooskõlas religioossete uskumustega, sest teadus ei tugine üleloomulikele nähtustele ning nende nähtuste selgitustele ega saa neid ka hinnata ega testida. Samal ajal peaks õpetamine kindlasti edastama sõnumit, et evolutsiooniõpetus on ainus teaduslikult kehtiv ja aktsepteeritud teooria, mis selgitab meie vaatlusi bioloogilisest maailmast. Muud "teooriad” (näiteks kreatsionistlik teooria elu tekkest), mida mõnes riigis on välja pakutud loodusteaduste tundides käsitlemiseks alternatiivina neile, kes evolutsiooniteooriat ei tunnista, pole paraku toetatud kaasaegse  teadusliku teadmise poolt.
+                </p>
+
+                <hr />
+                <h3>
+                    <span class="text-rose-400">
+                        Väärarusaam 11:
+                    </span>
+                    “Evolutsioon ja religioon ei sobi kokku”. 
+                </h3>
+                <p>
+                    Kuna mõned üksikisikud ja rühmad avaldavad järsult oma veendumusi, on lihtne jätta mulje, et teadus (sealhulgas evolutsioon) ja religioon on omavahel “sõjas”. Tekib arusaam, et alati tuleb valida teaduse ja religiooni vahel, mis on vale. Erinevate uskumuste ja teaduslike teadmiste tasemega inimesed ei näe teaduse ja religiooni vahel mingit vastuolu. Paljude nende inimeste jaoks tegelevad teadus ja religioon lihtsalt erinevate valdkondadega. Teadus tegeleb loodusnähtuste põhjuste selgitamisega, religioon aga uskumustega, mis on väljaspool loodusmaailma. Muidugi on mõned religioossed tõekspidamised teadusega selgesõnaliselt vastuolus (nt arusaam, et maailm ja kogu sellel olev elu loodi kuue päevaga, on otseses vastuolus evolutsiooniteooriaga); enamus religioosseid rühmitusi ei näe aga vastuolu evolutsiooniteooria ega muude teaduslike avastustega. Tegelikult tunnevad paljud religioossed inimesed, sealhulgas teoloogid, et looduse sügavam mõistmine rikastab nende usku. Pealegi on teadusringkondades tuhandeid teadlasi, kes on religioossed, kuid aktsepteerivad evolutsiooni.
                 </p>
 
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 7:
+                        Väärarusaam 12:
                     </span>
-                    Humans can’t negatively impact ecosystems, because species will just evolve what they need to survive.
+                    “Õpetajad peaksid õpetama evolutsiooni "mõlemat poolt" ja laskma õpilastel ise otsustada või peaksid õpetajad andma võrdselt aega evolutsioonile ja <a href="https://et.wikipedia.org/wiki/Kreatsionism" target="_blank" rel="noopener noreferrer">kreatsionismile</a>.”
                 </h3>
                 <p>
-                    Natural selection does not automatically provide organisms with the traits they “need” to survive. Of course, some species may possess traits that allow them to thrive under conditions of environmental change caused by humans and so may be selected for, but others may not and so may go extinct.
-                </p>
-                <p>
-                    If a population or species doesn’t happen to have the right kinds of genetic variation, it will not evolve in response to the environmental changes wrought by humans, whether those changes are caused by pollutants, climate change, habitat encroachment, or other factors.
-                </p>
-                <p>
-                    For example, as climate change causes the Arctic Sea ice to thin and break up earlier and earlier, polar bears are finding it more difficult to obtain food. If polar bear populations don’t have the genetic variation that would allow some individuals to take advantage of hunting opportunities that are not dependent on sea ice, they could go extinct in the wild.
+                    Võrdselt mõlemale aja andmine on mõttetu, kuna kaks poolt pole võrdsed. Religioon ja teadus on väga erinevad kategooriad ning religioossed vaated ei kuulu üldse loodusteaduste klassiruumi. Loodusteaduste tunnis peaks õpilastel olema võimalus arutleda teaduse raames argumentide ja tõendite üle. Näiteks võivad õpilased uurida ja arutleda, kus linnud fülogeneetiliselt puult täpselt hargnesid: enne dinosauruseid või dinosaurustest. Seevastu arutelul, mis vastandab teaduslikku kontseptsiooni religioosse veendumusega, pole teadustunnis kohta. Nimetatud arusaam viitab eksitavalt sellele, et nende kahe vahel tuleb teha „valik”. "Õigluse" argumenti on kasutanud inimesed, kes üritavad oma usulisi veendumusi loodusteaduste õppekavadesse lisada.
                 </p>
 
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 8:
+                        Väärarusaam 13:
                     </span>
-                    The fittest organisms in a population are those that are strongest, healthiest, fastest, and/or largest.
+                    “Evolutsiooniteooria on ise religioosne, seega on õpetajatelt evolutsiooniteooria õpetamise nõudmine vastuoluline.”
                 </h3>
                 <p>
-                    In evolutionary terms, fitness has a very different meaning than the everyday meaning of the word. An organism’s evolutionary fitness does not indicate its health, but rather its ability to get its genes into the next generation. The more fertile offspring an organism leaves in the next generation, the fitter it is. This doesn’t always correlate with strength, speed, or size. 
-                </p>
-                <p>
-                    For example, a puny male bird with bright tail feathers might leave behind more offspring than a stronger, duller male, and a spindly plant with big seed pods may leave behind more offspring than a larger specimen — meaning that the puny bird and the spindly plant have higher evolutionary fitness than their stronger, larger counterparts.
+                    See ekslik argument põhineb ideel, et evolutsioon ja religioon on põhimõtteliselt samad, kuna mõlemad on "uskumuste süsteemid". See idee on lihtsalt vale. Usk religioossetesse ideedesse põhineb usul ja religioon tegeleb teemadega, mis jäävad loodusmaailmast väljapoole. Teaduslike ideede (nagu evolutsiooni) aktsepteerimine põhineb loodusmaailmast pärit tõenditel, kusjuures teadus piirdub loodusmaailma nähtuste ja protsesside uurimisega.
                 </p>
 
                 <h3>
                     <span class="text-rose-400">
-                        Misconception 9:
+                        Väärarusaam 14:
                     </span>
-                    Evolution is not science because it is not observable or testable.
-                </h3>
-                <ul>
-                    This misconception encompasses two incorrect ideas:
-                    <li>
-                        that all science depends on controlled laboratory experiments, and 
-                    </li>
-                    <li>
-                        that evolution cannot be studied with such experiments. 
-                    </li>
-                </ul>
-                <p>
-                    First, many scientific investigations do not involve experiments or direct observation. Astronomers cannot hold stars in their hands and geologists cannot go back in time, but both scientists can learn a great deal about the universe through observation and comparison. In the same way, evolutionary biologists can test their ideas about the history of life on Earth by making observations in the real world. 
-                </p>
-                <p>
-                    Second, though we can’t run an experiment that will tell us how the dinosaur lineage radiated, we can study many aspects of evolution with controlled experiments in a laboratory setting. In organisms with short generation times (e.g., bacteria or fruit flies), we can actually observe evolution in action over the course of an experiment. <a href="https://www.youtube.com/watch?v=plVk4NVIUh8" target="_blank" rel="noopener noreferrer">The Evolution of Bacteria on a “Mega-Plate” Petri Dish</a>. In some cases, biologists have observed evolution occurring in the wild.
-                </p>
-
-                <h3>
-                    <span class="text-rose-400">
-                        Misconception 10:
-                    </span>
-                    Evolutionary theory is invalid because it is incomplete and cannot give a total explanation for the biodiversity we see around us.
+                    “Evolutsioon viib ebamoraalse käitumiseni.”
                 </h3>
                 <p>
-                    This misconception stems from a misunderstanding of the nature of scientific theories. All scientific theories (from evolutionary theory to atomic theory) are works in progress. As new evidence is discovered and new ideas are developed, our understanding of how the world works changes and so too do scientific theories. While we don’t know everything there is to know about evolution (or any other scientific discipline, for that matter), we do know a great deal about the history of life, the pattern of lineage-splitting through time, and the mechanisms that have caused these changes. And more will be learned in the future.
-                </p>
-                <p>
-                    Evolutionary theory, like any scientific theory, does not yet explain everything we observe in the natural world. However, evolutionary theory does help us understand a wide range of observations (from the rise of antibiotic-resistant bacteria to the physical match between pollinators and their preferred flowers), does make accurate predictions in new situations (e.g., that treating AIDS patients with a cocktail of medications should slow the evolution of the virus), and has proven itself time and time again in thousands of experiments and observational studies. To date, evolution is the only well-supported explanation for life’s diversity. 
-                </p>
-
-                <h3>
-                    <span class="text-rose-400">
-                        Misconception 11:
-                    </span>
-                    Gaps in the fossil record disprove evolution.
-                </h3>
-                <p>
-                    While it’s true that there are gaps in the fossil record, this does not constitute evidence against evolutionary theory. Scientists evaluate hypotheses and theories by figuring out what we would expect to observe if a particular idea were true and then seeing if those expectations are borne out. If evolutionary theory were true, then we’d expect there to have been transitional forms connecting ancient species with their ancestors and descendents.
-                </p>
-                <p>
-                    This expectation has been borne out. Paleontologists have found many fossils with transitional features, and new fossils are discovered all the time. However, if evolutionary theory were true, we would not expect all of these forms to be preserved in the fossil record. Many organisms don’t have any body parts that fossilize well, the environmental conditions for forming good fossils are rare, and of course, we’ve only discovered a small percentage of the fossils that might be preserved somewhere on Earth. So, scientists expect that for many evolutionary transitions, there will be gaps in the fossil record.
-                </p>
-
-                <h3>
-                    <span class="text-rose-400">
-                        Misconception 12:
-                    </span>
-                    Evolution leads to immoral behaviour.
-                </h3>
-                <p>
-                    Evolution does not make ethical statements about right and wrong. Some people misinterpret the fact that evolution has shaped animal behaviour (including human behaviour) as supporting the idea that whatever behaviours are “natural” are the “right” ones. This is not the case. It is up to us, as societies and individuals, to decide what constitutes ethical and moral behaviour. Evolution simply helps us understand how life has changed and continues to change over time — and does not tell us whether these processes or the results of them are “right” or “wrong”. Furthermore, some people erroneously believe that evolution and religious faith are incompatible and so assume that accepting evolutionary theory encourages immoral behaviour. Neither are correct.
-                </p>
-
-                <h3>
-                    <span class="text-rose-400">
-                        Misconception 13:
-                    </span>
-                    Evolution and religion are incompatible.
-                </h3>
-                <p>
-                    Because of some individuals and groups stridently declaring their beliefs, it’s easy to get the impression that science (which includes evolution) and religion are at war; however, the idea that one always must choose between science and religion is incorrect. People of many different faiths and levels of scientific expertise see no contradiction at all between science and religion. For many of these people, science and religion simply deal with different realms. Science deals with natural causes for natural phenomena, while religion deals with beliefs that are beyond the natural world. Of course, some religious beliefs explicitly contradict science (e.g., the belief that the world and all life on it was created in six literal days does conflict with evolutionary theory); however, most religious groups have no conflict with the theory of evolution or other scientific findings. In fact, many religious people, including theologians, feel that a deeper understanding of nature actually enriches their faith. Moreover, in the scientific community there are thousands of scientists who are devoutly religious and also accept evolution.
-                </p>
-
-                <h3>
-                    <span class="text-rose-400">
-                        Misconception 14:
-                    </span>
-                    Teachers should teach “both sides” of the evolution issue and let students decide. Or teachers should give equal time to evolution and creationism.
-                </h3>
-                <p>
-                    Equal time does not make sense when the two “sides” are not equal. Religion and science are very different endeavours, and religious views do not belong in a science classroom at all. In science class, students should have opportunities to discuss the merits of arguments and evidence within the scope of science. For example, students might investigate and discuss exactly where birds branched off of the phylogenetic tree: before dinosaurs or from within the dinosaur clade. In contrast, a debate pitting a scientific concept against a religious belief has no place in a science class and misleadingly suggests that a “choice” between the two must be made. The “fairness” argument has been used by groups attempting to insinuate their religious beliefs into science curricula.
+                    Evolutsiooniteooria ei esita eetilisi väiteid selle kohta, mis on õige või mis vale. Mõned inimesed tõlgendavad valesti tõsiasja, et evolutsioon on kujundanud loomade käitumist (sealhulgas inimeste käitumist), seetõttu mistahes “loomulik” käitumine on ühtlasi "õige" käitumine. See pole nii. Meie kui ühiskonna ja üksikisikute asi on otsustada, milline on eetiline ja moraalne käitumine. Evolutsioon aitab meil lihtsalt mõista, kuidas elu on muutunud ja muutub aja jooksul edasi – aga ei ütle meile, kas need protsessid või nende tulemused on “õiged” või “valed”. Lisaks arvavad mõned inimesed ekslikult, et evolutsioon ja religioosne usk ei sobi kokku ning eeldavad seetõttu, et evolutsiooniteooria aktsepteerimine soodustab ebamoraalset käitumist. Kumbki nendest pole õige.
                 </p>
             </section>
 
@@ -639,7 +638,7 @@
 
             <section id="s5">
                 <h2 id="s5t">
-                    Useful Links
+                    Kasulikud allikad
                 </h2>
                 <ul>
                     <li>
@@ -671,7 +670,7 @@
             </section>
 
 
-            <hr class="mt-10 mb-40" />
+            <!-- <hr class="mt-10 mb-40" />
 
 
             <section id="s6">
@@ -800,7 +799,7 @@
                         </a>
                     </li>
                 </ul>
-            </section>
+            </section> -->
             
 
         </section>

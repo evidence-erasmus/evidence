@@ -250,6 +250,7 @@
                     </li>
                 </ul>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Myth 2:
@@ -293,6 +294,7 @@
                 </p>
 
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Myth 3:
@@ -329,6 +331,7 @@
                     Evolution is not a linear process that starts with more “primitive” looking organisms we can observe today, and ends in mankind (as shown in Figure above). A cladogram captures the most important aspect of the evolutionary process: “branching,” or what biologists refer to as cladogenesis. Cladogenetic events are the moments in time during which one species “splits” into two species – these events are also known as speciation events. The branching nature of cladogenesis has an important consequence: Because two or more new species always originate from an ancestor species (and this process has been occurring since the origin of life), any two species we observe in the present are related.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Myth 4:
@@ -353,6 +356,7 @@
                     Macroevolutionary study involves inference from fossils and DNA rather than direct observation. Yet in the historical sciences (which include astronomy, geology and archaeology, as well as evolutionary biology), hypotheses can still be tested by checking whether they accord with physical evidence and whether they lead to verifiable predictions about future discoveries. For instance, evolution implies that between the earliest known ancestors of humans (roughly five million years old) and the appearance of anatomically modern humans (about 200,000 years ago), one should find a succession of hominin creatures with features progressively less apelike and more modern, which is indeed what the fossil record shows. But one should not (and does not) find modern human fossils embedded in strata from the Jurassic period (65 million years ago). Evolutionary biology routinely makes predictions far more refined and precise than this, and researchers test them constantly.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Myth 5:
@@ -369,7 +373,7 @@
                     Though we can’t run an experiment that will tell us how the dinosaur lineage radiated, we can study many aspects of evolution with controlled experiments in a laboratory setting. In organisms with short generation times (e.g., bacteria or fruit flies), we can actually observe evolution in action over the course of an experiment. The Evolution of Bacteria on a <a href="https://www.youtube.com/watch?v=plVk4NVIUh8" target="_blank" rel="noopener noreferrer">The Evolution of Bacteria on a “Mega-Plate” Petri Dish</a>. In another example, William R. Rice of the University of New Mexico and George W. Salt of the University of California, Davis, demonstrated that if they sorted a group of fruit flies by their preference for certain environments and bred those flies separately over 35 generations, the resulting flies would refuse to breed with those from a very different environment. In some cases, biologists have observed evolution occurring in the wild (e.g. mosquito populations that evolve rapid resistance to DDT, antibiotic-resistant Bacteria and drug-resistant HIV can evolve resistance to drugs very rapidly).
                 </p>
 
-
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Myth 6:
@@ -428,6 +432,7 @@
                     Evolutionary theory does encompass ideas and evidence regarding life’s origins (e.g., whether or not it happened near a deep-sea vent, which organic molecules came first, etc.), but this is not the central focus of evolutionary theory. Most of evolutionary biology deals with how life changed after its origin. Regardless of how life started, afterwards it branched and diversified, and most studies of evolution are focused on those processes.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 2:
@@ -444,6 +449,7 @@
                     The process of mutation, which generates genetic variation, is random, but selection is non-random. Selection favoured variants that were better able to survive and reproduce (e.g., to navigate in the dark). Over many generations of random mutation and non-random selection, complex adaptations evolved.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 3:
@@ -472,6 +478,7 @@
                     </li>
                 </ul>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 5:
@@ -502,6 +509,7 @@
                     </li>
                 </ul>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 6:
@@ -515,6 +523,7 @@
                     For example, bacteria do not evolve resistance to our antibiotics because they “try” so hard. Instead, resistance evolves because random mutation happens to generate some individuals that are better able to survive the antibiotic, and these individuals can reproduce more than other, leaving behind more resistant bacteria. 
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 7:
@@ -531,6 +540,7 @@
                     For example, as climate change causes the Arctic Sea ice to thin and break up earlier and earlier, polar bears are finding it more difficult to obtain food. If polar bear populations don’t have the genetic variation that would allow some individuals to take advantage of hunting opportunities that are not dependent on sea ice, they could go extinct in the wild.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 8:
@@ -544,6 +554,7 @@
                     For example, a puny male bird with bright tail feathers might leave behind more offspring than a stronger, duller male, and a spindly plant with big seed pods may leave behind more offspring than a larger specimen — meaning that the puny bird and the spindly plant have higher evolutionary fitness than their stronger, larger counterparts.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 9:
@@ -566,6 +577,7 @@
                     Second, though we can’t run an experiment that will tell us how the dinosaur lineage radiated, we can study many aspects of evolution with controlled experiments in a laboratory setting. In organisms with short generation times (e.g., bacteria or fruit flies), we can actually observe evolution in action over the course of an experiment. <a href="https://www.youtube.com/watch?v=plVk4NVIUh8" target="_blank" rel="noopener noreferrer">The Evolution of Bacteria on a “Mega-Plate” Petri Dish</a>. In some cases, biologists have observed evolution occurring in the wild.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 10:
@@ -579,6 +591,7 @@
                     Evolutionary theory, like any scientific theory, does not yet explain everything we observe in the natural world. However, evolutionary theory does help us understand a wide range of observations (from the rise of antibiotic-resistant bacteria to the physical match between pollinators and their preferred flowers), does make accurate predictions in new situations (e.g., that treating AIDS patients with a cocktail of medications should slow the evolution of the virus), and has proven itself time and time again in thousands of experiments and observational studies. To date, evolution is the only well-supported explanation for life’s diversity. 
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 11:
@@ -592,6 +605,7 @@
                     This expectation has been borne out. Paleontologists have found many fossils with transitional features, and new fossils are discovered all the time. However, if evolutionary theory were true, we would not expect all of these forms to be preserved in the fossil record. Many organisms don’t have any body parts that fossilize well, the environmental conditions for forming good fossils are rare, and of course, we’ve only discovered a small percentage of the fossils that might be preserved somewhere on Earth. So, scientists expect that for many evolutionary transitions, there will be gaps in the fossil record.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 12:
@@ -602,6 +616,7 @@
                     Evolution does not make ethical statements about right and wrong. Some people misinterpret the fact that evolution has shaped animal behaviour (including human behaviour) as supporting the idea that whatever behaviours are “natural” are the “right” ones. This is not the case. It is up to us, as societies and individuals, to decide what constitutes ethical and moral behaviour. Evolution simply helps us understand how life has changed and continues to change over time — and does not tell us whether these processes or the results of them are “right” or “wrong”. Furthermore, some people erroneously believe that evolution and religious faith are incompatible and so assume that accepting evolutionary theory encourages immoral behaviour. Neither are correct.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 13:
@@ -612,6 +627,7 @@
                     Because of some individuals and groups stridently declaring their beliefs, it’s easy to get the impression that science (which includes evolution) and religion are at war; however, the idea that one always must choose between science and religion is incorrect. People of many different faiths and levels of scientific expertise see no contradiction at all between science and religion. For many of these people, science and religion simply deal with different realms. Science deals with natural causes for natural phenomena, while religion deals with beliefs that are beyond the natural world. Of course, some religious beliefs explicitly contradict science (e.g., the belief that the world and all life on it was created in six literal days does conflict with evolutionary theory); however, most religious groups have no conflict with the theory of evolution or other scientific findings. In fact, many religious people, including theologians, feel that a deeper understanding of nature actually enriches their faith. Moreover, in the scientific community there are thousands of scientists who are devoutly religious and also accept evolution.
                 </p>
 
+                <hr />
                 <h3>
                     <span class="text-rose-400">
                         Misconception 14:

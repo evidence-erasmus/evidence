@@ -7,7 +7,7 @@
             <ModulesEvolutionBackgroundEn />
         </template>
         <template v-else-if="locale === 'pt'">
-            <ModulesEvolutionBackgroundEn />
+            <ModulesEvolutionBackgroundPt />
         </template>
         <template v-else-if="locale === 'sv'">
             <ModulesEvolutionBackgroundEn />
