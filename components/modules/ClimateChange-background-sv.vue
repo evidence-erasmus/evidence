@@ -9,7 +9,7 @@
 
 
 
-        <section class="e-article" lang="et" style="hyphens: auto;">
+        <section class="e-article" lang="sv" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Klimatförändringar</h1>
             <h5 class="font-normal uppercase leading-tight">Vetenskaplig bakgrundsinformation</h5>
@@ -247,35 +247,18 @@
 
 
 
-                <h3>Myt 1: Utrotning av arter är en naturlig process. Massutrotningar av arter har alltid förekommit.</h3>
+                <h3><span class="text-rose-400">Myt 1:</span> Utrotning av arter är en naturlig process. Massutrotningar av arter har alltid förekommit.</h3>
 
                 <p>Utrotningen av arter är ett historiskt problem. Från förhistorisk tid har vi bevis på ett antal massutrotningar, framför allt utrotningen av dinosaurierna. Denna utrotning, som ägde rum för 66 000 000 år sedan, sägs bero på ett asteroidnedslag på jorden. Andra välkända exempel är utrotning av mammutar. Men orsakerna till utrotning som har registrerats varierar.</p>
                 <p>Förslaget om att mänskligheten är kapabel att påverka och störa krafter av sådan omfattning reflekterar också en självcentrerad arrogans som är bedrövande. Mänskligheten är en delmängd av naturen. Naturen är inte en delmängd av mänskligheten. Människor kan varken orsaka eller ingripa för att korrigera dessa processer (Financial Sense University).</p>
                 <p><a class="break-all" href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
-                <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
-                    <div>
-                        <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi 1 paikapidavuse kohta:</h3>
-                        <p class="font-Heading text-2xl"><i>“Kõik liigid ei suuda kliimamuutustega kohaneda. Mõned liigid (nt linnud) võivad kliimamuutustega kohaneda erineval viisil (nt muuta rände- või pesitsusaega). Kuid mitte kõik liigid (nt imetajad) ei saa seda teha. Samuti ei ole võimalik kiiresti saavutada igasuguseid muutusi (nt morfoloogiliste omaduste muutumine). Üldiselt ei saa evolutsioon kiiresti toimudaehk liikide kohanemise määr on enamasti ebapiisav. 
-                        <br />
-                        (Visser, 2008)”</i></p>
-                    </div>
-                </UiCardInfo>
-                <p>Õpilased, kes uurivad müüti 1 juhendatud uurimuse vormis, uurivad tõendeid selle kohta, kuidas liigid kliimamuutustega kohanevad (nt korallijuhtum), nad osalevad konkreetses korallide massimuutusi uurivas katses ning vaatlevad hiljutisi tõestusmaterjale kliimamuutuste mõju kohta imetajatele. Õpilased uurivad teadusallikaid ja teevad oma järeldused. Teise võimalusena koguvad õpilased, kes uurivad müüti 1 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.</p>
-                <p>Mõlema uurimisvormi puhul tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.</p>
-                <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
-                <ul>
-                    <li>
-                        <a href="https://www.nationalgeographic.com/science/article/mass-extinction" target="_blank" rel="noopener noreferrer">Mass extinction facts and information from National Geographic</a>
-                    </li>
-                    <li>
-                        <a href="https://www.nationalgeographic.com/animals/article/vanishing-what-we-lose-when-an-animal-goes-extinct-feature" target="_blank" rel="noopener noreferrer">What we lose when animals go extinct</a>
-                    </li>
-                </ul> -->
+                
+
 
 
                 <hr id="myth-2" class="mt-10 mb-40" />
 
-                <h3>Myt 2: Naturen kan anpassa sig till klimatförändringar.</h3>
+                <h3><b>Myt 2:</b> Naturen kan anpassa sig till klimatförändringar.</h3>
                 <p>Jorden har en historia på 4,54 miljarder år. De väderförhållanden som har rått på planeten förändras ständigt. Därför tvingades de arter/organismer som levde på jorden anpassa sig till nya förutsättningar för att överleva. På så sätt utvecklas arter. Växter och djur har redan flera gånger anpassat sig till ogynnsamma förhållanden (klimatförändringar, meteoritfall, vulkanutbrott, etc.). Det gör att de kan anpassa sig till stigande temperaturer och den situation vi nu kallar klimatförändringar. Med andra ord är arter naturligt kapabla att överleva under nya förhållanden.</p>
                 <p><a class="break-all" href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
                 <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
@@ -298,7 +281,7 @@
 
                 <hr id="myth-3" class="mt-10 mb-40" />
 
-                <h3>Myt 3: Vetenskapen om klimatförändringar är inte trovärdig.</h3>
+                <h3><span class="text-rose-400">Myt 3:</span> Vetenskapen om klimatförändringar är inte trovärdig.</h3>
                 <p>
                     Meteorologiska stationer är belägna i områden där insamlade data inte är representativa för klimatförändringar och därför opålitliga för studier av det globala klimatet. Forskare riktar in sig på global terrorism för data som de skapar under de förhållanden de vill ha.
                 </p>
@@ -333,7 +316,7 @@
 
 
                 <hr id="myth-4" class="mt-10 mb-40" />
-                <h3>Myt 4: Temperaturökningen är bra!</h3>
+                <h3><span class="text-rose-400">Myt 4:</span> Temperaturökningen är bra!</h3>
                 <p>
                     <i>"Förresten, om du ska rösta på något, rösta på uppvärmning. Mindre dödsfall på grund av kyla, regioner mer beboeliga ..... Det är bra!"</i>
                     (John MacArthur)

@@ -9,6 +9,9 @@
         <template v-else-if="locale === 'pt'">
             <ModulesClimateChangePt />
         </template>
+        <template v-else-if="locale === 'sv'">
+            <ModulesClimateChangeSv />
+        </template>
         <template v-else>
             <ModulesClimateChangeEn />
         </template>

@@ -138,13 +138,13 @@
                                 <button
                                 class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
                                 :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                                >Aktivitet 3a: Mythbusting baserat på experiment</button>
+                                >Aktivitet 3a:<br />Mythbusting baserat på experiment</button>
                             </Tab>
                             <Tab as="template" v-slot="{ selected }">
                                 <button
                                 class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
                                 :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                                >Aktivitet 3b: Mythbusting baserat på sekundära bevis</button>
+                                >Aktivitet 3b:<br />Mythbusting baserat på sekundära bevis</button>
                             </Tab>
                         </TabList>
                         <TabPanels class="mt-2">

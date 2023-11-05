@@ -107,7 +107,7 @@
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Open inquiry', url:'./inquiry/open/', blank:false},
-                        {text:'Guided inquiry', url:'./inquiry/guided/myth1', blank:false}
+                        {text:'Guided inquiry', url:'./inquiry/myth1', blank:false}
                     ]" />
                 </UiCardInfo>
 
@@ -122,8 +122,8 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         // {text:'Juhised', url:''},
-                        {text:'Avatud uurimus', url:'./inquiry/open/', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/guided/myth2', blank:false}
+                        {text:'Open inquiry', url:'./inquiry/open/', blank:false},
+                        {text:'Guided inquiry', url:'./inquiry/myth2', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -145,8 +145,8 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         // {text:'Juhised', url:''},
-                        {text:'Avatud uurimus', url:'./inquiry/open/', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/guided/myth3', blank:false}
+                        {text:'Open inquiry', url:'./inquiry/open/', blank:false},
+                        {text:'Guided Inquiry', url:'./inquiry/myth3', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -165,6 +165,11 @@
                     <p>
                         <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
                     </p>
+                    <UiNavButtonBar :buttons="[
+                        {text:'Open inquiry', url:'./inquiry/open/', blank:false},
+                        {text:'Guided Inquiry', url:'./inquiry/myth4', blank:false}
+                    ]" class="mb-6 font-Body"
+                    />
                 </UiCardInfo>
                 
                 <div class="divider my-6"></div>
@@ -181,6 +186,11 @@
                     <p>
                         <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                     </p>
+                    <UiNavButtonBar :buttons="[
+                        {text:'Open inquiry', url:'./inquiry/open/', blank:false},
+                        {text:'Guided Inquiry', url:'./inquiry/myth5', blank:false}
+                    ]" class="mb-6 font-Body"
+                    />
                 </UiCardInfo>
                 
                 <div class="divider my-6"></div>
@@ -194,6 +204,11 @@
                             —John MacArthur
                         </a>
                     </p>
+                    <UiNavButtonBar :buttons="[
+                        {text:'Open inquiry', url:'./inquiry/open/', blank:false},
+                        {text:'Guided Inquiry', url:'./inquiry/myth6', blank:false}
+                    ]" class="mb-6 font-Body"
+                    />
                 </UiCardInfo>
                 
                 <div class="divider my-6"></div>
@@ -210,6 +225,11 @@
                     <p>
                         <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
                     </p>
+                    <UiNavButtonBar :buttons="[
+                        {text:'Open inquiry', url:'./inquiry/open/', blank:false},
+                        {text:'Guided Inquiry', url:'./inquiry/myth7', blank:false}
+                    ]" class="mb-6 font-Body"
+                    />
                 </UiCardInfo>
             </section>
 

@@ -4,7 +4,7 @@ export default {
     add_row: "Lägg till rad",
     
     reliability_table : {
-      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte  tabelisse.",
+      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte tabelisse.",
       link_1: "tööriista",
       url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",  
       cols: {
@@ -24,7 +24,7 @@ export default {
     },
 
     cc_open: {
-      title: "Kliimamuutused",
+      title: "Klimatförändringar",
       subtitle: "Avatud uurimus",
       choose: "Vali müüt",
       q1_title: "1. Hakkame uurima järgmist müüti:",
@@ -60,7 +60,7 @@ export default {
 
     cc_myth1: {
       back: "Tagasi",
-      title: "Kliimamuutused",
+      title: "Klimatförändringar",
       subtitle: "Juhitud uurimus, müüt 1",
       myth: "Müüt nr 1: Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.",
       hypothesis: "Püstitage selle kohta oma hüpotees:",
