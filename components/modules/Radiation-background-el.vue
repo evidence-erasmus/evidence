@@ -163,15 +163,15 @@
                 </p>
                 
                 <p>
-                    <a href="https://www.stralsakerhetsmyndigheten.se/contentassets/80dd291619344e5297057b9fbfb0d072/201516-international-conference-on-uv-radiation-induced-disease--roles-of-uva-and-uvb" target="_blank" rel="noopener noreferrer">https://www.stralsakerhetsmyndigheten.se/contentassets/80dd291619344e5297057b9fbfb0d072/201516-international-conference-on-uv-radiation-induced-disease--roles-of-uva-and-uvb</a>
+                    <a class="break-all" href="https://www.stralsakerhetsmyndigheten.se/contentassets/80dd291619344e5297057b9fbfb0d072/201516-international-conference-on-uv-radiation-induced-disease--roles-of-uva-and-uvb" target="_blank" rel="noopener noreferrer">https://www.stralsakerhetsmyndigheten.se/contentassets/80dd291619344e5297057b9fbfb0d072/201516-international-conference-on-uv-radiation-induced-disease--roles-of-uva-and-uvb</a>
                 </p>
 
                 <p>
-                    Ανθρώπινες συνήθειες όπως είναι η υπερβολική έκθεση στην ηλιακή ακτινοβολία και το κάπνισμα επηρεάζουν σε μεγάλο βαθμό τις αρνητικές επιπτώσεις της ακτινοβολίας. SSI (2007)
+                    <b>Ανθρώπινες συνήθειες όπως είναι η υπερβολική έκθεση στην ηλιακή ακτινοβολία και το κάπνισμα επηρεάζουν σε μεγάλο βαθμό τις αρνητικές επιπτώσεις της ακτινοβολίας. SSI (2007)</b>
                 </p>
 
                 <p>
-                    <a href="https://www.stralsakerhetsmyndigheten.se/contentassets/27621960d345484694bcd4f0e734b4bb/200702e-radiation-environment-in-sweden-summary" target="_blank" rel="noopener noreferrer">https://www.stralsakerhetsmyndigheten.se/contentassets/27621960d345484694bcd4f0e734b4bb/200702e-radiation-environment-in-sweden-summary</a>
+                    <a class="break-all" href="https://www.stralsakerhetsmyndigheten.se/contentassets/27621960d345484694bcd4f0e734b4bb/200702e-radiation-environment-in-sweden-summary" target="_blank" rel="noopener noreferrer">https://www.stralsakerhetsmyndigheten.se/contentassets/27621960d345484694bcd4f0e734b4bb/200702e-radiation-environment-in-sweden-summary</a>
                 </p>
 
                 <h3>Ιονίζουσα Ακτινοβολία-Ασφάλεια</h3>

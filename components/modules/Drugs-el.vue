@@ -56,12 +56,11 @@
 
             
 
-            
-
             <hr  class="mt-10 mb-40 print:my-10" />
 
+
             <section id="s-2">
-                <h2 id="s-2t">Learning objectives targeted by the module</h2>
+                <h2 id="s-2t">Στόχοι της ενότητας:</h2>
                 
                 <ul class="leading-tight">
                     <li>

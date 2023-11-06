@@ -22,19 +22,23 @@ export default {
     background_info: "NV-info",
     
     climateChange: {
-      description: "We can have a short destcription here",
+      description: "We can have a short description here",
       title: "Klimatförändring"
     },
     drugs: {
-      description: "We can have a short destcription here",
+      description: "We can have a short description here",
       title: "Droger"
     },
+    evolution: {
+      description: "Vi can have a kort description här",
+      title: "Evolution"
+    },
     radiation: {
-      description: "We can have a short destcription here",
+      description: "We can have a short description here",
       title: "Strålning"
     },
     space: {
-      description: "We can have a short destcription here",
+      description: "We can have a short description here",
       title: "Rymden"
     },
     viruses: {

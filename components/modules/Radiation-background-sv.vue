@@ -12,7 +12,7 @@
         <section class="e-article" lang="sv" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Strålning</h1>
-            <h5 class="font-normal uppercase leading-tight">Teaduslik taustainfo</h5>
+            <h5 class="font-normal uppercase leading-tight">Vetenskaplig bakgrundsinformation</h5>
         
 
             <section id="s-1">

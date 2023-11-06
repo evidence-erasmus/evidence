@@ -28,6 +28,10 @@ export default {
       description: "Drugs description",
       title: "Drogas"
     },
+    evolution: {
+      description: "Evolution description",
+      title: "Evolução"
+    },
     radiation: {
       description: "Radiation module description",
       title: "Radiação"
