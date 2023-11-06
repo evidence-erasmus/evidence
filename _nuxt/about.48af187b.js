@@ -1,0 +1,1 @@
+import{f as o,c as l,a,t,o as s}from"./entry.34a2f38c.js";const c={__name:"about",setup(n){return o({useScope:"global"}),(e,u)=>(s(),l("div",null,[a("h1",null,t(e.$t("about.title")),1),a("p",null,t(e.$t("about.01")),1)]))}};export{c as default};
