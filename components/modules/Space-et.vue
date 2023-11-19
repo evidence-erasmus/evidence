@@ -316,18 +316,18 @@
                 <h2 id="s-7-title">Õpetamissoovitused</h2>
 
                 <p>
-                    Mooduli tegevused võib jagada tinglikult kaheks. Esimene osa (tegevused 1–5) käsitleb konkreetseid kosmosega seotud müüte, ideid, küsimusi ja probleeme, mida demonstreerib ka sissejuhatav video. Teine osa (Tegevus 6) keskendub sotsiaalteaduslikele küsmustele, mis on seotud inimese rändamisega kosmosesse ning võetakse kokku väitlusmängu / rollimängu vormis (vt <NuxtLink to="./space/student#s-6">õpilase materjale</NuxtLink>).
+                    Mooduli tegevused võib jagada tinglikult kaheks. Esimene osa (tegevused 1–5) käsitleb konkreetseid kosmosega seotud müüte, ideid, küsimusi ja probleeme, mida demonstreerib ka <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">sissejuhatav video</a>. Teine osa (Tegevus 6) keskendub sotsiaalteaduslikele küsmustele, mis on seotud inimese rändamisega kosmosesse ning võetakse kokku väitlusmängu / rollimängu vormis (vt <NuxtLink to="./space/student#s-6">õpilase materjale</NuxtLink>).
                 </p>
                 <p>
                     Pärast lühikest sissejuhatust võiksid õpilased soojenduseks väikestes rühmades mõelda, milliseid küsimusi nad sooviksid võimaluse korral astronaudile / kosmoseuurijale esitada (kaks-kolm küsimust rühma kohta). See võimaldab neil uurida probleeme lähtuvalt isiklikest huvidest ja ootustest seoses moodulis tõstatatud teemaga.
                 </p>
 
                 <p>
-                    Pärast tutvustava video vaatamist (Tegevus 1), otsustavad õpilased, millist tuvastatud müüti, väärarusaama või probleemi põhjalikumaks uurimiseks valida. Õpetaja saab siinkohal tutvustada ka muid kosmosega seotud müüte ja probleeme. Õpilasi võib julgustada meenutama omaenda arusaamu kosmose kohta. "Faktivideoid” saab selles etapis kasutada kosmosega seotud teemade, mõistete ja põhimõtete meenutamiseks ja avardamiseks. Õpetaja võib ka vajadusel koos õpilastega mõnda teemat <NuxtLink to="./space/background">loodusteadusliku taustainfo</NuxtLink> teemast üle korrata.
+                    Pärast <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">tutvustava video</a> vaatamist (Tegevus 1), otsustavad õpilased, millist tuvastatud müüti, väärarusaama või probleemi põhjalikumaks uurimiseks valida. Õpetaja saab siinkohal tutvustada ka muid kosmosega seotud müüte ja probleeme. Õpilasi võib julgustada meenutama omaenda arusaamu kosmose kohta. <a href="https://www.youtube.com/watch?v=a95oKCDgIow&list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">"Faktivideoid”</a> saab selles etapis kasutada kosmosega seotud teemade, mõistete ja põhimõtete meenutamiseks ja avardamiseks. Õpetaja võib ka vajadusel koos õpilastega mõnda teemat <NuxtLink to="./space/background">loodusteadusliku taustainfo</NuxtLink> teemast üle korrata.
                 </p>
                 
                 <p>
-                    <b>Tegevus 2</b> peaks aitama õpilastel kitsendada valitud müüti või probleemi hüpoteesiks/uurimisküsimuseks, mida tuleb kinnitada või ümber lükata Tegevuses 3.  <b>Tegevust 3</b> saab ellu viia kahel viisil:
+                    <b>Tegevus 2</b> peaks aitama õpilastel kitsendada valitud müüti või probleemi hüpoteesiks / uurimisküsimuseks, mida tuleb kinnitada või ümber lükata Tegevuses 3. <b>Tegevust 3</b> saab ellu viia kahel viisil:
                     <ol class="leading-tight">
                         <li>
                             praktilise kogemuse kaudu või

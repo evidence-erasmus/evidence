@@ -75,7 +75,7 @@
                 <li>As a group, you are invited to choose one of the issues (from the introductory video) for further exploration or/and look at other myths, ideas and issues (see below) that could be of interest to your group.</li>
             </ol>
             
-            <h3>
+            <h3 id="myths">
                 Some myths and ideas about space
             </h3>
             

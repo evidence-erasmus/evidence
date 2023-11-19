@@ -10,13 +10,13 @@
 
         
         
-        <h4>I aktivitet 3 förväntas du göra följande:</h4>
+        <h4>I den här aktiviteten förväntas du att göra följande:</h4>
         <ul class="leading-tight">
             <li>utveckla en testbar hypotes / forskningsfråga,</li>
             <li>planera ditt enkla experiment som kommer att bekräfta eller motbevisa din hypotes / svara på din forskningsfråga,</li>
             <li>presentera insamlade data i form av tabeller, grafer eller liknande,</li>
             <li>använd dina resultat för att dra en slutsats,</li>
-            <li>uppskatta hur rimligt det är att resultat kan motbevisa / ta kål på den valda myten</li>
+            <li>uppskatta hur rimligt det är att resultat kan motbevisa den valda myten</li>
             <li><i>och slutligen…</i>
                 <br />
                 göra ett videoinlägg eller PowerPoint-presentation av dina viktigaste resultat för att informera allmänheten (detta steg är relaterat till aktiviteten 4).</li>

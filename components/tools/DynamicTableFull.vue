@@ -20,13 +20,16 @@
                 <p v-if="overwrite && j === overwritePos || printMode === true" class="text-sm m-2 leading-none">
                     {{ keyToUpdate[i][j] }}
                 </p>
-                <textarea v-else v-model="keyToUpdate[i][j]" rows="1" class="textarea textarea-bordered ring-inset block w-full h-full py-1 px-2 leading-tight rounded-md focus:bg-yellow-50 focus:text-slate-800" style="outline-offset:-4px" :key="`ta-${i}-${j}-${keyToUpdate.length}`">
-                </textarea>
+                <template v-else>
+                    <textarea v-if="cellType=='textarea'" v-model="keyToUpdate[i][j]" rows="1" class="textarea textarea-bordered ring-inset block w-full h-full py-1 px-2 leading-tight rounded-md focus:bg-yellow-50 focus:text-slate-800" style="outline-offset:-4px" :key="`ta-${i}-${j}-${keyToUpdate.length}`"></textarea>
+                    <input v-else type="text" v-model="keyToUpdate[i][j]" class="input input-bordered rounded-none w-full  focus:bg-yellow-50 focus:text-slate-800" style="outline-offset:-4px" :key="`ip-${i}-${j}-${keyToUpdate.length}`" />
+
+                </template>
             </div>
             <button v-if="deleteButton" class="absolute -right-2 top-1 text-red-700" @click="deleteRow(i)"><Icon name="material-symbols:cancel" size="24" /></button>
         </div>
         
-        <button v-if="addButton" @click="addRow" class="btn btn-sm btn-neutral mt-3">{{ addRowTitle ? addRowTitle : t('inquiry.add_row') }}</button>
+        <button v-if="addButton" @click="addRow" class="btn btn-sm btn-neutral mt-3"><Icon name="mdi:plus-circle" style="font-size:140%" /> {{ addRowTitle ? addRowTitle : t('inquiry.add_row') }}</button>
     </section>
 </template>
 
@@ -35,6 +38,10 @@
         storeToUpdate: {},
         keyToUpdate: {},
         tableStructure: {},
+        cellType: {
+            type: String,
+            default: "textarea"
+        },
         newRow: {
             type:Array,
             default: [""]

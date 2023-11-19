@@ -328,7 +328,7 @@
                 </p>
 
                 <p>
-                    Därefter börjar modulen med presentation av en eller några <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">introduktionsvideo</a> för att öppna upp  frågor och avslöja myter, risker, kontroverser och missuppfattningar om rymdutforskningar, till exempel kan några spin-off idéerfrån video vara:
+                    Därefter börjar modulen med presentation av en eller några <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introduktionsvideo</a> för att öppna upp  frågor och avslöja myter, risker, kontroverser och missuppfattningar om rymdutforskningar, till exempel kan några spin-off idéerfrån video vara:
                     <ul>
                         <li>
                             Utforskning av rymden kan erbjuda nästan oändliga möjligheter för mänsklig civilisation
@@ -343,10 +343,10 @@
                 </p>
 
                 <p>
-                    <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">Introduktionsvideo</a> syftar till att väcka frågor och stimulera till reflektioner. Efter att ha valt en video för grupparbete <b>(Activity 1)</b>, kan eleverna undersöka en av de identifierade myterna eller frågorna relaterade till olika aspekter av mänsklig rymdfärd och utforska vanliga missuppfattningar, risker och rädslor.
+                    <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">Introduktionsvideo</a> syftar till att väcka frågor och stimulera till reflektioner. Efter att ha valt en video för grupparbete <b>(Activity 1)</b>, kan eleverna undersöka en av de identifierade myterna eller frågorna relaterade till olika aspekter av mänsklig rymdfärd och utforska vanliga missuppfattningar, risker och rädslor.
                 </p>
                 <p>
-                    Läraren kan här med fördel introducera raketmotorns funktion och relaterade miljöfrågor. En avsikt är att vidga elevernas syn på vetenskapen bakom rymdutforskning och få dem att uppmärksamma några myter och frågor relaterade till rymden. Aktiviteterna avser också att uppmuntra eleverna att ta vara på sina förkunskaper och dela sina föreställningar och åsikter om rymdutforskning med sina klasskamrater <b>(Aktivitet 2)</b>. <a href="#" class="bg-red-400" target="_blank" rel="noopener noreferrer">Faktavideorna</a> kan demonstreras i detta steg för att lyfta fram och bredda elevernas  uppfattningar av rymdrelaterade ämnen, koncept och principer. Utvalda delar från <NuxtLink to="./space/background">vetenskaplig bakgrundsinformation</NuxtLink> kan åberopas vid behov.
+                    Läraren kan här med fördel introducera raketmotorns funktion och relaterade miljöfrågor. En avsikt är att vidga elevernas syn på vetenskapen bakom rymdutforskning och få dem att uppmärksamma några myter och frågor relaterade till rymden. Aktiviteterna avser också att uppmuntra eleverna att ta vara på sina förkunskaper och dela sina föreställningar och åsikter om rymdutforskning med sina klasskamrater <b>(Aktivitet 2)</b>. <a href="https://www.youtube.com/watch?v=a95oKCDgIow&list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">Faktavideorna</a> kan demonstreras i detta steg för att lyfta fram och bredda elevernas uppfattningar av rymdrelaterade ämnen, koncept och principer. Utvalda delar från <NuxtLink to="./space/background">vetenskaplig bakgrundsinformation</NuxtLink> kan åberopas vid behov.
                 </p>
 
                 <p>
