@@ -13,7 +13,7 @@ export default {
           col_3:"Betygsätt Pålitlighet",
           col_4:"Kommentarer"
         },
-        add_row: "Lägg till rad"
+        add_row: "Lägg till källa"
     },
     variables_table: {
       header: [

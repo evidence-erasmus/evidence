@@ -13,7 +13,7 @@ export default {
           col_3:"Hinnang usaldusväärsusele",
           col_4:"Kommentaarid"
         },
-        add_row: "LISA RIDA"
+        add_row: "Lisa allikas"
     },
     variables_table: {
       header: [

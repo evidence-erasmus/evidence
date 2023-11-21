@@ -28,65 +28,79 @@
 
 
 
+        <!-- hypothesis -->        
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Vår hypotes / forskningsfråga är:</b></label>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="4" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
-
+        <!-- work plan -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-2"><b>Arbetsplan</b> <i>Ange vilka aktiviteter (1), (2), (3)… ni är involverade i som ett helt team och i vilka ni ska dela upp ansvarsområden, i det här fallet, skriv ner vem som är ansvarig för vad</i></label>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="5" v-model="studentInputs.activity3a.activity3aPlan" placeholder="✍"></textarea>
         
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block">Vår hypotes / forskningsfråga är:</label>
-
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="4" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
-
-
         
+        <!-- independent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-2"><b>Oberoende variabel</b> <i>(den som kommer att ändras)</i></label>
+        <input type="text" class="input input-bordered w-full text-lg my-4" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍" />
         
-
-        <h3>Plan över aktiviteter</h3>
+        <!-- dependent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-2"><b>Beroende variabel</b> <i>(den som ska mätas)</i></label>
+        <input type="text" class="input input-bordered w-full text-lg my-4" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍" />
         
-        <section class="e-card mb-8">
-            <p class="italic my-0">Tänk noga på hur du kommer att kontrollera alla andra variabler utom den du ska ändra på. Du bör också tänka noga på hur du fördelar arbetsuppgifterna inom din grupp. Ange vilka aktiviteter (1), (2), (3) … ni är involverade i som ett helt team och i vilka ni ska dela upp ansvarsområden, i det här fallet, skriv ner vem som är ansvarig för vad</p>
-        </section>
-
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Definiera variabler:</label>
-
-
-        <ToolsDynamicTableFull 
-            :tableStructure="variableTable" 
-            :storeToUpdate="studentInputs"
-            :keyToUpdate="studentInputs.activity3a.activity3aVariables" 
-            :newRow="['','','']" 
-            :addRow="true" 
+        <!-- control variables -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-4"><b>Kontrollvariabler</b> <i>(de som kommer att hållas konstanta)</i></label>
+        <ToolsDynamicTableFull class="e-card"
+            :tableStructure = "controlTable" 
+            :addRow = "true"
+            addRowTitle = "Lägg till variabel"
+            :newRow = "new Array(2)"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
+            :deleteRow = "true" 
+            cellType = "input"
+        />
+        
+        <!-- results table -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-4"><b>Resultat</b> <i>(presentera data som samlats in under experimentet som en tabell och/eller fritext).</i></label> 
+        <ToolsDynamicTableFull class="e-card"
+            :tableStructure = "resultsTable" 
+            :addRow = "true"
+            :newRow = "new Array(2)"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.activity3aResults"
+            :deleteRow = "true"
+            cellType = "input"
         />
 
 
-        <label class="font-bold block mt-8">Baserat på experimentet är våra slutsatser:</label>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
+        
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block"><b>Faktorer som skulle kunna minska tillförlitligheten av experimentets resultat</b> <i>(beakta möjliga felkällor som kan ha påverkat resultaten av experimentet).</i></label>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="7" v-model="studentInputs.activity3a.activity3aCredibility" placeholder="✍"></textarea>
+        
+        
 
-
-
-
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Based on the experiment, our conclusion(s) is/are:</label>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
-
-
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="font-bold block">Baserat på resultat av experimentet är våra slutsatser:</label>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
     
-        <p>Du förväntas nu hitta bevis från sekundära källor för att bekräfta dina egna fynd med hjälp av följande <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20"></Icon> verktyg</NuxtLink>.</p>
+        <p>Du ska nu leta efter bevis från sekundära källor för att bekräfta dina egna slutsatser med hjälp av följande verktyg.</p>
 
         <ToolsReliabilityTable class="mb-8"
             :store-to-update="studentInputs" 
             :add-row="true"
-             />
+        />
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Skriv en kort sammanfattning av dina resultat här:</label>
-        <p class="italic">
-            Bekräftade sekundära data dina resultat? Om inte, vad tror du det beror på?
-            <br />
-            Gör ett uttalande om den valda myten bekräftas eller förkastas baserat på dina fynd.
-        </p>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block"><b>Gör ett uttalande</b> om den valda myten ska bekräftas eller förkastas baserat på dina bevis <i>(när du svarar, ta hänsyn till slutsatserna från både experimentet och analys av sekundära källor)</i></label>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="7" v-model="studentInputs.activity3a.activity3aSummary" placeholder="✍"></textarea>
+
+
     </div>
 </template>
 
@@ -95,14 +109,26 @@
 
 <script setup>
     import { useStudentRadiation } from '~~/store/useStudentInputRadiation.js';
-
     const studentInputs = useStudentRadiation();
 
-    const variableTable = ref({
+    const controlTable = ref({
         header: [
-            {thead: "Oberoende variabel", tsubhead: "(den som kommer att ändras)"},
-            {thead: "Beroende variabel", tsubhead: "(den som ska mätas)"},
-            {thead: "Kontrollvariabler", tsubhead: "(de som kommer att hållas konstanta)"},
+            {thead: "Variabel", tsubhead: ""},
+            {thead: "Värdet", tsubhead: ""}
         ]
     });
+
+    const resultsTable = computed(() => {
+        const variables = studentInputs.activity3a.experimentVariables;
+        let structure = {
+            header: [
+                {thead: `${variables.independent}`, tsubhead: "Oberoende variabel"},
+                {thead: `${variables.dependent}`, tsubhead: "Beroende variabel"},
+            ]
+        }
+        // studentInputs.activity3a.experimentVariables.control.forEach( (variable) => {
+        //     structure.header.push({thead: `${variable}`, tsubhead:"Kontrollmuutuja"});
+        // } );
+        return structure;
+    });    
 </script>

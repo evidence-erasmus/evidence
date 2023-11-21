@@ -20,6 +20,7 @@ export const useStudentRadiation = defineStore("studentRadiation", {
             activity3aResults: [
                 ["", ""]
             ],
+            activity3aCredibility: "",
             activity3aConclusion: "",
             activity3aSummary: "",
         },

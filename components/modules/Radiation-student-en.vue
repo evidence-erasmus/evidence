@@ -115,7 +115,7 @@
                 </h2>
                 
                 <p>
-                    You are now invited to narrow down the myth/issue into a testable hypothesis - a statement that can be tested or a question that can be answered through your research. Think about how a hypothesis is not just a guess – it should be based on existing knowledge. It also has to be testable, which means you can support or refute it as a result of your study.
+                    You are now invited to narrow down the myth/issue into a testable hypothesis - a statement that can be tested or a question that can be answered through your research. Think about how a hypothesis is not just a guess – it should be based on existing knowledge. It also has to be testable, which means you can support or refute it as a result of your study. 
                 </p>
                 <p>
                     Plan your further activities following the cycle as given in Figure 1. You should think about whether your myth can be tested experimentally, confirmed/falsified using modern technology, for example, mobile phone Apps as measuring devices, computer models and simulations, or using secondary evidence (e.g. already conducted experiments that have been published or available in the form of YouTbe videos).  Based on that, you should choose Activity 3a or 3b for further study. You can use more than one of these methods, applying the so-called triangulation principle – increasing the validity of your findings through the convergence of information from different sources.

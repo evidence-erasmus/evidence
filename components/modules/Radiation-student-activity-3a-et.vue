@@ -6,7 +6,7 @@
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block leading-tight my-2">Rühma otsus − me kavatseme hakata ümber lükkama või kinnitama järgmist kiirgustega seotud müüti:</label>
         
-        <textarea class="textarea textarea-bordered w-full text-lg" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
         
 
@@ -37,28 +37,28 @@
         <!-- hypothesis -->        
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
         <label class="font-bold block leading-tight my-2">Meie hüpotees / uurimisküsimus on:</label>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="4" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="4" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
         <!-- work plan -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
-        <label class="block leading-tight my-2"><b>Töö käik</b> (palun näidake ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad. Sel juhul kirjutage nimi tegevuse järele sulgudesse):</label>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="5" v-model="studentInputs.activity3a.activity3aPlan" placeholder="✍"></textarea>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-2"><b>Töö käik</b> <i>(palun näidake ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad. Sel juhul kirjutage nimi tegevuse järele sulgudesse):</i></label>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="5" v-model="studentInputs.activity3a.activity3aPlan" placeholder="✍"></textarea>
         
         
         <!-- independent variable -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
-        <label class="block leading-tight my-2"><b>Sõltumatu muutuja</b> (see, mida muudetakse):</label>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-2"><b>Sõltumatu muutuja</b> <i>(see, mida muudetakse):</i></label>
         <!-- <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍"></textarea> -->
-        <input type="text" class="input input-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍" />
+        <input type="text" class="input input-bordered w-full text-lg my-4" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍" />
         
         <!-- dependent variable -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
-        <label class="block leading-tight my-2"><b>Sõltuv muutuja</b> (see mida sekkumise tulemusena mõõdetakse):</label>
-        <input type="text" class="input input-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍" />
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-2"><b>Sõltuv muutuja</b> <i>(see mida sekkumise tulemusena mõõdetakse):</i></label>
+        <input type="text" class="input input-bordered w-full text-lg my-4" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍" />
         
         <!-- control variables -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
-        <label class="block leading-tight my-2"><b>Kontrollmuutujad</b> (need muutujad, mida püütakse hoida katse käigus püsivana):</label>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-4"><b>Kontrollmuutujad</b> <i>(need muutujad, mida püütakse hoida katse käigus püsivana):</i></label>
         <ToolsDynamicTableFull class="e-card"
             :tableStructure = "controlTable" 
             :addRow = "true"
@@ -71,8 +71,8 @@
         />
         
         <!-- results table -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
-        <label class="block leading-tight my-2"><b>Tulemuste tabel</b></label> 
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block leading-tight my-4"><b>Tulemuste tabel</b></label> 
         <ToolsDynamicTableFull class="e-card"
             :tableStructure = "resultsTable" 
             :addRow = "true"
@@ -84,9 +84,16 @@
         />
 
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
+        
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
+        <label class="block"><b>Asjaolud, mis võisid vähendada eksperimendi tulemuste usaldusväärsust</b> <i>(palun mõelge võimalikele vigade allikatele, mis võisid katse tulemusi mõjutada).</i></label>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="7" v-model="studentInputs.activity3a.activity3aCredibility" placeholder="✍"></textarea>
+        
+        
+
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
         <label class="font-bold block">Põhinedes eksperimendi tulemustele jõudsime järgmistele järeldustele:</label>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
     
         <p>Lisaks oodatakse teilt, et te otsiksite tõestusmaterjali usaldusväärsetest sekundaarsetest allikatest (teadusandmebaasid jm.), et leida lisakinnitust oma eksperimendi tulemustele ning tehtud järeldustele. Selleks on teil kasutada järgmised tööriistad.</p>
@@ -94,54 +101,16 @@
         <ToolsReliabilityTable class="mb-8"
             :store-to-update="studentInputs" 
             :add-row="true"
-             />
+        />
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-8"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
         <label class="font-bold block">Kirjutage lühikokkuvõte oma uurimistulemustest siia: </label>
         <p class="italic">
             Kas muud allikad kinnitasid/toetasid teie poolt saadud tulemusi? Kui ei, siis miks see võib nii olla?
             <br />
-            Katsuge nüüd teha  järeldus valitud müüdi paikapidavuse kohta:
+            Katsuge nüüd teha järeldus valitud müüdi paikapidavuse kohta:
         </p>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea>
-        
-        
-
-        <!-- <h3>Tegevusplaan</h3>
-        
-        <section class="e-card mb-8">
-            <p class="italic my-0">
-                (mõelge hoolikalt, kuidas  kontrollida kõiki muutujaid v.a ühte, millega hakkate manipuleerima; palun näidake ka ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad, viimasel juhul näidake ära ka igaühe vastutusala kirjutades nime tegevuse järele sulgudesse):
-            </p>
-        </section> -->
-
-
-
-
-
-
-
-        
-
-        <!-- <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block">Muutujate määratlemine:</label>
-
-
-        <ToolsDynamicTableFull 
-            :tableStructure="variableTable" 
-            :storeToUpdate="studentInputs"
-            :keyToUpdate="studentInputs.activity3a.activity3aVariables" 
-            :newRow="['','','']" 
-            :addRow="true" 
-        /> -->
-
-
-        <!-- <label class="font-bold block mt-8">Tulemused:</label>
-        <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea> -->
-
-
-
-
+        <textarea class="textarea textarea-bordered w-full text-lg my-4" rows="7" v-model="studentInputs.activity3a.activity3aSummary" placeholder="✍"></textarea>
         
     </div>
 </template>
