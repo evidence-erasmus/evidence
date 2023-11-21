@@ -121,10 +121,10 @@
                 </h2>
                 
                 <p>
-                    Está agora convidado a reduzir o mito/questão numa hipótese testável - uma declaração que pode ser testada ou uma pergunta que pode ser respondida através da sua pesquisa. Pense em como uma hipótese não é apenas um palpite – deve basear-se no conhecimento existente. Também tem de ser testável, o que significa que pode apoiá-lo ou refutá-lo como resultado do seu estudo.
+                    Agora está convidado a reduzir o mito/questão a uma hipótese testável - uma afirmação que pode ser testada ou uma pergunta que pode ser respondida através de uma pesquisa. Pense que uma hipótese não é apenas uma suposição – ela deve ser baseada no conhecimento existente. Também deve ser testável, o que significa que pode ser negado ou confirmado conforme resultado do seu estudo.
                 </p>
                 <p>
-                    Planifique as suas atividades adicionais seguindo o ciclo como indicado na Figura 1. Deve pensar se o seu mito pode ser testado experimentalmente, confirmado/desmistificado recorrendo a tecnologia moderna, por exemplo, aplicações de telemóvel como dispositivos de medição, modelos de computador e simulações, ou usando provas secundárias (ex: já realizou experiências que foram publicadas ou disponíveis sob a forma de vídeos do YouTube).  Com base nisso, deve escolher a Atividade 3a ou 3b para estudos adicionais. Pode utilizar mais do que um destes métodos, aplicando o chamado princípio da triangulação – aumentando a validade das suas descobertas através da convergência de informações de diferentes fontes.
+                    Planeie as suas futuras atividades seguindo o ciclo mostrado na Figura 1. Deve refletir se o mito escolhido pode ser testado experimentalmente, confirmado/negado recorrendo a novas tecnologias, por exemplo, aplicações para telemóvel, como dispositivos de medição, modelos de computador e simulações, ou usando outras aplicações ou experiências já realizadas que foram publicadas  na forma de vídeos do YouTube. Com base nisso, deve escolher a Atividade 3a ou 3b para um estudo mais aprofundado. Pode usar mais do que um desses métodos, aplicando o chamado princípio da triangulação – aumentando a validade das suas descobertas através da convergência de informações de diferentes fontes.
                 </p>
                 <div class="w-full px-2 py-16 sm:px-0" id="activity-3ab">
                     <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
@@ -133,19 +133,19 @@
                                 <button
                                 class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
                                 :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                                >Atividade 3a: Desmistificação de mitos baseada em experiências</button>
+                                >Atividade 3a: Desmitificação baseada em experiências</button>
                             </Tab>
                             <Tab as="template" v-slot="{ selected }">
                                 <button
                                 class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
                                 :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                                >Atividade 3b: Desmistificação baseada em fontes secundárias</button>
+                                >Atividade 3b: Desmitificação baseada em fontes secundárias</button>
                             </Tab>
                         </TabList>
                 
                         <TabPanels class="mt-2">
                             <TabPanel class="focus:outline-none">
-                                <ModulesRadiationStudentActivity3aEn />
+                                <ModulesRadiationStudentActivity3aPt />
                             </TabPanel>
                             <TabPanel class="focus:outline-none">
                                 <ModulesRadiationStudentActivity3bEn />
