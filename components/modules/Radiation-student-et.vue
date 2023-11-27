@@ -133,14 +133,14 @@
                         <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                                :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                                 class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
+                                :class="{ 'text-slate-50 ring-4 ring-blue-400 ring-offset-2 ring-offset-blue-30': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >Tegevus 3a: Müüdimurdmine eksperimendi abil</button>
                             </Tab>
                             <Tab as="template" v-slot="{ selected }">
                                 <button
                                 class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                                :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                                :class="{ ' text-slate-50 ring-4 ring-blue-400 ring-offset-2 ring-offset-blue-30': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >Tegevus 3b: Müüdimurdmine sekundaarsete allikate uurimise abil</button>
                             </Tab>
                         </TabList>

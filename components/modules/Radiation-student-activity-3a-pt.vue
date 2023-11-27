@@ -53,7 +53,7 @@
         
         <!-- control variables -->
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-16"></Icon>
-        <label class="block leading-tight my-4"><b>Variáveis ​​de controlo</b> <i>(aquelas que serão mantidos constantes):</i></label>
+        <label class="block leading-tight my-4"><b>Variáveis de controlo</b> <i>(aquelas que serão mantidos constantes):</i></label>
         <ToolsDynamicTableFull class="e-card"
             :tableStructure = "controlTable" 
             :addRow = "true"

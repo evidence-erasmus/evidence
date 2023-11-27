@@ -3,14 +3,9 @@
         
         <UiPrintMessage />
         <div class="prose-lg print:prose">
-            <!-- <a id="exportAnswersLink" style="display: none;">Export</a>
-            <button class="btn btn-accent btn-sm text-white" @click="exportAnswers">Download your answers</button> -->
             
             <h1 class="mb-2">{{ t('title') }}</h1>
             <p class="uppercase my-2">{{ t('subtitle') }}</p>
-
-            <!-- <p class="italic mt-2 print:hidden">{{ t('hint') }}</p>
-            <button @click="printMe" class="mt-4 btn btn-secondary text-white uppercase no-underline print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('print') }}</button> -->
 
             <hr class="print:hidden" />
 
