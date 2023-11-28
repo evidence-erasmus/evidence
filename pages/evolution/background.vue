@@ -10,7 +10,7 @@
             <ModulesEvolutionBackgroundPt />
         </template>
         <template v-else-if="locale === 'sv'">
-            <ModulesEvolutionBackgroundEn />
+            <ModulesEvolutionBackgroundSv />
         </template>
         <template v-else>
             <ModulesEvolutionBackgroundEn />
