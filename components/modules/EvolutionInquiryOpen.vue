@@ -47,18 +47,18 @@
                 <li v-for="item in tm('inquiry.ev_open.expectations.items')">{{ rt(item) }}</li>
             </ul>
             
-            <i18n-t keypath="inquiry.ev_open.q2_txt" tag="p" scope="global">
+            <i18n-t keypath="inquiry.ev_open.q2.txt" tag="p" scope="global">
                 <template #q2Link>
-                    <a href='https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method.' target='_blank' rel='noopener noreferrer'>{{ t('inquiry.ev_open.q2_link') }}</a>
+                    <a href='https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method.' target='_blank' rel='noopener noreferrer'>{{ t('inquiry.ev_open.q2.link') }}</a>
                 </template>
             </i18n-t>
 
             
             <label for="q2" class="block mb-2">
-                <b>{{ t('inquiry.ev_open.q2_title') }}</b>
+                <b>{{ t('inquiry.ev_open.q2.title') }}</b>
             </label>
             <textarea id="q2" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="4"
-            v-model="studentEvolutionOpen.q2"></textarea>
+            v-model="studentEvolutionOpen.hypothesis"></textarea>
 
             <hr />
 
@@ -67,7 +67,7 @@
             </label>
             <p>{{ t('inquiry.ev_open.plan.txt_1') }}</p>
             <textarea id="q3" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
-            v-model="studentEvolutionOpen.q3"></textarea>
+            v-model="studentEvolutionOpen.plan"></textarea>
 
             <hr />
 
@@ -79,7 +79,7 @@
                     <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.reliability_table.link_1') }}</a>
                 </template>
             </i18n-t>
-            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
+            <div class="e-card">
                 <ToolsReliabilityTable :storeToUpdate="studentEvolutionOpen" :addRow="true" currentSources="inquiry.ev_open.sources" key="ccOpenrlblty" />
             </div>
             
@@ -89,16 +89,9 @@
                 <b>4. Kogutud tõenditest lähtudes on meie järeldused järgmised:</b>
             </label>
             <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
-            v-model="studentEvolutionOpen.q4"></textarea>
+            v-model="studentEvolutionOpen.conclusions"></textarea>
 
-            <hr />
-
-            <p>
-                <b>5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?</b>
-            </p>
-            <div class="e-card w-[90vw]" style="transform:translateX(-5vw)">
-                <ToolsFliccTable :storeToUpdate="studentEvolutionOpen" />
-            </div>
+            
 
         </section>
     </div>

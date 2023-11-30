@@ -39,24 +39,26 @@ export default {
         "Mingi organismi kehaosa kasutamine või mittekasutamine tema eluea jooksul võib päranduda järglastele ja see võib viia liikide muutumiseni."
       ],
       some : "shit",
-      
+
       expectations: {
         title: "Teilt oodatakse järgnevat:",
         items: [
           "kitsendage oma väide testitavaks hüpoteesiks / uurimisküsimuseks;",
-          "kavandage uuring, mis kas kinnitab või lükkab ümber teie poolt püstitatud hüpoteesi/uurimisküsimuse;",
+          "kavandage uuring, mis kas kinnitab või lükkab ümber teie poolt püstitatud hüpoteesi / uurimisküsimuse;",
           "esitage kogutud andmed;",
           "hinnake kasutatud allikate usaldusväärsust;",
           "koostage saadud tulemuste põhjal kokkuvõte."
         ]
       },
-      q2_txt: "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
-      q2_link: "kontrollitavaks hüpoteesiks",
-      q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
-      q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+      q2 : {
+        txt: "Kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
+        link: "kontrollitavaks hüpoteesiks",
+        title: "2. Meie hüpotees ja/või uurimisküsimus on:",
+        txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+      },
       
       plan: {
-        txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab:",
+        txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada; antud juhul pange kirja, kes mille eest vastutab:",
         label_1: "3. Tegevusplaan"
       },
 

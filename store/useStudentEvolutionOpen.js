@@ -4,15 +4,12 @@ export const useStudentEvolutionOpen = defineStore("studentEvolutionOpen", {
     state: () => ({
         learningPath: 0,
         mythName: "Not selected yet",
-        q2: "",
-        q3: "",
+        hypothesis: "",
+        plan: "",
         reliability: [
             ["","","0",""]
         ],
-        q4: "",
-        flicc: [
-            ["", false, false, false, false, ""],
-        ]
+        conclusions: ""
     }),
     
     actions : {
