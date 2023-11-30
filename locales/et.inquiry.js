@@ -23,6 +23,59 @@ export default {
       ]
     },
 
+
+
+    ev_open: {
+      title: "Evolutsioon",
+      subtitle: "Avatud uurimus",
+      choose: "Vali müüt",
+      q1_title: "1. Hakkame uurima järgmist müüti:",
+      myths: [
+        "Evolutsioon on kõigest teooria.",
+        "Evolutsioon ei ole teadus, sest seda ei saa testida ja ümber lükata. See teeb järeldusi sündmuste kohta, mida pole võimalik vaadelda ja mida ei saa kunagi taasluua.",
+        "Evolutsioon järgib ettemääratud sirget teed. (“Kui inimene arenes ahvidest siis, miks on veel ahvid olemas?”)",
+        "Evolutsioon toodab ideaalselt kohanenud organisme.",
+        "Liigid on muutumatud.",
+        "Mingi organismi kehaosa kasutamine või mittekasutamine tema eluea jooksul võib päranduda järglastele ja see võib viia liikide muutumiseni."
+      ],
+      some : "shit",
+      
+      expectations: {
+        title: "Teilt oodatakse järgnevat:",
+        items: [
+          "kitsendage oma väide testitavaks hüpoteesiks / uurimisküsimuseks;",
+          "kavandage uuring, mis kas kinnitab või lükkab ümber teie poolt püstitatud hüpoteesi/uurimisküsimuse;",
+          "esitage kogutud andmed;",
+          "hinnake kasutatud allikate usaldusväärsust;",
+          "koostage saadud tulemuste põhjal kokkuvõte."
+        ]
+      },
+      q2_txt: "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
+      q2_link: "kontrollitavaks hüpoteesiks",
+      q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
+      q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+      
+      plan: {
+        txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab:",
+        label_1: "3. Tegevusplaan"
+      },
+
+      reliability: {
+        txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
+        label_1: "4. Uuritud materjalide usaldusväärsus."
+      },
+      q4_title: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
+      q5_title: "6. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
+    },
+
+
+
+    /* 
+      CLIMATE CHANGE 
+    */
+
+
+
     cc_open: {
       title: "Kliimamuutused",
       subtitle: "Avatud uurimus",
