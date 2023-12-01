@@ -49,7 +49,7 @@
             
             <i18n-t keypath="inquiry.ev_open.q2.txt" tag="p" scope="global">
                 <template #q2Link>
-                    <a href='https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method.' target='_blank' rel='noopener noreferrer'>{{ t('inquiry.ev_open.q2.link') }}</a>
+                    <a href='https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100' target='_blank' rel='noopener noreferrer'>{{ t('inquiry.ev_open.q2.link') }}</a>
                 </template>
             </i18n-t>
 
