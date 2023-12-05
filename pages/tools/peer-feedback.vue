@@ -13,8 +13,8 @@
 </template>
 
 <i18n lang="json">
-    {
-      "en": {
+{
+    "en": {
         "title" : "Feedback questionnaire",
         "button-title" : "PRINT",
         "button-note" : "- or save as pdf"
@@ -28,8 +28,18 @@
         "title" : "Feedback questionnaire",
         "button-title" : "PRINDI",
         "button-note" : "- või salvesta pdf-ina"
-      }
+    },
+    "pt": {
+        "title" : "Questionário de feedback",
+        "button-title" : "PRINDI",
+        "button-note" : "- või salvesta pdf-ina"
+    },
+    "sv": {
+        "title" : "Feedback på video, poster eller presentation",
+        "button-title" : "PRINDI",
+        "button-note" : "- või salvesta pdf-ina"
     }
+}
 </i18n>
 
 <script setup>
