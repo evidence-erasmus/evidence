@@ -28,7 +28,7 @@
                 break;
             }
             case "myth1": {
-                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth1');
+                dynComp.value = resolveComponent('ModulesEvolutionInquiryMyth1');
                 break;
             }
             case "myth2": {

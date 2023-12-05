@@ -1,10 +1,11 @@
 <template>
     <div class="p-6 md:p-10" :lang="locale" style="hyphens: auto;">
+        <UiPrintMessage />
         <div class="prose prose-lg">
             <h1 class="mb-2">{{ t('inquiry.ev_open.title') }}</h1>
             <h3 class="uppercase my-2">{{ t('inquiry.ev_open.subtitle') }}</h3>
-            <p class="italic mt-2 print:hidden">{{ t('print.hint') }}</p>
-            <button @click="printMe" class="my-4 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('print.print') }}</button>
+            <!-- <p class="italic mt-2 print:hidden">{{ t('print.hint') }}</p> -->
+            <!-- <button @click="printMe" class="my-4 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('print.print') }}</button> -->
 
 
             <section>
@@ -30,14 +31,14 @@
                     :printMode="true"
                 />
 
-                <h4 class="my-1">{{ t('inquiry.ev_open.q4_title') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.ev_open.conclusions') }}</h4>
                 <p>
                     {{ studentAnswers.conclusions }}
                 </p>
             </section>
         </div>
         
-        <button @click="printMe" class="mt-8 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('print') }}</button>
+        <!-- <button @click="printMe" class="mt-8 px-4 py-2 flex items-center gap-2 bg-blue-500 text-lg rounded text-white uppercase print:hidden"><icon name="material-symbols:print-outline-rounded" /> {{ t('print') }}</button> -->
     </div>
 </template>
 

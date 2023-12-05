@@ -1,8 +1,8 @@
 <template>
-    <Button @click="goBack()"
+    <button @click="goBack()"
         class="btn btn-outline btn-neutral btn-sm leading-none bg-slate-50">
             <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
-    </Button>
+    </button>
 </template>
 
 <script setup>

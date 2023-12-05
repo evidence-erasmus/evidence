@@ -38,8 +38,6 @@ export default {
         "Liigid on muutumatud.",
         "Mingi organismi kehaosa kasutamine või mittekasutamine tema eluea jooksul võib päranduda järglastele ja see võib viia liikide muutumiseni."
       ],
-      some : "shit",
-
       expectations: {
         title: "Teilt oodatakse järgnevat:",
         items: [
@@ -66,10 +64,50 @@ export default {
         txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
         label_1: "4. Uuritud materjalide usaldusväärsus."
       },
-      q4_title: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
+      conclusions: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
       q5_title: "6. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
     },
 
+
+
+
+    ev_myth1: {
+      title: "Evolutsioon",
+      subtitle: "Juhitud uurimus, müüt 1",
+      myth: "Teie rühm hakkab tegelema müüdiga 1: “Evolutsioon on lihtsalt teooria”.",
+      justification: {
+        text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
+        label_1: "Põhjendused:",
+      },
+      label_2: "Kuidas sulle see põhjendus tundub? Kas miski häirib sind selle juures?",
+      label_3: "Kuidas sa kontrolliksid nende põhjenduste valiidsust (kehtivust)?",
+      question: "Küsimus: Kas evolutsioon on kõigest teooria? Mida mõeldakse teaduses mõistega “teooria”?",
+      sources_text: "Alljärgnevad materjalid on soovitav läbi lugeda selleks, et leida esitatud küsimustele vastused:",
+      sources: [
+        {
+          label: "Evolutsioon on nii fakt kui teooria",
+          url: "http://www.talkorigins.org/faqs/evolution-fact.html"
+        },
+        {
+          label: "Väärarusaamad evolutsiooni kohta",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Loodusteadustest arusaamine",
+          url: "https://undsci.berkeley.edu/article/0_0_0/howscienceworks_19"
+        },
+        {
+          label: "Evolutsioon on kindlasti teooria, kuid see ei ole kindlasti “lihtsalt” teooria",
+          url: "http://www.talkorigins.org/faqs/evolution-fact.html"
+        },
+        {
+          label: "Levinud väärarusaamad evolutsiooni kohta",
+          url: "https://opentextbc.ca/conceptsofbiologyopenstax/chapter/common-misconceptions-about-evolution/"
+        }
+      ],
+      label_4: "Mida mõeldakse teaduses mõistega “teooria”?",
+      label_5: "Kas evolutsiooniteooria täidab kõiki teaduslikule teooriale esitatud kriteeriume?"
+    },
 
 
     /* 

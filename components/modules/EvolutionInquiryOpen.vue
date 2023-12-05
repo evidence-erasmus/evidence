@@ -86,7 +86,7 @@
             <hr />
             
             <label for="q4" class="block mb-2">
-                <b>4. Kogutud tõenditest lähtudes on meie järeldused järgmised:</b>
+                <b>{{ t('inquiry.ev_open.conclusions') }}</b>
             </label>
             <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="studentEvolutionOpen.conclusions"></textarea>
