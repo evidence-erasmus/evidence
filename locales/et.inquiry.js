@@ -74,7 +74,10 @@ export default {
     ev_myth1: {
       title: "Evolutsioon",
       subtitle: "Juhitud uurimus, müüt 1",
-      myth: "Teie rühm hakkab tegelema müüdiga 1: “Evolutsioon on lihtsalt teooria”.",
+      myth: {
+        text: "Teie rühm hakkab tegelema müüdiga 1:",
+        myth: "“Evolutsioon on lihtsalt teooria”."
+      },
       justification: {
         text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
         label_1: "Põhjendused:",
@@ -98,7 +101,7 @@ export default {
         },
         {
           label: "Evolutsioon on kindlasti teooria, kuid see ei ole kindlasti “lihtsalt” teooria",
-          url: "http://www.talkorigins.org/faqs/evolution-fact.html"
+          url: "https://www.sciencefocus.com/comment/evolution-is-most-certainly-a-theory-but-certainly-not-just-a-theory/"
         },
         {
           label: "Levinud väärarusaamad evolutsiooni kohta",
@@ -106,9 +109,117 @@ export default {
         }
       ],
       label_4: "Mida mõeldakse teaduses mõistega “teooria”?",
-      label_5: "Kas evolutsiooniteooria täidab kõiki teaduslikule teooriale esitatud kriteeriume?"
+      label_5: "Kas evolutsiooniteooria täidab kõiki teaduslikule teooriale esitatud kriteeriume?",
+      reliability: {
+        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+        link: "töörista",
+        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      }
     },
 
+
+    ev_myth2: {
+      title: "Evolutsioon",
+      subtitle: "Juhitud uurimus, müüt 2",
+      myth: {
+        text: "Teie rühm hakkab tegelema müüdiga 2:",
+        myth: "“Evolutsioon pole teaduslik, sest seda ei saa testida ega ümber lükata. See teeb järeldusi sündmuste kohta, mida pole võimalik vaadelda ja mida ei saa kunagi taasluua.”"
+      },
+      justification: {
+        text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
+        label_1: "Põhjendused:",
+      },
+      label_2: "Kuidas sulle see põhjendus tundub? Kas miski häirib sind selle juures?",
+      label_3: "Kuidas sa kontrolliksid nende põhjenduste valiidsust (kehtivust)?",
+      question: "Kas evolutsioon on testitav? Kas see on ümberlükatav? Kas ainult need teadused on “päris” teadused, mis põhinevad kontrollitud laborikatsetel?",
+      sources_text: "Küsimustele vastamiseks on soovitav lugeda järgnevaid allikaid:",
+      sources: [
+        {
+          label: "Väärarusaamad evolutsioonist",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Soojenemine viib evolutsioonini",
+          url: "https://evolution.berkeley.edu/evo-news/warming-to-evolution/"
+        },
+        {
+          label: "Toksiline jõgi tähendab kalaliikide jaoks kiiret evolutsiooni",
+          url: "https://evolution.berkeley.edu/evo-news/toxic-river-means-rapid-evolution-for-one-fish-species/"
+        },
+        {
+          label: "Evolutsioon meie nina all",
+          url: "https://evolution.berkeley.edu/evolution-under-our-noses/"
+        }
+      ],
+      sources_2: [
+        {
+          text: "Tutvu alljärgneva veebilehega:",
+          label: "Artificial selection in the lab",
+          url: "https://evolution.berkeley.edu/artificial-selection-in-the-lab/"
+        },
+        {
+          text: "Kasuta järgmist virtuaalset laborit:",
+          label: "Evolution in the lab",
+          url: "https://evolution.berkeley.edu/angling-for-evolutionary-answers/evolution-in-the-lab/"
+        },
+        {
+          text: "Uuri järgnevat simulatsiooni:",
+          label: "The evolutionary informatics lab",
+          url: "https://www.evoinfo.org/weasel.html"
+        },
+      ],
+      label_4: "Kas on võimalik evolutsiooni vaadelda?",
+      label_5: "Kas evolutsiooniprotsesse on võimalik laboris uurida?",
+      label_6: "Kas katsete asemel on võimalik kasutada alternatiive?",
+      reliability: {
+        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+        link: "töörista",
+        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      }
+    },
+
+
+
+    ev_myth3: {
+      title: "Evolutsioon",
+      subtitle: "Juhitud uurimus, müüt 3",
+      myth: {
+        text: "Teie rühm hakkab tegelema müüdiga 3:",
+        myth: "“Evolutsioon järgib ette määratud sirget rada.” (“Kui inimene arenes ahvist, siis miks on veel ahvid olemas?”)"
+      },
+      justification: {
+        text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
+        label_1: "Põhjendus:",
+      },
+      label_2: "Kuidas sulle see põhjendus tundub? Kas miski häirib sind selle juures?",
+      label_3: "Kuidas sa kontrolliksid nende põhjenduste valiidsust (kehtivust)?",
+      question: "Kas evolutsioon järgib ettemääratud sirget rada? Kui liigid arenevad teistest liikidest, siis kas see tähendab, et esimesed liigid surevad välja?",
+      sources_text: "Soovituslik materjal:",
+      sources: [
+        {
+          label: "Miks on ahvid alles jäänud?",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-010-0293-2"
+        },
+        {
+          label: "Evolutsioon ei saa toimuda sirgjooneliselt",
+          url: "https://theconversation.com/evolution-doesnt-proceed-in-a-straight-line-so-why-draw-it-that-way-109401"
+        },
+        {
+          label: "Uuri fülogeneesipuud",
+          url: "http://tolweb.org/tree/"
+        },
+        {
+          label: "Fülogeneesipuu",
+          url: "http://www.evogeneao.com/evo-gene.html"
+        }
+      ],
+      label_4: "Kas evolutsioon järgib ettemääratud, sirget rada?",
+      reliability: {
+        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+        link: "töörista",
+        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      }
+    },
 
     /* 
       CLIMATE CHANGE 
