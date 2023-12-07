@@ -221,6 +221,132 @@ export default {
       }
     },
 
+
+    ev_myth4: {
+      title: "Evolutsioon",
+      subtitle: "Juhitud uurimus, müüt 4",
+      myth: {
+        text: "Teie rühm hakkab tegelema müüdiga 4:",
+        myth: "“Evolutsioon toodab ideaalselt kohanenud organisme.”"
+      },
+      justification: {
+        text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
+        label_1: "Põhjendus:",
+      },
+      label_2: "Kuidas sulle see põhjendus tundub? Kas miski häirib sind selle juures?",
+      label_3: "Kuidas sa kontrolliksid nende põhjenduste valiidsust (kehtivust)?",
+      question: "Kas keegi peaks olema ideaalselt kohanenud, et ellu jääda? Kas looduslik valik toodab ideaalselt kohanenud isendeid?",
+      sources_text: "Soovituslikud allikad:",
+      sources: [
+        {
+          label: "Ei ole olemas ideaalset organismi",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/19%3A_The_Evolution_of_Populations/19.03%3A_Adaptive_Evolution/19.3E%3A_No_Perfect_Organism"
+        },
+        {
+          label: "Evolutsiooni müüt",
+          url: "https://www.newscientist.com/article/dn13640-evolution-myths-evolution-produces-perfectly-adapted-creatures/"
+        },
+        {
+          label: "Valik, mitte idealism",
+          url: "https://evolution.berkeley.edu/misconceptions-about-natural-selection-and-adaptation/selection-not-perfection/"
+        },
+        {
+          label: "Looduslikust valikust arusaamine: Hädavajalikud mõisted ja levinud väärarusaamad",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-009-0128-1"
+        }
+      ],
+      label_4: "Kas keegi peaks olema ideaalselt kohanenud, et ellu jääda?",
+      label_5: "Kas looduslik valik toodab ideaalselt kohanenud isendeid?",
+      reliability: {
+        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+        link: "töörista",
+        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      }
+    },
+
+
+
+    ev_myth5: {
+      title: "Evolutsioon",
+      subtitle: "Juhitud uurimus, müüt 5",
+      myth: {
+        text: "Teie rühm hakkab tegelema müüdiga 5:",
+        myth: "“Liigid on muutumatud.”"
+      },
+      justification: {
+        text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
+        label_1: "Põhjendus:",
+      },
+      label_2: "Kuidas sulle see põhjendus tundub? Kas miski häirib sind selle juures?",
+      label_3: "Kuidas sa kontrolliksid nende põhjenduste valiidsust (kehtivust)?",
+      question: "Kas liigid muutuvad aja jooksul?",
+      sources_text: "Otsi vastust järgnevatest allikatest:",
+      sources: [
+        {
+          label: "5 looma, kes on hiljuti arenenud",
+          url: "https://now.northropgrumman.com/5-animals-that-have-evolved-recently/"
+        },
+        {
+          label: "Loomade evolutsioon",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Introductory_Biology_(CK-12)/05%3A_Evolution/5.25%3A_Animal_Evolution"
+        },
+        {
+          label: "Fossiilide andmebaaside vead",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
+        }
+      ],
+      label_4: "Kas liigid muutuvad aja jooksul?",
+      reliability: {
+        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+        link: "töörista",
+        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      }
+    },
+
+
+
+    ev_myth6: {
+      title: "Evolutsioon",
+      subtitle: "Juhitud uurimus, müüt 6",
+      myth: {
+        text: "Teie rühm hakkab tegelema müüdiga 6:",
+        myth: "“Mingi organismi kehaosa kasutamine või mittekasutamine tema eluea jooksul võib päranduda järglastele ja see võib viia liigi muutumiseni.”"
+      },
+      justification: {
+        text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
+        label_1: "Põhjendus:",
+      },
+      label_2: "Kuidas sulle see põhjendus tundub? Kas miski häirib sind selle juures?",
+      label_3: "Kuidas sa kontrolliksid nende põhjenduste valiidsust (kehtivust)?",
+      question: "Millised tunnused on päritavad?",
+      sources_text: "Vastamiseks kasuta järgmisi allikaid:",
+      sources: [
+        {
+          label: "Lamarkism",
+          url: "https://www.britannica.com/science/Lamarckism"
+        },
+        {
+          label: "Evolutsiooni ajalugu",
+          url: "https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1800s/early-concepts-of-evolution-jean-baptiste-lamarck/"
+        },
+        {
+          label: "Evolutsiooniteooriad",
+          url: "https://www.sciencesfp.com/evolutionary-theories.html"
+        },
+        {
+          label: "Darwin ja looduslik valik",
+          url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
+        }
+      ],
+      label_4: "Millised tunnused on päritavad?",
+      reliability: {
+        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+        link: "töörista",
+        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      }
+    },
+
+
     /* 
       CLIMATE CHANGE 
     */

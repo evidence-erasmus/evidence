@@ -34,25 +34,25 @@
 
             
             <p>
-                {{ t('inquiry.ev_myth2.justification.text') }}
+                {{ t('inquiry.ev_myth3.justification.text') }}
             </p>
 
             <label for="q1" class="block mb-2">
-                <b>{{ t('inquiry.ev_myth2.justification.label_1') }}</b>
+                <b>{{ t('inquiry.ev_myth3.justification.label_1') }}</b>
             </label>
             <textarea id="q1" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="4"
             v-model="studentAnswers.q1"></textarea>
             
 
             <label for="q2" class="block mb-2">
-                <b>{{ t('inquiry.ev_myth2.label_2') }}</b>
+                <b>{{ t('inquiry.ev_myth3.label_2') }}</b>
             </label>
             <textarea id="q2" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="4"
             v-model="studentAnswers.q2"></textarea>
             
             
             <label for="q3" class="block mb-2">
-                <b>{{ t('inquiry.ev_myth2.label_3') }}</b>
+                <b>{{ t('inquiry.ev_myth3.label_3') }}</b>
             </label>
             <textarea id="q3" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="4"
             v-model="studentAnswers.q3"></textarea>
@@ -60,36 +60,36 @@
 
             <UiCardInfo icon="mdi:question-mark-circle" theme="sky-500">
                 <h4 class="my-4 leading-tight">
-                    {{ t('inquiry.ev_myth2.question') }}
+                    {{ t('inquiry.ev_myth3.question') }}
                 </h4>
             </UiCardInfo>
             
 
             <p>
-                {{ t('inquiry.ev_myth2.sources_text') }}
+                {{ t('inquiry.ev_myth3.sources_text') }}
             </p>
             <ol class="leading-tight mb-16">
-                <li v-for="li in tm('inquiry.ev_myth2.sources')">
+                <li v-for="li in tm('inquiry.ev_myth3.sources')">
                     <a :href="rt(li.url)" target="_blank" rel="noopener noreferrer">{{ rt(li.label) }}</a>
                 </li>
             </ol>
 
             <label for="q4" class="block mb-2">
-                <b>{{ t('inquiry.ev_myth2.label_4') }}</b>
+                <b>{{ t('inquiry.ev_myth3.label_4') }}</b>
             </label>
             <textarea id="q4" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="4"
             v-model="studentAnswers.q4"></textarea>
 
-            <i18n-t tag="p" keypath="inquiry.ev_myth1.reliability.text" scope="global">
+            <i18n-t tag="p" keypath="inquiry.ev_myth3.reliability.text" scope="global">
                 <template #link>
                     <NuxtLink to="../../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" />
-                        {{ t('inquiry.ev_myth1.reliability.link') }}
+                        {{ t('inquiry.ev_myth3.reliability.link') }}
                     </NuxtLink>
                 </template>
             </i18n-t>
             
             <label class="block mb-2">
-                <b>{{ t('inquiry.ev_myth1.reliability.label') }}</b>
+                <b>{{ t('inquiry.ev_myth3.reliability.label') }}</b>
             </label>
             <div class="e-card">
                 <ClientOnly>

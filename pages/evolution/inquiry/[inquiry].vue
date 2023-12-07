@@ -40,19 +40,15 @@
                 break;
             }
             case "myth4": {
-                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth4');
+                dynComp.value = resolveComponent('ModulesEvolutionInquiryMyth4');
                 break;
             }
             case "myth5": {
-                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth5');
+                dynComp.value = resolveComponent('ModulesEvolutionInquiryMyth5');
                 break;
             }
             case "myth6": {
-                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth6');
-                break;
-            }
-            case "myth7": {
-                dynComp.value = resolveComponent('ModulesClimateChangeInquiryMyth7');
+                dynComp.value = resolveComponent('ModulesEvolutionInquiryMyth6');
                 break;
             }
         }

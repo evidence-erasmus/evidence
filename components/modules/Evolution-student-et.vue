@@ -103,8 +103,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution: Not even a theory</a>
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth1', blank:false}
+                        {text:'Avatud uurimus 1', url:'./inquiry/open', blank:false},
+                        {text:'Juhitud uurimus 1', url:'./inquiry/myth1', blank:false}
                     ]" />
                 </UiCardInfo>
 
@@ -139,8 +139,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Fallacies of Evolution</a>
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth2', blank:false}
+                        {text:'Avatud uurimus 2', url:'./inquiry/open', blank:false},
+                        {text:'Juhitud uurimus 2', url:'./inquiry/myth2', blank:false}
                     ]" />
                 </UiCardInfo>
                 
@@ -158,8 +158,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">If Humans Evolved from Apes, Why Do Apes Exist Today?</a>
                     </p>
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth3', blank:false}
+                        {text:'Avatud uurimus 3', url:'./inquiry/open', blank:false},
+                        {text:'Juhitud uurimus 3', url:'./inquiry/myth3', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -178,8 +178,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution</a>
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth4', blank:false}
+                        {text:'Avatud uurimus 4', url:'./inquiry/open', blank:false},
+                        {text:'Juhitud uurimus 4', url:'./inquiry/myth4', blank:false}
                     ]" />
                 </UiCardInfo>
                 
@@ -197,8 +197,8 @@
                         <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                     </p> -->
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth5', blank:false}
+                        {text:'Avatud uurimus 5', url:'./inquiry/open', blank:false},
+                        {text:'Juhitud uurimus 5', url:'./inquiry/myth5', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -217,8 +217,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Understanding Evolution</a>
                     </p>
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth6', blank:false}
+                        {text:'Avatud uurimus 6', url:'./inquiry/open', blank:false},
+                        {text:'Juhitud uurimus 6', url:'./inquiry/myth6', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
