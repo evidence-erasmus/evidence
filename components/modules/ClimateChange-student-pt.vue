@@ -123,7 +123,7 @@
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
-                        {text:'Inquérito guiado', url:'./inquiry/guided/myth1', blank:false}
+                        {text:'Inquérito guiado', url:'./inquiry/myth1', blank:false}
                     ]" />
                 </UiCardInfo>
 
@@ -145,7 +145,7 @@
                     <UiNavButtonBar :buttons="[
                         // {text:'Juhised', url:''},
                         {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
-                        {text:'Inquérito guiado', url:'./inquiry/guided/myth2', blank:false}
+                        {text:'Inquérito guiado', url:'./inquiry/myth2', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -171,7 +171,7 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
-                        {text:'Inquérito guiado', url:'./inquiry/guided/myth3', blank:false}
+                        {text:'Inquérito guiado', url:'./inquiry/myth3', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -190,6 +190,10 @@
                     <p>
                         <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
                     </p>
+                    <UiNavButtonBar class="font-Body mb-6" :buttons="[
+                        {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
+                        {text:'Inquérito guiado', url:'./inquiry/myth4', blank:false}
+                    ]" />
                 </UiCardInfo>
 
                 <div class="divider my-6"></div>
@@ -206,6 +210,10 @@
                     <p>
                         <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                     </p>
+                    <UiNavButtonBar class="font-Body mb-6" :buttons="[
+                        {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
+                        {text:'Inquérito guiado', url:'./inquiry/myth5', blank:false}
+                    ]" />
                 </UiCardInfo>
 
                 <div class="divider my-6"></div>
@@ -219,6 +227,10 @@
                             —John MacArthur
                         </a>
                     </p>
+                    <UiNavButtonBar class="font-Body mb-6" :buttons="[
+                        {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
+                        {text:'Inquérito guiado', url:'./inquiry/myth6', blank:false}
+                    ]" />
                 </UiCardInfo>
                 
                 <div class="divider my-6"></div>
@@ -226,7 +238,7 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
                     <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">7º Mito:</span> O clima da Terra sempre mudou e agora está a acontecer a mesma coisa.</h4>
                     <p class="pl-4 border-l border-blue-500">
-                        <i>“O clima está sempre a mudar. Já tivemos eras glaciares e períodos mais quentes em que foram encontrados crocodilos em Spitzbergen. As eras glaciares ocorreram num ciclo de cem mil anos nos últimos 700 mil anos, e houve períodos anteriores que parecem ter sido mais quentes do que o atual, apesar de os níveis de CO2 serem mais baixos do que são agora. Mais recentemente, tivemos o período quente medieval e a pequena idade do gelo.”</i>
+                        <i>“O clima está sempre a mudar. Já tivemos eras glaciares e períodos mais quentes em que foram encontrados crocodilos em Spitzbergen. As eras glaciares ocorreram num ciclo de cem mil anos nos últimos 700 mil anos, e houve períodos anteriores que parecem ter sido mais quentes do que o atual, apesar de os níveis de CO₂ serem mais baixos do que são agora. Mais recentemente, tivemos o período quente medieval e a pequena idade do gelo.”</i>
                         <br />
                         <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
                             —Richard Lindzen
@@ -235,6 +247,10 @@
                     <p>
                         <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
                     </p>
+                    <UiNavButtonBar class="font-Body mb-6" :buttons="[
+                        {text:'Inquérito aberto', url:'./inquiry/open', blank:false},
+                        {text:'Inquérito guiado', url:'./inquiry/myth7', blank:false}
+                    ]" />
                 </UiCardInfo>
             </section>
 

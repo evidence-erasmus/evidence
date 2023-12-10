@@ -53,17 +53,11 @@ export default {
         txt: "Develop a {q2Link} / research question.",
         link: "testable hypothesis",
         title: "2. Our hypothesis / research question is:",
-        // txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
       },
       
       plan: {
         txt_1: "(you could indicate by which activities you are involved as a full team and by which you are going to divide responsibilities, in this case, specify, who is responsible for what).",
         label_1: "3. Plan of activities"
-      },
-
-      reliability: {
-        // txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
-        label_1: "4. Reliability of sources."
       },
       conclusions: "5. Based on the collected evidence, our conclusions are:"
     },
@@ -109,12 +103,7 @@ export default {
         
       ],
       label_4: "What is meant by the term “theory” in Science?",
-      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?",
-      // reliability: {
-      //   text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-      //   link: "töörista",
-      //   label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
-      // }
+      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?"
     },
 
 
@@ -316,7 +305,7 @@ export default {
       label_2: "How do you find this argument? Is something bothering you?",
       label_3: "How could we check whether this argument is valid?",
       question: "Which traits/characteristics are inheritable?",
-      sources_text: "Vastamiseks kasuta järgmisi allikaid:",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
       sources: [
         {
           label: "Lamarck's Theory",
@@ -360,22 +349,22 @@ export default {
         "Climate change actions will make people poorer.",
         "The earth's climate has always changed, and now the same thing is happening."
       ],
-      q2_txt: "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
-      q2_link: "kontrollitavaks hüpoteesiks",
-      q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
+      q2_txt: "Develop a {q2Link} / research question.",
+      q2_link: "testable hypothesis",
+      q2_title: "2. Our hypothesis / research question is:",
       q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
 
       plan: {
-        txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab:",
-        label_1: "3. Tegevusplaan"
+        txt_1: "(think carefully about how you will control all the other variables except the one you are going to manipulate; please indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, who is responsible for what):",
+        label_1: "3. Plan of activities"
       },
 
       reliability: {
         txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
         label_1: "4. Uuritud materjalide usaldusväärsus."
       },
-      q4_title: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
-      q5_title: "6. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
+      q4_title: "5. Based on the experiment, our conclusion(s) is/are:",
+      q5_title: "6. According to the data you collected, where do you owe the error of this myth?"
     },
 
 

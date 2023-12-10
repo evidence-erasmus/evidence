@@ -4,9 +4,10 @@ export default {
     add_row: "Adicionar linha",
     
     reliability_table : {
-      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte  tabelisse.",
-      link_1: "tööriista",
-      url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",  
+      txt_1: "Por favor, usa esta {link1} para procurar informações e avaliar a sua fiabilidade.",
+      link_1: "ferramenta",
+      url_1: "../../tools/reliability-assessment",
+      label_1: "",
       cols: {
           col_1:"Elementos de prova / principais conclusões / resumo das informações relevantes para a hipótese)",
           col_2:"Tipo e fonte de evidência",
@@ -23,77 +24,392 @@ export default {
       ]
     },
 
-    cc_open: {
-      title: "Kliimamuutused",
-      subtitle: "Avatud uurimus",
-      choose: "Vali müüt",
-      q1_title: "1. Hakkame uurima järgmist müüti:",
+
+
+    ev_open: {
+      title: "Evolution",
+      subtitle: "Open inquiry",
+      choose: "Choose a myth",
+      q1_title: "1. We are going to examine the following myth:",
       myths: [
-        "Liikide väljasuremine on looduslik protsess.",
-        "Liigid suudavad kliimamuutustega kohaneda.",
-        "Kliimamuutuste alane teadus ei ole usaldusväärne.",
-        "Globaalne soojenemine on kasulik.",
-        "Seos CO₂ ja temperatuuri tõusu vahel puudub.",
-        "Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
-        "Maa kliima on alati muutunud ning see jätkab muutumist."
+        "Evolution is just a theory.",
+        "Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.",
+        "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?",
+        "Evolution produces perfectly adapted creatures.",
+        "Species are immutable",
+        "The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species"
       ],
-      q2_txt: "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
-      q2_link: "kontrollitavaks hüpoteesiks",
-      q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
-      q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+      expectations: {
+        title: "In this activity, you are expected to do the following:",
+        items: [
+          "develop a testable hypothesis / research question,",
+          "plan your search for relevant information that will confirm or falsify your hypothesis / answer your research question,",
+          "present collected data in the form of tables, graphs, or similar,",
+          "assess the reliability of the gathered evidence.",
+          "use your findings to draw a conclusion."
+        ]
+      },
+      q2 : {
+        txt: "Develop a {q2Link} / research question.",
+        link: "testable hypothesis",
+        title: "2. Our hypothesis / research question is:",
+      },
       
       plan: {
-        txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab:",
-        label_1: "3. Tegevusplaan"
+        txt_1: "(you could indicate by which activities you are involved as a full team and by which you are going to divide responsibilities, in this case, specify, who is responsible for what).",
+        label_1: "3. Plan of activities"
+      },
+      conclusions: "5. Based on the collected evidence, our conclusions are:"
+    },
+
+
+
+    ev_myth1: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 1",
+      myth: {
+        text: "Your team will deal with Statement 1:",
+        myth: "“Evolution is just a theory”."
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Question: Is Evolution just a theory? What is meant by the term “theory” in science?",
+      sources_text: "In order to check the above questions, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Evolution",
+          url: "https://www.youtube.com/watch?v=FMHNxsInyEg"
+        },
+        {
+          label: "Evolution is a Fact and a Theory",
+          url: "http://www.talkorigins.org/faqs/evolution-fact.html"
+        },
+        {
+          label: "Misconceptions about evolution",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Understanding Science",
+          url: "https://undsci.berkeley.edu/article/0_0_0/howscienceworks_19"
+        },
+        {
+          label: "Evolution is most certainly a theory, but certainly not “just” a theory",
+          url: "https://www.sciencefocus.com/comment/evolution-is-most-certainly-a-theory-but-certainly-not-just-a-theory/"
+        }
+        
+      ],
+      label_4: "What is meant by the term “theory” in Science?",
+      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?"
+    },
+
+
+    ev_myth2: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 2",
+      myth: {
+        text: "Your team will deal with Statement 2:",
+        myth: "“Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Questions: Is Evolution testable? Is it falsifiable? Does all science depend on controlled laboratory experiments to be considered true science?",
+      sources_text: "In order to check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Misconceptions about evolution",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Warming to Evolution",
+          url: "https://evolution.berkeley.edu/evo-news/warming-to-evolution/"
+        },
+        {
+          label: "Toxic river means rapid evolution for one fish species",
+          url: "https://evolution.berkeley.edu/evo-news/toxic-river-means-rapid-evolution-for-one-fish-species/"
+        },
+        {
+          label: "Evolution under our noses",
+          url: "https://evolution.berkeley.edu/evolution-under-our-noses/"
+        }
+      ],
+      sources_2: [
+        {
+          text: "Study the following source:",
+          label: "Artificial selection in the lab",
+          url: "https://evolution.berkeley.edu/artificial-selection-in-the-lab/"
+        },
+        {
+          text: "“Play” with the following virtual lab:",
+          label: "Evolution in the lab",
+          url: "https://evolution.berkeley.edu/angling-for-evolutionary-answers/evolution-in-the-lab/"
+        },
+        {
+          text: "Run the following simulation:",
+          label: "The evolutionary informatics lab",
+          url: "https://www.evoinfo.org/weasel.html"
+        },
+      ],
+      label_4: "Are there any cases that we can actually observe evolution?",
+      label_5: "Are there any cases that we can test evolutionary processes in the lab?",
+      label_6: "Are there any alternatives we can use instead of actual experiments?",
+      // reliability: {
+      //   text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+      //   link: "töörista",
+      //   label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      // }
+    },
+
+
+
+    ev_myth3: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 3",
+      myth: {
+        text: "Your team will deal with Statement 3:",
+        myth: "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?)"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Questions:	Does evolution follow a preordained, straight path? If a species evolves from another species, does this mean that the first one should become extinct?",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Ιf human evolved from monkeys, why are there still monkeys?",
+          url: "https://www.youtube.com/watch?v=4k4JLntDIzE"
+        },
+        {
+          label: "Why Are There Still Monkeys?",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-010-0293-2"
+        },
+        {
+          label: "Evolution doesn’t proceed in a straight line – so why draw it that way?",
+          url: "https://theconversation.com/evolution-doesnt-proceed-in-a-straight-line-so-why-draw-it-that-way-109401"
+        },
+        {
+          label: "Explore the Tree of Life",
+          url: "http://tolweb.org/tree/"
+        },
+        {
+          label: "The Tree of Life",
+          url: "http://www.evogeneao.com/evo-gene.html"
+        }
+      ],
+      label_4: "Does evolution follow a preordained, straight path?"
+    },
+
+
+    ev_myth4: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 4",
+      myth: {
+        text: "Your team will deal with Statement 4:",
+        myth: "“Evolution produces perfectly adapted creatures.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Question: Do you have to be perfectly adapted to survive? Does natural selection produce perfection/perfectly adapted creatures?",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Does Evolution Leads to Perfection?",
+          url: "https://www.youtube.com/watch?v=O1Y3XyW9pEs"
+        },
+        {
+          label: "No Perfect Organism",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/19%3A_The_Evolution_of_Populations/19.03%3A_Adaptive_Evolution/19.3E%3A_No_Perfect_Organism"
+        },
+        {
+          label: "Evolution myths: Evolution produces perfectly adapted creatures",
+          url: "https://www.newscientist.com/article/dn13640-evolution-myths-evolution-produces-perfectly-adapted-creatures/"
+        },
+        {
+          label: "Selection, not perfection",
+          url: "https://evolution.berkeley.edu/misconceptions-about-natural-selection-and-adaptation/selection-not-perfection/"
+        },
+        {
+          label: "Understanding Natural Selection: Essential Concepts and Common Misconceptions",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-009-0128-1"
+        }
+      ],
+      label_4: "Do you have to be perfectly adapted to survive?",
+      label_5: "Does natural selection produce perfection/perfectly adapted creatures?"
+    },
+
+
+
+    ev_myth5: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 5",
+      myth: {
+        text: "Your team will deal with Statement 5:",
+        myth: "“Species are immutable.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Question: Do species change over time?",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Lamarck's Theory",
+          url: "https://www.youtube.com/watch?v=9QwTCj817Sg"
+        },
+        {
+          label: "5 Animals That Have Evolved Recently",
+          url: "https://now.northropgrumman.com/5-animals-that-have-evolved-recently/"
+        },
+        {
+          label: "Animal Evolution",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Introductory_Biology_(CK-12)/05%3A_Evolution/5.25%3A_Animal_Evolution"
+        },
+        {
+          label: "Gaps in the Fossil Record",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
+        }
+      ],
+      label_4: "Do species change over time?"
+    },
+
+
+
+    ev_myth6: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 6",
+      myth: {
+        text: "Your team will deal with Statement 6:",
+        myth: "“The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Which traits/characteristics are inheritable?",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Lamarck's Theory",
+          url: "https://www.youtube.com/watch?v=9QwTCj817Sg"
+        },
+        {
+          label: "Lamarckism",
+          url: "https://www.britannica.com/science/Lamarckism"
+        },
+        {
+          label: "The History of Evolutionary Thought",
+          url: "https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1800s/early-concepts-of-evolution-jean-baptiste-lamarck/"
+        },
+        {
+          label: "Evolutionary Theories",
+          url: "https://www.sciencesfp.com/evolutionary-theories.html"
+        },
+        {
+          label: "Darwin and natural selection",
+          url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
+        }
+      ],
+      label_4: "Which traits are inheritable?"
+    },
+
+
+
+
+
+    cc_open: {
+      title: "Climate change",
+      subtitle: "Open inquiry",
+      choose: "Choose a myth",
+      q1_title: "1. We are going to bust the following myth:",
+      myths: [
+        "The extinction of species is a natural process. Mass extinctions of species have always occurred.",
+        "Organisms can adapt to climate change.",
+        "The science of climate change is not credible.",
+        "The temperature rise is for good.",
+        "There is no correlation between CO₂ and temperature.",
+        "Climate change actions will make people poorer.",
+        "The earth's climate has always changed, and now the same thing is happening."
+      ],
+      q2_txt: "Develop a {q2Link} / research question.",
+      q2_link: "testable hypothesis",
+      q2_title: "2. Our hypothesis / research question is:",
+      q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+
+      plan: {
+        txt_1: "(think carefully about how you will control all the other variables except the one you are going to manipulate; please indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, who is responsible for what):",
+        label_1: "3. Plan of activities"
       },
 
       reliability: {
         txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
         label_1: "4. Uuritud materjalide usaldusväärsus."
       },
-      q4_title: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
-      q5_title: "6. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
+      q4_title: "5. Based on the experiment, our conclusion(s) is/are:",
+      q5_title: "6. According to the data you collected, where do you owe the error of this myth?"
     },
 
 
 
 
+
+
+
+
     cc_myth1: {
-      back: "Tagasi",
-      title: "Kliimamuutused",
-      subtitle: "Juhitud uurimus, müüt 1",
-      myth: "Müüt nr 1: Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.",
-      hypothesis: "Püstitage selle kohta oma hüpotees:",
+      back: "Back",
+      title: "Climate change",
+      subtitle: "Guided inquiry; Myth 1",
+      myth: "“The extinction of species is a natural process. Mass extinctions of species have always occurred”.",
+      hypothesis: "Write down your testable hypothesis concerning Myth 1:",
       argument: {
-        txt_1: "Teile antakse müüdi nr. 1 põhiargument ja küsimus, millele peate vastama etteantud allikate abil.",
-        argument: "Müüdi 1 põhiargument: Liikide massiline väljasuremine on loomulik protsess."
+        txt_1: "You are given the basic argument of Myth 1 and the question you must answer using the given scientific sources.",
+        argument: "Argument of Myth 1: The mass extinction of species is a natural process."
       },
       question: {
-        question: "Uurimisküsimus: Kas liikide massiline väljasuremine on loomulik protsess?",
-        txt_1: "Uurige {link1} ja {link2} ning vastake järgnevatele küsimustele.",
-        link_1: "allikat 1.1",
-        link_2: "vaadake videot"
+        question: "Question: Is the mass extinction of species a natural process?",
+        txt_1: "Study {link1} and watch the video {link2}. Then, answer the following questions.",
+        link_1: "source 1.1",
+        link_2: "Climate Change: Why are thousands of species facing extinction? - BBC News."
       },
-      q_1: "1. Mida me mõtleme „massilise väljasuremise” all?",
-      q_2: "2. Kui palju massilist väljasuremist teie arvates toimub?",
-      q_3: "3. Millised olid massilise väljasuremise põhjused?",
-      q_4: "4. Millised olid massilise väljasuremise tagajärjed?",
-      q_5: "5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?",
+      q_1: "1. What do we mean by  „mass extinction”?",
+      q_2: "2. How many mass extinctions do you find happening?",
+      q_3: "3. What were the causes of the mass extinctions?",
+      q_4: "4. What were the consequences of the mass extinctions?",
+      q_5: "5. Why should we worry about mass extinctions now?",
       q_6: {
-        txt_1: "Uurige {link1} ning vastake järgmisele küsimusele:",
-        link_1: "allikat 1.2",
-        q_6: "6. Mis on pingviinide massilise hukkumise põhjus?"
+        txt_1: "Study {link1} and answer the following question.",
+        link_1: "source 1.2",
+        q_6: "6. What is the reason for the mass killing of penguins?"
       },
       q_7: {
-        txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.",
-        link_1: "tööriista",
-        q_7: "7. Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse."
+        txt_1: "Please use {link1} to assess the reliability of the sources used.",
+        link_1: "this tool",
+        q_7: "7. Write a summary of your findings in the following table."
       },
-      q_8: "8. Esitatud tõendite põhjal on meie järeldus(ed) müüdi “Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud”, paikapidavuse kohta järgmine (järgmised):",
-      q_9: "9. Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      q_8: "8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):",
+      q_9: "According to the data you collected, where do you owe the error of this myth?",
       sources: [
         {
-          name: "Allikas 1.1",
+          name: "Source 1.1",
           url: "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
         },
         {
@@ -101,7 +417,7 @@ export default {
           url: "https://www.youtube.com/watch?v=nho73BtDQtE"
         },
         {
-          name: "Allikas 1.2",
+          name: "Source 1.2",
           url: "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
         }
       ]
@@ -111,147 +427,143 @@ export default {
 
 
 
-
-
-
-
     cc_myth2: {
-      back: "Tagasi",
-      title: "Kliimamuutused",
-      subtitle: "Juhitud uurimus, müüt 2",
-      myth: "Müüt nr 2: Liigid suudavad kliimamuutustega kohaneda.",
-      hypothesis: "Püstitage selle kohta oma hüpotees:",
-      
-      
+      title: "Climate change",
+      subtitle: "Guided inquiry, Myth 2",
+      myth: "Myth 2: Organisms can adapt to climate change",
+      hypothesis: "Write down your testable hypothesis concerning Myth 2:",
+
       a1: {
         argument: {
-          txt_1: "Teile esitatakse müüdi nr. 2 põhiargumendid ja küsimused, millele peate vastama viidatud allikate abil.",
-          argument: "Argument 1: Liigid on ebasoodsate tingimustega korduvalt kohanenud nii, et nad suudavad uutes kliimatingimustes ellu jääda."
+          txt_1: "You are given some arguments of Myth 2 and the questions you must answer using the given scientific sources.",
+          argument: "Argument 1 of Myth 2: The species have adapted several times to adverse conditions, so they are able to survive in the new climatic conditions."
         },
         q1: {
-          title_1: "Uurimisküsimus 1: Kas kliimamuutus mõjutab liikide kohanemisvõimet?",
-          txt_1: "Vaadake animatsiooni {link1}  hoolikalt.",
-          label_1: "Millest see räägib? Mis selle muutuse põhjustab?",
-          label_2: "Millised on selle muudatuse tagajärjed?",
-          answer_1: "Korallriffide juhtum"
+          title_1: "Question: Does climate change affect species’ ability to adapt?",
+          txt_1: "Watch the animation {link1} carefully and answer the following questions.",
+          label_1: "What is it about? What is causing this change?",
+          label_2: "What are the consequences of this change?",
+          answer_1: "Coral reefs case"
         },
         q2: {
-          title_1: "Uurimisküsimus 2: Kas merevesi mõjutab korallide massi?",
-          txt_1: "Allikas: Eksperiment “Teravnevad ookeanid”",
-          list_1_title: "Vahendid ja materjalid:",
+          title_1: "Question: Does the presence of acid in seawater affect the mass of corals?",
+          txt_1: "Scientific Source: Conducting the experiment “Sharpening Oceans”",
+          list_1_title: "Means and Materials:",
           list_1: [
-            "Teokarbid (samas suuruses ja hästi puhastatud)",
-            "4,5%-line äädikhappe lahus (50g)", "2 plastkarpi koos kaanega",
-            "Merevesi 400g või soolvesi, mis simuleerib 35‰ Suure Korallrahu juures olevat merevett",
-            "Mõõtsilindrid",
-            "Metallsõel vms",
-            "Veekeetja",
-            "Kuum vesi",
-            "Kleebitavad etiketid"
+            "Snail shells of the same size, very well cleaned",
+            "White vinegar (50gr), Acidity: 4.5%",
+            "2 plastic containers with lids",
+            "Sea water 400g",
+            "Measuring scales",
+            "Volumetric containers",
+            "Strainer",
+            "Kettle",
+            "Hot water",
+            "Adhesive labels"
           ],
-          list_2_title: "Katse käik:",
+          list_2_title: "Experimental procedure:",
           list_2: [
-            "Kaalu teokarbid. Pane saadud massid kirja. Jaotage teokarbid kaheks osaks nii, et need oleksid sama massiga.",
-            "Pane kahte identsesse anumasse 200 g merevett. Lisa esimesse anumasse 50 grammi äädikat.",
-            "Aseta mõlemasse anumasse sama massiga kogus teokarpe.",
-            "Kata anumad ning hoia neid 40 minutit samades tingimustes.",
-            "Keeda teokarbid (kumbki osa eraldi) kuumas vees ja jäta 15 minutiks seisma.",
-            "Puhasta iga kest eraldi. Lase neil väga hästi kuivada.",
-            "Kaalu kumbki osa eraldi ja pane nende uued massid kirja."
+            "Weigh the corals we will use. We record the mass of the shells. We make two groups with shells and try to make the groups have the same mass.",
+            "In two identical containers put the same amount of sea water (200g). In the first container add vinegar.",
+            "Place the shells in each container.",
+            "Leave the containers closed for 40 minutes in the same conditions.",
+            "Divide the containers into a separate container each. Boil the shells with hot water and leave them for 15 minutes.",
+            "Clean each shell separately. Let them dry very well.",
+            "Weigh each group of shells and record the new masses."
           ],
-          data_table: { 
+          data_table: {
             header: [
               {
-                thead: "Kontrollmuutujad",
-                tsubhead: "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
+                thead: "Constants",
+                // tsubhead: "(need, mida üritatakse hoida katse jooksul  muutumatutena)"
               },
               {
-                thead: "Sõltumatu muutuja",
-                "tsubhead": "(see, mida muudetakse)"
+                thead: "Changed factor",
+                // tsubhead: "(see, mida muudetakse)"
               },
               {
-                thead: "Sõltuv muutuja",
-                tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
+                thead: "Measured factor",
+                // tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
               }
             ]
           },
-          table_2 : {
+          table_2: {
             header: [
-              {thead:" "},
-              {thead:"Teokarbid A"},
-              {thead:"Teokarbid B"}
+              { thead: " " },
+              { thead: "Team A" },
+              { thead: "Team B" }
             ],
             rows: [
-              ["Algne mass (g):", "", ""],
-              ["Lõplik mass (g):", "", ""],
-              ["Masside vahe (g):", "", ""]
+              ["Initial mass (g):", "", ""],
+              ["Final mass (g):", "", ""],
+              ["Mass change (g):", "", ""]
             ]
           },
-          table2_title: "Kogutud andmed",
-          hypothesis: "Hüpotees",
-          conclusions: "Järeldused:",
+          table2_title: "Data recording",
+          hypothesis: "Prediction",
+          conclusions: "Observations:",
           source_1: {
-            txt_1: "Uurige {link1} ja vastake küsimusele:",
-            link_1: "allikat 2.2",
-            label_1: "Miks on korallide pleekimine murettekitav?"
+            txt_1: "Study {link1} and answer the following question:",
+            link_1: "Source 2.2",
+            label_1: "Why is the recent bleaching in corals worrying?"
           },
           source_2: {
-            txt_1: "Uurige {link1} ja vastake küsimusele:",
-            link_1: "allikat 2.3",
-            label_1: "Millest allikas räägib? Kuidas on omavahel seotud kliimamuutused ning viiruste ja haiguste levimine?"
+            txt_1: "Study {link1} and answer the following question:",
+            link_1: "Source 2.3",
+            label_1: "What is it about? What is the relationship between climate change and the transmission of viruses and diseases?"
           },
           source_3: {
-            txt_1: "Vaadake animatsiooni: {link1}",
-            link_1: "Kliimamuutused: Jää sulamine ja loomad",
-            label_1: "Kuidas kliimamuutused mõjutavad jääkarude populatsioone?"
+            txt_1: "Watch the animation: {link1} and answer the following question:",
+            link_1: "Climate change: Ice melting and animals",
+            label_1: "How does climate change affect polar bear populations? Record inferentially the course of change."
           }
         }
       },
 
       a2: {
-        argument: "Argument 2: Liikide evolutsioon on kiirenenud, kuna liigid pidid muutuvate tingimustega kohanema.",
+        argument: "The argument 2 of Myth 2: The evolution of species arose from the need for organisms to survive and survive in changing conditions.",
         q1: {
-          question: "Uurimisküsimus: Kas kliimamuutus mõjutab liikide evolutsiooni?",
+          question: "Question: Does climate change affect species evolution?",
           source_1: {
-            txt_1: "Tutvuge {link1}",
-            link_1: "allikaga 2.1",
-            label_1: "Mida tähendab liikide evolutsioon?"
+            txt_1: "Study {link1} and answer the following questions.",
+            link_1: "Source 2.1",
+            label_1: "What do we mean by “species evolution”"
           },
-          label_2: "Kuidas kliimamuutused mõjutavad liikide evolutsiooni?"
+          label_2: "Why is climate change considered a concern for species evolution?"
         }
       },
 
 
       reliability: {
-        txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust.",
-        link_1: "tööriista",
-        label_1: "Kirjuta kokkuvõte uuritud materjalist alljärgnevasse tabelisse.",
+        txt_1: "Please use this {link1} abil to assess the reliability of the sources used.",
+        link_1: "tool",
+        label_1: "Write a summary of your findings in the following table.",
         url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link"
       },
-      
-      conclusions: "Eelpooltoodud tõenditele tuginedes on meie järeldused müüdi “Liigid suudavad kliimamuutustega kohaneda”, paikapidavuse kohta järgmised:",
 
-      flicc_label: "Tuginedes kogutud teadmistele, mis te arvate, millise teaduse eitamise taktika tõttu antud müüt on tekkinud?",
+      conclusions: "Based on the given evidence, our conclusion(s) concerning the myth  “Organisations can adapt to climate change”, is (are):",
+
+      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
 
       sources: [
         {
-          name: "Mere ökosüsteem – korallide juhtum",
+          name: "Fishing Planet",
           url: "https://youtu.be/saUTXISSlBI"
         },
         {
-          name: "Allikas 2.2",
+          name: "Source 2.2",
           url: "https://drive.google.com/file/d/1dsgBLIsNaDFpB7y2AMamJgC41GEDHpt3/view?usp=share_link"
         },
         {
-          name: "Allikas 2.3",
+          name: "Source 2.3",
           url: "https://drive.google.com/file/d/1iVTPAHaL8bbUWskgKFvJfrRLjoQsQCde/view?usp=share_link"
         },
         {
-          name: "Jää sulamine ja loomad",
+          name: "Ice melting and animals",
           url: "https://youtu.be/mEgYnOaiJnU"
         },
         {
-          name: "Allikas 2.1",
+          name: "Source 2.1",
           url: "https://drive.google.com/file/d/19OENqL4uwh8YKd5SvAGUN44FC9md8nh5/view"
         }
       ]
@@ -259,35 +571,31 @@ export default {
 
 
 
-
-
-
-
-    cc_myth3 : {
-      title: "Kliimamuutused",
-      subtitle: "Juhitud uurimus, müüt 3",
-      myth: "Müüt nr 3: Kliimamuutuste alane teadus ei ole usaldusväärne.",
-      hypothesis: "Püstitage selle kohta oma hüpotees.",
-      argument : {
-        txt_1: "Teile esitatakse müüdi 3 põhiargument ja uurimisküsimus, millele vastamiseks saate kasutada mitmeid allikaid.",
-        argument: "Müüdi 3 põhiargument: Vaatlusjaamadest kogutud andmed CO₂ koguse kohta ei ole usaldusväärsed, seega pole kliimamuutus reaalne fakt."
+    cc_myth3: {
+      title: "Climate change",
+      subtitle: "Guided inquiry, Myth 3",
+      myth: "Myth 3: “The science of climate change is not credible”.",
+      hypothesis: "Write down your testable hypothesis concerning Myth 3.",
+      argument: {
+        txt_1: "You are given an argument about Myth 3 and the question you have to answer using the following scientific sources.",
+        argument: "Argument of Myth 3: The collecting data from the observatory stations about the amount of the CO₂ are not reliable, so climate change is not a real fact."
       },
-      question: "Uurimisküsimus: Kas saame toetuda vaatlusjaamadest kogutud andmetele CO₂ koguse kohta?",
+      question: "Question: Can we rely on collecting data from the observatory stations about the amount of the CO₂?",
       source_1: {
-        txt_1: "Vaata videot {link1} ning loe alljärgnevat teksti hoolikalt.",
+        txt_1: "Watch the video {link1}. Then, read the following text carefully, study the map, and answer the question.",
         link_1: "Building a robust temperature record",
-        txt_2: "Globaalne kuu keskmine pinnatemperatuur (GMST) on rekonstrueeritud: 1. NASA GISTEMP, 2. CRUTEM (Ida-Inglismaa ülikooli kliimauuringute üksus), 3. National Climate Data NOAA (NCDC) kogutud andmete kombinatsioonist. Kliima rekonstrueerimise aluseks olevad andmed pärinevad maa-, õhu- ja merevaatlusallikatest."
+        txt_2: "The global average monthly surface temperature (GMST), is reconstructed from a combination of data collected by 1. NASA GISTEMP, 2. CRUTEM (University of East England Climate Research Unit), 3. National Climate Data NOAA (NCDC). The data on which climate reconstruction is based, emerged from sources of observation from land, air, and sea."
       },
       img_1: {
-        caption: "Joonis 1. NOAA poolt kogutud temperatuuriandmed."
+        caption: "Figure 1. The ways in which data is collected by the NOAA organisation."
       },
-      q_1: "Milliseid andmete kogumise meetodeid NOAA kasutab?",
-      q_2: "Mida te märkate andmete kogumise meetodite ning nende geograafilise asukoha kohta?",
-      q_3: "NOAA haldab vaatluskeskuste baase (Baseline Observatories). Kui palju selliseid jaamu kaardilt leiate?",
-      q_4: "Mida te märkate nende vaatluskeskuste asukohtade kohta? Miks te arvate, mis on põhjuseks, et need jaamad just nendes asukohtades paiknevad?",
+      q_1: "According to the legend of the map, what are the data collection methods used by NOAA?",
+      q_2: "What do you notice about the amount of data collection methods and their geographical location?",
+      q_3: "NOAA maintains Baseline Observatories. How many such stations do you find on the map?",
+      q_4: "What do you notice about the location of each observatory? Why do you think they were placed in these places?",
       noaa_stations: {
-        txt_1: "Vaata NOAA poolt hallatavat veebilehte {link1}.  Millised on need 4 NOAA vaatlusjaama?  Kus need paiknevad (pikkus- ja laiuskraad) ja millisel kõrgusel? (Allikad  {source31}, {source32}, {source33}, {source34})",
-        link_1: "Global Monitoring Laboratory",
+        txt_1: "Study the Webpage of {link1} and perform the task. What are the four NOAA observatories? Where are they located (longitude, latitude) and at what altitude? (Sources {source31}, {source32}, {source33}, {source34})",
+        link_1: "NOAA",
         url_1: "https://gml.noaa.gov/",
         source_31: {
           link: "3.1",
@@ -308,182 +616,177 @@ export default {
       },
       noaa1_table: {
         header: [
-          {thead:"Vaatlusjaam"},
-          {thead:"Pikkuskraad"},
-          {thead:"Laiuskraad"},
-          {thead:"Kõrgus"},
+          { thead: "Observatory" },
+          { thead: "Longitude" },
+          { thead: "Latitude" },
+          { thead: "Altitude" },
         ]
       },
-      q_5: "Mida märkate nende asukohtade juures?",
+      q_5: "What do you notice about their location?",
       img_2: {
-        txt_1: "Nende jaamade kaudu saame igal ajal teavet valitsevate ilmatingimuste kohta. {link1} Hawaii Mauna Loa jaama uusimaid salvestusi.",
-        link_1: "Siit leiate",
+        txt_1: "At any time through these stations, we can receive information about the prevailing conditions. {link1}, you can see the latest recordings from Mauna Loa Station in Hawaii.",
+        link_1: "Here",
         url_1: "https://gml.noaa.gov/obop/mlo/met.html",
-        caption:"Joonis 2. NOAA neljast vaatlusjaamast kogutud mõõtmiste (CO₂) tulemused aastatel 1975-2020.",
-        conclusion: "Milliseid järeldusi saab graafikute (N:  Joonis 2) põhjal teha?",
+        caption: "Figure 2. CO₂ measurements taken from 1975 to 2020 from the 4 main observation stations of NOAA.",
+        conclusion: "Study the following graph and answer the question.",
       },
-      conclusion: "Tuginedes kogutud tõenditele, millised on teie järeldused  müüdi “Kliimamuutuste alane teadus ei ole usaldusväärne”, paikapidavuse kohta?",
-      flicc_label: "Tuginedes kogutud infole, mis te arvate, milliste teaduse eitamise taktikate tõttu see müüt on tekkinud?",
+      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth ”The science of climate change is not credible”, is (are):",
+      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
       sources: [
         {
           name: "Video: Building a robust temperature record",
           url: "https://www.youtube.com/watch?v=YKQiyBkt4Vs&t=228s"
         },
         {
-          name: "Joonis 1",
+          name: "Figure 1",
           url: "https://evidence.onkel.ee/assets/c-change__myth3__img1.webp"
         },
         {
-          name: "NOAA veebileht",
+          name: "NOAA website",
           url: "https://gml.noaa.gov/"
         },
         {
-          name: "Joonis 2",
+          name: "Figure 2",
           url: "https://evidence.onkel.ee/assets/c-change__myth3__img2.webp"
         }
       ]
     },
-    
-    
-    
-    
-    
+
+
+
+
+
     cc_myth4: {
-      title: "Kliimamuutused",
-      subtitle: "Juhitud uurimus, müüt 4",
-      myth: "Müüt nr 4: Globaalne soojenemine on kasulik.",
-      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      title: "Climate change",
+      subtitle: "Guided inquiry, Myth 4",
+      myth: " Myth 4: “The temperature rise is for good”",
+      hypothesis: "Write down your testable hypothesis concerning Myth 4.",
       a1: {
         argument: {
-          txt_1: "Teile esitatakse müüdi 4 põhiargumendid ja küsimused, millele peate vastama viidatud allikate abil.",
-          argument: "Müüdi 4 argument 1: Temperatuuri tõustes väheneb külmast põhjustatud surmajuhtumite arv."
+          txt_1: "You are given the basic arguments of Myth 4 and the questions you must answer using the following scientific sources.",
+          argument: "Argument 1 of Myth 4: As the temperature rises, deaths from colds will decrease."
         },
-        question: "Uurimisküsimus: Kas temperatuuri tõus mõjutab surmajuhtumite arvu?",
+        question: "Question: Does the rise in temperature affect the number of deaths?",
         source_txt: "Otsi vastused küsimustele kasutades viidatud allikaid.",
         source_410: {
-          txt_1: "Loe WHO allikat {link1} ning vasta järgmistele küsimustele: ",
-          link_1: "Kliimamuutused ja tervis",
-          label_1: "“Kliimamuutusi peetakse suurimaks ohuks inimeste tervisele,” öeldakse raportis. Mida sa sellest väitest arvad? Põhjenda oma vastust."
+          txt_1: "Study the {link1} and answer the question.",
+          link_1: "publication of the World Health Organization",
+          label_1: "“Climate change is considered the greatest threat to human health”, the report said. What do you think of this view after reading the above scientific source?  Justify your answer."
         },
         source_411: {
-          txt_1: "Tutvu {link1} ning täida ülesanne.",
-          link_1: "allikaga 4.1",
-          label_1: "Too allikale toetudes näiteid kliimamuutuste mõjust inimeste tervisele."
+          txt_1: "Study the {link1} and perform the task.",
+          link_1: "Source 4.1",
+          label_1: "Write below examples about the effects of climate change on human health."
         },
         source_412: {
-          txt_1: "Uuri {link1} ja täida ülesanne.",
-          link_1: "allikat 4.2",
-          label_1: "Pane kirja oma tähelepanekud kliimamuutustega seotud surmajuhtumite kohta."
+          txt_1: "Study the {link1} and perform the task.",
+          link_1: "Source 4.2",
+          label_1: "Record your observations about deaths due to climate change."
         },
-        conclusion: "Kokkuvõtteks: Millise järelduse saab teha küsimuse “Kas temperatuuri tõus mõjutab surmajuhtumite arvu?”, kohta?"
+        conclusion: "After studying the above scientific sources (Publication of the WHO, Source 4.1 & Source 4.2), what is your answer to the Question: Does the rise in temperature affect the number of deaths? Referring to Argument 1 of Myth 4?"
       },
       a2: {
-        argument: "Müüdi 4 argument 2: Temperatuuri tõustes suureneb elamiseks sobiliku maa ja haritava maa pindala.",
-        question: "Uurimisküsimus: Kas temperatuuri tõus mõjutab elamumaa ja haritava maa pindala?",
-        txt_1: "Ülaltoodud küsimuse kontrollimiseks soovitatakse järgmisi tõestusmaterjalide  allikaid:",
+        argument: "Argument 2 of Myth 4: As the temperature rises, the residential areas and the cultivated land will increase.",
+        question: "Does the rise in temperature affect the amount of land used for housing or cultivation?",
+        txt_1: "In order to check the above question, study or apply the following scientific sources.",
         exp: {
-          title: "Eksperiment",
+          title: "Scientific Source: Conducting an experiment",
           list_1: {
-            title: "Vahendid ja materjalid:",
+            title: "Means and materials:",
             list: [
-              "Liiv või muld", "Vesi", "Suured pooleks lõigatud plastpudelid", "Plastiktopsid", "Jääkuubikud", "Läbipaistev kile (võid kasutada toidukile)", "Lamp", "Marker"
+              "Sand or soil", "Water", "Large plastic bottles cut in half", "Plastic cups", "Ice cubes", "Transparent film", "Light bulb", "Marker"
             ],
-            image_caption: "Joonis. Katse disain"
+            image_caption: "Figure: Experiment setup"
           },
           list_2: {
-            title: "Katse käik:",
+            title: "Experimental procedure:",
             list: [
-              "Aseta kahte suurde plastpudelisse mõlemasse võrdne kogus liiva või mulda.",
-              "Aseta aukudega plastiktopsid mõlema pooleks lõigatud plastpudeli liiva/mulda ja kinnitage need teiste plastiktopside külge (vt Joonis). Asetage sama kogus jääd mõlemasse plastiktopsi.",
-              "Tee plastiktopside alumisse ossa sooned/augud, et jää sulamisvesi saaks plastpudelisse voolata.",
-              "Vala mõlemasse  plastpudelisse võrdne kogus vett.", 
-              "Kata üks plastpudelitest toidukilega.",
-              "Lülita lamp sisse ja tehke vaatlused 20 minuti möödumisel."
+              "Place an equal amount of sand or soil in the two large plastic bottles.", "Place a plastic cup with the spout in the soil of each plastic bottle and secure the other plastic cup over the 1st glass with the spout facing up. Place the same number of ice in every 2nd plastic cup.", "Make grooves between the bottom two parts of the plastic cups so that water can flow from the ice into each plastic bottle.", "Put an equal amount of water in each plastic bottle.", "Cover each plastic bottle with cling film.", "Turn on the light and make observations after 20 minutes."
             ],
           },
           variable_table: {
-            title: "Muutujad",
-            subtitle: "Kirjuta vastused tabelisse.",
+            title: "Valid experiment",
+            subtitle: "Fill the table.",
             table: {
               header: [
-                {thead:"Kontrollmuutujad", tsubhead:"(need, mida üritatakse hoida katse jooksul muutumatutena)"},
-                {thead:"Sõltumatu muutuja", tsubhead:"(see, mida muudetakse)"},
-                {thead:"Sõltuv muutuja", tsubhead:"(see mida sekkumise tulemusena mõõdetakse)"},
+                { thead: "Constants" },
+                { thead: "Changed factor" },
+                { thead: "Measured factor" }
               ]
             }
           },
-          hypothesis: "Hüpotees(id):",
+          hypothesis: "Prediction",
           results_table: {
-            title: "Tulemused",
-            subtitle: "Kirjuta vastused tabelisse.",
+            title: "Results",
+            subtitle: "Fill the table.",
             table: {
               header: [
-                {thead:""},
-                {thead:"Plastpudel A"},
-                {thead:"Plastpudel B"},
+                { thead: "" },
+                { thead: "Bottle A" },
+                { thead: "Bottle B" },
               ],
               rows: [
-                ["Esialgne veetase (cm)", "", ""],
-                ["Lõplik veetase (cm)", "", ""],
-                ["Veetaseme muutus (cm)", "", ""],
+                ["Initial water level (cm)", "", ""],
+                ["Final water level (cm)", "", ""],
+                ["Water level change (cm)", "", ""],
               ]
             }
           },
-          conclusion: "Järeldused",
-          islands: "Oletame, et need mõlemad plastpudelid on kaks saart. Kummal saarel sa sooviksid elada ja miks?"
+          conclusion: "Observations",
+          islands: "Let us suppose that the two bottles represent two islands. Which island would you like to live on and why?"
         },
         source_421: {
-          txt_1: "NB! Järgnevast artiklist {link1}, võid leida rohkem infot ohus olevate saareriikide kohta.",
-          link_1: "Riigid, mis on kliimamuutuste tõttu kadumisohus",
-          txt_2: "Uuri järgnevat allikat: {link2} ning täida ülesanne.",
-          link_2: "https://climate.nasa.gov/vital-signs/sea-level/",
-          label_1: "Märgi üles tegurid, mis on seotud merepinna tõusuga ja milline on sellest tulenev elamiseks sobiliku või maaharimiseks saadaoleva maa ressurss."
+          txt_1: "NB! At the following link {link1}, you can explore islands that are in danger of extinction due to climate change.",
+          link_1: "link",
+          txt_2: "Study the source of NASA: {link2} and perform the task.",
+          link_2: "Vital Signs: Sea Level",
+          label_1: "Record the factors associated with rising sea levels and, consequently, decreasing land available for housing or cultivation."
         },
         graph: {
-          txt_1: "Võrdle järgmisi graafikuid (et leida rohkem infot, uuri toodud veebiallikaid).",
+          txt_1: "Compare the graphs below (you can go to the links below the graphs for more accurate data retrieval).",
           img_1: {
             src: "https://evidence.onkel.ee/assets/c-change__myth4__globaltemp.webp",
             credits: "https://climate.nasa.gov/vital-signs/global-temperature/",
-            caption: "Globaalne temperatuur 1880−..."
+            caption: "Global temperature 1880−..."
           },
           img_2: {
             src: "https://evidence.onkel.ee/assets/c-change__myth4__sealevel.webp",
             credits: "https://climate.nasa.gov/vital-signs/sea-level/",
-            caption: "Merevee tase 1900−2018"
+            caption: "Sealevel Change 1900−2018"
           },
           sealevel_table: {
-            subtitle: "Täida tabel",
-            label_1: "Kuidas on omavahel seotud temperatuur ja merevee tase?",
+            subtitle: "Fill the table.",
+            label_1: "What is the relationship between temperature and sea level?",
             table: {
               header: [
-                {thead:"Aasta"},
-                {thead:"1900"},
-                {thead:"1920"},
-                {thead:"1940"},
-                {thead:"1980"},
-                {thead:"2000"},
-                {thead:"2020"}
+                { thead: "Year" },
+                { thead: "1900" },
+                { thead: "1920" },
+                { thead: "1940" },
+                { thead: "1980" },
+                { thead: "2000" },
+                { thead: "2020" }
               ],
               rows: [
-                ["Temperatuur", "", "", "", "", "", ""],
-                ["Merevee tase", "", "", "", "", "", ""]
+                ["Temperature", "", "", "", "", "", ""],
+                ["Sea level", "", "", "", "", "", ""]
               ]
             }
           }
         },
-        conclusion: "Millise  järelduse saab teha  küsimuse “Kas temperatuuri tõus mõjutab elamiseks või harimiseks kasutatava maa pindala?”, kohta?"
+        conclusion: "After studying the above scientific sources (Experimental procedure, Link & Graphs), what is your answer to the Question: “Does the temperature rise affect the amount of land used for housing or cultivation?” Referring to Argument 2 of Myth 4?"
       },
       a3: {
-        argument: "Müüdi 4 argument 3: Temperatuuri tõustes kasvavad erinevad põllukultuurid ja see on põllumajanduse seisukohalt positiivne.",
-        question: "Uurimisküsimus: Kas temperatuuri tõus mõjutab põllukultuuride hulka?",
+        argument: "Argument 3 of Myth 4: As the temperature rises, crops will increase, and agriculture will be favoured.",
+        question: "Question: Does the increase in temperature affect the number of crops?",
         source_431: {
-          txt_1: "Tutvu Euroopa Keskkonnaagentuuri allikaga {link1}",
-          label_1: "Millised muutused on toimunud või toimuvad põhja- ning lõunapoolsetes riikides?",
+          txt_1: "Study the {link1} published by the European Environment Agency and perform the tasks.",
+          label_1: "What changes exist or occur in the northern and southern countries?",
           table: {
-            subtitle: "Tee märkmeid allikas kasutatud info kohta. ",
+            subtitle: "Record the information given in the source.",
             header: [
-              {thead:"Põhjapoolsed riigid"},
-              {thead:"Lõunapoolsed riigid"}
+              { thead: "Northern Countries" },
+              { thead: "Southern Countries" }
             ],
             rows: [
               ["", ""]
@@ -491,80 +794,80 @@ export default {
           }
         },
         source_432: {
-          txt_1: "Tutvu {link1}",
-          link_1: "järgmise diagrammiga",
-          label_1: "Millist infot on diagrammilt võimalik välja lugeda?",
+          txt_1: "Study the diagram in {link1} and perform the task.",
+          link_1: "Source 4.4",
+          label_1: "Record the information you receive from the diagram.",
         },
         source_433: {
-          txt_1: "Tutvu {link1}",
-          link_1: "BBC artikliga",
-          label_1: "Millise probleemi see tõstatab? Miks on see oluline?",
+          txt_1: "Study the {link1} and answer the questions.",
+          link_1: "BBC article",
+          label_1: "Which issue does it raise? Why do you think we care so much about this?",
         },
-        conclusion: "Millise järelduse saab teha küsimuse “Kas temperatuuri tõus mõjutab põllukultuuride arvu?”, kohta?"
+        conclusion: "After studying the above scientific sources (Source 4.3, Source 4.4, BBC article), what is your answer to  the question: Does the temperature increase affect the number of crops?, Referring to  Argument 3 of Myth 4?"
       },
       a4: {
-        argument: "Müüdi 4 argument 4: Kui temperatuur tõuseb, mõjutab see mõningaid liike (nt putukaid).",
-        question: "Uurimisküsimus: Kas kliimamuutus mõjutab liikide populatsioone?",
+        argument: "Argument 4 of Myth 4: As the temperature rises, some species (e.g. insects) will be affected.",
+        question: "Question: Does climate change affect the population of insects?",
         source_441: {
-          txt_1: "Uuri uuesti juba eelnevalt viidatud {link1} ning järgnevat {link2} ning vasta küsimusele.",
-          link_1: "allikat 4.3",
-          link_2: "animatsiooni",
+          txt_1: "Study again {link1} , watch the video {link2} and answer the question posed above.",
+          link_1: "Source 4.3",
+          link_2: "Impact of climate change on agricultural insect pests",
           url_2: "https://www.youtube.com/watch?v=XBxuuYRDc_w",
-          label_1: "Kas kliimamuutused mõjutavad putukate populatsioone?",
+          label_1: "Does climate change affect the population of insects?",
         },
         source_442: {
-          txt_1: "Tutvu {link1}.",
-          link_1: "allikaga 4.5",
-          label_1: "Millist teemat see allikas käsitleb? Pange märkmed kirja.",
-          table_label: "Otsige muid sarnaseid näiteid putukatest või umbrohtudest, mis mõjutavad või on hakanud mõjutama põllukultuure.",
+          txt_1: "Study the {link1} and answer the question.",
+          link_1: "Source 4.5",
+          label_1: "What subject is it referring to? Record the information given.",
+          table_label: "ENGLISH TRANSLATION IS MISSING ----------------------------------------- Otsige muid sarnaseid näiteid putukatest või umbrohtudest, mis mõjutavad või on hakanud mõjutama põllukultuure.",
           table: {
             header: [
-              {thead:"Allikas"},
-              {thead:"Näide"}
+              { thead: "Allikas" },
+              { thead: "Näide" }
             ],
             rows: [
-              ["",""],
-              ["",""],
-              ["",""]
+              ["", ""],
+              ["", ""],
+              ["", ""]
             ]
           }
         },
-        conclusion: "Millise järelduse saab teha küsimuse “Kas kliimamuutus mõjutab liikide populatsioone?”, kohta?"
+        conclusion: "ENGLISH TRANSLATION IS MISSING -----------------------------------------  Millise järelduse saab teha küsimuse “Kas kliimamuutus mõjutab liikide populatsioone?”, kohta?"
       },
       a5: {
-        argument: "Müüdi 4 argument 5:  Soojem temperatuur aitab vaeseid. ",
-        question: "Uurimisküsimus:  Kas temperatuuri tõus mõjutab vaeste rahalist olukorda?",
+        argument: "Argument 5 of Myth 4: Raising temperature helps the poor.",
+        question: "Question: Does the rise in temperature affect the financial situation of the poor?",
         source_451: {
-          txt_1: "Loe UNHCR (United Nations High Commissioner for Refugees) artiklit {link1} ning vasta järgnevale küsimusele.",
-          link_1: "Climate change and disaster displacement",
-          label_1: "Kes on kliimapagulane?",
-          label_2: "Nimetage põhjuseid, miks inimesed on hakanud kliimapagulasteks."
+          txt_1: "Study the {link1} to answer the following questions.",
+          link_1: "web page of UNHCR",
+          label_1: "What is a “Climate Refugee”?",
+          label_2: "List some of the reasons why people are becoming “climate refugees”."
         },
-        conclusion: "Kokkuvõtteks: Millise järelduse saab teha küsimuse “Mis sa arvad, kas temperatuuri tõus aitab vaeseid?”, kohta?",
+        conclusion: "After studying the above scientific sources (Web Page of UNHCR), what is your answer to the question: Does the temperature rise affect the financial situation of the poor?, referring to Argument 5 of Myth 4?",
         extra: {
-          txt_1: "Tutvu järgmiste allikatega, et vastata  küsimustele.",
-          q_1: "Mis on kliimaõiglus?",
-          q_2: "Mis põhjustab inimestes suurt muret?",
-          q_3: "Kas sa arvate, kas kliimamuutused on ühtlasi sotsiaalne probleem?"
+          txt_1: "Study the following websites and answer the questions.",
+          q_1: "What is Climate Justice",
+          q_2: "Why is it an issue that concerns the citizens of every country?",
+          q_3: "Do you think that climate change is a social issue?"
         }
       },
-      conclusions: "Tõenditele tuginedes on meie järeldused müüdi “Globaalne soojenemine on kasulik”, paikapidavusele järgmised:",
-      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      conclusions: "Based on the given evidence, our conclusion(s) concerning the myth “The temperature rise is for good”, is (are):",
+      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
       sources: [
         {
-          name: "Kliimamuutused ja tervis",
+          name: "Climate Change and Health",
           url: "https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health"
         },
         {
-          name: "Allikas 4.1",
+          name: "Source 4.1",
           url: "https://drive.google.com/file/d/1M7JY4bMJNEI95JIOWRnwXgmuk77_L2J2/view?usp=sharing"
         },
         {
-          name: "Allikas 4.2",
+          name: "Source 4.2",
           url: "https://drive.google.com/file/d/1vM4uPyU3_SKXAhQHqAR_GXoRnhAR9aF2/view?usp=sharing"
         },
         {
-          name: "Riigid, mis on kliimamuutuste tõttu kadumisohus",
+          name: "Islands that are in danger of extinction due to climate change",
           url: "https://www.activesustainability.com/climate-change/countries-risk-disappearing-climate-change/"
         },
         {
@@ -577,7 +880,7 @@ export default {
           url: "https://drive.google.com/file/d/1xK65Z9PpcVY37UE5lKvuavIQwjDwvvRR/view?usp=sharing"
         },
         {
-          name: "Allikas 4.4",
+          name: "Source 4.4",
           url: "https://drive.google.com/file/d/1b-_nvENTZYeVGy77uZoYCc38d8UQ4XSh/view?usp=sharing"
         },
         {
@@ -595,123 +898,100 @@ export default {
           name: "Climate change and disaster displacement",
           url: "https://www.unhcr.org/climate-change-and-disasters.html"
         }
-      ] 
+      ]
     },
 
 
 
 
+
+
     cc_myth5: {
-      title: "Kliimamuutused",
-      subtitle: "Juhitud uurimus, müüt 5",
-      myth: "Müüt nr 5: Seos CO₂ ja temperatuuri tõusu vahel puudub.",
-      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      title: "Climate change",
+      subtitle: "Guided inquiry, Myth 5",
+      myth: "Myth 5: “There is no correlation between CO₂ and temperature”.",
+      hypothesis: "Write down your testable hypothesis concerning Myth 5.",
       argument: {
-        txt_1: "Teile esitatakse müüdi 5 põhiargument ja küsimus, millele hakkate vastama viidatud allikate abil.",
-        argument: "Müüdi 5 põhiargument: Arvamus, et 20. sajandil täheldatud globaalse soojenemise põhjuseks on peamiselt CO₂ heitkogused, on eksitav."
+        txt_1: "You are given the basic argument of Myth 5 and the question you must answer using the following scientific sources.",
+        argument: "The argument of Myth 5: The view that CO₂ emissions are mainly responsible for the observed global warming in the 20th century is misleading."
       },
-      question: "Uurimisküsimus: Kas CO₂ heitkogused mõjutavad globaalset soojenemist?",
+      question: "Question: Do CO₂ emissions affect global warming?",
       source_1: {
-        txt_1: "Uuri järgmist allikat: {link1}",
-        txt_2: "Vaata videot ja tee märkmeid."
+        txt_1: "Study the following source: {link1}",
+        txt_2: "Record your comments."
       },
       exp_1: {
-        title: "Eksperiment",
-        question: "Uurimisküsimus: Kas CO₂ tõus mõjutab Maa temperatuuri?",
-        formula: "NB! Hape + karbonaat → happejääk + H₂O + CO₂",
+        title: "Scientific source: Conducting an experiment",
+        question: "Follow the guidelines of the experimental procedure to answer the question: Does rising CO₂ affect the Earth's temperature?",
+        formula: "ENGLISH MISSING ------------------------   NB! Acid + Carbonate → happejääk + H₂O + CO₂",
         list_1: {
-          title: "Vahendid ja materjalid:",
+          title: "Tools and materials:",
           list: [
-            "2 lampi",
-            "2 elektrilist termomeetrit",
-            "2 korgiga klaaspudelit",
-            "2 paberrulli",
-            "Söögisooda",
-            "Äädikas",
-            "Lehter",
-            "Mõõtsilinder",
-            "Plastikanum",
-            "Lusikas",
-            "Käärid",
-            "Mõõdulint"
+            "Two bulbs", "Two electric thermometers", "Two glass bottles with caps", "Two paper rolls", "Baking soda", "Vinegar", "Funnel", "Volumetric cylinder", "Plastic container", "Spoon", "Pair of scissors", "Tape"
           ]
         },
         list_2: {
-          title: "Katse käik:",
+          title: "Experimental procedure:",
           list: [
-            "Aseta termomeetri andur pabersilindri sisemusse.",
-            "Pane kummassegi klaaspudelisse 3 supilusikatäit söögisoodat.",
-            "Mõõda plastikust mahutistesse 50 ml äädikat.",
-            "Torka paberisilinder koos termomeetriga mõlemasse klaasanumasse.",
-            "Vala lehtri abil anumasse äädikas ja sulge kaas. Hetkel paneme kaane kinni 2. anumal.",
-            "Asetage mõlema konteineri kõrvale lambipirn ja jätke see 30 minutiks seisma. Selle aja jooksul jälgime igal konkreetsel juhul temperatuuri muutust ja salvestame oma andmed."
+            "Place the thermometer cable into the paper cylinder.", "Put three tablespoons of baking soda in the two glass bottles.", "In a volumetric cylinder, measure 50 mL of vinegar.", "Stick the paper cylinder with its thermometer in each glass bottle.", "In a container, pour the vinegar with the help of the funnel and close the lid. At the moment, we close the lid on the 2nd container.", "Leave a light bulb next to each container for 30 minutes. During this time, we monitor the change in temperature in each case and record our data."
           ]
         },
         table_1: {
-          label: "Kirjuta oma vastused tabelisse:",
+          label: "Fill the table",
           table: {
             header: [
-              {
-                thead: "Kontrollmuutujad",
-                tsubhead: "(need, mida üritatakse hoida katse jooksul muutumatutena)"
-              },
-              {
-                thead: "Sõltumatu muutuja",
-                tsubhead: "(see, mida muudetakse)"
-              },
-              {
-                thead: "Sõltuv muutuja",
-                tsubhead: "(see mida sekkumise tulemusena mõõdetakse)"
-              }
+              { thead: "Constants" },
+              { thead: "Changed factor" },
+              { thead: "Measured factor" }
             ]
-          } 
+          }
         },
-        hypothesis: "Hüpotees:",
+        hypothesis: "Prediction:",
         table_2: {
-          title: "Kogutud temperatuurinäidud",
-          txt_1: "Kirjuta vastused tabelisse:",
+          title: "Record temperatures",
+          txt_1: "Fill the table.",
           header: [
-            {thead: "Aeg, min"},
-            {thead: "0"},
-            {thead: "2"},
-            {thead: "4"},
-            {thead: "6"},
-            {thead: "8"},
-            {thead: "10"},
-            {thead: "12"},
-            {thead: "14"},
-            {thead: "16"},
-            {thead: "18"}
+            { thead: "Time, min" },
+            { thead: "0" },
+            { thead: "2" },
+            { thead: "4" },
+            { thead: "6" },
+            { thead: "8" },
+            { thead: "10" },
+            { thead: "12" },
+            { thead: "14" },
+            { thead: "16" },
+            { thead: "18" }
           ],
           rows: [
-            ["Mahuti A Temperatuur °C", "", "", "", "", "", "", "", "", "", ""],
-            ["Mahuti B Temperatuur °C", "", "", "", "", "", "", "", "", "", ""]
+            ["Container A Temperature °C", "", "", "", "", "", "", "", "", "", ""],
+            ["Container B Temperature °C", "", "", "", "", "", "", "", "", "", ""]
           ]
         },
         table_3: {
-          title: "Kogutud andmed",
-          txt_1: "Kirjuta vastused tabelisse:",
+          title: "Data recording",
+          txt_1: "Fill the table.",
           header: [
-            {thead: " "},
-            {thead: "Mahuti A"},
-            {thead: "Mahuti B"}
+            { thead: " " },
+            { thead: "Container A" },
+            { thead: "Container B" }
           ],
           rows: [
-            ["Algtemperatuur °C", "", ""],
-            ["Lõpptemperatuur °C", "", ""],
-            ["Temperatuuride vahe °C", "", ""]
+            ["Initial Temperature °C", "", ""],
+            ["Final Temperature °C", "", ""],
+            ["Temperature Change °C", "", ""]
           ]
         },
-        collected_data: "Vaatlusandmed:"
+        collected_data: "Observations:"
 
       },
-      reliability: {
-        txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte allpool olevasse tabelisse.",
-        link_1: "tööriista",
-        url_1: ""
-      },
-      conclusion: "Tuginedes kogutud tõenditele, millised on teie järeldused müüdi paikapidavuse kohta:",
-      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      // reliability: {
+      //   txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte allpool olevasse tabelisse.",
+      //   link_1: "tööriista",
+      //   url_1: ""
+      // },
+      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth “There is no correlation between CO₂ and temperature” is (are):",
+      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
       sources: [
         {
           name: "How Carbon Affects Nearly Everything on Earth – Including Our Future",
@@ -722,84 +1002,85 @@ export default {
 
 
 
+
+
     cc_myth6: {
-      title: "Kliimamuutused",
-      subtitle: "Juhitud uurimus, müüt 6",
-      myth: "Müüt nr 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.",
-      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      title: "Climate change",
+      subtitle: "Guided inquiry, Myth 6",
+      myth: "Myth 6: “Climate change actions will make people poorer”.",
+      hypothesis: "Write down your testable hypothesis concerning Myth 6.",
       argument: {
-        txt_1: "Teile esitatakse müüdi 6 põhiargument ja küsimus, millele hakkate vastama viidatud allikate abil.",
-        argument: "Müüdi 6 põhiargument : Fossiilkütuste kasutamise piiramine takistab majanduskasvu ja tõstab elukallidust, kahjustades vaesemaid."
+        txt_1: "You are given the basic argument of Myth 6 and the question you must answer using the following scientific sources.",
+        argument: "The argument of Myth 6: Limiting the use of fossil fuels will hinder growth and increase the cost of living, harming the poorest."
       },
-      question: "Uurimisküsimus: Kas fossiilkütuste kasutamise piiramine mõjutab majanduskasvu ja elukallidust, kahjustades vaesemaid?",
-      source_txt: "Ülaltoodud uurimisküsimuse vastuse kontrollimiseks soovitatakse järgmisi allikaid:",
+      question: "Question: Will limiting the use of fossil fuels affect growth and the cost of living, harming the poorest?",
+      source_txt: "NOT TRANSLATED ---------------------------------------- Ülaltoodud uurimisküsimuse vastuse kontrollimiseks soovitatakse järgmisi allikaid:",
       source_61: {
-        txt_1: "Tutvu {link1}",
-        link_1: "allikaga 6.1",
-        label_1: "Pane kirja taastuvate energiaallikate kasutamisest saadav tulu."
+        txt_1: "Study  {link1} and perform the task.",
+        link_1: "Source 6.1",
+        label_1: "Record the benefits that will result from using renewable sources of electricity."
       },
       source_62: {
-        txt_1: "Tutvu {link1}. Uuri tabelit, mis pärineb {i1}, mis käsitleb energiaallikate muutmise sotsiaalmajanduslikke mõjusid.",
-        link_1: "allikaga 6.2",
+        txt_1: "Study {link1} and perform the task. Study the table from the {i1}, which concerns the socio-economic effects of the change of energy sources.",
+        link_1: "Source 6.2",
         i_1: "World Economic Situation and Prospects 2020",
-        label_1: "Millised võiksid olla erinevate energiaallikate kasutamise eelseisvad mõjud?"
+        label_1: "Identify the impending effects of using different energy sources."
       },
       source_63: {
-        txt_1: "Uuri {link1}",
-        link_1: "allikat 6.3",
-        label_1: "Milliseid töökohti võib tekitada taastuvate energiallikate kasutamine?"
+        txt_1: "Study {link1} and perform the task.",
+        link_1: "Source 6.3",
+        label_1: "Record the information about the jobs that will result from exploiting renewable energy sources."
       },
-      conclusion: "Tuginedes kogutud tõenditele, millised on sinu  järeldused müüdi “Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks”, paikapidavuse kohta? ",
-      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth “Climate change actions will make people poorer” is(are):",
+      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
       sources: [
         {
-          name: "Allikas 6.1",
+          name: "Source 6.1",
           url: "https://drive.google.com/file/d/1lLGM0OZxy3Sm0BvPeHlB7brOrNhZrBRA/view?usp=sharing"
         },
         {
-          name: "Allikas 6.2",
+          name: "Source 6.2",
           url: "https://drive.google.com/file/d/1j-al4leaUi28OLKPq9Fj6So8XojxhOjn/view?usp=sharing"
         },
         {
-          name: "Allikas 6.3",
+          name: "Source 6.3",
           url: "https://drive.google.com/file/d/1glVgyNAJeN_TyRwjAEAbCYQEHRw3Jwiq/view?usp=sharing"
         }
       ]
     },
 
-
     cc_myth7: {
-      title: "Kliimamuutused",
-      subtitle: "Juhitud uurimus, müüt 7",
-      myth: "Müüt nr 7: Maa kliima on alati muutunud ning see jätkab muutumist.",
-      hypothesis: "Püstitage selle kohta oma hüpotees.",
+      title: "Climate change",
+      subtitle: "Guided inquiry, Myth 7",
+      myth: "Myth 7: “The earth's climate has always changed, and now the same thing is happening”.",
+      hypothesis: "Write down your testable hypothesis concerning Myth 7.",
       argument: {
-        txt_1: "Teile esitatakse müüdi 7 põhiargument ja küsimus, millele hakkate vastama viidatud allikate abil.",
-        argument: "Müüdi 7 põhiargument: Maa kliima on alati muutunud."
+        txt_1: "You are given the basic argument of Myth 7 and the question you have to answer using the following scientific sources.",
+        argument: "The argument of Myth 7: The earth's climate was always changing."
       },
-      question: "Uurimisküsimus: Kas temperatuurid on alati sama kiirusega tõusnud?",
-      source_txt: "Ülaltoodud uurimisküsimuse vastuse kontrollimiseks on soovitav kasutada järgmisi allikaid:",
+      question: "Question: Did the temperature always rise at the same rate?",
+      source_txt: "NOT TRANSLATED ------------------------------------- Ülaltoodud uurimisküsimuse vastuse kontrollimiseks on soovitav kasutada järgmisi allikaid:",
       source_71: {
-        txt_1: "Vaata videot {link1}",
-        link_1: "“The greenhouse effect and climate change history”",
-        label_1: "Millisele teemale see viitab? "
+        txt_1: "Watch the Intro video: {link1} and answer the question.",
+        link_1: "The greenhouse effect and climate change history",
+        label_1: "What subject is it referring to?"
       },
       source_72: {
-        txt_1: "Tutvu järgmise {link1}.",
-        link_1: "graafikuga",
-        label_1: "Vaata erinevate aastate temperatuure, mida märkad?"
+        txt_1: "Study the following {link1} and answer the question.",
+        link_1: "graph",
+        label_1: "Monitor the temperatures for each year. What do you notice?"
       },
       source_73: {
-        txt_1: "Tutvu {link1}.",
-        link_1: "allikaga",
-        label_1: "Mida märkad temperatuuri tõusuga seoses?"
+        txt_1: "Study  {link1} and perform the task.",
+        link_1: "Source 7.1",
+        label_1: "Record information we receive regarding temperature rise."
       },
       table_years: {
-        label_1: "Võrdle temperatuuride muutusi. Kui suur on olnud temperatuuride muutus iga 20 aasta järel?",
+        label_1: "Compare the change in temperature every twenty years. How much temperature rise did we have every twenty years?",
         table: {
           header: [
-            {thead: "Ajavahemik"},
-            {thead: "Temperatuuri muutus"}
+            { thead: "Period" },
+            { thead: "Temperature Change" }
           ],
           rows: [
             ["1880-1900", ""],
@@ -812,9 +1093,9 @@ export default {
           ]
         },
       },
-      years_max: "Millal leidis aset suurim temperatuuri tõus?",
-      conclusion: "Tuginedes kogutud tõenditele, millised on sinu järeldused müüdi “Maa kliima on alati muutunud ning see jätkab muutumist”, paikapidavuse kohta:",
-      flicc_label: "Tuginedes kogutud andmetele, mis te arvate, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      years_max: "When did we have the biggest temperature rise?",
+      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth “The earth's climate has always changed, and now the same thing is happening”, is/are:",
+      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
       sources: [
         {
           name: "The greenhouse effect and climate change history",
@@ -825,7 +1106,7 @@ export default {
           url: "https://climate.nasa.gov/vital-signs/global-temperature/"
         },
         {
-          name: "Allikas 7.1",
+          name: "Source 7.1",
           url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]

@@ -103,7 +103,7 @@
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth1', blank:false}
+                        {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth1', blank:false}
                     ]" />
                 </UiCardInfo>
 
@@ -118,7 +118,7 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth2', blank:false}
+                        {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth2', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -139,7 +139,7 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth3', blank:false}
+                        {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth3', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -160,7 +160,7 @@
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Avatud uurimus 1', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth4', blank:false}
+                        {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth4', blank:false}
                     ]" />
                 </UiCardInfo>
                 
@@ -180,7 +180,7 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth5', blank:false}
+                        {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth5', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -198,7 +198,7 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth6', blank:false}
+                        {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth6', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -221,7 +221,7 @@
                     </p>
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth7', blank:false}
+                        {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth7', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>

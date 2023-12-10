@@ -4,9 +4,10 @@ export default {
     add_row: "Lägg till rad",
     
     reliability_table : {
-      txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte tabelisse.",
-      link_1: "tööriista",
-      url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",  
+      txt_1: "Använd detta {link1} för att söka information och bedöma dess tillförlitlighet",
+      link_1: "verktyg",
+      url_1: "../../tools/reliability-assessment",
+      label_1: "Tillförlitlighetskontroll",
       cols: {
           col_1:"Bevis / huvudslutsatser / sammanfattning av den information som är relevant för hypotesen",
           col_2:"Typ och källa till bevis",

@@ -5,12 +5,6 @@
     const { locale, t, tm, rt } = useI18n({
         useScope: 'global'
     });
-    // const router = useRouter();
-
-    // const goBack = () => {
-    //     router.back();
-    // }
-
 </script>
 
 
@@ -26,13 +20,6 @@
         <section class="e-article print:not-prose" :lang="locale" style="hyphens:auto;">
             
             <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
-
-
-            <!-- <Button @click="goBack()" 
-                class="btn btn-outline btn-neutral btn-sm leading-none bg-slate-50"
-                style="position:fixed; top:9rem; left:2rem; z-index:1000;">
-                    <Icon name="material-symbols:arrow-back-rounded" /><span>{{t('ui.back')}}</span>
-            </Button> -->
 
 
             <h1 class="mb-0">{{ t('inquiry.cc_open.title') }}</h1>
@@ -71,15 +58,9 @@
             v-model="studentClimateOpen.q3"></textarea>
             <hr />
 
-
-
-            
-
             <p>
-                <b>{{ t('inquiry.cc_open.reliability.label_1') }}</b>
+                <b>4. {{ t('inquiry.reliability_table.label_1') }}</b>
             </p>
-
-
             <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="mb-0">
                 <template #link1>
                     <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.reliability_table.link_1') }}</a>
@@ -87,16 +68,15 @@
             </i18n-t>
 
 
-            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);">
-                <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" :addRow="true" currentSources="inquiry.cc_open.sources" key="ccOpenrlblty" />
+            <div class="e-card">
+                <ToolsReliabilityTable :storeToUpdate="studentClimateOpen" :addRow="true" key="ccOpenrlblty" />
             </div>
-            
             <hr />
             
 
 
             <label for="q4" class="block mb-2">
-                <b>4. Kogutud tõenditest lähtudes on meie järeldused järgmised:</b>
+                <b>{{ t('inquiry.cc_open.q4_title') }}</b>
             </label>
             <textarea id="q4" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="10"
             v-model="studentClimateOpen.q4"></textarea>
@@ -104,7 +84,7 @@
 
 
             <p>
-                <b>5. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?</b>
+                <b>{{ t('inquiry.cc_open.q5_title') }}</b>
             </p>
 
             <div class="e-card w-[90vw]" style="transform:translateX(-5vw)">

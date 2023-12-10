@@ -128,10 +128,10 @@
             
             <hr />
 
-            <i18n-t tag="p" keypath="inquiry.cc_myth1.q_7.txt_1" scope="global">
+            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global">
                 <template #link1>
-                    <a href="https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link" target="_blank" rel="noreferrer noopener">
-                        {{ t('inquiry.cc_myth1.q_7.link_1') }}
+                    <a href="../../tools/reliability-assessment" target="_blank" rel="noreferrer noopener">
+                        {{ t('inquiry.reliability_table.link_1') }}
                     </a>
                 </template>
             </i18n-t>

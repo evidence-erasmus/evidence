@@ -1,4 +1,4 @@
-export default{
+export default {
   about: {
     "01": "Lorem ipsum dolor sit amet (EL)",
     title: "About EL"
@@ -50,4 +50,7 @@ export default{
     print: "Για εκτύπωση",
     pdf: "ή αποθηκεύστε ως αρχείο .pdf"
   },
+  ui: {
+    back: "Πίσω"
+  }
 }
