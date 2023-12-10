@@ -23,6 +23,314 @@ export default {
       ]
     },
 
+    ev_open: {
+      title: "Evolution",
+      subtitle: "Öppna inquiry",
+      choose: "Välj en påstående",
+      q1_title: "1. Vi kommer att ta upp följande påstående",
+      myths: [
+        "Att evolutionen har skett är bara en teori och inget som kunnat bevisas",
+        "Evolutionsteorin är ovetenskaplig eftersom den inte är testbar. Den visar på påståenden om händelser som inte har observerats och som aldrig kan återskapas.",
+        "Evolutionen följer en bestämd väg - att arter utvecklas från andra arter, t ex att människan har utvecklats från apor. Varför finns det fortfarande apor?",
+        "Evolutionen producerar perfekt anpassade varelser.",
+        "Arter är oföränderliga.",
+        "Användning eller icke användning av en kroppslig funktion under sin livstid kan ärvas av avkomman och leda till en förändring i en art."
+      ],
+      expectations: {
+        title: "I den här aktiviteten förväntas du göra följande:",
+        items: [
+          "utveckla en testbar hypotes / forskningsfråga,",
+          "planera din sökning efter relevant information som kommer att bekräfta eller falsifiera din hypotes / svara på din forskningsfråga,",
+          "presentera insamlad data i form av tabeller, grafer eller liknande,",
+          "bedöma tillförlitligheten hos de insamlade bevisen",
+          "använd dina resultat för att dra en slutsats."
+        ]
+      },
+      q2 : {
+        txt: "Utveckla en {q2Link} / forskningsfråga.",
+        link: "testbar hypotes",
+        title: "2. Vår hypotes / forskningsfråga är:",
+        txt2: "När du gör detta bör du noga tänka igenom hur du delar arbetsbelastningen inom din grupp. Du kan utse alla till olika roller, till exempel till en ledare som organiserar aktiviteterna, till en sekreterare som gör anteckningar och kommenterar den information som hittas, till en utredare som gör sökningar, till en kritiker som granskar informationens tillförlitlighet.",
+      },
+      
+      plan: {
+        txt_1: "(du kan ange vilka aktiviteter du är involverad som ett helt team och genom vilka du ska fördela ansvar. Skriv ner vem som är ansvarig för vad).",
+        label_1: "3. Plan över aktiviteter"
+      },
+
+      reliability: {
+        label_1: "4. Källornas tillförlitlighet"
+      },
+      conclusions: "5. Baserat på de insamlade bevisen är våra slutsatser:"
+    },
+
+
+
+    ev_myth1: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myt 1",
+      myth: {
+        text: "Ditt team kommer att ta itu med Första påståendet:",
+        myth: "“Att evolutionen har skett är bara en teori och inget som kunnat bevisas”."
+      },
+      justification: {
+        text: "Läs texten noga. Identifiera och dokumentera de argument som författarna lägger fram för att stödja deras ståndpunkt.",
+        label_1: "Argument:",
+      },
+      label_2: "Hur hittar ni detta argument? Är det något som stör er?",
+      label_3: "Hur kan vi kontrollera om detta argument stämmer?",
+      question: "Fråga: 	Är evolutionen bara en teori? Vad menas med termen “teori” inom vetenskap?",
+      sources_text: "För att kontrollera ovanstående frågor föreslås följande bibliografiska källor:",
+      sources: [
+        {
+          label: "Evolution",
+          url: "https://www.youtube.com/watch?v=FMHNxsInyEg"
+        },
+        {
+          label: "Evolution är ett faktum och en teori",
+          url: "http://www.talkorigins.org/faqs/evolution-fact.html"
+        },
+        {
+          label: "Missuppfattningar om evolution",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Förstå vetenskap",
+          url: "https://undsci.berkeley.edu/article/0_0_0/howscienceworks_19"
+        },
+        {
+          label: "Evolution är förvisso en teori, men absolut inte “bara” en teori",
+          url: "https://www.sciencefocus.com/comment/evolution-is-most-certainly-a-theory-but-certainly-not-just-a-theory/"
+        }
+        
+      ],
+      label_4: "Vad menas med termen “teori” inom vetenskap?",
+      label_5: "Uppfyller evolutionsteorin kriterierna för att vara en vetenskaplig teori?"
+    },
+
+
+    ev_myth2: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 2",
+      myth: {
+        text: "Ditt team kommer att tackla 2a påståendet:",
+        myth: "“Evolutionsteori är ovetenskaplig eftersom den inte är testbar eller falsifierbar. Den gör påståenden om händelser som inte observerats och som aldrig kan återskapas.”"
+      },
+      justification: {
+        text: "Läs texten noga. Identifiera och dokumentera de argument som författarna lägger fram för att stödja deras ståndpunkt.",
+        label_1: "Argument:",
+      },
+      label_2: "Hur hittar du detta argument? Är det något som stör dig?",
+      label_3: "Hur kan vi kontrollera om detta argument är giltigt?",
+      question: "Frågor: Är evolutionsteorin testbar? Är den falsifierbar? Måste all vetenskap baseras på kontrollerade laboratorieexperiment för att betraktas som sann vetenskap?",
+      sources_text: "För att kontrollera ovanstående fråga föreslås följande bibliografiska källor:",
+      sources: [
+        {
+          label: "Missuppfattningar om evolution",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Uppvärmning till evolution",
+          url: "https://evolution.berkeley.edu/evo-news/warming-to-evolution/"
+        },
+        {
+          label: "Giftig flod betyder snabb utveckling för en fiskart",
+          url: "https://evolution.berkeley.edu/evo-news/toxic-river-means-rapid-evolution-for-one-fish-species/"
+        },
+        {
+          label: "Evolution under näsan",
+          url: "https://evolution.berkeley.edu/evolution-under-our-noses/"
+        }
+      ],
+      sources_2: [
+        {
+          text: "Studera följande källa:",
+          label: "Artificiellt urval i labbet",
+          url: "https://evolution.berkeley.edu/artificial-selection-in-the-lab/"
+        },
+        {
+          text: "“Lek” med följande virtuella labb:",
+          label: "Evolution i labbet",
+          url: "https://evolution.berkeley.edu/angling-for-evolutionary-answers/evolution-in-the-lab/"
+        },
+        {
+          text: "Kör följande simulering:",
+          label: "Labbet för evolutionär informatik",
+          url: "https://www.evoinfo.org/weasel.html"
+        },
+      ],
+      label_4: "Finns det några fall där vi faktiskt kan observera evolutionen?",
+      label_5: "Are there any cases that we can test evolutionary processes in the lab?",
+      label_6: "Finns det några alternativ vi kan använda istället för faktiska experiment?"
+    },
+
+
+
+    ev_myth3: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myh 3",
+      myth: {
+        text: "Ditt team kommer att tackla Tredje påståendet:",
+        myth: "Evolution följer en förutbestämd, rak väg (eller om människan utvecklats från apor, varför finns det fortfarande apor?)"
+      },
+      justification: {
+        text: "Läs texten noga. Identifiera och dokumentera de argument som författarna lägger fram för att stödja deras ståndpunkt.",
+        label_1: "Argument:",
+      },
+      label_2: "Hur hittar du detta argument? Är det något som stör dig?",
+      label_3: "Hur kan vi kontrollera om detta argument är giltigt?",
+      question: "Frågor: Följer evolutionen en förutbestämd, rak väg? Om en art utvecklas från en annan art, betyder det att den första ska dö ut?",
+      sources_text: "För att kontrollera ovanstående fråga föreslås följande bibliografiska källor:",
+      sources: [
+        {
+          label: "Om människan har utvecklats från apor, varför finns det fortfarande apor?",
+          url: "https://www.youtube.com/watch?v=4k4JLntDIzE"
+        },
+        {
+          label: "Varför finns det fortfarande apor?",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-010-0293-2"
+        },
+        {
+          label: "Evolution går inte i en rak linje – så varför rita det så?",
+          url: "https://theconversation.com/evolution-doesnt-proceed-in-a-straight-line-so-why-draw-it-that-way-109401"
+        },
+        {
+          label: "Utforska Livets träd",
+          url: "http://tolweb.org/tree/"
+        },
+        {
+          label: "Livets träd",
+          url: "http://www.evogeneao.com/evo-gene.html"
+        }
+      ],
+      label_4: "Följer evolutionen en förutbestämd, rak väg?"
+    },
+
+
+    ev_myth4: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myt 4",
+      myth: {
+        text: "Ditt team kommer att tackla Fjärde påståendet:",
+        myth: "“Evolution producerar perfekt anpassade varelser.”"
+      },
+      justification: {
+        text: "Läs texten noga. Identifiera och dokumentera de argument som författarna lägger fram för att stödja deras ståndpunkt.",
+        label_1: "Argument:",
+      },
+      label_2: "Vad tycker du om detta argument? Är det något som stör dig?",
+      label_3: "Hur kan vi kontrollera om detta argument är giltigt?",
+      question: "Fråga: Måste man vara perfekt anpassad för att överleva? Ger naturligt urval perfektion / perfekt anpassade varelser?",
+      sources_text: "För att kontrollera ovanstående fråga föreslås följande bibliografiska källor:",
+      sources: [
+        {
+          label: "Does Evolution Leads to Perfection?",
+          url: "https://www.youtube.com/watch?v=O1Y3XyW9pEs"
+        },
+        {
+          label: "Ingen perfekt organism",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/19%3A_The_Evolution_of_Populations/19.03%3A_Adaptive_Evolution/19.3E%3A_No_Perfect_Organism"
+        },
+        {
+          label: "Evolutionsmyter: Evolution producerar perfekt anpassade varelser",
+          url: "https://www.newscientist.com/article/dn13640-evolution-myths-evolution-produces-perfectly-adapted-creatures/"
+        },
+        {
+          label: "Urval, inte perfektion",
+          url: "https://evolution.berkeley.edu/misconceptions-about-natural-selection-and-adaptation/selection-not-perfection/"
+        },
+        {
+          label: "Förstå naturligt urval: väsentliga begrepp och vanliga missuppfattningar",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-009-0128-1"
+        }
+      ],
+      label_4: "Måste man vara perfekt anpassad för att överleva?",
+      label_5: "Ger naturligt urval perfektion / perfekt anpassade varelser?"
+    },
+
+
+
+    ev_myth5: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myt 5",
+      myth: {
+        text: "Ditt team kommer att tackla 5ᵉ påståendet:",
+        myth: "“Arter är oföränderliga.”"
+      },
+      justification: {
+        text: "Läs texten noga. Identifiera och dokumentera de argument som författarna lägger fram för att stödja deras ståndpunkt.",
+        label_1: "Argument:",
+      },
+      label_2: "Vad tycker du om detta argument? Är det något som stör dig?",
+      label_3: "Hur kan vi kontrollera om detta argument är giltigt?",
+      question: "Fråga: Förändras arter över tid?",
+      sources_text: "För att kontrollera ovanstående fråga föreslås följande bibliografiska källor:",
+      sources: [
+        {
+          label: "Lamarck's Theory",
+          url: "https://www.youtube.com/watch?v=9QwTCj817Sg"
+        },
+        {
+          label: "5 djur som nyligen har utvecklats",
+          url: "https://now.northropgrumman.com/5-animals-that-have-evolved-recently/"
+        },
+        {
+          label: "Djurens evolution",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Introductory_Biology_(CK-12)/05%3A_Evolution/5.25%3A_Animal_Evolution"
+        },
+        {
+          label: "Luckor i fossilregistret",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
+        }
+      ],
+      label_4: "Förändras arterna över tiden?"
+    },
+
+
+
+    ev_myth6: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myt 6",
+      myth: {
+        text: "Ditt team kommer att tackla 6ᵉ påståendet:",
+        myth: "“Användning eller icke användning av en kroppslig funktion under sin livstid kan ärvas av avkomman och leda till en förändring i en art.”"
+      },
+      justification: {
+        text: "Läs texten noga. Identifiera och dokumentera de argument som författarna lägger fram för att stödja deras ståndpunkt.",
+        label_1: "Argument:",
+      },
+      label_2: "Vad tycker du om detta argument? Är det något som stör dig?",
+      label_3: "Hur kan vi kontrollera om detta argument är giltigt?",
+      question: "Fråga:	Vilka egenskaper / egenskaper är ärftliga?",
+      sources_text: "För att kontrollera ovanstående fråga föreslås följande bibliografiska källor:",
+      sources: [
+        {
+          label: "Lamarck's Theory",
+          url: "https://www.youtube.com/watch?v=9QwTCj817Sg"
+        },
+        {
+          label: "Lamarckism",
+          url: "https://www.britannica.com/science/Lamarckism"
+        },
+        {
+          label: "Evolutionstänkets historia",
+          url: "https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1800s/early-concepts-of-evolution-jean-baptiste-lamarck/"
+        },
+        {
+          label: "Evolutionära teorier",
+          url: "https://www.sciencesfp.com/evolutionary-theories.html"
+        },
+        {
+          label: "Darwin och naturligt urval",
+          url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
+        }
+      ],
+      label_4: "Vilka egenskaper är ärftliga?"
+    },
+
+
+
+
     cc_open: {
       title: "Klimatförändringar",
       subtitle: "Avatud uurimus",

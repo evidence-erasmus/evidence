@@ -4,9 +4,10 @@ export default {
     add_row: "Add row",
 
     reliability_table: {
-      txt_1: "Please use {link1} to assess the reliability of the  sources used.  Write a summary of your findings in the table.",
+      txt_1: "Please use {link1} to assess the reliability of the sources used. Write a summary of your findings in the table.",
       link_1: "this tool",
-      url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",
+      url_1: "../../tools/reliability-assessment",
+      label_1: "Reliability of sources",
       cols: {
         col_1: "Evidence / main conclusions / summary of the information relevant to the hypothesis",
         col_2: "Type and source of evidence",
@@ -23,6 +24,327 @@ export default {
         { thead: "Measured factor", tsubhead: "(see mida sekkumise tulemusena mõõdetakse)" },
       ]
     },
+
+
+    ev_open: {
+      title: "Evolution",
+      subtitle: "Open inquiry",
+      choose: "Choose a myth",
+      q1_title: "1. We are going to examine the following myth:",
+      myths: [
+        "Evolution is just a theory.",
+        "Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.",
+        "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?",
+        "Evolution produces perfectly adapted creatures.",
+        "Species are immutable",
+        "The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species"
+      ],
+      expectations: {
+        title: "In this activity, you are expected to do the following:",
+        items: [
+          "develop a testable hypothesis / research question,",
+          "plan your search for relevant information that will confirm or falsify your hypothesis / answer your research question,",
+          "present collected data in the form of tables, graphs, or similar,",
+          "assess the reliability of the gathered evidence.",
+          "use your findings to draw a conclusion."
+        ]
+      },
+      q2 : {
+        txt: "Develop a {q2Link} / research question.",
+        link: "testable hypothesis",
+        title: "2. Our hypothesis / research question is:",
+        // txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+      },
+      
+      plan: {
+        txt_1: "(you could indicate by which activities you are involved as a full team and by which you are going to divide responsibilities, in this case, specify, who is responsible for what).",
+        label_1: "3. Plan of activities"
+      },
+
+      reliability: {
+        // txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
+        label_1: "4. Reliability of sources."
+      },
+      conclusions: "5. Based on the collected evidence, our conclusions are:"
+    },
+
+
+
+    ev_myth1: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 1",
+      myth: {
+        text: "Your team will deal with Statement 1:",
+        myth: "“Evolution is just a theory”."
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Question: Is Evolution just a theory? What is meant by the term “theory” in science?",
+      sources_text: "In order to check the above questions, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Evolution",
+          url: "https://www.youtube.com/watch?v=FMHNxsInyEg"
+        },
+        {
+          label: "Evolution is a Fact and a Theory",
+          url: "http://www.talkorigins.org/faqs/evolution-fact.html"
+        },
+        {
+          label: "Misconceptions about evolution",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Understanding Science",
+          url: "https://undsci.berkeley.edu/article/0_0_0/howscienceworks_19"
+        },
+        {
+          label: "Evolution is most certainly a theory, but certainly not “just” a theory",
+          url: "https://www.sciencefocus.com/comment/evolution-is-most-certainly-a-theory-but-certainly-not-just-a-theory/"
+        }
+        
+      ],
+      label_4: "What is meant by the term “theory” in Science?",
+      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?",
+      // reliability: {
+      //   text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+      //   link: "töörista",
+      //   label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      // }
+    },
+
+
+    ev_myth2: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 2",
+      myth: {
+        text: "Your team will deal with Statement 2:",
+        myth: "“Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Questions: Is Evolution testable? Is it falsifiable? Does all science depend on controlled laboratory experiments to be considered true science?",
+      sources_text: "In order to check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Misconceptions about evolution",
+          url: "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/"
+        },
+        {
+          label: "Warming to Evolution",
+          url: "https://evolution.berkeley.edu/evo-news/warming-to-evolution/"
+        },
+        {
+          label: "Toxic river means rapid evolution for one fish species",
+          url: "https://evolution.berkeley.edu/evo-news/toxic-river-means-rapid-evolution-for-one-fish-species/"
+        },
+        {
+          label: "Evolution under our noses",
+          url: "https://evolution.berkeley.edu/evolution-under-our-noses/"
+        }
+      ],
+      sources_2: [
+        {
+          text: "Study the following source:",
+          label: "Artificial selection in the lab",
+          url: "https://evolution.berkeley.edu/artificial-selection-in-the-lab/"
+        },
+        {
+          text: "“Play” with the following virtual lab:",
+          label: "Evolution in the lab",
+          url: "https://evolution.berkeley.edu/angling-for-evolutionary-answers/evolution-in-the-lab/"
+        },
+        {
+          text: "Run the following simulation:",
+          label: "The evolutionary informatics lab",
+          url: "https://www.evoinfo.org/weasel.html"
+        },
+      ],
+      label_4: "Are there any cases that we can actually observe evolution?",
+      label_5: "Are there any cases that we can test evolutionary processes in the lab?",
+      label_6: "Are there any alternatives we can use instead of actual experiments?",
+      // reliability: {
+      //   text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+      //   link: "töörista",
+      //   label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+      // }
+    },
+
+
+
+    ev_myth3: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 3",
+      myth: {
+        text: "Your team will deal with Statement 3:",
+        myth: "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?)"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Questions:	Does evolution follow a preordained, straight path? If a species evolves from another species, does this mean that the first one should become extinct?",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Ιf human evolved from monkeys, why are there still monkeys?",
+          url: "https://www.youtube.com/watch?v=4k4JLntDIzE"
+        },
+        {
+          label: "Why Are There Still Monkeys?",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-010-0293-2"
+        },
+        {
+          label: "Evolution doesn’t proceed in a straight line – so why draw it that way?",
+          url: "https://theconversation.com/evolution-doesnt-proceed-in-a-straight-line-so-why-draw-it-that-way-109401"
+        },
+        {
+          label: "Explore the Tree of Life",
+          url: "http://tolweb.org/tree/"
+        },
+        {
+          label: "The Tree of Life",
+          url: "http://www.evogeneao.com/evo-gene.html"
+        }
+      ],
+      label_4: "Does evolution follow a preordained, straight path?"
+    },
+
+
+    ev_myth4: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 4",
+      myth: {
+        text: "Your team will deal with Statement 4:",
+        myth: "“Evolution produces perfectly adapted creatures.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Question: Do you have to be perfectly adapted to survive? Does natural selection produce perfection/perfectly adapted creatures?",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Does Evolution Leads to Perfection?",
+          url: "https://www.youtube.com/watch?v=O1Y3XyW9pEs"
+        },
+        {
+          label: "No Perfect Organism",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/19%3A_The_Evolution_of_Populations/19.03%3A_Adaptive_Evolution/19.3E%3A_No_Perfect_Organism"
+        },
+        {
+          label: "Evolution myths: Evolution produces perfectly adapted creatures",
+          url: "https://www.newscientist.com/article/dn13640-evolution-myths-evolution-produces-perfectly-adapted-creatures/"
+        },
+        {
+          label: "Selection, not perfection",
+          url: "https://evolution.berkeley.edu/misconceptions-about-natural-selection-and-adaptation/selection-not-perfection/"
+        },
+        {
+          label: "Understanding Natural Selection: Essential Concepts and Common Misconceptions",
+          url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-009-0128-1"
+        }
+      ],
+      label_4: "Do you have to be perfectly adapted to survive?",
+      label_5: "Does natural selection produce perfection/perfectly adapted creatures?"
+    },
+
+
+
+    ev_myth5: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 5",
+      myth: {
+        text: "Your team will deal with Statement 5:",
+        myth: "“Species are immutable.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Question: Do species change over time?",
+      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources: [
+        {
+          label: "Lamarck's Theory",
+          url: "https://www.youtube.com/watch?v=9QwTCj817Sg"
+        },
+        {
+          label: "5 Animals That Have Evolved Recently",
+          url: "https://now.northropgrumman.com/5-animals-that-have-evolved-recently/"
+        },
+        {
+          label: "Animal Evolution",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Introductory_Biology_(CK-12)/05%3A_Evolution/5.25%3A_Animal_Evolution"
+        },
+        {
+          label: "Gaps in the Fossil Record",
+          url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
+        }
+      ],
+      label_4: "Do species change over time?"
+    },
+
+
+
+    ev_myth6: {
+      title: "Evolution",
+      subtitle: "Guided inquiry, myth 6",
+      myth: {
+        text: "Your team will deal with Statement 6:",
+        myth: "“The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species.”"
+      },
+      justification: {
+        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
+        label_1: "Argument:",
+      },
+      label_2: "How do you find this argument? Is something bothering you?",
+      label_3: "How could we check whether this argument is valid?",
+      question: "Which traits/characteristics are inheritable?",
+      sources_text: "Vastamiseks kasuta järgmisi allikaid:",
+      sources: [
+        {
+          label: "Lamarck's Theory",
+          url: "https://www.youtube.com/watch?v=9QwTCj817Sg"
+        },
+        {
+          label: "Lamarckism",
+          url: "https://www.britannica.com/science/Lamarckism"
+        },
+        {
+          label: "The History of Evolutionary Thought",
+          url: "https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1800s/early-concepts-of-evolution-jean-baptiste-lamarck/"
+        },
+        {
+          label: "Evolutionary Theories",
+          url: "https://www.sciencesfp.com/evolutionary-theories.html"
+        },
+        {
+          label: "Darwin and natural selection",
+          url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
+        }
+      ],
+      label_4: "Which traits are inheritable?"
+    },
+
+
+
+
 
     cc_open: {
       title: "Climate change",
@@ -55,6 +377,10 @@ export default {
       q4_title: "5. Kogutud tõenditest lähtudes on meie järeldused järgmised:",
       q5_title: "6. Tuginedes kogutud andmetele, milliseid teaduse eitamise taktikaid tuvastasite loetud tekstides?"
     },
+
+
+
+
 
 
 

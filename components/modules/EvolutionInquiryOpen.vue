@@ -71,16 +71,19 @@
 
             <hr />
 
-            <p>
-                <b>{{ t('inquiry.ev_open.reliability.label_1') }}</b>
-            </p>
-            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="mb-0">
+            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.reliability_table.link_1') }}</a>
+                    <NuxtLink :to="t('inquiry.reliability_table.url_1')" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" />
+                        {{ t('inquiry.reliability_table.link_1') }}
+                    </NuxtLink>
                 </template>
             </i18n-t>
+            
+            <label>
+                <b>{{ t('inquiry.reliability_table.label_1') }}</b>
+            </label>
             <div class="e-card">
-                <ToolsReliabilityTable :storeToUpdate="studentEvolutionOpen" :addRow="true" currentSources="inquiry.ev_open.sources" key="ccOpenrlblty" />
+                <ToolsReliabilityTable :storeToUpdate="studentEvolutionOpen" :addRow="true" key="evOpenrlblty" />
             </div>
             
             <hr />

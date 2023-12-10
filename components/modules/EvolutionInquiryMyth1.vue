@@ -96,16 +96,16 @@
             v-model="studentAnswers.q5"></textarea>
 
             
-            <i18n-t tag="p" keypath="inquiry.ev_myth1.reliability.text" scope="global">
-                <template #link>
-                    <NuxtLink to="../../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" />
-                        {{ t('inquiry.ev_myth1.reliability.link') }}
+            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global">
+                <template #link1>
+                    <NuxtLink :to="t('inquiry.reliability_table.url_1')" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" />
+                        {{ t('inquiry.reliability_table.link_1') }}
                     </NuxtLink>
                 </template>
             </i18n-t>
             
             <label>
-                <b>{{ t('inquiry.ev_myth1.reliability.label') }}</b>
+                <b>{{ t('inquiry.reliability_table.label_1') }}</b>
             </label>
             <div class="e-card">
                 <ClientOnly>

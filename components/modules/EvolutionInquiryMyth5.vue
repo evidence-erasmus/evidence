@@ -80,16 +80,16 @@
             <textarea id="q4" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="4"
             v-model="studentAnswers.q4"></textarea>
 
-            <i18n-t tag="p" keypath="inquiry.ev_myth5.reliability.text" scope="global">
-                <template #link>
-                    <NuxtLink to="../../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" />
-                        {{ t('inquiry.ev_myth5.reliability.link') }}
+            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global">
+                <template #link1>
+                    <NuxtLink :to="t('inquiry.reliability_table.url_1')" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18" />
+                        {{ t('inquiry.reliability_table.link_1') }}
                     </NuxtLink>
                 </template>
             </i18n-t>
             
-            <label class="block mb-2">
-                <b>{{ t('inquiry.ev_myth5.reliability.label') }}</b>
+            <label>
+                <b>{{ t('inquiry.reliability_table.label_1') }}</b>
             </label>
             <div class="e-card">
                 <ClientOnly>
