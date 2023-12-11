@@ -116,17 +116,17 @@
         "f4-description": "Andmete lihtsustamine määrani, et see viib ebaõigete järeldusteni."
       },
       "el": {
-        "col-1": "Evidence / main conclusions / summary of the information relevant to the hypothesis",
-        "col-2": "Yes / no",
-        "col-3": "Comments",
+        "col-1": "Τεχνικές άρνησης",
+        "col-2": "Επιλογή (ναι / όχι)",
+        "col-3": "Σχολιασμός",
         "f1-title": "Cherry picking:",
-        "f1-description": "This technique is defined as “selectively chooses data leading to a desired conclusion that differs from the conclusion arising from all the available data”.",
+        "f1-description": "Επιλεκτικά δεδομένα που οδηγούν σε ένα επιθυμητό συμπέρασμα που διαφέρει από το συμπέρασμα που προκύπτει από όλα τα διαθέσιμα δεδομένα.",
         "f2-title": "Jumping to conclusions:",
-        "f2-description": "Ignorance of information and arbitrary conclusion.",
+        "f2-description": "Αγνόηση πληροφοριών και αυθαίρετη κατάληξη σε συμπεράσματα.",
         "f3-title": "Impossible expectations:",
-        "f3-description": "This involves demanding unrealistic levels of proof, or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty are an effective method of casting doubt on scientific findings. This denialist technique is known as “Scientific Certainty Argumentation Methods”.",
+        "f3-description": "Η προσδοκία για απόλυτη επιστημονική βεβαιότητα προωθεί την αμφισβήτηση των επιστημονικών ευρημάτων.",
         "f4-title": "Oversimplification",
-        "f4-description": "Data simplification."
+        "f4-description": "Υπεραπλούστευση των δεδομένων."
       },
       "pt": {
         "col-1": "Evidence / main conclusions / summary of the information relevant to the hypothesis",

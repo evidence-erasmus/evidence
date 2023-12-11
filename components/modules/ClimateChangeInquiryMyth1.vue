@@ -31,7 +31,7 @@
             
             <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
 
-            <h1 class="mb-0">{{ t('inquiry.cc_myth1.title') }}</h1>
+            <h1 class="mb-2">{{ t('inquiry.cc_myth1.title') }}</h1>
             <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc_myth1.subtitle') }}</h5>
         
             <!-- <h2>

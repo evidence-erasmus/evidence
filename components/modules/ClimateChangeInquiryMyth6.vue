@@ -34,7 +34,7 @@
             
             <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
 
-            <h1 class="mb-0">{{ t('inquiry.cc_myth6.title') }}</h1>
+            <h1 class="mb-2">{{ t('inquiry.cc_myth6.title') }}</h1>
             <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc_myth6.subtitle') }}</h5>
         
             <h2 class="border-l-8 border-l-rose-400 pl-4">
@@ -44,7 +44,7 @@
             <label for="hypothesis" class="block mb-2">
                 <b>{{ t('inquiry.cc_myth6.hypothesis') }}</b>
             </label>
-            <textarea id="hypothesis" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="hypothesis" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth6Answers.hypothesis"></textarea>
             
             
@@ -73,7 +73,7 @@
             <label for="source61" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth6.source_61.label_1') }}</b>
             </label>
-            <textarea id="source61" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="source61" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth6Answers.source61"></textarea>
 
 
@@ -88,7 +88,7 @@
             <label for="source62" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth6.source_62.label_1') }}</b>
             </label>
-            <textarea id="source62" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="source62" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth6Answers.source62"></textarea>
 
             <i18n-t tag="p" keypath="inquiry.cc_myth6.source_63.txt_1" scope="global" class="mb-0">
@@ -99,7 +99,7 @@
             <label for="source63" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth6.source_63.label_1') }}</b>
             </label>
-            <textarea id="source63" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="source63" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth6Answers.source63"></textarea>
 
             
@@ -116,7 +116,7 @@
                 </template>
             </i18n-t>
 
-            <div class="e-card w-[90vw] mb-8" style="transform:translateX(-5vw)">
+            <div class="e-card mb-16">
                 <ToolsReliabilityTable :storeToUpdate="climateMyth6Answers" currentSources="inquiry.cc_myth6.sources" key="ccmyth6rlblty" />
             </div>
 
@@ -126,7 +126,7 @@
             <label for="conclusion" class="block mb-2 mt-8">
                 <b>{{ t('inquiry.cc_myth6.conclusion') }}</b>
             </label>
-            <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth6Answers.conclusions"></textarea>
 
 

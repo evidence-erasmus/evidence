@@ -100,17 +100,17 @@
         "add-row": "LISA ALLIKAS"
       },
       "el": {
-        "col-1": "Source",
+        "col-1": "Τεχνικές άρνησης",
         "col-2": "Cherry picking",
-        "col-2-description": "This technique is defined as “selectively choosing data leading to the desired conclusion that differs from the conclusion arising from all the available data”.",
+        "col-2-description": "Επιλεκτικά δεδομένα που οδηγούν σε ένα επιθυμητό συμπέρασμα που διαφέρει από το συμπέρασμα που προκύπτει από όλα τα διαθέσιμα δεδομένα.",
         "col-3": "Slippery slope",
         "col-3-description": "Ignorance of information and arbitrary conclusion.",
         "col-4": "Unexpected expectations",
-        "col-4-description": "This involves demanding unrealistic levels of proof or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty effectively cast doubt on scientific findings. This denialist technique is known as the “Scientific Certainty Argumentation Method”.",
+        "col-4-description": "Η προσδοκία για απόλυτη επιστημονική βεβαιότητα προωθεί την αμφισβήτηση των επιστημονικών ευρημάτων.",
         "col-5": "Over-simplification",
-        "col-5-description": "Simplifying a situation in such a way as to distort understanding, leading to erroneous conclusions",
-        "col-6": "Comments",
-        "add-row": "ADD SOURCE"
+        "col-5-description": "Υπεραπλούστευση των δεδομένων.",
+        "col-6": "Σχολιασμός",
+        "add-row": "ΠΡΌΣΘΕΣΕ ΓΡΑΜΜΉ"
       },
       "pt": {
         "col-1": "Source",

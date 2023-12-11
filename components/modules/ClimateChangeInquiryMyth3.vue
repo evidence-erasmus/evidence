@@ -13,9 +13,7 @@
         })
     }
     addSources(tm('inquiry.cc_myth3.sources'));
-
 </script>
-
 
 
 
@@ -32,7 +30,7 @@
             
             <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
 
-            <h1 class="mb-0">{{ t('inquiry.cc_myth3.title') }}</h1>
+            <h1 class="mb-2">{{ t('inquiry.cc_myth3.title') }}</h1>
             <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc_myth3.subtitle') }}</h5>
         
             <h2 class="border-l-8 border-l-rose-400 pl-4">
@@ -42,7 +40,7 @@
             <label for="hypothesis" class="block mb-2">
                 <b>{{ t('inquiry.cc_myth3.hypothesis') }}</b>
             </label>
-            <textarea id="hypothesis" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="hypothesis" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.hypothesis"></textarea>
             
             
@@ -61,9 +59,6 @@
             </UiCardInfo>
 
             
-
-
-
             <i18n-t tag="p" keypath="inquiry.cc_myth3.source_1.txt_1" scope="global">
                 <template #link1>
                     <a :href="t('inquiry.cc_myth3.sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth3.sources[0].name') }}</a>
@@ -76,7 +71,7 @@
             </UiCardInfo>
 
 
-            <UiContentImage src="https://evidence.onkel.ee/assets/c-change__myth3__img1.webp" source="https://gml.noaa.gov/ccgg/about.html" :elevated="true">
+            <UiContentImage src="https://evidence.onkel.ee/assets/c-change__myth3__img1.webp" source="https://gml.noaa.gov/ccgg/about.html" :elevated="true" class="mb-16">
                 <template #caption>
                     {{ t('inquiry.cc_myth3.img_1.caption') }}
                 </template>
@@ -87,25 +82,25 @@
             <label for="q1" class="block mb-2">
                 <b>{{ t('inquiry.cc_myth3.q_1') }}</b>
             </label>
-            <textarea id="q1" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="q1" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.noaa1q1"></textarea>
 
             <label for="q2" class="block mb-2">
                 <b>{{ t('inquiry.cc_myth3.q_2') }}</b>
             </label>
-            <textarea id="q2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="q2" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.noaa1q2"></textarea>
 
             <label for="q3" class="block mb-2">
                 <b>{{ t('inquiry.cc_myth3.q_3') }}</b>
             </label>
-            <textarea id="q3" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="q3" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.noaa1q3"></textarea>
 
             <label for="q4" class="block mb-2">
                 <b>{{ t('inquiry.cc_myth3.q_4') }}</b>
             </label>
-            <textarea id="q4" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="q4" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.noaa1q4"></textarea>
 
             <hr />
@@ -139,18 +134,15 @@
             </i18n-t>
 
 
-
-            <div style="transform:translateX(-5vw)" class="e-card w-[90vw] mb-8">
+            <div class="e-card mb-16">
                 <ToolsDynamicTableFull :tableStructure="tm('inquiry.cc_myth3.noaa1_table')" :storeToUpdate="climateMyth3Answers" :keyToUpdate="climateMyth3Answers.a1.q1.noaa1Table" />
             </div>
 
 
-            
-            
             <label for="q5" class="block mb-2 mt-4">
                 <b>{{ t('inquiry.cc_myth3.q_5') }}</b>
             </label>
-            <textarea id="q5" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="q5" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.noaa1q5"></textarea>
 
             <hr />
@@ -163,28 +155,21 @@
             </i18n-t>
 
 
-
-
-            <UiContentImage src="https://evidence.onkel.ee/assets/c-change__myth3__img2.webp" source="https://gml.noaa.gov/ccgg/about.html" :elevated="true">
+            <UiContentImage src="https://evidence.onkel.ee/assets/c-change__myth3__img2.webp" source="https://gml.noaa.gov/ccgg/about.html" :elevated="true" class="mb-16">
                 <template #caption>
                     {{ t('inquiry.cc_myth3.img_2.caption') }}
                 </template>
             </UiContentImage>
 
 
-
             <label for="q1conclusion" class="block mb-2 mt-8">
                 <b>{{ t('inquiry.cc_myth3.img_2.conclusion') }}</b>
             </label>
-            <textarea id="q1conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="q1conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.noaa2conclusion"></textarea>
 
 
-
-
-
-
-            <div class="e-card w-[90vw] mb-8" style="transform:translateX(-5vw)">
+            <div class="e-card mb-16">
                 <ToolsReliabilityTable :storeToUpdate="climateMyth3Answers" currentSources="inquiry.cc_myth3.sources" key="ccmyth3rlblty" />
             </div>
 
@@ -194,7 +179,7 @@
             <label for="conclusion" class="block mb-2 mt-8">
                 <b>{{ t('inquiry.cc_myth3.conclusion') }}</b>
             </label>
-            <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.conclusions"></textarea>
 
 

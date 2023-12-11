@@ -7,7 +7,7 @@ export default {
       txt_1: "Παρακαλώ χρησιμοποιήστε αυτό το {link1} για την αναζήτηση πληροφοριών και την αξιολόγηση της αξιοπιστίας τους. Γράψετε μια περίληψη των ευρημάτων σας στον παρακάτω πίνακα.",
       link_1: "εργαλείo",
       url_1: "../../tools/reliability-assessment",  
-      label_1: "",
+      label_1: "Γράψετε μια περίληψη των ευρημάτων σας στον παρακάτω πίνακα.",
       cols: {
           col_1:"Τεκμήρια / κύρια συμπεράσματα / περίληψη πληροφοριών που σχετίζονται με την υπόθεση",
           col_2:"Είδος και πηγή τεκμηρίων",
@@ -336,13 +336,13 @@ export default {
 
 
     cc_open: {
-      title: "Climate change",
+      title: "Κλιματική Αλλαγή",
       subtitle: "Open inquiry",
       choose: "Choose a myth",
       q1_title: "1. Θα διερευνήσουμε τον ακόλουθο μύθο:",
       myths: [
         "The extinction of species is a natural process. Mass extinctions of species have always occurred.",
-        "Organisms can adapt to climate change.",
+        "Οι οργανισμοί μπορούν να προσαρμοστούν στις κλιματικές αλλαγές.",
         "The science of climate change is not credible.",
         "The temperature rise is for good.",
         "There is no correlation between CO₂ and temperature.",
@@ -422,48 +422,48 @@ export default {
 
 
     cc_myth2: {
-      title: "Climate change",
-      subtitle: "Guided inquiry, Myth 2",
-      myth: "Myth 2: Organisms can adapt to climate change",
-      hypothesis: "Write down your testable hypothesis concerning Myth 2:",
+      title: "Κλιματική Αλλαγή",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 2",
+      myth: "Η ομάδα σας καλείται να διαπραγματευτεί το Μύθο 2: «Οι οργανισμοί μπορούν να προσαρμοστούν στις κλιματικές αλλαγές.»",
+      hypothesis: "Καταγράψτε την υπόθεση / το ερευνητικό σας ερώτημα σχετικά με τον μύθο 2.",
 
       a1: {
         argument: {
-          txt_1: "You are given some arguments of Myth 2 and the questions you must answer using the given scientific sources.",
-          argument: "Argument 1 of Myth 2: The species have adapted several times to adverse conditions, so they are able to survive in the new climatic conditions."
+          txt_1: "Σας δίνεται το βασικό επιχείρημα του Μύθου 2 και η ερώτηση που πρέπει να απαντήσετε χρησιμοποιώντας τις δεδομένες επιστημονικές πηγές.",
+          argument: "Επιχείρημα 1 για τον Μύθο 2: Τα είδη έχουν προσαρμοστεί αρκετές φορές σε αντίξοες συνθήκες, έτσι είναι σε θέση να επιβιώσουν στις νέες κλιματικές συνθήκες."
         },
         q1: {
-          title_1: "Question: Does climate change affect species’ ability to adapt?",
-          txt_1: "Watch the animation {link1} carefully and answer the following questions.",
-          label_1: "What is it about? What is causing this change?",
-          label_2: "What are the consequences of this change?",
+          title_1: "Ερώτημα: Η κλιματική αλλαγή επηρεάζει την ικανότητα προσαρμογής των ειδών;",
+          txt_1: "Παρακολουθήστε προσεκτικά το κινούμενο σχέδιο {link1} και απαντήστε στις παρακάτω ερωτήσεις.",
+          label_1: "Περί τίνος πρόκειται; Τι προκαλεί αυτή την αλλαγή;",
+          label_2: "Ποιες είναι οι συνέπειες αυτής της αλλαγής;",
           answer_1: "Coral reefs case"
         },
         q2: {
-          title_1: "Question: Does the presence of acid in seawater affect the mass of corals?",
+          title_1: "Διερευνήσιμο ερώτημα: Η ύπαρξη οξέος στο θαλασσινό νερό επηρεάζει την μάζα των κοραλλιών;",
           txt_1: "Scientific Source: Conducting the experiment “Sharpening Oceans”",
-          list_1_title: "Means and Materials:",
+          list_1_title: "Μέσα και Υλικά:",
           list_1: [
-            "Snail shells of the same size, very well cleaned",
-            "White vinegar (50gr), Acidity: 4.5%",
-            "2 plastic containers with lids",
-            "Sea water 400g",
-            "Measuring scales",
-            "Volumetric containers",
-            "Strainer",
-            "Kettle",
-            "Hot water",
-            "Adhesive labels"
+            "Όστρακα / κελύφοι σαλιγκαριών ίδιου μεγέθους, πολύ καλά καθαρισμένα",
+            "Ξύδι (50gr), Οξύτητα: 4.5%",
+            "2 πλαστικά δοχεία με καπάκι",
+            "Θαλασσινό νερό 400gr",
+            "Ζυγαριά μέτρησης",
+            "Ογκομετρικά δοχεία",
+            "Σουρωτήρι",
+            "Βραστήρας",
+            "Ζεστό νερό",
+            "Αυτοκόλλητες ετικέτες"
           ],
-          list_2_title: "Experimental procedure:",
+          list_2_title: "Πειραματική διαδικασία:",
           list_2: [
-            "Weigh the corals we will use. We record the mass of the shells. We make two groups with shells and try to make the groups have the same mass.",
-            "In two identical containers put the same amount of sea water (200g). In the first container add vinegar.",
-            "Place the shells in each container.",
-            "Leave the containers closed for 40 minutes in the same conditions.",
-            "Divide the containers into a separate container each. Boil the shells with hot water and leave them for 15 minutes.",
-            "Clean each shell separately. Let them dry very well.",
-            "Weigh each group of shells and record the new masses."
+            "Ζυγίζουμε τα κοράλλια που θα χρησιμοποιήσουμε. Καταγράφουμε τη μάζα των οστράκων. Κάνουμε δύο ομάδες με όστρακα και προσπαθούμε οι ομάδες να έχουν την ίδια μάζα.",
+            "Σε δύο πανομοιότυπα δοχεία βάζουμε ίδια ποσότητα θαλασσινού νερού (200gr). Στο ένα δοχείο προσθέτουμε ξύδι.",
+            "Τοποθετούμε σε κάθε δοχείο τα όστρακα.",
+            "Αφήνουμε κλειστά τα δοχεία για 40 λεπτά σε ίδιες συνθήκες.",
+            "Αδιάζουμε τα δοχεία σε ξεχωριστό ογκομετρικό δοχείο το καθένα. Ζεματίζουμε με ζεστό νερό τα όστρακα και τα αφήνουμε για 15 λεπτά.",
+            "Καθαρίζουμε κάθε όστρακο ξεχωριστά. Τα αφήνουμε να στεγνώσουν πολύ καλά.",
+            "Ζυγίζουμε κάθε ομάδα οστράκων, και καταγράφουμε τις νέες μάζες."
           ],
           data_table: {
             header: [
@@ -484,61 +484,53 @@ export default {
           table_2: {
             header: [
               { thead: " " },
-              { thead: "Team A" },
-              { thead: "Team B" }
+              { thead: "ΟΜΑΔΑ A" },
+              { thead: "ΟΜΑΔΑ B" }
             ],
             rows: [
-              ["Initial mass (g):", "", ""],
-              ["Final mass (g):", "", ""],
-              ["Mass change (g):", "", ""]
+              ["Αρχική Μάζα (gr):", "", ""],
+              ["Τελική μάζα (gr):", "", ""],
+              ["Μεταβολή μάζας (gr):", "", ""]
             ]
           },
-          table2_title: "Data recording",
-          hypothesis: "Prediction",
-          conclusions: "Observations:",
+          table2_title: "Καταγραφή δεδομένων",
+          hypothesis: "Πρόβλεψη:",
+          conclusions: "Παρατηρήσεις:",
           source_1: {
-            txt_1: "Study {link1} and answer the following question:",
-            link_1: "Source 2.2",
-            label_1: "Why is the recent bleaching in corals worrying?"
+            txt_1: "Μελετήστε την {link1} και απαντήστε στην ακόλουθη ερώτηση.",
+            link_1: "Πηγή 2.2",
+            label_1: "Γιατί είναι ανησυχητική η πρόσφατη λεύκανση στα κοράλλια;"
           },
           source_2: {
-            txt_1: "Study {link1} and answer the following question:",
-            link_1: "Source 2.3",
+            txt_1: "Μελετήστε την {link1} και απαντήστε στην ακόλουθη ερώτηση.",
+            link_1: "Πηγή 2.3",
             label_1: "What is it about? What is the relationship between climate change and the transmission of viruses and diseases?"
           },
           source_3: {
-            txt_1: "Watch the animation: {link1} and answer the following question:",
+            txt_1: "Παρακολουθήστε το κινούμενο σχέδιο {link1} και απαντήστε στην παρακάτω ερώτηση.",
             link_1: "Climate change: Ice melting and animals",
-            label_1: "How does climate change affect polar bear populations? Record inferentially the course of change."
+            label_1: "Πώς επηρεάζει η κλιματική αλλαγή τους πληθυσμούς των πολικών αρκούδων; Καταγράψτε επαγωγικά την πορεία της αλλαγής."
           }
         }
       },
 
       a2: {
-        argument: "The argument 2 of Myth 2: The evolution of species arose from the need for organisms to survive and survive in changing conditions.",
+        argument: "Επιχείρημα 2 για τον Μύθο 2: Η εξέλιξη των ειδών προέκυψε από την ανάγκη επιβίωσης των οργανισμών στις μεταβαλλόμενες συνθήκες.",
         q1: {
-          question: "Question: Does climate change affect species evolution?",
+          question: "Ερώτηση: Η κλιματική αλλαγή επηρεάζει την εξέλιξη των ειδών;",
           source_1: {
-            txt_1: "Study {link1} and answer the following questions.",
-            link_1: "Source 2.1",
-            label_1: "What do we mean by “species evolution”"
+            txt_1: "Μελετήστε την {link1} και απαντήστε στις ακόλουθες ερωτήσεις.",
+            link_1: "Πηγή 2.1",
+            label_1: "Τι εννοούμε με τον όρο «εξέλιξη των ειδών»;"
           },
-          label_2: "Why is climate change considered a concern for species evolution?"
+          label_2: "Γιατί η κλιματική αλλαγή θεωρείται ανησυχητική για την εξέλιξη των ειδών;"
         }
       },
 
 
-      reliability: {
-        txt_1: "Please use this {link1} abil to assess the reliability of the sources used.",
-        link_1: "tool",
-        label_1: "Write a summary of your findings in the following table.",
-        url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link"
-      },
+      conclusions: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) σχετικά με το Μύθο 2 «Οι οργανισμοί μπορούν να προσαρμοστούν στις κλιματικές αλλαγές.» είναι:",
 
-      conclusions: "Based on the given evidence, our conclusion(s) concerning the myth  “Organisations can adapt to climate change”, is (are):",
-
-      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
-
+      flicc_label: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {
           name: "Fishing Planet",
@@ -565,30 +557,32 @@ export default {
 
 
 
+
+
     cc_myth3: {
-      title: "Climate change",
-      subtitle: "Guided inquiry, Myth 3",
-      myth: "Myth 3: “The science of climate change is not credible”.",
-      hypothesis: "Write down your testable hypothesis concerning Myth 3.",
+      title: "Κλιματική Αλλαγή",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 3",
+      myth: "Η ομάδα σας καλείται να διαπραγματευτεί το Μύθο 3: «Η επιστήμη της κλιματικής αλλαγής δεν είναι αξιόπιστη».",
+      hypothesis: "Καταγράψτε την υπόθεση / το ερευνητικό σας ερώτημα σχετικά με τον μύθο 3.",
       argument: {
-        txt_1: "You are given an argument about Myth 3 and the question you have to answer using the following scientific sources.",
-        argument: "Argument of Myth 3: The collecting data from the observatory stations about the amount of the CO₂ are not reliable, so climate change is not a real fact."
+        txt_1: "Σας δίνεται το βασικό επιχείρημα του Μύθου 3 και η ερώτηση που πρέπει να απαντήσετε χρησιμοποιώντας τις δεδομένες επιστημονικές πηγές.",
+        argument: "Επιχείρημα για τον Μύθο 3: Η συλλογή δεδομένων από τους σταθμούς μετρήσεων της ποσότητας του CO2 δεν είναι αξιόπιστη, επομένως η κλιματική αλλαγή δεν είναι πραγματικό γεγονός."
       },
-      question: "Question: Can we rely on collecting data from the observatory stations about the amount of the CO₂?",
+      question: "Ερώτημα: Μπορούμε να βασιστούμε στη συλλογή δεδομένων από τους σταθμούς μέτρησης της ποσότητας του CO₂ στην ατμόσφαιρα;",
       source_1: {
-        txt_1: "Watch the video {link1}. Then, read the following text carefully, study the map, and answer the question.",
+        txt_1: "Παρακολουθήστε το βίντεο {link1}. Στη συνέχεια, διαβάστε προσεκτικά το παρακάτω κείμενο, μελετήστε τον χάρτη και απαντήστε στην ερώτηση.",
         link_1: "Building a robust temperature record",
-        txt_2: "The global average monthly surface temperature (GMST), is reconstructed from a combination of data collected by 1. NASA GISTEMP, 2. CRUTEM (University of East England Climate Research Unit), 3. National Climate Data NOAA (NCDC). The data on which climate reconstruction is based, emerged from sources of observation from land, air, and sea."
+        txt_2: "Η παγκόσμια μέση μηνιαία θερμοκρασία επιφάνειας (GMST), προκύπτει από έναν συνδυασμό δεδομένων που συλλέγονται από 1. NASA GISTEMP, 2. CRUTEM (University of East England Climate Research Unit), 3. National Climate Data NOAA (NCDC). Τα δεδομένα στα οποία βασίζεται η αποτύπωση του κλίματος προέκυψαν από πηγές παρατήρησης από τη γη, τον αέρα και τη θάλασσα."
       },
       img_1: {
-        caption: "Figure 1. The ways in which data is collected by the NOAA organisation."
+        caption: "Διάγραμμα 1. Ο πιο πάνω χάρτης αποτυπώνει τους τρόπους συλλογής δεδομένων από τον οργανισμό ΝΟΑΑ."
       },
-      q_1: "According to the legend of the map, what are the data collection methods used by NOAA?",
-      q_2: "What do you notice about the amount of data collection methods and their geographical location?",
-      q_3: "NOAA maintains Baseline Observatories. How many such stations do you find on the map?",
-      q_4: "What do you notice about the location of each observatory? Why do you think they were placed in these places?",
+      q_1: "Σύμφωνα με το υπόμνημα του χάρτη, ποιοι είναι οι τρόποι συλλογής δεδομένων που χρησιμοποιεί ο ΝΟΑΑ;",
+      q_2: "Τι παρατηρείτε ως προς την ποσότητα των τρόπων συλλογής δεδομένων και τη γεωγραφική τους θέση;",
+      q_3: "Ο ΝΟΑΑ διατηρεί βασικούς σταθμούς παρατήρησης (Baseline Observatories). Πόσους τέτοιους σταθμούς εντοπίζετε στον χάρτη;",
+      q_4: "Τι παρατηρείτε ως προς την τοποθεσία του κάθε παρατηρητηρίου; Γιατί νομίζετε ότι τοποθετήθηκαν στα συγκεκριμένα σημεία;",
       noaa_stations: {
-        txt_1: "Study the Webpage of {link1} and perform the task. What are the four NOAA observatories? Where are they located (longitude, latitude) and at what altitude? (Sources {source31}, {source32}, {source33}, {source34})",
+        txt_1: "Ανατρέξτε στη σελίδα του {link1}. Ποια είναι τα 4 παρατηρητήρια του ΝΟΑΑ; Πού ακριβώς βρίσκονται (γεωγραφικό μήκος, γεωγραφικό μήκος)  και σε ποιο υψόμετρο; (Πηγές {source31}, {source32}, {source33}, {source34})",
         link_1: "NOAA",
         url_1: "https://gml.noaa.gov/",
         source_31: {
@@ -610,22 +604,22 @@ export default {
       },
       noaa1_table: {
         header: [
-          { thead: "Observatory" },
-          { thead: "Longitude" },
-          { thead: "Latitude" },
-          { thead: "Altitude" },
+          { thead: "Παρατηρητήριο" },
+          { thead: "Γεωγραφικό Μήκος" },
+          { thead: "Γεωγραφικό Πλάτος" },
+          { thead: "Υψόμετρο" },
         ]
       },
-      q_5: "What do you notice about their location?",
+      q_5: "Τι παρατηρείτε για την τοποθεσία τους;",
       img_2: {
-        txt_1: "At any time through these stations, we can receive information about the prevailing conditions. {link1}, you can see the latest recordings from Mauna Loa Station in Hawaii.",
-        link_1: "Here",
+        txt_1: "Ανά πάσα στιγμή μέσων αυτών των σταθμών μπορούμε να λάβουμε πληροφορίες για τις συνθήκες που επικρατούν. {link1}, μπορείτε να δείτε τελευταίες καταγραφές από τον σταθμό Mauna Loa της Χαβάης.",
+        link_1: "Εδώ",
         url_1: "https://gml.noaa.gov/obop/mlo/met.html",
-        caption: "Figure 2. CO₂ measurements taken from 1975 to 2020 from the 4 main observation stations of NOAA.",
-        conclusion: "Study the following graph and answer the question.",
+        caption: "Διάγραμμα 2. Το πιο πάνω γράφημα παρουσιάζει τις μετρήσεις CO₂ που λήφθηκαν από το 1975 μέχρι το 2020 από τους 4 βασικούς σταθμούς παρατήρησης του NOAA.",
+        conclusion: "Τι παρατηρείται ως προς τις συγκεντρώσεις CO₂ που ανιχνεύθηκαν σε κάθε περιοχή;",
       },
-      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth ”The science of climate change is not credible”, is (are):",
-      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
+      conclusion: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) σχετικά με τον μύθο «Η επιστήμη της κλιματικής αλλαγής δεν είναι αξιόπιστη.» είναι:",
+      flicc_label: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {
           name: "Video: Building a robust temperature record",
@@ -650,94 +644,106 @@ export default {
 
 
 
+
+
     cc_myth4: {
-      title: "Climate change",
-      subtitle: "Guided inquiry, Myth 4",
-      myth: " Myth 4: “The temperature rise is for good”",
-      hypothesis: "Write down your testable hypothesis concerning Myth 4.",
+      title: "Κλιματική Αλλαγή",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 4",
+      myth: "Η ομάδα σας καλείται να διαπραγματευτεί το Μύθο 4 «Η αύξηση της θερμοκρασίας είναι για καλό».",
+      hypothesis: "Καταγράψτε την υπόθεση/ το ερευνητικό σας ερώτημα σχετικά με τον μύθο 4.",
       a1: {
         argument: {
-          txt_1: "You are given the basic arguments of Myth 4 and the questions you must answer using the following scientific sources.",
-          argument: "Argument 1 of Myth 4: As the temperature rises, deaths from colds will decrease."
+          txt_1: "Σας δίνεται το βασικό επιχείρημα του Μύθου 4 και οι ερωτήσεις που πρέπει να απαντήσετε χρησιμοποιώντας τις δεδομένες επιστημονικές πηγές.",
+          argument: "Επιχείρημα 1 για τον Μύθο 4: Με την αύξηση της θερμοκρασίας θα μειωθούν οι θάνατοι λόγω ψύχους."
         },
-        question: "Question: Does the rise in temperature affect the number of deaths?",
+        question: "Διερευνήσιμο ερώτημα: Η αύξηση της θερμοκρασίας επηρεάζει τον αριθμό των θανάτων;",
         source_txt: "Otsi vastused küsimustele kasutades viidatud allikaid.",
         source_410: {
-          txt_1: "Study the {link1} and answer the question.",
-          link_1: "publication of the World Health Organization",
-          label_1: "“Climate change is considered the greatest threat to human health”, the report said. What do you think of this view after reading the above scientific source?  Justify your answer."
+          txt_1: "Μελετήστε τη {link1} και απαντήστε στην ερώτηση.",
+          link_1: "δημοσίευση του Παγκόσμιου Οργανισμού Υγείας",
+          label_1: "«Η κλιματική αλλαγή θεωρείται η μεγαλύτερη απειλή για την ανθρώπινη υγεία», αναφέρει η έκθεση. Πώς σας φαίνεται αυτή η άποψη αφού διαβάσετε την παραπάνω επιστημονική πηγή; Να αιτιολογήσετε την απάντησή σας."
         },
         source_411: {
-          txt_1: "Study the {link1} and perform the task.",
-          link_1: "Source 4.1",
-          label_1: "Write below examples about the effects of climate change on human health."
+          txt_1: "Μελετήστε την {link1} και φέρετε εις πέρας την παρακάτω εργασία.",
+          link_1: "Πηγή 4.1",
+          label_1: "Γράψετε παραδείγματα σχετικά με τις επιπτώσεις της κλιματικής αλλαγής στην ανθρώπινη υγεία."
         },
         source_412: {
-          txt_1: "Study the {link1} and perform the task.",
-          link_1: "Source 4.2",
-          label_1: "Record your observations about deaths due to climate change."
+          txt_1: "Μελετήστε την {link1} και φέρετε εις πέρας την παρακάτω εργασία.",
+          link_1: "Πηγή 4.2",
+          label_1: "Καταγράψετε τις παρατηρήσεις σας σχετικά με τους θανάτους λόγω της κλιματικής αλλαγής."
         },
-        conclusion: "After studying the above scientific sources (Publication of the WHO, Source 4.1 & Source 4.2), what is your answer to the Question: Does the rise in temperature affect the number of deaths? Referring to Argument 1 of Myth 4?"
+        conclusion: "Αφού μελετήσατε τις παραπάνω επιστημονικές πηγές (Δημοσίευση του ΠΟΥ, Πηγή 4.1 & Πηγή 4.2), ποια είναι η απάντησή σας στην ερώτηση: Η άνοδος της θερμοκρασίας επηρεάζει τον αριθμό των θανάτων αναφορικά με το Επιχείρημα 1 του μύθου 4;"
       },
       a2: {
-        argument: "Argument 2 of Myth 4: As the temperature rises, the residential areas and the cultivated land will increase.",
-        question: "Does the rise in temperature affect the amount of land used for housing or cultivation?",
-        txt_1: "In order to check the above question, study or apply the following scientific sources.",
+        argument: "Επιχείρημα 2 για τον Μύθο 4: Με την αύξηση της θερμοκρασίας θα αυξηθούν οι κατοικήσιμες περιοχές και η καλλιεργήσιμη γη.",
+        question: "Διερευνήσιμο ερώτημα: Η αύξηση της θερμοκρασίας επηρεάζει την έκταση της αξιοποιήσιμης γης για κατοικία ή καλλιέργεια;",
+        txt_1: "Ακολουθήστε την πιο κάτω πειραματική διαδικασία και απαντήστε στα ερωτήματα που ακολουθούν.",
         exp: {
-          title: "Scientific Source: Conducting an experiment",
+          title: "Επιστημονική Πηγή: Πειραματική διαδικασία",
           list_1: {
-            title: "Means and materials:",
+            title: "Μέσα και Υλικά:",
             list: [
-              "Sand or soil", "Water", "Large plastic bottles cut in half", "Plastic cups", "Ice cubes", "Transparent film", "Light bulb", "Marker"
+              "Άμμος ή χώμα", 
+              "Νερό", 
+              "Μεγάλα πλαστικά μπουκάλια κομμένα στη μέση",
+              "Πλαστικά ποτηράκια",
+              "Παγάκια", 
+              "Διαφανής μεμβράνη", 
+              "Λάμπα", 
+              "Μαρκαδόρος"
             ],
             image_caption: "Figure: Experiment setup"
           },
           list_2: {
-            title: "Experimental procedure:",
+            title: "Πειραματική διαδικασία:",
             list: [
-              "Place an equal amount of sand or soil in the two large plastic bottles.", "Place a plastic cup with the spout in the soil of each plastic bottle and secure the other plastic cup over the 1st glass with the spout facing up. Place the same number of ice in every 2nd plastic cup.", "Make grooves between the bottom two parts of the plastic cups so that water can flow from the ice into each plastic bottle.", "Put an equal amount of water in each plastic bottle.", "Cover each plastic bottle with cling film.", "Turn on the light and make observations after 20 minutes."
+              "Τοποθετήστε ίση ποσότητα άμμου ή χώματος στα δύο μεγάλα πλαστικά μπουκάλια.","Τοποθετήστε το ένα πλαστικό ποτήρι με το στόμιο μέσα στο χώμα του κάθε πλαστικού μπουκαλιού και στερεώστε το άλλο πλαστικό ποτήρι πάνω από το 1ο ποτήρι με το στόμιο προς τα πάνω. Στο κάθε 2ο πλαστικό ποτήρι τοποθετήστε τον ίδιο αριθμό πάγου.","Δημιουργήστε εγκοπές μεταξύ των δύο κάτω μερών των πλαστικών ποτηριών ώστε να ρέει το νερό από τον πάγο προς το κάθε πλαστικό μπουκάλι.",
+              "Τοποθετήστε ίση ποσότητα νερού σε κάθε πλαστικό μπουκάλι.",
+              "Καλύψτε το ένα πλαστικό μπουκάλι με διαφανής μεμβράνη.",
+              "Ανάψτε τη λάμπα και κάνετε παρατηρήσεις μετά από 20 λεπτά."
             ],
           },
           variable_table: {
-            title: "Valid experiment",
-            subtitle: "Fill the table.",
+            title: "Έγκυρο πείραμα",
+            subtitle: "Συμπληρώστε τον πίνακα.",
             table: {
               header: [
-                { thead: "Constants" },
-                { thead: "Changed factor" },
-                { thead: "Measured factor" }
+                { thead: "Παράγοντες που διατηρώ σταθερούς" },
+                { thead: "Παράγοντας που μεταβάλλω" },
+                { thead: "Παράγοντας που μετρώ" }
               ]
             }
           },
-          hypothesis: "Prediction",
+          hypothesis: "Πρόβλεψη",
           results_table: {
-            title: "Results",
-            subtitle: "Fill the table.",
+            title: "Αποτελέσματα",
+            subtitle: "Συμπληρώστε τον πίνακα.",
             table: {
               header: [
                 { thead: "" },
-                { thead: "Bottle A" },
-                { thead: "Bottle B" },
+                { thead: "ΔΟΧΕΙΟ A" },
+                { thead: "ΔΟΧΕΙΟ B" },
               ],
               rows: [
-                ["Initial water level (cm)", "", ""],
-                ["Final water level (cm)", "", ""],
-                ["Water level change (cm)", "", ""],
+                ["Αρχική στάθμη νερού (cm):", "", ""],
+                ["Τελική στάθμη νερού (cm):", "", ""],
+                ["Μεταβολή στάθμης νερού (cm):", "", ""],
               ]
             }
           },
-          conclusion: "Observations",
-          islands: "Let us suppose that the two bottles represent two islands. Which island would you like to live on and why?"
+          conclusion: "Παρατηρήσεις",
+          islands: "Ας υποθέσουμε ότι τα δυο δοχεία αντιπροσωπεύουν δύο νησιά. Σε ποιο νησί θα θέλατε να ζήσετε και γιατί;"
         },
         source_421: {
-          txt_1: "NB! At the following link {link1}, you can explore islands that are in danger of extinction due to climate change.",
-          link_1: "link",
-          txt_2: "Study the source of NASA: {link2} and perform the task.",
+          txt_1: "Στον {link1} αυτό μπορείτε να εξερευνήσετε νησιά τα οποία κινδυνεύουν να εξαφανιστούν λόγω της κλιματικής αλλαγής:",
+          link_1: "σύνδεσμο",
+          txt_2: "Μελετήστε την πηγή της NASA: {link2} και και φέρετε εις πέρας την παρακάτω εργασία.",
           link_2: "Vital Signs: Sea Level",
-          label_1: "Record the factors associated with rising sea levels and, consequently, decreasing land available for housing or cultivation."
+          label_1: "Καταγράψτε τους παράγοντες που σχετίζονται με την άνοδο της στάθμης της θάλασσας και κατά συνέπεια, τη μείωση της διαθέσιμης γης για στέγαση ή καλλιέργεια."
         },
         graph: {
-          txt_1: "Compare the graphs below (you can go to the links below the graphs for more accurate data retrieval).",
+          txt_1: "Συγκρίνετε τα πιο κάτω γραφήματα (μπορείτε να μεταβείτε στους συνδέσμους που δίνονται κάτω από τα γραφήματα για πιο ακριβή εντοπισμό των δεδομένων).",
           img_1: {
             src: "https://evidence.onkel.ee/assets/c-change__myth4__globaltemp.webp",
             credits: "https://climate.nasa.gov/vital-signs/global-temperature/",
@@ -749,11 +755,11 @@ export default {
             caption: "Sealevel Change 1900−2018"
           },
           sealevel_table: {
-            subtitle: "Fill the table.",
-            label_1: "What is the relationship between temperature and sea level?",
+            subtitle: "Συμπληρώστε τον πίνακα.",
+            label_1: "Ποια σχέση υπάρχει μεταξύ θερμοκρασίας και επιπέδου στάθμης της θάλασσας;",
             table: {
               header: [
-                { thead: "Year" },
+                { thead: "Έτος" },
                 { thead: "1900" },
                 { thead: "1920" },
                 { thead: "1940" },
@@ -762,25 +768,25 @@ export default {
                 { thead: "2020" }
               ],
               rows: [
-                ["Temperature", "", "", "", "", "", ""],
-                ["Sea level", "", "", "", "", "", ""]
+                ["Θερμοκρασία", "", "", "", "", "", ""],
+                ["Στάθμη θάλασσας", "", "", "", "", "", ""]
               ]
             }
           }
         },
-        conclusion: "After studying the above scientific sources (Experimental procedure, Link & Graphs), what is your answer to the Question: “Does the temperature rise affect the amount of land used for housing or cultivation?” Referring to Argument 2 of Myth 4?"
+        conclusion: "Αφού έχετε μελετήσει τις πιο πάνω πηγές (Πειραματική Διαδικασία, Βιβλιογραφική Πηγή από τη NASA, Γραφήματα) απαντήστε στο διερευνήσιμο ερώτημα «Η αύξηση της θερμοκρασίας επηρεάζει την έκταση της αξιοποιήσιμης γης για κατοικία ή καλλιέργεια;» σχετικά με το επιχείρημα 2 που αφορά το Μύθο 4."
       },
       a3: {
-        argument: "Argument 3 of Myth 4: As the temperature rises, crops will increase, and agriculture will be favoured.",
-        question: "Question: Does the increase in temperature affect the number of crops?",
+        argument: "Επιχείρημα 3 για τον Μύθο 4: Με την αύξηση της θερμοκρασίας θα αυξηθούν οι καλλιέργειες και θα ευνοηθεί η γεωργία.",
+        question: "Διερευνήσιμο ερώτημα: Η αύξηση της θερμοκρασίας επηρεάζει τον αριθμό των καλλιεργειών;",
         source_431: {
-          txt_1: "Study the {link1} published by the European Environment Agency and perform the tasks.",
-          label_1: "What changes exist or occur in the northern and southern countries?",
+          txt_1: "Μελετήστε την {link1} που δημοσιεύτηκε από το European Environment Agency και απαντήστε στα ερωτήματα που ακολουθούν.",
+          label_1: "Τι αλλαγές συμβαίνουν ή αναμένεται να συμβούν στις βόρειες και στις νότιες χώρες;",
           table: {
-            subtitle: "Record the information given in the source.",
+            subtitle: "Καταγράψτε τις πληροφορίες που δίνονται από την πηγή.",
             header: [
-              { thead: "Northern Countries" },
-              { thead: "Southern Countries" }
+              { thead: "Βόρειες Χώρες" },
+              { thead: "Νότιες Χώρες" }
             ],
             rows: [
               ["", ""]
@@ -788,31 +794,31 @@ export default {
           }
         },
         source_432: {
-          txt_1: "Study the diagram in {link1} and perform the task.",
-          link_1: "Source 4.4",
-          label_1: "Record the information you receive from the diagram.",
+          txt_1: "Μελετήστε το διάγραμμα στην {link1} και φέρετε εις πέρας την παρακάτω εργασία.",
+          link_1: "Πηγή 4.4",
+          label_1: "Καταγράψτε τις πληροφορίες που λαμβάνετε από το διάγραμμα.",
         },
         source_433: {
-          txt_1: "Study the {link1} and answer the questions.",
-          link_1: "BBC article",
-          label_1: "Which issue does it raise? Why do you think we care so much about this?",
+          txt_1: "Μελετήστε το {link1} του BBC και απαντήστε στο ερώτημα.",
+          link_1: "δημοσίευμα",
+          label_1: "",
         },
-        conclusion: "After studying the above scientific sources (Source 4.3, Source 4.4, BBC article), what is your answer to  the question: Does the temperature increase affect the number of crops?, Referring to  Argument 3 of Myth 4?"
+        conclusion: "Αφού έχετε μελετήσει τις πηγές (Πηγή: 4.3, 4.4 και το άρθρο του BBC), ποια είναι η απάντησή σας στο ερώτημα «Η αύξηση της θερμοκρασίας επηρεάζει τον αριθμό των καλλιεργειών;» που σχετίζεται με το επιχείρημα 3 του μύθου 4;"
       },
       a4: {
-        argument: "Argument 4 of Myth 4: As the temperature rises, some species (e.g. insects) will be affected.",
-        question: "Question: Does climate change affect the population of insects?",
+        argument: "Επιχείρημα 4 για τον Μύθο 4: Καθώς η θερμοκρασία αυξάνεται, ορισμένα είδη (π.χ. έντομα) θα επηρεαστούν.",
+        question: "Διερευνήσιμο ερώτημα: Η κλιματική αλλαγή επηρεάζει τους πληθυσμούς των εντόμων;",
         source_441: {
-          txt_1: "Study again {link1} , watch the video {link2} and answer the question posed above.",
-          link_1: "Source 4.3",
+          txt_1: "Μελετήστε την επιστημονική {link1}, ξανά, παρακολουθήστε το βίντεο {link2} και απαντήστε στο πιο κάτω ερώτημα τεκμηριώνοντας την άποψή σας.",
+          link_1: "Πηγή 4.3",
           link_2: "Impact of climate change on agricultural insect pests",
           url_2: "https://www.youtube.com/watch?v=XBxuuYRDc_w",
-          label_1: "Does climate change affect the population of insects?",
+          label_1: "Η κλιματική αλλαγή επηρεάζει τους πληθυσμούς των εντόμων;",
         },
         source_442: {
-          txt_1: "Study the {link1} and answer the question.",
-          link_1: "Source 4.5",
-          label_1: "What subject is it referring to? Record the information given.",
+          txt_1: "Μελετήστε την επιστημονική {link1} και απαντήστε στο πιο κάτω ερώτημα.",
+          link_1: "Πηγή 4.5",
+          label_1: "Σε ποιο θέμα αναφέρεται; Καταγράψετε πληροφορίες που δίνονται.",
           table_label: "ENGLISH TRANSLATION IS MISSING ----------------------------------------- Otsige muid sarnaseid näiteid putukatest või umbrohtudest, mis mõjutavad või on hakanud mõjutama põllukultuure.",
           table: {
             header: [
@@ -829,35 +835,35 @@ export default {
         conclusion: "ENGLISH TRANSLATION IS MISSING -----------------------------------------  Millise järelduse saab teha küsimuse “Kas kliimamuutus mõjutab liikide populatsioone?”, kohta?"
       },
       a5: {
-        argument: "Argument 5 of Myth 4: Raising temperature helps the poor.",
-        question: "Question: Does the rise in temperature affect the financial situation of the poor?",
+        argument: "Επιχείρημα 5 για τον Μύθο 4: Η αύξηση της θερμοκρασίας βοηθά τους φτωχούς.",
+        question: "Διερευνήσιμο ερώτημα: Η αύξηση της θερμοκρασίας επηρεάζει την οικονομική κατάσταση άπορων ατόμων;",
         source_451: {
-          txt_1: "Study the {link1} to answer the following questions.",
-          link_1: "web page of UNHCR",
-          label_1: "What is a “Climate Refugee”?",
-          label_2: "List some of the reasons why people are becoming “climate refugees”."
+          txt_1: "Μελετήστε την {link1} για να απαντήσετε στις ακόλουθες ερωτήσεις.",
+          link_1: "ιστοσελίδα της UNHCR",
+          label_1: "Τι είναι «Κλιματικοί Πρόσφυγες»;",
+          label_2: "Καταγράψετε κάποιους λόγους που αναγκάζουν τους ανθρώπους να γίνουν «κλιματικοί πρόσφυγες»."
         },
-        conclusion: "After studying the above scientific sources (Web Page of UNHCR), what is your answer to the question: Does the temperature rise affect the financial situation of the poor?, referring to Argument 5 of Myth 4?",
+        conclusion: "Αφού έχετε μελετήσει τις πιο πάνω επιστημονικές πηγές (ιστοσελίδα της UNHCR), ποια είναι η απάντησή σας στο ερώτημα «Η αύξηση της θερμοκρασίας επηρεάζει την οικονομική κατάσταση άπορων ατόμων;» που σχετίζεται με το επιχείρημα 5 του μύθου 4;",
         extra: {
-          txt_1: "Study the following websites and answer the questions.",
-          q_1: "What is Climate Justice",
-          q_2: "Why is it an issue that concerns the citizens of every country?",
-          q_3: "Do you think that climate change is a social issue?"
+          txt_1: "Μελετήστε τις πιο κάτω ιστοσελίδες για να απαντήσετε στα παρακάτω ερωτήματα.",
+          q_1: "Τι είναι «Κλιματική Δικαιοσύνη»;",
+          q_2: "Γιατί είναι θέμα, το οποίο απασχολεί τους πολίτες κάθε χώρας;",
+          q_3: "Θεωρείτε ότι η κλιματική αλλαγή είναι κοινωνικό ζήτημα;"
         }
       },
-      conclusions: "Based on the given evidence, our conclusion(s) concerning the myth “The temperature rise is for good”, is (are):",
-      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
+      conclusions: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) σχετικά με το Μύθο 4 Η αύξηση της θερμοκρασίας είναι για καλό» είναι:",
+      flicc_label: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {
           name: "Climate Change and Health",
           url: "https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health"
         },
         {
-          name: "Source 4.1",
+          name: "Πηγή 4.1",
           url: "https://drive.google.com/file/d/1M7JY4bMJNEI95JIOWRnwXgmuk77_L2J2/view?usp=sharing"
         },
         {
-          name: "Source 4.2",
+          name: "Πηγή 4.2",
           url: "https://drive.google.com/file/d/1vM4uPyU3_SKXAhQHqAR_GXoRnhAR9aF2/view?usp=sharing"
         },
         {
@@ -874,7 +880,7 @@ export default {
           url: "https://drive.google.com/file/d/1xK65Z9PpcVY37UE5lKvuavIQwjDwvvRR/view?usp=sharing"
         },
         {
-          name: "Source 4.4",
+          name: "Πηγή 4.4",
           url: "https://drive.google.com/file/d/1b-_nvENTZYeVGy77uZoYCc38d8UQ4XSh/view?usp=sharing"
         },
         {
@@ -900,52 +906,69 @@ export default {
 
 
 
+
+
     cc_myth5: {
-      title: "Climate change",
-      subtitle: "Guided inquiry, Myth 5",
-      myth: "Myth 5: “There is no correlation between CO₂ and temperature”.",
-      hypothesis: "Write down your testable hypothesis concerning Myth 5.",
+      title: "Κλιματική Αλλαγή",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 5",
+      myth: "Η ομάδα σας καλείται να διαπραγματευτεί το Μύθο 5 «Δεν υπάρχει συσχέτιση μεταξύ CO₂ και θερμοκρασίας».",
+      hypothesis: "Καταγράψτε την υπόθεση / το ερευνητικό σας ερώτημα σχετικά με τον μύθο 5.",
       argument: {
-        txt_1: "You are given the basic argument of Myth 5 and the question you must answer using the following scientific sources.",
-        argument: "The argument of Myth 5: The view that CO₂ emissions are mainly responsible for the observed global warming in the 20th century is misleading."
+        txt_1: "Σας δίνεται το βασικό επιχείρημα του Μύθου 5 και το ερώτημα που πρέπει να απαντήσετε χρησιμοποιώντας τις δεδομένες επιστημονικές πηγές.",
+        argument: "Επιχείρημα για τον Μύθο 5: Η άποψη ότι οι εκπομπές CO₂ είναι κυρίως υπεύθυνες για την παρατηρούμενη υπερθέρμανση του πλανήτη τον 20ο αιώνα είναι παραπλανητική."
       },
-      question: "Question: Do CO₂ emissions affect global warming?",
+      question: "Διερευνήσιμο Ερώτημα: Οι εκπομπές CO₂ επηρεάζουν τη θερμοκρασία του πλανήτη;",
       source_1: {
-        txt_1: "Study the following source: {link1}",
-        txt_2: "Record your comments."
+        txt_1: "Μελετήστε την ακόλουθη πηγή: {link1}",
+        txt_2: "Καταγράψετε τις παρατηρήσεις σας."
       },
       exp_1: {
-        title: "Scientific source: Conducting an experiment",
-        question: "Follow the guidelines of the experimental procedure to answer the question: Does rising CO₂ affect the Earth's temperature?",
+        title: "Επιστημονική Πηγή: Πειραματική διαδικασία",
+        question: "Ακολουθήστε τις οδηγίες της πειραματικής διαδικασίας για να απαντήσετε στην ερώτηση: Η αύξηση του CO₂ επηρεάζει τη θερμοκρασία της Γης;",
         formula: "ENGLISH MISSING ------------------------   NB! Acid + Carbonate → happejääk + H₂O + CO₂",
         list_1: {
-          title: "Tools and materials:",
+          title: "Μέσα και Υλικά:",
           list: [
-            "Two bulbs", "Two electric thermometers", "Two glass bottles with caps", "Two paper rolls", "Baking soda", "Vinegar", "Funnel", "Volumetric cylinder", "Plastic container", "Spoon", "Pair of scissors", "Tape"
+            "2 λάμπες",
+            "2 ηλεκτρικά θερμόμετρα",
+            "2 γυάλινες φιάλες με πώμα",
+            "2 χάρτινους κυλίνδρους",
+            "Μαγειρική σόδα",
+            "Ξύδι",
+            "Χωνί",
+            "Ογκομετρικός κύλινδρος",
+            "Πλαστικό δοχείο",
+            "Κουτάλι",
+            "Ψαλίδι",
+            "Κολλητική ταινία"
           ]
         },
         list_2: {
-          title: "Experimental procedure:",
+          title: "Πειραματική διαδικασία:",
           list: [
-            "Place the thermometer cable into the paper cylinder.", "Put three tablespoons of baking soda in the two glass bottles.", "In a volumetric cylinder, measure 50 mL of vinegar.", "Stick the paper cylinder with its thermometer in each glass bottle.", "In a container, pour the vinegar with the help of the funnel and close the lid. At the moment, we close the lid on the 2nd container.", "Leave a light bulb next to each container for 30 minutes. During this time, we monitor the change in temperature in each case and record our data."
+            "Τοποθετούμε το καλώδιο του θερμομέτρου στον εσωτερικό χώρο του χάρτινου κυλίνδρου.","Βάζουμε 3 κουταλιές μαγειρικής σόδας στις 2 γυάλινες φιάλες.",
+            "Σε ογκομετρικό κύλινδρο μετρούμε 50mL ξύδι.",
+            "Κολλούμε στο κάθε γυάλινο δοχείο τον χάρτινο κύλινδρο με το θερμόμετρο του.",
+            "Στο ένα δοχείο ρίχνουμε με τη βοήθεια του χωνιού το ξύδι και κλείνουμε το πώμα. Την στιγμή κλείνουμε και το πώμα στο 2ο δοχείο.",
+            "Τοποθετούμε δίπλα από κάθε δοχείο μια αναμμένη λάμπα και την αφήνουμε για 30 λεπτά. Στο χρονικό αυτό διάστημα παρακολουθούμε την μεταβολή της θερμοκρασίας σε κάθε περίπτωση και καταγράφουμε τα δεδομένα μας."
           ]
         },
         table_1: {
-          label: "Fill the table",
+          label: "Συμπληρώστε τον πίνακα.",
           table: {
             header: [
-              { thead: "Constants" },
-              { thead: "Changed factor" },
-              { thead: "Measured factor" }
+              { thead: "Παράγοντες που διατηρώ σταθερούς" },
+              { thead: "Παράγοντας που μεταβάλλω" },
+              { thead: "Παράγοντας που μετρώ" }
             ]
           }
         },
-        hypothesis: "Prediction:",
+        hypothesis: "Πρόβλεψη:",
         table_2: {
-          title: "Record temperatures",
-          txt_1: "Fill the table.",
+          title: "Καταγράψετε τις θερμοκρασίες",
+          txt_1: "Συμπληρώστε τον πίνακα.",
           header: [
-            { thead: "Time, min" },
+            { thead: "Χρόνος: λεπτά" },
             { thead: "0" },
             { thead: "2" },
             { thead: "4" },
@@ -958,25 +981,25 @@ export default {
             { thead: "18" }
           ],
           rows: [
-            ["Container A Temperature °C", "", "", "", "", "", "", "", "", "", ""],
-            ["Container B Temperature °C", "", "", "", "", "", "", "", "", "", ""]
+            ["Δοχείο Α Θερμοκρασία °C", "", "", "", "", "", "", "", "", "", ""],
+            ["Δοχείο Β Θερμοκρασία °C", "", "", "", "", "", "", "", "", "", ""]
           ]
         },
         table_3: {
-          title: "Data recording",
-          txt_1: "Fill the table.",
+          title: "Καταγραφή δεδομένων",
+          txt_1: "Συμπληρώστε τον πίνακα.",
           header: [
             { thead: " " },
-            { thead: "Container A" },
-            { thead: "Container B" }
+            { thead: "ΔΟΧΕΙΟ A" },
+            { thead: "ΔΟΧΕΙΟ B" }
           ],
           rows: [
-            ["Initial Temperature °C", "", ""],
-            ["Final Temperature °C", "", ""],
-            ["Temperature Change °C", "", ""]
+            ["Αρχική Θερμοκρασία (°C)", "", ""],
+            ["Τελική Θερμοκρασία (°C)", "", ""],
+            ["Μεταβολή Θερμοκρασίας (°C)", "", ""]
           ]
         },
-        collected_data: "Observations:"
+        collected_data: "Παρατηρήσεις:"
 
       },
       // reliability: {
@@ -984,8 +1007,8 @@ export default {
       //   link_1: "tööriista",
       //   url_1: ""
       // },
-      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth “There is no correlation between CO₂ and temperature” is (are):",
-      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
+      conclusion: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) σχετικά με τον μύθο «Δεν υπάρχει συσχέτιση μεταξύ CO₂ και θερμοκρασίας.» είναι:",
+      flicc_label: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {
           name: "How Carbon Affects Nearly Everything on Earth – Including Our Future",
@@ -998,83 +1021,88 @@ export default {
 
 
 
+
+
     cc_myth6: {
-      title: "Climate change",
-      subtitle: "Guided inquiry, Myth 6",
-      myth: "Myth 6: “Climate change actions will make people poorer”.",
-      hypothesis: "Write down your testable hypothesis concerning Myth 6.",
+      title: "Κλιματική Αλλαγή",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 6",
+      myth: "Η ομάδα σας καλείται να διαπραγματευτεί το Μύθο 6 «Οι δράσεις για την κλιματική αλλαγή θα κάνουν τους ανθρώπους φτωχότερους».",
+      hypothesis: "Καταγράψτε την υπόθεση / το ερευνητικό σας ερώτημα σχετικά με τον μύθο 6.",
       argument: {
-        txt_1: "You are given the basic argument of Myth 6 and the question you must answer using the following scientific sources.",
-        argument: "The argument of Myth 6: Limiting the use of fossil fuels will hinder growth and increase the cost of living, harming the poorest."
+        txt_1: "Σας δίνεται το βασικό επιχείρημα του Μύθου 6 και το ερώτημα που πρέπει να απαντήσετε χρησιμοποιώντας τις δεδομένες επιστημονικές πηγές.",
+        argument: "Επιχείρημα για τον Μύθο 6: O περιορισμός της χρήσης των ορυκτών καυσίμων θα εμποδίσει την ανάπτυξη και θα αυξήσει το κόστος ζωής, βλάπτοντας τους φτωχότερους."
       },
-      question: "Question: Will limiting the use of fossil fuels affect growth and the cost of living, harming the poorest?",
+      question: "Διερευνήσιμο Ερώτημα: Ο περιορισμός της χρήσης των ορυκτών καυσίμων θα επηρεάσει την ανάπτυξη και το κόστος ζωής, βλάπτοντας τους φτωχότερους;",
       source_txt: "NOT TRANSLATED ---------------------------------------- Ülaltoodud uurimisküsimuse vastuse kontrollimiseks soovitatakse järgmisi allikaid:",
       source_61: {
-        txt_1: "Study  {link1} and perform the task.",
-        link_1: "Source 6.1",
-        label_1: "Record the benefits that will result from using renewable sources of electricity."
+        txt_1: "Μελετήστε την {link1} και να φέρετε εις πέρας την παρακάτω εργασία.",
+        link_1: "Πηγή 6.1",
+        label_1: "Καταγράψετε ποια πλεονεκτήματα θα προκύψουν από την αξιοποίηση των ανανεώσιμων πηγών ηλεκτρικής ενέργειας:"
       },
       source_62: {
-        txt_1: "Study {link1} and perform the task. Study the table from the {i1}, which concerns the socio-economic effects of the change of energy sources.",
-        link_1: "Source 6.2",
+        txt_1: "Μελετήστε την {link1} και να φέρετε εις πέρας την παρακάτω εργασία. Μελετήστε τον πίνακα, ο οποίος προέρχεται από το {i1}, και αφορά στις κοινωνικοοικονομικές επιδράσεις που θα έχει η μεταβολή των πηγών ενέργειας.",
+        link_1: "Πηγή 6.2",
         i_1: "World Economic Situation and Prospects 2020",
-        label_1: "Identify the impending effects of using different energy sources."
+        label_1: "Εντοπίστε τις επερχόμενες επιπτώσεις από την αξιοποίηση διαφορετικών πηγών ενέργειας."
       },
       source_63: {
-        txt_1: "Study {link1} and perform the task.",
-        link_1: "Source 6.3",
-        label_1: "Record the information about the jobs that will result from exploiting renewable energy sources."
+        txt_1: "Μελετήστε την {link1} και να φέρετε εις πέρας την παρακάτω εργασία.",
+        link_1: "Πηγή 6.3",
+        label_1: "Καταγράψετε τις πληροφορίες που δίνονται σχετικά με τις θέσεις εργασίας που θα προκύψουν από την εκμετάλλευση των ανανεώσιμων πηγών ενέργειας."
       },
-      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth “Climate change actions will make people poorer” is(are):",
-      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
+      conclusion: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) για τον μύθο «Οι δράσεις για την κλιματική αλλαγή θα κάνουν τους ανθρώπους φτωχότερους.» είναι:",
+      flicc_label: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {
-          name: "Source 6.1",
+          name: "Πηγή 6.1",
           url: "https://drive.google.com/file/d/1lLGM0OZxy3Sm0BvPeHlB7brOrNhZrBRA/view?usp=sharing"
         },
         {
-          name: "Source 6.2",
+          name: "Πηγή 6.2",
           url: "https://drive.google.com/file/d/1j-al4leaUi28OLKPq9Fj6So8XojxhOjn/view?usp=sharing"
         },
         {
-          name: "Source 6.3",
+          name: "Πηγή 6.3",
           url: "https://drive.google.com/file/d/1glVgyNAJeN_TyRwjAEAbCYQEHRw3Jwiq/view?usp=sharing"
         }
       ]
     },
 
+
+
+
     cc_myth7: {
-      title: "Climate change",
-      subtitle: "Guided inquiry, Myth 7",
-      myth: "Myth 7: “The earth's climate has always changed, and now the same thing is happening”.",
-      hypothesis: "Write down your testable hypothesis concerning Myth 7.",
+      title: "Κλιματική Αλλαγή",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 7",
+      myth: "Η ομάδα σας καλείται να διαπραγματευτεί το Μύθο 7 «Το κλίμα της γης πάντα άλλαζε, και τώρα το ίδιο συμβαίνει».",
+      hypothesis: "Καταγράψτε την υπόθεση/ το ερευνητικό σας ερώτημα σχετικά με τον μύθο 7.",
       argument: {
-        txt_1: "You are given the basic argument of Myth 7 and the question you have to answer using the following scientific sources.",
-        argument: "The argument of Myth 7: The earth's climate was always changing."
+        txt_1: "Σας δίνεται το βασικό επιχείρημα του Μύθου 7 και το ερώτημα που πρέπει να απαντήσετε χρησιμοποιώντας τις δεδομένες επιστημονικές πηγές.",
+        argument: "Επιχείρημα για τον Μύθο 7: To κλίμα της γης πάντα άλλαζε"
       },
-      question: "Question: Did the temperature always rise at the same rate?",
+      question: "Ερώτημα: Η θερμοκρασία αυξανόταν με τον ίδιο ρυθμό πάντα;",
       source_txt: "NOT TRANSLATED ------------------------------------- Ülaltoodud uurimisküsimuse vastuse kontrollimiseks on soovitav kasutada järgmisi allikaid:",
       source_71: {
-        txt_1: "Watch the Intro video: {link1} and answer the question.",
+        txt_1: "Παρακολουθήστε το εισαγωγικό βίντεο  {link1} και απαντήστε στην ερώτηση.",
         link_1: "The greenhouse effect and climate change history",
-        label_1: "What subject is it referring to?"
+        label_1: "Σε ποιο θέμα αναφέρεται;"
       },
       source_72: {
-        txt_1: "Study the following {link1} and answer the question.",
-        link_1: "graph",
-        label_1: "Monitor the temperatures for each year. What do you notice?"
+        txt_1: "Μελετήστε τον {link1} με τη γραφική παράσταση και απαντήστε στην ερώτηση.",
+        link_1: "σύνδεσμο",
+        label_1: "Παρακολουθήστε τις θερμοκρασίες για κάθε χρονιά. Τι παρατηρείτε;"
       },
       source_73: {
-        txt_1: "Study  {link1} and perform the task.",
-        link_1: "Source 7.1",
-        label_1: "Record information we receive regarding temperature rise."
+        txt_1: "Μελετήστε την {link1} and perform the task.",
+        link_1: "Πηγή 7.1",
+        label_1: "Καταγράψτε πληροφορίες που λαμβάνουμε όσον αφορά την αύξηση της θερμοκρασίας."
       },
       table_years: {
-        label_1: "Compare the change in temperature every twenty years. How much temperature rise did we have every twenty years?",
+        label_1: "Συγκρίνετε τη μεταβολή της θερμοκρασίας ανά εικοσαετία. Πόση αύξηση θερμοκρασίας είχαμε για κάθε εικοσαετία;",
         table: {
           header: [
-            { thead: "Period" },
-            { thead: "Temperature Change" }
+            { thead: "Χρονιές" },
+            { thead: "Μεταβολή Θερμοκρασίας" }
           ],
           rows: [
             ["1880-1900", ""],
@@ -1087,9 +1115,9 @@ export default {
           ]
         },
       },
-      years_max: "When did we have the biggest temperature rise?",
-      conclusion: "Based on the given evidence, our conclusion(s) concerning the myth “The earth's climate has always changed, and now the same thing is happening”, is/are:",
-      flicc_label: "According to the data you collected, where do you owe the error of this myth?",
+      years_max: "Πότε είχαμε τη μεγαλύτερη αύξηση θερμοκρασίας;",
+      conclusion: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) σχετικά  με τον μύθο «Το κλίμα της γης πάντα άλλαζε, και τώρα το ίδιο συμβαίνει.» είναι:",
+      flicc_label: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {
           name: "The greenhouse effect and climate change history",
@@ -1100,7 +1128,7 @@ export default {
           url: "https://climate.nasa.gov/vital-signs/global-temperature/"
         },
         {
-          name: "Source 7.1",
+          name: "Πηγή 7.1",
           url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]

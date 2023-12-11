@@ -34,7 +34,7 @@
             
             <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
 
-            <h1 class="mb-0">{{ t('inquiry.cc_myth4.title') }}</h1>
+            <h1 class="mb-2">{{ t('inquiry.cc_myth4.title') }}</h1>
             <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc_myth4.subtitle') }}</h5>
         
             <h2 class="border-l-8 border-l-rose-400 pl-4">
@@ -44,7 +44,7 @@
             <label for="hypothesis" class="block mb-2">
                 <b>{{ t('inquiry.cc_myth4.hypothesis') }}</b>
             </label>
-            <textarea id="hypothesis" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="hypothesis" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.hypothesis"></textarea>
             
             
@@ -78,7 +78,7 @@
             <label for="source410" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a1.source_410.label_1') }}</b>
             </label>
-            <textarea id="source71" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="source71" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a1.source410"></textarea>
 
 
@@ -93,7 +93,7 @@
             <label for="source411" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a1.source_411.label_1') }}</b>
             </label>
-            <textarea id="source411" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="source411" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a1.source411"></textarea>
             
             
@@ -106,7 +106,7 @@
             <label for="source412" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a1.source_412.label_1') }}</b>
             </label>
-            <textarea id="source412" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="source412" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a1.source412"></textarea>
 
 
@@ -114,7 +114,7 @@
             <label for="a1conclusion" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a1.conclusion') }}</b>
             </label>
-            <textarea id="a1conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="a1conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a1.conclusion"></textarea>
 
 
@@ -170,7 +170,7 @@
             </ol>
 
             
-            <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+            <div class="e-card mb-16">
                 <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a2.variableTable" 
                 :tableStructure="tm('inquiry.cc_myth4.a2.exp.variable_table.table')" 
                 :title="t('inquiry.cc_myth4.a2.exp.variable_table.title')"
@@ -183,12 +183,12 @@
             <label for="a2hypothesis" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a2.exp.hypothesis') }}</b>
             </label>
-            <textarea id="a2hypothesis" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="a2hypothesis" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a2.hypothesis"></textarea>
 
 
 
-            <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+            <div class="e-card mb-16">
                 <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a2.resultsTable" 
                 :tableStructure="tm('inquiry.cc_myth4.a2.exp.results_table.table')" :overwrite="true"
                 :title="t('inquiry.cc_myth4.a2.exp.results_table.title')" 
@@ -199,14 +199,14 @@
             <label for="a2conclusion" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a2.exp.conclusion') }}</b>
             </label>
-            <textarea id="a2conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="a2conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a2.conclusion"></textarea>
             
             
             <label for="a2islands" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a2.exp.islands') }}</b>
             </label>
-            <textarea id="a2islands" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="a2islands" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a2.islands"></textarea>
 
 
@@ -228,11 +228,11 @@
             <label for="a2source421" class="block mb-2 mt-2">
                 <b>{{ t('inquiry.cc_myth4.a2.source_421.label_1') }}</b>
             </label>
-            <textarea id="a2source421" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+            <textarea id="a2source421" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth4Answers.a2.source421"></textarea>
 
 
-            <div class="e-card w-[90vw]" style="transform: translateX(-5vw);" >
+            <div class="e-card mb-16">
                 <p>{{ t('inquiry.cc_myth4.a2.graph.txt_1') }}</p>
                 <div class="grid gap-4 grid-cols-1 lg:grid-cols-2">
                     <UiContentImage :src="t('inquiry.cc_myth4.a2.graph.img_1.src')" :credits="t('inquiry.cc_myth4.a2.graph.img_1.credits')">
@@ -248,26 +248,25 @@
                 </div>     
             </div>
 
-            <div class="e-card w-[90vw] my-8" style="transform: translateX(-5vw);">
+            <div class="e-card my-16">
                 <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a2.sealevelTable" 
                 :tableStructure="tm('inquiry.cc_myth4.a2.graph.sealevel_table.table')" 
                 :subtitle="t('inquiry.cc_myth4.a2.graph.sealevel_table.subtitle')"
                 :overwrite="true" />
            
 
-            <label for="a2sealevel" class="block mb-2 mt-4">
+                <label for="a2sealevel" class="block mb-2 mt-4">
                 <b>{{ t('inquiry.cc_myth4.a2.graph.sealevel_table.label_1') }}</b>
-            </label>
-            <textarea id="a2sealevel" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
-            v-model="climateMyth4Answers.a2.sealevelTableAnswer"></textarea>
+                </label>
+                <textarea id="a2sealevel" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
+                v-model="climateMyth4Answers.a2.sealevelTableAnswer"></textarea>
+            </div>
 
-        </div>
-
-        <label for="a2conclusion" class="block mb-2 mt-4">
+            <label for="a2conclusion" class="block mb-2 mt-4">
                 <b>{{ t('inquiry.cc_myth4.a2.conclusion') }}</b>
-        </label>
-        <textarea id="a2conclusion" class="textarea textarea-bordered block w-full" placeholder="✍️" rows="5"
-        v-model="climateMyth4Answers.a2.conclusion"></textarea>
+            </label>
+            <textarea id="a2conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
+            v-model="climateMyth4Answers.a2.conclusion"></textarea>
 
         <hr />
 
@@ -300,7 +299,7 @@
 
 
         <p class="mb-2"><b>{{ t('inquiry.cc_myth4.a3.source_431.label_1') }}</b></p>
-        <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+        <div class="e-card mb-16">
             <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a3.source431Table" 
             :tableStructure="tm('inquiry.cc_myth4.a3.source_431.table')" 
             :subtitle="t('inquiry.cc_myth4.a3.source_431.table.subtitle')"
@@ -319,7 +318,7 @@
         <label for="a3source2" class="block mb-2 mt-2">
             <b>{{ t('inquiry.cc_myth4.a3.source_432.label_1') }}</b>
         </label>
-        <textarea id="a3source2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a3source2" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a3.source432"></textarea>
 
 
@@ -333,13 +332,13 @@
         <label for="a3source3" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a3.source_433.label_1') }}</b>
         </label>
-        <textarea id="a3source3" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a3source3" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a3.source433"></textarea>
 
         <label for="a3concl" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a3.conclusion') }}</b>
         </label>
-        <textarea id="a3concl" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a3concl" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a3.conclusion"></textarea>
 
 
@@ -380,7 +379,7 @@
         <label for="a4source441" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a4.source_441.label_1') }}</b>
         </label>
-        <textarea id="a4source441" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a4source441" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a4.source441"></textarea>
 
 
@@ -393,12 +392,12 @@
         <label for="a4source442" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a4.source_442.label_1') }}</b>
         </label>
-        <textarea id="a4source442" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a4source442" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a4.source442"></textarea>
 
         <p><b>{{ t('inquiry.cc_myth4.a4.source_442.table_label') }}</b></p>
 
-        <div class="e-card w-[90vw] mb-8" style="transform: translateX(-5vw);">
+        <div class="e-card mb-16">
             <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a4.insectTable" 
             :tableStructure="tm('inquiry.cc_myth4.a4.source_442.table')" 
             :newRow="['', '']"
@@ -408,7 +407,7 @@
         <label for="a4concl" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a4.conclusion') }}</b>
         </label>
-        <textarea id="a4concl" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a4concl" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a4.conclusion"></textarea>
 
         <hr />
@@ -439,19 +438,19 @@
         <label for="a5source451" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a5.source_451.label_1') }}</b>
         </label>
-        <textarea id="a5source451" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a5source451" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a5.source451"></textarea>
         
         <label for="a5source451b" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a5.source_451.label_2') }}</b>
         </label>
-        <textarea id="a5source451b" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a5source451b" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a5.q1"></textarea>
         
         <label for="a5concl" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a5.conclusion') }}</b>
         </label>
-        <textarea id="a5concl" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a5concl" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a5.conclusion"></textarea>
 
         <hr />
@@ -467,19 +466,19 @@
         <label for="a5ext1" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a5.extra.q_1') }}</b>
         </label>
-        <textarea id="a5ext1" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a5ext1" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a5.extra1"></textarea>
         
         <label for="a5ext2" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a5.extra.q_2') }}</b>
         </label>
-        <textarea id="a5ext2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a5ext2" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a5.extra2"></textarea>
         
         <label for="a5ext2" class="block mb-2 mt-0">
             <b>{{ t('inquiry.cc_myth4.a5.extra.q_3') }}</b>
         </label>
-        <textarea id="a5ext2" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="a5ext2" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.a5.extra3"></textarea>
         
         <hr />
@@ -493,7 +492,7 @@
             </template>
         </i18n-t>
 
-        <div class="e-card w-[90vw] mb-8 " style="transform:translateX(-5vw)">
+        <div class="e-card mb-16">
             <ToolsReliabilityTable :storeToUpdate="climateMyth4Answers" currentSources="inquiry.cc_myth4.sources" key="ccmyth4rlblty" />
         </div>
 
@@ -503,15 +502,15 @@
         <label for="conclusion" class="block mb-2 mt-8">
             <b>{{ t('inquiry.cc_myth4.conclusions') }}</b>
         </label>
-        <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-8" placeholder="✍️" rows="5"
+        <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
         v-model="climateMyth4Answers.conclusions"></textarea>
 
 
         <hr />
 
-        <label><b>{{ t('inquiry.cc_myth4.flicc_label') }}</b></label>
+        <label class="block mb-2"><b>{{ t('inquiry.cc_myth4.flicc_label') }}</b></label>
             
-        <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
+        <div class="e-card mb-16">
             <ToolsFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
             <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
         </div>
