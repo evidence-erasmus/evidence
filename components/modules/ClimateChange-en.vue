@@ -15,8 +15,8 @@
             <h5 class="font-normal uppercase leading-tight">Materials for teacher</h5>
         
 
-            <section id="s-2">
-                <h2 id="s-1t">Module description</h2>
+            <section id="s1">
+                <h2 id="s1t">Module description</h2>
             
                 <section class="e-card e-module__meta">
                     <table class="m-0 leading-tight">
@@ -39,10 +39,10 @@
             
 
         
-            <hr  class="mt-10 mb-40 print:my-10" />
+            <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-2">
-                <h2 id="section-2">Learning objectives targeted by the module</h2>
+            <section id="s2">
+                <h2 id="s2t">Learning objectives targeted by the module</h2>
                 
                 <ul>
                     <li><b>Citizenship competence:</b> develop students’ knowledge and attitudes towards making responsible decisions related to climate change.</li>
@@ -73,10 +73,10 @@
 
 
 
-            <hr  class="mt-10 mb-40 print:my-10" />
+            <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-3">
-                <h2 id="s-3t">Expected prior knowledge about climate change</h2>
+            <section id="s3">
+                <h2 id="s3t">Expected prior knowledge about climate change</h2>
 
                 <p>Students can discuss on the following topics:</p>
 

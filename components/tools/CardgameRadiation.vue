@@ -776,8 +776,8 @@
 
     sv: {
         roleCardsFavourTitle : "Roller till förmån för position 1 (För kärnkraft)",
-        roleCardsAgainstTitle : "Roller till förmån för position 2 (Imot kärnkraft)",
-        infoCardsTitle : "Info kort",
+        roleCardsAgainstTitle : "Roller till förmån för position 2 (emot kärnkraft)",
+        infoCardsTitle : "Infokort",
         roleCardsLabel : "Roll",
         infoCardsLabel : "Info",
         roleCardsFavour : [
@@ -826,7 +826,7 @@
                 story2: "Du kommer att behöva leta efter vetenskapliga argument för att övertyga andra om att det är möjligt att förse ett land enbart med förnybar energi."
             },
             {
-                title: "Vindenergi entreprenör",
+                title: "Vindenergientreprenör",
                 image: "card_radiation_wind-enterpreneur.webp",
                 story: "Du är emot användningen av kärnkraft och vill sälja ditt projekt för att skapa en havsbaserad vindkraftspark för att ersätta kärnkraftverk. Du drivs av ekonomiska och affärsmässiga intressen och hävdar att förnybar energi är helt miljövänlig.",
                 story2: "Du måste leta efter ekonomiska, arbetskrafts- och miljömässiga bevis för att stödja ståndpunkterna mot användningen av kärnenergi."

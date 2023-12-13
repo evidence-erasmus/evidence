@@ -819,7 +819,7 @@ export default {
           txt_1: "Μελετήστε την επιστημονική {link1} και απαντήστε στο πιο κάτω ερώτημα.",
           link_1: "Πηγή 4.5",
           label_1: "Σε ποιο θέμα αναφέρεται; Καταγράψετε πληροφορίες που δίνονται.",
-          table_label: "ENGLISH TRANSLATION IS MISSING ----------------------------------------- Otsige muid sarnaseid näiteid putukatest või umbrohtudest, mis mõjutavad või on hakanud mõjutama põllukultuure.",
+          table_label: "TRANSLATION IS MISSING ----------------------------------------- Otsige muid sarnaseid näiteid putukatest või umbrohtudest, mis mõjutavad või on hakanud mõjutama põllukultuure.",
           table: {
             header: [
               { thead: "Allikas" },
@@ -832,7 +832,7 @@ export default {
             ]
           }
         },
-        conclusion: "ENGLISH TRANSLATION IS MISSING -----------------------------------------  Millise järelduse saab teha küsimuse “Kas kliimamuutus mõjutab liikide populatsioone?”, kohta?"
+        conclusion: "TRANSLATION IS MISSING -----------------------------------------  Millise järelduse saab teha küsimuse “Kas kliimamuutus mõjutab liikide populatsioone?”, kohta?"
       },
       a5: {
         argument: "Επιχείρημα 5 για τον Μύθο 4: Η αύξηση της θερμοκρασίας βοηθά τους φτωχούς.",
@@ -925,7 +925,7 @@ export default {
       exp_1: {
         title: "Επιστημονική Πηγή: Πειραματική διαδικασία",
         question: "Ακολουθήστε τις οδηγίες της πειραματικής διαδικασίας για να απαντήσετε στην ερώτηση: Η αύξηση του CO₂ επηρεάζει τη θερμοκρασία της Γης;",
-        formula: "ENGLISH MISSING ------------------------   NB! Acid + Carbonate → happejääk + H₂O + CO₂",
+        formula: "NOT TRANSLATED  ------------------------   NB! Acid + Carbonate → happejääk + H₂O + CO₂",
         list_1: {
           title: "Μέσα και Υλικά:",
           list: [
@@ -1116,7 +1116,7 @@ export default {
         },
       },
       years_max: "Πότε είχαμε τη μεγαλύτερη αύξηση θερμοκρασίας;",
-      conclusion: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) σχετικά  με τον μύθο «Το κλίμα της γης πάντα άλλαζε, και τώρα το ίδιο συμβαίνει.» είναι:",
+      conclusion: "Με βάση τα τεκμήρια, το/τα συμπέρασμα(τα) σχετικά με τον μύθο «Το κλίμα της γης πάντα άλλαζε, και τώρα το ίδιο συμβαίνει.» είναι:",
       flicc_label: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {

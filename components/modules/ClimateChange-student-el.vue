@@ -102,7 +102,7 @@
                         <a class="break-all" href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                        {text:'ΑΝΟΙΧΤΉ ΔΙΕΡΕΎΝΗΣΗ', url:'./inquiry/open', blank:false},
                         {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth1', blank:false}
                     ]" />
                 </UiCardInfo>
@@ -117,7 +117,7 @@
                         <a class="break-all" href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a>
                     </p>
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                        {text:'ΑΝΟΙΧΤΉ ΔΙΕΡΕΎΝΗΣΗ', url:'./inquiry/open', blank:false},
                         {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth2', blank:false}
                     ]" class="mb-6 font-Body"
                     />
@@ -138,7 +138,7 @@
                         <a href="https://skepticalscience.com/surface-temperature-measurements-basic.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/surface-temperature-measurements-basic.htm</a>
                     </p>
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                        {text:'ΑΝΟΙΧΤΉ ΔΙΕΡΕΎΝΗΣΗ', url:'./inquiry/open', blank:false},
                         {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth3', blank:false}
                     ]" class="mb-6 font-Body"
                     />
@@ -159,7 +159,7 @@
                         <a href="https://skepticalscience.com/global-warming-positives-negatives.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/global-warming-positives-negatives.htm</a>
                     </p>
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus 1', url:'./inquiry/open', blank:false},
+                        {text:'ΑΝΟΙΧΤΉ ΔΙΕΡΕΎΝΗΣΗ', url:'./inquiry/open', blank:false},
                         {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth4', blank:false}
                     ]" />
                 </UiCardInfo>
@@ -179,7 +179,7 @@
                         <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                     </p>
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                        {text:'ΑΝΟΙΧΤΉ ΔΙΕΡΕΎΝΗΣΗ', url:'./inquiry/open', blank:false},
                         {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth5', blank:false}
                     ]" class="mb-6 font-Body"
                     />
@@ -197,7 +197,7 @@
                         </a>
                     </p>
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                        {text:'ΑΝΟΙΧΤΉ ΔΙΕΡΕΎΝΗΣΗ', url:'./inquiry/open', blank:false},
                         {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth6', blank:false}
                     ]" class="mb-6 font-Body"
                     />
@@ -220,7 +220,7 @@
                         <a href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
                     </p>
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
+                        {text:'ΑΝΟΙΧΤΉ ΔΙΕΡΕΎΝΗΣΗ', url:'./inquiry/open', blank:false},
                         {text:'Καθοδηγούμενη Διερεύνηση', url:'./inquiry/myth7', blank:false}
                     ]" class="mb-6 font-Body"
                     />

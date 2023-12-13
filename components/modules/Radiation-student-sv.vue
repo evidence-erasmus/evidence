@@ -31,7 +31,7 @@
                 <h2 id="section-1">Introduktion</h2>
 
                 <p>
-                    I denna modul uppmanas du att reflektera över strålningsrelaterade rädslor och motbevisa eller bekräfta myter om olika former av strålning. Utgå från en introduktionsvideo där några strålningsrelaterade rädslor och myter tas upp och diskutera dem i grupp. Gruppdiskussion kommer att leda till val av en nybearbetningsaktivitet där du kommer att leta efter bevis för att motbevisa eller bekräfta en vald myt. Denna aktivitet kan utföras experimentellt eller med hjälp av så kallade sekundära bevis (information från vetenskaplig litteratur och pålitliga källor on the internet). Genom denna aktivitet lär du dig att bedöma tillförlitligheten hos informationskällor (vetenskapliga databaser, populärvetenskap, andra medier). Du måste först ställa en testbar hypotes (se Figur 1). 
+                    I denna modul uppmanas du att reflektera över strålningsrelaterade rädslor och motbevisa eller bekräfta myter om olika former av strålning. Utgå från en introduktionsvideo där några strålningsrelaterade rädslor och myter tas upp och diskutera dem i grupp. Gruppdiskussion kommer att leda till val av en mytbearbetningsaktivitet där du kommer att leta efter bevis för att motbevisa eller bekräfta en vald myt. Denna aktivitet kan utföras experimentellt eller med hjälp av så kallade sekundära bevis (information från vetenskaplig litteratur och pålitliga källor på internet). Genom denna aktivitet lär du dig att bedöma tillförlitligheten hos informationskällor (vetenskapliga databaser, populärvetenskap, andra medier). Du måste först ställa en testbar hypotes (se Figur 1). 
                 </p>
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-sv.webp" />
                 <p>
@@ -96,14 +96,14 @@
                 
                 <ul class="leading-tight">
                     <li><span class="text-rose-400 font-bold">Myt 1:</span> Sola är bra för hälsan, särskilt under vintersäsongen.</li>
-                    <li><span class="text-rose-400 font-bold">Myt 2:</span> Mikrovågsugnar sänder stark strålning, och det är farligt att vara nära ugnen när den fungerar.</li>
+                    <li><span class="text-rose-400 font-bold">Myt 2:</span> Mikrovågsugnar sänder ut stark strålning, och det är farligt att vara nära ugnen när den fungerar.</li>
                     <li><span class="text-rose-400 font-bold">Myt 3:</span> Det är dåligt att sova nära en smartphone och utsättas för dess strålning under lång tid.</li>
-                    <li><span class="text-rose-400 font-bold">Myt 4:</span> Strålning som sänds ut av 5G mobilkommunikationsmaster är farligare för människor än den som används i den tidigare generationens nätverk: 2G, 3G och 4G.</li>
+                    <li><span class="text-rose-400 font-bold">Myt 4:</span> Strålning som sänds ut av 5G-basstationer är farligare för människor än den som används i den tidigare generationens nätverk: 2G, 3G och 4G.</li>
                     <li><span class="text-rose-400 font-bold">Myt 5:</span> Solning inomhus i solarium är säkrare än att sola utomhus.</li>
                     <li><span class="text-rose-400 font-bold">Myt 6:</span> Strålning från en tandröntgen ger svår huvudvärk.</li>
                     <li><span class="text-rose-400 font-bold">Myt 7:</span> Vi måste hålla oss borta från bestrålad mat eftersom den är radioaktiv och farlig.</li>
-                    <li><span class="text-rose-400 font-bold">Myt 8:</span> Radon är bra för hälsa i små doser, eg. i radonbadet.</li>
-                    <li><span class="text-rose-400 font-bold">Myt 9:</span> UV-strålning kan endast blockeras av speciellt UV-block designat material (används för paraplyer eller badkläder).</li>
+                    <li><span class="text-rose-400 font-bold">Myt 8:</span> Radon är bra för hälsan i små doser, t ex radonbad.</li>
+                    <li><span class="text-rose-400 font-bold">Myt 9:</span> UV-strålning kan endast blockeras av speciella UV-blockdesignade material (t ex för paraplyer eller badkläder).</li>
                     <li><span class="text-rose-400 font-bold">Myt 10:</span> Efter att ha tagit medicinsk strålbehandling blir en person radioaktiv.</li>
                 </ul>
             </section>
@@ -209,7 +209,7 @@
                     <li>Rösta på politiska ståndpunkter och dela dina åsikter</li>
                 </ul>
                 <p>
-                    Rollspelet skulle kunna utformas som ett tv-debattprogram med totalt åtta roller som man skulle representera i lag om 3–4 spelare. Varje team nominerar en medlem att fungera som talesman, medan andra fungerar som rådgivare. Två elever i klassen kommer att vara tv-debattmoderatorer (programledare). Moderatorer kommer att behöva göra tidshantering under debatten och presentera sammanfattande kommentarer i slutet av rollspelet. De kan bjuda in deltagare att rösta om politiska ståndpunkter.
+                    Rollspelet kan utformas som ett tv-debattprogram med totalt åtta roller som man kan representera i lag om 3–4 spelare. Varje team nominerar en medlem att fungera som talesman, medan andra fungerar som rådgivare. Två elever i klassen kommer att vara tv-debattmoderatorer (programledare). Moderatorer kommer att behöva göra tidshantering under debatten och presentera sammanfattande kommentarer i slutet av rollspelet. De kan bjuda in deltagare att rösta om politiska ståndpunkter.
                 </p>
 
 
@@ -237,7 +237,7 @@
                             Position 2: Emot
                         </h4>
                         <p>
-                            Staten måste stänga alla kärnreaktorer i landet till 2030. Säker kärnkraftsstation och säker avfallskyrkogård är en illusion.
+                            Staten måste stänga alla kärnreaktorer i landet till 2030. Säkra kärnkraftverk och säker avfallskyrkogård (slutfövaring) är en illusion.
                         </p>
                     </div>
                 </div>
@@ -253,7 +253,7 @@
                     Du måste lägga fram välgrundade argument för din ståndpunkt / position.
                 </p>
                 <p>
-                    Kärnenergitema har flera infokort relaterade till det.
+                    Kärnenergitemat har flera infokort relaterade till det.
                 </p>
 
                 <div class="grid grid-cols-5 gap-2">
@@ -283,13 +283,13 @@
 
 
                 <h3>
-                    Fas III (≈ 45 min., tiden kan behöva förlängas)
+                    Fas III (≈ 45 min. tiden kan behöva förlängas)
                 </h3>
                 <p>
-                    Debatt eller egentligt rollspel är uppdelat i två delar. I den första delen får talespersonen för varje team tre minuter på sig att presentera sin roll och inledande argument, som de också listade på arbetsbladet i fas II (se första kolumnen i arbetsbladet). Detta arbetsblad inkluderar också kolumner för att notera de motargument som förts fram av andra team, såväl som bemötanden av dessa (se andra och tredje kolumnen i arbetsbladet) som skulle användas vidare i rollspelet. När vart och ett av de åtta lagen har presenterat sina argument kommer det att finnas en fem minuters paus, vilket gör att motargument kan utvecklas såväl som vederläggningarna av dessa.
+                    Debatt eller egentligt rollspel är uppdelat i två delar. I den första delen får talespersonen för varje team tre minuter på sig att presentera sin roll och inledande argument, som de också listade på arbetsbladet i fas II (se första kolumnen i arbetsbladet). Detta arbetsblad inkluderar också kolumner för att notera de motargument som förts fram av andra team, såväl som bemötanden av dessa (se andra och tredje kolumnen i arbetsbladet) som skulle användas vidare i rollspelet. När vart och ett av de åtta lagen har presenterat sina argument kommer det att finnas en fem minuters paus, vilket gör att motargument kan utvecklas såväl som bemötande av dessa.
                 </p>
                 <p>
-                    Efter den fem minuter långa pausen, i den andra delen av rollspelet, diskuterar de olika talespersonerna med varandra och försöker motarbeta varandras argument till stöd för sin egen ståndpunkt. Uppgiften för rådgivare (andra teammedlemmar) under denna del av rollspelet är att stödja sin teamtalesperson genom att fortsätta att föreslå vederläggningar av de argument som lagts fram av teamen som representerar andra roller.
+                    Efter den fem minuter långa pausen, i den andra delen av rollspelet, diskuterar de olika talespersonerna med varandra och försöker motarbeta varandras argument till stöd för sin egen ståndpunkt. Uppgiften för rådgivare (andra teammedlemmar) under denna del av rollspelet är att stödja sin teamtalesperson genom att fortsätta att föreslå bemötanden av de argument som lagts fram av teamen som representerar andra roller.
                 </p>
                 <p>
                     Dina argument och "professionella" idéer är viktiga i debatten!

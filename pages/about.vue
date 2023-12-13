@@ -36,7 +36,7 @@
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",
         "s04": {
             "title": "Module authors:",
-            "authors": "Katrin Vaino, Márcio Martins, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
+            "authors": "Katrin Vaino, Márcio Martins, Luís Simões, José Leitão, Céu Guarda, Bruno Santos, Alexandre Almeida, Delfim Ramos, João Ribeiro, João Duarte, José Pina, Luísa Mota, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
         },
         "s05": {
             "title": "They helped to test the materials and provide feedback:",
@@ -57,7 +57,7 @@
         "s03": "Loodud õpikeskkonna ning käsiraamatu abil saavad õpetajad käsitleda tunnis ühiskondlikult tundlikke loodusteadustega seotud teemasid. Õpilased saavad uurida taoliste teemadega seotud müüte, sh hinnata infoallikate usaldusväärsust, tunda meediatekstides ära teaduse eitamise peamisi võtteid ja anda paremini edasi teavet enda poolt läbiviidud uurimistulemuste kohta. Iga õppemooduli juhatab sisse lavastatud lühifilm, mis läbi huumoriprisma näitlikustab populaarseid teemakohaseid arusaamu. Õppematerjalides on olulisel kohal ka moraalsete dilemmade lahendamise ning konsensuslike otsuste tegemise oskuste kujundamine – ilma nendeta poleks üleilmsete probleemide lahendamine arvatavasti mõeldav.",
         "s04": {
             "title": "Materjalide autorid:",
-            "authors": "Katrin Vaino, Márcio Martins, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
+            "authors": "Katrin Vaino, Márcio Martins, Luís Simões, José Leitão, Céu Guarda, Bruno Santos, Alexandre Almeida, Delfim Ramos, João Ribeiro, João Duarte, José Pina, Luísa Mota,  Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
         },
         "s05": {
             "title": "Materjale aitasid katsetada ning tagasisidestada:",
@@ -77,7 +77,7 @@
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",
         "s04": {
             "title": "Module authors:",
-            "authors": "Katrin Vaino, Márcio Martins, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
+            "authors": "Katrin Vaino, Márcio Martins, Luís Simões, José Leitão, Céu Guarda, Bruno Santos, Alexandre Almeida, Delfim Ramos, João Ribeiro, João Duarte, José Pina, Luísa Mota, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
         },
         "s05": {
             "title": "They helped to test the materials and provide feedback:",
@@ -99,7 +99,7 @@
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",
         "s04": {
             "title": "Module authors:",
-            "authors": "Katrin Vaino, Márcio Martins, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
+            "authors": "Katrin Vaino, Márcio Martins, Luís Simões, José Leitão, Céu Guarda, Bruno Santos, Alexandre Almeida, Delfim Ramos, João Ribeiro, João Duarte, José Pina, Luísa Mota, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
         },
         "s05": {
             "title": "They helped to test the materials and provide feedback:",
@@ -121,7 +121,7 @@
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",
         "s04": {
             "title": "Module authors:",
-            "authors": "Katrin Vaino, Márcio Martins, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
+            "authors": "Katrin Vaino, Márcio Martins, Luís Simões, José Leitão, Céu Guarda, Bruno Santos, Alexandre Almeida, Delfim Ramos, João Ribeiro, João Duarte, José Pina, Luísa Mota, Konstantinos Korfiatis, Oleg Popov, Merit Karise, Oliver Maaker, Andreas Panayides, Filio Ioulianou, Stella Petrou, Vasiliki Vasileiou, Hans Orru, Anastasiya Astapova, Ana Valdmann, Triin Rosin, Jenny Hellgren, Marie Johanna Univer."
         },
         "s05": {
             "title": "They helped to test the materials and provide feedback:",

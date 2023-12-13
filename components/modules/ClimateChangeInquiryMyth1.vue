@@ -160,12 +160,19 @@
                 <b>{{ t('inquiry.cc_myth1.q_9') }}</b>
             </p>
 
-            <div class="e-card w-[90vw]" style="transform:translateX(-6vw)">
-                <ClientOnly>
-                    <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" />
-                </ClientOnly>
-            </div>
+            <UiFullWidth class="e-card">
+                <div>
+                    <ClientOnly>
+                        <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" 
+                        class="min-w-xl" />
+                    </ClientOnly>
+                </div>
+            </UiFullWidth>
             
+            <hr />
+            <hr />
+            <hr />
+
         </section>
     </div>
 </template>

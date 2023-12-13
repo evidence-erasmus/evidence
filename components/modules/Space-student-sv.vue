@@ -23,7 +23,7 @@
                 <h2 id="s-0-title">Introduktion</h2>
 
                 <p>
-                    Redan som liten var du kanske nyfiken på rymden och vad som finns där ute, om olika himlakroppar och rymdens oändlighet.  I denna modul ska du få möjlighet att reflektera över rymden och rymdutforskningar. Välj en <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introduktionsvideo </a>, där några rymdrelaterade idéer, drömmar och myter tas upp och diskutera dem i grupper. I grupper ska ni välja en myt eller fråga att undersöka som kan utföras praktiskt eller med hjälp av s information från vetenskaplig litteratur och internet (se Figur 1). 
+                    Redan som liten var du kanske nyfiken på rymden och vad som finns där ute, om olika himlakroppar och rymdens oändlighet. I denna modul ska du få möjlighet att reflektera över rymden och rymdutforskningar. Välj och titta på en <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introduktionsvideo </a>, där några rymdrelaterade idéer, drömmar och myter tas upp och diskutera dem i grupper. I grupper ska ni välja en myt eller en fråga att undersöka som kan utföras praktiskt eller med hjälp av s information från vetenskaplig litteratur och internet (se Figur 1). 
                 </p>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-sv.webp">
@@ -82,13 +82,13 @@
             <ul>
                 <li><span class="text-rose-400 font-bold">Myt 1:</span> Astronauter som kretsar runt jorden är viktlösa eftersom de är långt från jorden.</li>
                 <li><span class="text-rose-400 font-bold">Myt 2:</span> Att äta kräver gravitation för att maten ska komma ner till magsäcken. Astronauter behöver specialutbildning för att äta i mikrogravitation (i en rymdstation).</li>
-                <li><span class="text-rose-400 font-bold">Myt 3:</span> Rymdresor kommer snart att stoppas av rymdskräp.</li>
+                <li><span class="text-rose-400 font-bold">Myt 3:</span> Rymdresor kommer snart att stoppas pga rymdskräp.</li>
                 <li><span class="text-rose-400 font-bold">Myt 4:</span> Utomjordingar besöker jorden med oidentifierade flygande objekt (UFO), men regeringarna och astronauterna döljer UFO-bevis för oss</li>
                 <li><span class="text-rose-400 font-bold">Myt 5:</span> Rymdfärder bidrar till luftföroreningar och global uppvärmning</li>
                 <li><span class="text-rose-400 font-bold">Myt 6:</span> Människor borde kolonisera Mars för att säkerställa vår framtida överlevnad</li>
                 <li><span class="text-rose-400 font-bold">Myt 7:</span> Det finns liv någon annanstans i universum</li>
                 <li><span class="text-rose-400 font-bold">Myt 8:</span> Rymdavfall kan inte tas bort från rymden på ett säkert sätt</li>
-                <li><span class="text-rose-400 font-bold">Myt 9:</span> För att ta sig till Mars, måste ett rymdskepp ha en raketmotor igång på hela vägen</li>
+                <li><span class="text-rose-400 font-bold">Myt 9:</span> För att ta sig till Mars, måste ett rymdskepp ha en raketmotor igång under hela färden</li>
                 <li><span class="text-rose-400 font-bold">Myt 10:</span> Raketer behöver luft (atmosfär) som skapar en motkraft för att fungera</li>
                 <li><span class="text-rose-400 font-bold">Myt 11:</span> Den svaga gravitation (mikrogravitation) som är i rymdstationen ISS som kretsar runt jorden, är skadlig för astronauternas hälsa</li>
                 <li><span class="text-rose-400 font-bold">Myt 12:</span> Den stora gravitation (hypergravitation) som sker under raketfarkostuppskjutning och landning är skadligt för astronauters hälsa</li>
@@ -136,7 +136,7 @@
                 
 
 
-            <ModulesStudentActivity45En />
+            <ModulesStudentActivity45Sv />
 
 
 
@@ -153,62 +153,62 @@
             <hr class="mt-10 mb-40 print:my-10" />
 
             <section id="s-6">
-                <h2 id="s-6-title">Activity 6: Debate role-play</h2>
+                <h2 id="s-6-title">Aktivitet 6: Debatt – rollspel</h2>
 
                 <h4>
-                    In this activity, you are expected to:
+                    I denna aktivitet förväntas du:
                 </h4>
 
                 <ul>
-                    <li>Get familiar with the problems posed in the role-play and see them from different perspectives</li>
-                    <li>Form or clarify your own opinion</li>
-                    <li>Work towards a shared group vision</li>
-                    <li>Present and defend your arguments</li>
-                    <li>Vote on policy positions</li>
+                    <li>Bekanta dig med de problem som ställs i rollspelet och se dem ur olika perspektiv</li>
+                    <li>Forma eller förtydliga dina egna åsikter</li>
+                    <li>Arbeta mot en gemensam gruppvision</li>
+                    <li>Presentera och försvara dina argument</li>
+                    <li>Rösta om politiska ståndpunkter</li>
                 </ul>
 
                 <p>
-                    The role-play is formed as a debate involving a total of eight roles that you would represent in teams of 3-4 players. Each team nominates one member as spokesperson, while others act as advisors.
+                    Rollspelet utformas som en debatt med totalt åtta roller som du skulle representera i lag om 3-4 spelare. Varje team väljer en talesman, medan andra fungerar som rådgivare.
                 </p>
 
                 <h3>
-                    Theme: Space travels
+                    Tema: Rymdresor
                 </h3>
 
                 <p>
-                    The debate concerns the controversy that the “Human Spaceflight Programme is an unnecessary waste of resources needed for more urgent needs.”
+                    Debatten är relaterad till kontroversen att “Human Spaceflight Program är ett onödigt slöseri med resurser som skulle behövas för mer akuta behov.”
                 </p>
                 <p>
-                    This theme has two positions according to attributed roles: in favour and against developing the Human Spaceflight Programme in your country (sending national astronauts to space). 
+                    Detta tema har två positioner: för och emot utvecklingen av Human Spaceflight Program i ditt land (att sända egna astronauter till rymden). 
                 </p>
 
                 <div class="md:grid md:grid-cols-2 gap-4">
                     <div class="border-4 border-green-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
-                            Position 1: In favour
+                            Ståndpunkt 1 (för)
                         </h4>
                         <p>
-                            The state must recognise that crewed spaceflights offer an excellent opportunity for human scientific progress and national development. The state must invest in launching manned missions to space.
+                            Staten måste erkänna att rymdfärder med besättning erbjuder en stor möjlighet för mänskliga vetenskapliga framsteg och nationens utveckling. Staten måste investera i bemannade uppdrag i rymden.
                         </p>
                     </div>
                     <div class="border-4 border-red-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
-                            Position 2: Against
+                            Ståndpunkt 2 (emot):
                         </h4>
                         <p>
-                            The state must focus only on unmanned space programmes as they are more economically and ecologically sustainable, safe, and assure technological progress.
+                            Staten måste bara fokusera på obemannade rymdprogram eftersom de är mer ekonomiskt och ekologiskt hållbara, säkra och tillräckliga för att garantera  tekniska framsteg.
                         </p>
                     </div>
                 </div>
 
                 <h3>
-                    Phase I (≈ 25 minutes)
+                    Fas I (≈25 minuter)
                 </h3>
                 <p>
-                    Each team gets a role card with a brief profile of the role the team will represent.  You have to provide arguments in support of the perspective to be defended. 
+                    Varje lag får ett rollkort med en profil som laget ska representera. Du måste lägga fram välgrundade argument för din ståndpunkt. 
                 </p>
                 <p>
-                    Several info cards are provided as support material for debating Space topic.
+                    Som stödmaterial finns det flera infokort.
                 </p>
 
                 <div class="grid grid-cols-5 gap-2">
@@ -219,37 +219,38 @@
                 </div>
 
                 <p>
-                    You can also search for additional information on the Internet, taking in mind the importance of choosing reliable sources, as was done previously in Activity 3. 
+                    Ni söker också efter ytterligare information på Internet (välj tillförlitliga källor, som det gjordes tidigare i Aktivitet 3). 
                 </p>
 
 
                 <h3>
-                    Phase II (≈ 20 minutes)
+                    Fas II (≈20 minuter)
                 </h3>
                 <p>
-                    Group discussion: In this stage, you share opinions and refine common arguments within your team. Initial arguments can be prepared in visual form as PowerPoint presentations or posters using visual facilitation technique.
+                    Gruppdiskussion: Hitta på argument för att stödja sin ståndpunkt. Inledande argument kan förberedas i en visuell form med hjälp av PowerPoint-presentationer.
+
                 </p>
 
                 <h3>
-                    Phase III (≈ 45 min., time might need to be extended)
+                    Fas III (≈45 minuter, tiden kan behöva förlängas)
                 </h3>
                 <p>
-                    Debate is divided into two parts. In the first part, the spokesperson of each team is given three minutes to present their role and initial arguments. 
+                    Debatten är uppdelat i två delar. I den första delen får talespersonen för varje team två-tre minuter på sig att presentera sin roll och inledande argument.
                 </p>
                 <p>
-                    Once each of the eight teams has presented its arguments, there will be a five-minute break, thus allowing refutations to be developed, the counterarguments put forward by other teams, and the refutations of these. 
+                    När vart och ett av de åtta lagen har presenterat sina argument görs en fem minuters paus för utveckling av motargument. 
                 </p>
                 <p>
-                    Following the break, in the second part of the role-play, the various spokespersons debated, attempting to counter each other's arguments in support of their position. During this part of the role-play, the task for advisors (other team members) is to support their team spokesperson by continuing to propose refutations of the arguments put forward by the teams representing different roles.
+                    Efter pausen, i den andra delen av rollspelet, diskuterar de olika talespersonerna med varandra och försöker motarbeta varandras argument och föra fram egen ståndpunkt. Uppgiften för rådgivare (andra teammedlemmar) är att stödja sin teamtalesperson genom att föreslå svar på de argument som lagts fram av teamen som representerar andra roller.
                 </p>
                 <p>
-                    At the end of the debate, participants can vote in favour or against using tax-payers' money for crewed or robotic space missions—roles.
+                    I slutet av debatten kan deltagarna rösta för eller emot att använda skattebetalarnas pengar för de bemannade eller robotiserade rymduppdragen.
                 </p>
 
 
 
                 <h3>
-                    The cards
+                    Spelkort
                 </h3>
 
                 <UiCardGamePrintMessage url="../tools/cards/space" />

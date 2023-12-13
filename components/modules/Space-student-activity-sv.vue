@@ -2,14 +2,14 @@
     <div>
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block">Gruppbeslut: Vi kommer att undersöka följande myt eller frågan:</label>
+        <label class="font-bold block">Gruppbeslut: Vi kommer att undersöka följande myt eller fråga:</label>
         
         <textarea class="textarea textarea-bordered w-full text-lg" v-model="studentInputs.myth" placeholder="✍"></textarea>
 
         <hr />
 
         <p>
-            Begränsa myten/frågan till en testbar hypotes. Tänk på att en hypotes inte bara är en gissning – den måste vara testbart – du kan stödja eller motbevisa den genom din studie.
+            Begränsa myten/frågan till en testbar hypotes. Tänk på att en hypotes inte bara är en gissning – den måste vara testbar – du kan stödja eller motbevisa den genom din studie.
         </p>
         <p>
             Planera dina fortsatta aktiviteter genom att följa stegen som anges i figur 1. Går det att testa din myt/fråga experimentellt? Ska ni bekräfta/motbevisa den med digital teknik, till exempel datorsimuleringar, eller med hjälp av information från Internet.

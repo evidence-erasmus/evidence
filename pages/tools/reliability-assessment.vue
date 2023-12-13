@@ -591,6 +591,168 @@
 
 
 
+    
+    "el" : {
+        "source": {
+            "txt": "Source:",
+            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
+        },
+        "title": "Reliability assessment guidelines",
+        "videos-title": "Videos on assessing sources' reliability and using Google Scholar:",
+        "table1": {
+            "thead": {
+                "th1": "What is the type of the source?",
+                "th2": "How to find?",
+                "th3": "Reliability rate"
+            },
+            "row1": {
+                "c1": "Peer-reviewed research papers, especially meta-studies, systematic literature reviews and similar are at the top of reliability hierarchy. They are followed by large scale studies with big sample sizes or having data form different countries/research institutions. Though, be careful with the study papers having a very limited sample size - try to find other research papers that confirm their findings.",
+                "c2": {
+                    "title": "Research databases:",
+                    "source1" : {
+                        "txt": "Google Scholar",
+                        "link": "https://scholar.google.com/",
+                        "txt2": "read more about {link1}",
+                        "link2": "#googleScholar",
+                        "txt3": "how to use Google Scholar"
+                    },
+                    "source2": {
+                        "txt": "Medical studies’ database:",
+                        "link": "https://pubmed.ncbi.nlm.nih.gov"
+                    }
+                }
+            },
+            "row2": {
+                "c1": "Statistics / information published by relevant and trustable (inter)national organisations (.org): WHO, United Nations, Eurostat, national research academies, NASA, The Royal Society, websites of well-known universities, etc.",
+                "c2": {
+                    "source1": {
+                        "txt": "Eurostat",
+                        "link": "https://ec.europa.eu/eurostat/web/main/data/database"
+                    },
+                    "source2": {
+                        "txt": "UNdata",
+                        "link": "http://data.un.org/"
+                    },
+                    "source3": {
+                        "txt": "WHO data",
+                        "link": "https://www.who.int/data"
+                    },
+                    "source4": {
+                        "txt": "National Academies Press",
+                        "link": "https://nap.nationalacademies.org/"
+                    },
+                    "source5": {
+                        "txt": "NE.se (Swedish database)",
+                        "link": "https://www.ne.se/"
+                    }
+                }
+            },
+            "row3": {
+                "c1": "Well-known encyclopedias",
+                "c2": {
+                    "source1": {
+                        "txt": "Wikipedia",
+                        "link": "https://www.wikipedia.org/"
+                    },
+                    "source2": {
+                        "txt": "Britannica",
+                        "link": "https://www.britannica.com/"
+                    }
+                }
+            },
+            "row4": {
+                "c1": "Governmental websites (in nations with elected, democratic governments) (.gov)"
+            },
+            "row5": {
+                "c1": "Popular science books/magazines published by well-known experts in an area (cited sources are traceable)"
+            },
+            "row6": {
+                "c1": "Reputable newspapers who use fact check, other media releases of well-known experts in an area."
+            },
+            "row7": {
+                "c1": {
+                    "li1": "Life style magazines",
+                    "li2": "Web-sites of business companies",
+                    "li3": "Personal blogs, vlogs, etc.",
+                    "li4": "Politically driven sources (e.g. newspapers driven by clear political agenda - especially far right and and far left)",
+                    "li5": "Social media posts, etc."
+                }
+            }
+        },
+        "table2": {
+            "thead": {
+                "th1": "Who is the author (if any)?",
+                "th12": "(Who is behind this information?)",
+                "th2": "How to detect?",
+                "th3": "Reliability rate"
+            },
+            "row1": {
+                "c1": "If a scientist / researcher",
+                "c2": "Are his/her credits (affiliation, educational degrees, publications, awards as claimed) traceable? (E.g. using GoogleScholar, or a nation database of scientists; Estonian researchers can be found at www.etis.ee)",
+                "c22": "Has (s)he expertise in a given area?"
+            },
+            "row2": {
+                "c1": "If a well-known expert in a given area",
+                "c2": "Are his/her credits (affiliation, educational degrees, publications, awards as claimed) traceable?"
+            },
+            "row3": {
+                "c1": "If an organisation"
+            }
+        },
+        "table3": {
+            "thead": {
+                "th1": "Nature of the content",
+                "th2": "Indicators",
+                "th3": "Reliability rate"
+            },
+            "row1": {
+                "c1": "Publisher’s relationship on the topic",
+                "c2": "Balanced / neutral"
+            },
+            "row2": {
+                "c2":"Publisher is sponsored by a trusted source (e.g. European Commission, etc.)"
+            },
+            "row3": {
+                "c2":"Clearly biased or favoring a position for a purpose"
+            },
+            "row4": {
+                "c1": "Date",
+                "c12": "NB! Not all outdated sources must be unreliable - in case they are often cited means, that they have a big impact.",
+                "c2":"Recently published or revised"
+            },
+            "row5": {
+                "c2": "Outdated"
+            },
+            "row6": {
+                "c2": "No date listed"
+            },
+            "row7": {
+                "c1": "Text credibility",
+                "c2": "The purpose is to inform or teach"
+            },
+            "row8": {
+                "c2": "The tone is convincing, but not pushing."
+            },
+            "row9": {
+                "c2": "The text has specific facts and details to support the ideas"
+            },
+            "row10": {
+                "c2": "The purpose is to entertain"
+            },
+            "row11": {
+                "c2": "The purpose is to persuade, the text is emotionally loaded"
+            },
+            "row12": {
+                "c2": "The purpose is to scare"
+            },
+            "row13": {
+                "c2": "The purpose is to sell something"
+            }
+        }
+    },
+
+
+
 
 
 

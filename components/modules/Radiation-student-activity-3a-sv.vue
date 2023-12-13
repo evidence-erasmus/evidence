@@ -4,7 +4,7 @@
         <h2>Aktivitet 3a: Mythbusting baserat på experiment</h2>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Grupp beslut - Vi kommer att motbevisa följande myt:</label>
+        <label class="font-bold block">Gruppbeslut - Vi kommer att motbevisa följande myt:</label>
         
         <textarea class="textarea textarea-bordered w-full text-lg" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
