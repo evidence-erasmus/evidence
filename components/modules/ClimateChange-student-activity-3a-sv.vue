@@ -12,13 +12,13 @@
             <li>Presenterar dina insamlade data i form av tabeller och grafer, och helst videofilma ditt experiment som ett bevis (titta på handledningen)</li>
             <li>Förklarar dina resultat med hjälp av vetenskaplig kunskap.</li>
             <li>Använder dina resultat för att göra en slutsats.</li>
-            <li>Delar arbetsbelastningen inom din grupp (t.ex. genom att utse alla till olika roller).</li>
+            <li>Delar arbetsbelastningen inom din grupp (t.ex. genom att utse och fördela olika roller).</li>
         </ul>
         
         <hr />
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Grupp beslut - Vi kommer att testa följande myt:</label>
+        <label class="font-bold block">Gruppbeslut - Vi kommer att testa följande myt:</label>
         
         <textarea class="textarea textarea-bordered w-full text-lg" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 

@@ -4,7 +4,7 @@
     <section id="s-4-">
         <h2 id="s-4-t">Aktivitet 4: Förvandla bevis till ett lämpligt visuellt format</h2>
         <p>
-            I den här aktiviteten förväntas du omvandla dina bevis till en kort visuell presentation som ska tilltala dina kamrater. Diskutera formatet på din visuell presentation med din lärare.
+            I den här aktiviteten förväntas du omvandla dina bevis till en kort visuell presentation som ska tilltala dina kamrater. Diskutera formatet på din visuella presentation med din lärare.
         </p>
         <p class="font-bold">
             Potentiella format:
@@ -55,7 +55,7 @@
         </p>
         <section class="e-card py-0">
             <h3 class="mt-6 mb-2">Efter presentationen:</h3>
-            <p>Vad tycker du om den feedback ni fick från klasskamraterna? Kan den användas för att göra ännu en bättre video nästa gång? Är den rättvis? Diskutera det inom din grupp!</p>
+            <p>Vad tycker du om den feedback ni fick från klasskamraterna? Kan den användas för att göra en ännu bättre video nästa gång? Är den rättvis? Diskutera det inom din grupp!</p>
         </section>
         
     </section>

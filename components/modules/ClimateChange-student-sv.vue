@@ -29,7 +29,7 @@
                 <h2 id="s-1t">Introduktion</h2>
 
                 <p>
-                    I denna modul ska du motbevisa eller bekräfta en vanlig myt om klimatförändringar. Utgå från en <a href="#s2">introduktionsvideo</a> där några klimatförändringsrelaterade myter tas upp och diskutera dem i grupper. Gruppdiskussionen kommer att leda till val av en mytsprängande (mythbusting) aktivitet där du kommer att leta efter bevis för att motbevisa eller bekräfta en vald myt. Den här aktiviteten ska genomföras baserat på sökningar från olika källor t ex internet m fl. eller experimentellt (se Figur 1).
+                    I denna modul ska du motbevisa eller bekräfta en vanlig myt om klimatförändringar. Utgå från en <a href="#s2">introduktionsvideo</a> där några klimatförändringsrelaterade myter tas upp och diskutera dem i grupper. Gruppdiskussionen kommer att leda till en aktivitet där ni letar bevis för att motbevisa eller bekräfta en vald myt. Den här aktiviteten ska genomföras baserat på sökningar från olika källor t ex internet m fl. eller experimentellt (se Figur 1).
                 </p>
                 <UiContentImage class="my-10" :elevated="true" src="https://evidence.onkel.ee/assets/mythbusting-sv.webp">
                     <template #caption>
@@ -196,7 +196,7 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth7">
                     <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myt 7:</span> Jordens klimat har alltid förändrats, och nu händer samma sak.</h4>
                     <p class="pl-4 border-l border-blue-500">
-                        <i>“Klimatet förändras alltid. Vi har haft istider och varmare perioder då alligatorer hittades i Spitzbergen. Istider har inträffat i hundratusen års cykler under de senaste 700 tusen åren, och det har tidigare förekommit perioder som verkar ha varit varmare än idag trots att CO₂ -nivåerna var lägre än de är nu. På senare tid har vi haft den så kallade medeltida värmeperioden och den lilla istiden.”</i>
+                        <i>“Klimatet förändras alltid. Vi har haft istider och varmare perioder då alligatorer hittades i Spitzbergen. Istider har förekommit i hundratusenårscykler under den senaste 700 000 åren. På senare tid har vi haft den så kallade medeltida värmeperioden och den lilla istiden.”</i>
                         <br />
                         <a href="http://www.quadrant.org.au/blogs/doomed-planet/2009/07/resisting-climate-hysteria" target="_blank" rel="noopener noreferrer" class="text-sm">
                             —Richard Lindzen
@@ -313,13 +313,13 @@
                 <ol>
                     <li>Spelarna delas in i grupper.</li>
                     <li>
-                        Varje lag väljer ett grönt och ett blått kort. Gröna kort registrerar berättelser om klimatförändringar. Berättelserna är baserade på fakta. Varje grönt kort har motsvarande blått informationskort relaterat till berättelsen det innehåller och ger svaret på den.
+                        Varje lag väljer ett grönt och ett blått kort. Gröna kort innehåller faktabaserade berättelser om klimatförändringar. Varje grönt kort har motsvarande blått informationskort relaterat till berättelsen. Det blå kortet innehåller utförlig kompletterande fakta.
                     </li>
                     <li>
-                        Alla spelare i varje lag läser det gröna kortet. Sedan diskuterar spelarna sina berättelser med sina lag. Till exempel berättar det första gröna kortet en sann historia om en 16-årig isbjörnshanne som hittades död på Svalbard av svält. Därefter försöker lagspelarna förklara varför isbjörnen dog.
+                        Alla spelare i varje lag läser det gröna kortet. Sedan diskuterar spelarna sina berättelser med sina lag. Till exempel berättar det tredje gröna kortet en sann historia om en 16-årig isbjörnshanne som hittades död på Svalbard av svält. Därefter försöker lagspelarna förklara varför isbjörnen dog.
                     </li>
                     <li>
-                        När varje grupp presenterar berättelsen i helklass försöker gruppen med motsvarande blå informationskort svara på manuset med sina egna argument. I detta skede delar spelarna sina åsikter med andra och förbättrar sina svar när de hör olika argument och åsikter. I det här fallet hävdar blåkortsteamet att björnen dog på grund av klimatförändringar.
+                        När varje grupp presenterar berättelsen i helklass försöker gruppen med motsvarande blått informationskort svara på manuset med sina egna argument. I detta skede delar spelarna sina åsikter med andra och förbättrar sina svar när de hör olika argument och åsikter. I det här fallet hävdar blåkortsteamet att björnen dog på grund av klimatförändringar.
                     </li>
                     <li>
                         I slutet av spelet kommer spelarna att länka berättelsekorten till infokort. Varje argument får 3 poäng. Laget med högst poäng vinner spelet.
@@ -328,7 +328,7 @@
                 
                 <hr />
                 
-                <h3>Spelkorter</h3>
+                <h3>Spelkort</h3>
                 <UiCardGamePrintMessage url="../tools/cards/climate-change" />
                 <ToolsCardgameClimateChange :printMode="false" />
                 <hr />
