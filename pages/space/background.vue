@@ -4,7 +4,7 @@
             <ModulesSpaceBackgroundEt />
         </template>
         <template v-else-if="locale === 'el'">
-            <ModulesSpaceBackgroundEn />
+            <ModulesSpaceBackgroundEl />
         </template>
         <template v-else-if="locale === 'pt'">
             <ModulesSpaceBackgroundPt />

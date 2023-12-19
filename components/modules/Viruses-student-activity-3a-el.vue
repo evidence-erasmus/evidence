@@ -1,7 +1,7 @@
 <template>
     <div>
         
-        <h2>Δραστηριότητα 3α: Mythbusting based on  experiment</h2>
+        <h2>Δραστηριότητα 3α: Κατάρριψη μύθου με βάση τον πειραματισμό</h2>
 
         
         
@@ -10,7 +10,7 @@
         </div> -->
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label class="font-bold block"> Απόφαση Ομάδας - Θα διαπραγματευτούμε τον ακόλουθο μύθο:</label>
+        <label class="font-bold block"> Ομαδική συζήτηση: Θα διαπραγματευτούμε τον ακόλουθο μύθο</label>
         <textarea class="textarea textarea-bordered text-lg block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
         <hr />
@@ -19,9 +19,9 @@
 
         <p>Σε περίπτωση που πιστεύετε ότι ο μύθος σας μπορεί να ελεγχθεί πειραματικά, διαβάστε τις ακόλουθες οδηγίες:</p>
         
-        <h4>Αναμένεται να:</h4>
+        <h4>Σε αυτήν την δραστηριότητα αναμένεται από εσάς να:</h4>
         <ul class="leading-tight">
-            <li>αναπτύξετε μια ελεγχόμενη υπόθεση/ένα διερευνήσιμο ερώτημα</li>
+            <li>αναπτύξετε μια <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">ελεγχόμενη υπόθεση</a> / ένα διερευνήσιμο ερώτημα</li>
             <li>σχεδιάστε ένα πείραμα που θα επιβεβαιώσει ή θα απορρίψει την υπόθεσή σας/ θα απαντήσει στο ερευνητικό σας ερώτημα</li>
             <li>παρουσιάστε τα δεδομένα που έχετε συλλέξει με τη μορφή πινάκων και γραφημάτων και, κατά προτίμηση, βιντεοσκοπήστε το πείραμά σας ως τεκμήριο (δείτε το σχετικό
                 <br />

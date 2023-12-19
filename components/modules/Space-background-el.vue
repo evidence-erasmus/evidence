@@ -4,30 +4,30 @@
         xl:gap-10
         2xl:gap-20">
         <ClientOnly>
-            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-bg-et" />
+            <UiTableOfContents class="w-full lg:max-w-xs print:hidden" key="climatechange-bg-el" />
         </ClientOnly>
 
 
 
         <section class="e-article" lang="el" style="hyphens: auto;">
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
-            <h1 class="mb-0">Kosmos</h1>
-            <h5 class="font-normal uppercase leading-tight">Loodusteaduslik taustainfo</h5>
+            <h1 class="mb-2">Διάστημα</h1>
+            <h5 class="font-normal uppercase leading-tight">Οδηγος Εκπαιδευτικου</h5>
         
             
             <section id="s-1">
-            <h2 id="s-1-title">Sissejuhatus</h2>
+            <h2 id="s-1-title">1. Εισαγωγή</h2>
         
             <p>
-                Kosmoseajastu sai alguse Sputnik I stardist 1957. aastal ja saavutas vaieldamatult haripunkti 1969. aastal, kui inimene astus esimese sammu Kuul. Kosmoseuuringuid ajendas konkurents kahe riigi – USA ja NSVL-i vahel, kes oli vastavalt kapitalistlike ja sotsialistlike blokkide liidrid. Niisiis olid kosmoseuuringud kahe erineva sotsiaalse süsteemi vahelise konkurentsi eesliinil.
+                Η Διαστημική Εποχή ξεκίνησε με την εκτόξευση του Sputnik1 το 1957 και αναμφισβήτητα το αποκορύφωμα της ήταν το 1969 όταν ένας άνθρωπος έκανε το πρώτο βήμα στο φεγγάρι. Η εξερεύνηση του διαστήματος καθοδηγήθηκε από τον ανταγωνισμό μεταξύ δύο χωρών, των ΗΠΑ και της ΕΣΣΔ (Ένωση Σοβιετικών Σοσιαλιστικών Δημοκρατιών). Έτσι, η εξερεύνηση του διαστήματος ήταν ο κύριος ανταγωνισμός μεταξύ δύο διαφορετικών κοινωνικών συστημάτων.
             </p>
 
             <p>
-                Suhteliselt hiljuti alustasid eraettevõtted laialdast kosmosetegevust, luues meie planeedi ümber oma satelliidisüsteemi (vt <a href="https://en.wikipedia.org/wiki/Starlink" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Starlink</a>) kommertskommunikatsiooni ja -navigatsiooni jaoks. Satelliidid ja kosmosepõhine tehnoloogia aitavad lennukitel ohutult lennata ülekoormatud õhuruumis, laevadel navigeerida ookeanidel ja suurendada nende tõhusust ning võimaldavad igapäeva tehnoloogiat – näiteks tegutseda sularahaautomaatidel, satelliittelevisioonil ja autode satelliitnavigatsioonisüsteemidel. Kosmosetehnoloogia aitab meil juba praegu võidelda kliimamuutustega Maal, jälgida heitkoguseid erinevates majandussektorites ja mõõta ülemaailmseid süsinikdioksiidi heitkoguseid. Uute tehnoloogiate kasutuselevõtuga Maal on aga alati kaasnenud probleemid juhul, kui neid rakendatakse ilma nõuetekohase hoolduse ja kontrollita. Kosmosesaaste on pikaajaline probleem, mida tuleb esiteks korralikult mõista ja teiseks adresseerida tugevate ja jõustatavate regulatsioonide abil. Peame mõistma, et kosmost – nagu ka meie planeeti – tuleb tulevaste põlvkondade jaoks kaitsta.
+                Σήμερα, ιδιωτικές εταιρείες διατηρούν τεράστιες διαστημικές δραστηριότητες και δημιούργησαν την δική τους δορυφορική αρχιτεκτονική (βλ. <a href="https://en.wikipedia.org/wiki/Starlink" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Starlink</a>) για εμπορική επικοινωνία και πλοήγηση. Οι δορυφόροι και η διαστημική τεχνολογία βοηθούν τα αεροπλάνα να πετούν με ασφάλεια σε ένα εναέριο χώρο με συμφόρηση, τα πλοία να ταξιδεύουν στους ωκεανούς ενώ παράλληλα ενισχύουν την αποτελεσματικότητά  διαφόρων καθημερινών τεχνολογιών – όπως τα μηχανήματα ανάληψης μετρητών, τη δορυφορική τηλεόραση και τα συστήματα δορυφορικής πλοήγησης (satnav) των αυτοκινήτων. Η διαστημική τεχνολογία μας βοηθά ήδη να αντιμετωπίσουμε την κλιματική αλλαγή στη Γη, παρακολουθώντας τις εκπομπές ρύπων σε διάφορους τομείς της οικονομικής δραστηριότητας και μετρώντας τις παγκόσμιες εκπομπές άνθρακα. Ωστόσο, πάντα παρουσιάζονται προβλήματα όταν αναπτύσσονται νέες τεχνολογίες χωρίς την απαραίτητη προσοχή και έλεγχο. Η ρύπανση του διαστήματος από διαστημικά σκουπίδια είναι ένα μακροχρόνιο ζήτημα που πρέπει να κατανοηθεί σωστά και να αντιμετωπιστεί μέσω ισχυρών αλλά και εφαρμόσιμων ρυθμίσεων. Πρέπει να κατανοήσουμε ότι το Διάστημα, όπως και ο πλανήτης μας, πρέπει να προστατεύεται για τις μελλοντικές γενιές.
             </p>
 
             <p>
-                Kahtlemata on kosmosetehnoloogia osa meie igapäevaelust. Siiski näitavad uuringud (Inmarsat, 2022), et enamik inimesi pigem ei mõista rolli, mida kosmos meie igapäevaelus juba praegu mängib, ega selle potentsiaali tulevikus. 20 000 küsitletud inimesest 11 riigis seostas kosmost kommunikatsiooni- ja sidesatelliitidega vaid 8%  ning vaid vaid 38% soovis sellest rohkem teada. Kosmose ees oli valdav hirm – 97% nägi seda ohuna. Nende peamine mure oli kosmoseprügi ja -kokkupõrked, kosmose saastamine ja Maa atmosfääri kahjustamine. Nooremad inimesed on kosmose potentsiaalist rohkem põnevil kui vanemad. Samuti kipuvad noored soovima, et nad teaksid kosmosest rohkem. See moodul on mõeldud selle eesmärgi täitmiseks.
+                Αναμφισβήτητα, η διαστημική τεχνολογία είναι μέρος της καθημερινότητάς μας. Ωστόσο, η έρευνα δείχνει (Inmarsat, 2022) ότι οι περισσότεροι άνθρωποι δεν φαίνεται να κατανοούν τον ρόλο που παίζει ήδη το Διάστημα στην καθημερινή μας ζωή, ούτε τις δυνατότητές που έχει ώστε να προσφέρει ένα καλύτερο μέλλον για την ανθρωπότητα. Από τα 20.000 άτομα που συμμετείχαν στην έρευνα σε 11 χώρες, μόνο το 8% συσχέτισε το διάστημα με δορυφόρους συνδεσιμότητας και επικοινωνίας και μόνο το 38% θα ήθελε να μάθει περισσότερα γι' αυτό. Υπήρχε μια συντριπτική αίσθηση φόβου για το διάστημα, με το 97% να το βλέπει ως απειλή. Οι κύριες ανησυχίες τους ήταν τα διαστημικά σκουπίδια και οι συγκρούσεις, η ρύπανση του διαστήματος και η καταστροφή της ατμόσφαιρας της Γης. Οι νεότεροι άνθρωποι είναι πιο ενθουσιασμένοι με τις δυνατότητες του διαστήματος από τους μεγαλύτερους και έτσι εύχονται να μάθουν περισσότερα για το διάστημα. Αυτή η ενότητα προορίζεται να συμβάλει στον σκοπό αυτόν.
             </p>
 
         </section>
@@ -37,41 +37,41 @@
         <section id="s-2">
 
             <h2 id="s-2-title">
-                Kuidas satelliidid ümber Maa liiguvad: kiirused ja kõrgused
+                2. Πώς κινούνται οι δορυφόροι γύρω από τη Γη: Ταχύτητες και υψόμετρα
             </h2>
 
             <p>
-                Kui satelliidiga rakett Maa pinnalt välja lasta, peab see kosmosesse jõudmiseks saavutama kiiruse vähemalt 7,9 kilomeetrit sekundis. Seda nimetatakse esimeseks kosmiliseks kiiruseks, mis on vajalik, et saavutada tasakaal satelliidi gravitatsiooni tõmbejõu ja satelliidi liikumise inertsi – satelliidi kalduvuse jätkata liikumist, vahel. Kui satelliit liigub liiga aeglaselt, tõmbab gravitatsioon selle Maale tagasi. Antud orbiidi jaoks õige kiiruse korral tasakaalustab gravitatsioon satelliidi inertsi, tõmbudes allapoole Maa keskme suunas nii palju, et satelliidi teekond kõverdub ümber Maa. (Millegi tiirlemine tähendab pidevat kukkumist ümber selle objekti: Kuu ümber Maa, Maa ümber Päikese, Päikesesüsteem ümber Linnutee keskme.)
+                Όταν ένας πύραυλος με δορυφόρο εκτοξεύεται από την επιφάνεια της Γης χρειάζεται να αναπτύξει ταχύτητα τουλάχιστον 7,9 χιλιομέτρων το δευτερόλεπτο για να φτάσει στο διάστημα. Αυτή αποκαλείται και ως η πρώτη κοσμική ταχύτητα που είναι απαραίτητη ώστε να μπορεί να επέλθει ισορροπία μεταξύ της έλξης της βαρύτητας πάνω στον δορυφόρο και της αδράνειας της κίνησης του δορυφόρου. Εάν ο δορυφόρος πάει πολύ αργά, η βαρύτητα θα τον τραβήξει πίσω στη Γη. Με τη σωστή τροχιακή ταχύτητα, η βαρύτητα εξισορροπεί ακριβώς την αδράνεια του δορυφόρου, τραβώντας το προς τα κάτω, προς το κέντρο της Γης τόσο ώστε η πορεία του δορυφόρου να συνεχίσει να καμπυλώνει γύρω από την επιφάνεια της Γης, αντί να πετάει σε ευθεία γραμμή. (Η τροχιά γύρω από κάτι σημαίνει ότι “πέφτουμε” για πάντα γύρω από το αντικείμενο αυτό. Το φεγγάρι γύρω από τη Γη, η Γη γύρω από τον ήλιο, το ηλιακό σύστημα γύρω από το κέντρο του Γαλαξία μας).
             </p>
             <p>
-                Satelliidi orbitaalkiirus sõltub selle kõrgusest Maa kohal. Mida lähemal Maale, seda suurem on vajalik orbitaalkiirus. 200 kilomeetri kõrgusel on vajalik orbitaalkiirus umbes 7,6 km/s (27 400 km/h). Maast 35 786 kilomeetri kõrgusel asuva orbiidi säilitamiseks peab satelliit orbiidil olema umbes kiirusel 3,13 km/s (11 300 km/h). See orbitaalkiirus ja kõrgus võimaldavad satelliidil teha ühe tiiru 24 tunni jooksul. Kuna ka Maa pöörlemisperiood on 24 tundi, püsib sellel kõrgusel olev satelliit maapinna suhtes paigal. Sellist orbiiti nimetatakse geostatsionaarseks. Geostatsionaarsed orbiidid sobivad ideaalselt ilma- ja sidesatelliitide jaoks.
+                Η τροχιακή ταχύτητα του δορυφόρου εξαρτάται από το υψόμετρο του πάνω από τη Γη. Όσο πιο κοντά στη Γη, τόσο μεγαλύτερη είναι η απαιτούμενη τροχιακή ταχύτητα. Σε υψόμετρο 200 χιλιομέτρων, η απαιτούμενη τροχιακή ταχύτητα είναι περίπου 7,6 km/s (27.400 km/h). Για να διατηρήσει μια τροχιά που βρίσκεται 35 786 χιλιόμετρα πάνω από τη Γη ο δορυφόρος πρέπει να περιφέρεται με ταχύτητα περίπου 3,13 km/s (11 300 km/h). Αυτή η τροχιακή ταχύτητα και απόσταση επιτρέπουν στον δορυφόρο να κάνει μία περιστροφή σε 24 ώρες. Δεδομένου ότι η Γη περιστρέφεται επίσης μία φορά σε 24 ώρες, ένας δορυφόρος σε αυτό το ύψος παραμένει σε σταθερή θέση σε σχέση με ένα σημείο στην επιφάνεια της Γης. Αυτό το είδος τροχιάς ονομάζεται «γεωστατική». Οι γεωστατικές τροχιές είναι ιδανικές για μετεωρολογικούς δορυφόρους και δορυφόρους επικοινωνιών.
             </p>
             <p>
-                Üldiselt, mida kõrgem on orbiit, seda kauem saab satelliit orbiidil püsida. Madalamatel kõrgustel satub satelliit Maa atmosfääri, mis suurendab tõmbejõudu, kuni selleni, et satelliit kukub tagasi atmosfääri ja süttib põlema. Suurematel kõrgustel, kus vaakum on peaaegu täielik, puudub peaaegu igasugune takistus ja satelliit, nagu Kuu, võib püsida orbiidil sajandeid.
+                Γενικά, όσο υψηλότερη είναι η τροχιά, τόσο περισσότερο μπορεί να παραμείνει ο δορυφόρος σε τροχιά. Σε χαμηλότερα υψόμετρα, ένας δορυφόρος συναντά ίχνη της γήινης ατμόσφαιρας, τα οποία δημιουργούν αντίσταση. Η αντίσταση προκαλεί την πτώση της τροχιάς μέχρι ο δορυφόρος να πέσει πίσω στην ατμόσφαιρα και να καεί. Σε μεγαλύτερα υψόμετρα, όπου το κενό του διαστήματος είναι σχεδόν πλήρες, δεν υπάρχει σχεδόν καμία αντίσταση και ένας δορυφόρος όπως το φεγγάρι μπορεί να παραμείνει σε τροχιά για αιώνες.
             </p>
             <p>
-                Satelliidid saab klassifitseerida nende kõrguse järgi Maa pinnast.
+                Οι δορυφόροι μπορούν να ταξινομηθούν με βάση το ύψος τους πάνω από την επιφάνεια της Γης.
             </p>
             <ul>
                 <li>
-                    <b>Maalähedased orbiidid (LEO)</b> – LEO satelliidid hõivavad Maast umbes 180 kilomeetri kuni 2000 kilomeetri kõrguse kosmosepiirkonna. Maapinna lähedal liikuvad satelliidid sobivad ideaalselt vaatluste tegemiseks, sõjaliseks otstarbeks ja ilmaandmete kogumiseks.
+                    <b>Χαμηλές τροχιές στη Γη (LEO)</b> — Οι δορυφόροι LEO καταλαμβάνουν μια περιοχή του διαστήματος από περίπου 180 χιλιόμετρα έως 2.000 χιλιόμετρα πάνω από τη Γη. Οι δορυφόροι που κινούνται κοντά στην επιφάνεια της Γης είναι ιδανικοί για την πραγματοποίηση παρατηρήσεων, για στρατιωτικούς σκοπούς και για τη συλλογή μετεωρολογικών δεδομένων.
                 </li>
                 <li>
-                    <b>Geosünkroonsed orbiidid (GEO)</b> – GEO satelliidid tiirlevad Maa ümber umbes 36 000 kilomeetri kõrgusel või kõrgemal ja nende tiirlemisperiood on sama, mis Maa pöörlemisperiood: 24 tundi. Sellesse kategooriasse kuuluvad geostatsionaarsed (GSO) satelliidid, mis on orbiidil Maa kindla punkti kohal. Geostatsionaarsed satelliidid peavad paiknema Maa ekvaatori kohal, et püsida Maa kohal kindlas kohas. Mitusada televisiooni-, side- ja ilmasatelliiti kasutavad geostatsionaarseid orbiite.
+                    <b>Γεωσύγχρονες τροχιές (GEO)</b> – Οι δορυφόροι GEO περιστρέφονται γύρω από τη Γη σε υψόμετρο περίπου 36000 χιλιομέτρων ή μεγαλύτερο και η περίοδος τροχιάς τους είναι ίδια με την περίοδο περιστροφής της Γης: 24 ώρες. Σε αυτή την κατηγορία περιλαμβάνονται οι γεωστατικοί δορυφόροι (GSO), οι οποίοι παραμένουν σε τροχιά πάνω από ένα σταθερό σημείο στη Γη. Οι γεωστατικοί δορυφόροι πρέπει να πετάξουν πάνω από τον ισημερινό της Γης για να παραμείνουν σε ένα σταθερό σημείο πάνω από τη Γη. Αρκετές εκατοντάδες δορυφόροι τηλεόρασης, επικοινωνιών και καιρού χρησιμοποιούν γεωστατικές τροχιές.
                 </li>
                 <li>
-                    <b>Keskmised Maa orbiidid (Medium-Earth orbits, MEO)</b> – need satelliidid asuvad madalate ja kõrgete satelliitide vahel, kõrgusel, mis jääb umbes 2000 ja 36 000 kilomeetri vahele. Navigatsioonisatelliidid, nagu autode GPS-seadmed, töötavad  hästi sellel kõrgusel.
+                    <b>Μεσαίες τροχιές γης (MEO)</b> — Αυτοί οι δορυφόροι βρίσκονται μεταξύ των χαμηλών και ψηλών ιπτάμενων, δηλαδή από περίπου 2000 χιλιόμετρα έως 36000 χιλιόμετρα. Οι δορυφόροι πλοήγησης, όπως αυτοί που χρησιμοποιούν το GPS του αυτοκινήτου μας λειτουργούν καλά σε αυτό το υψόμετρο.
                 </li>
             </ul>
 
             <UiContentImage src="https://evidence.onkel.ee/assets/space__leo-geo-satellite.webp" credits="(Zhang et al, 2019) https://www.researchgate.net/publication/336166223_Efficient_topology_control_for_time-varying_spacecraft_networks_with_unreliable_links" :elevated="true">
                 <template #caption>
-                    <b>Joonis 1.</b> Hübriid LEO/GEO satelliitsüsteem
+                    <b>Εικόνα 1.</b> Υβριδική δορυφορική αρχιτεκτονική LEO/GEO (Zhang et al, 2019)
                 </template>
             </UiContentImage>
 
             <p>
-                Vt ka <a href="https://www.geospatialworld.net/videos/how-many-satellites-are-orbiting-around-earth-in-2022/" target="_blank" rel="noopener noreferrer">Mitu satelliiti tiirleb ümber Maa?</a>
+                <a href="https://www.geospatialworld.net/videos/how-many-satellites-are-orbiting-around-earth-in-2022/" target="_blank" rel="noopener noreferrer">Πόσοι δορυφόροι περιστρέφονται γύρω από την Γη;</a>
             </p>
 
         </section>
@@ -81,35 +81,35 @@
 
         <section id="s-3">
             <h2 id="s-3-title">
-                Raketid
+                3. Πύραυλοι
             </h2>
 
             <p>
-                Rakett annab kosmoselaevale kiirenduse. Füüsika mõttes töötab rakett impulsi jäävuse seaduse kohaselt. Impulsi jäävuse seadus on füüsikas väga oluline. Impulss on defineeritud kui objekti mass korrutatud selle kiirusega. Kütuse põlemisgaasid, paiskudes välja raketimootorist, tõukavad raketti edasi. Kui heitgaasid lähevad ühes suunas, läheb rakett teises, et hoida süsteemi koguimpulss konstantsena. Rakett saab tõukejõu massi väljutamisega. Sõidukit kiirendatakse vastassuunas. See üldine liikumise põhimõte on sama, mis veerakettidel.
+                Ένας πύραυλος παρέχει τα μέσα για την επιτάχυνση ενός διαστημικού σκάφους. Από την άποψη της φυσικής, ο πύραυλος λειτουργεί λόγω του νόμου διατήρησης της γραμμικής ορμής. Ο νόμος διατήρησης της γραμμικής ορμής είναι πολύ σημαντικός στη φυσική. Η ορμή ορίζεται ως η μάζα ενός αντικειμένου επί την ταχύτητά του. Ένας πύραυλος κινείται στο διάστημα επειδή τα αέρια αποκτούν ορμή καθώς εκτοξεύονται από τον πυραυλοκινητήρα. Καθώς τα καυσαέρια κινούνται προς μία κατεύθυνση, ο πύραυλος κινείται προς άλλη κατεύθυνση, ώστε να διατηρείται σταθερή η συνολική ορμή του συστήματος. Αυτή η αλλαγή ορμής των αερίων δίνει στον πύραυλο την "ώθηση" για να προχωρήσει προς τα εμπρός. Την ώθηση αυτή την ονομάζουμε ώθηση του πυραύλου, δηλαδή η δύναμη που ασκείται στον πύραυλο. Ένας πύραυλος δημιουργεί ώθηση εκτοξεύοντας μάζα. Το όχημα επιταχύνεται προς την αντίθετη κατεύθυνση. Αυτή η γενική αρχή της κίνησης είναι η ίδια όπως και για τους πυραύλους νερού.
             </p>
 
             <h3>
-                <span class="text-rose-400">Müüt:</span> Raketid vajavad õhku (atmosfääri), mille pealt ennast edasi tõugata.
+                <span class="text-rose-400">Μύθος:</span> Ο πύραυλος χρειάζεται αέρα για να έχει αντίσταση.
             </h3>
 
             <p>
-                Raketi kiirendust põhjustavat jõudu saab seletada ka Newtoni 3. seaduse abil, mis ütleb, et kaks keha mõjutavad teineteist võrdsete ja vastassuunaliste jõududega. Teisisõnu, jõud tulenevad vastastikmõjudest. Kuna põlemisgaasid surutakse ühes suunas välja, tekib vastassuunaline jõud, mis surub raketti teises suunas. Seega ei vaja rakett liikumiseks atmosfääri.
+                Η δύναμη που προκαλεί την επιτάχυνση του πυραύλου μπορεί επίσης να εξηγηθεί χρησιμοποιώντας τον 3ο νόμο του Νεύτωνα, που δηλώνει ότι για κάθε δράση (δύναμη) στη φύση υπάρχει μια ίση και αντίθετη αντίδραση. Με άλλα λόγια, δυνάμεις προκύπτουν από αλληλεπιδράσεις. Ένας πύραυλος πιέζει τα αέρια μέσα του. Καθώς αυτά τα αέρια ωθούνται προς τη μία κατεύθυνση, υπάρχει μια δύναμη αντίδρασης που ωθεί τον πύραυλο προς την άλλη κατεύθυνση. Για την κίνησή του ο πύραυλος δεν χρειάζεται τον αέρα της ατμόσφαιρας.
             </p>
             <p>
-                Praegu arendavad Euroopa ja Jaapan odavaid ja tõhusaid kanderakette. Lisaks arendavad paljud idufirmad üle maailma üliväikesi kanderakette, mis suudavad nanosatelliite välja saata. 
+                Επί του παρόντος, η Ευρώπη και η Ιαπωνία αναπτύσσουν οχήματα εκτόξευσης χαμηλού κόστους και υψηλής απόδοσης. Επιπλέον, πολλές νεοφυείς επιχειρήσεις σε όλο τον κόσμο αναπτύσσουν εξαιρετικά μικρά οχήματα εκτόξευσης ικανά να εκτοξεύουν νανοδορυφόρους. 
             </p>
             <p>
-                Lõuna-Korea tõestas 2022. aastal, et suudab seda teha enda poolt arendatud tehnoloogia abil.
+                Η Νότια Κορέα απέδειξε το 2022 την ικανότητα να εκτοξεύει διαστημικούς πυραύλους χρησιμοποιώντας εγχώρια τεχνολογία.
             </p>
 
             <UiContentImage src="https://evidence.onkel.ee/assets/space__countries-rocket-capability.webp" credits="Buchholz / Statista - https://www.statista.com/chart/27792/countries-capable-of-launching-space-rockets/" :elevated="true">
                 <template #caption>
-                    <b>Joonis 2.</b> Orbiidile viivate kanderakkettide lähetamise ajalugu
+                    <b>Εικόνα 2.</b> Ιστορικό της ικανότητας εκτόξευσης πυραύλων σε τροχιά
                 </template>
             </UiContentImage>
 
             <p>
-                Paljud erinevad riigid ja eraettevõtted tegutsevad praegu kosmosevaldkonnas ning suur osa maailmast sõltub kosmosepõhistest teenustest. Peame siiski tagama, et kosmoseuuringute ohutuse ja jätkusuutlikkuse säilitamiseks oleks kehtestatud tugev poliitika.
+                Πολλές διαφορετικές χώρες και ιδιωτικές εταιρείες δραστηριοποιούνται πλέον στο διάστημα και όλο και μεγαλύτερο μέρος του κόσμου εξαρτάται από υπηρεσίες που βασίζονται στο διάστημα. Ωστόσο, πρέπει να διασφαλίσουμε ότι εφαρμόζονται ισχυρές πολιτικές για τη διατήρηση τόσο της ασφάλειας όσο και της βιωσιμότητας της εξερεύνησης του διαστήματος.
             </p>
         </section>
 
@@ -120,15 +120,15 @@
 
         <section id="s-4">
             <h2 id="s-4-title">
-                Inimesed kosmoses
+                4. Άνθρωποι στο Διάστημα
             </h2>
 
             <p>
-                Esimene inimene kosmoses oli Nõukogude Liidu kosmonaut Juri Gagarin, kes tegi 12. aprillil 1961. aastal 108 minutit kestnud lennuga ühe tiiru ümber Maa. Veidi rohkem kui kolm nädalat hiljem saatis NASA astronaut Alan Shepardi kosmosesse mitte orbitaallennul, vaid suborbitaalsel trajektooril – lennul, mis läheb kosmosesse, kuid ei tee tervet tiiru ümber Maa. Shepardi suborbitaalne lend kestis veidi üle 15 minuti.
+                Ο πρώτος άνθρωπος στο διάστημα ήταν ο Σοβιετικός κοσμοναύτης Yuri Gagarin, ο οποίος έκανε μια περιφορά γύρω από τη Γη στις 12 Απριλίου 1961, σε μια πτήση που διήρκεσε 108 λεπτά. Αργότερα, λίγο περισσότερο από τρεις εβδομάδες, η NASA εκτόξευσε τον αστροναύτη Alan Shepard στο διάστημα, όχι σε τροχιακή πτήση, αλλά σε υποτροχιακή τροχιά - μια πτήση που πηγαίνει στο διάστημα αλλά δεν κάνει τον γύρω όλης της Γης. Η υποτροχιακή πτήση του Shepard διήρκεσε λίγο περισσότερο από 15 λεπτά.
             </p>
 
             <p>
-                Praegu luuakse kommertsprogramme suborbitaalseks lennuks umbes 100 km kõrgusel maapinnast (vt  
+                Επί του παρόντος, έχουν καθιερωθεί εμπορικά προγράμματα για την υποτροχιακή πτήση σε ύψος περίπου 100 km πάνω από την επιφάνεια της Γης (βλ.  
                 <br />
                 <a href="https://www.spacex.com/" target="_blank" rel="noopener noreferrer">https://www.spacex.com/</a>, 
                 <br />
@@ -142,75 +142,75 @@
 
             <UiCardInfo icon="mdi:comment-quote-outline" theme="blue-500">
                 <p class="font-Body">
-                    Euroopa Kosmoseagentuuri (ESA) peadirektor Jan Wörner esitas <a href="https://ec.europa.eu/research-and-innovation/en/horizon-magazine/qa-human-spaceflight-risk-worth-taking-says-esa-head" target="_blank" rel="noopener noreferrer">inimeste kosmosemissioonide tähtsuse</a> kohta järgmised argumendid:
+                    Ο <b>Jan Wörner</b>, Γενικός Διευθυντής του Ευρωπαϊκού Οργανισμού Διαστήματος (ESA) έδωσε τα ακόλουθα επιχειρήματα σχετικά με τη <a href="https://ec.europa.eu/research-and-innovation/en/horizon-magazine/qa-human-spaceflight-risk-worth-taking-says-esa-head" target="_blank" rel="noopener noreferrer">σημαντικότητα των ανθρώπινων αποστολών στο διάστημα</a>:
                 </p>
                 <div class="italic" style="font-size:120%">
                     <p>
-                        Kosmoses viibivate astronautidega saame teha asju, mida me robotitega teha ei saa. Me ei saa mõõta roboti vererõhku ja meeleolu. Saame astronautidelt palju teavet, kuna tegemist on inimkatsega, mida saab hiljem kasutada. Ja kõige parem on see, kui robotite võimed liidetakse inimtegevusega. Inimmissioonidel on konkreetsed eelised ja konkreetsed piirangud. Robotimissioonid on palju odavamad kui mistahes mehitatud kosmoselend.  Võiks ju öelda: "Ühe mehitatud kosmoselennu asemel teeme 10 missiooni robotitega." Olen siiski veendunud, et peaksime tegema mõlemat. See pole üldse kallis. ESA-s kulutame (ekvivalendina) umbes ühe euro kodaniku kohta inimese kosmosemissiooniks aastas, seega on see väga väike summa.
+                        Με τους αστροναύτες στο διάστημα, μπορούμε να κάνουμε πράγματα που δεν μπορούμε να κάνουμε με τα ρομπότ. Δεν μπορούμε να μετρήσουμε την αρτηριακή πίεση ενός ρομπότ και το σύστημα διάθεσης ενός ρομπότ. Οι αστροναύτες αποτελούν το ίδιο το πείραμα που θα χρησιμοποιηθεί στην Γη και με βάση αυτούς λαμβάνουμε πολλές πληροφορίες και το καλύτερο είναι όταν οι ρομποτικές δυνατότητες συγχωνεύονται με τις ανθρώπινες δραστηριότητες. Οι ανθρώπινες αποστολές έχουν συγκεκριμένα πλεονεκτήματα και συγκεκριμένα όρια σε συνθήκες. Οι ρομποτικές αποστολές είναι πολύ φθηνότερες από οποιαδήποτε ανθρώπινη διαστημική πτήση. Κάποιος θα μπορούσε να πει «αντί να κάνουμε μια ανθρώπινη διαστημική πτήση ας κάνουμε 10 ρομποτικές αποστολές.» Είμαι πεπεισμένος ότι πρέπει να κάνουμε και τα δύο. Δεν είναι καθόλου ακριβό. Στην ESA ξοδεύουμε (το ισοδύναμο) ενός ευρώ περίπου για μια ανθρώπινη διαστημική αποστολή ανά έτος/ανά πολίτη, άρα πολύ μικρό ποσό.
                     </p>
                     <p>
-                        Mehitatud kosmoselendudega on alati seotud risk, kuid kui me ei võta riske, ei ole meil arengut. See on osa meie maailmavaatest - selleks, et minna kaugemale, on vaja riskida. See puudutab kõike, mida me elus teeme. See on tasakaal riski ja võimaluse vahel. Usun, et mehitatud kosmoselennud on kindlasti väga keerulised ja väga ohtlikud, kuid tasub riskida. See on inimese loomuses. 
+                        Πάντα υπάρχει κίνδυνος στις ανθρώπινες διαστημικές πτήσεις, αλλά αν δεν αναλάβουμε κινδύνους, δεν θα έχουμε περαιτέρω ανάπτυξη. Είναι μέρος της κατανόησής μας να αναλαμβάνουμε ρίσκα για να προχωρήσουμε παραπέρα. Αυτό ισχύει σε όλα όσα κάνουμε στη ζωή. Είναι μια ισορροπία μεταξύ του κίνδυνου και των ευκαιριών. Πιστεύω ότι η ανθρώπινη διαστημική πτήση είναι σίγουρα πολύ δύσκολη και πολύ επικίνδυνη, αλλά αξίζει τον κόπο να πάρεις το ρίσκο. Είναι στη φύση των ανθρώπων. 
                     </p>
                     <p class="font-Body text-sm text-right">
-                        (10. aprill 2020, ec.europa.eu)
+                        (10 Απριλίου 2020, ec.europa.eu)
                     </p>
                 </div>
             </UiCardInfo>
 
             <h3>
-                ISS ja uued kosmosejaamad
+                ISS και νέοι διαστημικοί σταθμοί
             </h3>
 
             <p>
-                Rahvusvaheline kosmosejaam (ISS) käivitati 1998. aastal ja on sestpeale arenenud järk-järgult edasi. 450-tonnises rahvusvahelises kosmosejaamas on rohkem kui 837 kuupmeetrit rõhu all olevat ruumi – piisavalt ruumi kuueliikmelise meeskonna ja paljude teaduskatsete jaoks.
+                Ο Διεθνής Διαστημικός Σταθμός (ISS) εκτοξεύτηκε το 1998 και σταδιακά αναπτύσσεται συνεχώς. Ο Διεθνής Διαστημικός Σταθμός 450 τόνων έχει πάνω από 837 κυβικά μέτρα χώρου υπό πίεση, αρκετός χώρος για το πλήρωμά του που αποτελείται από έξι άτομα και μια τεράστια γκάμα επιστημονικών πειραμάτων.
             </p>
             <p>
-                ISS hoiab tavaliselt orbiiti, mille keskmine kõrgus on Maast 400 kilomeetrit. Kuid atmosfääritakistuse tõttu võib jaam kaotada kõrgust kuni 100 meetrit päevas. Seetõttu on vaja regulaarset orbiidi taastamist, tavaliselt umbes kord kuus. Neid nimetatakse ümberlaadimisteks või taaskäivitusmanöövriteks ja need tehakse Zvezda teenindusmooduli või külastava kosmoselaeva mootorite abil. Kindlat laadimisgraafikut pole, sest Maa atmosfääri tihedus muutub pidevalt sõltuvalt sellest, kui palju energiat Päike sellele annab. Seetõttu ei ole laskumiskiirus konstantne väärtus. Kuid ISS laskub oma tohutu suuruse ja pindala tõttu Maale kiiremini kui teised sarnasel kõrgusel olevad satelliidid. ISS teeb ümber Maa tiiru umbes 93 minutiga, tehes päevas 15,5 tiiru. ISS-i rada saame jälgida <a href="https://spotthestation.nasa.gov/tracking_map.cfm" target="_blank" rel="noopener noreferrer">reaalajas kosmosejaama jälgimiskaardi</a> abiga.
+                Ο ISS διατηρεί συνήθως μια τροχιά με μέσο υψόμετρο 400 χιλιομέτρων πάνω από τη Γη. Αλλά λόγω της ατμοσφαιρικής αντίστασης, ο σταθμός μπορεί να χάσει υψόμετρο έως και 100 μέτρα την ημέρα. Επομένως, απαιτούνται τακτικές προσαρμογές τροχιάς, συνήθως μία φορά το μήνα. Αυτοί ονομάζονται ελιγμοί επαναφόρτωσης ή επανεκκίνησης και γίνονται με την χρήση των κινητήρων της μονάδας σέρβις Zvezda ή ενός διαστημικού σκάφους επίσκεψης. Δεν υπάρχει σταθερό χρονοδιάγραμμα επαναφόρτωσης επειδή η πυκνότητα της ατμόσφαιρας της γης αλλάζει συνεχώς ανάλογα με το πόση ενέργεια της παρέχει ο Ήλιος. Επομένως, η ταχύτητα καθόδου δεν έχει σταθερή τιμή. Αλλά ο ISS κατεβαίνει στη Γη πιο γρήγορα από άλλους δορυφόρους που βρίσκονται σε παρόμοιο υψόμετρο λόγω του τεράστιου μεγέθους και της επιφάνειάς του. Ο ISS κάνει κύκλους γύρω από τη Γη σε περίπου 93 λεπτά, ολοκληρώνοντας 15,5 τροχιές την ημέρα. Μπορούμε να ακολουθήσουμε την πίστα του ISS με τη βοήθεια του <a href="https://spotthestation.nasa.gov/tracking_map.cfm" target="_blank" rel="noopener noreferrer">Live Space Station Tracking Map</a>.
             </p>
 
             <UiContentImage src="https://evidence.onkel.ee/assets/space__iss.webp" credits="Credits: ESA - European Space Agency (Paolo Nespoli) & NASA Copyright: ESA, CC BY-SA 3.0 IGO / https://www.flickr.com/photos/europeanspaceagency/5811265766" :elevated="true">
                 <template #caption>
-                    <b>Joonis 3.</b> Rahvusvaheline kosmosejaam.
+                    <b>Εικόνα 3.</b> Ο Διεθνής Διαστημικός Σταθμός.
                 </template>
             </UiContentImage>
 
             <p>
-                Jaam toimib mikrogravitatsiooni ja kosmosekeskkonna uurimislaborina, kus tehakse teadusuuringuid astrobioloogias, astronoomias, meteoroloogias, füüsikas ja muudes valdkondades.
+                Ο σταθμός χρησιμεύει ως ερευνητικό εργαστήριο μικροβαρύτητας και διαστημικού περιβάλλοντος στο οποίο διεξάγεται επιστημονική έρευνα στην αστροβιολογία, την αστρονομία, τη μετεωρολογία, τη φυσική και άλλους τομείς.
             </p>
             <p>
-                Euroopa, kes töötab ESA kaudu, vastutab praegu ISSi Euroopa Columbuse labori eest. Columbus on multifunktsionaalne labor, mis on spetsialiseerunud vedelikufüüsika, materjaliteaduse ja bioteaduste uurimisele. Euroopa panustab NASA meeskonnasõidukisse Orion, mis toimib uurimissõidukina, mis viib astronaute kosmosesse, pakub katkestamise võimalust hädaolukorras, toetab meeskonda kosmosereisi ajal ja tagab ohutu naasmise sügavkosmosest.
+                Η Ευρώπη, που εργάζεται μέσω της ESA, είναι σήμερα υπεύθυνη για το Ευρωπαϊκό εργαστήριο Columbus στο ISS. Το Columbus είναι ένα πολυλειτουργικό εργαστήριο που ειδικεύεται στην έρευνα της φυσική των ρευστών, της επιστήμη των υλικών και στις βιοεπιστήμες. Η Ευρώπη συνεισφέρει στο όχημα πληρώματος Orion της NASA, το οποίο θα χρησιμεύσει ως όχημα εξερεύνησης που θα μεταφέρει αστροναύτες στο διάστημα, θα παρέχει την δυνατότητα έκτακτης ακύρωσης, θα συντηρεί το πλήρωμα κατά τη διάρκεια του διαστημικού ταξιδιού και θα παρέχει ασφαλή επανείσοδο από ταχύτητες επιστροφής στο βαθύ διάστημα.
             </p>
             <p>
-                Hiina Tiangongi kosmosejaam on orbiidil ja Hiina teatab sellega seoses ka kosmoseturismi võimalustest. Tiangong (tõlkes “Taevapalee”) on riigi esimene kosmose eelpost. Erinevalt rahvusvahelisest kosmosejaamast (ISS), mis eksisteerib tänu paljude riikide ja nende kosmoseagentuuride koostoimele, on Tiangong ainus ühe riigi kosmosejaam. Võime luua ja toetada sellist struktuuri orbiidil peegeldab riigi globaalset jõudu ja mõju. See on näide sellest, kuidas kosmoseteadus on põimunud Hiina riikliku julgeoleku, majandusliku progressi ning teadus- ja haridusalgatustega.
+                Ο διαστημικός σταθμός Tiangong της Κίνας βρίσκεται σε τροχιά και η Κίνα ανακοινώνει επίσης ευκαιρίες για διαστημικό τουρισμό εκεί. Το Tiangong (που μεταφράζεται σε Heavenly Palace) είναι το πρώτο διαστημικό φυλάκιο της χώρας. Σε αντίθεση με τον Διεθνή Διαστημικό Σταθμό (ISS) που υπάρχει χάρη στην συνεργασία πολλών χωρών και τις διαστημικές τους υπηρεσίες, ο Tiangong είναι ο μόνος ανεξάρτητος κρατικός διαστημικός σταθμός. Η ικανότητα δημιουργίας και υποστήριξης μιας τέτοιας δομής σε τροχιά είναι μια αντανάκλαση της συνολικής παγκόσμιας δύναμης και επιρροής ενός έθνους. Αυτό είναι ένα παράδειγμα για το πώς η διαστημική επιστήμη είναι συνυφασμένη με την ανάπτυξη, συμπεριλαμβανομένης της εθνικής ασφάλειας, της οικονομικής προόδου της Κίνας και των πρωτοβουλιών της δημόσιας επιστήμης και εκπαίδευσης.
             </p>
 
 
             <h3 class="border-l-rose-400 border-l-4 pl-4">
-                <span class="text-rose-400">Kolm levinud ning omavahel seotud müüti:</span>
+                <span class="text-rose-400">Τρεις κοινοί αλληλένδετοι μύθοι:</span>
                 <ol class="leading-tight">
                     <li>
-                        Kosmosesse minek muudab sind kaalutuks 
+                        Η μετάβαση στο διάστημα σε κάνει να έχεις μηδενική μάζα. 
                     </li>
                     <li>
-                        Kosmoses pole gravitatsiooni 
+                        Δεν υπάρχει βαρύτητα στο διάστημα. 
                     </li>
                     <li>
-                        Maa ümber tiirlevad astronaudid kogevad nullgravitatsiooni, kuna nad on Maast kaugel
+                        Οι αστροναύτες που βρίσκονται σε τροχιά γύρω από τη Γη βιώνουν μηδενική βαρύτητα επειδή βρίσκονται μακριά από τη Γη.
                     </li>
                 </ol>
             </h3>
 
             <p>
-                100 km kõrgusest ülespoole lendamine ei muuda sind võluväel kaalutuks. Kui oleksite kiirenevas raketis, tunneksite mitu korda Maa gravitatsiooni. Alles siis, kui hakkate kukkuma, tunnete end kaalutuna. Astronaudid on Maa ümber tiireldes vabalanguses, kuid neid tõmmatakse tugevalt Maa poole.
+                Η υπέρβαση του ύψους των 100 χιλιομέτρων δεν σας κάνει δια μαγείας να αποκτάτε μηδενική μάζα. Αν ήσασταν σε έναν επιταχυνόμενο πύραυλο, θα αισθανόσασταν πολλές φορές την βαρύτητα της Γης. Μόνο όταν αρχίσετε να πέφτετε θα αισθανθείτε ότι έχετε μηδενική μάζα. Οι αστροναύτες βρίσκονται σε ελεύθερη πτώση καθώς βρίσκονται σε τροχιά γύρω από τη Γη, αλλά έλκονται έντονα προς τη Γη.
             </p>
             <p>
-                Gravitatsioon on vastastikune külgetõmme mis tahes massiga objektide vahel. Siin Maal kogeme gravitatsiooni oma raskusena, mis tähendab külgetõmmet meie enda ja Maa vahel. Kui rakett on kosmoses, mõjub sõidukile ja sellega kaasas olevatele astronautidele endiselt planeedi gravitatsiooni tõmbejõud. Kui kosmoses poleks gravitatsiooni, poleks võimalik Maa ümber tiirleda. 400 km kõrgusel (ISS) on Maa raskuskiirendus 8,75 m/s². See on vaid umbes 11% vähem kui 9,81 m/s², mis mõjub Maa pinnal.
+                Η βαρύτητα είναι η αμοιβαία έλξη μεταξύ οποιωνδήποτε αντικειμένων που έχουν μάζα. Εδώ στη Γη, βιώνουμε τη βαρύτητα ως το βάρος μας, που σημαίνει την έλξη μεταξύ της δικής μας μάζας και της Γης. Όταν ένας πύραυλος βρίσκεται στο διάστημα, το όχημα και οι αστροναύτες που μεταφέρονται από αυτό εξακολουθούν να αισθάνονται την έλξη της βαρύτητας του πλανήτη. Αν δεν υπήρχε η βαρύτητα στο διάστημα, δεν θα ήταν δυνατό να περιφερθεί γύρω από τη Γη. Στο υψόμετρο των 400 km (ISS), η βαρυτική επίδραση της Γης είναι 8,75 m/s2. Αυτό είναι μόνο περίπου 11% λιγότερο από τα 9,81 m/s2 που είναι αισθητά στην επιφάνεια της Γης.
             </p>
             <p>
-                Kosmosejaamas langevad astronaudid (ja jaam ise) Maa keskpunkti poole, kuid kuna nad liiguvad ka kiiresti külgsuunas, ei kuku nad kunagi Maale. Seega on tiirlemine tehniliselt võttes langemine ümber Maa. Astronaudid on kaaluta olekus, sest nad ei toetu mitte millelegi. Astronaut kukub ja nii ka nende kosmoselaev. Kui mõlemad kukuvad, puudub astronaudi ja kosmoselaeva vahel mõju ja seega puudub ka “raskustunne”. 
+                Στον διαστημικό σταθμό, οι αστροναύτες (και ο ίδιος ο σταθμός) πέφτουν προς το κέντρο της Γης, αλλά επειδή κινούνται γρήγορα πλάγια, συνεχώς χάνουν τη Γη. Έτσι, πέφτουν τεχνικά γύρω από τη Γη. Οι αστροναύτες αποκτούν μηδενικό βάρος επειδή δεν τους τραβά ο σταθμός πίσω. Οι αστροναύτες πέφτουν καθώς και το διαστημόπλοιό τους. Εάν και οι δύο πέφτουν, δεν υπάρχει δύναμη του ενός έναντι του άλλου και επομένως δεν υπάρχει η  αίσθηση του βάρους. Έτσι, ο ISS και το πλήρωμά του βρίσκονται σε ελεύθερη πτώση σε τροχιά. 
             </p>
             <p>
-                Marsil peaksid astronaudid tunnetama 3/8 Maa gravitatsioonijõust. Kuid rännakul Maa ja Marsi vahel kogeksid uurijad täielikku kaaluta olekut, kui raketimootorid on välja lülitatud.
+                Στον Άρη, οι αστροναύτες θα πρέπει να ζήσουν στα τρία όγδοα της βαρυτικής έλξης της Γης. Αλλά στο ταξίδι μεταξύ Γης και Άρη, οι εξερευνητές θα βιώσουν την απόλυτη έλλειψη βαρύτητας όταν οι κινητήρες των πυραύλων είναι απενεργοποιημένοι.
             </p>
 
         </section>
@@ -221,48 +221,48 @@
 
         <section id="s-5">
             <h2 id="s-5-title">
-                Kosmoseuuringutest põhjustatud keskkonnareostus
+                5. Ρύπανση του Περιβάλλοντος
             </h2>
 
             <h3>
-                Kosmose saastamine prügiga
+                Ρύπανση από τα συντρίμμια του Διαστήματος a
             </h3>
 
             <p>
-                Orbiidil on 100 miljonit tükki alla 1 cm, 500 000 tükki vahemikus 1–10 cm ja ligikaudu 21 000 eset, mis on suuremad kui 10 cm.
+                Υπάρχουν 100 εκατομμύρια κομμάτια τροχιακών θραυσμάτων μικρότερα από 1 εκατοστό, 500 000 κομμάτια από 1 εώς 10 εκατοστά και περίπου 21 000 αντικείμενα μεγαλύτερα από 10 εκατοστά.
             </p>
             <p>
-                Orbiidil olev prügi võib pärineda paljudest allikatest:
+                Τα τροχιακά συντρίμμια μπορούν να προέρχονται από πολλές πηγές:
             </p>
             <ul>
                 <li>
-                    Plahvatavad raketid – see jätab kosmosesse maha kõige rohkem prahti.
+                    Έκρηξη πύραυλου– Αυτό αφήνει πίσω τα περισσότερα συντρίμμια στο διάστημα.
                 </li>
                 <li>
-                    Astronautide käest libisenud asjad – kui astronaut, kes kosmoses midagi parandab ja mutrivõtme kaotab, on see igaveseks kadunud. Mutrivõti läheb orbiidile, tõenäoliselt kiirusega ligi 10 kilomeetrit sekundis. Kui mutrivõti tabab mõnda sõidukit, milles on inimesi, võivad tagajärjed olla hukatuslikud. Suuremad objektid, nagu kosmosejaam, on kosmoseprügi jaoks suuremaks sihtmärgiks ja seega on need suuremas ohus.
+                    Το γλίστρημα του χεριού ενός αστροναύτη – Αν ένας αστροναύτης επισκευάζει κάτι στο διάστημα και του πέσει ένα κατσαβίδι, αυτό έχει φύγει για πάντα. Στη συνέχεια, το κατσαβίδι μπαίνει σε τροχιά, πιθανώς με ταχύτητα σχεδόν 10 χιλιομέτρων το δευτερόλεπτο. Εάν το κατσαβίδι χτυπήσει οποιοδήποτε όχημα που μεταφέρει ανθρώπινο πλήρωμα, τα αποτελέσματα μπορεί να είναι καταστροφικά. Μεγαλύτερα αντικείμενα, όπως ένας διαστημικός σταθμός αποτελούν μεγαλύτερο στόχο για διαστημικά σκουπίδια, και έτσι διατρέχουν μεγαλύτερο κίνδυνο.
                 </li>
                 <li>
-                    Mahajäetud esemed – kanistrite osad, kaamerate objektiivide korgid jms.
+                    Εγκαταλειμμένα αντικείμενα – Μέρη κανίστρων εκτόξευσης, καπάκια φακών κάμερας και ούτω καθεξής.
                 </li>
             </ul>
             <p>
-                Kosmoseprügi kujutab endast ohtu aktiivsetele, korralikult töötavatele satelliitidele ja mehitatud kosmoselaevadele (vt selle probleemi <a href="https://www.youtube.com/watch?v=yS1ibDImAYU" target="_blank" rel="noopener noreferrer">visuaalset esitlust</a>.)
+                Τα διαστημικά συντρίμμια αποτελούν απειλή για τους ενεργούς δορυφόρους που λειτουργούν σωστά και τα επανδρωμένα διαστημόπλοια (βλ. οπτική παρουσίαση σχετικά με αυτό το ζήτημα <a href="https://www.youtube.com/watch?v=yS1ibDImAYU" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=yS1ibDImAYU</a>)
             </p>
 
             <h3>
-                Atmosfääri saastamine rakettide stardi ajal
+                Μοριακή ρύπανση της ατμόσφαιρας κατά την εκτόξευση πυραύλων
             </h3>
 
             <p>
-                Rakettide stardid on meie maailma lahutamatu osa. On ilmne, et raketimootorid paiskavad atmosfääri saastet, nagu iga sisepõlemismootor. Rakettide heitkogustest põhjustatud saaste võib tunduda tähtsusetu võrreldes muude probleemidega, millega maailm silmitsi seisab,  pakkudes samal ajal hulganisti kasu. Kosmosetööstuses põletatud fossiilkütuste osakaal moodustab tõepoolest vaid umbes 1% tavapärase lennunduse poolt põletatud kütusest. Kuid kui lennukid paiskavad oma saasteained välja troposfääri ja alumisse stratosfääri, siis raketid paiskavad neid väljja Maa pinnalt kuni mesofäärini ja kui reostus nendesse ülemistesse kihtidesse paisatakse, püsib see seal kauem kui Maa peal. Praegu paiskavad raketid Maa atmosfääri varasemalt puutumatutesse ülemistesse kihtidesse umbes 1000 tonni tahma aastas. Samuti on suur ebakindlus selles osas, kuidas <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002612" target="_blank" rel="noopener noreferrer">rakettide heitmed mõjutavad atmosfääri erinevaid kihte</a>.
+                Οι εκτοξεύσεις πυραύλων αποτελούν έναν αναπόσπαστο κομμάτι του κόσμου μας. Είναι προφανές ότι οι πυραυλοκινητήρες ρυπαίνουν την ατμόσφαιρα, όπως κάθε μορφή ώθησης που βασίζεται στην διαδικασία της καύσης. Επίσης η ρύπανση που προκαλείται από τις εκπομπές των πυραύλων μπορεί να φαίνεται ασήμαντη σε σύγκριση με άλλα προβλήματα που αντιμετωπίζει ο πλανήτης και με τα οφέλη που φέρνει η διαστημική βιομηχανία στον κόσμο του 21ου αιώνα. Πράγματι, το ποσοστό των ορυκτών καυσίμων που καίγονται από τη διαστημική βιομηχανία είναι μόνο περίπου το 1% αυτού που καίγεται από τη συμβατική αεροπορία. Ωστόσο, τα αεροσκάφη απελευθερώνουν τους ρύπους τους εντός της τροπόσφαιρας και της κατώτερης στρατόσφαιρας, ενώ οι πύραυλοι απελευθερώνουν τους ρύπους τους σε όλη τη διαδρομή από την επιφάνεια της Γης έως τη μεσόσφαιρα, και όταν η ρύπανση απελευθερώνεται σε αυτά τα ανώτερα στρώματα διαρκεί για μεγαλύτερο χρονικό διάστημα από αυτά που μένουν στη Γη. Σήμερα οι πύραυλοι αποβάλλουν περίπου 1000 τόνους αιθάλης ετησίως στα κατά τα άλλα καθαρά ανώτερα στρώματα της ατμόσφαιρας της Γης. Υπάρχει επίσης μεγάλη αβεβαιότητα για τις <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002612" target="_blank" rel="noopener noreferrer">επιπτώσεις από τις εκπομπές των πυραύλων στα διαφορετικά στρώματα της ατμόσφαιρας</a>.
             </p>
 
             <p>
-                Rocket Propellant-1 ehk RP-1 – petrooleumi kõrgelt rafineeritud vorm, on üks populaarsemaid raketikütuseid. See aitas kosmosesse saata selliseid rakette nagu Saturn, Delta, Atlas, Sojuz ning SpaceXi Falcon 9 ja Virgin Orbiti horisontaalselt startinud raketti. RP-1 on populaarne, kuna see on suhteliselt odav, toatemperatuuril stabiilne ega ole ohtlikult plahvatusohtlik. Nüüd käib võidujooks alternatiivide väljatöötamiseks olemasolevatele kütustele (nagu RP-1), kusjuures vedel metaan näib olevat liidrikohal. Mitmed uued raketimootorid, sealhulgas SpaceXi Raptor ja Euroopa Kosmoseagentuuri Prometheuse mootor, on loodud selle gaasi kasutamiseks, kuna sellel on teistest kütustest suurem jõudlus, mis tähendab, et rakett võib olla väiksem ja paiskab õhkutõusmisel vähem tahma. Metaan on aga vastuoluline kütus, kuna see on globaalse soojenemise seisukohast üks halvimaid gaase. See soojendab Maad oma eluea jooksul umbes 80 korda rohkem kui süsinikdioksiid.
+                Το Rocket Propellant-1, ή RP-1, εξαιρετικά επεξεργασμένη μορφή κηροζίνης, είναι ένα από τα πιο δημοφιλή καύσιμα πυραύλων. Βοήθησε να εκτοξευθούν πύραυλοι όπως ο Saturn, ο Delta, ο Atlas, ο Soyuz, ο SpaceX, ο Falcon 9 και ο οριζόντια εκτοξευόμενος πύραυλος στο διάστημα της Virgin Orbit. Το RP-1 είναι δημοφιλές καύσιμο επειδή είναι φθηνότερο, σταθερό σε θερμοκρασία περιβάλλοντος και δεν είναι επικίνδυνα εκρηκτικό. Τώρα υπάρχει ένας αγώνας δρόμου για την ανάπτυξη εναλλακτικών καύσιμων και το υγρό μεθάνιο είναι αυτό που φαίνεται να πρωτοστατεί. Αρκετοί νέοι κινητήρες πυραύλων, συμπεριλαμβανομένου του Raptor του SpaceX και του κινητήρα Prometheus της Ευρωπαϊκής Διαστημικής Υπηρεσίας, έχουν σχεδιαστεί για να χρησιμοποιούν αυτό το αέριο ως καύσιμο επειδή έχει υψηλότερη απόδοση από άλλα καύσιμα, πράγμα που σημαίνει ότι ο πύραυλος μπορεί να είναι μικρότερος και να παράγει λιγότερη αιθάλη όταν εκτοξεύεται. Ωστόσο, το μεθάνιο είναι αμφιλεγόμενο γιατί είναι ένα από τα χειρότερα αέρια όσον αφορά την υπερθέρμανση του πλανήτη. Θερμαίνεται περίπου 80 φορές περισσότερο από το διοξείδιο του άνθρακα κατά τη διάρκεια της ζωής του.
             </p>
 
             <p>
-                Kuid mida me saame veel teha, et vähendada kosmoselaevade poolt paisatavaid heitgaase, mis kiirendavad kliimamuutusi? Teadlased kardavad, et kosmosetööstusel on vähe motivatsiooni muutusteks, kuna puuduvad reeglid, neil on vastumeelsus loobuda ohutust ja end tõestanud tehnoloogiast ning asjaolu, et uued raketikütused tähendavad kalleid uusi mootoreid ja pikki katsetusi.
+                Όμως τι άλλο μπορούμε να κάνουμε για να σταματήσουμε τα ρυπογόνα καυσαέρια των διαστημοπλοίων και να επιβραδύνουμε την κλιματική αλλαγή; Οι ερευνητές φοβούνται ότι η διαστημική βιομηχανία έχει ελάχιστα κίνητρα να αλλάξει λόγω της απουσίας κανονισμών, της απροθυμίας να εγκαταλείψει την ασφαλή και αποδεδειγμένη τεχνολογία και του γεγονότος ότι τα νέα καύσιμα σημαίνουν ακριβές νέες μηχανές και χρονοβόρες δοκιμές.
             </p>
         </section>
 
@@ -271,69 +271,69 @@
 
             <section id="s-6">
             <h2 id="s-6-title">
-                Kuidas inimesed kaaluta olekut kogevad?
+                6. Πως βιώνουν οι άνθρωποι την έλλειψη βαρύτητας;
             </h2>
 
             <p>
-                Pärast seda, kui umbes 8 ja poole minuti pärast Maalt startinud rakett välja lülitub, sisenevad astronaudid kosmosesse ja kogevad kaaluta olekut. Kaaluta olekut nimetatakse mikrogravitatsiooniks. Astronaudid on tegelikult vabalangemise seisundis. Rakett liigub pärast mootori väljalülitamist horisontaalselt väga suure kiirusega – umbes 8 kilomeetrit sekundis ja langeb samuti vabalt, tehes sellega tiiru ümber Maa.
+                Μετά από 8,5 λεπτά από τηνεκτόξευση ενός πυραύλου ο κινητήρας του σβήνει, οι αστροναύτες εισέρχονται στο διάστημα και βιώνουν την έλλειψη βαρύτητας. Η έλλειψη βαρύτητας ονομάζεται πιο σωστά μικροβαρύτητα. Στην πραγματικότητα οι αστροναύτες βρίσκονται σε κατάσταση ελεύθερης πτώσης. Ο πύραυλος μετά το σβήσιμο του κινητήρα κινείται οριζόντια με πολύ υψηλή ταχύτητα περίπου 8 χιλιομέτρων το δευτερόλεπτο και έπειτα πέφτει ελεύθερος περιστρεφόμενος έτσι γύρω από τη Γη.
             </p>
             <p>
-                Kui inimesed puutuvad esimest korda kokku mikrogravitatsiooniga, on neil järgmised tunded: iiveldus, desorientatsioon, peavalu, isutus, ummistused, mida kokku nimetatakse kosmosehaiguseks (ingl. k. space sickness). Pikem viibimine mikrogravitatsioonis põhjustab lihaste ja luude nõrgenemist. Sadade kosmoselendude kogemused näitavad, kuidas inimkeha kaalutusele reageerib. Allpool kirjeldame mõningaid füsioloogilisi mõjusid, mida keha kosmoses kogeb.
-            </p>
-
-            <h3>
-                Kosmosehaigus
-            </h3>
-
-            <p>
-                Iiveldus ja desorientatsioon on nagu selline tunne kõhus, mida kogetakse kukkumisel, ainult, et see tunne kestab pidevalt mitu päeva. See on kosmosehaigus, mis on põhjustatud vastuolulisest teabest, mida aju saab silmade kaudu ja sisekõrvas asuvatest vestibulaarorganitest.
-            </p>
-            <p>
-                Silmad näevad, mis on salongis üleval või all, kuid kuna vestibulaarsüsteem toetud gravitatsiooni allapoole suunatud tõmbejõule, et öelda, mis suunas on üleval või mis all ja mis suunas liigutakse, ei toimi see mikrogravitatsioonis. Seega võivad silmad ajule öelda, et ollakse tagurpidi, kuid aju ei saa vestibulaarorganitelt tõlgendatavat sisendit. Segaduses aju tekitab iiveldust ja desorientatsiooni, mis omakorda võib põhjustada oksendamist ja isutust. Õnneks kohaneb aju tavaliselt mõne päeva pärast olukorraga ainult visuaalsele sisendile toetudes, misjärel hakatakse ennast paremini tundma.
+                Όταν οι άνθρωποι συναντούν για πρώτη φορά τη μικροβαρύτητα, έχουν τα ακόλουθα συναισθήματα: Ναυτία, Αποπροσανατολισμό, Πονοκέφαλο, Απώλεια όρεξης, Συμφόρηση, που ονομάζονται διαστημική ασθένεια. Η μεγαλύτερη παραμονή στη μικροβαρύτητα προκαλεί αποδυνάμωση των μυών και των οστών. Η εμπειρία από εκατοντάδες διαστημικές πτήσεις δείχνει πώς το ανθρώπινο σώμα ανταποκρίνεται στην έλλειψη βαρύτητας. Παρακάτω παρουσιάζουμε μια περιγραφή ορισμένων φυσιολογικών επιπτώσεων που θα είχε το σώμα σας στο διάστημα.
             </p>
 
             <h3>
-                Pundunud nägu ja linnujalad
+                Διαστημική ασθένεια
             </h3>
+
             <p>
-                Mikrogravitatsiooni korral pundub nägu ja tekib ninakõrvalurgete ummistus, mis võib kaasa tuua peavalud ja kosmosehaiguse. Sama tunnet tunnetatakse Maal, kui kummardatakse või seistakse tagurpidi, sest veri valgub pähe.
+                Η ναυτία και ο αποπροσανατολισμός που θα νιώθατε είναι σαν το αίσθημα στο στομάχι σας όταν βιώνεται μια πτώση από μια βόλτα με τρενάκι, μόνο που θα είχατε αυτό το συναίσθημα συνεχώς για αρκετές ημέρες. Αυτό είναι το αίσθημα της διαστημικής ασθένειας, ή ασθένεια της κίνησης στο διάστημα, που προκαλείται από αντικρουόμενες πληροφορίες που λαμβάνει ο εγκέφαλός σας από τα μάτια σας και τα αιθουσαία όργανα που βρίσκονται στο εσωτερικό του αυτιού σας (τα αιθουσαία όργανα του αυτιού μας είναι υπεύθυνα, μεταξύ άλλων, και για την αίσθηση της ισορροπίας και της κίνησης στο χώρο).
             </p>
             <p>
-                Maal tõmbab gravitatsioon verd, põhjustades märkimisväärse koguse kogunemist meie jalgade veenidesse. Kui puututakse kokku mikrogravitatsiooniga, nihkub veri jalgadest rinnale ja pähe. Seetõttu kipub nägu paistetama ja põskkoopad paisuma. Vedeliku ümberpaiknemine vähendab ka jalgade suurust.
+                Τα μάτια σας μπορούν να δουν ποια κατεύθυνση είναι πάνω και κάτω μέσα στην καμπίνα. Ωστόσο, επειδή το αιθουσιαίo σύστημα σας βασίζεται στην έλξη της βαρύτητας προς τα κάτω για να σας πει ποια κατεύθυνση είναι προς τα πάνω, προς τα κάτω και προς ποια κατεύθυνση κινείστε, δεν λειτουργεί στη μικροβαρύτητα. Έτσι, τα μάτια σας μπορεί να λένε στον εγκέφαλό σας ότι είστε ανάποδα, αλλά ο εγκέφαλός σας δεν λαμβάνει καμία ερμηνεία από τα αιθουσιαία όργανά σας. Ο μπερδεμένος εγκέφαλός σας προκαλεί ναυτία και αποπροσανατολισμό που με τη σειρά του μπορεί να οδηγήσει σε εμετό και απώλεια όρεξης. Ευτυχώς, μετά από λίγες μέρες, ο εγκέφαλός μας συνήθως προσαρμόζεται στην κατάσταση βασιζόμενος αποκλειστικά στα οπτικά μηνύματα και αρχίζετε να αισθάνεστε καλύτερα.
             </p>
 
             <h3>
-                Muutused veres ja kehavedelikes
+                Φουσκωμένο πρόσωπο και πόδια πουλιού
             </h3>
             <p>
-                Kui veri liigub eelistatult rinna suunas, suureneb süda ja see pumpab iga löögiga rohkem verd. Neerud reageerivad suurenenud verevoolule, tekitades rohkem uriini, nagu nad teevad seda pärast suure hulga vee joomist. Samuti vähendab vere ja vedeliku sisalduse suurenemine kehas antidiureetilise hormooni (ADH) sekretsiooni hüpofüüsi poolt, mis muudab astronaudi vähem januseks. Seetõttu ei joo nad nii palju vett kui Maal. Üldiselt aitavad need kaks tegurit koos rindkeret ja pead liigsest vedelikust vabastada ning mõne päeva pärast on keha vedelikutase madalam kui Maal. Kuigi endiselt on pea veidi punnis ja põskkoopad umbes, pole see pärast esimest paari päeva enam nii hull. Maale naastes tõmbab gravitatsioon need vedelikud tagasi jalgade suunas ja ühtlasi peast eemale, mistõttu tuntakse end püsti tõustes minestamas. Kuid siis hakatakse ka rohkem jooma ja keha vedelikutase normaliseerub paari päeva pärast.
+                Στη μικροβαρύτητα, θα αισθάνεστε το πρόσωπό σας φουσκωμένο και τα ιγμόρειά σας θα αισθάνονται συμφόρηση, γεγονός που μπορεί να συμβάλλει σε πονοκεφάλους καθώς και σε Διαστημική ασθένεια. Το ίδιο αίσθημα που νιώθεις και στη Γη όταν σκύβεις ή στέκεσαι ανάποδα, γιατί το αίμα πάει στο κεφάλι σου.
+            </p>
+            <p>
+                Στη Γη, η βαρύτητα τραβάει το αίμα μας, προκαλώντας τη συγκέντρωση σημαντικών όγκων στις φλέβες των ποδιών μας. Στην μικροβαρύτητα, το αίμα μετατοπίζεται από τα πόδια σας στο στήθος και το κεφάλι σας. Το πρόσωπό σας τείνει να φουσκώνει και τα ιγμόρειά σας πρήζονται. Η μετατόπιση υγρών συρρικνώνει επίσης το μέγεθος των ποδιών σας.
             </p>
 
             <h3>
-                Nõrgad lihased
+                Αλλαγές στο αίμα και τα σωματικά σας υγρά
             </h3>
             <p>
-                Kui ollakse mikrogravitatsioonis, võtab keha kergesti looteasendi – olles kerges kükitusasendis, käed ja jalad pooleldi ette kõverdatud ei kasutata eriti paljusid lihaseid, eriti neid lihaseid, mis aitavad seista ja kehahoiakut säilitada (gravitatsioonivastaseid lihaseid). Seetõttu lihaste mass väheneb. Mida kauem kosmoses viibida, seda vähem jääb alles lihasmassi. Lihasmassi kadu muudab astronaudi nõrgemaks, tekitades probleeme pikaajaliste kosmoselendude korral ja naasmisel Maa gravitatsiooni.
+                Όταν το αίμα μετατοπίζεται στο στήθος, η καρδιά σας μεγαλώνει σε μέγεθος και αντλεί περισσότερο αίμα με κάθε χτύπο. Τα νεφρά σας ανταποκρίνονται σε αυτή την αυξημένη ροή αίματος παράγοντας περισσότερα ούρα, όπως ακριβώς κάνουν αν πιείτε ένα μεγάλο ποτήρι νερό. Επίσης, η αύξηση του αίματος και των υγρών μειώνει την έκκριση της αντιδιουρητικής ορμόνης (ADH) από την υπόφυση, γεγονός που σας κάνει λιγότερο διψασμένους. Επομένως, δεν πίνετε τόσο πολύ νερό όσο θα μπορούσατε στη Γη. Συνολικά, αυτοί οι δύο παράγοντες συνδυάζονται για να σας βοηθήσουν να απαλλάξετε το στήθος και το κεφάλι σας από το υπερβολικό υγρό και σε λίγες μέρες, τα επίπεδα υγρών του σώματός σας είναι λιγότερα από αυτά που ήταν στη Γη. Αν και εξακολουθείτε να έχετε ελαφρώς πρησμένο κεφάλι και βουλωμένα ιγμόρεια, δεν είναι τόσο άσχημα μετά τις πρώτες δύο μέρες. Με την επιστροφή σας στη Γη, η βαρύτητα θα τραβήξει αυτά τα υγρά πίσω στα πόδια σας και μακριά από το κεφάλι σας, κάτι που θα σας κάνει να αισθάνεστε λιποθυμία όταν σηκώνεστε όρθιοι. Επίσης θα αρχίσετε να πίνετε  περισσότερα υγρά και θα επανέλθουν στο φυσιολογικό σε μερικές ημέρες.
             </p>
 
             <h3>
-                Haprad luud
+                Αδύναμοι Μύες
             </h3>
             <p>
-                Mikrogravitatsioonis ei pea luud keha toetama, seega kasutatakse kõiki luid, eriti puusade, reite ja alaselja raskust kandvaid luid palju vähem kui Maal. Tulemuseks on see, et nende luude suurus ja mass vähenevad kiirusega umbes 1 protsent kuus. Need muutused luumassis muudavad luud nõrgaks ja need purunevad tõenäolisemalt pärast Maa gravitatsiooni naasmist. Luukadu on Maale naasmisel taastuv.
+                Όταν βρίσκεστε στη μικροβαρύτητα, το σώμα σας υιοθετεί μια «εμβρυϊκή» στάση — σκύβετε ελαφρά, με τα χέρια και τα πόδια σας μισολυγισμένα μπροστά σας. Σε αυτή τη στάση, δεν χρησιμοποιείτε πολλούς από τους μύες σας, ιδιαίτερα εκείνους τους μύες που σας βοηθούν να στέκεστε και να διατηρείτε τη στάση σας (μύες κατά της βαρύτητας). Η μάζα των μυών σας μειώνεται. Όσο περισσότερο μένετε στο διάστημα, τόσο λιγότερη μυϊκή μάζα θα έχετε. Αυτή η απώλεια μυϊκής μάζας σας καθιστά πιο αδύναμους, και εκδηλώνονται προβλήματα στις διαστημικές πτήσεις μεγάλης διάρκειας και κατά την επιστροφή στο σπίτι στη βαρύτητα της Γης.
+            </p>
+
+            <h3>
+                Εύθραυστα οστά
+            </h3>
+            <p>
+                Στη μικροβαρύτητα, τα οστά σας δεν χρειάζεται να υποστηρίζουν το σώμα σας, επομένως όλα τα οστά σας, ειδικά τα οστά που φέρουν βάρος στους γοφούς, τους μηρούς και το κάτω μέρος της πλάτης σας, χρησιμοποιούνται πολύ λιγότερο από ό,τι στη Γη. Το αποτέλεσμα αυτού είναι ότι το μέγεθος και η μάζα αυτών των οστών συνεχίζουν να μειώνονται όσο παραμένετε στη μικροβαρύτητα, με ρυθμό περίπου 1 τοις εκατό ανά μήνα. Αυτές οι αλλαγές στην οστική μάζα καθιστούν τα οστά σας αδύναμα και πιο πιθανό να σπάσουν κατά την επιστροφή σας στη βαρύτητα της Γης. Η οστική απώλεια είναι ανακτήσιμη με την επιστροφή στη Γη.
             </p>
             <p>
-                Lisaks nõrkadele luudele suureneb kaltsiumi kontsentratsioon veres ja neerud peavad vabanema liigsest kaltsiumist, mis muudab need vastuvõtlikuks valulike neerukivide tekkele.
+                Εκτός από τα αδύναμα οστά, η συγκέντρωση ασβεστίου στο αίμα σας αυξάνεται και τα νεφρά πρέπει να απαλλαγούν από την περίσσεια ασβεστίου, γεγονός που τα καθιστά επιρρεπή στο να σχηματίσουν άλατα («πέτρες στα νεφρά»).
             </p>
             <p>
-                Nende probleemide osaliseks ületamiseks peavad astronaudid iga päev vähemalt kaks tundi treenima spetsiaalselt kaaluta oleku jaoks kohandatud masinatel (jooksurada, sõudmismasin, jalgratas).
+                Για να ξεπεράσουν εν μέρει αυτά τα προβλήματα οι αστροναύτες πρέπει να ασκούνται τουλάχιστον δύο ώρες κάθε μέρα σε ειδικά προσαρμοσμένα μηχανήματα έλλειψης βαρύτητας (διάδρομος, κωπηλατική μηχανή, ποδήλατο).
             </p>
         </section>
 
 
         <section id="s-7">
             <h2 id="s-7-title">
-                Viited
+                7. Βιβλιογραφία
             </h2>
 
             <ul class="leading-tight text-sm">
