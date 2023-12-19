@@ -377,7 +377,7 @@
         {
             "title": "Korallrev",
             "image": "card_c-change_coral-reefs.webp",
-            "story": "Omkring 50 % av Australiens stora barriärrev har dött sedan 1990-talet, enligt en studie publicerad i Proceedings of the Royal Society Journal. “Nedgången inträffade på både grunt och djupare vatten, och över alla arter - men särskilt i förgrenade och bordsformade koraller. Dessa var värst drabbade av rekordstora temperaturer som utlöste massblekning 2016 och 2017”, säger professor Terry Hughes, medförfattare till studien. Förlust av bordsformade koraller kommer också negativt påverka fiskarter. “Våra resultat visar att det stora barriärrevets förmåga att återhämta sig - dess motståndskraft - äventyras jämfört med det förflutna,” tillade han."
+            "story": "Omkring 50 % av Australiens stora barriärrev har dött sedan 1990-talet, enligt en studie publicerad i Proceedings of the Royal Society Journal. “Nedgången inträffade på både grunt och djupare vatten, och över alla arter - men särskilt i förgrenade och bordsformade koraller. Dessa var värst drabbade av rekordstora temperaturer som utlöste massblekning 2016 och 2017”, säger professor Terry Hughes, medförfattare till studien. Förlust av bordsformade koraller kommer också negativt påverka fiskarter. “Våra resultat visar att det stora barriärrevets förmåga att återhämta sig - dess motståndskraft - äventyras jämfört med hur det varit historiskt,” tillade han."
         },
         {
             "title": "Isbjörnar",
@@ -397,7 +397,7 @@
         {
             "title": "Fyra årstider",
             "image": "card_c-change_four-seasons.webp",
-            "story": "I USA brukar man uppleva fyra årstider varje år, men vissa forskare förutspår att ett förändrat klimat också kommer att förändra hur våra årstider är ordnade. Istället för fyra lika långa årstider kommer året att domineras av bara två årstider: vinter och sommar. Vår och höst kommer att bli korta, i april och oktober, men större delen av året korta, i april och oktober, men större delen av året. Forskning har visat att säsongsbetonad uppvärmning sker i en ojämn takt över hela USA, med vintertemperaturer som stiger snabbare än sommartemperaturer. Det genomsnittliga antalet dagar med temperaturer under fryspunkten minskar dock varje vinter. Städer över hela landet, särskilt i de södra staterna och Pacific Northwest, förutspås få färre dagar (upp till två månader) med minusgrader till 2050."
+            "story": "I USA brukar man uppleva fyra årstider varje år, men vissa forskare förutspår att ett förändrat klimat också kommer att förändra hur våra årstider är ordnade. Istället för fyra lika långa årstider kommer året att domineras av bara två årstider: vinter och sommar. Vår och höst kommer att bli korta, i april och oktober, men större delen av året får extremt varma och kalla temperaturer. Forskning har visat att säsongsbetonad uppvärmning sker i en ojämn takt över hela USA, med vintertemperaturer som stiger snabbare än sommartemperaturer. Det genomsnittliga antalet dagar med temperaturer under fryspunkten minskar dock varje vinter. Städer över hela landet, särskilt i de södra staterna och Pacific Northwest, förutspås få färre dagar (upp till två månader) med minusgrader till 2050."
         }
     ],
     "infoCards" : [

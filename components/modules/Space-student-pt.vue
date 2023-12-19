@@ -27,7 +27,7 @@
                 <h2 id="s-0-title">Introdução</h2>
 
                 <p>
-                    Talvez já em criança tenhas tido curiosidade sobre o espaço e o que existe lá fora, sobre os diferentes corpos celestes e o infinito do espaço. Neste módulo, é convidado a refletir sobre as explorações espaciais humanas e a investigar diferentes mitos e questões relacionadas com o espaço. Partir de <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introductory videos</a> onde são apresentadas algumas ideias, sonhos, riscos, medos e mitos relacionados com o espaço e debatê-los em grupos. A discussão em grupo conduzirá à seleção de uma atividade de exploração ou de destruição de mitos, na qual se procurarão provas para falsificar ou confirmar um mito escolhido, ou para clarificar um conceito errado existente. Esta atividade pode ser realizada na prática ou utilizando as chamadas provas secundárias (informação da literatura científica e da Internet). Como primeiro passo para trabalhar com um mito ou uma questão que se queira explorar, é necessário colocar uma hipótese testável (ver Figura 1).
+                    Talvez já em criança tenhas tido curiosidade sobre o espaço e o que existe lá fora, sobre os diferentes corpos celestes e o infinito do espaço. Neste módulo, é convidado a refletir sobre as explorações espaciais humanas e a investigar diferentes mitos e questões relacionadas com o espaço. Partir de <a href="#s1">vídeo de introdução</a> onde são apresentadas algumas ideias, sonhos, riscos, medos e mitos relacionados com o espaço e debatê-los em grupos. A discussão em grupo conduzirá à seleção de uma atividade de exploração ou de destruição de mitos, na qual se procurarão provas para falsificar ou confirmar um mito escolhido, ou para clarificar um conceito errado existente. Esta atividade pode ser realizada na prática ou utilizando as chamadas provas secundárias (informação da literatura científica e da Internet). Como primeiro passo para trabalhar com um mito ou uma questão que se queira explorar, é necessário colocar uma hipótese testável (ver Figura 1).
                 </p>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-pt.webp">
@@ -44,8 +44,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-1">
-                <h2 id="s-1-title">
+            <section id="s1">
+                <h2 id="s1t">
                     Atividade 1: Apresentação de um vídeo de introdução
                 </h2>
             
@@ -53,7 +53,12 @@
                     Vê o vídeo de introdução no link introductory video (Earth Calls Martha). Escreva os seus pensamentos e sentimentos iniciais sobre as questões apresentadas.
                 </p>
     
-                <UiYoutube video="a95oKCDgIow" />
+                <div class="grid grid-cols-1 gap-2 xl:grid-cols-2">
+                    <UiYoutube video="a95oKCDgIow" />
+                    <UiYoutube video="wlstnH27waw" />
+                    <UiYoutube video="RvLdHwy4qMI" />
+                    <UiYoutube video="d86JQpemSZ4" />
+                </div>
             </section>
 
 
@@ -75,8 +80,12 @@
             <p>Depois de verem o vídeo, são convidados a debater o tema em pequenos grupos (3-4 membros).</p>
 
             <ol>
-                <li>Por favor, expressem aos vossos colegas as vossas ideias e sentimentos sobre as questões apresentadas no vídeo.</li>
-                <li>Em grupo, são convidados a escolher uma das questões (do vídeo introdutório) para aprofundar ou/e a analisar outros mitos, ideias e questões (ver abaixo) que possam ser do interesse do vosso grupo.</li>
+                <li>
+                    Por favor, expressem aos vossos colegas as vossas ideias e sentimentos sobre as questões apresentadas no vídeo.
+                </li>
+                <li>
+                    Em grupo, são convidados a escolher uma das questões (do vídeo introdutório) para aprofundar ou/e a analisar outros mitos, ideias e questões (ver abaixo) que possam ser do interesse do vosso grupo.
+                </li>
             </ol>
             
             <h3>
@@ -84,19 +93,45 @@
             </h3>
             
             <ul>
-                <li><span class="text-rose-400 font-bold">Mito 1:</span> Os astronautas em órbita da Terra não têm peso porque estão longe da Terra.</li>
-                <li><span class="text-rose-400 font-bold">Mito 2:</span> Comer requer gravidade para que os alimentos cheguem ao nosso estômago. Os astronautas precisam de formação especial para comer em microgravidade (numa estação espacial).</li>
-                <li><span class="text-rose-400 font-bold">Mito 3:</span> As viagens espaciais serão em breve interrompidas por detritos espaciais.</li>
-                <li><span class="text-rose-400 font-bold">Mito 4:</span> Os extraterrestres visitam a Terra através de objetos voadores não identificados (OVNIs), mas os governos e os astronautas escondem-nos as provas da existência de OVNIs</li>
-                <li><span class="text-rose-400 font-bold">Mito 5:</span> Os voos espaciais contribuem para a poluição atmosférica e o aquecimento global</li>
-                <li><span class="text-rose-400 font-bold">Mito 6:</span> Os seres humanos devem colonizar Marte para garantir a nossa sobrevivência futura</li>
-                <li><span class="text-rose-400 font-bold">Mito 7:</span> Existe vida noutras partes do Universo</li>
-                <li><span class="text-rose-400 font-bold">Mito 8:</span> O lixo espacial não pode ser removido com segurança</li>
-                <li><span class="text-rose-400 font-bold">Mito 9:</span> A nave espacial precisa de ter um motor de foguetão sempre a funcionar no caminho para Marte.</li>
-                <li><span class="text-rose-400 font-bold">Mito 10:</span> Os foguetões precisam de ar (atmosfera) para fazer força.</li>
-                <li><span class="text-rose-400 font-bold">Mito 11:</span> A microgravidade numa estação espacial em órbita da Terra é prejudicial para a saúde dos astronautas</li>
-                <li><span class="text-rose-400 font-bold">Mito 12:</span> A hipergravidade durante o lançamento e a aterragem é prejudicial para a saúde dos astronautas</li>
-                <li><span class="text-rose-400 font-bold">Mito 13:</span> A radiação cósmica é perigosa para os astronautas na ISS.</li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 1:</span> Os astronautas em órbita da Terra não têm peso porque estão longe da Terra.
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 2:</span> Comer requer gravidade para que os alimentos cheguem ao nosso estômago. Os astronautas precisam de formação especial para comer em microgravidade (numa estação espacial).
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 3:</span> As viagens espaciais serão em breve interrompidas por detritos espaciais.
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 4:</span> Os extraterrestres visitam a Terra através de objetos voadores não identificados (OVNIs), mas os governos e os astronautas escondem-nos as provas da existência de OVNIs
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 5:</span> Os voos espaciais contribuem para a poluição atmosférica e o aquecimento global
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 6:</span> Os seres humanos devem colonizar Marte para garantir a nossa sobrevivência futura
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 7:</span> Existe vida noutras partes do Universo
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 8:</span> O lixo espacial não pode ser removido com segurança
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 9:</span> A nave espacial precisa de ter um motor de foguetão sempre a funcionar no caminho para Marte.
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 10:</span> Os foguetões precisam de ar (atmosfera) para fazer força.
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 11:</span> A microgravidade numa estação espacial em órbita da Terra é prejudicial para a saúde dos astronautas
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 12:</span> A hipergravidade durante o lançamento e a aterragem é prejudicial para a saúde dos astronautas
+                </li>
+                <li>
+                    <span class="text-rose-400 font-bold">Mito 13:</span> A radiação cósmica é perigosa para os astronautas na ISS.
+                </li>
             </ul>
 
             <p>
@@ -115,6 +150,8 @@
         33
     333333
  -->        
+
+            <hr class="mt-10 mb-40 print:my-10" />
 
             <section id="s-3">
                 <h2 id="s-3-title">
@@ -253,7 +290,7 @@
 
 
                 <h3>
-                    Kaardid
+                    Cartas de jogar
                 </h3>
 
                 <UiCardGamePrintMessage url="../tools/cards/space" />

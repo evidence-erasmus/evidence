@@ -15,7 +15,7 @@
 
         <section class="e-article print:not-prose" lang="sv" style="hyphens:auto;">
             <Icon name="openmoji:person-raising-hand-medium-light-skin-tone" class="float-right text-[5em] text-slate-300" />
-            <!-- <Icon name="openmoji:person-shrugging" class="float-right text-[5em] text-slate-300" /> -->
+            
             <h1 class="mb-0">Rymden</h1>
             <h5 class="font-normal uppercase leading-tight">Elevmaterial</h5>
         
@@ -23,7 +23,7 @@
                 <h2 id="s-0-title">Introduktion</h2>
 
                 <p>
-                    Redan som liten var du kanske nyfiken på rymden och vad som finns där ute, om olika himlakroppar och rymdens oändlighet. I denna modul ska du få möjlighet att reflektera över rymden och rymdutforskningar. Välj och titta på en <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introduktionsvideo</a>, där några rymdrelaterade idéer, drömmar och myter tas upp och diskutera dem i grupper. I grupper ska ni välja en myt eller en fråga att undersöka som kan utföras praktiskt eller med hjälp av s information från vetenskaplig litteratur och internet (se Figur 1). 
+                    Redan som liten var du kanske nyfiken på rymden och vad som finns där ute, om olika himlakroppar och rymdens oändlighet. I denna modul ska du få möjlighet att reflektera över rymden och rymdutforskningar. Välj och titta på en <a href="#s1">introduktionsvideo</a>, där några rymdrelaterade idéer, drömmar och myter tas upp och diskutera dem i grupper. I grupper ska ni välja en myt eller en fråga att undersöka som kan utföras praktiskt eller med hjälp av s information från vetenskaplig litteratur och internet (se Figur 1). 
                 </p>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-sv.webp">
@@ -46,10 +46,14 @@
                 </h2>
             
                 <p>
-                    Se introduktionsvideon. Anteckna dina första tankar och känslor om det som presenteras.
+                    Välj och titta på en introduktionsvideo. Anteckna dina första tankar och känslor om det som presenteras.
                 </p>
-    
-                <UiYoutube video="a95oKCDgIow" />
+                <div class="grid grid-cols-1 gap-2 xl:grid-cols-2">
+                    <UiYoutube video="a95oKCDgIow" />
+                    <UiYoutube video="wlstnH27waw" />
+                    <UiYoutube video="RvLdHwy4qMI" />
+                    <UiYoutube video="d86JQpemSZ4" />
+                </div>
             </section>
 
 
@@ -112,9 +116,11 @@
     333333
  -->        
 
-            <section id="s-3">
-                <h2 id="s-3-title">
-                    Aktivitet 3: Undersökning/ Mythbusting
+            <hr class="mt-10 mb-40 print:my-10" />
+            
+            <section id="s3">
+                <h2 id="s3t">
+                    Aktivitet 3: Undersökning / Mythbusting
                 </h2>
                 <ModulesSpaceStudentActivitySv />
             </section>
@@ -246,7 +252,6 @@
                 <p>
                     I slutet av debatten kan deltagarna rösta för eller emot att använda skattebetalarnas pengar för de bemannade eller robotiserade rymduppdragen.
                 </p>
-
 
 
                 <h3>

@@ -23,7 +23,7 @@
                 <h2 id="s-0-title">Introduction</h2>
 
                 <p>
-                    As a child, you were perhaps curious about space and what is out there, about different celestial bodies and the infinity of space. This module invites you to reflect on human space explorations and investigate various space-related myths and issues. Depart from the <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introductory video</a>, where some space-related ideas, dreams, risks, fears and myths are brought up and discussed in groups. Group discussion will lead to selecting a myth-busting or exploration activity where you will look for evidence to falsify or confirm a chosen myth or clarify existing misconceptions. This activity could be conducted practically or using secondary evidence (information from science literature and the internet). As a first step in working with a myth or issue you want to explore, you have to pose a testable hypothesis (see Figure 1). 
+                    As a child, you were perhaps curious about space and what is out there, about different celestial bodies and the infinity of space. This module invites you to reflect on human space explorations and investigate various space-related myths and issues. Depart from the <a href="#s1">introductory video</a>, where some space-related ideas, dreams, risks, fears and myths are brought up and discussed in groups. Group discussion will lead to selecting a myth-busting or exploration activity where you will look for evidence to falsify or confirm a chosen myth or clarify existing misconceptions. This activity could be conducted practically or using secondary evidence (information from science literature and the internet). As a first step in working with a myth or issue you want to explore, you have to pose a testable hypothesis (see Figure 1). 
                 </p>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp">
@@ -40,8 +40,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-1">
-                <h2 id="s-1-title">
+            <section id="s1">
+                <h2 id="s1t">
                     Activity 1: Presentation of the video introduction
                 </h2>
             
@@ -49,7 +49,12 @@
                     Please watch an introductory video (Earth Calls Martha). Write down your initial thoughts and feelings about the issues presented.
                 </p>
     
-                <UiYoutube video="a95oKCDgIow" />
+                <div class="grid grid-cols-1 gap-2 xl:grid-cols-2">
+                    <UiYoutube video="a95oKCDgIow" />
+                    <UiYoutube video="wlstnH27waw" />
+                    <UiYoutube video="RvLdHwy4qMI" />
+                    <UiYoutube video="d86JQpemSZ4" />
+                </div>
             </section>
 
 

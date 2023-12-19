@@ -23,7 +23,7 @@
                 <h2 id="s-0-title">Sissejuhatus</h2>
 
                 <p>
-                    Võib-olla tundsite juba lapsena uudishimu kosmose ja seal leiduva, erinevate taevakehade ja kosmose lõputuse vastu. Selles moodulis kutsutakse teid mõtisklema inimeste kosmoseuuringute üle ning uurima erinevaid kosmosega seotud müüte ja küsimusi. <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">Sissejuhatavas videos</a>tuuakse välja mõned kosmosealased ideed, unistused, riskid, hirmud ja müüdid ning arutatakse neid rühmades. Rühmaarutelu tulemusel valitakse müüt, mida põhjalikumalt uurida otsides tõendeid selle kummutamiseks või kinnitamiseks. Seda tegevust saab läbi viia eksperimentaalselt või kasutades sekundaarseid allikaid (teave teaduskirjandusest ja Internetist). Esimese sammuna peaksite püstitama kontrollitava hüpoteesi (vt joonis 1).
+                    Võib-olla tundsite juba lapsena uudishimu kosmose ja seal leiduva, erinevate taevakehade ja kosmose lõputuse vastu. Selles moodulis kutsutakse teid mõtisklema inimeste kosmoseuuringute üle ning uurima erinevaid kosmosega seotud müüte ja küsimusi. <a href="#s1">Sissejuhatavates videotes</a> tuuakse välja mõned kosmosealased ideed, unistused, riskid, hirmud ja müüdid ning arutatakse neid rühmades. Rühmaarutelu tulemusel valitakse müüt, mida põhjalikumalt uurida otsides tõendeid selle kummutamiseks või kinnitamiseks. Seda tegevust saab läbi viia eksperimentaalselt või kasutades sekundaarseid allikaid (teave teaduskirjandusest ja Internetist). Esimese sammuna peaksite püstitama kontrollitava hüpoteesi (vt joonis 1).
                 </p>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp">
@@ -40,16 +40,21 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-1">
-                <h2 id="s-1-title">
+            <section id="s1">
+                <h2 id="s1t">
                     Tegevus 1: Sissejuhatava video vaatamine
                 </h2>
             
                 <p>
-                    Vaata tähelepanelikult järgnevat videot. Pane kirja oma esialgsed mõtted ja tunded, mida nähtu Sinus tekitab.
+                    Vaata tähelepanelikult järgnevaid videoid. Vali üks ja pane kirja oma esialgsed mõtted ja tunded, mida nähtu Sinus tekitab.
                 </p>
     
-                <UiYoutube video="a95oKCDgIow" />
+                <div class="grid grid-cols-1 gap-2 xl:grid-cols-2">
+                    <UiYoutube video="a95oKCDgIow" />
+                    <UiYoutube video="wlstnH27waw" />
+                    <UiYoutube video="RvLdHwy4qMI" />
+                    <UiYoutube video="d86JQpemSZ4" />
+                </div>
             </section>
 
 
