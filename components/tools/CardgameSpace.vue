@@ -732,147 +732,147 @@
 
 
     sv: {
-        roleCardsFavourTitle : "Roller till förmån för position 1 (För kärnkraft)",
-        roleCardsAgainstTitle : "Roller till förmån för position 2 (Imot kärnkraft)",
-        infoCardsTitle : "Info kort",
+        roleCardsFavourTitle : "Roller till förmån för ståndpunkt 1 (för bemannade rymdresor)",
+        roleCardsAgainstTitle : "Roller till förmån för position 2 (emot bemannade rymdresor)",
+        infoCardsTitle : "Informationskort",
         roleCardsLabel : "Roll",
         infoCardsLabel : "Info",
         roleCardsFavour : [
             {
-                title: "Government politician",
+                title: "Regeringspolitiker",
                 image: "card_space_government_politician.webp",
-                story: "As a government politician, you have electoral interests and want to increase the development of innovative technologies and the employment rate. Your party supports investments in the space exploration hi-tech industry as an essential foundation for a knowledge-based society. You defend the job creation resulting from creating a spaceport for manned spaceflights. The space travel industry provides many job opportunities and attracts youth through its innovative potential.",
-                story2: "You seek arguments for manned space travel to confront your political adversary."
+                story: "Som regeringspolitiker har du valintressen och vill öka utvecklingen av innovativa tekniker och sysselsättningsgraden i landet. Ditt parti stöder investeringar i rymdforskning, högteknologisk industri som en viktig grund för ett kunskapsbaserat samhälle. Du försvarar det jobbskapande som skulle bli resultatet av uppbyggnad av en rymdhamn för bemannade rymdfärder. Rymdresebranschen (och rymdturism) ger många jobbmöjligheter, men lockar också ungdomar genom sin innovativa potential.",
+                story2: "Du argumenterar för bemannade rymdresor för att konfrontera din politiska motståndare."
             },
             {
-                title: "Manager of a space exploration company",
+                title: "Chef för ett rymdutforskningsföretag",
                 image: "card_space_exploration_company_manager.webp",
-                story: "You favour further development of space explorations and try to defend your company's economic interests. You try to convince the government and public to build a spaceport serving manned space flights operation. You appeal to the safety and scientific advancement provided by such a facility. People who have been in space always serve as role models and ambassadors for the space industry.",
-                story2: "It must be supported by evidence justifying that investment in crewed space missions and constructing a spaceport is a timely necessity. It can be used commercially by other countries and private companies."
+                story: "Du är för ytterligare utveckling av rymdutforskningar och försöker försvara ditt företagsekonomiska intresse. Du försöker övertyga regeringen och allmänheten att bygga en rymdhamn som betjänar bemannade rymdflygningar. Du hänvisar till säkerheten och vetenskapliga framsteg som erbjuds av en sådan anläggning. Människor som har varit i rymden fungerar alltid som förebilder och ambassadörer för rymdindustrin.",
+                story2: "Försök presentera bevis som motiverar att investeringar i bemannade rymduppdrag och byggandet av en rymdhamn är nödvändig, i rätt tid och att det kan användas på kommersiell basis av andra länder och privata företag."
             },
             {
-                title: "Space scientist",
+                title: "Rymdforskare",
                 image: "card_space_scientist.webp",
-                story: "You are a person who is researching new ways of advancing in human space explorations. You envisioned the participation of your nation in creating a moon base that has the potential, for example, for harvesting helium-3, which is relatively abundant in lunar soil. Its fusion releases large amounts of energy but no radioactive by-products. Helium-3 nuclei from the moon can provide centuries of the world’s current power consumption.",
-                story2: "You should seek information to make a case for scientific evidence of the positive societal impact of new space techniques. You seek arguments in favour of human travels to space."
+                story: "Du är en person som forskar om nya sätt att göra framsteg i mänskliga/bemannade rymdutforskningar. Du förespråkar deltagande av din nation i skapandet av en bemannad månbas som har potential, till exempel, för att utvinna helium-3 som finns i mängder på månen. Dess fusion frigör stora mängder energi men inga radioaktiva biprodukter. Helium-3 från månen kan tillgodose många århundraden av världens nuvarande energiförbrukning.",
+                story2: "Du bör söka information och argumentera för positiva samhällseffekter av nya rymdtekniker. Du söker argument för utveckling av mänskliga resor till rymden."
             },
             {
-                title: "Medical doctor",
+                title: "Läkare",
                 image: "card_space_medical_doctor.webp",
-                story: "Medical research has shown the importance of microgravity studies for fighting cancer and understanding the potential of astronauts’ self-examination studies to advance medical sciences. We get a lot of information from the astronauts as being the experiment themselves, providing essential data to be used on Earth. Many of us would also regard a human landing on Mars as a paramount achievement for our species.",
-                story2: "You have to look for evidence to demonstrate that human space travel conditions and advancements propel advancements in health sciences."
+                story: "Medicinsk forskning har visat vikten av mikrogravitationsstudier för att bekämpa cancer och stor potential av astronauters självundersökningsstudier för att främja medicinska vetenskaper. Vi får mycket information från astronauterna eftersom experimentet ger viktiga data som kan användas på jorden. Många av oss skulle också betrakta en mänsklig landning på Mars som en avgörande prestation för vår art.",
+                story2: "Du måste leta efter och presentera bevis som bekräftar att mänskliga rymdresor är nödvändiga för framsteg inom hälsovetenskap / läkevetarkonsten."
             }
         ],
         roleCardsAgainst : [
             {
-                title: "Ecologist",
+                title: "Ekolog",
                 image: "card_space_ecologist.webp",
-                story: "You have a radically negative view of atmospheric pollution caused by rocket fuels and do not envisage the possibility of building a platform for sending humans to space in your country. Humans also cause biological contamination of space, leaving traces of human DNA through our activities. This will make it difficult to identify alternative life forms in the universe.",
-                story2: "You must look for evidence concerning favouring nature and the environment and positioning yourself against space travel."
+                story: "Du har en radikalt negativ syn på luftföroreningar orsakade av raketbränslen och föreställer dig inte möjligheten att bygga en plattform för att skicka människor till rymden i ditt land. Människor orsakar också biologisk kontaminering av rymden och lämnar spår av mänskligt DNA genom våra aktiviteter. Detta kommer att göra svårt att identifiera alternativa livsformer i universum i framtiden.",
+                story2: "Du måste leta efter och presentera bevis för att gynna natur och miljö och positionera dig mot bemannade rymdresor."
             },
             {
                 title: "Politician from the opposition",
                 image: "card_space_opposition_politician.webp",
-                story: "As a politician from the opposition, you have electoral interests and must be against your political opponent. Your party supports uncrewed space exploration as the most cost-effective, arguing that if it is possible to use self-driving cars in our cities, we should invest in sending AI-empowered robots on space missions. It is feasible to exploit additional resources in outer space, such as asteroid mining which could be an economic opportunity for the country. So, you do not entirely against the development of space exploration but how it should be focused.",
-                story2: "Look for arguments against manned space travel and in favour of robotic missions to confront your political adversary."
+                story: "Som politiker från oppositionen har du valintressen och måste vara emot din politiska motståndare. Ni stödjer obemannad rymdutforskning som ett mycket kostnadseffektivt, med argumentet att om det är möjligt att använda självkörande bilar i våra städer, bör vi investera i att skicka AI-styrda robotar på rymduppdrag. Du anser att det är möjligt att använda resurser i yttre rymden, till exempel asteroidmining, vilket kan vara en ekonomisk möjlighet för landet. Så du är inte helt emot utvecklingen av rymdutforskning utan hur den bör fokuseras. Du är för utveckling av autonoma rymdfarkoster.",
+                story2: "Leta efter och presentera argument mot bemannade rymdresor och till förmån för robotuppdrag för att konfrontera din politiska motståndare."
             },
             {
-                title: "Robotic technology space scientist",
+                title: "Expert inom robotteknik och rymdforskare",
                 image: "card_space_scientist_robots.webp",
-                story: "You are an expert in space robotics and convinced that it is possible to meet most of the achievable tasks in space with the help of robots and drones without risking human lives and saving a lot of money for other acute needs on our planet. You are against crewed spaceflights, although you recognise the need for future space explorations more sustainably.",
-                story2: "You will have to look for scientific arguments to convince us that it is possible to conquer space resources and gain new technological knowledge and power without sending humans to space."
+                story: "Du är expert på rymdrobotik och övertygad om att det är möjligt att klara de flesta av de genomförbara uppgifterna i rymden med hjälp av robotar och drönare, utan att behöva riskera människoliv och spara mycket pengar för andra akuta behov på vår planet. Du är emot de bemannade rymdfärderna, även om du känner värdet av framtida rymdutforskningar men på en mer hållbar basis.",
+                story2: "Du kommer att behöva leta efter vetenskapliga argument för att övertyga om att det är möjligt att få tillgång till rymdresurser och nå nya nivåer av teknisk utveckling utan att skicka människor till rymden."
             },
             {
-                title: "Representative satellite navigation company",
+                title: "Representant för ett satellitnavigeringsföretag",
                 image: "card_space_satellite_man.webp",
-                story: "You are against the use of manned flights and want to sell your network services for a broad range of sectors of the economy in different countries. Economic and business interests drive you and argue that your network is very reliable and totally environmentally friendly. We need to develop further satellite launch facilities that space-based industries require and already give us huge economic benefits.",
-                story2: "You must look for economic, labour and environmental evidence to support the positions against using crewed space flights."
+                story: "Du är emot användningen av bemannade flygningar och vill sälja dina nätverkstjänster för ett brett spektrum av ekonomisektorer i olika länder. Du drivs av ekonomiska och affärsmässiga intressen och hävdar att ditt nätverk är mycket pålitligt och helt miljövänligt. Vi måste utveckla ytterligare satellituppskjutningsanläggningar som krävs av rymdbaserade industrier och som redan ger oss enorma ekonomiska fördelar.",
+                story2: "Du måste leta efter ekonomiska, arbetskrafts- och miljömässiga bevis för att stödja ståndpunkterna mot användningen av bemannade rymdflyg."
             }
         ],
         infoCards : [
             {
-                title: "New space age",
-                story: "The new space age has shaped since the 1990s.  New independent actors are coming to space exploration: private companies, the European space programme, China and India are progressing rapidly. Probably, India will become the fourth nation to conduct independent human spaceflight after the Soviet Union/Russia, the United States and China. India intended to start a space station programme, crewed lunar landings, and crewed interplanetary missions in the long term. Suborbital space tourism became a reality not only for extremely rich people."
+                title: "Ny rymdålder",
+                story: "Den nya rymdåldern tar form sedan 1990-talet. Nya oberoende aktörer kommer till området för rymdutforskning: privata företag, europeiska rymdprogrammet, Kina och Indien går snabbt framåt. Förmodligen kommer Indien att bli den fjärde nationen att genomföra oberoende mänskliga rymdfärder efter Sovjetunionen/Ryssland, USA och Kina. Indien deklarerade sin avsikt att starta ett rymdstationsprogram, bemannade månlandningar och interplanetära bemannade rymdresor på lång sikt. Suborbitala rymdturismresor blev verklighet inte bara för extremt rika människor."
             },
             {
-                title: "Internet on-board",
-                story: "In-Flight Connectivity (IFC) and entertainment services across global airlines show steady growth. In 2021 service providers showed a 10% increase in the number of commercial aircraft connected to in-flight services compared to 2020, totalling 9,900 planes by the end of 2021. Within the next decade, the number of aircraft using such services is expected to double to more than 21,000. The new satellite constellations are expected to advance significantly post-2025, leading to an upsurge in bandwidth availability."
+                title: "Internet ombord",
+                story: "Satellitbaserad In-Flight Connectivity (IFC) och underhållningstjänster hos flygbolag visar stadig tillväxt. År 2021 rapporterade tjänsteleverantörer en ökning med 10 % i antalet kommersiella flygplan anslutna till flygtjänster jämfört med 2020, totalt 9 900 plan i slutet av 2021. Inom det kommande decenniet kommer antalet flygplan som använder sådana tjänster förväntas fördubblas till mer än 21 000. Satellitkonstellationsarkitekturer förväntas öka avsevärt efter 2025. Det kommer att leda till en ökning av tillgängligheten för bandbredd när satellitoperatörer byter till en ny generation av satelliter."
             },
             {
-                title: "Uncrewed aerial vehicles (UAV) alternative",
-                story: "Unmanned aerial vehicles (UAV) are a class of aircraft that can fly without the onboard presence of pilots. UAVs are very cost-effective. UAVs can also be used as a communication platform. Compared with satellites, it has simple system construction, high speed and low lag communication capability. It provides reliable wireless links for ground users to realise safe and reliable transmission of information. The UAV cluster communication network has high reliability."
+                title: "Obemannade luftfarkoster (UAV) alternativ",
+                story: "Unmanned aerial vehicles (UAV) är en klass av flygplan som kan flyga utan att navigeras av piloter. UAV används i många syfte på grund av dess snabba och kostnadseffektiva utbyggnad. UAV kan användas som en kommunikationsplattform. I jämförelse med en satellit har en enkel systemkonstruktion, hög hastighet och kommunikationskapacitet med liten fördröjning. Den tillhandahåller tillförlitligt trådlöst nätverk för markanvändare för säker och tillförlitlig överföring av information. UAV-klusterkommunikationsnätverket som består av flera UAV:er har hög kommunikation tillförlitlighet."
             },
             {
-                title: "Space debris",
-                story: "It consists of non-functional spacecraft and abandoned launch vehicle stages, fragments from the rocket bodies including pieces from their disintegration, erosion and collisions, paint flecks, solidified liquids expelled from spacecraft, and unburned particles from solid rocket motors. Estimations show that over 128 million pieces of debris smaller than 1 cm, about 900 000 bits of debris 1–10 cm and around 34 000 pieces larger than 10 cm were to be in orbit around Earth. Space debris represents a risk to space exploration."
+                title: "Rymdskrot",
+                story: "Den består av icke-funktionella rymdfarkoster och övergivna uppskjutningsfarkoster, fragment från raketkropparna inklusive bitar från deras sönderfall, erosion och kollisioner, färgfragment, stelnade vätskor som drivs ut från rymdfarkoster och oförbrända partiklar från fasta raketmotorer. Uppskattningar visar att det finns över 128 miljoner skräpbitar mindre än 1 cm, cirka 900 000 skräpbitar 1–10 cm och cirka 34000 stycken större än 10 cm i omloppsbana runt jorden. Rymdskrot utgör en risk för utforskning av rymden."
             },
             {
-                title: "Atmospheric pollution linked to space tourism",
-                story: "Scientists found that black carbon emissions will more than double after just three years of regular space tourism launches and that particles emitted by rockets are almost 500 times more efficient at holding heat in the atmosphere than all other sources of soot combined, resulting in an enhanced warming climate effect. While the current loss of ozone due to space launches is slight, the impact of space tourism launches may undermine the recovery in the ozone layer experienced after the success of the 1987 Montreal Protocol, which banned substances that deplete the Earth's ozone layer."
+                title: "Atmosfäriska föroreningar kopplade till rymdturismen",
+                story: "Forskare har funnit att utsläppen av svart kol kommer att mer än fördubblas efter bara tre år av regelbundna uppskjutningar av farkosten med rymdturister, och att partiklar som släpps ut av raketer är nästan 500 gånger effektivare när det gäller att hålla värmen i atmosfären än alla andra källor till sot tillsammans, vilket resulterar i en hög klimatpåverkan. Även om den nuvarande förlusten av ozon på grund av rymduppskjutningar är liten, kan effekterna av uppskjutningar av rymdturister undergräva återhämtningen i ozonskiktet efter framgången med Montrealprotokollet från 1987 som förbjöd ämnen (freoner) som bryter ned jordens ozonskikt."
             },
             {
-                title: "Trend in space economy",
-                story: "Euroconsult estimates that the global space economy totalled $370 billion in 2021. The space economy is expected to grow by 74% by 2030 to reach $642B. The most significant revenue drivers remain satellite navigation and communications, which account for 50% and 41% of the total market value, respectively."
+                title: "Trender inom rymdekonomin",
+                story: "Euroconsult uppskattar att den globala rymdekonomin uppgick till 370 miljarder dollar 2021. Rymdekonomin förväntas växa med 74% till 2030 för att nå 642 miljarder dollar. De största drivkrafterna för intäkter är fortfarande satellitnavigering och kommunikation som står för 50% respektive 41% av det totala marknadsvärdet."
             },
             {
-                title: "Experience of weightlessness",
-                story: "Astronauts entering outer space experiencing weightlessness or microgravity. They are actually in a state of free fall. After switching off the engine, the rocket moves horizontally at a very high speed of about 8 kilometres per second and falls free, thus going around the Earth. Because the spaceship and its objects are falling around the world at the same rate, everything in the cabin that is not secured floats. When people encounter microgravity, they have the following feelings: •Nausea •Disorientation •Headache •Loss of appetite •Congestion The longer person stays in microgravity, the more muscles and bones weaken."
+                title: "Erfarenhet av viktlöshet",
+                story: "Astronauter som kommer in i yttre rymden upplever viktlöshet eller mikrogravitation. De är faktiskt i ett tillstånd av fritt fall. Efter att motorn stängts av rör sig raketen horisontellt med mycket hög hastighet på cirka 8 kilometer per sekund och faller också fritt och går därmed runt jorden. Eftersom rymdskeppet och alla föremål i det faller runt jorden i samma takt, åker allt i kabinen som inte är säkrat omkring. När människor stöter på mikrogravitation har de följande upplevelser: • Illamående • Desorientering • Huvudvärk • Förlust av apetit. Ju längre personen stannar i mikrogravitationen, desto mer muskler och ben försvagas."
             },
             {
-                title: "Contribution to the Sustainable Development Goals",
-                story: "Space-based services and technologies are key to understanding climate change and disaster management www.unoosa.org. Cooperation in outer space is also of great importance for world peace. There is a need to ensure the compliance of all countries with international space laws and that new space-faring nations develop national space laws. UN-SPIDER Knowledge Portal: Space4DisasterManagement http://www.un-spider.org/ Space4Water Portal in http://www.space4water.org/ Space for the Sustainable Development Goals"
+                title: "Bidrag till hållbara utvecklingsmål",
+                story: "Rymdbaserade tjänster och teknologier är nyckeln för att förstå klimatförändringen och kunna hjälpa till under hela katastrofhanteringscykeln. Samarbete i yttre rymden är också av stor betydelse för världsfreden. Det finns ett behov av att säkerställa att alla länder följer internationella rymdlagar och att nya rymdfararnationer utvecklar nationella rymdlagar. UN-SPIDER kunskapsportal: Space4DisasterManagement http://www.un-spider.org/ Space4Water Portal på http://www.space4water.org/ Space for All (www.unoosa.org) ökar medvetenheten om vad rymdteknologi kan göra för hållbara utvecklingsmål. Målen för hållbar utveckling."
             },
             {
-                title: "Hazard of Human Spaceflight: Radiation",
-                story: "Radiation exposure increases cancer risk, damages the central nervous system, can alter cognitive function, reduce motor function and prompt behavioural changes. Exposure to different types of particles found in space radiation can lead to diverse cardiovascular diseases. The space station ISS sits just within Earth’s protective magnetic field, so while our astronauts are exposed to ten times higher radiation than on Earth, it’s still smaller than exposure in deep space. Deep space vehicles will have significant protective shielding, dosimetry, and alerts to minimise this hazard."
+                title: "Risker under mänskliga rymdfärder: Strålning",
+                story: "Spacestrålningsexponering ökar cancerrisken, skadar det centrala nervsystemet, kan förändra kognitiv funktion, minska motorisk funktion och föranleda beteendeförändringar. Exponering för olika typer av partiklar som finns i rymdstrålning kan leda till olika hjärt-kärlsjukdomar. Rymdstationen ISS ligger precis inom jordens skyddande magnetfält, så även om våra astronauter utsätts för tio gånger högre strålning än på jorden, är det fortfarande mindre än exponeringen vidare i rymden. För att mildra denna fara kommer djuprymdfordon att ha betydande skyddande avskärmning, dosimetri och andra varningssystem."
             },
             {
-                title: "Hazard of Human Spaceflight: Isolation and confinement.",
-                story: "Behavioural issues among groups of people crammed in a small space over a long period, no matter how well-trained they are, are inevitable. Crews will be carefully chosen, trained and supported to ensure they can work effectively as a team for months or years in space. Sleep loss, circadian desynchronisation, and work overload compound this issue and may lead to performance decrements, adverse health outcomes, and compromised mission objectives. Various tools and technologies for use in the spaceflight environment are being developed to detect and treat early risk factors. Research is also being conducted on workload and performance, light therapy for circadian alignment, phase shifting and alertness."
+                title: "Risker under mänskliga rymdfärder: Isolering.",
+                story: "Beteendeproblem bland grupper av människor som trängs på ett litet utrymme under lång tid är oundvikliga. Besättningar kommer att vara noggrant utvalda och utbildade för att säkerställa att de kan arbeta effektivt som ett team i månader eller år i rymden. Sömnförlust, dygnsrytmavsynkronisering och överbelastning av arbetet förvärrar detta problem och kan leda till prestationsförsämringar, negativa hälsoresultat och äventyrande av uppdragsmål. Olika verktyg och tekniker för användning i rymdfärdsmiljön utvecklas för att upptäcka och behandla tidiga riskfaktorer. Forskning bedrivs också inom arbetsbelastning och prestation, ljusterapi för dygnsrytmanpassning, fasförskjutning och vakenhet."
             },
             {
-                title: "Hazard of Human Spaceflight: Different gravity.",
-                story: "On Mars, astronauts must live and work with three-eighths of Earth’s gravity. Additionally, on the six-month trek between the planets, explorers will experience total weightlessness. When astronauts finally return home, they must readapt many systems in their bodies to Earth’s gravity. Bones, muscles, and the cardiovascular system have all been impacted by years without standard gravity. When astronauts transit from one gravity field to another, it’s usually quite an intense experience. Blasting off from the surface of a planet or a hurdling descent through an atmosphere changes the force of gravity many times. Research is being conducted to ensure that astronauts stay healthy before, during and after their mission."
+                title: "Risker under mänskliga rymdfärder: tyngdkraftförändringar.",
+                story: "På Mars skulle astronauter behöva leva och arbeta i tre åttondelar av jordens gravitation. Dessutom, på den sex månader långa vandringen mellan planeterna, kommer upptäcktsresande att uppleva total viktlöshet. När astronauter äntligen kommer hem kommer de att behöva anpassa många av kroppenssystemen till jordens gravitation. Skelett, muskler, kardiovaskulära system har alla påverkats av år utan standardgravitation. När astronauter går från ett gravitationsfält till ett annat är det vanligtvis en ganska intensiv upplevelse. Att lyfta från en planetyta eller en färd genom en atmosfär förändrar tyngdkraften många gånger."
             },
             {
-                title: "Hazard of Human Spaceflight: Unusual closed environment.",
-                story: "A spacecraft is not only a home. It’s also a machine. The ecosystem inside a vehicle plays a big role in everyday astronaut life. Important habitability factors include temperature, pressure, lighting, noise, and quantity of space. It’s essential that astronauts get the requisite food, sleep and exercise needed to stay healthy and happy. Microorganisms that naturally live on your body are transferred more easily from one person to another in a closed environment. Astronauts contribute data points via urine and blood samples and can reveal valuable information about possible stressors. Extensive recycling of resources we take for granted is also imperative:  oxygen, water, carbon dioxide, and even our waste."
+                title: "Risker under mänskliga rymdfärder: Sluten miljö.",
+                story: "En rymdfarkost är inte bara ett hem, det är också en maskin. Ekosystemet inuti ett fordon spelar en stor roll i astronauternas vardag. Viktiga beboelighetsfaktorer inkluderar temperatur, tryck, belysning, buller och utrymme. Det är viktigt att astronauterna får den mat, sömn och träning som krävs för att hålla sig friska och lyckliga. Mikroorganismer som naturligt lever på din kropp överförs lättare från en person till en annan i en sluten miljö. Astronauter bidrar med data via urin- och blodprover som kan avslöja värdefull information om möjliga stressfaktorer. Omfattande återvinning av resurser som vi tar för givet är också absolut nödvändigt: syre, vatten, koldioxid, till och med fekalier och urin."
             },
             {
-                title: "Importance of satellites",
-                story: "The convenience of everyday connectivity and the importance of information about the changes our planet is undergoing means that more satellites will be needed. Around 10,000 new satellites are expected to be launched over the next few years, and by 2040 the total number of satellites could reach 100,000 – compared with about 5,000 operational satellites in orbit today (2023)."
+                title: "Betydelsen av satelliter",
+                story: "Satellitkommunikation befinner sig just nu i en mycket stark utveckling. Bekvämligheten med vardaglig uppkoppling till Internet och vikten av information om de förändringar som vår planet genomgår, gör att fler satelliter kommer att behövas i framtiden. Omkring 10 000 nya satelliter förväntas skjutas upp under de närmaste åren, och år 2040 kan det totala antalet satelliter nå 100 000 – jämfört med cirka 5 000 aktiva satelliter i omloppsbana idag (2023)."
             },
             {
-                title: "Consequences of being weightless for a long time.",
-                story: "Imagine yourself on a long space trip. In weightlessness, your muscles do not need to work hard. In response to being used less, your muscles shrink or atrophy. Remember, your heart is also a muscle, and pumping blood around your body is easier in the weightless space environment, so your heart also gets weaker. On an extended space voyage, your muscles might become so soft that it would be difficult to stand upright once you return to an environment where you are subject to gravity."
+                title: "Konsekvenser av att vara viktlös under en längre tid.",
+                story: "Föreställ dig själv i en lång rymdresa. I tyngdlöshet behöver dina muskler inte arbeta hårt. Som svar på att de används mindre börjar dina muskler att försvagas. Kom ihåg att ditt hjärta också är en muskel, och att pumpa blod runt din kropp är lättare i den viktlösa miljön i rymden, så ditt hjärta blir också svagare. På en längre rymdresa kan dina muskler bli så svaga att det skulle vara svårt för dig att stå upprätt när du väl återvänder till en miljö där du är utsatt för gravitation."
             },
             {
-                title: "Costs of human space missions",
-                story: "The Apollo program cost $20 billion in 1970s dollars—over $100 billion in today’s money. The cost of the Shuttle is estimated at $200 billion in 2010 dollars. The total ISS program cost is about $150 billion (up until 2015). Currently, NASA suggested charging about  $10 million in permission fees for an ISS private mission. That includes  $2000 per person per day for food. https://spacenews.com/nasa-increases-prices-for-iss-private-astronaut-missions/"
+                title: "Kostnader för mänskliga rymduppdrag",
+                story: "Apollo-programmet kostar 20 miljarder dollar i 1970-talsdollar – över 100 miljarder dollar i dagens pengar. Kostnaden för Shuttle uppskattas till cirka 200 miljarder i 2010-dollar. Den totala kostnaden för ISS-programmet är cirka 150 miljarder dollar (fram till 2015). För närvarande föreslog NASA att debitera cirka 10 miljoner dollar i avgifter per vistelse. Det inkluderar 2 000$ per person och dag för mat för ett ISS privat besök. https://spacenews.com/nasa-increases-prices-for-iss-private-astronaut-missions/"
             },
             {
-                title: "Global Navigation Satellite System",
-                story: "GNSS refers to a constellation of satellites providing signals from space that transmit positioning and timing data to GNSS receivers. Examples of GNSS include Europe’s Galileo, the USA’s NAVSTAR Global Positioning System (GPS), Russia’s Global'naya Navigatsionnaya Sputnikovaya Sistema (GLONASS) and China’s BeiDou Navigation Satellite System."
+                title: "Globalt navigationssatellitsystem",
+                story: "GNSS hänvisar till en konstellation av satelliter som tillhandahåller signaler från rymden som sänder positionerings- och tidsdata till GNSS-mottagare. Exempel på GNSS inkluderar Europas Galileo, USA:s NAVSTAR Global Positioning System (GPS), Rysslands Global'naya Navigationsnaya Sputnikovaya Sistema (GLONASS) och Kinas BeiDou Navigation Satellite System."
             },
             {
-                title: "Structure of the atmosphere and where space begins",
-                story: "The Earth's atmosphere protects us from heat and radiation emitted from the sun and contains the air we breathe. It can be divided into layers: troposphere, stratosphere, mesosphere, thermosphere and exosphere. According to NASA, the upper layer of Earth's atmosphere — the exosphere — extends up to 10 000 km, above which the atmosphere and space blend. Most scientists agree that the Kármán line, situated 100 km above sea level, marks the transition point between Earth and space. 99,99997 per cent of Earth's atmosphere is located below this height."
+                title: "Atmosfärens struktur och var rymden börjar",
+                story: "Jordens atmosfär skyddar oss från värme och strålning från solen och innehåller luften vi andas. Den kan delas in i lager: troposfär, stratosfär, mesosfär, termosfär och exosfär. Enligt NASA sträcker sig det övre lagret av jordens atmosfär – exosfären – upp till 10 000 km, över vilken atmosfären och rymden smälter samman. De flesta forskare är överens om att Kármán-linjen, som ligger 100 km över havet, markerar övergången mellan jorden och rymden. 99,99997 procent av jordens atmosfär ligger under denna höjd."
             },
             {
-                title: "New moon exploration age",
-                story: "The Moon appears to become once again a very attractive destination for space missions in the coming years. Seven countries are heading there: India, Japan, Russia, South Korea, the United Arab Emirates and the United States, along with several private companies. The Moon bears substantial natural resources which could be exploited in the future. Evidence from several orbiters indicates that water ice is present on the surface at the Moon poles, but mainly on the south pole region where potential human settlements are planned. Chinese Lunar Exploration Program is preparing lunar mining of the isotope helium-3 as a new energy source."
+                title: "Ny månutforskningsålder",
+                story: "Månen verkar återigen bli en mycket attraktiv destination för rymduppdrag under de kommande åren. Sju länder är på väg dit: Indien, Japan, Ryssland, Sydkorea, Förenade Arabemiraten och USA, tillsammans med flera privata företag. Månen bär på betydande naturresurser som skulle kunna utnyttjas i framtiden. Bevis från flera skanningar tyder på att vatten i form av is finns på ytan vid månens poler, men mest på sydpolsområdet där potentiella mänskliga bosättningar planeras. Kinesisk Lunar Exploration Program planerar månbrytning av isotopen helium-3 som en ny energikälla."
             },
             {
-                title: "Example of global Satellite Navigation Networks",
-                story: "The Chinese Beidou navigation satellite network became completed and fully operational in 2020. It now has 35 satellites - more than American GPS’s 31 (run by the U.S. Air Force) and more than European Galileo and Russia’s GLONASS. Beidou’s location services are accurate down to 10 cm in the Asia-Pacific, compared with GPS’s 30 cm range. Beidou-related services, such as port traffic monitoring and disaster mitigation, have been exported to about 120 countries."
+                title: "Globala satellitnavigeringsnätverk",
+                story: "Det kinesiska Beidou -navigeringssatellitnätverket blev komplett 2020. Det har nu 35 satelliter – fler än amerikanska GPS:s 31 (som drivs av det amerikanska flygvapnet), och fler än europeiska Galileo och Rysslands GLONASS. Beidous lokaliseringstjänster är exakta ner till precision 10 cm i Asien-Stillahavsområdet, jämfört med GPS:s precision på 30 cm. Beidou -relaterade tjänster som hamntrafikövervakning och katastrofbekämpning har exporterats till cirka 120 länder."
             },
             {
-                title: "Nanosatellites",
-                story: "Designs now exist for automated spacecraft that include photography and radio communication equipment but weigh only one gram. Lasers could accelerate these to 20 per cent of the speed of light and reach the closest stars within a couple of decades. Thus, we can send our advanced artificial intelligence by nano explorers to the vastness of space."
+                title: "Nanosatelliter",
+                story: "Teknisk och vetenskaplig prototyp finns nu för automatiserade rymdfarkoster som inkluderar fotografi och radiokommunikationsutrustning, men som bara väger ett gram. Dessa skulle kunna accelereras med lasrar till 20 procent av ljusets hastighet och nå de närmaste stjärnorna inom ett par decennier. På så sätt kan vi skicka vår avancerade artificiella intelligens av nanoutforskare till rymdens utkant."
             },
             {
                 title: "Mars expedition",
-                story: "Space base on the Moon will be an important step for human exploration of Mars. Human missions to Mars have been part of science fiction since the 1880s. The concept of a Martian as something living on Mars is part of the fiction. Most experts agree that life probably existed on Mars when water ran freely over its surface and that it may yet survive in underground pools. It takes about two years to go to Mars and back. ESA has no preparation or project to send humans to Mars. For a discussion of technical possibilities, see https://en.wikipedia.org/wiki/ Human_mission_to_Mars/ and technical plans of SpaceX at https://www.spacex.com/human-spaceflight/mars/"
+                story: "Rymdbasen på månen kommer att vara ett viktigt steg för mänsklig utforskning av Mars. Mänskliga uppdrag till Mars har varit en del av science fiction sedan 1880-talet. Konceptet med en marsbo som någon som lever på Mars är en del av fiktionen. De flesta experter är överens om att det troligen fanns liv på Mars när vatten rann fritt över dess yta och att det fortfarande kan överleva i underjordiska pooler. Det tar ungefär två år att åka till Mars och tillbaka. ESA har inga förberedelser eller något projekt för att skicka människor till Mars. För diskussion om tekniska möjligheter se https://en.wikipedia.org/wiki/ Human_mission_to_Mars och tekniska planer för SpaceX på https://www.spacex.com/human-spaceflight/mars/"
             }
         ]
     }

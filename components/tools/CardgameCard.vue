@@ -15,7 +15,7 @@
         <div v-else class="h-[14mm]"></div>
 
         <h3 v-if="props.title" 
-        class="bg-white text-center text-[13pt] leading-tight mt-0 mb-0 px-[2mm] py-[0.5mm] rounded-t"
+        class="bg-white text-center text-[13pt] leading-none mt-0 mb-0 px-[2mm] py-[0.5mm] rounded-t"
         style="transform:translateY(-5mm)">
             {{ props.title }}
         </h3>

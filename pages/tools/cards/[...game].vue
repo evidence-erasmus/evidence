@@ -4,12 +4,12 @@
             <h1 class="mb-8">{{ t('title-1') }}</h1>
         </div>
         
-        <button @click="printMe" class="my-6 px-4 py-2 flex items-center gap-2 bg-sky-600 text-md  
+        <!-- <button @click="printMe" class="my-6 px-4 py-2 flex items-center gap-2 bg-sky-600 text-md  
             rounded text-white uppercase transition
             hover:bg-sky-700
             print:hidden">
             <icon name="material-symbols:print-outline-rounded" /> {{ t('button-title') }} {{ t('button-note') }}
-        </button>
+        </button> -->
 
 
         <ToolsCardgameVirusesTheme1 
@@ -24,7 +24,7 @@
             v-else-if="route.params.game[0] === 'space'" :printMode="true" />
 
 
-        
+        <UiPrintMessage />
         
 
         

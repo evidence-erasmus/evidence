@@ -166,14 +166,14 @@
 
                 <ul>
                     <li>Tutvute rollimängus püstitatud probleemidega ja analüüsite neid erinevatest vaatenurkadest.</li>
-                    <li>Kujundate ning  täpsustate oma arvamust.</li>
+                    <li>Kujundate ning täpsustate oma arvamust.</li>
                     <li>Töötate ühise rühmanägemuse nimel.</li>
                     <li>Esitate ja kaitsete oma väiteid.</li>
                     <li>Hääletate poliitiliste seisukohtade üle.</li>
                 </ul>
 
                 <p>
-                    Rollimäng on üles ehitatud väilusena, mis hõlmab kokku kaheksat rolli, mida esindakse 3-4 mängijaga rühmadena. Iga rühm nimetab ühe liikme kõneisikuks, teised aga nõustajateks.
+                    Rollimäng on üles ehitatud väitlusena, mis hõlmab kokku kaheksat rolli, mida esindakse 3-4 mängijaga rühmadena. Iga rühm nimetab ühe liikme kõneisikuks, teised aga nõustajateks.
                 </p>
 
                 <h3>
