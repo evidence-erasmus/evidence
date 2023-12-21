@@ -37,8 +37,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-2">
-                <h2 id="s-2t">Atividade 1: Apresentação do vídeo de introdução</h2>
+            <section id="a1">
+                <h2 id="a1t">Atividade 1: Apresentação do vídeo de introdução</h2>
                 <p>
                     Por favor, assista ao vídeo introdutório. Em seguida, anote as suas ideias e impressões iniciais sobre as questões apresentadas.
                 </p>
@@ -61,8 +61,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-3">
-                <h2 id="section-3">Atividade  2: Discussão em grupo</h2>
+            <section id="a2">
+                <h2 id="a2t">Atividade 2: Discussão em grupo</h2>
                 <p>
                     Depois de assistir ao vídeo, os alunos são convidados a discutir o tema em pequenos grupos (4-6 alunos).
                 </p>
@@ -105,8 +105,8 @@
             
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-4">
-                <h2 id="s-4t">Myths about the climate change</h2>
+            <section id="a3">
+                <h2 id="a3t">Atividade 3: Mitos sobre as alterações climáticas</h2>
 
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
                     <h4 class="mt-8 mb-4 leading-tight">
@@ -292,8 +292,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-5">
-                <h2 id="s-6t">Atividade 6: Jogo de Argumentação</h2>
+            <section id="a6">
+                <h2 id="a6t">Atividade 6: Jogo de Argumentação</h2>
                 <p>
                     <b>O seguinte jogo de argumentação é implementado no final do módulo sobre alterações climáticas. Leia atentamente as seguintes instruções.</b>
                 </p>

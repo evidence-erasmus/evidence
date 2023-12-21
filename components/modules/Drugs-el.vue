@@ -23,8 +23,8 @@
                 <section class="e-card e-module__meta">
                     <table class="m-0 leading-tight">
                         <tr>
-                            <td><b>Μαθητικός πληθυσμός που απευθύνεται το υλικό:</b></td>
-                            <td>Το παρόν μαθησιακό υλικό απευθύνεται σε μαθητές ηλικίας 15-18 ετών που φοιτούν είτε στο ενιαίο Λύκειο είτε σε Τεχνική Σχολή.</td>
+                            <td><b>Μαθητικός πληθυσμός στον οποίο απευθύνεται το υλικό:</b></td>
+                            <td>Το παρόν μαθησιακό υλικό απευθύνεται σε μαθητές ηλικίας 15-18 ετών που φοιτούν είτε σε Ενιαίο Λύκειο είτε σε Τεχνική Σχολή.</td>
                         </tr>
                         <tr>
                             <td><b>Αναμενόμενο Χρονικό Διάστημα Εφαρμογής:</b></td>
@@ -33,22 +33,10 @@
                     </table>
                 </section>
                 <p>
-                    Στην παρούσα ενότητα οι μαθητές καλούνται να καταρρίψουν ή να επιβεβαιώσουν μύθους σχετικά με τις ναρκωτικές ουσίες.
+                    Στην παρούσα ενότητα οι μαθητές καλούνται να καταρρίψουν ή να επιβεβαιώσουν μύθους σχετικά με τις ναρκωτικές ουσίες. Μέσω ενός εισαγωγικού βίντεο, παρουσιάζεται η ιστορία ενός αγοριού και στη συνέχεια οι μαθητές καλούνται να αναστοχαστούν και να εκφράσουν τις σκέψεις τους. Αφότου οι μαθητές μελετήσουν τους πιο διαδεδομένους μύθους για τις ναρκωτικές ουσίες, καλούνται να επιλέξουν ένα από αυτούς και να τον διερευνήσουν. Βάσει της φύσης του θέματος, η συγκεκριμένη ενότητα είναι σχεδιασμένη ώστε να εφαρμόζεται χρησιμοποιώντας δευτερογενείς πηγές πληροφόρησης (π.χ. από το διαδίκτυο). Μέσω αυτής της ενότητας οι μαθητές μαθαίνουν να αξιολογούν την αξιοπιστία των πηγών τους, είτε αυτές προέρχονται από επιστημονικές πηγές, είτε από τα μέσα μαζικής ενημέρωσης, ενώ παράλληλα αναπτύσσουν και δεξιότητες διερεύνησης. Έπειτα, αφότου διατυπώσουν τα συμπεράσματά τους, οι μαθητές ετοιμάζουν μία παρουσίαση που απευθύνεται στους συμμαθητές τους (ή και σε άλλο κοινό), κοινοποιώντας έτσι τα αποτελέσματά τους. Η παρουσίαση θα πρέπει να είναι σχετική και να πείθει το κοινό (π.χ. μέσω ενός βίντεο, αφίσας ή κάποιου λογισμικού παρουσιάσεων). Η ενότητα ολοκληρώνεται με μια μελέτη περίπτωσης, μέσα από την οποία οι μαθητές καλούνται να επιλύσουν ένα ηθικό δίλημμα, αξιοποιώντας τις γνώσεις που έχουν αποκτήσει από την ενότητα αλλά και ενσωματώνοντας τις προσωπικές, κοινωνικές και ηθικές τους αξίες. Είναι στην κρίση του κάθε εκπαιδευτικού αν θα επιλέξει να εφαρμόσει και τα δύο θέματα, την κάνναβη και τη χρήση MMS, κατά τη διδασκαλία της ενότητας ή όχι.  Μπορεί δηλαδή να επιλέξει να ασχοληθεί μόνο με ένα από τα δύο θέματα εάν το επιθυμεί. 
                 </p>
                 <p>
-                    Μέσω ενός εισαγωγικού βίντεο, παρουσιάζεται η ιστορία ενός αγοριού και στη συνέχεια οι μαθητές καλούνται να αναστοχαστούν και να εκφράσουν τις σκέψεις τους σχετικά με αυτό.  Πολλοί είναι οι μύθοι που επικρατούν στην κοινωνία σχετικά με τις ναρκωτικές ουσίες. 
-                </p>
-                <p>
-                    Αφότου οι μαθητές μελετήσουν τους πιο διαδεδομένους μύθους για τις ναρκωτικές ουσίες, καλούνται να επιλέξουν ένα από αυτούς ώστε να τον διερευνήσουν. 
-                </p>
-                <p>
-                    Βάσει της φύσης του θέματος, η συγκεκριμένη ενότητα είναι σχεδιασμένη ώστε να εφαρμόζεται σε δευτερεύοντες πηγές πληροφόρησης (π.χ. πηγές πληροφόρησης από το διαδίκτυο). Διαμέσου της ενότητας οι μαθητές μαθαίνουν να αξιολογούν την αξιοπιστία των πηγών τους είτε αυτές προέρχονται από επιστημονικές πηγές, είτε από τα μέσα μαζικής ενημέρωσης, και να αναπτύξουν περαιτέρω δεξιότητες διερεύνησης. 
-                </p>
-                <p>
-                    Έπειτα, αφότου διατυπώσουν τα συμπεράσματά τους, οι μαθητές ετοιμάζουν μία παρουσίαση που περιλαμβάνει τα αποτελέσματά τους και απευθύνεται στους συμμαθητές τους ή άλλο κοινό. Η παρουσίαση θα πρέπει να είναι σχετική και να πείθει το κοινό (π.χ. μέσω του Power Point ή εντός βίντεο). Η ενότητα ολοκληρώνεται με τη μελέτη μίας περίπτωσης κατά τη διάρκεια της οποίας οι μαθητές καλούνται να επιλύσουν ένα ηθικό δίλημμα αξιοποιώντας τις γνώσεις που έχουν αποκτήσει από την ενότητα και ενσωματώνοντας τις προσωπικές τους, τις κοινωνικές τους και ηθικές τους αξίες.
-                </p>
-                <p>
-                    Είναι στην κρίση του κάθε εκπαιδευτικού αν θα επιλέξει να εφαρμόσει και τα δύο θέματα, την κάνναβη και τη χρήση MMS, κατά τη διδασκαλία της ενότητας ή όχι. Μπορεί δηλαδή να επιλέξει να ακολουθήσει μόνο ένα από τα δύο θέματα εάν το επιθυμεί. 
+                    Η ενότητα αποτελείται από τον «Οδηγό του Εκπαιδευτικού» (διδακτικές προτάσεις, επιστημονικό περιεχόμενο) και το «Υλικό του Μαθητή» (βίντεο με σενάρια, διαδραστικά φύλλα εργασίας, βίντεο με γεγονότα, εκπαιδευτικό βίντεο). Επιπλέον, οι μαθητές μπορούν να αξιοποιήσουν το «Εργαλείο Αξιοπιστίας» για την αξιολόγηση της αξιοπιστίας των πηγών πληροφόρησης και τα εκπαιδευτικά βίντεο για να δημιουργήσουν την παρουσίαση των αποτελεσμάτων τους και των συμπερασμάτων τους. 
                 </p>
             </section>
 
@@ -64,35 +52,32 @@
                 
                 <ul class="leading-tight">
                     <li>
-                        <b>Citizenship competence:</b> develop students' knowledge and attitudes towards making responsible decisions about cannabis use and/or the “miracle drugs”.
+                        <b>Δεξιότητες πολιτότητας:</b> Ανάπτυξη των γνώσεων και των στάσεων των μαθητών για τη λήψη υπεύθυνων αποφάσεων σχετικά με τη χρήση της κάνναβης ή/και τη χρήση των λεγόμενων "θαυματουργών ναρκωτικών".
                     </li>
-                    <li><b>Media competence:</b>
+                    <li>
+                        <b>Μιντιακές δεξιότητες:</b> Ανάπτυξη της δεξιότητας των μαθητών να αξιολογούν την αξιοπιστία των πληροφοριών, να παρουσιάζουν τις πληροφορίες με τρόπο που να ανταποκρίνεται σε συγκεκριμένο κοινό καθώς επίσης και να αντιδρούν επαρκώς και υπεύθυνα σε ψευδείς ειδήσεις και θεωρίες συνωμοσίας που παρουσιάζονται στα μέσα κοινωνικής δικτύωσης.
+                    </li>
+                    <li>
+                        <b>Ψηφιακές Δεξιότητες:</b> Ανάπτυξη των ψηφιακών δεξιοτήτων των μαθητών μέσα από την παρουσίαση των αποτελεσμάτων τους σε άλλες ομάδες.
+                    </li>
+                    <li>
+                        <b>Επιστημονικές Δεξιότητες:</b>
                         <ul class="my-0">
-                            <li>ddevelop students' skills in assessing the reliability of the information, presenting the evidence in a manner relevant to a given audience,</li>
-                            <li>reacting adequately and responsibly to the misinformation presented in (social)media.</li>
+                            <li>Ανάπτυξη της κατανόησης των μαθητών για την Επιστήμη ως μέσω γνώσης, ως κοινωνική πρακτική αλλά και των λόγων που την εμπιστευόμαστε.</li>
+                            <li>Ανάπτυξη στάσεων των μαθητών όπως η ειλικρίνεια, η αντικειμενικότητα, η πνευματική ταπεινοφροσύνη και το ανοιχτό πνεύμα.</li>
+                            <li>Ανάπτυξη της ικανότητας των μαθητών να σχεδιάζουν και να επινοούν διαδικασίες για τον έλεγχο των υποθέσεων και την ερμηνεία των ευρημάτων.</li>
+                            <li>Ανάπτυξη της γνώσης των μαθητών σχετικά με την κάνναβη: μηχανισμοί δράσης, διαφορές μεταξύ χημικών και βιολογικών πτυχών και διαφορετικών ειδών κάνναβης Ή/ΚΑΙ</li>
+                            <li>Ανάπτυξη της γνώσης των μαθητών σχετικά με τις χημικές και βιολογικές προδιαγραφές του MMS και τους κινδύνους που μπορεί να επιφέρει η χρήση του ως ναρκωτικό.</li>
                         </ul>
                     </li>
                     <li>
-                        <b>Digital competence:</b> develop students' skills in using digital media while presenting their inquiry results to the other groups.
-                    </li>
-                    <li>
-                        <b>Science competence:</b>
-                        <ul class="my-0">
-                            <li>develop students' understanding of science as a way to know, as a social practice, and why we should trust science;</li>
-                            <li>develop students' attitudes of honesty, objectivity, intellectual humility, and open-mindedness;</li>
-                            <li>develop their ability to plan and devise procedures for testing hypotheses and interpreting the findings;</li>
-                            <li>develop further students' knowledge about cannabis: mechanism of action, differences between chemical and biological aspects of different types of cannabis; OR/AND</li>
-                            <li>develop an understanding of MMS's chemical and biological properties and the severe health risks of its use as a drug.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <b>Social competence:</b> develop students'...
+                        <b>Κοινωνικές δεξιότητες:</b> 
                         <ul>
                             <li>
-                                improved understanding of the personal and social risks associated with cannabis use, incl of its legislative aspects;
+                                Ανάπτυξη της κατανόησης των μαθητών ως προς τους προσωπικούς και κοινωνικούς κινδύνους που συνδέονται με τη χρήση της κάνναβης, συμπεριλαμβανομένων των νομοθετικών πτυχών.
                             </li>
                             <li>
-                                enhanced understanding of the importance of personal choices and values related to cannabis in managing personal well-being.
+                                Ανάπτυξη της κατανόησης των μαθητών αναφορικά με τη σημασίας των προσωπικών επιλογών και αξιών που σχετίζονται με την κάνναβη στη διαχείριση της προσωπικής ευημερίας.
                             </li>
                         </ul>
                     </li>
@@ -108,15 +93,11 @@
             <hr class="mt-10 mb-40 print:my-10" />
 
             <section id="s-3">
-                <h2 id="s-3t">Expected prior knowledge</h2>
+                <h2 id="s-3t">Αναμενόμενες προϋπάρχουσες γνώσεις</h2>
 
                 <ul class="leading-tight">
-                    <li>Prior understanding of the structure of organic compounds.</li>
-                    <li>Properties of waves</li>
-                    <li>Light as a form of energy from the sun</li>
-                    <li>Natural and artificial radiation sources</li>
-                    <li>Structure of an atom</li>
-                    <li>Prior knowledge of psychological and social impacts of narcotics use.</li>
+                    <li>Προϋπάρχουσα γνώση για τη δομή των οργανικών ενώσεων</li>
+                    <li>Προϋπάρχουσα γνώση των ψυχολογικών και κοινωνικών επιδράσεων από τη χρήση των ναρκωτικών.</li>
                 </ul>
             </section>
 
@@ -130,57 +111,58 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-4">
-                <h2 id="s-4t">Module structure</h2>
+                <h2 id="s-4t">Δομή της Ενότητας</h2>
                 
-                <p>This module consists of 6 activities. The sequence of activities is given in Figure 1 and Table 1 (see below).</p>
+                <p>Αυτή η ενότητα αποτελείται από 6 δραστηριότητες. Η σειρά των δραστηριοτήτων δίνεται στο Σχήμα 1 και στον Πίνακα 1 πιο κάτω.</p>
 
                 <ModulesModuleStructure />
 
                 <p class="mt-20">
-                    <b>Table 1.</b> Learning sequence of the “Drugs” module
+                    <b>Πίνακας 1.</b> Διδακτική πρόταση για την ενότητα των «Ναρκωτικών Ουσιών»
                 </p>
                 <table>
                     <thead>
                         <tr>
-                            <th class="w-1/5"><b>Activity No</b></th>
-                            <th>Description</th>
+                            <th class="w-1/5"><b>Αρ. Δραστηριότητας</b></th>
+                            <th>Περιγραφή</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><b>Activity 1</b></td>
-                            <td>Presentation of an introductory video</td>
+                            <td><b>Δραστηριότητα 1</b></td>
+                            <td>Παρουσίαση ενός εισαγωγικού Βίντεο</td>
                         </tr>
                         <tr>
-                            <td><b>Activity 2</b></td>
+                            <td><b>Δραστηριότητα 2</b></td>
                             <td>
-                                Discussion in groups<br />
-                                Choosing a myth to be busted
+                                Ομαδικές Συζητήσεις
+                                <br />
+                                Επιλογή ενός μύθου προς διερεύνηση
                             </td>
                         </tr>
                         <tr>
-                            <td><b>Activity  3</b></td>
+                            <td><b>Δραστηριότητα 3</b></td>
                             <td>
-                                In groups:
+                                Σε ομάδες:
                                 <ul>
-                                    <li>Posing a testable hypothesis / research question;</li>
-                                    <li>Searching for relevant information (Activity 3) to confirm or falsify the posed hypothesis/research question;</li>
-                                    <li>Assessing the reliability of the found evidence;</li>
-                                    <li>Making conclusions.</li>
+                                    <li>Διατύπωση του ερευνητικού ερωτήματος ή της υπόθεσης.</li>
+                                    <li>Έρευνα για σχετικές πηγές πληροφόρησης (Δραστηριότητα 3) που να επιβεβαιώνουν, ή να διαψεύδουν, την υπόθεση, ή το ερευνητικό ερώτημα που έχει διατυπωθεί.</li>
+                                    <li>Αξιολόγηση της αξιοπιστίας των τεκμηρίων και των πληροφοριών που έχουν εντοπιστεί.</li>
+                                    <li>Διατύπωση συμπερασμάτων.</li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
-                            <td><b>Activity 4</b></td>
-                            <td>Transforming evidence to a format relevant to a given audience (peers): using a tutorial. Students learn how to produce a short video or use other visualisation methods instead, after which they plan and execute their ideas.</td>
+                            <td><b>Δραστηριότητα 4</b></td>
+                            <td>Μετατροπή των ευρημάτων σε μια μορφή που να είναι κατάλληλη για ένα συγκεκριμένο κοινό (συνομήλικοι): μέσω εκπαιδευτικού βίντεο, οι μαθητές διδάσκονται πώς να δημιουργήσουν ένα σύντομο βίντεο ή μία άλλη μέθοδο οπτικοποίησης και μετά σχεδιάζουν και εκτελούν τις ιδέες τους.</td>
                         </tr>
                         <tr>
-                            <td><b>Activity 5</b></td>
-                            <td>Group presentations (coupled with peer assessment activities).</td>
+                            <td><b>Δραστηριότητα 5</b></td>
+                            <td>Ομαδικές παρουσιάσεις (σε συνδυασμό με ετερο-αξιολόγηση σε ζευγάρια)</td>
                         </tr>
                         <tr>
-                            <td><b>Activity 6</b></td>
-                            <td>Students, individually and in groups, consider a moral dilemma related to cannabis (6a) or MMS (6b).</td>
+                            <td><b>Δραστηριότητα 6</b></td>
+                            <td>Οι μαθητές είτε σε ομάδες είτε ατομικά εξετάζουν ένα ηθικό δίλημμα που σχετίζεται με την κάνναβη (6a) ή το MMS (6b).</td>
                         </tr>
                     </tbody>
                 </table>
@@ -195,10 +177,10 @@
 
             <section id="s-5">
                 <h2 id="s-5t">
-                    Requirements for physical environment
+                    Απαιτήσεις Μαθησιακού Περιβάλλοντος
                 </h2>
                 <p>
-                    Smartphone, computer, internet, display equipment for demonstrating videos. A3 or A2 paper, markers of different colours.
+                    Κινητό τηλέφωνο (Smartphone), Ηλεκτρονικός Υπολογιστής, Διαδίκτυο, Βιντεοπροβολέας, χαρτόνια A3 ή A2, μαρκαδόροι σε διάφορα χρώματα.
                 </p>
             </section>
             
@@ -210,18 +192,22 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-6">
-                <h2 id="s-6t">Assessment</h2>
+                <h2 id="s-6t">Αξιολόγηση</h2>
                 
-                <p>Students can be assessed differently throughout the module, including science process skills, general competencies, such as argumentation skills, and topic-related content knowledge. Types of assessments will include formative assessments based on observation, individual/group worksheets and summative assessments based on group presentations.</p>
-                <p><b>formative:</b></p>
+                <p>
+                    Η αξιολόγηση των μαθητών μπορεί να γίνει με διάφορους τρόπους κατά τη διάρκεια της διδακτικής ενότητας. Γενικότερα, μπορούν να αξιολογηθούν οι επιστημονικές τους δεξιότητες, οι γενικές τους ικανότητες, η ικανότητα τους για επιχειρηματολογίας και οι γνώσεις περιεχομένου που σχετίζονται με την ενότητα. Οι τρόποι αξιολόγησης περιλαμβάνουν την διαμορφωτική αξιολόγηση που είναι βασισμένη στην παρατήρηση, την ατομική / ομαδική συμπλήρωση φύλλων εργασίας αλλά και την αθροιστική αξιολόγηση των ομαδικών παρουσιάσεων.
+                </p>
+                <p>
+                    <b>Διαμορφωτική Αξιολόγηση:</b>
+                </p>
                 <ul>
-                    <li>Oral / written feedback from the teacher (based on observations, questions asked, etc.) on individual / group work throughout the module.</li>
-                    <li>Peer feedback (on the group presentation using the following <NuxtLink to="../tools/peer-feedback" target="_blank">tool</NuxtLink> and self-assessment within the case study).</li>
+                    <li>Προφορική / Γραπτή ανατροφοδότηση από τον εκπαιδευτικό για τις ατομικές ή ομαδικές εργασίες (βάσει των παρατηρήσεων, των ερωτημάτων που διατυπώνουν κλπ.) κατά τη διάρκεια της ενότητας.</li>
+                    <li>Ανατροφοδότηση μεταξύ των ομάδων των μαθητών ( στις ομαδικές παρουσιάσεις με τη χρήση του ακόλουθου <NuxtLink to="../tools/peer-feedback" target="_blank">εργαλείου</NuxtLink> και αυτοαξιολόγηση).</li>
                 </ul>
-                <p><b>Summative:</b></p>
+                <p><b>Αθροιστική Αξιολόγηση:</b></p>
                 <ul>
-                    <li>Grades assigned by the teacher on the group presentation (based on the students’ presentation and the student’s ability to provide relevant answers / comments).</li>
-                    <li>Grades assigned by the teacher on group or individual worksheets.</li>
+                    <li>Βαθμολογία που δίνεται από τον εκπαιδευτικό στις ομαδικές παρουσιάσεις (βασισμένη στις παρουσιάσεις των μαθητών και στην ικανότητά τους να παρέχουν σχετικές απαντήσεις και σχόλια).</li>
+                    <li>Βαθμολογία που δίνεται από τον εκπαιδευτικό σε ομαδικά και ατομικά φύλλα εργασίας.</li>
                 </ul>
             </section>
             
@@ -233,118 +219,119 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-7">
-                <h2 id="s-7t">Teaching suggestions</h2>
+                <h2 id="s-7t">Εισηγήσεις για τη διδασκαλία της ενότητας</h2>
 
                 <UiCardInfo>
-                    NB! Considering the topic's sensitivity (i.e. cannabis), teachers are expected to promote a safe, non-judgmental environment in this module, where all students can participate. Teachers should also have sound subject knowledge and be confident using suitable learning methodologies. (And be ready to reflect on their own assumptions about cannabis if students ask about it.)
+                    Λαμβάνοντας υπόψη την ευαισθησία του θέματος (π.χ. κάνναβη), οι εκπαιδευτικοί αναμένεται να δημιουργήσουν ένα ασφαλές, μη επικριτικό περιβάλλον μάθησης σε αυτή την ενότητα, όπου όλοι οι μαθητές να μπορούν να συμμετέχουν. Οι εκπαιδευτικοί θα πρέπει επίσης να έχουν καλή γνώση του θέματος και αυτοπεποίθηση για τη χρήση κατάλληλων μεθοδολογιών μάθησης.
                 </UiCardInfo>
                 <p>
-                    This module could also be part of a school drug and risk behaviour prevention programme. The teacher must be familiar with that programme and/or collaborate with other professionals (e.g., school counsellors, youth workers, etc.) in case personal situations related to consumption arises during the module and students might need support. The teacher should remember that students' confidentiality should be respected except when there is evidence or suspicion that someone is at risk.
+                    Η ενότητα αυτή θα μπορούσε επίσης να αποτελέσει μέρος ενός σχολικού προγράμματος πρόληψης της χρήσης ναρκωτικών αλλά και της επικίνδυνης συμπεριφοράς. Ο εκπαιδευτικός πρέπει να είναι εξοικειωμένος με αυτό το πρόγραμμα ή/και να συνεργάζεται με άλλους επαγγελματίες (π.χ. σχολικούς συμβούλους, λειτουργούς νεολαίας κλπ.), σε περίπτωση που κατά τη διάρκεια της ενότητας προκύψουν προσωπικές καταστάσεις που σχετίζονται με την χρήση και οι μαθητές χρειαστούν υποστήριξη. Ο εκπαιδευτικός πρέπει να θυμάται ότι πρέπει να τηρείται το απόρρητο των μαθητών, εκτός εάν υπάρχουν στοιχεία ή υποψίες ότι κάποιος κινδυνεύει.
                 </p>
                 <p>
-                    The module starts with an <a href="https://www.youtube.com/watch?v=cN5KV_WJubw" target="_blank" rel="noopener noreferrer">introductory video</a> for opening up the topic "Drugs" to raise further questions in students rather than giving them immediate answers. It is expected that after watching the video (<b>Activity 1</b>), students in groups will feel intrinsically motivated to examine drug-related myths and beliefs more thoroughly. The intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It also draws students' attention to thinking about their prior knowledge and sharing their conceptions and views with peers (<b>Activity 2</b>). In Activity 2, students are introduced to 8 myths about cannabis and three myths about a "miracle" drug such as MMS, from which they must choose one to be further busted. Activity 2 should help students narrow down their chosen myth into a hypothesis/research question that can be falsified / confirmed / answered (<b>Activity 3</b>). It may be that students need help when trying to pose it. Therefore, the teacher could help them by drawing examples of good (e.g. testable) and bad hypotheses / questions before they pose them themselves. The <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method." target="_blank" rel="noopener noreferrer">following resource</a> could be helpful for that.
+                    Η ενότητα ξεκινά με ένα <a href="https://www.youtube.com/watch?v=cN5KV_WJubw" target="_blank" rel="noopener noreferrer">εισαγωγικό βίντεο</a> για τα ναρκωτικά μέσω του οποίου αναδύονται διάφοροι προβληματισμοί από τους μαθητές. Αναμένεται ότι, οι μαθητές αφότου παρακολουθήσουν το βίντεο (<NuxtLink to="./drugs/student#a1">Δραστηριότητα 1</NuxtLink>), θα αισθανθούν οι ίδιοι την ανάγκη να διερευνήσουν τους μύθους που σχετίζονται με τις ναρκωτικές ουσίες. Πρόθεση είναι να εμπλακούν οι μαθητές σε δραστηριότητες που σχετίζονται με την καλύτερη κατανόηση του συγκεκριμένου ζητήματος, ένα ζήτημα που σχετίζεται άμεσα με τις ζωές των ίδιων των μαθητών και όχι απλώς με το αναλυτικό πρόγραμμα.
                 </p>
                 <p>
-                    The <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOmTPUWRrZh_W5VtuNTDsdI" target="_blank" rel="noopener noreferrer">"fact videos"</a> can also be demonstrated in this step to recall or study drug-related facts. Also, selected chapters from Scientific background information can be used for this purpose. 
+                    Επιπλέον, η ενότητα επιδιώκει να προκαλέσει το ενδιαφέρον των μαθητών ώστε να προβληματιστούν για τις προϋπάρχουσες γνώσεις τους, να εκφράσουν τις ιδέες και τις απόψεις τους μαζί με άλλα μέλη της ομάδας τους (<NuxtLink to="./drugs/student#a2">Δραστηριότητα 2</NuxtLink>). Κατά τη Δραστηριότητα 2, οι μαθητές μαθαίνουν 8 μύθους για την κάνναβη και 3 μύθους για το «θαυματουργό» ναρκωτικό όπως το MMS, από τους οποίους καλούνται να διαλέξουν ένα και να τον διερευνήσουν περαιτέρω. Η Δραστηριότητα 2 θα βοηθήσει τους μαθητές να διατυπώσουν το ερευνητικό τους ερώτημα, ή την υπόθεση που σχετίζεται με τον μύθο που έχουν επιλέξει, ώστε να τον επιβεβαιώσουν ή να τον καταρρίψουν (<NuxtLink to="./drugs/student#a3">Δραστηριότητα 3</NuxtLink>). Οι μαθητές ίσως χρειαστούν βοήθεια για τη διατύπωση της υπόθεσής τους, ή του ερευνητικού τους ερωτήματος. Για αυτό το λόγο, ο εκπαιδευτικός θα μπορούσε να τους βοηθήσει σχεδιάζοντας παραδείγματα κατάλληλων και ακατάλληλων  ερωτημάτων και υποθέσεων πριν θέσουν τα δικά τους ερωτήματα και υποθέσεις. Η συγκεκριμένη <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">πηγή</a> μπορεί να φανεί χρήσιμη.
                 </p>
                 <p>
-                    The drugs-related myths cannot be busted (debunked) experimentally in the classroom. Therefore, students are expected to gather evidence from secondary sources to confirm or falsify their hypothesis / answer to their research question (<b>Activity 3</b>). By juxtaposing media/data sources and their content, students critically analyse their reliability and make justified conclusions based on the evidence. As reliability assessment can be a real challenge for students, the student is supplied with a <span class="bg-rose-100">tool</span> for searching and analysing the information. Also, the teacher could explain its use by demonstrating and analysing reliable and less reliable sources as learning examples before the students implement this independently. 
+                    Τα <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOmTPUWRrZh_W5VtuNTDsdI" target="_blank" rel="noopener noreferrer">“βίντεο δεδομένων”</a> μπορούν επίσης να αξιοποιηθούν σε αυτό το στάδιο για την ανάκληση ή τη μελέτη γεγονότων που σχετίζονται με τα ναρκωτικά. Επίσης, επιλεγμένα κεφάλαια από to επιστημονικό υπόβαθρο μπορούν να χρησιμοποιηθούν για το σκοπό αυτό. 
                 </p>
                 <p>
-                    To learn how to communicate their findings, students are guided to produce a video or other types of visualisation to present their conclusions (<b>Activity 4</b>). For this purpose, students can use different tutorials. Also, student material is provided with criteria the presentation should fulfil. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video and answering the questions of their peers and the teacher (<b>Activity 5</b>). For the last, students can use the following assessment tool to give feedback to the other groups.
-                </p>
-                <!-- <p class="bg-rose-100">
-                    Please, do not use the original questionnaire, but make a copy to the same folder to share with your students.<br />
-                </p> -->
-                <!-- <p>
-                    The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only their own feedback, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.
-                </p>             -->
-                <p>
-                    In the last activity (<b>Activity 6</b>), the storyline of the module returns to the introductory video and the presented myths. Based on the lessons learned from the earlier stages, students prepare to make decisions on an individual or group level in the format of a case study where they have an opportunity to juxtapose and reflect on their learned science knowledge but also on their personal and social values. 
+                    Οι μύθοι που σχετίζονται με τις ναρκωτικές ουσίες δεν μπορούν να καταρριφθούν πειραματικά σε συνθήκες εργαστηρίου. Για αυτό το λόγο, οι μαθητές αναμένεται να συλλέξουν δευτερογενή δεδομένα ώστε να επιβεβαιώσουν ή να καταρρίψουν την υπόθεση ή το ερευνητικό τους ερώτημα (Δραστηριότητα 3). Μέσω της αντιπαραβολής των πηγών που θα εντοπίσουν, οι μαθητές θα αναλύσουν κριτικά την αξιοπιστία τους και θα διατυπώσουν τα συμπεράσματά τους επιχειρηματολογώντας και αξιοποιώντας τα στοιχεία τους. Καθώς η αξιολόγηση της αξιοπιστίας των πηγών μπορεί να είναι μία μεγάλη πρόκληση για τους μαθητές δίνεται σε αυτούς ένα εξειδικευμένο <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-outline shadow-lg"><Icon name="mdi:tools" size="18"></Icon>εργαλείο</NuxtLink> το οποίο μπορούν να αξιοποιήσουν κατά τη διάρκεια που θα αναζητούν και θα αναλύουν τις πηγές τους. Επιπλέον, ο εκπαιδευτικός μπορεί να τους επεξηγήσει τη χρήση του συγκεκριμένο εργαλείου παρουσιάζοντάς τους άλλες πηγές (αξιόπιστες και μη αξιόπιστες) ως παραδείγματα, προτού το αξιοποιήσουν μόνοι τους. 
                 </p>
                 <p>
-                    All myths are backed up by <NuxtLink :to="localePath('/drugs/background')">Scientific background information</NuxtLink>, which explains the state-of-the-art science behind them and enables the teacher to get a quick overview of the science covered by the "Drugs" module.
+                    Στη συνέχεια, οι μαθητές καλούνται να παρουσιάσουν τα αποτελέσματά τους, δημιουργώντας ένα βίντεο ή ένα άλλο είδος οπτικοποίησης (<NuxtLink to="./drugs/student#a4">Δραστηριότητα 4</NuxtLink>). Για να μπορέσουν να το κάνουν αυτό, μπορούν να μελετήσουν διάφορα εκπαιδευτικά βίντεο. Το υλικό που θα δημιουργήσουν, θα πρέπει να πληροί συγκεκριμένα κριτήρια. Τα κριτήρια αυτά μπορούν να αξιοποιηθούν για σκοπούς αυτό-αξιολόγησης από την ίδια την ομάδα που θα παρουσιάζει, ή και για σκοπούς ετερο-αξιολόγησης της ομάδας από άλλους μαθητές (<NuxtLink to="./drugs/student#a5">Δραστηριότητα 5</NuxtLink>). Τέλος, οι μαθητές μπορούν να αξιοποιήσουν το συγκεκριμένο <NuxtLink to="../tools/peer-feedback" target="_blank" class="btn btn-sm btn-outline shadow-md"><Icon name="mdi:tools" size="18"></Icon>εργαλείο αξιολόγησης</NuxtLink> ώστε να δώσουν ανατροφοδότηση στις άλλες ομάδες.
+                </p>
+                
+                <p>
+                    Στην τελευταία δραστηριότητα (<NuxtLink to="./drugs/student#a6">Δραστηριότητα 6</NuxtLink>), γίνεται επαναφορά του εισαγωγικού βίντεο, όπου παρουσιάζονται οι μύθοι. Βάσει των γνώσεων που απέκτησαν οι μαθητές, καλούνται να προετοιμαστούν ώστε να λάβουν αποφάσεις σε ατομικό ή ομαδικό επίπεδο για μια μελέτη περίπτωσης, όπου θα έχουν την ευκαιρία να αναστοχαστούν βάσει της επιστημονικής τους γνώσης αλλά και των προσωπικών τους αξιών. 
                 </p>
                 <p>
-                    The intro video and follow-up activities are intended to inspire reflection on decision-making related to cannabis use and the various consequences that may result from particular decisions. They encourage the viewer to consider different options during the decision-making process and how cannabis-related choices might affect or impact existing relationships. There is support in educational literature acknowledging how young people are more likely to learn when encouraged to think things through in a supportive manner.  
+                    Όλοι οι μύθοι είναι βασισμένοι στις <NuxtLink to="../drugs/background">πληροφορίες του επιστημονικού περιεχομένου</NuxtLink>, στο οποίο επεξηγείται η επιστήμη στην οποία βασίστηκαν και επιτρέπουν στον δάσκαλο να έχει μια γρήγορη επισκόπηση της επιστήμης που καλύπτεται από την ενότητα «Ναρκωτικά».
                 </p>
                 <p>
-                    A <b>moral dilemma</b> presented at the end of the module (<b>Activity 6</b>) should make students think about their and other people's choices and the consequences of these choices to different stakeholders involved in a given situation. The potential decisions and reasoning behind them are mainly based on the Kohlbergian framework of moral reasoning, which includes the following (examples to illustrate the levels are taken from activity 6, NB! other interpretations deviating from the given are also possible):
+                    Το εισαγωγικό βίντεο και οι δραστηριότητες που ακολουθούν αποσκοπούν στον προβληματισμό για τη λήψη αποφάσεων σχετικά με τη χρήση της κάνναβης και τις διάφορες συνέπειες που προκαλεί η χρήση της.  Επίσης, οι δραστηριότητες ενθαρρύνουν τους μαθητές να προβληματιστούν σχετικά με διάφορες επιλογές που μπορεί να έχουν κατά τη διαδικασία λήψης απόφασης, οι οποίες πιθανότατα σχετίζονται, ή επηρεάζουν τις σχέσεις που έχουν με άλλα άτομα.
+                </p>
+                <p>
+                    Κατά τη διάρκεια της συμμετοχής των μαθητών στις δραστηριότητες ο ρόλος του εκπαιδευτικού είναι κρίσιμος, ιδιαίτερα στην καθοδήγηση της συζήτησης μεταξύ των μαθητών σχετικά με την κάνναβη. Για αυτό το λόγο είναι σημαντική η μελέτη του επιστημονικού περιεχομένου.
+                </p>
+                <p>
+                    Το ηθικό δίλημμα που παρουσιάζεται στο τέλος της ενότητας (Δραστηριότητα 6) θα πρέπει να κάνει τους μαθητές να σκεφτούν τις δικές τους προσωπικές επιλογές και τις επιλογές των άλλων, αλλά και τις συνέπειες των επιλογών αυτών, καθώς εμπλέκονται σε μία δεδομένη κατάσταση. Οι πιθανές αποφάσεις και οι συλλογισμοί πίσω από τις προσωπικές επιλογές των μαθητών βασίζονται κυρίως στη θεωρία του Kohlberg για τον ηθικό συλλογισμό (moral reasoning) που περιλαμβάνει τα πιο κάτω στάδια.
                 </p>
 
                 <h3>
-                    Level 1 (Pre-Conventional)
+                    Επίπεδο 1 (Προ-συμβατικό επίπεδο)
                 </h3>
                 <ol>
                     <li>
-                        <b>Obedience and punishment orientation.</b> Individuals focus on the direct consequences of their actions on themselves. An action is perceived as morally wrong because the perpetrator is punished. Common in children. Rules are fixed and absolute. The main question is, "how can I avoid punishment?
+                        <b>Έμφαση στην υπακοή και στην τιμωρία:</b> Τα άτομα επικεντρώνονται στις άμεσες συνέπειες των πράξεων τους. Μια πράξη γίνεται αντιληπτή ως ηθικά λανθασμένη επειδή ο δράστης τιμωρείται (κάτι που συχνά χαρακτηρίζει την συμπεριφορά των παιδιών). Οι κανόνες είναι σταθεροί και απόλυτοι. Το κύριο ερώτημα είναι: "πώς μπορώ να αποφύγω την τιμωρία;
                         <br />
-                        <i>E.g. Cris should not keep it because this could result in a criminal record for him/her, which means (s)he is a bad person.</i>
+                        <i>π.χ. Ο Χρίστος δεν πρέπει να κρατήσει αυτό που το έδωσε ο Μάρκος, γιατί αυτό θα μπορούσε να οδηγήσει στη δημιουργία ποινικου μητρώου, πράγμα που σημαίνει ότι είναι κακός άνθρωπος.</i>
                     </li>
                     <li>
-                        <b>Self-interest</b> (instrumental-relativist) orientation: Paying for a benefit. Right behaviour is defined by whatever the individual believes to be in their best interest, or whatever is "convenient," but understood in a narrow way which does not consider one's reputation or relationships to groups of people. Reasoning shows a limited interest in the needs of others, but only to a point where it might further the individual's own interests.
+                        <b>Προσανατολισμός στο προσωπικό συμφέρον (εργαλειακός-σχετικιστικός προσανατολισμός):</b> ‘Όλα αποσκοπούν σε κάποιο όφελος. Η ορθή συμπεριφορά ορίζεται με βάση το τι πιστεύει το άτομο ότι είναι προς το συμφέρον του, ή ό,τι είναι "βολικό", αλλά με ένα τρόπο που δεν λαμβάνει υπόψη τη φήμη του ατόμου ή τις σχέσεις του με άλλες ομάδες ανθρώπων. Εκδηλώνει ένα περιορισμένο ενδιαφέρον για τις ανάγκες των άλλων, αλλά μόνο μέχρι του σημείου που μπορεί να προωθήσει τα συμφέροντα του.
                         <br />
-                        <i>E.g., Cris should keep it because Marcus has done many kind things to Cris in the past. Now (s)he can "pay" it back.</i>
+                        <i>π.χ. Ο Χρίστος θα πρέπει να το κρατήσει επειδή ο Μάρκος έχει κάνει πολλά καλά πράγματα στον Χρίστο στο παρελθόν. Τώρα, μπορεί να ανταποδώσει.</i>
                         <br />
-                        <i>Cris should return it to Marcus because such a criminal friend will be useless.</i>
+                        <i>Ο Χρίστος θα πρέπει να το επιστρέψει στον Μάρκο γιατί ένας τέτοιος εγκληματίας φίλος θα είναι άχρηστος.</i>
                     </li>
                 </ol>
                 <h3>
-                    Level 2 (Conventional)
+                    Επίπεδο 2 (Συμβατικό Επίπεδο)
                 </h3>
                 <ol start="3">
                     <li>
-                        <b>Interpersonal accord and conformity with social norms.</b> Individuals are receptive to approval or disapproval from others as it reflects society's views. They try to be a "good boy" or "good girl" to live up to these expectations, having learned that being regarded as good benefits the self. Stage three reasoning may judge the morality of an action by evaluating its consequences in terms of a person's relationships, which now begin to include things like respect, gratitude, and the "golden rule". Ability to recognise good or bad intentions. The good boy/girl attitude.
+                        <b>Διαπροσωπική συμφωνία και συμμόρφωση με τους κοινωνικούς κανόνες.</b> Τα άτομα αποδέχονται την έγκριση, ή την απόρριψη, των άλλων, καθώς αυτή αντανακλά τις απόψεις της κοινωνίας. Προσπαθούν να είναι "καλά παιδιά" για να ανταποκριθούν στις κοινωνικές προσδοκίες, έχοντας μάθει ότι το να είναι κανείς καλός ωφελεί τον εαυτό του. Η λογική του τρίτου σταδίου αξιολογεί την ηθική μιας πράξης με βάση τις συνέπειές της για τις σχέσεις του ατόμου, οι οποίες αρχίζουν πλέον να περιλαμβάνουν πράγματα όπως ο σεβασμός, η ευγνωμοσύνη και ο "χρυσός κανόνας". Ικανότητα αναγνώρισης καλών ή κακών προθέσεων. Η καλή στάση αγοριού/κοριτσιού.
                         <br />
-                        <i>E.g. Cris should keep it because (s)he cannot disappoint his long-term friend.</i>
+                        <i>π.χ. Ο Χρίστος πρέπει να το κρατήσει γιατί δεν μπορεί να απογοητεύσει τον μακροχρόνιο φίλο του.</i>
                         <br />
-                        <i>E.g. Cris should give it back not to disappoint his/her parents in case (s)he gets caught with drugs by police.</i>
+                        <i>π.χ. Ο Χρίστος πρέπει να το επιστρέψει για να μην απογοητεύσει τους γονείς του σε περίπτωση που τον πιάσει η αστυνομία με ναρκωτικά.</i>
                     </li>
                     <li>
-                        <b>Authority and social-order maintaining orientation:</b> Law and order morality, ability to see abstract normative systems ("Do your duty"). It is important to obey laws, <a href="https://en.wikipedia.org/wiki/Dictum" target="_blank" rel="noopener noreferrer">dicta</a>, and <a href="https://en.wikipedia.org/wiki/Social_convention" target="_blank" rel="noopener noreferrer">social conventions</a> because of their importance in maintaining a functioning society. Moral reasoning in stage four is thus beyond the need for individual approval exhibited in stage three. A central ideal or ideals often prescribe what is right and wrong. If one person violates a law, perhaps everyone would—thus, there is an obligation and a duty to uphold laws and rules. When someone does violate a law, it is morally wrong.
+                        <b>Νόμος και κοινωνική οργάνωση για διατήρηση της τάξης:</b> Ηθική του νόμου και της τάξης, ικανότητα αντίληψης αφηρημένων κανονιστικών συστημάτων ("Κάνε το καθήκον σου"). Είναι σημαντικό να υπακούει κανείς στους νόμους, στο <a href="https://en.wikipedia.org/wiki/Dictum" target="_blank" rel="noopener noreferrer">κοινωνικό δίκαιο</a>, και στις <a href="https://en.wikipedia.org/wiki/Social_convention" target="_blank" rel="noopener noreferrer">κοινωνικές συμβάσεις</a>. λόγω της σημασίας τους για τη διατήρηση μιας λειτουργικής κοινωνίας. Ο ηθικός συλλογισμός στο τέταρτο στάδιο είναι επομένως κάτι πέρα από την ανάγκη για ατομική έγκριση που παρουσιάζεται στο τρίτο στάδιο. Ένα κεντρικό ιδεώδες συχνά προδιαγράφει τι είναι σωστό και τι λάθος. Αν ένα άτομο παραβιάζει έναν νόμο, στη συνέχεια ίσως όλοι να το έκαναν, επομένως, υπάρχει υποχρέωση και καθήκον να τηρούνται οι νόμοι και οι κανόνες για καλύτερη διατήρηση της τάξης. Όταν κάποιος όντως παραβιάζει έναν νόμο, αυτό είναι ηθικά λάθος.
                         <br />
-                        <i>E.g. Cris should give it back to Marcus because owning and consuming weed is forbidden and, therefore, illegal.</i>
+                        <i>π.χ. Ο Χρίστος πρέπει να το δώσει πίσω στον Μάρκο, επειδή η κατοχή και η κατανάλωση χόρτου απαγορεύεται και επομένως είναι παράνομη.</i>
                     </li>
                 </ol>
                 <h3>
-                    Level 3 (Post-Conventional)
+                    Επίπεδο 3 (Μετά-Συμβατικό επίπεδο)
                 </h3>
                 <ol start="5">
                     <li>
-                        <b>Social contract orientation</b> - different opinions, rights, and values should be mutually respected as unique to each person or community. Laws are regarded as <a href="https://en.wikipedia.org/wiki/Social_contract" target="_blank" rel="noopener noreferrer">social contracts</a> rather than rigid edicts. Personal rights are important. This is achieved through majority decision and inevitable compromise. Democratic government is supposedly based on stage five reasoning.
+                        <b>Κοινωνικό Συμβόλαιο:</b> Οι διαφορετικές απόψεις, τα δικαιώματα και οι αξίες θα πρέπει να γίνονται αμοιβαία σεβαστές ως μοναδικές για κάθε άτομο ή κοινότητα. Οι νόμοι θεωρούνται <a href="https://en.wikipedia.org/wiki/Social_contract" target="_blank" rel="noopener noreferrer">κοινωνικές συμβάσεις</a> και όχι άκαμπτα διατάγματα. Τα προσωπικά δικαιώματα είναι σημαντικά. Αυτό επιτυγχάνεται με την απόφαση της πλειοψηφίας και τον αναπόφευκτο συμβιβασμό. Η δημοκρατική διακυβέρνηση υποτίθεται ότι βασίζεται στη λογική του πέμπτου σταδίου.
                         <br />
-                        <i>E.g. Cris should keep it to avoid his/her friend from getting a criminal penalty, which may lead him even deeper into his personal downfall.</i>
+                        <i>E.π.χ. Ο Cris πρέπει να το κρατήσει για να μην τιμωρηθεί ποινικά ο φίλος του, γεγονός που μπορεί να επιδεινώσει την προσωπική του κατάσταση.</i>
                         <br />
-                        <i>E.g. Cris should give it back, as trying to keep Marcus from being convicted for a small amount of narcotics may pull him into a more significant narcotics-related affair. He could get a life lesson to avoid dealing drugs.</i>
+                        <i>π.χ. Ο Cris πρέπει να το επιστρέψει, καθώς η προσπάθεια του να αποτρέψει τον Marcus από το να καταδικαστεί για μια μικρή ποσότητα ναρκωτικών μπορεί να τον παρασύρει σε μια πιο σημαντική υπόθεση που σχετίζεται με τα ναρκωτικά. Θα μπορούσε να πάρει ένα μάθημα ζωής για να αποφύγει τη διακίνηση ναρκωτικών.</i>
                         <br />
-                        <i>E.g. Cris should not keep it as this could result in a criminal record for him/her and prevent him/her from entering the military academy.</i>
+                        <i>π.χ. Ο Crisς δεν θα έπρεπε να το κρατήσει, καθώς αυτό θα μπορούσε να καταλήξει στη δημιουργία ποινικού μητρώου και να τον εμποδίσει από το να εισαχθεί στη στρατιωτική ακαδημία.</i>
                         <br />
-                        <i>E. g. Cris should give it back as acting otherwise would not be fair towards him/her being punished for the act that (s)he has not committed.</i>
+                        <i>π.χ. Ο Cris πρέπει να το επιστρέψει γιατί δεν θα ήταν δίκαιο να τιμωρηθεί για μια πράξη που δεν διέπραξε.</i>
                     </li>
                     <li>
-                        <b>Universal ethical principles</b> - moral reasoning is based on <a href="https://en.wikipedia.org/wiki/Abstraction" target="_blank" rel="noopener noreferrer">abstract reasoning</a> using universal ethical principles. The resulting consensus is the action taken. The individual acts because it is right and not because it avoids punishment, is in their best interest, is expected, is legal, or previously agreed upon.
+                        <b>Οικουμενικές Ηθικές Αρχές</b> Ο ηθικός συλλογισμός βασίζεται σε <a href="https://en.wikipedia.org/wiki/Abstraction" target="_blank" rel="noopener noreferrer">αφηρημένους συλλογισμούς</a> που χρησιμοποιούν καθολικές ηθικές αρχές. Η συναίνεση που προκύπτει είναι η δράση που αναλαμβάνεται. Το άτομο ενεργεί επειδή είναι σωστό και όχι επειδή αποφεύγει την τιμωρία ή είναι προς το συμφέρον του, είναι αναμενόμενο, είναι νόμιμο ή έχει συμφωνηθεί προηγουμένως.
                         <br />
-                        <i>E.g. Cris should give it back and let Marcus take all the responsibility for what he has done. Narcotics have ruined many people's lives. It is just not right to support their use and propagation.</i>
+                        <i>π.χ. Ο Cris πρέπει να το επιστρέψει και να αφήσει τον Marcus να αναλάβει όλη την ευθύνη για ό,τι έκανε. Τα ναρκωτικά έχουν καταστρέψει τη ζωή πολλών ανθρώπων. Δεν είναι σωστό να υποστηρίζουμε τη χρήση και τη διάδοσή τους.</i>
                     </li>
                 </ol>
 
                 <hr />
 
                 <p>
-                    Through activity 6, students are expected to develop a broader understanding of the issue while considering different perspectives and consequences of one or another decision. Also, it is hoped that as a result of phase 4 (answering the following questions):
+                    Μέσω της δραστηριότητας 6, οι μαθητές αναμένεται να αναπτύξουν μια ευρύτερη κατανόηση του θέματος, εξετάζοντας παράλληλα διαφορετικές προοπτικές και συνέπειες της μιας ή της άλλης απόφασης. Επίσης, αναμένεται ότι ως αποτέλεσμα της φάσης 4 θα δοθούν απαντήσεις στα ακόλουθα ερωτήματα:
                 </p>
                 <ul class="leading-tight">
                     <li>
-                        Which option will produce the most good and do the least harm?
+                        Ποια επιλογή θα αποφέρει το μεγαλύτερο καλό και θα προκαλέσει τη μικρότερη ζημιά;
                     </li>
                     <li>
-                        Which option best respects the rights of all who have a stake?
+                        Ποια επιλογή σέβεται καλύτερα τα δικαιώματα όλων όσων έχουν συμφέρον;
                     </li>
                     <li>
-                        Which option best serves the community, not just some members?
+                        Ποια επιλογή εξυπηρετεί καλύτερα την κοινότητα και όχι μόνο ορισμένα μέλη;
                     </li>
                     <li>
-                        Which option leads me to act as the person I want to be? (can be left for individual consideration), will help students to reach higher levels of moral reasoning than otherwise. Also, reminding the students to follow the RICE approach during the discussion is essential. Phase 4 could be assigned as homework as well.
+                        Ποια επιλογή με οδηγεί να ενεργώ ως το άτομο που θέλω να είμαι; (μπορεί να αξιοποιηθεί για ενδοσκόπηση), που θα βοηθήσει τους μαθητές να φτάσουν σε υψηλότερα επίπεδα ηθικού συλλογισμού. Επίσης, η υπενθύμιση στους μαθητές να ακολουθούν την προσέγγιση RICE κατά τη διάρκεια της συζήτησης είναι απαραίτητη. Η φάση 4 θα μπορούσε επίσης να ανατεθεί ως εργασία για το σπίτι.
                     </li>
                 </ul>
             </section>

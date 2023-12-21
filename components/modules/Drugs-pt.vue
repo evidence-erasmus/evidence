@@ -18,7 +18,7 @@
         
             
             <section id="s-1">
-                <h2 id="s-1t">Module description</h2>
+                <h2 id="s-1t">Descrição do Módulo</h2>
             
                 <section class="e-card e-module__meta">
                     <table class="m-0 leading-tight">

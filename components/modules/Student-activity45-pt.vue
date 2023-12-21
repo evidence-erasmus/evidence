@@ -1,8 +1,8 @@
 <template>
     <hr class="mt-10 mb-40 print:my-10" />
     
-    <section id="s-4-">
-        <h2 id="s-4-t">Atividade 4: Transformação de provas num formato adequado</h2>
+    <section id="a4">
+        <h2 id="a-4-t">Atividade 4: Transformação de provas num formato adequado</h2>
         <p>
             Nesta atividade, espera-se que transforme as suas provas numa apresentação que deverá ser partilhada com os pares.
         </p>
@@ -39,8 +39,8 @@
 
     <hr class="mt-10 mb-40 print:my-10" />
 
-    <section id="s-5-">
-        <h2 id="s-5-t">Atividade 5: Apresentações em grupo</h2>
+    <section id="a5">
+        <h2 id="a-5-t">Atividade 5: Apresentações em grupo</h2>
         <p>
             Nesta atividade está convidado a apresentar o seu vídeo, cartaz, etc, aos seus pares. Por favor, esteja pronto para responder às perguntas e comentários dos seus colegas e professores!
             <br />

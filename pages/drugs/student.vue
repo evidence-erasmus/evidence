@@ -4,7 +4,7 @@
             <ModulesDrugsStudentEt />
         </template>
         <template v-else-if="locale === 'el'">
-            <ModulesDrugsStudentEn />
+            <ModulesDrugsStudentEl />
         </template>
         <template v-else-if="locale === 'pt'">
             <ModulesDrugsStudentPt />
