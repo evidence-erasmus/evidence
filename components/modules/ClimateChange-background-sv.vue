@@ -258,7 +258,7 @@
 
                 <hr id="myth-2" class="mt-10 mb-40" />
 
-                <h3><b>Myt 2:</b> Naturen kan anpassa sig till klimatförändringar.</h3>
+                <h3><span class="text-rose-400">Myt 2:</span> Naturen kan anpassa sig till klimatförändringar.</h3>
                 <p>Jorden har en historia på 4,54 miljarder år. De väderförhållanden som har rått på planeten förändras ständigt. Därför tvingades de arter/organismer som levde på jorden anpassa sig till nya förutsättningar för att överleva. På så sätt utvecklas arter. Växter och djur har redan flera gånger anpassat sig till ogynnsamma förhållanden (klimatförändringar, meteoritfall, vulkanutbrott, etc.). Det gör att de kan anpassa sig till stigande temperaturer och den situation vi nu kallar klimatförändringar. Med andra ord är arter naturligt kapabla att överleva under nya förhållanden.</p>
                 <p><a class="break-all" href="https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/Can-animals-and-plants-adapt-to-global-warming.htm</a></p>
                 <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
@@ -350,7 +350,7 @@
 
                 <hr id="myth-5" class="mt-10 mb-40" />
 
-                <h3>Myt 5: Det finns ingen korrelation mellan CO₂ och temperatur.</h3>
+                <h3><span class="text-rose-400">Myt 5:</span> Det finns ingen korrelation mellan CO₂ och temperatur.</h3>
                 <p>
                     <i>“Det var efterkrigstidens industrialiseringen som orsakade den snabba ökningen av de globala CO₂-utsläppen, men 1945 när detta började var jorden redan i en avkylningsfas som startade runt 1942 och fortsatte till 1975. Med 32 år av snabbt ökande globala temperaturer och endast en mindre ökning av de globala CO₂-utsläppen, följt av 33 år av långsamt svalnande globala temperaturer med snabba ökningar av globala CO₂-utsläpp, var det bedrägligt av IPCC att göra något påstående om att CO₂-utsläppen var primärt ansvariga för den observerade globala uppvärmningen på 1900-talet."</i>
                     <br />
@@ -358,33 +358,12 @@
                     <br />
                     <a class="break-all" href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                 </p>
-                <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
-                    <div>
-                        <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr 5 paikapidavuse kohta:</h3>
-                        <p class="text-2xl">
-                            <i>“Viimase 800 000+ aasta paleoklima andmed näitavad, et seos temperatuuri ja CO₂ vahel on selgelt tuvastatav. Wellingtoni Victoria ülikooli professori James Renwick’i sõnul on teadlased avastanud CO₂ rolli planeedi soojendamises juba 19. sajandi keskel. Viimase 2,6 miljoni aasta jooksul, viimaste jääaegade perioodi jooksul, on süsinikdioksiidi sisaldus tõusnud ja langenud koos temperatuuriga, saavutades põhja umbes 180 ppm-i jääaja maksimumi sügavustes ja haripunkti umbes 280 ppm-i juures soojematel interglatsiaalsetel perioodidel, ütleb ta ülevaates. "Kui minna tagasi, siis CO₂ tase oli kindlasti praegusest kõrgem, aga ka temperatuurid." Teadlased on kindlad, et suurenenud CO₂ kontsentratsioon põhjustab Maa temperatuuri tõusu. Kuna CO₂ ja muud kasvuhoonegaasid paisatakse atmosfääri, püüavad need kinni suurema osa päikeseenergiast, põhjustades soojenemist. "On selge, et inimmõju on atmosfääri, ookeani ja maad soojendanud,”</i> märgib IPCC oma kuuendas hindamisaruandes.
-                        </p>
-                    </div>
-                </UiCardInfo>
-                <p>
-                    Õpilased, kes uurivad müüti 5 juhitud uurimuse vormis, uurivad tõendeid selle kohta, kuidas süsinik mõjutab kliimat ja elu Maal. Nad viivad ka läbi eksperimendi, milles uuritakse, kuidas süsinikdioksiid mõjutab temperatuuri Maal. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada. 
-                    <br />
-                    Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused. 
-                </p>
-                <p><b>Click the following links for the scientific view:</b></p>
-                <ul>
-                    <li>
-                        <a href="https://climatefeedback.org/claimreview/link-between-co2-earth-temperature-well-established-despite-claims-fox-news-tom-harris/" target="_blank" rel="noopener noreferrer">https://climatefeedback.org/claimreview/link-between-co2-earth-temperature-well-established-despite-claims-fox-news-tom-harris/</a>
-                    </li>
-                    <li>
-                        <a href="https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature" target="_blank" rel="noopener noreferrer">https://cires.colorado.edu/outreach/resources/lesson/how-does-increase-co2-cause-increase-temperature</a>
-                    </li>
-                </ul> -->
+                
 
 
                 <hr id="myth-6" class="mt-10 mb-40" />
 
-                <h3>Myt 6: Åtgärder för att mildra klimatförändringarna kommer att göra människor fattigare.</h3>
+                <h3><span class="text-rose-400">Myt 6:</span> Åtgärder för att mildra klimatförändringarna kommer att göra människor fattigare.</h3>
                 <p>
                     <i>
                         “Klimatförändringar leder till större skördar och längre växtsäsong. Uppvärmning hjälper de fattiga.”
@@ -392,41 +371,12 @@
                     <br />
                     (John MacArthur)
                 </p>
-                <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
-                    <div>
-                        <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam antud müüdi 6 kohta:</h3>
-                        <p class="text-2xl">
-                            Vaesust suurendavad kliimamuutused, mitte meetmed selle leevendamiseks.
-                        </p>
-                        <p class="text-2xl">
-                            Kliimamuutuste mõjud ja vaeste kogukondade haavatavus kliimamuutuste suhtes võib olla väga mitut liiki. Kliimamuutused vähendavad veelgi juurdepääsu joogiveele, mõjutavad negatiivselt vaeste inimeste tervist ja kujutavad endast reaalset ohtu toiduga kindlustatusele paljudes Aafrika, Aasia ja Ladina-Ameerika riikides. Mõnes piirkonnas, kus elatusvahendite valikud on piiratud, ähvardab saagikuse vähenemine näljahäda ning seal, kus rannikualadel on oodata maa kadumist, võib ränne olla ainus lahendus. Kliimamuutuste mõjude makromajanduslikud kulud on väga ebakindlad, kuid tõenäoliselt võivad need ohustada paljude riikide arengut. Seetõttu on eesseisev ülesanne suurendada mõjutatud vaeste kogukondade ja riikide kohanemisvõimet.
-                            <br />
-                            Otsus keskenduda kohanemisele on tahtlik ja tehtud arusaamisega, et kohanemine ei saa asendada leevendamispüüdlusi. Kliimamuutuste ulatus ja kiirus sõltuvad suuresti jõupingutustest vähendada kasvuhoonegaaside (KHG) kontsentratsiooni atmosfääris. Mida kõrgem on kasvuhoonegaaside kontsentratsioon, seda suurem on inimeste ja bioloogiliste süsteemide pöördumatute ja tõsiste kahjustuste tõenäosus. Seetõttu on kohanemine vaid üks osa lahendusest. Teine asendamatu osa on kliimamuutuste leevendamine kasvuhoonegaaside kontsentratsiooni piiramisega atmosfääris.
-                        </p>
-                    </div>
-                </UiCardInfo>
-                <p>
-                    Õpilased, kes uurivad müüti 5 juhitud uurimuse vormis, otsivad tõendeid taastuvelektri kasutamisele ülemineku majandusliku kasu, erinevate energiaallikate kasutamise eelseisvate mõjude ja taastuvate energiaallikate kasutamisega kaasnevate töökohtade kohta. Teise võimalusena koguvad õpilased, kes uurivad müüti 5 avatud uurimuse vormis, teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.
-                    <br />
-                    Mõlema uurimisvormi korral tutvuvad õpilased teadusallikatega ning  teevad nende põhjal omad järeldused.
-                </p>
-                <p><b>Teaduslikku arusaama antud müüdi kohta esindavad järgmised allikad:</b></p>
-                <ul>
-                    <li>
-                        <a href="https://www.oecd.org/env/cc/2502872.pdf" target="_blank" rel="noopener noreferrer">https://www.oecd.org/env/cc/2502872.pdf</a>
-                    </li>
-                    <li>
-                        <a href="https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/research-and-innovation/en/horizon-magazine/climate-actions-lift-people-out-poverty-are-often-most-cost-effective</a>
-                    </li>
-                    <li>
-                        <a href="https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty" target="_blank" rel="noopener noreferrer">https://www.actionaid.org.uk/our-work/emergencies-disasters-humanitarian-response/climate-change-and-poverty</a>
-                    </li>
-                </ul> -->
+                
 
 
                 <hr id="myth-7" class="mt-10 mb-40" />
 
-                <h3>Myt 7: Jordens klimat har alltid förändrats, och nu händer samma sak.</h3>
+                <h3><span class="text-rose-400">Myt 7:</span> Jordens klimat har alltid förändrats, och nu händer samma sak.</h3>
                 <p>
                     <i>
                         “Klimatet förändras alltid. Vi har haft istider och varmare perioder då alligatorer hittades i Spitzbergen. Istider har inträffat i hundratusen års cykler under de senaste 700 tusen åren, och det har tidigare förekommit perioder som verkar ha varit varmare än idag trots att CO₂-nivåerna var lägre än de är nu. På senare tid har vi haft den  så kallade medeltida värmeperioden och den lilla istiden.”
@@ -436,19 +386,7 @@
                     <br />
                     <a class="break-all" href="https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/climate-change-little-ice-age-medieval-warm-period.htm</a>
                 </p>
-                <!-- <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
-                    <div>
-                        <h3 class="mt-6 pt-3 mb-10">Teaduslik arusaam müüdi nr. 7 paikapidavuse kohta:</h3>
-                        <p class="text-2xl">
-                            Suurimad globaalsed kliimamuutused Maa lähimas geoloogilises minevikus on jääaja tsüklid, millele järgnevad lühemad soojaperioodid. Mõned viimased neist looduslikest tsüklitest on kordunud ligikaudu iga 100 000 aasta tagant. CO2 sisaldus on viimase 200 aastaga tõusnud enam kui 40%, millest suur osa alates 1970. aastatest, põhjustades inimtekkelist energiabilansi muutumist Maal  1 °C võrra  (1,8 °F). Kui CO2 kasv jätkub pidurdamatult, võib selle sajandi lõpuks või varsti pärast seda oodata soojenemist, mis on sama suur, kui jääajast väljuv tõus. Selline soojenemise kiirus on üle kümne korra suurem kui see oli jääaja lõpus, mis on maailma mastaabis kiireim teadaolev looduslik püsiv muutus.
-                        </p>
-                    </div>
-                </UiCardInfo>
-                <p>
-                    Õpilased, kes uurivad müüti 7 juhitud uurimuse vormis, uurivad Maa temperatuuri (NASA tõendid) ja võrdlevad temperatuuri muutusi iga kahekümne aasta tagant. Nad selgitavad välja suurimad temperatuuritõusud ja salvestavad nende kohta konkreetset teavet. Teise võimalusena koguvad õpilased avatud uurimuse vormis teaduslikest allikatest tõendeid, et oma hüpoteesi ümber lükata või kinnitada.
-                    <br />
-                    Mõlema uurimisvõimaluse puhul pääsevad õpilased juurde teaduslikele allikatele ja teevad oma järeldused.
-                </p> -->
+                
             </section>
 
 

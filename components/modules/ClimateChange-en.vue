@@ -211,7 +211,7 @@
                         Oral/written feedback from the teacher (based on observations, questions asked, etc.) throughout the module, during the experiments, and in other formats of individual / group work.
                     </li>
                     <li>
-                        Peer feedback (on the group presentation using the following <a href="/tools/peer-feedback" target="_blank">following tool</a> and self-assessment after the game).
+                        Peer feedback (on the group presentation using the <NuxtLink to="../tools/peer-feedback" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18"></Icon>following tool</NuxtLink> and self-assessment after the game).
                     </li>
                     <li>
                         Oral/written feedback from the teacher on individual / group worksheets.
@@ -241,12 +241,12 @@
                 <h2 id="s-7t">Teaching suggestions</h2>
 
                 <p>
-                    The module starts with an introductory video opening up a few myths about climate change to raise further questions in students rather than giving them immediate answers. It is expected that after watching the video (Activity 1), students in groups will feel intrinsically motivated to examine one myth in depth. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It draws students' attention to thinking about their prior knowledge and sharing their conceptions and views with peers (Activity 2).
+                    The module starts with an introductory video opening up a few myths about climate change to raise further questions in students rather than giving them immediate answers. It is expected that after watching the video (<NuxtLink to="./climate-change/student#a-1">Activity 1</NuxtLink>), students in groups will feel intrinsically motivated to examine one myth in depth. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It draws students' attention to thinking about their prior knowledge and sharing their conceptions and views with peers (<NuxtLink to="./climate-change/student#a-2">Activity 2</NuxtLink>).
                     <br>
                     Also, selected chapters from <NuxtLink to="/climate-change/background">Scientific background information</NuxtLink> can be used for this purpose. In Activity 2, students have to narrow down their chosen myth into a hypothesis that can be falsified/confirmed.
                 </p>
                 <p>
-                    <b>Activity 3</b> is the myth-busting activity. Two alternative options are proposed for implementing Activity 3 (Figure 2).
+                    <NuxtLink to="./climate-change/student#a-3">Activity 3</NuxtLink> is the myth-busting activity. Two alternative options are proposed for implementing Activity 3 (Figure 2).
                 </p>
                 <section class="e-flow__chart">
                     <div class="e-flow__box"><b>Alternative options for Activity 3</b></div>
@@ -279,10 +279,10 @@
                     As reliability assessment can be a real challenge for students, the material is supplied with a tool for searching and analysing the information. Also, the teacher could explain its use by demonstrating and analysing reliable and less reliable sources as learning examples before the students implement this tool independently.
                 </p>
                 <p>
-                    To learn how to communicate their findings, students are guided to produce a video of their experiment as evidence or make a video of their conclusions based on secondary evidence (Activity 4). Student material is provided with criteria the video should fulfil. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video and answering the questions of their peers and the teacher (Activity 5). For the last, students can use the following assessment tool to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only their feedback, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.
+                    To learn how to communicate their findings, students are guided to produce a video of their experiment as evidence or make a video of their conclusions based on secondary evidence (<NuxtLink to="./climate-change/student#a-4">Activity 4</NuxtLink>). Student material is provided with criteria the video should fulfil. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video and answering the questions of their peers and the teacher (<NuxtLink to="./climate-change/student#a-5">Activity 5</NuxtLink>). For the last, students can use the following assessment tool to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only their feedback, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.
                 </p>
                 <p>
-                    In the last activity (Activity 6), the storyline of the module returns to the introductory video and the presented myths. Based on the lessons learned from the earlier stages, students prepare to make decisions on an individual or group level in a board game with cards where they have an opportunity to juxtapose and reflect on their learned science knowledge and their personal and social values. The rules of play are given in student worksheets. Students need to be instructed shortly before the start to understand the game's general flow.
+                    In the last activity (<NuxtLink to="./climate-change/student#a-6">Activity 6</NuxtLink>), the storyline of the module returns to the introductory video and the presented myths. Based on the lessons learned from the earlier stages, students prepare to make decisions on an individual or group level in a board game with cards where they have an opportunity to juxtapose and reflect on their learned science knowledge and their personal and social values. The rules of play are given in student worksheets. Students need to be instructed shortly before the start to understand the game's general flow.
                 </p>
                 <p>
                     All myths are backed up by Scientific background information, which explains the state-of-the-art science behind them and enables the teacher to get a quick overview of the science covered by the "Climate Change" module but could also be used as learning material for students to recall climate change-related knowledge.

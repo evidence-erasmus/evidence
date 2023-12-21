@@ -1,8 +1,8 @@
 <template>
     <hr class="mt-10 mb-40 print:my-10" />
 
-    <section id="s-4-">
-        <h2 id="s-4-t">Aktivitet 4: Förvandla bevis till ett lämpligt visuellt format</h2>
+    <section id="a4">
+        <h2 id="a4t">Aktivitet 4: Förvandla bevis till ett lämpligt visuellt format</h2>
         <p>
             I den här aktiviteten förväntas du omvandla dina bevis till en kort visuell presentation som ska tilltala dina kamrater. Diskutera formatet på din visuella presentation med din lärare.
         </p>
@@ -46,8 +46,8 @@
 
     <hr class="mt-10 mb-40 print:my-10" />
 
-    <section id="s-5-">
-        <h2 id="s-5-t">Aktivitet 5: Gruppresentationer</h2>
+    <section id="a5">
+        <h2 id="a5t">Aktivitet 5: Gruppresentationer</h2>
         <p>
             I den här aktiviteten ska ni presentera video, poster eller  bildspel för de andra. Var redo att svara på frågor och kommentarer från klasskamraterna och läraren!
             <br />

@@ -28,7 +28,7 @@
             <section id="s-1">
                 <h2 id="s-1t">Introduction</h2>
 
-                <p>This module invites you to falsify or confirm a common myth about climate change. After watching <a href="#activity-1">the introductory video</a> on climate change-related myths, you will discuss them in groups and choose one myth. Group discussion will lead to a myth-busting activity where you will look for evidence to falsify or confirm a chosen myth (see Figure 1).</p>
+                <p>This module invites you to falsify or confirm a common myth about climate change. After watching <a href="#a-1">the introductory video</a> on climate change-related myths, you will discuss them in groups and choose one myth. Group discussion will lead to a myth-busting activity where you will look for evidence to falsify or confirm a chosen myth (see Figure 1).</p>
                 <UiContentImage :elevated="true" class="mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
                 <p>You could follow the open or guided inquiry option. In the first case (open inquiry), you will search for any scientific sources on the web (e.g. video, articles, webpages, animations) and apply your plan of activities to falsify or confirm your myth. In the 2nd case (guided inquiry), you will be involved in a specific suggested plan of activities (e.g. watch recommended video, read chosen articles, apply recommended experiments) in order to falsify or confirm your myth. Through the myth-busting activity, you will learn to assess the reliability of information sources (science/research databases, popular science, and other media). Of course, you have first to pose a testable hypothesis. After making conclusions, you will prepare to present your findings to your classmates (or different audiences) in a relevant and convincing manner (e.g. in the form of video posts). The module is finished with a role-play where you can suggest solutions using your scientific knowledge and departing from your personal and social values.</p>
             </section>       
@@ -36,8 +36,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-2">
-                <h2 id="s-2t">Activity 1: Presentation of the video introduction</h2>
+            <section id="a-1">
+                <h2 id="a-1t">Activity 1: Presentation of the video introduction</h2>
                 
                 <p>
                     Please watch the introductory video. Put down your initial thoughts and feelings about the issues presented.
@@ -61,8 +61,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-3">
-                <h2 id="s-3t">Activity 2: Group discussion</h2>
+            <section id="a-2">
+                <h2 id="a-2t">Activity 2: Group discussion</h2>
                 
                 <p>
                     After watching the video, you are invited to discuss the topic in small groups (4-6 members).
@@ -95,8 +95,8 @@
             
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-4">
-                <h2 id="s-4t">Activity 3: Myths about the climate change</h2>
+            <section id="a-3">
+                <h2 id="a-3t">Activity 3: Myths about the climate change</h2>
 
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400">
                     <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Myth 1:</span> The extinction of species is a natural process. Mass extinctions of species have always occurred.</h4>
@@ -270,8 +270,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-6">
-                <h2 id="s-6t">Activity 6: Argumentation game</h2>
+            <section id="a-6">
+                <h2 id="a-6-t">Activity 6: Argumentation game</h2>
 
                 <p>The following argumentation game is implemented at the end of the climate change module. Read the following guidelines carefully.</p>
                 <h3>Game Instructions:</h3>

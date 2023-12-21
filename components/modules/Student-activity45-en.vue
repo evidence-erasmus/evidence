@@ -1,8 +1,8 @@
 <template>
     <hr class="mt-10 mb-40 print:my-10" />
 
-    <section id="s-4-e">
-        <h2 id="s-4-title">
+    <section id="a-4">
+        <h2 id="a-4-t">
             Activity 4: Transforming evidence to a suitable format
         </h2>
 
@@ -42,8 +42,8 @@
 
     <hr class="mt-10 mb-40 print:my-10" />
 
-    <section id="s-5-e">
-        <h2 id="s-5-title">
+    <section id="a-5">
+        <h2 id="a-5-t">
             Activity 5: Group presentations
         </h2>
 

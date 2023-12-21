@@ -11,30 +11,30 @@
         <section class="e-article print:not-prose" lang="pt" style="hyphens: auto;">
 
             <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
-            <h1 class="mb-0">Climate change</h1>
-            <h5 class="font-normal uppercase leading-tight">Materials for teacher</h5>
+            <h1 class="mb-0">Alterações Climáticas</h1>
+            <h5 class="font-normal uppercase leading-tight">Materiais para Professores</h5>
         
 
-            <section id="s-2">
-                <h2 id="s-1t">Module description</h2>
+            <section id="s-1">
+                <h2 id="s-1t">Descrição do Módulo</h2>
             
                 <section class="e-card e-module__meta">
                     <table class="m-0 leading-tight">
                         <tr>
-                            <td><b>Target group:</b></td>
-                            <td>This learning material is meant for 15-17 years age-old students.</td>
+                            <td><b>Grupo-alvo:</b></td>
+                            <td>Este material de aprendizagem destina-se a alunos de 15 a 17 anos de idade.</td>
                         </tr>
                         <tr>
-                            <td><b>Anticipated time frame:</b></td>
-                            <td>About 4-11 hours, á 45 min.</td>
+                            <td><b>Prazo previsto:</b></td>
+                            <td>11 horas, a 45 min.</td>
                         </tr>
                     </table>
                 </section>
 
-                <p>In this module, students are invited to falsify (“bust”) or confirm a common myth about climate change. In an introductory video, several climate change-related myths are brought up, which are further discussed in groups. Group discussion leads to a myth-busting activity where students look for evidence to falsify or confirm a chosen myth.</p>
-                <p>Two options for the myth-busting activity (Activity 3) are recommended: the open-inquiry option and the guided-inquiry option. The open-inquiry option encourages students to conduct an open investigation of the chosen myth. Students search for any scientific sources and apply their plan of activities to falsify or confirm their myth. The guided-inquiry option involves students to a specific suggested plan of activities, scientific sources to investigate and come up with their findings and conclusions.</p>
-                <p>After investigating their myth, students learn to assess the reliability of information/sources (from science/research databases, popular science, and other media) and/or develop further their experimentation skills. After making conclusions, students prepare to present their findings to their classmates (or different audiences) in a relevant and convincing manner (e.g. by video posts). The module is finished with an argumentation game where students can make socio-scientific decisions using their scientific knowledge while incorporating it with personal and social values.</p>
-                <p>The module consists of the teacher material (teaching suggestions and science background information), the student open-inquiry material (interactive worksheets, tutorials), and the student guided-inquiry material -different for each myth- (videos scenario, specific scientific sources, interactive worksheets, tutorials).</p>
+                <p>
+                    Neste módulo, os alunos são convidados a contrariar ou confirmar um mito comum sobre as alterações climáticas. Num vídeo introdutório, são levantados diversos mitos relacionados com as alterações climáticas, que são posteriormente discutidos em grupos. A discussão em grupo leva a uma atividade de desmistificação em que os alunos procuram evidências para contrariar ou confirmar um mito escolhido. Duas estratégias de ensino diferentes são recomendadas para aplicar a atividade de desmistificação que está incluída no módulo de Alterações Climáticas. Especificamente, as estratégias de ensino de investigação aberta e de investigação guiada. A estratégia de investigação aberta encoraja os alunos a conduzir uma investigação aberta do mito escolhido. Os alunos procuram quaisquer fontes científicas e aplicam o seu plano de atividades para contrariar ou confirmar o seu mito. Na investigação guiada, os alunos recebem um plano sugerido de atividades, fontes científicas específicas para investigar e apresentar as suas descobertas e conclusões. Após a investigação do seu mito (em ambas as estratégias de ensino recomendadas), os alunos aprendem a avaliar a fiabilidade da informação/fontes (de bases de dados de ciência/pesquisa, ciência popular e outros media) e/ou desenvolvem mais as suas capacidades de experimentação. Depois de tirar as conclusões, os alunos preparam-se para apresentar as suas descobertas aos colegas (ou diferentes públicos) de maneira relevante e convincente (por exemplo, posts de vídeos). O módulo é finalizado com um jogo de tabuleiro onde os alunos podem tomar decisões sociocientíficas usando seus conhecimentos científicos, incorporando-os a valores pessoais e sociais. O módulo consiste no material do professor (sugestões de ensino e informações básicas sobre ciências), o material de pesquisa aberta do aluno (folhas de trabalho interativas, tutorial em vídeo) e o material de pesquisa guiada do aluno, diferente para cada mito, (vídeos sobre factos, fontes científicas específicas, formulários interativos, tutoriais em vídeo)
+                </p>
+                
             </section>
             
 
@@ -42,26 +42,26 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-2">
-                <h2 id="section-2">Learning objectives targeted by the module</h2>
+                <h2 id="section-2">Objetivos de aprendizagem do módulo</h2>
                 
                 <ul>
-                    <li><b>Citizenship competence:</b> develop students’ knowledge and attitudes towards making responsible decisions related to climate change.</li>
-                    <li><b>Media competence:</b>
+                    <li><b>Competência de cidadania:</b> desenvolver o conhecimento e as atitudes dos alunos para a tomada de decisões responsáveis ​​relacionadas com as alterações climáticas.</li>
+                    <li><b>Competência de media:</b>
                         <ul class="my-0">
-                            <li>develop students’ skills in assessing the reliability of the information, presenting the evidence in a manner relevant to a given audience</li>
-                            <li>reacting adequately and responsibly to fake news and conspiracy theories presented in (social)media.</li>
+                            <li>desenvolver as habilidades dos alunos na avaliação da fiabilidade da informação, apresentando as evidências de maneira relevante para um determinado público,</li>
+                            <li>reagir de forma adequada e responsável a notícias falsas e teorias da conspiração apresentadas nos media (sociais).</li>
                         </ul>
                     </li>
-                    <li><b>Digital competence:</b> develop students’ skills in using digital media while presenting their inquiry results to the other groups.</li>
+                    <li><b>Competência digital:</b> desenvolver as habilidades dos alunos no uso dos media digitais enquanto apresentam os resultados das suas pesquisas para os outros grupos.</li>
                     <li>
-                        <b>Science competence:</b>
+                        <b>Competência científica:</b>
                         <ul class="my-0">
-                            <li>develop students’ understanding of the ways how science knowledge is generated and why we should trust science;</li>
-                            <li>develop further students’ knowledge about climate change;</li>
-                            <li>develop their ability to plan and devise procedures for testing hypotheses and interpreting the findings;</li>
+                            <li>desenvolver a compreensão dos alunos sobre as formas como o conhecimento científico é gerado e por que devemos confiar na ciência;</li>
+                            <li>desenvolver mais conhecimentos dos alunos sobre as alterações climáticas;</li>
+                            <li>desenvolver a capacidade de planear e elaborar procedimentos para testar hipóteses e interpretar os resultados.</li>
                         </ul>
                     </li>
-                    <li><b>Social competence:</b> – develop students’ argumentation skills and skills when finding group consensus on controversial climate change-related issues.</li>
+                    <li><b>Competência social:</b> – desenvolva as habilidades de argumentação dos alunos e as habilidades ao encontrar consenso em grupo sobre questões controversas relacionadas às alterações climáticas.</li>
                 </ul>
             </section>
 
@@ -76,15 +76,15 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-3">
-                <h2 id="s-3t">Expected prior knowledge about climate change</h2>
+                <h2 id="s-3t">Conhecimento prévio esperado sobre as alterações climáticas</h2>
 
                 <p>Students can discuss on the following topics:</p>
 
                 <ul class="leading-tight">
-                    <li>What is climate change?</li>
-                    <li>What are the factors that cause climate change?</li>
-                    <li>What are the consequences of climate change?</li>
-                    <li>Why is climate change considered an environmental problem?</li>
+                    <li>O que são alterações climáticas?</li>
+                    <li>Quais são os fatores que causam alterações climáticas?</li>
+                    <li>Quais são as consequências das alterações climáticas?</li>
+                    <li>Porque é que as alterações climáticas são consideradas um problema ambiental?</li>
                 </ul>
             </section>
 
@@ -98,72 +98,68 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-4">
-                <h2 id="s-4t">Module structure</h2>
-                <h4>Learning sequence of the EVIDENCE modules</h4>
+                <h2 id="s-4t">Estrutura do módulo</h2>
+                <h4>Este módulo é composto por 6 atividades. A sequência das atividades é apresentada na Figura 1 e Tabela 1 (ver abaixo).</h4>
                 
-                <p>This module consists of 6 activities. The sequence of activities is given below. </p>
-
                 <ModulesModuleStructure />
 
-                <p class="mt-20"><b>Table 1.</b> Learning activities of the “Climate Change” module</p>
+                <p class="mt-20"><b>Tabela 1.</b> Sequência de aprendizagem do módulo “Alterações Climáticas”</p>
                 <table>
                     <thead>
                         <tr>
-                            <th class="w-1/5"><b>Activity No</b></th>
-                            <th>Description</th>
+                            <th class="w-1/5"><b>Atividade No</b></th>
+                            <th>Descrição</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><b>Activity 1</b></td>
-                            <td>Presentation of the motivating introductory video.</td>
+                            <td><b>Atividade 1</b></td>
+                            <td>Apresentação do vídeo de apresentação</td>
                         </tr>
                         <tr>
-                            <td><b>Activity 2</b></td>
+                            <td><b>Atividade 2</b></td>
                             <td>
                                 <ul>
-                                    <li>Discussion in groups.</li>
-                                    <li>Choosing a myth to be busted.</li>
+                                    <li>Discussão em grupos:</li>
+                                    <li>Escolher um mito para ser quebrado</li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
-                            <td><b>Activity 3</b></td>
+                            <td><b>Atividade 3</b></td>
                             <td>
-                                Students in groups:
+                                <b>Em grupos:</b>
                                 <ul>
-                                    <li>Pose a testable hypothesis/research question.</li>
-                                    <li><b>Option 1: Open inquiry</b>
+                                    <li>Colocar uma hipótese testável / questão de pesquisa</li>
+                                    <li><b>Inquérito aberto</b>
                                         <ul>
-                                            <li>Make their action plan by searching for relevant scientific information about their chosen myth.</li>
-                                            <li>Assess the reliability of the found evidence.</li>
-                                            <li>Make conclusions.</li>
-                                            <li>Confirm or falsify the posed hypothesis.</li>
+                                            <li>Conduzir um experimento (Atividade 3a) e pesquisar informações relevantes (Atividade 3b) E/OU planear e confirmar ou refutar a hipótese proposta.</li>
+                                            <li>Avaliar a fiabilidade das evidências encontradas;</li>
+                                            <li>Tirar conclusões.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <b>Option 2: Guided inquiry</b>
+                                        <b>Consulta guiada</b>
                                         <ul>
-                                            <li>Students study scientific sources and/or conduct given experiments, and answer posed questions. </li>
-                                            <li>Assess the reliability of the found evidence.</li>
-                                            <li>Make conclusions.</li>
-                                            <li>Confirm or falsify the posed hypothesis.</li>
+                                            <li>Utilizar fontes e/ou experiências (Atividade 3a, 3b, 3c) fornecidas no material e responder a perguntas para confirmar ou refutar a hipótese hipotética.</li>
+                                            <li>Avaliar a fiabilidade das evidências encontradas;</li>
+                                            <li>Tirar conclusões.</li>
                                         </ul>
                                     </li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
-                            <td><b>Activity 4</b></td>
-                            <td>Transforming evidence to a format relevant to a given audience (peers): using a tutorial, students learn how to produce a short video, after which they plan and execute their ideas.</td>
+                            <td><b>Atividade 4</b></td>
+                            <td>Transformar as evidências para um formato relevante para um determinado público (pares): através de um tutorial, os alunos aprendem a produzir um pequeno vídeo, após o qual planificam e executam suas ideias.</td>
                         </tr>
                         <tr>
-                            <td><b>Activity 5</b></td>
-                            <td>Group presentations (coupled with peer assessment activities).</td>
+                            <td><b>Atividade 5</b></td>
+                            <td>Apresentações em grupo (juntamente com atividades de avaliação por pares)</td>
                         </tr>
                         <tr>
-                            <td><b>Activity 6</b></td>
-                            <td>Students in groups discuss and make decisions in a board game format.</td>
+                            <td><b>Atividade 6</b></td>
+                            <td>Os alunos, em grupos, discutem e tomam decisões num formato de jogo de tabuleiro.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -179,10 +175,10 @@
 
             <section id="s-5">
                 <h2 id="s-5t">
-                    Requirements for the physical environment
+                    Requisitos para o ambiente físico
                 </h2>
                 <p>
-                    Smartphone, computer, internet, display equipment for demonstrating videos. In case of busting myths experimentally, see “Teaching suggestions”.
+                    Smartphone, computador, internet, equipamentos de exibição para demonstração de vídeos. No caso de quebrar mitos experimentalmente, consulte “Sugestões de ensino”.
                 </p>
             </section>
             
@@ -195,37 +191,37 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-6">
-                <h2 id="s-6t">Assessment</h2>
+                <h2 id="s-6t">Avaliação</h2>
                 
                 <p>
-                    Students can be assessed differently throughout the module, including science process skills, general competencies, such as argumentation skills, and topic-related content knowledge.
+                    Os alunos podem ser avaliados de forma diferente ao longo do módulo, incluindo habilidades de processo científico, competências gerais, como habilidades de argumentação e conhecimento de conteúdo relacionado ao tópico.
                 </p>
                 <p>
-                    Assessments that could be applied in this module:
+                    Avaliações que podem ser aplicadas neste módulo:
                 </p>
                 <p>
-                    <b>Formative:</b>
+                    <b>Formativa:</b>
                 </p>
                 <ul>
                     <li>
-                        Oral/written feedback from the teacher (based on observations, questions asked, etc.) throughout the module, during the experiments, and in other formats of individual / group work.
+                        Feedback oral / escrito do docente (baseado em observações, questões colocadas, etc.) ao longo do módulo, durante as experiências e noutros formatos de trabalho individual / grupo.
                     </li>
                     <li>
-                        Peer feedback (on the group presentation using the following <a href="/tools/peer-feedback" target="_blank">following tool</a> and self-assessment after the game).
+                        Feedback dos pares (na apresentação do grupo usando a seguinte <NuxtLink to="./tools/peer-feedback" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18"></Icon>ferramenta</NuxtLink> e autoavaliação após o jogo).
                     </li>
                     <li>
-                        Oral/written feedback from the teacher on individual / group worksheets.
+                        Feedback oral / escrito do professor nos formulários individuais / em grupo.
                     </li>
                 </ul>
                 <p>
-                    <b>Summative:</b>
+                    <b>Summativa:</b>
                 </p>
                 <ul>
                     <li>
-                        Grades assigned by the teacher on the group presentation (based on the students’ video, poster,  or similar and its performance and students’ ability to provide relevant answers/comments).
+                        Notas atribuídas pelo professor na apresentação do grupo (com base no produto de vídeo dos alunos, no seu desempenho e na capacidade dos alunos em fornecer respostas / comentários relevantes).
                     </li>
                     <li>
-                        Grades assigned by the teacher on group or individual worksheets.
+                        Notas atribuídas pelo professor em grupo ou em formulários individuais.
                     </li>
                 </ul>
             </section>
@@ -238,16 +234,29 @@
             <hr  class="mt-10 mb-40 print:my-10" />
 
             <section id="s-7">
-                <h2 id="s-7t">Teaching suggestions</h2>
+                <h2 id="s-7t">Sugestões de ensino</h2>
 
                 <p>
-                    The module starts with an introductory video opening up a few myths about climate change to raise further questions in students rather than giving them immediate answers. It is expected that after watching the video (Activity 1), students in groups will feel intrinsically motivated to examine one myth in depth. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It draws students' attention to thinking about their prior knowledge and sharing their conceptions and views with peers (Activity 2).
-                    <br>
-                    Also, selected chapters from <NuxtLink to="/climate-change/background">Scientific background information</NuxtLink> can be used for this purpose. In Activity 2, students have to narrow down their chosen myth into a hypothesis that can be falsified/confirmed.
+                    O módulo começa com um vídeo introdutório que revela alguns mitos sobre as mudanças climáticas para levantar mais dúvidas nos alunos, em vez de fornecer respostas imediatas. Espera-se que, após assistirem ao vídeo (<NuxtLink to="./climate-change/student#a1">Atividade 1</NuxtLink>), os alunos, em grupos, se sintam intrinsecamente motivados a examinar um mito em profundidade. Pretende-se envolver os alunos em atividades que se relacionem com uma melhor compreensão do tema – um tema visto pelos alunos como relevante para suas vidas, não apenas para o currículo. Procura chamar a atenção dos alunos para pensar sobre os seus conhecimentos prévios e partilhar as suas conceções e pontos de vista com os pares (<NuxtLink to="./climate-change/student#a2">Atividade 2</NuxtLink>).
+                    <br />
+                    Além disso, capítulos selecionados de <NuxtLink to="./climate-change/background">Informações básicas científicas</NuxtLink> podem ser usados ​​para essa finalidade.
                 </p>
                 <p>
-                    <b>Activity 3</b> is the myth-busting activity. Two alternative options are proposed for implementing Activity 3 (Figure 2).
+                    Na atividade 2, os alunos devem restringir o mito escolhido a uma hipótese que pode ser contrariada / confirmada (<NuxtLink to="./climate-change/student#a3">Atividade 3</NuxtLink>). A atividade 3 é diferenciada na estratégia de inquérito aberto e na estratégia de inquérito rápido. O professor pode optar por aplicar uma das duas estratégias recomendadas ou aplicar ambas as estratégias.
                 </p>
+
+
+                <p>
+                    Durante a estratégia de Inquérito Aberto, os alunos, a partir da hipótese investigada, são solicitados a elaborar seu plano de ação para obter as informações necessárias (Atividade 3b). Eles podem optar por experimentar e fazer backup das suas descobertas com informações de fontes científicas ou usar apenas fontes.
+                </p>
+                <p>
+                    Durante a estratégia de Investigação Orientada, os alunos têm de estudar determinadas fontes científicas específicas (e.g. textos, vídeos, gráficos, páginas web, animações, mapas, procedimentos experimentais) de forma a responder a questões específicas e chegar gradualmente à confirmação ou falsificação das suas hipóteses.
+                </p>
+                <p>
+                    Em ambas as estratégias, após a Atividade 3 (sobre o Mythbusting), os alunos analisam criticamente sua fiabilidade e fazem conclusões fundamentadas com base nas evidências encontradas. Como a avaliação da fiabilidade pode ser um verdadeiro desafio para os alunos, o material é fornecido com uma <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="18"></Icon>ferramenta</NuxtLink> de busca e análise das informações. Além disso, o professor pode explicar o seu uso demonstrando e analisando fontes fiáveis e menos fiáveis, como exemplos de aprendizagem antes que os alunos implementem essa ferramenta por conta própria.
+                </p>
+
+                
                 <section class="e-flow__chart">
                     <div class="e-flow__box"><b>Alternative options for Activity 3</b></div>
                     <div class="e-flow__connector"></div>
@@ -272,20 +281,17 @@
                         </ul>
                     </div>
                 </section>
+                
+
+
                 <p>
-                    The teacher could choose which option of Activity 3 students will use by considering their students' cognitive skills and the available teaching time. However, the open-inquiry option is considered the most challenging option for students.
+                    Para aprender a comunicar as suas descobertas, os alunos são orientados a produzir um vídeo da sua experiência como evidência ou fazer um vídeo das suas conclusões com base em evidências secundárias (<NuxtLink to="./climate-change/student#4">Atividade 4</NuxtLink>). O material do aluno é fornecido com os critérios que o vídeo deve atender. Esses critérios podem ser usados formativamente para a autoavaliação dos alunos durante o processo e para a avaliação dos pares ao apresentar o vídeo e responder às perguntas dos colegas e do professor (<NuxtLink to="./climate-change/student#5">Atividade 5</NuxtLink>). Por último, os alunos podem usar a seguinte ferramenta de avaliação para dar feedback aos outros grupos. O professor pode fornecer a cada grupo um feedback resumido sobre a apresentação do vídeo (sugestão: cada grupo pode aceder apenas ao seu feedback, não os outros). O professor pode aceder facilmente o feedback do Google Forms ao usar o botão "Respostas".
                 </p>
                 <p>
-                    As reliability assessment can be a real challenge for students, the material is supplied with a tool for searching and analysing the information. Also, the teacher could explain its use by demonstrating and analysing reliable and less reliable sources as learning examples before the students implement this tool independently.
+                    Na última atividade (<NuxtLink to="./climate-change/student#6">Atividade 6</NuxtLink>), o enredo do módulo retorna ao vídeo introdutório e aos mitos apresentados. Com base nas lições aprendidas nas etapas anteriores, os alunos preparam-se para tomar decisões ao nível individual ou em grupo num jogo de tabuleiro com cartas onde eles têm a oportunidade de justapor e refletir sobre seus conhecimentos científicos aprendidos e os seus valores pessoais e sociais. As regras do jogo são fornecidas nos formulários dos alunos. Os alunos precisam ser instruídos pouco antes do início para entender o fluxo geral do jogo.
                 </p>
                 <p>
-                    To learn how to communicate their findings, students are guided to produce a video of their experiment as evidence or make a video of their conclusions based on secondary evidence (Activity 4). Student material is provided with criteria the video should fulfil. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video and answering the questions of their peers and the teacher (Activity 5). For the last, students can use the following assessment tool to give feedback to the other groups. The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only their feedback, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.
-                </p>
-                <p>
-                    In the last activity (Activity 6), the storyline of the module returns to the introductory video and the presented myths. Based on the lessons learned from the earlier stages, students prepare to make decisions on an individual or group level in a board game with cards where they have an opportunity to juxtapose and reflect on their learned science knowledge and their personal and social values. The rules of play are given in student worksheets. Students need to be instructed shortly before the start to understand the game's general flow.
-                </p>
-                <p>
-                    All myths are backed up by Scientific background information, which explains the state-of-the-art science behind them and enables the teacher to get a quick overview of the science covered by the "Climate Change" module but could also be used as learning material for students to recall climate change-related knowledge.
+                    Todos os mitos são apoiados por <NuxtLink to="./climate-change/background">informações científicas básicas</NuxtLink>, que explicam a ciência por trás deles e permitem ao professor obter uma visão geral rápida da ciência abordada no módulo "Alterações climáticas", mas também pode ser usada como material de aprendizagem para os alunos recordarem os conhecimentos relacionados com as alterações climáticas.
                 </p>
             </section>
 

@@ -29,7 +29,7 @@
                 <h2 id="s-1t">Introduktion</h2>
 
                 <p>
-                    I denna modul ska du motbevisa eller bekräfta en vanlig myt om klimatförändringar. Utgå från en <a href="#s2">introduktionsvideo</a> där några klimatförändringsrelaterade myter tas upp och diskutera dem i grupper. Gruppdiskussionen kommer att leda till en aktivitet där ni letar bevis för att motbevisa eller bekräfta en vald myt. Den här aktiviteten ska genomföras baserat på sökningar från olika källor t ex internet m fl. eller experimentellt (se Figur 1).
+                    I denna modul ska du motbevisa eller bekräfta en vanlig myt om klimatförändringar. Utgå från en <a href="#a1">introduktionsvideo</a> där några klimatförändringsrelaterade myter tas upp och diskutera dem i grupper. Gruppdiskussionen kommer att leda till en aktivitet där ni letar bevis för att motbevisa eller bekräfta en vald myt. Den här aktiviteten ska genomföras baserat på sökningar från olika källor t ex internet m fl. eller experimentellt (se Figur 1).
                 </p>
                 <UiContentImage class="my-10" :elevated="true" src="https://evidence.onkel.ee/assets/mythbusting-sv.webp">
                     <template #caption>
@@ -46,8 +46,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s2">
-                <h2 id="s2t">Aktivitet 1: Videointroduktion</h2>
+            <section id="a1">
+                <h2 id="a1t">Aktivitet 1: Videointroduktion</h2>
                 <p>Titta på introduktionsvideon. Skriv ner dina första tankar och känslor om de problem som presenteras.</p>
                 <UiYoutube video="CbJ7GmgEAAo" />
             </section>
@@ -66,8 +66,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
             
-            <section id="s3">
-                <h2 id="s3t">Aktivitet 2: Gruppdiskussion</h2>
+            <section id="a2">
+                <h2 id="a2t">Aktivitet 2: Gruppdiskussion</h2>
                 
                 <p>Efter att ha sett videon, diskutera ämnet i små grupper (4-6 medlemmar).</p>
                 <ol>
@@ -228,8 +228,8 @@
 
             <hr class="mt-10 mb-40" />
 
-            <section id="s4">
-                <h2 id="s4t">
+            <section id="a3">
+                <h2 id="a3t">
                     Aktivitet 3: Mythbusting
                 </h2>
 
@@ -304,8 +304,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s-6">
-                <h2 id="section-7">Aktivitet 6: Argumentationsspel</h2>
+            <section id="a6">
+                <h2 id="a6t">Aktivitet 6: Argumentationsspel</h2>
 
                 <p>Följande argumentationsspel implementeras i slutet av klimatförändringsmodulen. Läs följande riktlinjer noggrant.</p>
 
