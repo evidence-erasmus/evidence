@@ -8,11 +8,11 @@
             Σε αυτή τη δραστηριότητα, αναμένεται να μετατρέψετε τα τεκμήριά σας σε μια παρουσίαση που θα πρέπει να απευθύνεται στους συνομήλικούς σας. Συζητήστε τη μορφή της παρουσίασής σας με τον / τη δάσκαλο / α σας.
         </p>
         <p class="font-bold">Πιθανές μορφές παρουσίασης:</p>
-        <ul class="leading-tight">
-            <li>Δημιουργία βίντεο για την πορεία του πειράματος και τα αποτελέσματά του <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> βλ. Οδηγό βίντεο</a></li>
-            <li>Βίντεο της παρουσίασης σας <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> βλ. Οδηγό βίντεο</a></li>
+        <ul>
+            <li>Δημιουργία βίντεο για την πορεία του πειράματος και τα αποτελέσματά του <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline shadow-md no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> βλ. Οδηγό βίντεο</a></li>
+            <li>Βίντεο της παρουσίασης σας <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline shadow-md no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> βλ. Οδηγό βίντεο</a></li>
             <li>Παρουσίαση διαφανειών.</li>
-            <li>Αφίσα που χρησιμοποιεί, για παράδειγμα, την τεχνική οπτικής διευκόλυνσης. <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> βλ. Οδηγό βίντεο</a></li>
+            <li>Αφίσα που χρησιμοποιεί, για παράδειγμα, την τεχνική οπτικής διευκόλυνσης. <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline shadow-md no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> βλ. Οδηγό βίντεο</a></li>
         </ul>
         <p>Τα παρακάτω κριτήρια θα σας βοηθήσουν να αναπτύξετε την παρουσίασή σας:</p>
         <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:fact-check-outline-rounded">

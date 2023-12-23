@@ -25,36 +25,36 @@ export default {
     },
 
     ev_open: {
-      title: "Evolution",
-      subtitle: "Open inquiry",
-      choose: "Choose a myth",
-      q1_title: "1. We are going to examine the following myth:",
+      title: "Εξέλιξη",
+      subtitle: "Ανοιχτή διερεύνηση",
+      choose: "Επιλέξτε έναν μύθο",
+      q1_title: "1. Ομαδική απόφαση: Θα διαπραγματευτούμε τον ακόλουθο μύθο:",
       myths: [
-        "Evolution is just a theory.",
-        "Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.",
-        "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?",
-        "Evolution produces perfectly adapted creatures.",
-        "Species are immutable",
-        "The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species"
+        "Η εξέλιξη είναι απλά μια θεωρία.",
+        "Η εξέλιξη είναι αντιεπιστημονική γιατί δεν μπορεί να ελεγχθεί ή να τροποποιηθεί. Προβάλλει ισχυρισμούς για γεγονότα που δεν παρατηρήθηκαν και δεν μπορούν ποτέ να επαναληφθούν.",
+        "Η εξέλιξη ακολουθεί ένα προκαθορισμένο, γραμμικό μονοπάτι (ή αφού ο άνθρωπος εξελίχθηκε από τους πιθήκους, γιατί υπάρχουν ακόμα πίθηκοι;)",
+        "Η εξέλιξη δημιουργεί τέλεια προσαρμοσμένα πλάσματα.",
+        "Τα είδη δεν αλλάζουν.",
+        "Η χρήση, ή η μη χρήση ενός οργάνου κατά τη διάρκεια της ζωής κάποιου οργανισμού, θα μπορούσε να κληρονομηθεί από τους απογόνους του και να οδηγήσει σε αλλαγή του είδους."
       ],
       expectations: {
-        title: "In this activity, you are expected to do the following:",
+        title: "Σε αυτήν την δραστηριότητα αναμένεται να κάνετε τα εξής:",
         items: [
-          "develop a testable hypothesis / research question,",
-          "plan your search for relevant information that will confirm or falsify your hypothesis / answer your research question,",
-          "present collected data in the form of tables, graphs, or similar,",
-          "assess the reliability of the gathered evidence.",
-          "use your findings to draw a conclusion."
+          "να διατυπώσετε ένα διερευνήσιμο ερώτημα / υπόθεση,",
+          "να σχεδιάσετε μια διερεύνηση για τη συλλογή στοιχείων που θα σας επιτρέψουν να απαντήσετε το διερευνήσιμο ερώτημα, να απορρίψετε ή να επιβεβαιώσετε την υπόθεση σας,",
+          "να παρουσιάσετε τα δεδομένα που συλλέξατε σε μορφή πίνακα, γραφικής παράστασης, ή κάτι παρόμοιο,",
+          "να αξιολογήσετε την αξιοπιστία των αποδεικτικών στοιχείων που συλλέξατε, και",
+          "να χρησιμοποιήσετε τα στοιχεία που συλλέξατε για να καταλήξετε σε ένα συμπέρασμα."
         ]
       },
       q2 : {
         txt: "Develop a {q2Link} / research question.",
         link: "testable hypothesis",
-        title: "2. Our hypothesis / research question is:",
+        title: "2. Το διερευνήσιμο ερώτημα/ υπόθεση μας είναι:",
       },
       
       plan: {
-        txt_1: "(you could indicate by which activities you are involved as a full team and by which you are going to divide responsibilities, in this case, specify, who is responsible for what).",
+        txt_1: "Πλάνο δραστηριοτήτων (σημειώστε ποιες δραστηριότητες θα κάνετε ως ομάδα και ποιες θα μοιραστείτε , σε αυτήν την περίπτωση καταγράψτε και ποιος είναι υπεύθυνος για την κάθε μια).",
         label_1: "3. Plan of activities"
       },
       conclusions: "5. Based on the collected evidence, our conclusions are:"
@@ -63,20 +63,20 @@ export default {
 
 
     ev_myth1: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 1",
+      title: "Εξέλιξη",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 1",
       myth: {
-        text: "Your team will deal with Statement 1:",
-        myth: "“Evolution is just a theory”."
+        text: "Η ομάδα σου θα ασχοληθεί με τον 1o μύθο:",
+        myth: "“Η εξέλιξη είναι απλά μια θεωρία.”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Διαβάστε το παρακάτω κείμενο προσεκτικά. Προσδιορίστε και τεκμηριώστε τα επιχειρήματα που προβάλλουν οι συγγραφείς για να υποστηρίξουν την άποψή τους.",
+        label_1: "Επιχείρημα:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Question: Is Evolution just a theory? What is meant by the term “theory” in science?",
-      sources_text: "In order to check the above questions, the following bibliographic sources are suggested:",
+      label_2: "Πως κρίνετε αυτήν την δήλωση; Υπάρχει κάτι που θέλετε να σχολιάσετε;",
+      label_3: "Πως μπορούμε να ελέγξουμε αν αυτή η δήλωση είναι αληθής;",
+      question: "Ερώτημα: Η εξέλιξη είναι μόνο μια θεωρία; Τι εννοούμε με τον όρο “θεωρία” στην Επιστήμη;",
+      sources_text: "Προτείνονται οι παρακάτω βιβλιογραφικές πηγές για να ελέγξετε το παραπάνω ερώτημα:",
       sources: [
         {
           label: "Evolution",
@@ -100,26 +100,26 @@ export default {
         }
         
       ],
-      label_4: "What is meant by the term “theory” in Science?",
-      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?"
+      label_4: "Τι εννοούμε με τον όρο “θεωρία” στην Επιστήμη?",
+      label_5: "Η Θεωρία της Εξέλιξης πληροί τα κριτήρια μιας επιστημονικής θεωρίας;"
     },
 
 
     ev_myth2: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 2",
+      title: "Εξέλιξη",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 2",
       myth: {
-        text: "Your team will deal with Statement 2:",
-        myth: "“Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.”"
+        text: "Η ομάδα σου θα ασχοληθεί με τον 2ο μύθο:",
+        myth: "“Η εξέλιξη είναι αντιεπιστημονική γιατί δεν μπορεί να ελεγχθεί ή να τροποποιηθεί. Προβάλλει ισχυρισμούς για γεγονότα που δεν παρατηρήθηκαν και δεν μπορούν ποτέ να επαναληφθούν.”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Διαβάστε το παρακάτω κείμενο προσεκτικά. Προσδιορίστε και τεκμηριώστε τα επιχειρήματα που προβάλλουν οι συγγραφείς για να υποστηρίξουν την άποψή τους.",
+        label_1: "Επιχείρημα:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Questions: Is Evolution testable? Is it falsifiable? Does all science depend on controlled laboratory experiments to be considered true science?",
-      sources_text: "In order to check the above question, the following bibliographic sources are suggested:",
+      label_2: "Πως κρίνετε αυτήν την δήλωση; Υπάρχει κάτι που θέλετε να σχολιάσετε; ",
+      label_3: "Πως μπορούμε να ελέγξουμε αν αυτή η δήλωση είναι αληθής;",
+      question: "Ερωτήματα: Η Εξέλιξη είναι ελεγχόμενη; Μπορεί να παραποιηθεί; Πρέπει τα πάντα στην επιστήμη να εξαρτώνται από ελεγχόμενα εργαστηριακά πειράματα για να θεωρηθεί αληθής η επιστήμη;",
+      sources_text: "Προτείνονται οι παρακάτω βιβλιογραφικές πηγές για να ελέγξετε τα παραπάνω ερωτήματα:",
       sources: [
         {
           label: "Misconceptions about evolution",
@@ -140,53 +140,44 @@ export default {
       ],
       sources_2: [
         {
-          text: "Study the following source:",
+          text: "Μελετήστε της εξής πηγή:",
           label: "Artificial selection in the lab",
           url: "https://evolution.berkeley.edu/artificial-selection-in-the-lab/"
         },
         {
-          text: "“Play” with the following virtual lab:",
+          text: "“Παίξτε” με το εξής εικονικό εργαστήριο:",
           label: "Evolution in the lab",
           url: "https://evolution.berkeley.edu/angling-for-evolutionary-answers/evolution-in-the-lab/"
         },
         {
-          text: "Run the following simulation:",
+          text: "Και τρέξτε την παρακάτω προσομοίωση:",
           label: "The evolutionary informatics lab",
           url: "https://www.evoinfo.org/weasel.html"
         },
       ],
-      label_4: "Are there any cases that we can actually observe evolution?",
-      label_5: "Are there any cases that we can test evolutionary processes in the lab?",
-      label_6: "Are there any alternatives we can use instead of actual experiments?",
-      // reliability: {
-      //   text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-      //   link: "töörista",
-      //   label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
-      // }
+      label_4: "Υπάρχουν περιπτώσεις που μπορούμε να παρατηρήσουμε την εξέλιξη;",
+      label_5: "Υπάρχουν περιπτώσεις που μπορούμε να παρατηρήσουμε την εξέλιξη στο εργαστήριο;",
+      label_6: "Υπάρχουν ενναλακτικές που μπορούμε να χρησιμοποιήσουμε στην θέση των πειραμάτων;"
     },
 
 
 
     ev_myth3: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 3",
+      title: "Εξέλιξη",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 3",
       myth: {
-        text: "Your team will deal with Statement 3:",
-        myth: "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?)"
+        text: "Η ομάδα σου θα ασχοληθεί με τον 3ο μύθο:",
+        myth: "Η εξέλιξη ακολουθεί ένα προκαθορισμένο, γραμμικό μονοπάτι (ή αφού ο άνθρωπος εξελίχθηκε από τους πιθήκους, γιατί υπάρχουν ακόμα πίθηκοι;"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Διαβάστε το παρακάτω κείμενο προσεκτικά. Προσδιορίστε και τεκμηριώστε τα επιχειρήματα που προβάλλουν οι συγγραφείς για να υποστηρίξουν την άποψή τους.",
+        label_1: "Eπιχείρημα:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Questions:	Does evolution follow a preordained, straight path? If a species evolves from another species, does this mean that the first one should become extinct?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      label_2: "Πως κρίνετε αυτήν την δήλωση; Υπάρχει κάτι που θέλετε να σχολιάσετε;",
+      label_3: "Πως μπορούμε να ελέγξουμε αν αυτή η δήλωση είναι αληθής;",
+      question: "Ερωτήματα: Η εξέλιξη ακολουθεί έναν προκαθορισμένο, ευθύ μονοπάτι; Εάν ένα είδος εξελίσσεται από ένα άλλο είδος  αυτό σημαίνει ότι το πρώτο πρέπει να εξαφανιστεί;",
+      sources_text: "Για να ελέγξετε τα παραπάνω ερωτήματα, προτείνονται οι παρακάτω βιβλιογραφικές πηγές:",
       sources: [
-        {
-          label: "Ιf human evolved from monkeys, why are there still monkeys?",
-          url: "https://www.youtube.com/watch?v=4k4JLntDIzE"
-        },
         {
           label: "Why Are There Still Monkeys?",
           url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-010-0293-2"
@@ -202,27 +193,31 @@ export default {
         {
           label: "The Tree of Life",
           url: "http://www.evogeneao.com/evo-gene.html"
+        },
+        {
+          label: "If human evolved from monkeys, why are there still monkeys?",
+          url: "https://www.youtube.com/watch?v=4k4JLntDIzE"
         }
       ],
-      label_4: "Does evolution follow a preordained, straight path?"
+      label_4: "Η εξέλιξη ακολουθεί έναν προκαθορισμένο, γραμμικό μονοπάτι;"
     },
 
 
     ev_myth4: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 4",
+      title: "Εξέλιξη",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 4",
       myth: {
-        text: "Your team will deal with Statement 4:",
-        myth: "“Evolution produces perfectly adapted creatures.”"
+        text: "Η ομάδα σου θα ασχοληθεί με τον 4ο μύθο:",
+        myth: "“Η εξέλιξη δημιουργεί τέλεια προσαρμοσμένα πλάσματα”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Διαβάστε το παρακάτω κείμενο προσεκτικά. Προσδιορίστε και τεκμηριώστε τα επιχειρήματα που προβάλλουν οι συγγραφείς για να υποστηρίξουν την άποψή τους.",
+        label_1: "Eπιχείρημα:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Question: Do you have to be perfectly adapted to survive? Does natural selection produce perfection/perfectly adapted creatures?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      label_2: "Πως κρίνετε αυτήν την δήλωση; Υπάρχει κάτι που θέλετε να σχολιάσετε;",
+      label_3: "Πως μπορούμε να ελέγξουμε αν αυτή η δήλωση είναι αληθής;",
+      question: "Ερωτήματα: Πρέπει να είστε τέλεια προσαρμοσμένοι για να επιβιώσετε; Η φυσική επιλογή παράγει την τελειότητα (τέλεια προσαρμοσμένα πλάσματα);",
+      sources_text: "Για να ελέγξετε τα παραπάνω ερωτήματα, προτείνονται οι παρακάτω βιβλιογραφικές πηγές:",
       sources: [
         {
           label: "Does Evolution Leads to Perfection?",
@@ -245,27 +240,27 @@ export default {
           url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-009-0128-1"
         }
       ],
-      label_4: "Do you have to be perfectly adapted to survive?",
-      label_5: "Does natural selection produce perfection/perfectly adapted creatures?"
+      label_4: "Πρέπει να είστε τέλεια προσαρμοσμένοι για να επιβιώσετε;",
+      label_5: "Η φυσική επιλογή παράγει την τελειότητα/ τέλεια προσαρμοσμένα πλάσματα;"
     },
 
 
 
     ev_myth5: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 5",
+      title: "Εξέλιξη",
+      subtitle: "Καθοδηγούμενη Διερεύνηση; Μύθο 5",
       myth: {
-        text: "Your team will deal with Statement 5:",
-        myth: "“Species are immutable.”"
+        text: "Η ομάδα σου θα ασχοληθεί με τον 5ο μύθο:",
+        myth: "“Τα είδη δεν αλλάζουν.”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Διαβάστε το παρακάτω κείμενο προσεκτικά. Προσδιορίστε και τεκμηριώστε τα επιχειρήματα που προβάλλουν οι συγγραφείς για να υποστηρίξουν την άποψή τους.",
+        label_1: "Eπιχείρημα:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Question: Do species change over time?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      label_2: "Πως κρίνετε αυτήν την δήλωση; Υπάρχει κάτι που θέλετε να σχολιάσετε;",
+      label_3: "Πως μπορούμε να ελέγξουμε αν αυτή η δήλωση είναι αληθής;",
+      question: "Ερώτημα: Αλλάζουν τα είδη με την πάροδο του χρόνου;",
+      sources_text: "Για να ελέγξετε τα παραπάνω ερωτήματα, προτείνονται οι παρακάτω βιβλιογραφικές πηγές:",
       sources: [
         {
           label: "Lamarck's Theory",
@@ -284,26 +279,26 @@ export default {
           url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
         }
       ],
-      label_4: "Do species change over time?"
+      label_4: "Αλλάζουν τα είδη με την πάροδο του χρόνου;"
     },
 
 
 
     ev_myth6: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 6",
+      title: "Εξέλιξη",
+      subtitle: "Η ομάδα σου θα ασχοληθεί με τον 6ο μύθο",
       myth: {
-        text: "Your team will deal with Statement 6:",
-        myth: "“The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species.”"
+        text: "Η ομάδα σου θα ασχοληθεί με τον 6ο μύθο",
+        myth: "“Η χρήση, ή η μη χρήση ενός οργάνου κατά τη διάρκεια της ζωής ενός ατόμου, θα μπορούσε να κληρονομηθεί από τους απογόνους του και να οδηγήσει σε αλλαγή του είδους”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Διαβάστε το παρακάτω κείμενο προσεκτικά. Προσδιορίστε και τεκμηριώστε τα επιχειρήματα που προβάλλουν οι συγγραφείς για να υποστηρίξουν την άποψή τους.",
+        label_1: "Eπιχείρημα:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Which traits/characteristics are inheritable?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      label_2: "Πως κρίνετε αυτήν την δήλωση; Υπάρχει κάτι που θέλετε να σχολιάσετε;",
+      label_3: "Πως μπορούμε να ελέγξουμε αν αυτή η δήλωση είναι αληθής;",
+      question: "Ερώτηση: Ποια γνωρίσματα/χαρακτηριστικά είναι κληρονομήσιμα;",
+      sources_text: "Για τον έλεγχο της παραπάνω ερώτησης προτείνονται οι ακόλουθες βιβλιογραφικές πηγές:",
       sources: [
         {
           label: "Lamarck's Theory",
@@ -326,7 +321,7 @@ export default {
           url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
         }
       ],
-      label_4: "Which traits are inheritable?"
+      label_4: "Ποια χαρακτηριστικά είναι κληρονομικά;"
     },
 
 
@@ -337,7 +332,7 @@ export default {
 
     cc_open: {
       title: "Κλιματική Αλλαγή",
-      subtitle: "Open inquiry",
+      subtitle: "Ανοιχτή διερεύνηση",
       choose: "Choose a myth",
       q1_title: "1. Θα διερευνήσουμε τον ακόλουθο μύθο:",
       myths: [
