@@ -27,58 +27,58 @@ export default {
 
 
     ev_open: {
-      title: "Evolution",
-      subtitle: "Open inquiry",
-      choose: "Choose a myth",
-      q1_title: "1. We are going to examine the following myth:",
+      title: "Evolução",
+      subtitle: "Inquérito aberto",
+      choose: "Escolha uma declaração:",
+      q1_title: "1. Decisão do grupo: Vamos abordar a seguinte declaração:",
       myths: [
-        "Evolution is just a theory.",
-        "Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.",
-        "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?",
-        "Evolution produces perfectly adapted creatures.",
-        "Species are immutable",
-        "The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species"
+        "Evolução é só uma teoria.",
+        "A evolução não é científica porque não é testável ou desmistificável. Faz afirmações sobre eventos que não foram observados e nunca podem ser recriados.",
+        "A evolução segue um caminho direto predeterminado (ou se o ser humano evoluiu dos macacos, por que ainda existem macacos?)",
+        "A evolução produz criaturas perfeitamente adaptadas.",
+        "As espécies são imutáveis.",
+        "O uso ou desuso de uma estrutura durante a vida de alguém pode ser herdado por seus descendentes e levar a uma mudança em uma espécie."
       ],
       expectations: {
-        title: "In this activity, you are expected to do the following:",
+        title: "Caso  ache que o seu mito pode ser testado experimentalmente, espera-se que:",
         items: [
-          "develop a testable hypothesis / research question,",
-          "plan your search for relevant information that will confirm or falsify your hypothesis / answer your research question,",
-          "present collected data in the form of tables, graphs, or similar,",
-          "assess the reliability of the gathered evidence.",
-          "use your findings to draw a conclusion."
+          "Desenvolver uma hipótese testável / questão de pesquisa,",
+          "projetar uma experiência que confirmará ou falsificará  a sua hipótese / responderá à sua pergunta de pesquisa,",
+          "apresente os seus dados coletados na forma de tabelas e gráficos e, de preferência, grave em vídeo a sua experiência como prova (veja o tutorial)",
+          "explique os seus resultados usando conhecimento científico,",
+          "usar os seus resultados para chegar a uma Conclusão, divida a carga de trabalho dentro do seu grupo (por exemplo, designando cada um para uma função diferente - gerente, secretário, fornecedor de materiais)."
         ]
       },
       q2 : {
-        txt: "Develop a {q2Link} / research question.",
-        link: "testable hypothesis",
-        title: "2. Our hypothesis / research question is:",
+        txt: "Desenvolver uma {q2Link} / questão de pesquisa.",
+        link: "hipótese testável",
+        title: "2. Nossa hipótese / questão de pesquisa é:",
       },
       
       plan: {
-        txt_1: "(you could indicate by which activities you are involved as a full team and by which you are going to divide responsibilities, in this case, specify, who is responsible for what).",
-        label_1: "3. Plan of activities"
+        txt_1: "(pense bem como vai controlar todas as outras variáveis menos aquela que vai manipular; por favor indique em que atividades está envolvido como equipa completa e em que vai dividir responsabilidades, neste caso coloque por favor, quem é responsável por quê)",
+        label_1: "3. Plano de atividades"
       },
-      conclusions: "5. Based on the collected evidence, our conclusions are:"
+      conclusions: "5. Com base na experiência, nossa(s) conclusão(ões) é(são):"
     },
 
 
 
     ev_myth1: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 1",
+      title: "Evolução",
+      subtitle: "Inquérito guiado 1",
       myth: {
-        text: "Your team will deal with Statement 1:",
-        myth: "“Evolution is just a theory”."
+        text: "1ª Declaração:",
+        myth: "“A evolução é apenas uma teoria”."
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Leia o texto com atenção. Identifique e documente os argumentos apresentados pelos autores para apoiar seu ponto de vista.",
+        label_1: "Argumento:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Question: Is Evolution just a theory? What is meant by the term “theory” in science?",
-      sources_text: "In order to check the above questions, the following bibliographic sources are suggested:",
+      label_2: "Como vê esse argumento? Algo o está a incomodar?",
+      label_3: "Como poderíamos verificar se este argumento é válido?",
+      question: "Pergunta: Se a Evolução é só uma teoria? O que significa o termo “teoria” na ciência?",
+      sources_text: "A fim de verificar as questões acima, as seguintes fontes bibliográficas são sugeridas:",
       sources: [
         {
           label: "Evolution",
@@ -102,26 +102,26 @@ export default {
         }
         
       ],
-      label_4: "What is meant by the term “theory” in Science?",
-      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?"
+      label_4: "O que significa o termo “teoria” na Ciência?",
+      label_5: "A Teoria da evolução preenche os critérios para ser uma teoria científica?"
     },
 
 
     ev_myth2: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 2",
+      title: "Evolução",
+      subtitle: "Inquérito guiado 2",
       myth: {
-        text: "Your team will deal with Statement 2:",
-        myth: "“Evolution is unscientific because it is not testable or falsifiable. It makes claims about events that were not observed and can never be re-created.”"
+        text: "2ª Declaração:",
+        myth: "“A evolução não é científica porque não é testável ou desmistificada. Faz afirmações sobre eventos que não foram observados e nunca podem ser recriados.”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Leia o texto com atenção. Identifique e documente os argumentos apresentados pelos autores para apoiar seu ponto de vista.",
+        label_1: "Argumento:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Questions: Is Evolution testable? Is it falsifiable? Does all science depend on controlled laboratory experiments to be considered true science?",
-      sources_text: "In order to check the above question, the following bibliographic sources are suggested:",
+      label_2: "Como vê esse argumento? Algo o está a incomodar?",
+      label_3: "Como poderíamos verificar se este argumento é válido?",
+      question: "Questão:	A Evolução pode ser testada? Pode ser desmistificada? Toda ciência depende de experiências controladas em laboratório para ser considerada ciência verdadeira?",
+      sources_text: "Para verificar a questão acima, as seguintes fontes bibliográficas são sugeridas:",
       sources: [
         {
           label: "Misconceptions about evolution",
@@ -142,48 +142,43 @@ export default {
       ],
       sources_2: [
         {
-          text: "Study the following source:",
+          text: "Estuda a fonte seguinte:",
           label: "Artificial selection in the lab",
           url: "https://evolution.berkeley.edu/artificial-selection-in-the-lab/"
         },
         {
-          text: "“Play” with the following virtual lab:",
+          text: "“Jogue” com o laboratório virtual:",
           label: "Evolution in the lab",
           url: "https://evolution.berkeley.edu/angling-for-evolutionary-answers/evolution-in-the-lab/"
         },
         {
-          text: "Run the following simulation:",
+          text: "Executar a seguinte simulação:",
           label: "The evolutionary informatics lab",
           url: "https://www.evoinfo.org/weasel.html"
         },
       ],
-      label_4: "Are there any cases that we can actually observe evolution?",
-      label_5: "Are there any cases that we can test evolutionary processes in the lab?",
-      label_6: "Are there any alternatives we can use instead of actual experiments?",
-      // reliability: {
-      //   text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-      //   link: "töörista",
-      //   label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
-      // }
+      label_4: "Existem casos em que podemos realmente observar a evolução?",
+      label_5: "Existem casos em que podemos testar processos evolutivos em laboratório?",
+      label_6: "Existem alternativas que podemos usar em vez de experimentos reais?"
     },
 
 
 
     ev_myth3: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 3",
+      title: "Evolução",
+      subtitle: "Inquérito guiado 3",
       myth: {
-        text: "Your team will deal with Statement 3:",
-        myth: "Evolution follows a preordained, straight path (or if human evolved from apes, why are there still apes?)"
+        text: "3ª Declaração:",
+        myth: "A evolução segue um caminho direto predeterminado (ou se o ser humano evoluiu do macaco, por que ainda existem macacos?)"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Leia o texto com atenção. Identifique e documente os argumentos apresentados pelos autores para apoiar seu ponto de vista.",
+        label_1: "Argumento:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Questions:	Does evolution follow a preordained, straight path? If a species evolves from another species, does this mean that the first one should become extinct?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      label_2: "Como vê esse argumento? Algo o está a incomodar?",
+      label_3: "Como poderíamos verificar se este argumento é válido?",
+      question: "Perguntas: A evolução segue um caminho reto e predeterminado? Se uma espécie evolui a partir de outra espécie, isso significa que a primeira deve extinguir-se?",
+      sources_text: "Para verificar a questão acima, as seguintes fontes bibliográficas são sugeridas:",
       sources: [
         {
           label: "Ιf human evolved from monkeys, why are there still monkeys?",
@@ -206,25 +201,25 @@ export default {
           url: "http://www.evogeneao.com/evo-gene.html"
         }
       ],
-      label_4: "Does evolution follow a preordained, straight path?"
+      label_4: "A evolução segue um caminho preestabelecido e retilíneo?"
     },
 
 
     ev_myth4: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 4",
+      title: "Evolução",
+      subtitle: "Inquérito guiado 4",
       myth: {
-        text: "Your team will deal with Statement 4:",
-        myth: "“Evolution produces perfectly adapted creatures.”"
+        text: "4ª Declaração:",
+        myth: "“A evolução produz criaturas perfeitamente adaptadas.”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Leia o texto com atenção. Identifique e documente os argumentos apresentados pelos autores para apoiar seu ponto de vista.",
+        label_1: "Argumento:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Question: Do you have to be perfectly adapted to survive? Does natural selection produce perfection/perfectly adapted creatures?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      label_2: "Como vê esse argumento? Algo o está a incomodar?",
+      label_3: "Como poderíamos verificar se este argumento é válido?",
+      question: "Questão: É necessário estar perfeitamente adaptado para sobreviver? A seleção natural produz perfeição/criaturas perfeitamente adaptadas?",
+      sources_text: "Para verificar a questão acima, as seguintes fontes bibliográficas são sugeridas:",
       sources: [
         {
           label: "Does Evolution Leads to Perfection?",
@@ -247,27 +242,27 @@ export default {
           url: "https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-009-0128-1"
         }
       ],
-      label_4: "Do you have to be perfectly adapted to survive?",
-      label_5: "Does natural selection produce perfection/perfectly adapted creatures?"
+      label_4: "É preciso estar perfeitamente adaptado para sobreviver?",
+      label_5: "A seleção natural produz a perfeição/criaturas perfeitamente adaptadas?"
     },
 
 
 
     ev_myth5: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 5",
+      title: "Evolução",
+      subtitle: "Inquérito guiado 5",
       myth: {
-        text: "Your team will deal with Statement 5:",
-        myth: "“Species are immutable.”"
+        text: "5ª Declaração:",
+        myth: "“As espécies são imutáveis.”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Leia o texto com atenção. Identifique e documente os argumentos apresentados pelos autores para apoiar seu ponto de vista.",
+        label_1: "Argumento:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
+      label_2: "Como vê esse argumento? Algo o está a incomodar?",
+      label_3: "Como poderíamos verificar se este argumento é válido?",
       question: "Question: Do species change over time?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      sources_text: "Para verificar a questão acima, as seguintes fontes bibliográficas são sugeridas:",
       sources: [
         {
           label: "Lamarck's Theory",
@@ -286,26 +281,26 @@ export default {
           url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
         }
       ],
-      label_4: "Do species change over time?"
+      label_4: "As espécies mudam ao longo do tempo?"
     },
 
 
 
     ev_myth6: {
-      title: "Evolution",
-      subtitle: "Guided inquiry, myth 6",
+      title: "Evolução",
+      subtitle: "Inquérito guiado 6",
       myth: {
-        text: "Your team will deal with Statement 6:",
-        myth: "“The use or disuse of a structure during one’s lifetime, could be inherited by its offspring and lead to a change in a species.”"
+        text: "6ª Declaração:",
+        myth: "“O uso ou desuso de uma estrutura durante a vida de alguém, pode ser herdado por seus descendentes e levar a uma mudança em uma espécie”"
       },
       justification: {
-        text: "Read the text carefully. Identify and document the arguments put forward by the authors to support their point of view.",
-        label_1: "Argument:",
+        text: "Leia o texto com atenção. Identifique e documente os argumentos apresentados pelos autores para apoiar seu ponto de vista.",
+        label_1: "Argumento:",
       },
-      label_2: "How do you find this argument? Is something bothering you?",
-      label_3: "How could we check whether this argument is valid?",
-      question: "Which traits/characteristics are inheritable?",
-      sources_text: "To check the above question, the following bibliographic sources are suggested:",
+      label_2: "Como vê esse argumento? Algo o está a incomodar?",
+      label_3: "Como poderíamos verificar se este argumento é válido?",
+      question: "Pergunta: Quais traços / características são hereditários?",
+      sources_text: "Para verificar a questão acima, as seguintes fontes bibliográficas são sugeridas:",
       sources: [
         {
           label: "Lamarck's Theory",
@@ -328,7 +323,7 @@ export default {
           url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
         }
       ],
-      label_4: "Which traits are inheritable?"
+      label_4: "Quais características são hereditárias?"
     },
 
 

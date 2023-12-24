@@ -38,7 +38,7 @@ export default {
     },
     evolution: {
       description: "Description in Greek",
-      title: "❌"
+      title: "Εξέλιξη"
     },
     drugs: {
       description: "Description in Greek",
