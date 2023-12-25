@@ -3,7 +3,7 @@
         
         <h2>Activity 3a: Mythbusting based on  experiment</h2>
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea>
 
@@ -22,7 +22,7 @@
             <li>
                 Present your collected data in tables and graphs, and preferably, videotape your experiment as evidence 
                 <br />
-                look at <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
+                look at <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="e-btn-outline no-underline"
                 target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> the tutorial</a>
             </li>
             <li>
@@ -40,7 +40,7 @@
         </ul>
         
         
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label class="font-bold block"> Our hypothesis / research question is:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
@@ -56,17 +56,17 @@
         <h4>Defining the variables:</h4>
 
         <!-- independent variable -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Changed factor</b> (will be changed):</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍"></textarea>
         
         <!-- dependent variable -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Measured factor</b> (will be measured):</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍"></textarea>
         
         <!-- control variables -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Constants</b> (will not change):</label>
 
         <ToolsDynamicTableFull class="e-card mb-8"
@@ -81,7 +81,7 @@
         
 
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Results</b></label> 
         <ToolsDynamicTableFull class="e-card mb-8"
             :tableStructure = "resultsTable" 
@@ -96,7 +96,7 @@
         <hr />
 
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label class="font-bold block"> Based on the experiment, our conclusion(s) is/are:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
@@ -104,7 +104,7 @@
 
 
         
-        <p>You are now expected to find evidence from secondary sources to confirm your own findings using <NuxtLink to="../tools/reliability-assessment" target="_blank" class="e-btn-outline no-underline"><Icon name="mdi:tools" /> this tool</NuxtLink>.</p>
+        <p>You are now expected to find evidence from secondary sources to confirm your own findings using <NuxtLink to="../tools/reliability-assessment" target="_blank" class="e-btn-outline no-underline"><Icon name="mdi:tools" /> this tool</NuxtLink></p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Write a short summary of your findings here:</label>

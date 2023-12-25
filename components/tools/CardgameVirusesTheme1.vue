@@ -7,13 +7,13 @@
             :class="!props.printMode ? 'grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-wrap gap-4'"
         >   
             <!-- <ToolsCardgameCard v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
-                :image="rt(cardS.image)" :story="rt(cardS.story)" :label="`${t('storyCardsLabel')} ${i+1}`" border="border-blue-600"
+                :image="rt(cardS.image)" :story="rt(cardS.story)" :label="`${t('storyCardsLabel')} ${i+1}`" border="border-sky-600"
                 class="print:w-[70mm] print:h-[121mm]"
                 :class="props.printMode ? 'w-[70mm] h-[121mm]' : ''"
             /> -->
 
             <ToolsCardgameCard v-for="(cardS, i) in tm('storyCards')" :key="`cardS${i}`"
-                :title="rt(cardS.title)" :label="`${t('storyCardsLabel')} ${i+1}`" border="border-blue-500"
+                :title="rt(cardS.title)" :label="`${t('storyCardsLabel')} ${i+1}`" border="border-sky-500"
                 :image="rt(cardS.image)" 
                 :class="dynStyles"
             >
@@ -40,7 +40,7 @@
             /> -->
 
             <ToolsCardgameCard v-for="(cardI, i) in tm('infoCards')" :key="`cardI${i}`"
-                :title="rt(cardI.title)" :label="`${t('infoCardsLabel')} ${i+1}`" border="border-blue-500"
+                :title="rt(cardI.title)" :label="`${t('infoCardsLabel')} ${i+1}`" border="border-sky-500"
                 :class="dynStyles"
             >
                 <p 

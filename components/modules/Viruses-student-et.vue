@@ -35,7 +35,7 @@
             <section id="s1">
                 <h2 id="s1t">Sissejuhatus</h2>
                 <p>
-                    Antud moodulis kutsume Sind “murdma” viirustega seotud müüte, millest mõned tuuakse välja ka sissejuhatavas videos. Pärast video vaatamist ja rühmaarutelu peaksite te valima välja ühe müüdi, mida eksperimendi abil või internetiallikatele  tuginedes kas ümber lükata või kinnitada. Seejärel peaksite te püstitama kontrollitava hüpoteesi või uurimisküsimuse ning otsima selle kinnitamiseks (sellele vastamiseks) tõestusmaterjali (Joonis 1).
+                    Antud moodulis kutsume Sind “murdma” viirustega seotud müüte, millest mõned tuuakse välja ka <NuxtLink to="#a1">sissejuhatavas videos</NuxtLink>. Pärast video vaatamist ja rühmaarutelu peaksite te valima välja ühe müüdi, mida eksperimendi abil või internetiallikatele tuginedes kas ümber lükata või kinnitada. Seejärel peaksite te püstitama kontrollitava hüpoteesi või uurimisküsimuse ning otsima selle kinnitamiseks (sellele vastamiseks) tõestusmaterjali (Joonis 1).
                 </p>
                 <p>
                     Ühtlasi õpid Sa selle käigus otsima infot andmebaasidest, hindama leitud nfo usaldusväärsust ning arendama edasi oma uurimuslikke oskusi. Pärast järelduste tegemist hüpoteesi kehtivuse üle, peaksite te esitama oma uurimistulemused veenvalt teistele, töötades välja videopostituse, postri vms. Moodul lõpeb lauamänguga rühmades, mille lõpuks peaksite ideaalis jõudma rühmakonsensuseni ühes vastuolulistes viirustega seotud küsimuses.
@@ -50,8 +50,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s2">
-                <h2 id="s2t">Tegevus 1: Sissejuhatava video vaatamine</h2>
+            <section id="a1">
+                <h2 id="a1t">Tegevus 1: Sissejuhatava video vaatamine</h2>
                 <p>Vaata tähelepanelikult järgnevat videot. Pane kirja oma esialgsed mõtted ja tunded, mida nähtu Sinus tekitab.</p>
                 <UiYoutube video="t4v-36h2noo" lang="et" />
             </section>
@@ -65,8 +65,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s3">
-                <h2 id="s3t">Tegevus 2: Arutelu rühmades</h2>
+            <section id="a2">
+                <h2 id="a2t">Tegevus 2: Arutelu rühmades</h2>
                 
                 <p>Pärast video vaatamist arutlege rühmas (4-6 inimest) nähtud video üle.</p>
                 <ol>
@@ -75,8 +75,8 @@
                 </ol>
                 <p>Teil on valida järgnevate müütide vahel või kui ükski neist ei paku huvi, siis pakkuge välja enda oma. Viimasel juhul rääkige oma valik kindlasti läbi õpetajaga.</p>
                 
-                <h3><span class="text-rose-400">Müüt nr 1:</span>  Vaktsiinid põhjustavad autismi / tõsiseid kõrvalmõjusid</h3>
-                <p>Osa inimesi usub, et vaktsiinid ise ning/või nendes sisalduvad lisa- ja säilitusained  põhjustavad tõsiseid reaktsioone organismis, näiteks lastel autismi. Viimane kujutab endast arenguhäirete rühma, mis põhjustavad lastel ning hiljem ka täiskasvanutel olulisi suhtlemis- ning käitumuslikke häireid. Autism on aga vaid üks probleem, millega mõned inimesed vaktsiinide kasutamist seostavad. Kas niisugustel väidetel on alust?</p>
+                <h3><span class="text-rose-400">Müüt nr 1:</span> Vaktsiinid põhjustavad autismi / tõsiseid kõrvalmõjusid</h3>
+                <p>Osa inimesi usub, et vaktsiinid ise ning/või nendes sisalduvad lisa- ja säilitusained põhjustavad tõsiseid reaktsioone organismis, näiteks lastel autismi. Viimane kujutab endast arenguhäirete rühma, mis põhjustavad lastel ning hiljem ka täiskasvanutel olulisi suhtlemis- ning käitumuslikke häireid. Autism on aga vaid üks probleem, millega mõned inimesed vaktsiinide kasutamist seostavad. Kas niisugustel väidetel on alust?</p>
                 <h3><span class="text-rose-400">Müüt nr 2:</span> Vastsündinu organism ei suuda taluda korraga mitut vaktsiini.</h3>
                 <p>Mõned päevad pärast sündi ning pärast mõnda nädalat ning kuud manustatakse vastsündinutele erinevaid vaktsiine, enamasti mitu korraga. Mõnede inmiseste hulgas tekitab see küsimusi, kas vastsündinu tõepoolest talub nii mitut vaktsiini korraga.</p>
                 <h3><span class="text-rose-400">Müüt nr 3:</span> Haiguse läbipõdemise teel omandatud immuunsus on parem kui vaktsineerimisel saadud immuunsus.</h3>
@@ -93,7 +93,7 @@
                 <p>Üks võimalus viiruste desaktiveerimiseks on töödelda käsi alkoholiga. Teised eelistavad aga pesemist tavalise seebiga. Kuid kas nad on võrdselt tõhusad?</p>
                 <h3><span class="text-rose-400">Müüt nr 9:</span> Maskidest pole mingit kasu ülemiste hingamisteede viirushaiguste (nagu näiteks COVID-19) ärahoidmisel.</h3>
                 <p>Palju on ühiskonnas vaieldud maskide kandmise tõhususe või mittetõhususe üle - et kas nad aitavad vältida viiruste levikut piisknakkuse teel nakatunud inimeselt mittenakatunule. Samas on mõnedes kultuurides (näiteks Aasias) see olnud normaalseks käitumisviisiks juba aastaid. Mida räägivad maskide tõhususest aga läbiviidud uurimused? Või on võimalik seda ka ise katseliselt kontrollida?</p>
-                <h3><span class="text-rose-400">Müüt nr 10:</span> Maski kandmine põhjustab organismis hüpoksiat (hapnikuvaegust) /Maski kandmine põhjustab organismi  süsihappegaasimürgistust.</h3>
+                <h3><span class="text-rose-400">Müüt nr 10:</span> Maski kandmine põhjustab organismis hüpoksiat (hapnikuvaegust) / Maski kandmine põhjustab organismi süsihappegaasimürgistust.</h3>
                 <p>Mitmed inimesed usuvad, et läbi maski hingates saab organism vähem hapnikku. Kui see on tõsi, siis peaks see esile kutsuma organismis hapnikupuuduse, mida nimetatakse hüpoksiaks. Samal ajal vabastab meie keha pidevalt süsihappegaasi, mille sisalduse suurenemine organismis peaks esile kutsuma mürgistuse. Kuid kas need eeldused on tegelikult õiged?</p>
             </section>
 
@@ -114,8 +114,8 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s4">
-                <h2 id="s4t">Tegevus 3: Müüdimurdmine</h2>
+            <section id="a3">
+                <h2 id="a3t">Tegevus 3: Müüdimurdmine</h2>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp" />
                 <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:alt-route">
@@ -184,11 +184,11 @@
             
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s5">
-                <h2 id="s5t">Tegevus 6: Lauamäng</h2>
+            <section id="a6">
+                <h2 id="a6t">Tegevus 6: Lauamäng</h2>
 
                 <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale. <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
-                <p>Antud tegevuse käigus kutsutakse Sind osalema kaardimängus koos oma rühmakaaslastega, et harjutada lihtsat, üksteist arvestavat ning faktipõhist rühmaarutelu, mis peaks modelleerima ühiskondlikke/poliitilisi otsustusprotsesse. Mäng võimaldab Sul uurida teemat sügavuti sundimatul viisil, väljendada oma mõtteid ja arvamusi.</p>
+                <p>Antud tegevuse käigus kutsutakse Sind osalema kaardimängus koos oma rühmakaaslastega, et harjutada lihtsat, üksteist arvestavat ning faktipõhist rühmaarutelu, mis peaks modelleerima ühiskondlikke / poliitilisi otsustusprotsesse. Mäng võimaldab Sul uurida teemat sügavuti sundimatul viisil, väljendada oma mõtteid ja arvamusi.</p>
                 
                 <p class="font-bold">Sa oled oodatud:</p>
                 <ul class="leading-tight">

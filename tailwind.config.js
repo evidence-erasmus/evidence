@@ -54,7 +54,7 @@ module.exports = {
           "accent": "#000000",
           "neutral": "#6b7280",
           "base-100": "#FFFFFF",
-          "info": "rgb(59, 130, 246)",
+          "info": "#0ea5e9",
           "success": "#36D399",
           "warning": "#fb923c",
           "error": "#dc2626",

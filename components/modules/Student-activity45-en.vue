@@ -8,10 +8,10 @@
 
         <p class="font-bold">Possible formats:</p>
         <ul class="leading-tight">
-            <li>Video post about the course of the experiment and its results <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline leading-none"><Icon name="material-symbols:youtube-tv-outline" size="20" /> video tutorial</a></li>
-            <li>Video of your slideshow <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline leading-none"><Icon name="material-symbols:youtube-tv-outline" size="20" /> video tutorial</a></li>
+            <li>Video post about the course of the experiment and its results <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> video tutorial</a></li>
+            <li>Video of your slideshow <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> video tutorial</a></li>
             <li>Slide show.</li>
-            <li>Poster using, for example, the visual facilitation technique <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline leading-none"><Icon name="material-symbols:youtube-tv-outline" size="20" /> video tutorial</a></li>
+            <li>Poster using, for example, the visual facilitation technique <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> video tutorial</a></li>
         </ul>
         <p>
             The following criteria will help you to develop your presentation:

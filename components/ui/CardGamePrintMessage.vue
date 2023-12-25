@@ -24,7 +24,7 @@
 <i18n lang="json">
     {
         "en": {
-            "message-1": "Here the cards fit to the page layout and take as little space as their content demands - so this is just a preview. If you want to see the cards as uniform size playing cards and print them out,",
+            "message-1": "Here the cards fit to the page layout and take as little space as their content demands – so this is just a preview. If you want to see the cards as uniform size playing cards and print them out,",
             "message-2": "please open the special “card-view” page.",
             "button": "Open print view",
             "new-tab": "(in a new tab)"
@@ -32,7 +32,7 @@
          
  
         "el": {
-            "message-1" : "Εδώ οι κάρτες ταιριάζουν στη διάταξη της σελίδας και καταλαμβάνουν όσο λίγο χώρο απαιτεί το περιεχόμενό τους - επομένως αυτή είναι απλώς μια προεπισκόπηση. Εάν θέλετε να δείτε τις κάρτες ως τραπουλόχαρτα ομοιόμορφου μεγέθους και να τις εκτυπώσετε,",
+            "message-1" : "Εδώ οι κάρτες ταιριάζουν στη διάταξη της σελίδας και καταλαμβάνουν όσο λίγο χώρο απαιτεί το περιεχόμενό τους – επομένως αυτή είναι απλώς μια προεπισκόπηση. Εάν θέλετε να δείτε τις κάρτες ως τραπουλόχαρτα ομοιόμορφου μεγέθους και να τις εκτυπώσετε,",
             "message-2" : "ανοίξτε την ειδική σελίδα “προβολή καρτών”.",
             "button" : "Άνοιγμα προβολής εκτύπωσης",
             "new-tab" : "(σε νέα καρτέλα)"
@@ -51,7 +51,7 @@
         },
          
         "sv": {
-            "message-1" : "Här passar korten till sidlayouten och tar så lite plats som deras innehåll kräver - så det här är bara en förhandstitt. Om du vill se korten som spelkort i enhetlig storlek och skriva ut dem,",
+            "message-1" : "Här passar korten till sidlayouten och tar så lite plats som deras innehåll kräver – så det här är bara en förhandstitt. Om du vill se korten som spelkort i enhetlig storlek och skriva ut dem,",
             "message-2" : "öppna den speciella sidan för “kortvy”.",
             "button" : "Öppna utskriftsvy",
             "new-tab" : "(på en ny flik)"

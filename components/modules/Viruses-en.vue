@@ -7,7 +7,7 @@
 
 
         <section class="e-article print:not-prose" lang="en" style="hyphens:auto">
-            <Icon name="openmoji:teacher-light-skin-tone" class="float-right text-[6em] text-slate-300" />
+            <Icon name="openmoji:teacher-medium-skin-tone" class="float-right text-[8em]" />
             <h1 class="mb-0">Viruses</h1>
             <h5 class="font-normal uppercase leading-tight">Materials for teacher</h5>
         
@@ -28,10 +28,10 @@
                     </table>
                 </section>
                 <p>
-                    In this module, students are invited to falsify (“bust”) or confirm a common myth about viruses and vaccination. In an introductory video, the story of a boy who denies the existence of a virus that is spreading in his school is brought up, after which students are asked to reflect and share their first thoughts about it. In addition to simple denialism, there are many other opinions and beliefs (let us say “myths”) about viruses and vaccination in our society. After students are introduced to several of the most prevailing topic-related myths, they are challenged to pick up one myth to falsify or confirm. Based on the nature of this topic, this activity is planned to be conducted whether based on secondary evidence (searches from the internet) or experimentally. Through this activity, students learn to assess the reliability of information/sources (from science/research databases, popular science, and other media) and/or develop further their experimentation skills. After making conclusions, students prepare to present their findings to their classmates (or other audiences) in a relevant and convincing manner (e.g. video posts). The module is finished with a board game where students can make socio-scientific decisions using their scientific knowledge while incorporating it with personal and social values.
+                    In this module, students are invited to falsify (“bust”) or confirm a common myth about viruses and vaccination. In an introductory video, the story of a boy who denies the existence of a virus that is spreading in his school is brought up, after which students are asked to reflect and share their first thoughts about it. In addition to simple denialism, there are many other opinions and beliefs (let us say “myths”) about viruses and vaccination in our society. After students are introduced to several of the most prevailing topic-related myths, they are challenged to pick up one myth to falsify or confirm. Based on the nature of this topic, this activity is planned to be conducted whether based on secondary evidence (searches from the internet) or experimentally. Through this activity, students learn to assess the reliability of information / sources (from science / research databases, popular science, and other media) and / or develop further their experimentation skills. After making conclusions, students prepare to present their findings to their classmates (or other audiences) in a relevant and convincing manner (e.g. video posts). The module is finished with a board game where students can make socio-scientific decisions using their scientific knowledge while incorporating it with personal and social values.
                 </p>
                 <p>
-                    The module consists of teacher material (teaching suggestions and science background information) and student material (a video scenario, interactive worksheets, fact videos, and a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>).
+                    The module consists of teacher material (teaching suggestions and science <NuxtLink to="./viruses/background">background information</NuxtLink>) and <NuxtLink to="./viruses/student">student material</NuxtLink> (a video scenario, interactive worksheets, fact videos, and a <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">video tutorial</a>).
                 </p>
             </section>
 
@@ -66,7 +66,7 @@
                             <li>develop their ability to plan and devise procedures for testing hypotheses and interpreting the findings.</li>
                         </ul>
                     </li>
-                    <li><b>Social competence:</b> – develop students’ argumentation skills and skills for finding group consensus in controversial virus- and vaccination-related issues.</li>
+                    <li><b>Social competence:</b> develop students’ argumentation skills and skills for finding group consensus in controversial virus- and vaccination-related issues.</li>
                 </ul>
             </section>
 
@@ -105,7 +105,7 @@
                 <h2 id="s4t">Module structure</h2>
                 
                 <h4>Learning sequence of the EVIDENCE modules</h4>
-                <p>This module consists of 6 activities. The sequence of activities is given below. </p>
+                <p>This module consists of 6 activities. The sequence of activities is given below.</p>
                 
                 <ModulesModuleStructure />
 
@@ -194,13 +194,13 @@
                 </p>
                 <p><b>Formative:</b></p>
                 <ul>
-                    <li>Oral/written feedback from the teacher (e.g. based on observations, questions asked) throughout the module, during the experiments, and in other formats of individual / group work.</li>
-                    <li>Self- and peer assessment on the group presentation using the pre-determined criteria and the <NuxtLink to="../tools/peer-feedback" target="_blank">following tool</NuxtLink>.</li>
-                    <li>Oral/written feedback from the teacher on individual / group worksheets.</li>
+                    <li>Oral / written feedback from the teacher (e.g. based on observations, questions asked) throughout the module, during the experiments, and in other formats of individual / group work.</li>
+                    <li>Self- and peer assessment on the group presentation using the pre-determined criteria and the <NuxtLink to="../tools/peer-feedback" target="_blank" class="e-btn-outline no-underline"><Icon name="mdi:tools" size="20"></Icon> following tool</NuxtLink>.</li>
+                    <li>Oral / written feedback from the teacher on individual / group worksheets.</li>
                 </ul>
                 <p><b>Summative:</b></p>
                 <ul>
-                    <li>Grades assigned by the teacher on the group presentation (based on the students’ video product and its performance and students’ ability to provide relevant answers/comments).</li>
+                    <li>Grades assigned by the teacher on the group presentation (based on the students’ video product and its performance and students’ ability to provide relevant answers / comments).</li>
                     <li>Grades assigned by the teacher on group or individual worksheets.</li>
                 </ul>
             </section>
@@ -218,10 +218,11 @@
                 <h2 id="s7t">Teaching suggestions</h2>
 
                 <p>
-                    The module starts with an introductory video for opening up the topic “Viruses” to raise further questions in students rather than giving them immediate answers. It is expected that after watching the <a href="https://youtu.be/t4v-36h2noo" target="_blank" rel="noopener noreferrer">video</a> (<b>Activity 1</b>), students in groups will feel intrinsically motivated to examine virus-related myths and beliefs more thoroughly. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It also draws students’ attention to thinking about their prior knowledge and sharing their conceptions and views with peers (<b>Activity 2</b>). Within Activity 2, students are introduced to 10 myths about viruses, vaccination, and mask-wearing, from which they must choose one to be further busted. Activity 2 should help students narrow down their chosen myth into a hypothesis/research question that can be falsified/confirmed/answered (<b>Activity 3</b>). It may be that students need help when trying to pose it. Therefore, the teacher could help them by drawing examples of good (e.g. testable) and bad hypotheses/questions before they draw them themselves. The <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">following resource</a> could be helpful for that.
+                    The module starts with an introductory video for opening up the topic “Viruses” to raise further questions in students rather than giving them immediate answers. It is expected that after watching the <a href="https://youtu.be/t4v-36h2noo" target="_blank" rel="noopener noreferrer">video</a> (<NuxtLink to="./viruses/student/#a1">Activity 1</NuxtLink>), students in groups will feel intrinsically motivated to examine virus-related myths and beliefs more thoroughly. An intention is to involve students in committing to activities that relate to a better understanding of the issue – an issue seen by students as relevant to their lives, not simply to the curriculum. It also draws students’ attention to thinking about their prior knowledge and sharing their conceptions and views with peers (<NuxtLink to="./viruses/student/#a2">Activity 2</NuxtLink>). Within Activity 2, students are introduced to 10 myths about viruses, vaccination, and mask-wearing, from which they must choose one to be further busted. Activity 2 should help students narrow down their chosen myth into a hypothesis/research question that can be falsified / confirmed / answered (<NuxtLink to="./viruses/student/#a3">Activity 3</NuxtLink>). It may be that students need help when trying to pose it. Therefore, the teacher could help them by drawing examples of good (e.g. testable) and bad hypotheses / questions before they draw them themselves. The <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">following resource</a> could be helpful for that.
                 </p>
                 <p>
-                    <a href="https://youtu.be/eMAn2mfqR3A" target="_blank" rel="noopener noreferrer">The "fact video"</a> can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <NuxtLink :to="localePath('/viruses/background')">Scientific background information</NuxtLink> can be used for this purpose.
+                    
+                    <NuxtLink to="https://youtu.be/eMAn2mfqR3A" target="_blank"  class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="24"></Icon> The "fact video"</NuxtLink> can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <NuxtLink to="../viruses/background">Scientific background information</NuxtLink> can be used for this purpose.
                 </p>
                 <p>
                     Further, <b>Activity 3</b> can be enacted in two ways:
@@ -229,7 +230,7 @@
 
                 <h3>1. Experimental</h3>
                 <p>
-                    Students choose a myth that can be tested experimentally. From the given myths (see <NuxtLink :to="localePath('/viruses/student#activity-2')">Activity 2</NuxtLink>), only Myths 9 and 10 could be suitable for this purpose.
+                    Students choose a myth that can be tested experimentally. From the given myths (see <NuxtLink to="./viruses/student#a2">Activity 2</NuxtLink>), only Myths 9 and 10 could be suitable for this purpose.
                 </p>
 
                 <h4>Myth 9</h4>
@@ -257,7 +258,7 @@
                     </template>
                 </UiContentImage>
                 <p>
-                    Before and throughout the testing, students should be encouraged to think about how to control the other variables than the type of mask. Students should analyze the potential sources of error and whether and how they can be avoided, or retrospectively after the experiment, how they could have been avoided. At the end of this activity, students are expected to try to find evidence from secondary sources to re-confirm their findings (they also enact <NuxtLink :to="localePath('/viruses/student#activity-3ab')">Activity 3b</NuxtLink> in an abbreviated form).
+                    Before and throughout the testing, students should be encouraged to think about how to control the other variables than the type of mask. Students should analyze the potential sources of error and whether and how they can be avoided, or retrospectively after the experiment, how they could have been avoided. At the end of this activity, students are expected to try to find evidence from secondary sources to re-confirm their findings (they also enact <NuxtLink to="./viruses/student#a3ab">Activity 3b</NuxtLink> in an abbreviated form).
                 </p>
                 
                 

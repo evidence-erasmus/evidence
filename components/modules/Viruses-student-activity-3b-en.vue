@@ -3,7 +3,7 @@
         <h2>Activity 3b: Mythbusting based on secondary sources</h2>
 
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label class="font-bold block"> Group decision - we are going to bust the following myth:</label>
         
         <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" v-model="studentInputs.activity3b.activity3bMyth" placeholder="✍️"></textarea>
@@ -22,7 +22,7 @@
         <p>While doing this, you should think carefully about how to share the workload within your group. You could designate everybody to a different role, for example, to a leader who is organizing the activities, to a secretary who is making notes and comments about the information found, to an investigator who is doing searches, to a critic who is scrutinizing the reliability of the information.</p>
 
         
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label class="font-bold block"> Our hypothesis / research question is:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bHypothesis" placeholder="✍️"></textarea>
 
@@ -31,23 +31,23 @@
 
 
         <h3>Plan of activities</h3>
-        <p class="italic mt-2">
-            (you could indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, please, who is responsible for what).
+        <p class="mt-2">
+            You could indicate by which activities you are involved as a whole team and by which you are going to divide responsibilities, in this case, put down, please, who is responsible for what.
         </p>
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label class="font-bold block"> Write your plan here:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full leading-tight" rows="7" v-model="studentInputs.activity3b.activity3bPlan" placeholder="✍️"></textarea>
 
 
         <hr />
 
-        <h3>Realiability check</h3>
+        <h3 style="color:var()">Realiability check</h3>
         <p>
             Please use these tools for searching for information and assessing its reliability.<br />
         </p>
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label class="font-bold block"> Write a summary of your findings in the following table:</label>
 
         <div class="e-card mb-8">

@@ -4,10 +4,10 @@
             type: String,
             default: "Module Name Here"
         },
-        description : {
-            type: String,
-            default: "This is a description for this Module. A sentence or so."
-        },
+        // description : {
+        //     type: String,
+        //     default: "This is a description for this Module. A sentence or so."
+        // },
         icon : {
             type: String,
             default: "material-symbols:coronavirus-outline-sharp"
@@ -27,9 +27,9 @@
         <div class="h-full flex items-center flex-col justify-center 
         shadow-md rounded-md px-2 py-6 w-full border border-slate-100 transition-all 
         hover:bg-yellow-50">
-            <Icon :name="props.icon" size="48" class="text-blue-500" />
+            <Icon :name="props.icon" size="64" class="text-blue-500" />
             <h3 class="text-3xl font-bold no-underline leading-6 mt-4 mb-3">{{props.title}}</h3>
-            <p class="text-sm leading-tight my-0">{{props.description}}</p>
+            <!-- <p class="text-sm leading-tight my-0">{{props.description}}</p> -->
         </div>
     </NuxtLink>
 </template>

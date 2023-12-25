@@ -32,10 +32,10 @@
                 <h2 id="s1t">Introduction</h2>
 
                 <p>
-                    This module invites you to falsify (“bust”) or confirm a common myth about viruses. In a video introduction, a few virus-related beliefs are brought up, after which you are expected to express your opinion and discuss the topic within your group. Also, you are invited to opt out of one myth about the viruses to be busted, whether based on secondary evidence (e.g., information searches from the internet) or experimentally. 
+                    This module invites you to falsify (“bust”) or confirm a common myth about viruses. In a <NuxtLink to="#a1">video introduction</NuxtLink>, a few virus-related beliefs are brought up, after which you are expected to express your opinion and discuss the topic within your group. Also, you are invited to opt out of one myth about the viruses to be busted, whether based on secondary evidence (e.g., information searches from the internet) or experimentally. 
                 </p>
                 <p>
-                    Through this activity, you learn to assess the reliability of information sources (through science/research databases, by studying popular science and other media) and/or develop further your experimentation skills. In both cases, you need to pose a testable hypothesis or a research question and then find evidence to confirm / falsify the hypothesis / answer your research question. After making conclusions, you are invited to prepare and present your findings to your classmates (or other audiences) in a relevant and convincing manner through a short video post, poster, slideshow, etc. The module is finished with a board game where you must decide on virus-related issues.
+                    Through this activity, you learn to assess the reliability of information sources (through science / research databases, by studying popular science and other media) and / or develop further your experimentation skills. In both cases, you need to pose a testable hypothesis or a research question and then find evidence to confirm / falsify the hypothesis / answer your research question. After making conclusions, you are invited to prepare and present your findings to your classmates (or other audiences) in a relevant and convincing manner through a short video post, poster, slideshow, etc. The module is finished with a board game where you must decide on virus-related issues.
                 </p>
             </section>
         
@@ -49,8 +49,8 @@
 
             <hr  class="mt-10 mb-40 print:my-10" />
 
-            <section id="s2">
-                <h2 id="s2t">Activity 1: Presentation of the video introduction</h2>
+            <section id="a1">
+                <h2 id="a1t">Activity 1: Presentation of the video introduction</h2>
                 
                 <p>Please watch the video carefully. Write down your initial thoughts and feelings about the issues presented.</p>
                 <UiYoutube video="t4v-36h2noo" /> 
@@ -65,18 +65,18 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s3">
-                <h2 id="s3t">Activity 2: Group discussion</h2>
+            <section id="a2">
+                <h2 id="a2t">Activity 2: Group discussion</h2>
                 
                 <p>After watching the video, you are invited to discuss the topic within your group (4-6 members).</p>
                 <ol>
                     <li>Please, express your initial thoughts and feelings about the presented issue to the others.</li>
-                    <li>As a group, you are invited to choose one of the following myths for busting based on information found on the internet, (text)books, or/and, if possible, experimentally.</li>
+                    <li>As a group, you are invited to choose one of the following myths for busting based on information found on the internet, (text)books, or / and, if possible, experimentally.</li>
                 </ol>
                 <p>You could choose between the following myths or define your own (in the last case, please consolidate the topic first with your teacher):</p>
 
-                <h3><span class="text-rose-400">Myth 1:</span> Vaccines cause autism/ serious side effects</h3>
-                <p>Some people believe that vaccines and their additives/preservatives can cause severe reactions in the organism; some include autism - a group of developmental disabilities that can cause significant social, communication, and behavioural challenges. Are those claims warranted?</p>
+                <h3><span class="text-rose-400">Myth 1:</span> Vaccines cause autism /  serious side effects</h3>
+                <p>Some people believe that vaccines and their additives / preservatives can cause severe reactions in the organism; some include autism - a group of developmental disabilities that can cause significant social, communication, and behavioural challenges. Are those claims warranted?</p>
 
                 <h3><span class="text-rose-400">Myth 2:</span> Infant immune systems cannot handle multiple vaccines.</h3>
                 <p>A few days after the birth as well as some weeks/months later, several different vaccines are injected into a baby. The question is if this can be handled by an infant's body?</p>
@@ -124,30 +124,30 @@
 
             <hr class="mt-10 mb-40 print:my-10" />
 
-            <section id="s4">
-                <h2 id="s4t">Activity 3: Mythbusting</h2>
+            <section id="a3">
+                <h2 id="a3t">Activity 3: Mythbusting</h2>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
 
-                <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:alt-route">
+                <UiCardInfo class="mt-16" theme="sky-500" icon="material-symbols:alt-route" id="a3ab">
                     <div>
                         Now, consider whether your hypothesis can be tested based only <b>on secondary evidence</b> (relying on published material of already conducted experiments) or <b>on your own experiment</b>. Based on that, you should choose <b>Activity 3a</b> or <b>Activity 3b</b> from below for further study.
                     </div>
                 </UiCardInfo>
 
-                <div class="w-full px-2 py-16 sm:px-0" id="activity-3ab">
+                <div class="w-full px-2 py-16 sm:px-0">
                     <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
-                        <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
+                        <TabList class="flex rounded-xl bg-slate-700 p-2 text-lg md:text-2xl font-bold">
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                                :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                                >Activity 3a</button>
+                                class="w-full rounded py-4 px-2 text-slate-300  focus:outline-none focus:ring-4"
+                                :class="{ 'bg-sky-600 text-slate-50 ring-2 ring-slate-800 ring-offset-2 ring-offset-sky-200': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                            >Activity 3a</button>
                             </Tab>
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                                :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                                class="w-full rounded py-4 px-2 text-slate-300  focus:outline-none focus:ring-4"
+                                :class="{ 'bg-sky-600 text-slate-50 ring-2 ring-slate-800 ring-offset-2 ring-offset-sky-200': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >Activity 3b</button>
                             </Tab>
                         </TabList>
@@ -196,25 +196,43 @@
 
             <hr  class="mt-10 mb-40 print:my-10" />
 
-            <section id="s5">
-                <h2 id="s5t">Activity 6: Game</h2>
+            <section id="a6">
+                <h2 id="a6t">Activity 6: Game</h2>
 
-                <p class="text-sm italic">This game is adopted from, and modified based on the following source: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
-                <p>In the following activity, you are invited to play a card game with your group/classmates to practice simple, respectful, and fact-based group discussion that is expected to model socio-scientific decision-making processes in our society. The game enables you to explore a topic in-depth in an informal and informative way, reflect on thoughts and opinions that would be difficult to get to and express them in other ways.</p>
-                <p class="font-bold">More precisely, you are expected to:</p>
+                <p class="text-sm italic">
+                    This game is adopted from, and modified based on the following source: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a>
+                </p>
+                <p>
+                    In the following activity, you are invited to play a card game with your group/classmates to practice simple, respectful, and fact-based group discussion that is expected to model socio-scientific decision-making processes in our society. The game enables you to explore a topic in-depth in an informal and informative way, reflect on thoughts and opinions that would be difficult to get to and express them in other ways.
+                </p>
+                <p class="font-bold">
+                    More precisely, you are expected to:
+                </p>
                 <ul class="leading-tight">
-                    <li><b>Get familiar</b> with the problems posed within the context of vaccination/wearing masks and look at them from different perspectives.</li>
-                    <li>Form or clarify your <b>own opinion</b></li>
-                    <li>Work towards a shared <b>group vision</b></li>
-                    <li><b>Vote</b> on policy positions, <b>share</b> your results, and <b>compare</b> them with the opinions of others who played the same game (and had the same theme).</li>
+                    <li>
+                        <b>Get familiar</b> with the problems posed within the context of vaccination / wearing masks and look at them from different perspectives.
+                    </li>
+                    <li>
+                        Form or clarify your <b>own opinion</b>
+                    </li>
+                    <li>
+                        Work towards a shared <b>group vision</b>
+                    </li>
+                    <li>
+                        <b>Vote</b> on policy positions, <b>share</b> your results, and <b>compare</b> them with the opinions of others who played the same game (and had the same theme).
+                    </li>
                 </ul>
                 
                 <hr>
                 
                 <p>The game is played in groups (á 4 players).</p>
 
-                <h3>Phase I - Choosing a story (≈20 minutes)</h3>
-                <p>There are two themes:</p>
+                <h3>
+                    Phase I - Choosing a story (≈20 minutes)
+                </h3>
+                <p>
+                    There are two themes:
+                </p>
                 <div class="grid grid-cols-2 gap-2">
                     <div class="e-card text-center">
                         <p class="my-2">Theme 1</p>
@@ -235,8 +253,12 @@
                     <div class="e-card text-center">Story ...</div>
                 </div>
 
-                <p>Each player reads through the story cards. They each choose one they find personally significant (meaningful). Each player briefly summarizes his/her story card to the rest of the group.</p>
-                <p>Both themes (vaccination and wearing masks) have several info cards related to each.</p>
+                <p>
+                    Each player reads through the story cards. They each choose one they find personally significant (meaningful). Each player briefly summarizes his / her story card to the rest of the group.
+                </p>
+                <p>
+                    Both themes (vaccination and wearing masks) have several info cards related to each.
+                </p>
                 <div class="flex flex-wrap gap-2">
                     <div class="e-card text-center">Info 1</div>
                     <div class="e-card text-center">Info 2</div>
@@ -289,7 +311,6 @@
                 <UiCardGamePrintMessage url="../tools/cards/viruses/theme2" />
                 <ToolsCardgameVirusesTheme2 :printMode="false" />
             </section>
-
 
 
         </section>
