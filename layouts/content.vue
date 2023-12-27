@@ -1,13 +1,26 @@
 <template>
     <div>
-        <UiHeader />
+        <Html :class="overflow ? 'overflow-hidden' : 'overflow-auto'" />
+        <UiHeader :navModule="true" />
+
+        <!-- <UiHeader /> -->
         <div class="e-article container mx-auto mt-28 ">
             <slot />
         </div>
-        <!-- <UiLangSwitcher class="fixed right-0 bottom-10 print:invisible" /> -->
+
+        <div id="theEnd"></div>
     </div>
 </template>
 
 <script setup>
-    const localePath = useLocalePath();
+    import { useUserPreferences } from '~~/store/useUserPreferences';
+    const userPrefs = useUserPreferences();
+
+    const overflow = computed(() => {
+        if(userPrefs.modalOpen === true) {
+            return true;
+        } else {
+            return false;
+        }
+    });
 </script>

@@ -3,7 +3,7 @@
         
         <h2>Tegevus 3a: Müüdimurdmine eksperimendi läbiviimise abil</h2>
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label for="3aMyth" class="font-bold block mb-2 leading-tight">Rühma otsus: Me kavatseme hakata ümber lükkama või kinnitama järgmist viirustega seotud müüti:</label>
         
         <select class="select select-bordered w-full max-w-xl" v-model="studentInputs.activity3a.activity3aMyth">
@@ -20,18 +20,18 @@
 
         
         <h4>Järgneva tegevuse käigus oodatakse, et te:</h4>
-        <ul class="leading-tight">
+        <ul>
             <li>
                 kitsendate oma valitud müüdi <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100" target="_blank" rel="noopener noreferrer">kontrollitava hüpoteesi</a> / vastatava uurimisküsimuse kujule;
             </li>
             <li>
-                kavandate eksperimendi, et hüpoteesi kinnitada või siis ümber lükata/vastata püstitatud uurimisküsimusele;
+                kavandate eksperimendi, et hüpoteesi kinnitada või siis ümber lükata / vastata püstitatud uurimisküsimusele;
             </li>
             <li>
-                kogute andmeid ning esitate need tabelite ja/või graafikutena, ning näiteks salvestate oma eksperimendi osana tõestusmaterjalist; 
-                <br />
-                <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="btn btn-accent btn-sm text-white no-underline"
-                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="20" /> Vaata õpivideot</a>
+                kogute andmeid ning esitate need tabelite ja / või graafikutena, ning näiteks salvestate oma eksperimendi osana tõestusmaterjalist; 
+                
+                <a href="https://www.youtube.com/watch?v=_l8LgLhjLvc&list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" class="e-btn-outline no-underline"
+                target="_blank" rel="noopener noreferrer"><Icon name="material-symbols:youtube-tv-outline" size="24" /> Vaata õpivideot</a>
             </li>
             <li>
                 selgitate oma tulemusi kasutades õpitud loodusteaduslikke teadmisi ning sõnastate järeldused;
@@ -42,7 +42,7 @@
         </ul>
         
         
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label for="3aHypothesis" class="font-bold block">Meie hüpotees / uurimisküsimus on:</label>
         <textarea id="3aHypothesis" class="textarea textarea-bordered block w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aHypothesis" placeholder="✍"></textarea>
 
@@ -62,17 +62,17 @@
         <h4>Muutujate defineerimine:</h4>
 
         <!-- independent variable -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Sõltumatu muutuja</b> (see, mida muudetakse):</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍"></textarea>
         
         <!-- dependent variable -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Sõltuv muutuja</b> (see mida sekkumise tulemusena mõõdetakse):</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍"></textarea>
         
         <!-- control variables -->
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Kontrollmuutujad</b> (need muutujad, mida püütakse hoida katse käigus püsivana):</label>
 
         <ToolsDynamicTableFull class="e-card mb-8"
@@ -87,7 +87,7 @@
         
 
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Tulemuste tabel</b></label> 
         <ToolsDynamicTableFull class="e-card mb-8"
             :tableStructure = "resultsTable" 
@@ -108,27 +108,21 @@
         <hr />
     
         <p>
-            Palun kasutage info otsimiseks ning selle usaldusväärsuse hindamiseks <nuxt-link target="_blank" href="../tools/reliability-assessment"
-            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> järgmisi tööriistu</nuxt-link>.
+            Palun kasutage info otsimiseks ning selle usaldusväärsuse hindamiseks <NuxtLink target="_blank" href="../tools/reliability-assessment"
+            class="e-btn-outline  no-underline"><Icon name="mdi:tools" size="18"></Icon> järgmisi tööriistu</NuxtLink>.
         </p>
         
         
-        <p><b>Kirjutage lühikokkuvõte oma leitud infost ning hinnang selle usaldusväärsusele siia:</b></p>
+        <p><b>Kirjutage lühikokkuvõte leitud infost ning hinnang selle usaldusväärsusele siia:</b></p>
 
-        <div class="e-card mb-8">
-            <ToolsReliabilityTable :storeToUpdate="studentInputs" key="activity3a.reliability" :addRow="true"  />
-        </div>
-
-        <!-- <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
-        <label for="3aSummary" class="font-bold block">Kirjutage lühikokkuvõte oma uurimistulemustest siia:</label>
-        <p class="italic">
-            Kas muud allikad kinnitasid / toetasid teie poolt saadud tulemusi? Kui ei, siis miks see võib nii olla?<br />
-            Katsuge nüüd teha  järeldus valitud müüdi paikapidavuse kohta:
-        </p>
-        <textarea id="3aSummary" class="textarea textarea-bordered block w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aSecondary" placeholder="✍"></textarea> -->
+        <UiFullWidth>
+            <div class="e-card mb-8">
+                <ToolsReliabilityTable :storeToUpdate="studentInputs" key="activity3a.reliability" :addRow="true"  />
+            </div>
+        </UiFullWidth>
 
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
         <label for="3aConcl" class="font-bold block">Tuginedes leitud tõestusmaterjalile on meie järeldused järgmised:</label>
         <textarea id="3aConcl" class="textarea textarea-bordered block w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 

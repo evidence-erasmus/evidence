@@ -48,11 +48,11 @@
             </p>
 
             <p>
-                Resor till rymden har redan blivit möjliga för icke professionella astronauter. En del betalande passagerare kunde komma till den internationella rymdstationen (ISS), inklusive Anousheh Ansari, den första iranska och muslimska kvinnan i rymden (2006). Kommersiella program upprättas för suborbitala flygningar på en höjd av cirka 100 km över jordytan. Orbitala turistresor runt jorden kräver nästan dubbel höjd och mycket högre initial hastighet och energi av rymdskeppet, men de är också tänkta inom den närmaste framtiden. Så bland våra studenter idag kan bli framtida professionella och amatörutforskare av rymden.
+                Resor till rymden har redan blivit möjliga för icke professionella astronauter. En del betalande passagerare kunde komma till den internationella rymdstationen (ISS), inklusive Anousheh Ansari, den första iranska och muslimska kvinnan i rymden (2006). Kommersiella program upprättas för suborbitala flygningar på en höjd av cirka 100 km över jordytan. Orbitala turistresor runt jorden kräver nästan dubbel höjd och mycket högre initial hastighet och energi av rymdskeppet, men de är också tänkta inom den närmaste framtiden. Så bland våra studenter idag kan det finnas framtida professionella - och amatörutforskare av rymden.
             </p>
 
             <p>
-                Men i vår vardag cirkulerar ett brett spektrum av missuppfattningar, myter och konspirationsteorier om rymdresor. UFO:n som besöker oss från yttre rymden och månlandningar som aldrig hänt är bara två exempel på det som dyker upp i olika medier. Förekomsten av sådana rykten försvinner inte med tiden eftersom ovanliga drönare kan observeras av allmänheten oftare nuförtiden och nya mänskliga månlandningsprogram tillkännages. Det nuvarande amerikanska "Artemis-projektet" och det kinesiska månprogrammet kallat "Chang-projektet" verkar börja tävla om vem som kommer att landa på månen först den här gången och återigen lockar allmänhetens uppmärksamhet till detta område.
+                I vår vardag cirkulerar ett brett spektrum av missuppfattningar, myter och konspirationsteorier om rymdresor. UFO:n som besöker oss från yttre rymden och månlandningar som aldrig hänt är bara två exempel på det som dyker upp i olika medier. Förekomsten av sådana rykten försvinner inte med tiden eftersom ovanliga drönare kan observeras av allmänheten oftare nuförtiden och nya mänskliga månlandningsprogram tillkännages. Det nuvarande amerikanska "Artemis-projektet" och det kinesiska månprogrammet kallat "Chang-projektet" verkar börja tävla om vem som kommer att landa på månen först den här gången och återigen lockar allmänhetens uppmärksamhet till detta område.
             </p>
 
             <p>
@@ -60,7 +60,7 @@
             </p>
 
             <p>
-                Eran av rymdutforskning började i 1957 med lanseringen av den första satelliten (Sputnik) i omloppsbana runt jorden. Tekniken har utvecklats enormt under dessa år; rymdutforskningen går dock långsammare än det förutspåddes, medför många risker och åtföljs av olika tekniska misslyckanden. Det senaste försöket (januari 2023) att skjuta upp satelliter, för första gången från brittisk mark, med hjälp av en raketuppskjutningsteknik utvecklad av Virgin Orbit-företaget misslyckades och förstörde hela nyttolasten av nio satelliter. Virgin-företagets rymdturismdivision, Virgin Galactic, som sedan 2004 har lovat att påbörja regelbundna suborbitala flygningar för betalande rymdturister som använder liknande uppskjutningsteknik har ännu inte infriat det löftet. Virgin-metoden är att lyfta en rymdfarkost under vingen på en Boeing 747 till cirka 10 000 m höjd och sedan avfyra den. Det senaste Virginmisslyckandet visar återigen att rymdutforskning alltid medför betydande risker, särskilt i processen att skjuta upp rymdfarkoster och återföra astronauter tillbaka till jorden. Frågor om att hantera risker och tillhörande moraliska dilemman med att skicka mänskliga missioner till rymden är i fokus för denna modul.
+                Eran av rymdutforskning började år 1957 med lanseringen av den första satelliten (Sputnik) i omloppsbana runt jorden. Tekniken har utvecklats enormt under dessa år; rymdutforskningen går dock långsammare än det förutspåddes, medför många risker och åtföljs av olika tekniska misslyckanden. Det senaste försöket (januari 2023) att skjuta upp satelliter, för första gången från brittisk mark, med hjälp av en raketuppskjutningsteknik utvecklad av Virgin Orbit-företaget misslyckades och förstörde hela nyttolasten av nio satelliter. Virgin-företagets rymdturismdivision, Virgin Galactic, som sedan 2004 har lovat att påbörja regelbundna suborbitala flygningar för betalande rymdturister som använder liknande uppskjutningsteknik har ännu inte infriat det löftet. Virgin-metoden är att lyfta en rymdfarkost under vingen på en Boeing 747 till cirka 10 000 m höjd och sedan avfyra den. Det senaste Virginmisslyckandet visar återigen att rymdutforskning alltid medför betydande risker, särskilt i processen att skjuta upp rymdfarkoster och återföra astronauter tillbaka till jorden. Frågor om att hantera risker och tillhörande moraliska dilemman med att skicka mänskliga missioner till rymden är i fokus för denna modul.
             </p>
 
             <h3>Modulbeskrivning</h3>
@@ -74,7 +74,7 @@
             </p>
 
             <p>
-                Mänskliga rymdresor kommer förmodligen att väcka särskild uppmärksamhet hos eleverna. Vissa biologiska effekter av rymdresor som rymdsjuka eller Space Adaptation Syndrome (SAS) kan upplevas praktiskt taget på jorden genom centrifugering (Sickness Induced by Centrifugation, SIC). Men få av oss skulle förmodligen vilja utsättas för centrifugering och samtidiga rotationer som går från 1G till 3G (eller högre) och tillbaka till 1G, vilket är en del av astronaututbildningen. Lätt version av sådan upplevelse finns tillgänglig i vissa nöjesparker i form av "Insanity Rides 360".
+                Mänskliga rymdresor kommer förmodligen att väcka särskild uppmärksamhet hos eleverna. Vissa biologiska effekter av rymdresor som rymdsjuka eller Space Adaptation Syndrome (SAS) kan upplevas praktiskt taget på jorden genom centrifugering (Sickness Induced by Centrifugation, SIC). Få av oss skulle förmodligen vilja utsättas för centrifugering och samtidiga rotationer som går från 1G till 3G (eller högre) och tillbaka till 1G, vilket är en del av astronaututbildningen. Lätt version av sådan upplevelse finns tillgänglig i vissa nöjesparker i form av "Insanity Rides 360".
             </p>
 
             <p>
@@ -103,7 +103,7 @@
             
             <ul>
                 <li>
-                    <b>Medborgarskapskompetens:</b> utveckla elevernas kunskaper och attityder till att fatta ansvarsfulla beslut relaterade till mänskliga och robotiserade rymdutforskningar.
+                    <b>Medborgarkompetens:</b> utveckla elevernas kunskaper och attityder till att fatta ansvarsfulla beslut relaterade till mänskliga och robotiserade rymdutforskningar.
                 </li>
                 <li><b>Mediekompetens:</b>
                     <ul class="my-0">
@@ -123,7 +123,7 @@
                     </ul>
                 </li>
                 <li>
-                    <b>Social kompetens:</b> utveckla elevernas argumentationsförmåga och färdigheter nå gruppkonsensus i kontroversiella rymdrelaterade frågor.
+                    <b>Social kompetens:</b> utveckla elevernas argumentationsförmåga och färdigheter att nå gruppkonsensus i kontroversiella rymdrelaterade frågor.
                 </li>
             </ul>
         </section>
@@ -251,7 +251,7 @@
                         <td>
                             Läraren föreslår en specifik fråga om prioriteringar i utveckling av robotik vs. mänsklig rymdfärdskapacitet och infrastruktur i EU (se som exempel ett fall av Sverige)
                             <br />
-                            Eleverna diskuterar, tar fram argument och fattar beslut i form av ett debatt rollspel där inledande argument kan presenteras i form av en video, poster, PowerPoint-presentation eller en annan visuell form. 
+                            Eleverna diskuterar, tar fram argument och fattar beslut i form av ett debattrollspel där inledande argument kan presenteras i form av en video, poster, PowerPoint-presentation eller en annan visuell form. 
                             <br />
                             Som ett kortare alternativ kan en Rymdutforskningsdebatt genomföras bara under en lektion
                         </td>
@@ -321,14 +321,14 @@
                 <h2 id="s-7-title">Undervisningsförslag</h2>
 
                 <p>
-                    Arbetet med denna modul kan ses som uppdelat i två delar. Den första delen (Aktivitet 1–5) är huvudsakligen relaterad till arbete med specifika rymdrelaterade idéer och myter som identifieras i en vald introduktionsvideo eller föreslås av eleverna och läraren. Den andra delen (Aktivitet 6) fokuserar på kontroverser kring mänskliga rymdresor som bearbetas med hjälp av ett debatt rollspel (se elevmaterial).
+                    Arbetet med denna modul kan ses som uppdelat i två delar. Den första delen (Aktivitet 1–5) är huvudsakligen relaterad till arbete med specifika rymdrelaterade idéer och myter som identifieras i en vald introduktionsvideo eller föreslås av eleverna och läraren. Den andra delen (Aktivitet 6) fokuserar på kontroverser kring mänskliga rymdresor som bearbetas med hjälp av ett debattrollspel (se elevmaterial).
                 </p>
                 <p>
                     Efter en kort introduktion kan eleverna delas i små grupper och, som en uppvärmningsaktivitet, fundera på vilka frågor de skulle vilja ställa till en astronaut/rymdforskare om de hade möjlighet (två-tre frågor per grupp ska presenteras). Detta ger möjlighet att få inblick i deras intressen och förväntningar angående ämnet som tas upp i modulen.
                 </p>
 
                 <p>
-                    Därefter börjar modulen med presentation av en eller några <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introduktionsvideo</a> för att öppna upp  frågor och avslöja myter, risker, kontroverser och missuppfattningar om rymdutforskningar, till exempel kan några spin-off idéerfrån video vara:
+                    Därefter börjar modulen med presentation av en eller några <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">introduktionsvideo</a> för att öppna upp frågor och avslöja myter, risker, kontroverser och missuppfattningar om rymdutforskningar, till exempel kan några spin-off idéerfrån video vara:
                     <ul>
                         <li>
                             Utforskning av rymden kan erbjuda nästan oändliga möjligheter för mänsklig civilisation
@@ -372,7 +372,7 @@
                 </h4>
 
                 <p>
-                    Ta en bit mat i munnen och böj dig sedan tills huvudet är under magen - svälj! Det är lätt att göra det - trots att maten går i motsatt riktning mot gravitationen.
+                    Ta en bit mat i munnen och böj dig sedan framåt tills huvudet är under magen - svälj! Det är lätt att göra det - trots att maten går i motsatt riktning mot gravitationen.
                 </p>
                 <p>
                     Passagen av mat genom våra kroppar kräver inte gravitation - ett system av muskelsammandragningar i matstrupen och i tarmen som kallas "peristaltik" driver maten aktivt i önskad riktning. Detta är viktigt eftersom vi kan äta mat och sedan gå och lägga oss direkt efteråt. Vid den punkten är matens väg ganska horisontell - och om det skulle kräva gravitation, skulle ingen matsmältning vara möjlig förrän man reste sig upp igen! Våra tarmar loopar runt - går uppåt och nedåt. Om gravitationen ensam gjorde jobbet skulle vi inte kunna fungera. Vi kan också dricka ganska lätt med ett sugrör medan vi hänger upp och ner. Det svåraste med att äta eller dricka upp och ner är att få maten eller drycken i munnen. 
@@ -421,7 +421,7 @@
                             illustrera hur gravitationen styr vårt solsystems rörelse
                         </li>
                         <li>
-                            utforska de variabler som påverkar tyngdkraften
+                            utforska de variablerna som påverkar tyngdkraften
                         </li>
                         <li>
                             förutsäga hur rörelsen skulle förändras om gravitationen var starkare eller svagare
@@ -437,7 +437,7 @@
                 </h3>
 
                 <p>
-                    Men ofta kan de rymdrelaterade myterna och missuppfattningarna inte motbevisas experimentellt i klassrummet. Därför förväntas eleverna samla bevis från sekundära källor för att bekräfta eller motbevisa sin hypotes eller hitta ett svar på sin forskningsfråga. Eleverna sammanställer information från media/datakällor, analyserar kritiskt deras tillförlitlighet och drar berättigade slutsatser baserade på de bevis som hittats. Eftersom tillförlitlighetsbedömning kan vara en verklig utmaning för eleverna är elevmaterialet försett med ett <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20" /> verktyg</NuxtLink> som eleverna kan använda när de söker och analyserar information. Det skulle vara bra om läraren kunde förklara hur det används genom att demonstrera och analysera både tillförlitliga och mindre tillförlitliga källor innan eleverna börjar implementera detta verktyg på egen hand.
+                    Ofta kan de rymdrelaterade myterna och missuppfattningarna inte motbevisas experimentellt i klassrummet. Därför förväntas eleverna samla bevis från sekundära källor för att bekräfta eller motbevisa sin hypotes eller hitta ett svar på sin forskningsfråga. Eleverna sammanställer information från media/datakällor, analyserar kritiskt deras tillförlitlighet och drar berättigade slutsatser baserade på de bevis som hittats. Eftersom tillförlitlighetsbedömning kan vara en verklig utmaning för eleverna är elevmaterialet försett med ett <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-accent text-white no-underline"><Icon name="mdi:tools" size="20" /> verktyg</NuxtLink> som eleverna kan använda när de söker och analyserar information. Det skulle vara bra om läraren kunde förklara hur det används genom att demonstrera och analysera både tillförlitliga och mindre tillförlitliga källor innan eleverna börjar implementera detta verktyg på egen hand.
                 </p>
 
                 <p>
@@ -465,7 +465,7 @@
                 </p>
 
                 <p>
-                    I slutet av modulen kan läraren inkludera en reflektionsaktivitet om vad eleverna har lärt sig genom att delta i modulaktiviteterna och hur de samarbetat med varandra när de förberedde argument, presentationer och gav feedback till klasskamraterna. Konstnärliga reflektioner kring Rymden av konstskoleeleverna (se <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">fotoböcker</a> kan visa alternativa sätt att utforska rymdrelaterade fenomen och kan tjäna som utgångspunkt för att diskutera vad eleverna skulle vilja lära sig mer inom detta område i framtiden.
+                    I slutet av modulen kan läraren inkludera en reflektionsaktivitet om vad eleverna har lärt sig genom att delta i modulaktiviteterna och hur de samarbetat med varandra när de förberedde argument, presentationer och gav feedback till klasskamraterna. Konstnärliga reflektioner kring Rymden av konstskoleeleverna (se <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">fotoböcker</a>) kan visa alternativa sätt att utforska rymdrelaterade fenomen och kan tjäna som utgångspunkt för att diskutera vad eleverna skulle vilja lära sig mer inom detta område i framtiden.
                 </p>
             </section>
 

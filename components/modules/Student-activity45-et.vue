@@ -8,14 +8,14 @@
         <ul class="leading-tight">
             <li>
                 Videopostitus eksperimendi käigu ja selle tulemuste kohta
-                <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a>
+                <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> videoõpetus</a>
             </li>
             <li>
-                Video slaidiesitluse põhjal <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a>
+                Video slaidiesitluse põhjal <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> videoõpetus</a>
             </li>
             <li>Slaidiesitlus.</li>
             <li>
-                Poster, kasutades näiteks visuaalse lihtsustamise tehnikat <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> videoõpetus</a>
+                Poster, kasutades näiteks visuaalse lihtsustamise tehnikat <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> videoõpetus</a>
             </li>
             <li>Muu.</li>
         </ul>
@@ -24,7 +24,7 @@
             <div>
                 <h3 class="mt-6 pt-3 mb-10">Kriteeriumid</h3>
                 <h4>Lõpptulemus</h4>
-                <ul class="leading-tight">
+                <ul>
                     <li>Valitud formaat sobib antud sihtrühmale (eakaaslased).</li>
                     <li>Loodusteaduslik ainesisu on korrektne ning kooskõlas kaasaegsete teaduslike arusaamadega.</li>
                     <li>Püstitatud hüpotees või uurimisküsimus, leitud tõestusmaterjal ning tehtud järeldused on omavahel kooskõlas.</li>
@@ -35,7 +35,7 @@
                     <li>Rühm on võimeline vastama kaaslaste ja õpetajate poolt esitatud küsimustele.</li>
                 </ul>
                 <h4>Protsess</h4>
-                <ul class="leading-tight">
+                <ul>
                     <li>Tööülesanded (visuaali, teksti, heli elementide loomine ning suuline esitlus on rühmas omavahel õiglaselt ära jaotatud).</li>
                     <li>Video on valmis tähtajaks, s.o <span class="break-keep">_________________</span> (kokkulepitud tähtaeg).</li>
                 </ul>

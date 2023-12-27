@@ -36,7 +36,7 @@
       @apply text-white bg-sky-500;
     }
     .e-btn-outline {
-      @apply px-3 py-1 ring-2 ring-inset ring-sky-500 rounded-lg inline-block no-underline shadow-md hover:bg-yellow-50 transition-all ;
+      @apply inline-block items-center leading-none px-3 py-2 ring-2 ring-inset ring-blue-500 rounded-lg no-underline shadow-md hover:bg-yellow-50 transition-all;
     }
     .e-btn-tool {
       @apply btn btn-sm btn-accent shadow-md no-underline text-slate-800;
