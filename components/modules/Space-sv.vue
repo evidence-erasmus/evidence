@@ -383,7 +383,7 @@
 
 
                 <h4>
-                    Experimentera med raketuppskjutningar
+                    Experimentera med raketuppskjutningar:
                 </h4>
                 <p>
                     (Försöket kan genomföras som demonstration)
@@ -453,7 +453,7 @@
                 </p>
 
                 <p>
-                    Denna aktivitet låter eleverna fundera över varför och hur rymden ska utforskas. Aktiviteten stödjer eleverna att debattera ett tvärvetenskapligt ämne kopplat till fysik, astronomi, medicin, miljövetenskap och samhällsvetenskap. Det här debattrollspelet kan ge eleverna insikter i hur forskare och experter lägger fram och försvarar sina idéer och hur de hanterar den osäkerhet som är inneboende i modern vetenskap och teknik. Läraren kan bestämma vilken typ av bedömning som ska användas för att uppmuntra fritt uttryck för elevernas idéer och argument. Läraren kan också vara ledaren/moderatorn för debattspelet. 
+                    Denna aktivitet låter eleverna fundera över varför och hur rymden ska utforskas. Aktiviteten stödjer eleverna att debattera ett tvärvetenskapligt ämne kopplat till fysik, astronomi, medicin, miljövetenskap och samhällsvetenskap. Det här debattrollspelet kan ge eleverna insikter i hur forskare och experter lägger fram och försvarar sina idéer och hur de hanterar den osäkerhet som är inneboende i modern vetenskap och teknik. Läraren kan bestämma vilken typ av bedömning som ska användas för att uppmuntra fritt uttryck för elevernas idéer och argument. Läraren kan också vara ledaren / moderatorn för debattspelet. 
                 </p>
 
                 <p>
@@ -467,13 +467,14 @@
                 <p>
                     I slutet av modulen kan läraren inkludera en reflektionsaktivitet om vad eleverna har lärt sig genom att delta i modulaktiviteterna och hur de samarbetat med varandra när de förberedde argument, presentationer och gav feedback till klasskamraterna. Konstnärliga reflektioner kring Rymden av konstskoleeleverna (se <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">fotoböcker</a>) kan visa alternativa sätt att utforska rymdrelaterade fenomen och kan tjäna som utgångspunkt för att diskutera vad eleverna skulle vilja lära sig mer inom detta område i framtiden.
                 </p>
+
             </section>
 
 
         </section>
 
 
-
+        
 
 
 
