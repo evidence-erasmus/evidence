@@ -4,6 +4,7 @@
         <NuxtLink :to="localePath( 'modules', locale )" class="px-2 md:py-1 uppercase"
         :class="isActiveClass"
         >{{t('menu.modules')}}</NuxtLink>
+        <NuxtLink :to="localePath( 'book', locale ) " class="px-2 md:py-1 uppercase">{{t('menu.book')}}</NuxtLink>
     </nav>
 
 </template>

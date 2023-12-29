@@ -7,11 +7,13 @@ export default {
     about: "Σχετικά με το έργο",
     erasmus: "Ένα έργο Erasmus+",
     intro: "Προώθηση των βασικών ικανοτήτων των μαθητών για τη λήψη τεκμηριωμένων αποφάσεων σε αμφιλεγόμενα κοινωνικο-επιστημονικά ζητήματα",
-    modules: "Modules"
+    modules: "Modules",
+    or: "ή"
   },
   menu: {
     about: "Σχετικά με",
-    modules: "Ενότητες"
+    modules: "Ενότητες",
+    book: "το βιβλίο"
   },
   message: "Hello from external",
   modules: {

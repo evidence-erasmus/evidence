@@ -7,11 +7,13 @@ export default {
     about: "Mais sobre o projeto",
     erasmus: "Um projeto Erasmus+",
     intro: "Promover as competências-chave dos alunos para tomar decisões baseadas em evidências sobre questões sociocientíficas controversas",
-    modules: "Confira os Módulos"
+    modules: "Confira os Módulos",
+    or: "ou"
   },
   menu: {
     about: "Sobre",
-    modules: "Módulos"
+    modules: "Módulos",
+    book: "O Livro"
   },
   message: "Hello from external",
   modules: {

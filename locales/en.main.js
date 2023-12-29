@@ -4,14 +4,16 @@ export default {
     title: "About"
   },
   hero: {
-    about: "More about the project",
+    about: "Read more about the project",
     erasmus: "An Erasmus+ project",
     intro: "Promoting students’ key competences for making evidence-based decisions on controversial socio-scientific issues",
-    modules: "Check out the Modules"
+    modules: "Check out the Modules",
+    or: "or"
   },
   menu: {
     about: "About",
-    modules: "Modules"
+    modules: "Modules",
+    book: "Book"
   },
   message: "Hello from external",
   modules: {

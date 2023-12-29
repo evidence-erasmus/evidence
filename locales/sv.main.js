@@ -7,11 +7,13 @@ export default {
     about: "Mer om projektet",
     erasmus: "Erasmus+ projekt",
     intro: "Vårt mål är att främja studenters nyckelkompetenser för evidensbaserat beslutsfattande i kontroversiella samhällsvetenskapliga frågor",
-    modules: "Kolla in modulerna"
+    modules: "Kolla in modulerna",
+    or: "eller"
   },
   menu: {
     about: "Om projektet",
-    modules: "Modulerna"
+    modules: "Modulerna",
+    book: "Boken"
   },
   message: "Tervitusi välisest failist!",
   modules: {

@@ -4,14 +4,16 @@ export default {
     "title": "Projektist"
   },
   hero: {
-    about: "Projektist pikemalt",
+    about: "Loe projektist pikemalt",
     erasmus: "Erasmus+ projekt",
     intro: "Meie eesmärk on edendada õpilaste võtmepädevusi tõenduspõhiste otsuste tegemisel vastuolulistes sotsiaalteaduslikes küsimustes",
-    modules: "Tutvu moodulitega"
+    modules: "Tutvu moodulitega",
+    or: "või"
   },
   menu: {
     about: "Projektist",
-    modules: "Moodulid"
+    modules: "Moodulid",
+    book: "Raamat"
   },
   "message": "Tervitusi välisest failist!",
   modules: {
