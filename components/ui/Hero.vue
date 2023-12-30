@@ -32,7 +32,7 @@
             </NuxtLink>
         </div>
     <img 
-        class="fixed bottom-0  right-6 max-w-[12rem]"
+        class="fixed bottom-0  right-6 max-w-[12rem] border-white border-[8px]"
     src="https://evidence.onkel.ee/assets/erasmus-eu-logo__opt.svg" />
     </header>
 </template>

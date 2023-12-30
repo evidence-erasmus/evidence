@@ -1,7 +1,14 @@
 <template>
     <div>
-        <h1>{{ t('title') }}</h1>
-
+        <div class="flex flex-col-reverse sm:flex-row justify-between">
+            <h1>{{ t('title') }}</h1>
+            <NuxtLink target="_blank" to="https://erasmus-plus.ec.europa.eu/projects/search/details/2020-1-EE01-KA201-078008">
+                <img
+                class="block w-40 md:w-60 max-w-[15rem] m-0 -translate-y-3"
+                src="https://evidence.onkel.ee/assets/erasmus-eu-logo__opt.svg"  />
+            </NuxtLink>
+        </div>
+        
         <p>{{ t('s01') }}</p>
         <p>{{ t('s02') }}</p>
         <p>{{ t('s03') }}</p>
@@ -22,7 +29,7 @@
     const { t } = useI18n({ useScope: 'local' });
 
     definePageMeta({
-        layout: "content",
+        layout: "content-pages",
     });
 </script>
 
