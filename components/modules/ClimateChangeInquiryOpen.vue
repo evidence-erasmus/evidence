@@ -10,7 +10,7 @@
 
 <template>
     
-    <UiYourAnswersButton url="../answers/open" />
+    <UiYourAnswersButton url="../../answers/open" />
     
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 

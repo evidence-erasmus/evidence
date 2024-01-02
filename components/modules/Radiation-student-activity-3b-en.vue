@@ -1,5 +1,6 @@
 <template>
     <div class="border-r-2 border-r-sky-400 pr-8">
+        <UiYourAnswersButton url="answers/secondary-sources" />
         <h2>Activity 3b: Mythbusting based on secondary sources</h2>
 
         
@@ -43,7 +44,7 @@
 
        
 
-        <h3>Realiability check</h3>
+        <h3>Reliability check</h3>
         <p>
             Please use these tools for searching for information and assessing its reliability.<br />
         </p>

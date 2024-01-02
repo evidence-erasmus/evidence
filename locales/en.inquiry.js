@@ -361,7 +361,7 @@ export default {
 
       reliability: {
         txt_1: "Kasuta järgmist tööriista informatsiooni otsimiseks ning selle usaldusväärsuse hindamiseks",
-        label_1: "4. Uuritud materjalide usaldusväärsus."
+        label_1: "4. Reliability of sources"
       },
       q4_title: "5. Based on the experiment, our conclusion(s) is/are:",
       q5_title: "6. According to the data you collected, where do you owe the error of this myth?"

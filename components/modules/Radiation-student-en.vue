@@ -125,15 +125,21 @@
                         <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                                :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                                >Activity 3a: Mythbusting based on experiment</button>
+                                class="w-full rounded py-4 px-2 text-slate-300  focus:outline-none focus:ring-4"
+                                :class="{ 'bg-sky-600 text-slate-50 ring-2 ring-slate-800 ring-offset-2 ring-offset-sky-200': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                                >
+                                    Activity 3a<br/>
+                                    <span class="text-sm">Mythbusting based on experiment</span>
+                                </button>
                             </Tab>
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
-                                :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
-                                >Activity 3b: Mythbusting based on secondary sources</button>
+                                class="w-full rounded py-4 px-2 text-slate-300  focus:outline-none focus:ring-4"
+                                :class="{ 'bg-sky-600 text-slate-50 ring-2 ring-slate-800 ring-offset-2 ring-offset-sky-200': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
+                                >
+                                    Activity 3b<br/>
+                                    <span class="text-sm">Mythbusting based on secondary sources</span>
+                                </button>
                             </Tab>
                         </TabList>
                 
