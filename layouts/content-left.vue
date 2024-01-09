@@ -7,6 +7,7 @@
         <div class="mt-28">
             <slot />
         </div>
+        <UiFooterEu />
         <div id="theEnd"></div>
     </div>
 </template>

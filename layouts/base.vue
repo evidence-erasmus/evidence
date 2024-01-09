@@ -9,6 +9,7 @@
         <div class="mx-auto mt-10">
             <slot />
         </div>
+        <UiFooterEu />
         <!-- <UiLangSwitcher class="fixed right-0 bottom-10 print:invisible" /> -->
     </div>
 </template>
