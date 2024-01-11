@@ -1,1 +1,0 @@
-import{a2 as i,m as r,D as a,a3 as s,E as n,a4 as c}from"./entry.8eaf72fd.js";function p(e){const{route:t,router:o,i18n:u}=e||{};return i({route:t||r(),router:o||a(),i18n:u||s(n().$i18n)})}function l(e){const{route:t,router:o,i18n:u}=e||{};return c({route:t||r(),router:o||a(),i18n:u||s(n().$i18n)})}export{l as a,p as u};
