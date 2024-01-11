@@ -130,7 +130,6 @@
                             <td>
                                 I grupper:
                                 <ul>
-                                    <li>Pose a testable hypothesis / research question.</li>
                                     <li>Ställa en testbar hypotes / forskningsfråga.</li>
                                     <li>Gör en handlingsplan genom att söka efter relevant vetenskaplig information till den valda myten;</li>
                                     <li>Bedöma tillförlitligheten av de hittade bevisen;</li>
