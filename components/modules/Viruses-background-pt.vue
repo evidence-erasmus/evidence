@@ -575,11 +575,11 @@
                     <div>
                         <h3 class="mt-6 pt-3 mb-10">Para mais estudo</h3>
                         <ul class="leading-tight">
-                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html" target="_blank" rel="noopener noreferrer">Possible Side Effects After Getting a COVID-19 Vaccine</a></li>
+                            <li><a href="https://archive.cdc.gov/#/details?url=https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html" target="_blank" rel="noopener noreferrer">Possible Side Effects After Getting a COVID-19 Vaccine</a></li>
                             <li><a href="https://www.bbc.com/news/health-55932832" target="_blank" rel="noopener noreferrer">Study reveals extent of Covid vaccine side-effects</a></li>
                             <li><a href="https://www.nature.com/articles/d41586-021-00290-x" target="_blank">COVID vaccines and safety: what the research says</a></li>
                             <li><a href="https://health.clevelandclinic.org/covid-19-vaccine-side-effects/" target="_blank" rel="noopener noreferrer">Here’s What to Know About the COVID-19 Vaccine Side Effects</a></li>
-                            <li><a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety" target="_blank" rel="noopener noreferrer">Coronavirus disease (COVID-19): Vaccines safety</a></li>
+                            <!-- <li><a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety" target="_blank" rel="noopener noreferrer">Coronavirus disease (COVID-19): Vaccines safety</a></li> -->
                             <li><a href="https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events" target="_blank" rel="noopener noreferrer">Vaccine Side Effects and Adverse Events</a></li>
                             <li><a href="https://www.bbc.com/news/health-56375307" target="_blank">Vaccine side effects: My experience of them and what they mean</a></li>
                             <li><a href="https://vk.ovg.ox.ac.uk/vk/vaccine-side-effects" target="_blank" rel="noopener noreferrer">Vaccine side effects and adverse reactions</a></li>
@@ -666,7 +666,7 @@
                     <ul class="text-sm break-all">
                         <li><a href="https://stm.sciencemag.org/content/13/600/eabi9915" target="_blank" rel="noopener noreferrer">https://stm.sciencemag.org/content/13/600/eabi9915</a></li>
                         <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6373706/</a></li>
-                        <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li>
+                        <!-- <li><a href="https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-thimerosal-color-office.pdf</a></li> -->
                         <li><a href="https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/" target="_blank" rel="noopener noreferrer">https://www.technologyreview.com/2020/12/09/1013538/what-are-the-ingredients-of-pfizers-covid-19-vaccine/</a></li>
                     </ul>
                 </section>
@@ -674,7 +674,7 @@
                     <div>
                         <h3 class="mt-6 pt-3 mb-10">Para mais estudo</h3>
                         <ul class="leading-tight">
-                            <li><a href="https://www.publichealth.org/public-awareness/understanding-vaccines/goes-vaccine/" target="_blank" rel="noopener noreferrer">What Goes Into A Vaccine?</a></li>
+                            <!-- <li><a href="https://www.publichealth.org/public-awareness/understanding-vaccines/goes-vaccine/" target="_blank" rel="noopener noreferrer">What Goes Into A Vaccine?</a></li> -->
                             <li>📺<a href="https://www.youtube.com/watch?v=Atrx1P2EkiQ" target="_blank" rel="noopener noreferrer">Vaccines and the Immune Response: How Vaccines Work</a></li>
                             <li><a href="https://www.cdc.gov/vaccines/vac-gen/additives.htm" target="_blank" rel="noopener noreferrer">What’s in Vaccines?</a></li>
                         </ul>
