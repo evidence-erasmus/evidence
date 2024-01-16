@@ -174,7 +174,7 @@
                 </ul>
 
                 <p>
-                    Rollspelet utformas som en debatt med totalt åtta roller som du skulle representera i lag om 3-4 spelare. Varje team väljer en talesman, medan andra fungerar som rådgivare.
+                    Rollspelet utformas som en debatt med totalt åtta roller som ni representerar i lag om 3-4 spelare. Varje team väljer en talesman, medan andra fungerar som rådgivare.
                 </p>
 
                 <h3>
@@ -185,7 +185,7 @@
                     Debatten är relaterad till kontroversen att “Human Spaceflight Program är ett onödigt slöseri med resurser som skulle behövas för mer akuta behov.”
                 </p>
                 <p>
-                    Detta tema har två positioner: för och emot utvecklingen av Human Spaceflight Program i ditt land (att sända egna astronauter till rymden). 
+                    Detta tema utgår från två ståndpunkter: för och emot utvecklingen av Human Spaceflight Program i ditt land (att sända egna astronauter till rymden). 
                 </p>
 
                 <div class="md:grid md:grid-cols-2 gap-4">
@@ -214,7 +214,7 @@
                     Varje lag får ett rollkort med en profil som laget ska representera. Du måste lägga fram välgrundade argument för din ståndpunkt. 
                 </p>
                 <p>
-                    Som stödmaterial finns det flera infokort.
+                    Som stödmaterial finns det flera infokort. (Se infokorten längre ner på webbsidan)
                 </p>
 
                 <div class="grid grid-cols-5 gap-2">
@@ -233,7 +233,7 @@
                     Fas II (≈20 minuter)
                 </h3>
                 <p>
-                    Gruppdiskussion: Hitta på argument för att stödja sin ståndpunkt. Inledande argument kan förberedas i en visuell form med hjälp av PowerPoint-presentationer.
+                    Gruppdiskussion: Hitta på argument för att stödja er ståndpunkt. Inledande argument kan förberedas i en visuell form med hjälp av PowerPoint-presentationer.
 
                 </p>
 

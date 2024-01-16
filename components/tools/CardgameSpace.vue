@@ -771,9 +771,9 @@
                 story2: "Du måste leta efter och presentera bevis för att gynna natur och miljö och positionera dig mot bemannade rymdresor."
             },
             {
-                title: "Politician from the opposition",
+                title: "Politiker från oppositionen",
                 image: "card_space_opposition_politician.webp",
-                story: "Som politiker från oppositionen har du valintressen och måste vara emot din politiska motståndare. Ni stödjer obemannad rymdutforskning som ett mycket kostnadseffektivt, med argumentet att om det är möjligt att använda självkörande bilar i våra städer, bör vi investera i att skicka AI-styrda robotar på rymduppdrag. Du anser att det är möjligt att använda resurser i yttre rymden, till exempel asteroidmining, vilket kan vara en ekonomisk möjlighet för landet. Så du är inte helt emot utvecklingen av rymdutforskning utan hur den bör fokuseras. Du är för utveckling av autonoma rymdfarkoster.",
+                story: "Som politiker från oppositionen har du valintressen och måste vara emot din politiska motståndare. Ni stödjer obemannad rymdutforskning som mycket kostnadseffektivt, med argumentet att om det är möjligt att använda självkörande bilar i våra städer, bör vi investera i att skicka AI-styrda robotar på rymduppdrag. Du anser att det är möjligt att använda resurser i yttre rymden, till exempel asteroidmining, vilket kan vara en ekonomisk möjlighet för landet. Så du är inte helt emot utvecklingen av rymdutforskning utan har andra idéer om hur den bör prioriteras. Du är för utveckling av autonoma rymdfarkoster.",
                 story2: "Leta efter och presentera argument mot bemannade rymdresor och till förmån för robotuppdrag för att konfrontera din politiska motståndare."
             },
             {
@@ -792,7 +792,7 @@
         infoCards : [
             {
                 title: "Ny rymdålder",
-                story: "Den nya rymdåldern tar form sedan 1990-talet. Nya oberoende aktörer kommer till området för rymdutforskning: privata företag, europeiska rymdprogrammet, Kina och Indien går snabbt framåt. Förmodligen kommer Indien att bli den fjärde nationen att genomföra oberoende mänskliga rymdfärder efter Sovjetunionen/Ryssland, USA och Kina. Indien deklarerade sin avsikt att starta ett rymdstationsprogram, bemannade månlandningar och interplanetära bemannade rymdresor på lång sikt. Suborbitala rymdturismresor blev verklighet inte bara för extremt rika människor."
+                story: "Den nya rymdåldern tar form sedan 1990-talet. Nya oberoende aktörer kommer till området för rymdutforskning: privata företag, europeiska rymdprogrammet, Kina och Indien går snabbt framåt. Förmodligen kommer Indien att bli den fjärde nationen att genomföra oberoende mänskliga rymdfärder efter Sovjetunionen / Ryssland, USA och Kina. Indien har deklarerat sin avsikt att starta ett rymdstationsprogram, bemannade månlandningar och interplanetära bemannade rymdresor på lång sikt. Suborbitala rymdturismresor har blivt verklighet inte bara för extremt rika människor."
             },
             {
                 title: "Internet ombord",
@@ -800,15 +800,15 @@
             },
             {
                 title: "Obemannade luftfarkoster (UAV) alternativ",
-                story: "Unmanned aerial vehicles (UAV) är en klass av flygplan som kan flyga utan att navigeras av piloter. UAV används i många syfte på grund av dess snabba och kostnadseffektiva utbyggnad. UAV kan användas som en kommunikationsplattform. I jämförelse med en satellit har en enkel systemkonstruktion, hög hastighet och kommunikationskapacitet med liten fördröjning. Den tillhandahåller tillförlitligt trådlöst nätverk för markanvändare för säker och tillförlitlig överföring av information. UAV-klusterkommunikationsnätverket som består av flera UAV:er har hög kommunikation tillförlitlighet."
+                story: "Unmanned aerial vehicles (UAV) är en klass av flygplan som kan flyga utan att navigeras av piloter. UAV används i många syften på grund av dess snabba och kostnadseffektiva utbyggnad. UAV kan användas som en kommunikationsplattform. I jämförelse med en satellit har UAV:n en enkel systemkonstruktion, hög hastighet och kommunikationskapacitet med liten fördröjning. Den tillhandahåller tillförlitligt trådlöst nätverk för markanvändare för säker och tillförlitlig överföring av information. UAV-klusterkommunikationsnätverket som består av flera UAV:er har hög tillförlitlighet gällande kommunikation."
             },
             {
                 title: "Rymdskrot",
-                story: "Den består av icke-funktionella rymdfarkoster och övergivna uppskjutningsfarkoster, fragment från raketkropparna inklusive bitar från deras sönderfall, erosion och kollisioner, färgfragment, stelnade vätskor som drivs ut från rymdfarkoster och oförbrända partiklar från fasta raketmotorer. Uppskattningar visar att det finns över 128 miljoner skräpbitar mindre än 1 cm, cirka 900 000 skräpbitar 1–10 cm och cirka 34000 stycken större än 10 cm i omloppsbana runt jorden. Rymdskrot utgör en risk för utforskning av rymden."
+                story: "Rymdskrot består av icke-funktionella rymdfarkoster och övergivna uppskjutningsfarkoster, fragment från raketkroppar inklusive bitar från deras sönderfall, erosion och kollisioner, färgfragment, stelnade vätskor som drivs ut från rymdfarkoster och oförbrända partiklar från fasta raketmotorer. Uppskattningar visar att det finns över 128 miljoner skräpbitar mindre än 1 cm, cirka 900 000 skräpbitar 1–10 cm och cirka 34000 stycken större än 10 cm i omloppsbana runt jorden. Rymdskrot utgör en risk för utforskning av rymden."
             },
             {
                 title: "Atmosfäriska föroreningar kopplade till rymdturismen",
-                story: "Forskare har funnit att utsläppen av svart kol kommer att mer än fördubblas efter bara tre år av regelbundna uppskjutningar av farkosten med rymdturister, och att partiklar som släpps ut av raketer är nästan 500 gånger effektivare när det gäller att hålla värmen i atmosfären än alla andra källor till sot tillsammans, vilket resulterar i en hög klimatpåverkan. Även om den nuvarande förlusten av ozon på grund av rymduppskjutningar är liten, kan effekterna av uppskjutningar av rymdturister undergräva återhämtningen i ozonskiktet efter framgången med Montrealprotokollet från 1987 som förbjöd ämnen (freoner) som bryter ned jordens ozonskikt."
+                story: "Forskare har funnit att utsläppen av svart kol kommer att mer än fördubblas efter bara tre år av regelbundna uppskjutningar av farkoster med rymdturister, och att partiklar som släpps ut av raketer är nästan 500 gånger effektivare när det gäller att hålla värmen i atmosfären än alla andra källor till sot tillsammans, vilket resulterar i en hög klimatpåverkan. Även om den nuvarande förlusten av ozon på grund av rymduppskjutningar är liten, kan effekterna av uppskjutningar av rymdturister undergräva återhämtningen i ozonskiktet efter framgången med Montrealprotokollet från 1987 som förbjöd ämnen (freoner) som bryter ned jordens ozonskikt."
             },
             {
                 title: "Trender inom rymdekonomin",
@@ -816,23 +816,23 @@
             },
             {
                 title: "Erfarenhet av viktlöshet",
-                story: "Astronauter som kommer in i yttre rymden upplever viktlöshet eller mikrogravitation. De är faktiskt i ett tillstånd av fritt fall. Efter att motorn stängts av rör sig raketen horisontellt med mycket hög hastighet på cirka 8 kilometer per sekund och faller också fritt och går därmed runt jorden. Eftersom rymdskeppet och alla föremål i det faller runt jorden i samma takt, åker allt i kabinen som inte är säkrat omkring. När människor stöter på mikrogravitation har de följande upplevelser: • Illamående • Desorientering • Huvudvärk • Förlust av apetit. Ju längre personen stannar i mikrogravitationen, desto mer muskler och ben försvagas."
+                story: "Astronauter som kommer in i yttre rymden upplever viktlöshet eller mikrogravitation. De är faktiskt i ett tillstånd av fritt fall. Efter att motorn stängts av rör sig raketen horisontellt med mycket hög hastighet på cirka 8 kilometer per sekund och faller också fritt och går därmed runt jorden. Eftersom rymdskeppet och alla föremål i det faller runt jorden i samma takt, åker allt i kabinen som inte är säkrat omkring. När människor stöter på mikrogravitation har de följande upplevelser: • Illamående • Desorientering • Huvudvärk • Förlust av aptit. Ju längre personen stannar i mikrogravitation, desto mer muskler och ben försvagas."
             },
             {
                 title: "Bidrag till hållbara utvecklingsmål",
-                story: "Rymdbaserade tjänster och teknologier är nyckeln för att förstå klimatförändringen och kunna hjälpa till under hela katastrofhanteringscykeln. Samarbete i yttre rymden är också av stor betydelse för världsfreden. Det finns ett behov av att säkerställa att alla länder följer internationella rymdlagar och att nya rymdfararnationer utvecklar nationella rymdlagar. UN-SPIDER kunskapsportal: Space4DisasterManagement http://www.un-spider.org/ Space4Water Portal på http://www.space4water.org/ Space for All (www.unoosa.org) ökar medvetenheten om vad rymdteknologi kan göra för hållbara utvecklingsmål. Målen för hållbar utveckling."
+                story: "Rymdbaserade tjänster och teknologier är nyckeln för att förstå klimatförändring och kunna hjälpa till under hela katastrofhanteringscykeln. Samarbete i yttre rymden är också av stor betydelse för världsfreden. Det finns ett behov av att säkerställa att alla länder följer internationella rymdlagar och att nya rymdfararnationer utvecklar nationella rymdlagar. Space for All (www.unoosa.org) ökar medvetenheten om vad rymdteknologin kan göra för målen för hållbar utveckling."
             },
             {
                 title: "Risker under mänskliga rymdfärder: Strålning",
-                story: "Spacestrålningsexponering ökar cancerrisken, skadar det centrala nervsystemet, kan förändra kognitiv funktion, minska motorisk funktion och föranleda beteendeförändringar. Exponering för olika typer av partiklar som finns i rymdstrålning kan leda till olika hjärt-kärlsjukdomar. Rymdstationen ISS ligger precis inom jordens skyddande magnetfält, så även om våra astronauter utsätts för tio gånger högre strålning än på jorden, är det fortfarande mindre än exponeringen vidare i rymden. För att mildra denna fara kommer djuprymdfordon att ha betydande skyddande avskärmning, dosimetri och andra varningssystem."
+                story: "Exponering för strålning från rymden ökar cancerrisken, skadar det centrala nervsystemet, kan förändra kognitiva funktioner, minska motoriska funktioner och föranleda beteendeförändringar. Exponering för olika typer av partiklar som finns i rymdstrålning kan leda till olika hjärt-kärlsjukdomar. Rymdstationen ISS ligger precis inom jordens skyddande magnetfält, så även om våra astronauter utsätts för tio gånger högre strålning än på jorden, är det fortfarande mindre än exponeringen vidare i rymden. För att mildra denna fara kommer rymdfarkoster gjorda för yttre rymden att ha betydande skyddande avskärmning, dosimetri och andra varningssystem."
             },
             {
                 title: "Risker under mänskliga rymdfärder: Isolering.",
-                story: "Beteendeproblem bland grupper av människor som trängs på ett litet utrymme under lång tid är oundvikliga. Besättningar kommer att vara noggrant utvalda och utbildade för att säkerställa att de kan arbeta effektivt som ett team i månader eller år i rymden. Sömnförlust, dygnsrytmavsynkronisering och överbelastning av arbetet förvärrar detta problem och kan leda till prestationsförsämringar, negativa hälsoresultat och äventyrande av uppdragsmål. Olika verktyg och tekniker för användning i rymdfärdsmiljön utvecklas för att upptäcka och behandla tidiga riskfaktorer. Forskning bedrivs också inom arbetsbelastning och prestation, ljusterapi för dygnsrytmanpassning, fasförskjutning och vakenhet."
+                story: "Beteendeproblem bland grupper av människor som trängs på ett litet utrymme under lång tid är oundvikliga. Besättningar kommer att vara noggrant utvalda och utbildade för att säkerställa att de kan arbeta effektivt som ett team i månader eller år i rymden. Sömnförlust, dygnsrytmavsynkronisering och för mycket arbete förvärrar detta problem och kan leda till prestationsförsämringar, negativa hälsoresultat och äventyrande av uppdragsmål. Olika verktyg och tekniker för användning i rymdfärdsmiljön utvecklas för att upptäcka och behandla tidiga riskfaktorer. Forskning bedrivs också inom arbetsbelastning och prestation, ljusterapi för dygnsrytmanpassning, fasförskjutning och vakenhet."
             },
             {
                 title: "Risker under mänskliga rymdfärder: tyngdkraftförändringar.",
-                story: "På Mars skulle astronauter behöva leva och arbeta i tre åttondelar av jordens gravitation. Dessutom, på den sex månader långa vandringen mellan planeterna, kommer upptäcktsresande att uppleva total viktlöshet. När astronauter äntligen kommer hem kommer de att behöva anpassa många av kroppenssystemen till jordens gravitation. Skelett, muskler, kardiovaskulära system har alla påverkats av år utan standardgravitation. När astronauter går från ett gravitationsfält till ett annat är det vanligtvis en ganska intensiv upplevelse. Att lyfta från en planetyta eller en färd genom en atmosfär förändrar tyngdkraften många gånger."
+                story: "På Mars skulle astronauter behöva leva och arbeta i tre åttondelar av jordens gravitation. Dessutom, på den sex månader långa vandringen mellan planeterna, kommer upptäcktsresande att uppleva total viktlöshet. När astronauter äntligen kommer hem kommer de att behöva anpassa många av kroppens system till jordens gravitation. Skelett, muskler, kardiovaskulära system har alla påverkats av år utan standardgravitation. När astronauter går från ett gravitationsfält till ett annat är det vanligtvis en ganska intensiv upplevelse. Att lyfta från en planetyta eller en färd genom en atmosfär förändrar tyngdkraften många gånger."
             },
             {
                 title: "Risker under mänskliga rymdfärder: Sluten miljö.",
@@ -848,14 +848,14 @@
             },
             {
                 title: "Kostnader för mänskliga rymduppdrag",
-                story: "Apollo-programmet kostar 20 miljarder dollar i 1970-talsdollar – över 100 miljarder dollar i dagens pengar. Kostnaden för Shuttle uppskattas till cirka 200 miljarder i 2010-dollar. Den totala kostnaden för ISS-programmet är cirka 150 miljarder dollar (fram till 2015). För närvarande föreslog NASA att debitera cirka 10 miljoner dollar i avgifter per vistelse. Det inkluderar 2 000$ per person och dag för mat för ett ISS privat besök. https://spacenews.com/nasa-increases-prices-for-iss-private-astronaut-missions/"
+                story: "Apolloprogrammet för bemannade färder till månen kostade 20 miljarder dollar i 1970-talsdollar – över 100 miljarder dollar i dagens pengar. Kostnaden för rymdfärjeprogrammet ”Space Shuttle” (1972 – 2011) uppskattas till cirka 200 miljarder i 2010-dollar. Den totala kostnaden för ISS-programmet fram till år 2015 var cirka 150 miljarder dollar. För närvarande föreslår NASA att debitera cirka 10 miljoner dollar i avgift per vistelse. Det inkluderar 2 000$ per person och dag för mat för en privatperson att besöka ISS. https://en.wikipedia.org/wiki/International_Space_Station"
             },
             {
                 title: "Globalt navigationssatellitsystem",
-                story: "GNSS hänvisar till en konstellation av satelliter som tillhandahåller signaler från rymden som sänder positionerings- och tidsdata till GNSS-mottagare. Exempel på GNSS inkluderar Europas Galileo, USA:s NAVSTAR Global Positioning System (GPS), Rysslands Global'naya Navigationsnaya Sputnikovaya Sistema (GLONASS) och Kinas BeiDou Navigation Satellite System."
+                story: "GNSS (Global Navigation Satellite Systems) hänvisar till en konstellation av satelliter som tillhandahåller signaler från rymden som sänder positionerings- och tidsdata till GNSS-mottagare. Exempel på GNSS inkluderar Europas Galileo, USA:s NAVSTAR Global Positioning System (GPS), Rysslands Global'naya Navigationsnaya Sputnikovaya Sistema (GLONASS) och Kinas BeiDou Navigation Satellite System."
             },
             {
-                title: "Atmosfärens struktur och var rymden börjar",
+                title: "Atmosfärens struktur och rymdens början",
                 story: "Jordens atmosfär skyddar oss från värme och strålning från solen och innehåller luften vi andas. Den kan delas in i lager: troposfär, stratosfär, mesosfär, termosfär och exosfär. Enligt NASA sträcker sig det övre lagret av jordens atmosfär – exosfären – upp till 10 000 km, över vilken atmosfären och rymden smälter samman. De flesta forskare är överens om att Kármán-linjen, som ligger 100 km över havet, markerar övergången mellan jorden och rymden. 99,99997 procent av jordens atmosfär ligger under denna höjd."
             },
             {
@@ -864,15 +864,15 @@
             },
             {
                 title: "Globala satellitnavigeringsnätverk",
-                story: "Det kinesiska Beidou -navigeringssatellitnätverket blev komplett 2020. Det har nu 35 satelliter – fler än amerikanska GPS:s 31 (som drivs av det amerikanska flygvapnet), och fler än europeiska Galileo och Rysslands GLONASS. Beidous lokaliseringstjänster är exakta ner till precision 10 cm i Asien-Stillahavsområdet, jämfört med GPS:s precision på 30 cm. Beidou -relaterade tjänster som hamntrafikövervakning och katastrofbekämpning har exporterats till cirka 120 länder."
+                story: "Det kinesiska Beidou -navigeringssatellitnätverket blev komplett 2020. Det har nu 35 satelliter – fler än amerikanska GPS:s 31 (som drivs av det amerikanska flygvapnet), och fler än europeiska Galileo och Rysslands GLONASS. Beidous lokaliseringstjänster är exakta ner till en precision på 10 cm i Asien-Stillahavsområdet, jämfört med GPS:s precision på 30 cm. Beidou -relaterade tjänster som hamntrafikövervakning och katastrofbekämpning har exporterats till cirka 120 länder."
             },
             {
                 title: "Nanosatelliter",
                 story: "Teknisk och vetenskaplig prototyp finns nu för automatiserade rymdfarkoster som inkluderar fotografi och radiokommunikationsutrustning, men som bara väger ett gram. Dessa skulle kunna accelereras med lasrar till 20 procent av ljusets hastighet och nå de närmaste stjärnorna inom ett par decennier. På så sätt kan vi skicka vår avancerade artificiella intelligens av nanoutforskare till rymdens utkant."
             },
             {
-                title: "Mars expedition",
-                story: "Rymdbasen på månen kommer att vara ett viktigt steg för mänsklig utforskning av Mars. Mänskliga uppdrag till Mars har varit en del av science fiction sedan 1880-talet. Konceptet med en marsbo som någon som lever på Mars är en del av fiktionen. De flesta experter är överens om att det troligen fanns liv på Mars när vatten rann fritt över dess yta och att det fortfarande kan överleva i underjordiska pooler. Det tar ungefär två år att åka till Mars och tillbaka. ESA har inga förberedelser eller något projekt för att skicka människor till Mars. För diskussion om tekniska möjligheter se https://en.wikipedia.org/wiki/ Human_mission_to_Mars och tekniska planer för SpaceX på https://www.spacex.com/human-spaceflight/mars/"
+                title: "Marsexpedition",
+                story: "Rymdbasen på månen kommer att vara ett viktigt steg för mänsklig utforskning av Mars. Mänskliga uppdrag till Mars har varit en del av science fiction sedan 1880-talet. Konceptet ”marsian” som någon som lever på Mars är en del av fiktionen. De flesta experter är överens om att det troligen fanns liv på Mars när vatten rann fritt över dess yta och att det fortfarande kan finnas liv i underjordiska pooler. Det tar ungefär två år att åka till Mars och tillbaka. ESA har inga förberedelser eller något projekt för att skicka människor till Mars. För diskussion om tekniska möjligheter se https://en.wikipedia.org/wiki/ Human_mission_to_Mars och tekniska planer för SpaceX på https://www.spacex.com/human-spaceflight/mars/"
             }
         ]
     }
