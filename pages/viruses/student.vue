@@ -22,7 +22,7 @@
     // import { useI18n } from 'vue-i18n';
     const { locale } = useI18n();
     definePageMeta({
-        layout: "content",
+        layout: "content-left",
     });
 
 

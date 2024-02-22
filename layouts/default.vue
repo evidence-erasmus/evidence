@@ -3,7 +3,7 @@
         <UiLangDropdown class="absolute right-10 top-10" />
             
         <UiHero />
-        <slot />
+        <!-- <slot /> -->
     </div>
 </template>
 <script>
