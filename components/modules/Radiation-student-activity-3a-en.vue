@@ -1,6 +1,6 @@
 <template>
     <div class="border-l-2 border-l-sky-400 pl-6 pb-8">
-        <UiYourAnswersButton url="answers/experiment" />
+        <!-- <UiYourAnswersButton url="answers/experiment" /> -->
         <h2>Activity 3a: Mythbusting based on experiment</h2>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>

@@ -1,6 +1,6 @@
 <template>
     <!-- <UiYourAnswersButton :url="userPrefs.learnPathViruses === 0 ? 'answers/experiment' : 'answers/secondary-sources'" /> -->
-    <UiYourAnswersButton url="answers/experiment" />
+    <!-- <UiYourAnswersButton url="answers/experiment" /> -->
 
     <div class="border-l-2 border-l-sky-400 pl-6 pb-8">
         

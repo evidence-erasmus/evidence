@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+
         <h2>Atividade 3a: Desmitificar Mitos com base numa experiência</h2>
 
         

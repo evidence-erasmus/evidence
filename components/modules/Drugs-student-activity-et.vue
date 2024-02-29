@@ -22,7 +22,7 @@
             </li>
         </ul>
         <p>
-            Seda tehes peaksite hoolikalt mõtlema, kuidas oma rühmas töökoormust jagada. Võite määrata kõik erinevasse rolli, näiteks juhiks, kes korraldab tegevusi, sekretäriks, kes teeb leitud teabe kohta märkmeid ja kommentaare, uurijaks, kes teeb otsinguid, kriitikuks, kes kontrollibteabe usaldusväärsust vms.
+            Seda tehes peaksite hoolikalt mõtlema, kuidas oma rühmas töökoormust jagada. Võite määrata kõik erinevasse rolli, näiteks juhiks, kes korraldab tegevusi, sekretäriks, kes teeb leitud teabe kohta märkmeid ja kommentaare, uurijaks, kes teeb otsinguid, kriitikuks, kes kontrollib teabe usaldusväärsust vms.
         </p>    
 
 

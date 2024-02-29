@@ -1,6 +1,6 @@
 <template>
     <div class="border-r-2 border-r-sky-400 pr-8">
-        <UiYourAnswersButton url="answers/secondary-sources" />
+        <!-- <UiYourAnswersButton url="answers/secondary-sources" /> -->
         <h2>Activity 3b: Mythbusting based on secondary sources</h2>
 
         

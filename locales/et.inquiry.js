@@ -1151,6 +1151,21 @@ export default {
           url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]
+    },
+
+    drugs: {
+      title: "Rohud",
+      subtitle: "Vastused",
+      label_1: "Murrame järgmise müüdi:",
+      label_2: "Meie hüpotees / uurimisküsimus:",
+      label_3: "Tegevusplaan",
+      reliability: {
+        label_1: "Allikate usaldusväärsus"
+      },
+      label_4: "Meie järeldused:",
+      label_5: "Otsus:"
     }
+
+
   }
 }

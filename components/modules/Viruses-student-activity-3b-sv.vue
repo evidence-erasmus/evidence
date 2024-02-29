@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         <h2>Activity 3b: Mythbusting baserat på sekundära bevis</h2>
 
 

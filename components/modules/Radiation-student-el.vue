@@ -11,6 +11,9 @@
 </script>
 
 <template>
+    <UiYourAnswersButton 
+        :url="userPrefs.learnPathViruses === 0 ? 'answers/experiment' : 'answers/secondary-sources'" />
+        
     <div class="flex flex-col items-start 
         lg:flex-row-reverse lg:justify-end 
         xl:gap-10
