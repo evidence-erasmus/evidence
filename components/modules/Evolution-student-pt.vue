@@ -105,9 +105,9 @@
                     <p>
                         Dois problemas impedem alguém de legitimamente chamar a evolução de teoria. Primeiro, não há experiência direta e observável que possa ser realizada. Os cientistas podem medir ossos, estudar mutações, descodificar o DNA e notar semelhanças na morfologia (a forma e estrutura de animais e plantas), mas nunca podem testar eventos evolutivos no passado. Alguns apontam a seleção natural como uma forma de “evolução em ação”, mas a seleção natural só pode atuar sobre o potencial genético que já existe. O que observamos da seleção natural se encaixa perfeitamente com uma criação recente e não aponta para uma descendência comum. Em segundo lugar, e relacionado ao anterior, a evolução erra o alvo como teoria porque todos os supostos “testes” para confirmar o darwinismo não correspondem necessária e distintamente à ideia. Em outras palavras, cada um tem uma explicação alternativa e igualmente viável. Uma teoria requer que as experiências de confirmação correspondam a uma hipótese específica. Caso contrário, a experiência não pode estabelecer legitimidade. A evolução não tem tal legitimidade (Evolução: não é uma teoria).
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution: Not even a theory</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Inquérito aberto 1', url:'./inquiry/open', blank:false},
                         {text:'Inquérito guiado 1', url:'./inquiry/myth1', blank:false}
@@ -141,9 +141,9 @@
                     <p>
                         A evolução não se encaixa na definição estrita de ciência. Não pode ser medido. Observar a evolução no passado é extremamente difícil por causa das variáveis desconhecidas que podem ter estado presentes no passado. (Falácias da Evolução).
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Fallacies of Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Inquérito aberto 2', url:'./inquiry/open', blank:false},
                         {text:'Inquérito guiado 2', url:'./inquiry/myth2', blank:false}
@@ -160,9 +160,9 @@
                     <p>
                         “Se a evolução fosse verdade, então os humanos modernos descendiam dos macacos. (Afinal, vimos muitos gráficos científicos mostrando os macacos como ancestrais do homem). Então, como os macacos ainda existem, eles não se transformaram em humanos, e os evolucionistas estão sendo tolos quando dizem que os macacos evoluíram para humanos. Caso encerrado!" (Se os humanos evoluíram dos macacos, por que os macacos existem hoje?)
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">If Humans Evolved from Apes, Why Do Apes Exist Today?</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
                         {text:'Inquérito aberto 3', url:'./inquiry/open', blank:false},
                         {text:'Inquérito guiado 3', url:'./inquiry/myth3', blank:false}
@@ -180,9 +180,9 @@
                     <p>
                         A evolução biológica é o suposto processo pelo qual a primeira célula evoluiu para a diversidade de vida que vemos atualmente. A seleção natural e as mutações são consideradas a sua força motriz; no entanto, a evolução nunca foi observada, apesar de numerosos protestos em contrário. A seleção natural e as mutações não podem acrescentar a informação necessária para transformar um tipo de organismo noutro. E não é preciso ser licenciado em ciências para perceber porque é que a evolução das moléculas para o homem é impossível. (Evolução).
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Inquérito aberto 4', url:'./inquiry/open', blank:false},
                         {text:'Inquérito guiado 4', url:'./inquiry/myth4', blank:false}
@@ -216,9 +216,9 @@
                     <p>
                         Modificações num indivíduo causadas pelo seu ambiente, ou seja, o uso ou desuso de uma estrutura durante sua vida, podem ser herdadas por seus descendentes e, assim, provocar mudanças em uma espécie. (Compreendendo a Evolução).
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Understanding Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
                         {text:'Inquérito aberto 6', url:'./inquiry/open', blank:false},
                         {text:'Inquérito guiado 6', url:'./inquiry/myth6', blank:false}

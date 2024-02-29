@@ -97,7 +97,7 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth1">
                     <h4 class="mt-8 mb-4 leading-tight">
                         <span class="text-rose-400">Myt 1:</span> 
-                        “Att evolutionen har skett är bara en teori och inget som kunnat bevisas”
+                        Att evolutionen har skett är bara en teori och inget som kunnat bevisas
                     </h4>
                     <p>
                         Although some people have attacked evolution as “just a theory,” that would be raising Darwin’s idea to a level it doesn’t deserve. 
@@ -108,12 +108,12 @@
                     <p>
                         Two problems prevent anyone from legitimately calling evolution a theory. First, there’s no direct, observable experiment that can ever be performed. Scientists can measure bones, study mutations, decode DNA, and notice similarities in morphology (the form and structure of animals and plants), but they can never test evolutionary events in the past. Some point to natural selection as a form of “evolution in action,” but natural selection can only act upon the genetic potential that already exists. What we do observe from natural selection fits perfectly with a recent creation and does not point to common descent. Secondly, and related to the above, evolution misses the mark as a theory because all the supposed “tests” to confirm Darwinism do not necessarily and distinctively correspond to the idea. In other words, each has an alternate and equally viable explanation. A theory requires that the confirming experiments correspond to one specific hypothesis. Otherwise, the experiment cannot establish legitimacy. Evolution has no such legitimacy.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution: Not even a theory</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth1', blank:false}
+                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning', url:'./inquiry/myth1', blank:false}
                     ]" />
                 </UiCardInfo>
 
@@ -122,7 +122,7 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth2">
                     <h4 class="mt-8 mb-4 leading-tight">
                         <span class="text-rose-400">Myt 2:</span> 
-                        “Evolutionsteori är ovetenskaplig eftersom den inte är testbar eller falsifierbar. Den gör påståenden om händelser som inte observerats och som aldrig kan återskapas.”
+                        Evolutionsteori är ovetenskaplig eftersom den inte är testbar eller falsifierbar. Den gör påståenden om händelser som inte observerats och som aldrig kan återskapas.
                     </h4>
                     <p>
                         Science is a systematic study of natural phenomena based on observations, identification, description, experimental investigation and theoretical explanation.
@@ -144,12 +144,12 @@
                     <p>
                         Evolution does not fit the strict definition of science. It cannot be or measured. To observe evolution in the past is extremely difficult because of the unknown variables that may have been present in the past.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Fallacies of Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth2', blank:false}
+                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning', url:'./inquiry/myth2', blank:false}
                     ]" />
                 </UiCardInfo>
                 
@@ -158,17 +158,17 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth3">
                     <h4 class="mt-8 mb-4 leading-tight">
                         <span class="text-rose-400">Myt 3:</span> 
-                        “Evolution följer en förutbestämd, rak väg (eller om människan utvecklats från apor, varför finns det fortfarande apor?)”
+                        Evolution följer en förutbestämd, rak väg (eller om människan utvecklats från apor, varför finns det fortfarande apor?)
                     </h4>
                     <p>
                         “If evolution were true, then modern humans descended from apes. (After all, we’ve seen many scientific charts showing apes as man’s ancestors). So, since apes still exist, they didn’t turn into humans, and evolutionists are being silly when they say apes evolved into humans. Case closed!”
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">If Humans Evolved from Apes, Why Do Apes Exist Today?</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth3', blank:false}
+                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning', url:'./inquiry/myth3', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -178,17 +178,17 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth4">
                     <h4 class="mt-8 mb-4 leading-tight">
                         <span class="text-rose-400">Myt 4:</span> 
-                        “Evolution producerar perfekt anpassade varelser.”
+                        Evolution producerar perfekt anpassade varelser.
                     </h4>
                     <p>
                         Biological evolution is the supposed process by which the first cell evolved into the diversity of life we see today. Natural selection and mutations are considered its driving force; however, evolution has never been observed despite numerous protestations to the contrary. Natural selection and mutations cannot add the information necessary to change one kind of organism into another. And it doesn’t take a science degree to understand why molecules-to-man evolution is impossible.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth4', blank:false}
+                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning', url:'./inquiry/myth4', blank:false}
                     ]" />
                 </UiCardInfo>
                 
@@ -206,8 +206,8 @@
                         <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                     </p> -->
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth5', blank:false}
+                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning', url:'./inquiry/myth5', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -217,17 +217,17 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth6">
                     <h4 class="mt-8 mb-4 leading-tight">
                         <span class="text-rose-400">Myt 6:</span> 
-                        “Användning eller icke användning av en kroppslig funktion under sin livstid kan ärvas av avkomman och leda till en förändring i en art.”
+                        Användning eller icke användning av en kroppslig funktion under sin livstid kan ärvas av avkomman och leda till en förändring i en art.
                     </h4>
                     <p>
                         Modifications in an individual caused by its environment, in other words, the use or disuse of a structure during its lifetime, could be inherited by its offspring and, thus, bring about change in a species.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Understanding Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
-                        {text:'Avatud uurimus', url:'./inquiry/open', blank:false},
-                        {text:'Juhitud uurimus', url:'./inquiry/myth6', blank:false}
+                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning', url:'./inquiry/myth6', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>

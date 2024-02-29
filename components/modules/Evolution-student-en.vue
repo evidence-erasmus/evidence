@@ -108,9 +108,9 @@
                     <p>
                         Two problems prevent anyone from legitimately calling evolution a theory. First, there’s no direct, observable experiment that can ever be performed. Scientists can measure bones, study mutations, decode DNA, and notice similarities in morphology (the form and structure of animals and plants), but they can never test evolutionary events in the past. Some point to natural selection as a form of “evolution in action,” but natural selection can only act upon the genetic potential that already exists. What we do observe from natural selection fits perfectly with a recent creation and does not point to common descent. Secondly, and related to the above, evolution misses the mark as a theory because all the supposed “tests” to confirm Darwinism do not necessarily and distinctively correspond to the idea. In other words, each has an alternate and equally viable explanation. A theory requires that the confirming experiments correspond to one specific hypothesis. Otherwise, the experiment cannot establish legitimacy. Evolution has no such legitimacy.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution: Not even a theory</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Open inquiry 1', url:'./inquiry/open', blank:false},
                         {text:'Guided inquiry 1', url:'./inquiry/myth1', blank:false}
@@ -144,9 +144,9 @@
                     <p>
                         Evolution does not fit the strict definition of science. It cannot be or measured. To observe evolution in the past is extremely difficult because of the unknown variables that may have been present in the past.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Fallacies of Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Open inquiry 2', url:'./inquiry/open', blank:false},
                         {text:'Guided inquiry 2', url:'./inquiry/myth2', blank:false}
@@ -163,9 +163,9 @@
                     <p>
                         “If evolution were true, then modern humans descended from apes. (After all, we’ve seen many scientific charts showing apes as man’s ancestors). So, since apes still exist, they didn’t turn into humans, and evolutionists are being silly when they say apes evolved into humans. Case closed!”
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">If Humans Evolved from Apes, Why Do Apes Exist Today?</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
                         {text:'Open inquiry 3', url:'./inquiry/open', blank:false},
                         {text:'Guided inquiry 3', url:'./inquiry/myth3', blank:false}
@@ -183,9 +183,9 @@
                     <p>
                         Biological evolution is the supposed process by which the first cell evolved into the diversity of life we see today. Natural selection and mutations are considered its driving force; however, evolution has never been observed despite numerous protestations to the contrary. Natural selection and mutations cannot add the information necessary to change one kind of organism into another. And it doesn’t take a science degree to understand why molecules-to-man evolution is impossible.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Open inquiry 4', url:'./inquiry/open', blank:false},
                         {text:'Guided inquiry 4', url:'./inquiry/myth4', blank:false}
@@ -222,9 +222,9 @@
                     <p>
                         Modifications in an individual caused by its environment, in other words, the use or disuse of a structure during its lifetime, could be inherited by its offspring and, thus, bring about change in a species.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Understanding Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
                         {text:'Open inquiry 6', url:'./inquiry/open', blank:false},
                         {text:'Guided inquiry 6', url:'./inquiry/myth6', blank:false}

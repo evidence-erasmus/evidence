@@ -99,9 +99,9 @@
                     <p>
                         See, mida me saame looduslikust valikust teada, sobib suurepäraselt uue looduga ning ei viita ühisele päritolule.  Teiseks, evolutsioon ei ole teooria, sest kõik nö  testid kinnitamaks darvinismi, ei pruugi sellele ideele vastata. Teisisõnu, igaühel on alternatiivne selgitus. Teooria nõuab, et kinnitavad katsed vastaksid ühele konkreetsele hüpoteesile. Vastasel juhul ei saa katse hüpoteesi kinnitada. Evolutsioonil ei ole sellist kinnitust. 
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution: Not even a theory</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Avatud uurimus 1', url:'./inquiry/open', blank:false},
                         {text:'Juhitud uurimus 1', url:'./inquiry/myth1', blank:false}
@@ -135,9 +135,9 @@
                     <p>
                         Evolutsioon ei vasta teaduse rangele määratlusele. Seda ei saa  mõõta. Minevikus toimuvat evolutsiooni on äärmiselt raske vaadelda tundmatute muutujate tõttu, mis võisid minevikus esineda.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Fallacies of Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Avatud uurimus 2', url:'./inquiry/open', blank:false},
                         {text:'Juhitud uurimus 2', url:'./inquiry/myth2', blank:false}
@@ -154,9 +154,9 @@
                     <p>
                         “Kui evolutsioon oleks tõsi, siis tänapäeva inimene arenes ahvidest. (Me oleme näinud mitmeid teaduslikke jooniseid, kus kujutatakse ahve inimese eelastena). Ahvid ei muutunud inimesteks, sest nad eksisteerivad siiani ja  evolutsionistid on rumalad, kui nad ütlevad, et inimesed on arenenud ahvidest. Juhtum lahendatud!”
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">If Humans Evolved from Apes, Why Do Apes Exist Today?</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus 3', url:'./inquiry/open', blank:false},
                         {text:'Juhitud uurimus 3', url:'./inquiry/myth3', blank:false}
@@ -174,9 +174,9 @@
                     <p>
                         Bioloogiline evolutsioon on oletatav protsess. Selle käigus arenes esimesest rakust elurikkus, mida me täna näeme. Looduslikku valikut ja mutatsioone peetakse selle liikumapanevaks jõuks. Hoolimata arvukatest protestidest  pole evolutsiooni kunagi täheldatud. Looduslik valik ja mutatsioonid ei saa anda teavet, mis on vajalik ühe organismi liigi muutmiseks teiseks. Ja selleks, et mõista, miks molekulidest-inimeseks evolutsioon on võimatu, pole vaja teaduskraadi.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
                         {text:'Avatud uurimus 4', url:'./inquiry/open', blank:false},
                         {text:'Juhitud uurimus 4', url:'./inquiry/myth4', blank:false}
@@ -213,9 +213,9 @@
                     <p>
                         Keskkonnast põhjustatud muutused isendis teatud kehaosa kasutamise või mittekasutamise tagajärjel tema eluea jooksul võib päranduda tema järglastele. See võib seeläbi tuua kaasa muutuse liigis.
                     </p>
-                    <p>
+                    <!-- <p>
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Understanding Evolution</a>
-                    </p>
+                    </p> -->
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus 6', url:'./inquiry/open', blank:false},
                         {text:'Juhitud uurimus 6', url:'./inquiry/myth6', blank:false}
