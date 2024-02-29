@@ -6,7 +6,8 @@ export default {
     reliability_table : {
       txt_1: "Palun hinnake järgmise {link1} abil kasutatud infoallikate usaldusväärsust. Kirjutage oma uurimistulemustest kokkuvõte  tabelisse.",
       link_1: "tööriista",
-      url_1: "https://docs.google.com/document/d/12ABQ5rgwb418f47KKdg1yPQbMUn7n6N0h4fEJLhJzbg/edit?usp=share_link",  
+      url_1: "../../tools/reliability-assessment", 
+      label_1: "Analüüsige iga allikat allpool tabelis", 
       cols: {
           col_1:"Tõendid / peamised järeldused / kokkuvõte hüpoteesist",
           col_2:"Tõendite tüüp ja allikas",
@@ -111,9 +112,10 @@ export default {
       label_4: "Mida mõeldakse teaduses mõistega “teooria”?",
       label_5: "Kas evolutsiooniteooria täidab kõiki teaduslikule teooriale esitatud kriteeriume?",
       reliability: {
-        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-        link: "töörista",
-        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+        label_1: "Tõendite usaldusväärsus:"
+        // text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
+        // link: "töörista",
+        // label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
       }
     },
 
@@ -172,9 +174,7 @@ export default {
       label_5: "Kas evolutsiooniprotsesse on võimalik laboris uurida?",
       label_6: "Kas katsete asemel on võimalik kasutada alternatiive?",
       reliability: {
-        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-        link: "töörista",
-        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+        label_1: "Tõendite usaldusväärsus:"
       }
     },
 
@@ -215,9 +215,7 @@ export default {
       ],
       label_4: "Kas evolutsioon järgib ettemääratud, sirget rada?",
       reliability: {
-        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-        link: "töörista",
-        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+        label_1: "Tõendite usaldusväärsus:"
       }
     },
 
@@ -258,9 +256,7 @@ export default {
       label_4: "Kas keegi peaks olema ideaalselt kohanenud, et ellu jääda?",
       label_5: "Kas looduslik valik toodab ideaalselt kohanenud isendeid?",
       reliability: {
-        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-        link: "töörista",
-        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+        label_1: "Tõendite usaldusväärsus:"
       }
     },
 
@@ -297,9 +293,7 @@ export default {
       ],
       label_4: "Kas liigid muutuvad aja jooksul?",
       reliability: {
-        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-        link: "töörista",
-        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+        label_1: "Tõendite usaldusväärsus:"
       }
     },
 
@@ -340,9 +334,7 @@ export default {
       ],
       label_4: "Millised tunnused on päritavad?",
       reliability: {
-        text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-        link: "töörista",
-        label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
+        label_1: "Tõendite usaldusväärsus:"
       }
     },
 

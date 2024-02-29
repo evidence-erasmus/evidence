@@ -59,7 +59,10 @@ export default {
         txt_1: "(pense bem como vai controlar todas as outras variáveis menos aquela que vai manipular; por favor indique em que atividades está envolvido como equipa completa e em que vai dividir responsabilidades, neste caso coloque por favor, quem é responsável por quê)",
         label_1: "3. Plano de atividades"
       },
-      conclusions: "5. Com base na experiência, nossa(s) conclusão(ões) é(são):"
+      conclusions: "5. Com base na experiência, nossa(s) conclusão(ões) é(são):",
+      reliability: {
+        label_1: "4. Credibilidade das fontes"
+      }
     },
 
 
@@ -103,7 +106,10 @@ export default {
         
       ],
       label_4: "O que significa o termo “teoria” na Ciência?",
-      label_5: "A Teoria da evolução preenche os critérios para ser uma teoria científica?"
+      label_5: "A Teoria da evolução preenche os critérios para ser uma teoria científica?",
+      reliability: {
+        label_1: "Credibilidade das fontes"
+      }
     },
 
 
@@ -159,7 +165,10 @@ export default {
       ],
       label_4: "Existem casos em que podemos realmente observar a evolução?",
       label_5: "Existem casos em que podemos testar processos evolutivos em laboratório?",
-      label_6: "Existem alternativas que podemos usar em vez de experimentos reais?"
+      label_6: "Existem alternativas que podemos usar em vez de experimentos reais?",
+      reliability: {
+        label_1: "Credibilidade das fontes"
+      }
     },
 
 
@@ -201,7 +210,10 @@ export default {
           url: "http://www.evogeneao.com/evo-gene.html"
         }
       ],
-      label_4: "A evolução segue um caminho preestabelecido e retilíneo?"
+      label_4: "A evolução segue um caminho preestabelecido e retilíneo?",
+      reliability: {
+        label_1: "Credibilidade das fontes"
+      }
     },
 
 
@@ -243,7 +255,10 @@ export default {
         }
       ],
       label_4: "É preciso estar perfeitamente adaptado para sobreviver?",
-      label_5: "A seleção natural produz a perfeição/criaturas perfeitamente adaptadas?"
+      label_5: "A seleção natural produz a perfeição/criaturas perfeitamente adaptadas?",
+      reliability: {
+        label_1: "Credibilidade das fontes"
+      }
     },
 
 
@@ -281,7 +296,10 @@ export default {
           url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
         }
       ],
-      label_4: "As espécies mudam ao longo do tempo?"
+      label_4: "As espécies mudam ao longo do tempo?",
+      reliability: {
+        label_1: "Credibilidade das fontes"
+      }
     },
 
 
@@ -323,7 +341,10 @@ export default {
           url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
         }
       ],
-      label_4: "Quais características são hereditárias?"
+      label_4: "Quais características são hereditárias?",
+      reliability: {
+        label_1: "Credibilidade das fontes"
+      }
     },
 
 

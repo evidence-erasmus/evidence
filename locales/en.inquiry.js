@@ -59,7 +59,10 @@ export default {
         txt_1: "(you could indicate by which activities you are involved as a full team and by which you are going to divide responsibilities, in this case, specify, who is responsible for what).",
         label_1: "3. Plan of activities"
       },
-      conclusions: "5. Based on the collected evidence, our conclusions are:"
+      conclusions: "5. Based on the collected evidence, our conclusions are:",
+      reliability : {
+        label_1: "Reliability of sources:"
+      }
     },
 
 
@@ -103,7 +106,10 @@ export default {
         
       ],
       label_4: "What is meant by the term “theory” in Science?",
-      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?"
+      label_5: "Does the Theory of evolution fulfil the criteria to be a scientific theory?",
+      reliability : {
+        label_1: "Reliability of sources:"
+      }
     },
 
 
@@ -160,11 +166,9 @@ export default {
       label_4: "Are there any cases that we can actually observe evolution?",
       label_5: "Are there any cases that we can test evolutionary processes in the lab?",
       label_6: "Are there any alternatives we can use instead of actual experiments?",
-      // reliability: {
-      //   text: "Palun kasuta järgnevat {link} selleks, et hinnata kasutatud allikate usaldusväärsust.",
-      //   link: "töörista",
-      //   label: "Kirjuta alljärgnevasse tabelisse kokkuvõte oma uuringu tulemustest."
-      // }
+      reliability : {
+        label_1: "Reliability of sources:"
+      }
     },
 
 
@@ -206,7 +210,10 @@ export default {
           url: "http://www.evogeneao.com/evo-gene.html"
         }
       ],
-      label_4: "Does evolution follow a preordained, straight path?"
+      label_4: "Does evolution follow a preordained, straight path?",
+      reliability : {
+        label_1: "Reliability of sources:"
+      }
     },
 
 
@@ -248,7 +255,10 @@ export default {
         }
       ],
       label_4: "Do you have to be perfectly adapted to survive?",
-      label_5: "Does natural selection produce perfection/perfectly adapted creatures?"
+      label_5: "Does natural selection produce perfection/perfectly adapted creatures?",
+      reliability : {
+        label_1: "Reliability of sources:"
+      }
     },
 
 
@@ -286,7 +296,10 @@ export default {
           url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
         }
       ],
-      label_4: "Do species change over time?"
+      label_4: "Do species change over time?",
+      reliability : {
+        label_1: "Reliability of sources:"
+      }
     },
 
 
@@ -328,7 +341,10 @@ export default {
           url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
         }
       ],
-      label_4: "Which traits are inheritable?"
+      label_4: "Which traits are inheritable?",
+      reliability : {
+        label_1: "Reliability of sources:"
+      }
     },
 
 

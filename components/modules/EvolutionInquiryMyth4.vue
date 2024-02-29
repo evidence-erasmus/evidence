@@ -81,7 +81,7 @@
             v-model="studentAnswers.q4"></textarea>
 
             <label for="q4" class="block mb-2">
-                <b>{{ t('inquiry.ev_myth4.label_4') }}</b>
+                <b>{{ t('inquiry.ev_myth4.label_5') }}</b>
             </label>
             <textarea id="q5" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="4"
             v-model="studentAnswers.q5"></textarea>

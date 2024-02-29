@@ -26,7 +26,7 @@ export default {
 
     ev_open: {
       title: "Evolution",
-      subtitle: "Öppna inquiry",
+      subtitle: "Öppna undersökning",
       choose: "Välj en påstående",
       q1_title: "1. Vi kommer att ta upp följande påstående",
       myths: [
@@ -69,7 +69,7 @@ export default {
 
     ev_myth1: {
       title: "Evolution",
-      subtitle: "Guided inquiry, myt 1",
+      subtitle: "Guidad undersökning, myt 1",
       myth: {
         text: "Ditt team kommer att ta itu med Första påståendet:",
         myth: "“Att evolutionen har skett är bara en teori och inget som kunnat bevisas”."
@@ -80,7 +80,7 @@ export default {
       },
       label_2: "Hur hittar ni detta argument? Är det något som stör er?",
       label_3: "Hur kan vi kontrollera om detta argument stämmer?",
-      question: "Fråga: 	Är evolutionen bara en teori? Vad menas med termen “teori” inom vetenskap?",
+      question: "Fråga:	Är evolutionen bara en teori? Vad menas med termen “teori” inom vetenskap?",
       sources_text: "För att kontrollera ovanstående frågor föreslås följande bibliografiska källor:",
       sources: [
         {
@@ -106,13 +106,16 @@ export default {
         
       ],
       label_4: "Vad menas med termen “teori” inom vetenskap?",
-      label_5: "Uppfyller evolutionsteorin kriterierna för att vara en vetenskaplig teori?"
+      label_5: "Uppfyller evolutionsteorin kriterierna för att vara en vetenskaplig teori?",
+      reliability: {
+        label_1: "Källornas tillförlitlighet"
+      }
     },
 
 
     ev_myth2: {
       title: "Evolution",
-      subtitle: "Guided inquiry, myth 2",
+      subtitle: "Guidad undersökning, myth 2",
       myth: {
         text: "Ditt team kommer att tackla 2a påståendet:",
         myth: "“Evolutionsteori är ovetenskaplig eftersom den inte är testbar eller falsifierbar. Den gör påståenden om händelser som inte observerats och som aldrig kan återskapas.”"
@@ -162,14 +165,17 @@ export default {
       ],
       label_4: "Finns det några fall där vi faktiskt kan observera evolutionen?",
       label_5: "Are there any cases that we can test evolutionary processes in the lab?",
-      label_6: "Finns det några alternativ vi kan använda istället för faktiska experiment?"
+      label_6: "Finns det några alternativ vi kan använda istället för faktiska experiment?",
+      reliability: {
+        label_1: "Källornas tillförlitlighet"
+      }
     },
 
 
 
     ev_myth3: {
       title: "Evolution",
-      subtitle: "Guided inquiry, myh 3",
+      subtitle: "Guidad undersökning, myt 3",
       myth: {
         text: "Ditt team kommer att tackla Tredje påståendet:",
         myth: "Evolution följer en förutbestämd, rak väg (eller om människan utvecklats från apor, varför finns det fortfarande apor?)"
@@ -204,7 +210,10 @@ export default {
           url: "http://www.evogeneao.com/evo-gene.html"
         }
       ],
-      label_4: "Följer evolutionen en förutbestämd, rak väg?"
+      label_4: "Följer evolutionen en förutbestämd, rak väg?",
+      reliability: {
+        label_1: "Källornas tillförlitlighet"
+      }
     },
 
 
@@ -246,7 +255,10 @@ export default {
         }
       ],
       label_4: "Måste man vara perfekt anpassad för att överleva?",
-      label_5: "Ger naturligt urval perfektion / perfekt anpassade varelser?"
+      label_5: "Ger naturligt urval perfektion / perfekt anpassade varelser?",
+      reliability: {
+        label_1: "Källornas tillförlitlighet"
+      }
     },
 
 
@@ -284,7 +296,10 @@ export default {
           url: "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/18%3A_Evolution_and_the_Origin_of_Species/18.05%3A_Evidence_of_Evolution/18.5C%3A_Gaps_in_the_Fossil_Record"
         }
       ],
-      label_4: "Förändras arterna över tiden?"
+      label_4: "Förändras arterna över tiden?",
+      reliability: {
+        label_1: "Källornas tillförlitlighet"
+      }
     },
 
 
@@ -326,7 +341,10 @@ export default {
           url: "https://www.open.edu/openlearn/nature-environment/natural-history/evolution-through-natural-selection/content-section-2"
         }
       ],
-      label_4: "Vilka egenskaper är ärftliga?"
+      label_4: "Vilka egenskaper är ärftliga?",
+      reliability: {
+        label_1: "Källornas tillförlitlighet"
+      }
     },
 
 
@@ -336,7 +354,7 @@ export default {
       title: "Klimatförändringar",
       subtitle: "Avatud uurimus",
       choose: "Vali müüt",
-      q1_title: "1. Hakkame uurima järgmist müüti:",
+      q1_title: "1. Vi undersökte följande myt:",
       myths: [
         "Liikide väljasuremine on looduslik protsess.",
         "Liigid suudavad kliimamuutustega kohaneda.",

@@ -9,7 +9,7 @@
 
 
             <section>
-                <h4 class="my-1">{{ t('inquiry.cc_open.q1_title') }}</h4>
+                <h4 class="my-1">{{ t('inquiry.ev_open.q1_title') }}</h4>
                 <p class="whitespace-pre-wrap">
                     {{ studentAnswers.mythName }}
                 </p>

@@ -7,7 +7,7 @@
         <div class="e-article container mx-auto mt-28 ">
             <slot />
         </div>
-        <UiFooterEu />
+        <UiFooterEu class="print:hidden" />
         <div id="theEnd"></div>
     </div>
 </template>

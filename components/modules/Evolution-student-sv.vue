@@ -112,8 +112,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution: Not even a theory</a>
                     </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
-                        {text:'Guidad undersökning', url:'./inquiry/myth1', blank:false}
+                        {text:'Öppen undersökning 1', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning 1', url:'./inquiry/myth1', blank:false}
                     ]" />
                 </UiCardInfo>
 
@@ -148,8 +148,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Fallacies of Evolution</a>
                     </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
-                        {text:'Guidad undersökning', url:'./inquiry/myth2', blank:false}
+                        {text:'Öppen undersökning 2', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning 2', url:'./inquiry/myth2', blank:false}
                     ]" />
                 </UiCardInfo>
                 
@@ -167,8 +167,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">If Humans Evolved from Apes, Why Do Apes Exist Today?</a>
                     </p> -->
                     <UiNavButtonBar :buttons="[
-                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
-                        {text:'Guidad undersökning', url:'./inquiry/myth3', blank:false}
+                        {text:'Öppen undersökning 3', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning 3', url:'./inquiry/myth3', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -187,8 +187,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Evolution</a>
                     </p> -->
                     <UiNavButtonBar class="font-Body mb-6" :buttons="[
-                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
-                        {text:'Guidad undersökning', url:'./inquiry/myth4', blank:false}
+                        {text:'Öppen undersökning 4', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning 4', url:'./inquiry/myth4', blank:false}
                     ]" />
                 </UiCardInfo>
                 
@@ -206,8 +206,8 @@
                         <a href="https://skepticalscience.com/co2-temperature-correlation.htm" target="_blank" rel="noopener noreferrer">https://skepticalscience.com/co2-temperature-correlation.htm</a>
                     </p> -->
                     <UiNavButtonBar :buttons="[
-                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
-                        {text:'Guidad undersökning', url:'./inquiry/myth5', blank:false}
+                        {text:'Öppen undersökning 5', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning 5', url:'./inquiry/myth5', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
@@ -226,8 +226,8 @@
                         <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">Understanding Evolution</a>
                     </p> -->
                     <UiNavButtonBar :buttons="[
-                        {text:'Öppen undersökning', url:'./inquiry/open', blank:false},
-                        {text:'Guidad undersökning', url:'./inquiry/myth6', blank:false}
+                        {text:'Öppen undersökning 6', url:'./inquiry/open', blank:false},
+                        {text:'Guidad undersökning 6', url:'./inquiry/myth6', blank:false}
                     ]" class="mb-6 font-Body"
                     />
                 </UiCardInfo>
