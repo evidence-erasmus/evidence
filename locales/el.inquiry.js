@@ -1148,6 +1148,21 @@ export default {
           url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]
+    },
+
+    drugs: {
+      title: "Ναρκωτικά",
+      subtitle: "Οι απαντήσεις μας",
+      label_1: "Σπάσαμε τον παρακάτω μύθο:",
+      label_2: "Η υπόθεση / ερευνητικό μας ερώτημα:",
+      label_3: "Σχέδιο δραστηριοτήτων:",
+      reliability: {
+        label_1: "Αξιοπιστία πηγών:"
+      },
+      label_4: "Τα συμπεράσματά μας:",
+      label_5: "Η δήλωσή μας:"
     }
+
+
   }
 }

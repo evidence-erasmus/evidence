@@ -1126,7 +1126,22 @@ export default {
           url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]
+    },
+
+    drugs: {
+      title: "Drugs",
+      subtitle: "Your answers",
+      label_1: "We broke the following myth:",
+      label_2: "Our hypothesis / research question:",
+      label_3: "Plan of activities",
+      reliability: {
+        label_1: "Reliability of sources:"
+      },
+      label_4: "Our conclusion(s):",
+      label_5: "Our statement:"
     }
+
+
   }
 }
 

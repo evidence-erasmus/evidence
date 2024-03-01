@@ -7,7 +7,7 @@
         <div class="prose prose-lg">
             
             <h1 class="mb-2">{{ t('inquiry.drugs.title') }}</h1>
-            <h3 class="uppercase my-2">{{ t('inquiry.drugs.subtitle') }}</h3>
+            <h3 class="uppercase mt-2 mb-6">{{ t('inquiry.drugs.subtitle') }}</h3>
             <!-- <h3 class="my-8 border-l-4 border-l-rose-400 pl-4">{{ t('inquiry.ev_myth1.myth.text') }} {{ t('inquiry.ev_myth1.myth.myth') }}</h3> -->
             
             <section>

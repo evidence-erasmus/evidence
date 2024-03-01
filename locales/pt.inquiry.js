@@ -1126,6 +1126,20 @@ export default {
           url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]
+    },
+
+    drugs: {
+      title: "Drogas",
+      subtitle: "Nossas respostas",
+      label_1: "Quebramos o seguinte mito:",
+      label_2: "Nossa hipótese / questão de pesquisa:",
+      label_3: "Plano de atividades:",
+      reliability: {
+        label_1: "Confiabilidade das fontes:"
+      },
+      label_4: "Nossas conclusões:",
+      label_5: "Nossa declaração:"
     }
+
   }
 }

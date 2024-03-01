@@ -1156,6 +1156,20 @@ export default {
           url: "https://drive.google.com/file/d/19TQRfChWF33c_zgUsPGNzBwa9F-YVH76/view?usp=sharing"
         }
       ]
+    },
+
+    drugs: {
+      title: "Droger",
+      subtitle: "Dina svar",
+      label_1: "Vi bröt följande myt:",
+      label_2: "Vår hypotes / forskningsfråga:",
+      label_3: "Plan över aktiviteter:",
+      reliability: {
+        label_1: "Källornas tillförlitlighet:"
+      },
+      label_4: "Våra slutsatser:",
+      label_5: "Vårt uttalande:"
     }
+
   }
 }
