@@ -23,7 +23,7 @@
             <section id="s-1">
                 <h2 id="s-1t">Sissejuhatus</h2>
 
-                <p>Selles moodulis palutakse teil ümber lükata või kinnitada mõnda levinud müüti kliimamuutuste kohta. <a href="#activity-1">Sissejuhatavas videos</a>  tuuakse välja mõned kliimamuutustega seotud arusaamad (uskumused). Rühmaarutelu tulemusel peaksite valima välja müüdi, mida ümber lükata või kinnitada (Joonis 1).</p>
+                <p>Selles moodulis palutakse teil ümber lükata või kinnitada mõnda levinud müüti kliimamuutuste kohta. <a href="#s-2">Sissejuhatavas videos</a>  tuuakse välja mõned kliimamuutustega seotud arusaamad (uskumused). Rühmaarutelu tulemusel peaksite valima välja müüdi, mida ümber lükata või kinnitada (Joonis 1).</p>
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp" />
                 <p>Seda on võimalik teha nii eksperimentaalselt kui ka sekundaarsete allikate uurimise kaudu. Viimase kaudu õpite ühtlasi hindama infoallikate (teaduskirjandus, populaarteaduslik kirjandus, muud allikad) usaldusväärsust. Pärast järelduste tegemist peate te esitlema oma järeldusi  asjakohaselt ja veenvalt klassikaaslastele (või muule publikule). Mooduli lõpetab argumentatsioonimäng, kus saate kasutada oma loodusteaduslikke teadmisi ning kõrvutada neid isiklike ja  sotsiaalsetest väärtustega.</p>
             </section>         
@@ -34,7 +34,7 @@
             <hr class="mt-10 mb-40 print:my-10" />
 
             <section id="s-2">
-                <h2 id="s-2t">Tegevus 1:  Video vaatamine</h2>
+                <h2 id="s-2t">Tegevus 1: Video vaatamine</h2>
                 <p>Vaadake videot ning pange kirja oma mõtted, mis teil teema kohta tekkisid.</p>
                 <UiYoutube video="CbJ7GmgEAAo" />
             </section>
