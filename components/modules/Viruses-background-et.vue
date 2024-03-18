@@ -620,7 +620,7 @@
 
 
                 <h3 id="myth-4"><span class="text-rose-400">Müüt nr 4:</span> Vaktsiinid sisaldavad eluohtlikke toksiine</h3>
-                <p>Inimesed tunnevad muret formaldehüüdi, elavhõbeda või alumiiniumi kasutamise pärast vaktsiinides. Ühest küljest on tõsi, et need kemikaalid on teatud tasemel inimkehale mürgised. Teisest küljest on vaktsiinides kasutatu kemikaalide väga väikesi koguseid ja need kogused on väiksemad kui toitumisest saadavad või formaldehüüdi toodavad meie enda ainevahetussüsteemid kiiremini.</p> 
+                <p>Inimesed tunnevad muret formaldehüüdi, elavhõbeda või alumiiniumi kasutamise pärast vaktsiinides. Ühest küljest on tõsi, et need kemikaalid on teatud tasemel inimkehale mürgised. Teisest küljest on vaktsiinides kasutatud kemikaalide väga väikesi koguseid, kusjuures need on väiksemad kui toitumisest saadavad kogused. Ka toodavad meie enda ainevahetussüsteemid näiteks formaldehüüdi.</p> 
                 <p>Põhjused, miks teatud elemendid, näiteks alumiiniumsoolad, lisatakse vaktsiinidele, on see, et need toimivad adjuvandina, mis tähendab, et selle olemasolu suurendab vaktsineerimisel immuunvastust. Samuti sisaldavad alumiiniumsoolasid ainult teatud vaktsiinid, uued COVID-19 vaktsiinid neid näiteks ei sisalda. Väike osa vaktsiinidest on sisaldanud säilitusainena timerosaali, kuid ükski lastel kasutatavatest vaktsiinidest ei sisalda seda praegu. Thimerosal sisaldab etüülelavhõbedat, mis eritub inimkehast kiiresti, võrreldes bioakumuleeruva metüülelavhõbedaga – seega on suur erinevus, mis kujul mürgine metall esineb. Sellest hoolimata ei sisalda COVID-19 vaktsiinid toksiine.</p>
                 <section class="e-card">
                     <h4 class="mt-0">Viited</h4>

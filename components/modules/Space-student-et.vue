@@ -23,7 +23,7 @@
                 <h2 id="s-0-title">Sissejuhatus</h2>
 
                 <p>
-                    Võib-olla tundsite juba lapsena uudishimu kosmose ja seal leiduva, erinevate taevakehade ja kosmose lõputuse vastu. Selles moodulis kutsutakse teid mõtisklema inimeste kosmoseuuringute üle ning uurima erinevaid kosmosega seotud müüte ja küsimusi. <a href="#s1">Sissejuhatavates videotes</a> tuuakse välja mõned kosmosealased ideed, unistused, riskid, hirmud ja müüdid ning arutatakse neid rühmades. Rühmaarutelu tulemusel valitakse müüt, mida põhjalikumalt uurida otsides tõendeid selle kummutamiseks või kinnitamiseks. Seda tegevust saab läbi viia eksperimentaalselt või kasutades sekundaarseid allikaid (teave teaduskirjandusest ja Internetist). Esimese sammuna peaksite püstitama kontrollitava hüpoteesi (vt joonis 1).
+                    Võib-olla tundsite juba lapsena uudishimu kosmose ja seal leiduva, erinevate taevakehade ja kosmose lõpmatuse vastu. Selles moodulis kutsutakse teid mõtisklema inimeste kosmoseuuringute üle ning uurima erinevaid kosmosega seotud müüte ja küsimusi. <a href="#s1">Sissejuhatavates videotes</a> tuuakse välja mõned kosmosealased ideed, unistused, riskid, hirmud ja müüdid ning arutatakse neid rühmades. Rühmaarutelu tulemusena valitakse välja müüt, mida põhjalikumalt uurida otsides tõendeid selle kummutamiseks või kinnitamiseks. Seda tegevust saab läbi viia eksperimentaalselt või kasutades sekundaarseid allikaid (teadus- ja populaarteaduskirjandus). Esimese sammuna peaksite püstitama kontrollitava hüpoteesi (vt joonis 1).
                 </p>
 
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp">
@@ -76,7 +76,7 @@
             <p>Pärast video vaatamist kutsutakse teid teemat arutama väiksemates rühmades (3-4 liiget).</p>
 
             <ol>
-                <li>Palun avaldage oma mõtteidja tundeid videos oma kaaslastele esitatud probleemide kohta.</li>
+                <li>Palun avaldage oma mõtteid ja tundeid oma kaaslastele videos esitatud probleemide kohta.</li>
                 <li>Rühmana palutakse teil valida üks müüt või probleem, mida edasi uurida kas sissejuhatavas videos väljatoodutest või  mõni alljärgnevatest:</li>
             </ol>
             
@@ -181,7 +181,7 @@
                 </h3>
 
                 <p>
-                    Väilus on seotud väitega: "Mehitatud kosmoselendude programm on riigi ressursside mõttetu raiskamine".
+                    Väitlus on seotud väitega: "Mehitatud kosmoselendude programm on riigi ressursside mõttetu raiskamine".
                 </p>
                 <p>
                     Väite suhtes on kaks seisukohta: mehitatud kosmoselendude programmi arendamise poolt ja vastu, kusjuures silmas tuleks pidada oma riiki (riiklike astronautide kosmosesse saatmist).
@@ -245,7 +245,7 @@
                     Kui kõik kaheksa rühma on oma argumendid esitanud, tehakse viieminutiline paus, mis võimaldab välja arendada ning esitada vastuargumendid ning soovi korral lükata omakorda vastuargumendid ümber.
                 </p>
                 <p>
-                    Pärast vaheaega arutavad rollimängu kõneisikud omavahel, püüdes kaitsta oma seisukohta ning pareerida vastaspoole seisukohti. Nõustajate (teiste rühmaliikmete) ülesanne rollimängu selles osas on toetada oma rühma eestkõnelejat, jätkates teisi rolle esindavate rühmade argumentide ümberlükkamist.
+                    Pärast vaheaega arutavad rollimängu kõneisikud omavahel, püüdes kaitsta oma seisukohta ning pareerida vastaspoole seisukohta. Nõustajate (teiste rühmaliikmete) ülesanne rollimängu selles osas on toetada oma rühma eestkõnelejat, jätkates teisi rolle esindavate rühmade argumentide ümberlükkamist.
                 </p>
                 <p>
                     Debati lõpus saavad osalejad hääletada kas mehitatud või robotite abil läbiviidavate kosmosemissioonide jaoks maksumaksja raha kasutamises.

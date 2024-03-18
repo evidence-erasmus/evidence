@@ -190,13 +190,13 @@
             <section id="a6">
                 <h2 id="a6t">Tegevus 6: Lauamäng</h2>
 
-                <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale. <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
+                <p class="text-sm italic">Antud mäng on adapteeritud ja modifitseeritud tuginedes järgmisele allikale: <a href="https://playdecide.eu/playdecide-kits/167151" target="_blank" rel="noopener noreferrer">https://playdecide.eu/playdecide-kits/167151</a></p>
                 <p>Antud tegevuse käigus kutsutakse Sind osalema kaardimängus koos oma rühmakaaslastega, et harjutada lihtsat, üksteist arvestavat ning faktipõhist rühmaarutelu, mis peaks modelleerima ühiskondlikke / poliitilisi otsustusprotsesse. Mäng võimaldab Sul uurida teemat sügavuti sundimatul viisil, väljendada oma mõtteid ja arvamusi.</p>
                 
                 <p class="font-bold">Sa oled oodatud:</p>
                 <ul class="leading-tight">
                     <li><b>Tutvuma probleemiga</b> ja vaatlema seda erinevatest vaatenurkadest.</li>
-                    <li>Kujundama probleemi suhtes oma <b>arvamust</b>.</li>
+                    <li>Kujundama probleemi suhtes oma <b>arvamuse</b>.</li>
                     <li>Töötama rühmas koos <b>ühise nägemuse</b> leidmise suunas.</li>
                     <li><b>Hääletama</b> ühe väljapakutud poliitilise seisukoha poolt etteantud neljast ning <b>jagama oma tulemusi</b> teistega.</li>
                 </ul>

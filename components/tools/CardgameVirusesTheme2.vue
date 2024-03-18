@@ -228,7 +228,7 @@
         {
                 "title": "",
                 "image": "card_viruses_21.webp",
-                "story": "Ühiskonnas eksiteerib hulk inimesi, mõned neist küllalt kuulsad, kes os on häälekalt protestinud maskikandmise vastu avalikes kohtades COVID-19 pandeemia ajal. Näiteks USA endine korvpallur Aubrey Huff kuulutas Twitteris viiruse kõrghooajal, et enam kunagi ei kanna ta avalikes ruumides maski: “See on täielikult põhiseaduse vastane”, kirjutas ta. Lõpetame selle jama kohe ja praegu! Kes on minuga?”. Tema kriitikud sotsiaalmeedias proovisid teda häbistada teiste inimeste elude ohustamise eest, kuid see veennud Huff-i kuidagi, et too mõistlikumalt käituma hakkaks. (theatlantic.com)"
+                "story": "Ühiskonnas eksiteerib hulk inimesi, mõned neist küllalt kuulsad, kes os on häälekalt protestinud maskikandmise vastu avalikes kohtades COVID-19 pandeemia ajal. Näiteks USA endine korvpallur Aubrey Huff kuulutas Twitteris viiruse kõrghooajal, et enam kunagi ei kanna ta avalikes ruumides maski: “See on täielikult põhiseaduse vastane”, kirjutas ta. Lõpetame selle jama kohe ja praegu! Kes on minuga?”. Tema kriitikud sotsiaalmeedias proovisid teda häbistada teiste inimeste elude ohustamise eest, kuid see ei veennud Huff-i kuidagi, et too mõistlikumalt käituma hakkaks. (theatlantic.com)"
             },
             {
                 "title": "",

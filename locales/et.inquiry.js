@@ -963,7 +963,7 @@ export default {
           list: [
             "Aseta termomeetri andur pabersilindri sisemusse.",
             "Pane kummassegi klaaspudelisse 3 supilusikatäit söögisoodat.",
-            "Mõõda plastikust mahutistesse 50 ml äädikat.",
+            "Mõõda plastikust mahutistesse 50 ml äädikat (4,5%-line).",
             "Torka paberisilinder koos termomeetriga mõlemasse klaasanumasse.",
             "Vala lehtri abil anumasse äädikas ja sulge kaas. Hetkel paneme kaane kinni 2. anumal.",
             "Asetage mõlema konteineri kõrvale lambipirn ja jätke see 30 minutiks seisma. Selle aja jooksul jälgime igal konkreetsel juhul temperatuuri muutust ja salvestame oma andmed."

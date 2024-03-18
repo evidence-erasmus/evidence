@@ -411,10 +411,10 @@
                 <h3>Müüt 6: Kliimamuutustega seotud meetmed muudavad inimesed vaesemaks.</h3>
                 <p>
                     <i>
-                        “Eitajad kahtlevad, kas kasvuhoonegaaside heitkoguste vähendamise jõupingutused fossiilkütuste kasutamise vähendamiseks on ülemaailmse arengu jaoks hädavajalikud. See on levinud arvamus, et taastuvenergia on kallis. Tuuleenergia on kalleim viis energia tootmiseks kui alternatiivid.”
+                        “Eitajad kahtlevad, kas kasvuhoonegaaside heitkoguste vähendamise jõupingutused fossiilkütuste kasutamise vähendamiseks on ülemaailmse arengu jaoks hädavajalikud. On levinud arvamus, et taastuvenergia on kallis. Tuuleenergia on kalleim viis energia tootmiseks kui alternatiivid.”
                     </i>
                     <br />
-                    (David Montgomery)
+                    <a href="http://science.edgeboss.net/wmedia/science/sst2011/033111.wvx">(David Montgomery)</a>
                 </p>
                 <UiCardInfo class="my-8" theme="sky-500" icon="tabler:microscope">
                     <div>

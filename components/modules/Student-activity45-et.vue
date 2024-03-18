@@ -37,7 +37,7 @@
                 <h4>Protsess</h4>
                 <ul>
                     <li>Tööülesanded (visuaali, teksti, heli elementide loomine ning suuline esitlus on rühmas omavahel õiglaselt ära jaotatud).</li>
-                    <li>Video on valmis tähtajaks, s.o <span class="break-keep">_________________</span> (kokkulepitud tähtaeg).</li>
+                    <li>Esitlus on valmis tähtajaks, s.o <span class="break-keep">_________________</span> (kokkulepitud tähtaeg).</li>
                 </ul>
             </div>
         </UiCardInfo>
