@@ -362,7 +362,7 @@ export default {
       q2_txt: "Nüüd kitsendage oma müüt {q2Link} või uurimisküsimuseks.",
       q2_link: "kontrollitavaks hüpoteesiks",
       q2_title: "2. Meie hüpotees ja/või uurimisküsimus on:",
-      q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
+      q2_txt2: "Tegevusplaan (palun märkige, milliste tegevustega olete kogu meeskonnaga kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab):",
       
       plan: {
         txt_1: "Palun märkige, milliste tegevustega olete kogu meeskonnana kaasatud ja mille puhul kavatsete töökohustusi jagada, antud juhul pange palun kirja, kes mille eest vastutab:",
@@ -392,9 +392,8 @@ export default {
       },
       question: {
         question: "Uurimisküsimus: Kas liikide massiline väljasuremine on loomulik protsess?",
-        txt_1: "Uurige {link1} ja {link2} ning vastake järgnevatele küsimustele.",
-        link_1: "allikat 1.1",
-        link_2: "vaadake videot"
+        txt_1: "{link2} ning vastake järgnevatele küsimustele.",
+        link_2: "Vaadake videot"
       },
       q_1: "1. Mida me mõtleme „massilise väljasuremise” all?",
       q_2: "2. Kui palju massilist väljasuremist teie arvates toimub?",
@@ -403,7 +402,7 @@ export default {
       q_5: "5. Miks me peaksime praegu muretsema massilise väljasuremise pärast?",
       q_6: {
         txt_1: "Uurige {link1} ning vastake järgmisele küsimusele:",
-        link_1: "allikat 1.2",
+        link_1: "allikat 1.1",
         q_6: "6. Mis on pingviinide massilise hukkumise põhjus?"
       },
       q_7: {
@@ -415,15 +414,11 @@ export default {
       q_9: "9. Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
       sources: [
         {
-          name: "Allikas 1.1",
-          url: "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
-        },
-        {
           name: "Video",
           url: "https://www.youtube.com/watch?v=nho73BtDQtE"
         },
         {
-          name: "Allikas 1.2",
+          name: "Allikas 1.1",
           url: "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
         }
       ]

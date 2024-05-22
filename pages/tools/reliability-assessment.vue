@@ -46,15 +46,7 @@
                                                 <a :href="t('table1.row1.c2.source1.link2')" target="_blank" rel="noopener noreferrer">{{ t('table1.row1.c2.source1.txt3') }}</a>
                                             </template>
                                         </i18n-t>
-                                        <!-- <p>
-                                            <a href="https://youtu.be/Jy3sDnKAg0Q" target="_blank" rel="noopener noreferrer">
-                                                <Icon name="mdi:youtube-tv" /> How to Google Scholar
-                                            </a>
-                                            <br />
-                                            <a href="https://youtu.be/Jy3sDnKAg0Q" target="_blank" rel="noopener noreferrer">
-                                                <Icon name="mdi:youtube-tv" /> How to Google Scholar
-                                            </a>
-                                        </p> -->
+                                        
                                     </li>
                                     <li >
                                         <a :href="t('table1.row1.c2.source2.link')" rel="noopener noreferrer" target="_blank">
@@ -129,6 +121,20 @@
                                         </a>
                                     </li>
                                 </ul>
+                            </td>
+                            <td>
+                                <span class="whitespace-nowrap">
+                                    <Icon name="mdi:star" size="32" class="text-yellow-400" />
+                                    <Icon name="mdi:star" size="32" class="text-yellow-400" />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ t('table1.row3a.c1') }}
+                            </td>
+                            <td>
+
                             </td>
                             <td>
                                 <span class="whitespace-nowrap">
@@ -234,6 +240,7 @@
                             <td>
                                 {{ t('table2.row1.c2') }}
                                 <br />
+                                {{ t('table2.row1.c22') }}
                             </td>
                             <td>
                                 <span class="whitespace-nowrap">
@@ -248,6 +255,8 @@
                             </td>
                             <td>
                                 {{ t('table2.row2.c2') }}
+                                <br >
+                                {{ t('table2.row2.c22') }}
                             </td>
                             <td>
                                 <span class="whitespace-nowrap">
@@ -416,10 +425,6 @@
                 </table>
             </div>
 
-            <p>
-                <b>{{ t('source.txt') }}</b> <a :href="t('source.link')" target="_blank" rel="noopener noreferrer">{{ t('source.link') }}</a>
-            </p>
-
         </section>
 
 </template>
@@ -430,10 +435,6 @@
 <i18n lang="json">
 {
     "en" : {
-        "source": {
-            "txt": "Source:",
-            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
-        },
         "title": "Reliability assessment guidelines",
         "videos-title": "Videos on assessing sources' reliability and using Google Scholar:",
         "table1": {
@@ -497,6 +498,9 @@
                     }
                 }
             },
+            "row3a": {
+                "c1": "Modern textbooks"
+            },
             "row4": {
                 "c1": "Governmental websites (in nations with elected, democratic governments) (.gov)"
             },
@@ -530,7 +534,8 @@
             },
             "row2": {
                 "c1": "If a well-known expert in a given area",
-                "c2": "Are his/her credits (affiliation, educational degrees, publications, awards as claimed) traceable?"
+                "c2": "Are his/her credits (affiliation, educational degrees, publications, awards as claimed) traceable?",
+                "c22": ""
             },
             "row3": {
                 "c1": "If an organisation"
@@ -593,10 +598,6 @@
 
     
     "el" : {
-        "source": {
-            "txt": "Source:",
-            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
-        },
         "title": "Reliability assessment guidelines",
         "videos-title": "Videos on assessing sources' reliability and using Google Scholar:",
         "table1": {
@@ -660,6 +661,9 @@
                     }
                 }
             },
+            "row3a": {
+                "c1": "Σύγχρονα σχολικά βιβλία"
+            },
             "row4": {
                 "c1": "Κυβερνητικές ιστοσελίδες (σε έθνη με εκλεγμένες, δημοκρατικές κυβερνήσεις) (.gov)"
             },
@@ -693,7 +697,8 @@
             },
             "row2": {
                 "c1": "Γνωστός ειδικός σε έναν δεδομένο τομέα (εμπειρογνώμονας)",
-                "c2": "Είναι ανιχνεύσιμο το επιστημονικό του προφίλ (συνεργασίες, πτυχία εκπαίδευση, δημοσιεύσεις, βραβεία) όπως ισχυρίζεται;"
+                "c2": "Είναι ανιχνεύσιμο το επιστημονικό του προφίλ (συνεργασίες, πτυχία εκπαίδευση, δημοσιεύσεις, βραβεία) όπως ισχυρίζεται;",
+                "c22": ""
             },
             "row3": {
                 "c1": "If an organisation"
@@ -761,10 +766,6 @@
 
 
     "et" : {
-        "source": {
-            "txt": "Allikas:",
-            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
-        },
         "title": "Juhend, kuidas hinnata info usaldusväärsust",
         "videos-title": "Google Scholar’i kasutamise õppevideod",
         "table1": {
@@ -774,7 +775,7 @@
                 "th3": "Usaldusväärsuse määr"
             },
             "row1": {
-                "c1": "Eelretsenseeritud teadusartiklid Tasub läbi lugeda sisukokkuvõte ning vaadata tsiteeringute arvu (NB! uutel artiklitel võivad puududa). Kõige kõrgemal astmel on usaldusväärsuse mõttes metauuringud ning teadusartiklite süstemaatilised kirjalduse ülevaated eelretsenseeritud ajakirjades.",
+                "c1": "Eelretsenseeritud teadusartiklid. Tasub läbi lugeda sisukokkuvõte ning vaadata viitamiste arvu (NB! uutel artiklitel võivad puududa). Kõige kõrgemal astmel on usaldusväärsuse mõttes metauuringud ning teadusartiklite süstemaatilised kirjalduse ülevaated eelretsenseeritud ajakirjades.",
                 "c2": {
                     "title": "Teadusliku uurimistöö andmebaasid:",
                     "source1": {
@@ -817,13 +818,15 @@
                     "source1": {
                         "txt": "Wikipedia",
                         "link": "https://www.wikipedia.org/"
-                        // kindlasti mõelda siinkohal ingliskeelset kui kõige rikkalikumat ning enim faktikontrollitud Wikipedia versiooni
                     },
                     "source2": {
                         "txt": "Britannica",
                         "link": "https://www.britannica.com/"
                     }
                 }
+            },
+            "row3a": {
+                "c1": "Kaasaegsed õpikud"
             },
             "row4": {
                 "c1": "Riiklikud veebilehed (kuuluvad demokraatlikele riikidele, milles toimuvad vabad valimised) (ingliskeelsetes maades sageli domeeni lõpp: .gov)"
@@ -854,14 +857,15 @@
             "row1": {
                 "c1": "Teadlane / uurija",
                 "c2": "Kas tema saavutused on tuvastavad (väidetud amet ja organisatsioon, haridustase, publikatsioonid, auhinnad)? N: kasutada GoogleScholar-it, Eesti teadlaste kohta leiab infot: www.etis.ee",
-                "c22": ""
+                "c22": "Tavameedia puhul: Kas avaldab arvamust valdkonnas või sellele lähedases valdkonnas, milles ta on viinud läbi uurimistööd?"
             },
             "row2": {
                 "c1": "Antud valdkonna tuntud ekspert",
-                "c2": "Kas tema saavutused on tuvastavad (väidetud amet ja organisatsioon / asutus, haridustase, publikatsioonid, auhinnad)?"
+                "c2": "Kas tema saavutused on tuvastavad (väidetud amet ja organisatsioon / asutus, haridustase, publikatsioonid, auhinnad)?",
+                "c22": "Tavameedia puhul: Kas avaldab arvamust valdkonnas või sellele lähedases valdkonnas, milles omab ekspertiisi?"
             },
             "row3": {
-                "c1": "" // If an organisation
+                "c1": ""
             }
         },
         "table3": {
@@ -902,7 +906,7 @@
                 "c2": "Tekst sisaldab spetsiifilisi fakte ja detaile, et toetada väljakäidud ideid"
             },
             "row10": {
-                "c2": "The purpose is to entertain"
+                "c2": "Eesmärgiks on lõbustada"
             },
             "row11": {
                 "c2": "Eesmärgiks on veenda, tekst on emotsionaalselt laetud"
@@ -916,10 +920,6 @@
         }
     },
     "pt" : {
-        "source": {
-            "txt": "Fontes:",
-            "link": "https://averillpark.k12.ny.us/web-site-evaluation"
-        },
         "title": "Como avaliar a fiabilidade das fontes de informação: Tutorial",
         "videos-title": "Videos on assessing sources' reliability and using Google Scholar:",
         "table1": {
@@ -983,6 +983,9 @@
                     }
                 }
             },
+            "row3a": {
+                "c1": "Livros didáticos modernos"
+            },
             "row4": {
                 "c1": "Sites governamentais (em países com governos eleitos democraticamente) (.gov)"
             },
@@ -1016,7 +1019,8 @@
             },
             "row2": {
                 "c1": "Especialista conhecido",
-                "c2": "É possível identificar  a sua filiação académica ou organizacional, grau académico e  publicações?"
+                "c2": "É possível identificar  a sua filiação académica ou organizacional, grau académico e  publicações?",
+                "c22": ""
             },
             "row3": {
                 "c1": "If an organisation"
@@ -1141,6 +1145,9 @@
                     }
                 }
             },
+            "row3a": {
+                "c1": "Modern textbooks"
+            },
             "row4": {
                 "c1": "Governmental websites (in nations with elected, democratic governments) (.gov)"
             },
@@ -1174,7 +1181,8 @@
             },
             "row2": {
                 "c1": "If a well-known expert in a given area",
-                "c2": "Are his/her credits (affiliation, educational degrees, publications, awards as claimed) traceable?"
+                "c2": "Are his/her credits (affiliation, educational degrees, publications, awards as claimed) traceable?",
+                "c22": ""
             },
             "row3": {
                 "c1": "If an organisation"

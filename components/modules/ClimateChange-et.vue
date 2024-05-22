@@ -46,7 +46,7 @@
                 <h2 id="s-2t">Mooduli õppe-eesmärgid</h2>
                 
                 <ul>
-                    <li><b>Kodanikupädevus:</b> arendada õpilaste teadmisi ja hoiakuid nii, et suudaksid teha  kliimamuutustega seotud vastutustundlike otsuseid.</li>
+                    <li><b>Kodanikupädevus:</b> arendada õpilaste teadmisi ja hoiakuid nii, et nad suudaksid teha kliimamuutustega seotud vastutustundlike otsuseid.</li>
                     <li><b>Meediapädevus:</b>
                         <ul class="my-0">
                             <li>arendada õpilaste oskusi hinnata informatsiooni usaldusväärsust, esitada tõendusmaterjali antud kuulajaskonna jaoks asjakohasel viisil;</li>
@@ -103,7 +103,7 @@
                 
                 <h2 id="s-4t">Mooduli struktuur</h2>
                 
-                <h4>Evidence moodulite tegevuste järjestus</h4>
+                <h4>EVIDENCE moodulite tegevuste järjestus</h4>
                 <p>
                     See moodul koosneb kuuest tegevusest. Tegevuste järjekord on välja toodud joonisel 1 ja tabelis 1 (vt allpool).
                 </p>
@@ -228,13 +228,13 @@
                 <h2 id="section-7">Õpetamissoovitused</h2>
 
                 <p>
-                    Moodul algab sissejuhatavast videost, mis avab mõned müüdid kliimamuutuste kohta, et tõstatada õpilastes küsimusi, mitte anda neile koheseid vastuseid. Loodetavasti on õpilased pärast video vaatamist <b>(Tegevus 1)</b> sisemiselt motiveeritud uurima ühte müüti põhjalikumalt. Eesmärk on kaasata õpilasi tegevustesse, mis peaksid viima probleemi parema mõistmiseni. See peaks ühtlasi panema õpilasi mõtlema oma eelteadmiste üle ning jagama oma arusaamu ja mõtteid kaaslastega <b>(Tegevus 2)</b>. Samuti saab selleks kasutada valitud peatükke <NuxtLink :to="localePath('/climate-change/background')">teadusliku taustainfo</NuxtLink> lehelt.
+                    Moodul algab sissejuhatavast videost, mis avab mõned müüdid kliimamuutuste kohta, et tõstatada õpilastes küsimusi, mitte anda neile koheseid vastuseid. Loodetavasti on õpilased pärast video vaatamist (<NuxtLink to="./climate-change/student#s-2">Tegevus 1</NuxtLink>) sisemiselt motiveeritud uurima ühte müüti põhjalikumalt. Eesmärk on kaasata õpilasi tegevustesse, mis peaksid viima probleemi parema mõistmiseni. See peaks ühtlasi panema õpilasi mõtlema oma eelteadmiste üle ning jagama oma arusaamu ja mõtteid kaaslastega (<NuxtLink to="./climate-change/student#s-3">Tegevus 2</NuxtLink>). Samuti saab selleks kasutada valitud peatükke <NuxtLink :to="localePath('/climate-change/background')">teadusliku taustainfo</NuxtLink> lehelt.
                 </p>
                 <p>
-                    Tegevuses 2 peavad õpilased oma valitud müüdi kitsendama hüpoteesiks/uurimisküsimuseks, mida saab ümber lükata /kinnitada / millele saab vastata
+                    Tegevuses 2 peavad õpilased oma valitud müüdi kitsendama hüpoteesiks/uurimisküsimuseks, mida saab ümber lükata /kinnitada /millele saab vastata
                 </p>
                 <p>
-                    <b>Tegevust 3</b> võib läbi viia kahel viisil (joonis 2).
+                    <NuxtLink to="./climate-change/student#s-4">Tegevust 3</NuxtLink> võib läbi viia kahel viisil (joonis 2).
                 </p>
                 <p>
                     <i><b>Joonis 2.</b> Tegevuses 3 pakutavad lahendused tundide läbiviimiseks</i>
@@ -258,8 +258,8 @@
                     <div class="e-flow__box">
                         Õpilased:
                         <ul class="m-0">
-                            <li class="my-0 leading-tight">hindavad info usaldusväärsust vastava tööriista abil</li>
-                            <li class="my-0 leading-tight">teevad leitud tõendusmaterjalide põhjal põhjendatud järeldusi hüpoteesi paikapidavuse kohta, et vastata uurimisküsimustele</li>
+                            <li class="my-0 leading-tight">hindavad info usaldusväärsust vastava tööriista abil;</li>
+                            <li class="my-0 leading-tight">teevad leitud tõendusmaterjalide põhjal põhjendatud järeldusi hüpoteesi paikapidavuse kohta, et vastata uurimisküsimustele.</li>
                         </ul>
                     </div>
                 </section>
@@ -267,8 +267,8 @@
                 <p>Teine võimalus on lasta õpilastel müüti ümber lükata või kinnitada juhendatud uurimistöö abil. Õpilase materjalides antakse ette eksperimendi kava ja usaldusväärsed allikad, kust leida vastused. Õpilastel palutakse vastata etteantud küsimustele, mis peaks järk-järgult  viima neid hüpoteesi kinnitamise või ümberlükkamiseni / vastuseni oma uurimisküsimusele.</p>
                 <p>Kumba varianti õpetaja otsustab kasutada, sõltub kasutada olevast ajaressursist ning õpilaste võimekusest leida iseseisvalt asjakohast infot.</p>
                 <p>Meedia/andmeallikate ja nende sisu kõrvutamise kaudu analüüsivad õpilased kriitiliselt selles leiduva info usaldusväärsust ning teevad leitud tõendite põhjal põhjendatud järeldusi. Kuna usaldusväärsuse hindamine võib olla õpilastele tõeline väljakutse, on õppematerjal varustatud info usaldusväärsuse hindamise tööriistaga, mida saab kasutada info otsimisel ja analüüsimisel. Lisaks on võimalik kasutada videosid (eesti k.), mis juhendavad õpilasi kasutama Google Scholar-it.  Samuti võiks õpetaja info usaldusväärsuse hindamise tööriista kasutamist selgitada, demonstreerides ja analüüsides nii usaldusväärseid kui ka vähem usaldusväärseid allikaid näidetena enne, kui õpilased seda tööriista iseseisvalt rakendama hakkavad.</p>
-                <p>Et õppida, kuidas oma järeldusi teistele tutvustada, juhendatakse õpilasi tegema oma katsest tõendusmaterjalina video või tegema video oma järeldustest sekundaarsete tõendite põhjal  (Tegevus 4). Õpilaste materjal on varustatud kriteeriumidega, millele video vm vorm peaks vastama. Neid kriteeriume saab kasutada kujundavalt õpilaste enesehindamiseks protsessi käigus ning kaaslaste hindamiseks video esitlemisel ning kaaslaste ja õpetaja küsimustele vastamisel  (Tegevus 5). Viimase puhul saavad õpilased teistele rühmadele tagasiside andmiseks kasutada järgmist hindamisvahendit. Eelnevalt tuleks teha originaalfailist (küsitlusest) Google Drive kausta koopia ning siis jagada õpilastele vastamiseks küsitluse linki (kui selleks kasutatakse nutitelefone, siis võiks neile jagada lingi QR koodi). Õpetaja võiks anda igale rühmale kaaslaste antud tagasiside (soovitus: igal rühmal võiks olla juurdepääs ainult enda tagasisidele, mitte teistele). Õpetaja pääseb lihtsalt Google'i vormi kaudu antud tagasiside juurde, kui kasutab nuppu „Vastused”.</p>
-                <p>Viimases tegevuses (Tegevus 6), naaseb mooduli süžee sissejuhatava video ja esitatud müütide juurde. Varasematest tegevustest saadud teadmiste põhjal valmistuvad õpilased argumentatsioonimängu vormis otsuseid langetama, kus neil on võimalus kõrvutada ja reflekteerida oma õpitud loodusteaduslikke teadmisi, aga ka isiklikke ja ühiskonnas levinud väärtusi. Mängureeglid on antud õpilaste juhendis. Õpilasi tuleb juhendada vahetult enne algust, et nad mõistaksid mängu üldist kulgu.</p>
+                <p>Et õppida, kuidas oma järeldusi teistele tutvustada, juhendatakse õpilasi tegema oma katsest tõendusmaterjalina video või tegema video oma järeldustest sekundaarsete tõendite põhjal  (<NuxtLink to="./climate-change/student#s-4-">Tegevus 4</NuxtLink>). Õpilaste materjal on varustatud kriteeriumidega, millele video vm vorm peaks vastama. Neid kriteeriume saab kasutada kujundavalt õpilaste enesehindamiseks protsessi käigus ning kaaslaste hindamiseks video esitlemisel ning kaaslaste ja õpetaja küsimustele vastamisel (<NuxtLink to="./climate-change/student#s-5-">Tegevus 5</NuxtLink>). Viimase puhul saavad õpilased teistele rühmadele tagasiside andmiseks kasutada <NuxtLink to="./tools/peer-feedback" target="_blank">järgmist hindamisvahendit</NuxtLink>.</p>
+                <p>Viimases tegevuses (<NuxtLink to="./climate-change/student#s-6">Tegevus 6</NuxtLink>), naaseb mooduli süžee sissejuhatava video ja esitatud müütide juurde. Varasematest tegevustest saadud teadmiste põhjal valmistuvad õpilased argumentatsioonimängu vormis otsuseid langetama, kus neil on võimalus kõrvutada ja reflekteerida oma õpitud loodusteaduslikke teadmisi, aga ka isiklikke ja ühiskonnas levinud väärtusi. Mängureeglid on antud õpilaste juhendis. Õpilasi tuleb juhendada vahetult enne algust, et nad mõistaksid mängu üldist kulgu.</p>
                 <p>Kõik müüdid on toetatud teaduslik taustainfoga, mis selgitab iga müüdi taga olevat kaasaegset teaduslikku arusaama ja võimaldab õpetajal saada kiire ülevaate moodulis käsitletud teemade kohta, kuid seda saab kasutada ka õppimiseks (näiteks jagada sellest teatud osi õpilastele lugemiseks).</p>
             </section>
 

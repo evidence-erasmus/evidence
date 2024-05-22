@@ -299,7 +299,7 @@
             {
                 "title": "",
                 "image": "card_viruses_14.webp",
-                "story": "Lugesin Maailma Tervishoiu Organisatsiooni teabelehest, et 1998. a. kannatas ligi 1000 last igapäevaselt lastehalvatusest tingitud paralüüsi (lihasjõu kadumise) all. Enamus neist elasid maailma kõige vaesemates riikides. Pärast ülemaailmset vaktsineerimiskampaaniat, kannatas teadaolevalt lastehalvatuse paralüüsi all igapäevaselt vaid 30 last maailmas. Vaktsineerisime lastehalvatuse vastu ära ka oma lapse, kuna tundsime, et nii saame anda oma panuse ülemaailmsesse missiooni kaitstes niimoodi neid, kes on kõige haavatavamad."
+                "story": "Lugesin Maailma Tervishoiu Organisatsiooni teabelehest, et 1998. a. kannatas ligi 1000 last igapäevaselt lastehalvatusest tingitud paralüüsi (lihasjõu kadumise) all. Enamus neist elasid maailma kõige vaesemates riikides. Pärast ülemaailmset vaktsineerimiskampaaniat, kannatas teadaolevalt lastehalvatuse paralüüsi all igapäevaselt vaid 30 last maailmas. Vaktsineerisime lastehalvatuse vastu ära ka oma lapse, kuna tundsime, et nii saame anda oma panuse ülemaailmsesse missiooni, kaitstes niimoodi neid, kes on kõige haavatavamad."
             },
             {
                 "title": "",
@@ -331,7 +331,7 @@
             },
             {
                 "title": "Vaktsiinide rakendamise kasud ja riskid",
-                "story": "Ei ole olemas täiesti riskivabasid vaktsiine (nagu pole olemas ravimeid), mis oleksid absoluutselt risikivabad. Kuid nende kasutamisega seotud risk on kordades väiksem, kui risk, mis on seotud nende haiguste läbipõdemisega. Tegelikult peetakse vaktsiine ühtedeks kõige ohutumateks ravimiteks. Vaktsiinid, mis jõuavad turule, on pidanud läbima edukalt testid miljonite laste ja täiskasvanute peal. Näiteks sureb iga seitsmes difteeriasse nakatunu, kuid vaid ühel kümnest difteeria vaktsiini saanutest paistetab üles süstimiskoht ning veelgi vähesematel tekib palavik, millest mõlemad mööduvad paari päevaga.  Tõsisemad kõrvaltoimed on väga haruldased."
+                "story": "Pole olemas täiesti riskivabasid vaktsiine, nagu pole olemas ka täiesti risivabasid ravimeid. Kuid nende kasutamisega seotud risk on kordades väiksem, kui risk, mis on seotud nende haiguste läbipõdemisega. Tegelikult peetakse vaktsiine ühtedeks kõige ohutumateks ravimiteks. Vaktsiinid, mis jõuavad turule, on pidanud läbima edukalt testid miljonite laste ja täiskasvanute peal. Näiteks sureb iga seitsmes difteeriasse nakatunu, kuid vaid ühel kümnest difteeria vaktsiini saanutest paistetab üles süstimiskoht ning veelgi vähesematel tekib palavik, millest mõlemad mööduvad paari päevaga.  Tõsisemad kõrvaltoimed on väga haruldased."
             },
             {
                 "title": "Vaktsiinid ja autism",
@@ -339,15 +339,15 @@
             },
             {
                 "title": "Tuulerõuged",
-                "story": "Tuulerõuged on väga nakkav viirushaigus, mis kandub inimeselt inimesele peamiselt lapseeas. Selles vanuses on see ebameeldiv, kuid enamasti siiski üsna ohutu haigus. Risk saada tüsistusi kasvab aga järsult, kui tuulerõugetesse nakatub täiskasvanu. Seetõttu on oluline kaitsta teismelisi vaktsineerimise teel, kui nad pole pole tuulerõugeid veel läbi põdenud."
+                "story": "Tuulerõuged on väga nakkav viirushaigus, mis kandub inimeselt inimesele peamiselt lapseeas. Selles vanuses on see ebameeldiv, kuid enamasti siiski üsna ohutu haigus. Risk saada tüsistusi kasvab aga järsult, kui tuulerõugetesse nakatub täiskasvanu. Seetõttu on oluline kaitsta teismelisi vaktsineerimise teel, kui nad pole tuulerõugeid veel läbi põdenud."
             },
             {
                 "title": "Suremuse vähenemine",
-                "story": "Vaktsiinid difteeria, teetanuse, läkaköha ja leetrite vastu aitavad säästa igal aastal hinnanguliselt 2,5 miljonit last maailmas. Neid loetakse ühtedeks kõige (kulu) tõhusamateks rahva tervise meetmeteks. Teadlased on hinnanud, et näiteks ilma COVID-19 vaktsiini programmita oleks USA-s 2021. juuni lõpuks olnud  279,000  surma ning 1,25 miljonit hospitaliseerimist rohkem."
+                "story": "Vaktsiinid difteeria, teetanuse, läkaköha ja leetrite vastu aitavad säästa igal aastal hinnanguliselt 2,5 miljonit last maailmas. Neid loetakse ühtedeks kõige kulutõhusamateks rahva tervise meetmeteks. Teadlased on hinnanud, et näiteks ilma COVID-19 vaktsiini programmita oleks USA-s 2021. a juuni lõpuks olnud 279 000 surma ning 1,25 miljonit hospitaliseerimist rohkem."
             },
             {
                 "title": "100%-line kaitse?",
-                "story": "Mitte ükski vaktsiin ei paku 100%-list kaitset, kuid on olemas meetmed, kuidas saavutada kõrgendatud kaitse. Näiteks tõhustusdoosi, st vaktsiini täiendava doosi manustamise kaudu. Tõhustusdoosi ajal tutvustatakse  organismile uuesti  immuniseerivat antigeeni tõstes organismi immuunsuse uuesti kaitseseisundusse pärast seda, kui organismi mälu antud antigeeni suhtes on hakanud aja jooksul vähenema. Näiteks soovitatakse teetanuse tõhustusdoosi 10 aastat pärast eelmise doosi manustamisest, kui teetanuse suhtes spetsiifilste mälurakkude toime hakkab kaduma või kui need surevad."
+                "story": "Mitte ükski vaktsiin ei paku 100%-list kaitset, kuid on olemas meetmed, kuidas saavutada kõrgendatud kaitse. Näiteks tõhustusdoosi, st vaktsiini täiendava doosi manustamise kaudu. Tõhustusdoosi ajal tutvustatakse organismile uuesti  immuniseerivat antigeeni tõstes organismi immuunsuse uuesti kaitseseisundusse pärast seda, kui organismi mälu antud antigeeni suhtes on hakanud aja jooksul vähenema. Näiteks soovitatakse teetanuse tõhustusdoosi 10 aastat pärast eelmise doosi manustamist, kui teetanuse suhtes spetsiifilste mälurakkude toime hakkab kaduma või kui need surevad."
             },
             {
                 "title": "Gripivaktsiin",
@@ -363,11 +363,11 @@
             },
             {
                 "title": "Vaktsineerimine päästab elusid",
-                "story": "Vaktsineerimine päästab elusid vaestes riikides ning aitab kokkuvõttes säästa ka suure hulga  raha. Iga dollar, mis kulutatakse kolmikvaktsiinile (leetrid, mumps, punetised) säästab 16 dollarit, mis kuluks nende haigustega võitlemisele. Ühe lapse  immuniseerimisele 7 haiguse vastu (tuberkuloos, lastehalvatus, difteeria, teetanus, läkaköha, B-hepatiit, leetrid) kulutatud 17 dollarit on vaid naeruväärne summa võrreldaes summadega, mida  läheks maksma nende haiguste ravi, kui puhkeb epideemia."
+                "story": "Vaktsineerimine päästab elusid vaestes riikides ning aitab kokkuvõttes säästa ka suure hulga  raha. Iga dollar, mis kulutatakse kolmikvaktsiinile (leetrid, mumps, punetised) säästab 16 dollarit, mis kuluks nende haigustega võitlemisele. Ühe lapse  immuniseerimisele 7 haiguse vastu (tuberkuloos, lastehalvatus, difteeria, teetanus, läkaköha, B-hepatiit, leetrid) kulutatud 17 dollarit on vaid naeruväärne summa võrreldes summadega, mida  läheks maksma nende haiguste ravi, kui puhkeb epideemia."
             },
             {
                 "title": "Rõuged",
-                "story": "Rõuged oli esimene haigus, mis juuriti välja vaktsineerimise abil. 1980 teatas Maailma Tervishoiu Organisatsioon, et rõuged on tänu koordineeritud vaktsineerimis- kampaaniatele likvideeritud kogu maailmas. See pani punkti haigusele, mis tappis 35% nakatunud inimestest ning põhjustas ellujääjatel pimedust ja arvukaid arme."
+                "story": "Rõuged oli esimene haigus, mis juuriti välja vaktsineerimise abil. 1980 teatas Maailma Tervishoiu Organisatsioon, et rõuged on tänu koordineeritud vaktsineerimiskampaaniatele likvideeritud kogu maailmas. See pani punkti haigusele, mis tappis 35% nakatunud inimestest ning põhjustas ellujääjatel pimedust ja arvukaid arme."
             },
             {
                 "title": "Kuidas vaktsiine arendatakse?",
@@ -375,19 +375,19 @@
             },
             {
                 "title": "Vaktsiinid ja loomulik immuunsus",
-                "story": "Vaktsiinid ergutavad immuunsüsteemi kutsudes esile sarnase, kuid nõrgema reaktsiooni, kui loomulik nakkus ning hoiavad sellega suuresti ära haigestumise ning sellega kaasneda võiva tüsistused. Tüsistused võivad aga olla päris kallis hind, mida loomuliku immuunsuse tekkimise kaudu saada: kopsupõletik leetrite või pneumokoki tagajärjel, vaimne puue Hib-nakkuse ja järgneva meningiidi tagajärjel, sünnidefektid punetistest, maksavähk B-hepatiidit ja surm leetrite tagajärjel. Kui Sa peaksid haigestuma ja saavutama loomuliku immuunsuse leetrites, oleks tõenäosus surra 1:500-le. Kolmikvaktsiini (sisaldab ka vaktsiini leetrite vastu) tagajärjel ägeda allergilise reaktsiooni saamise tõenäosus on 1: 1000000-le."
+                "story": "Vaktsiinid ergutavad immuunsüsteemi kutsudes esile sarnase, kuid nõrgema reaktsiooni, kui loomulik nakkus ning hoiavad sellega suuresti ära haigestumise ning sellega kaasneda võiva tüsistused. Tüsistused võivad aga olla päris kallis hind, mida loomuliku immuunsuse tekkimise kaudu saada: kopsupõletik leetrite või pneumokoki tagajärjel, vaimne puue Hib-nakkuse ja järgneva meningiidi tagajärjel, sünnidefektid punetistest, maksavähk B-hepatiidist ja surm leetrite tagajärjel. Kui Sa peaksid haigestuma ja saavutama loomuliku immuunsuse leetrites, oleks tõenäosus surra 1:500-le. Kolmikvaktsiini (sisaldab ka vaktsiini leetrite vastu) tagajärjel ägeda allergilise reaktsiooni saamise tõenäosus on 1: 1000000-le."
             },
             {
-                "title": "Tiomersal",
-                "story": "Tiomersal on ühend, mis sisaldab elavhõbedat, mis takistab bakterite ja seente kasvamist vaktsiinis. Tiomersaali sisaldus vaktsiinis on üliväike ning ei põhjusta terviseriski. Vaktsiin, mis sisaldab ligikaudu 0,01% tiomersaali sisaldab ligikaudu sama koguse elavhõbedat, kui sisaldub väiksemat sorti tuunikalakonservis. Sellegipoolest ei sisalda alla 6-a.  lastele tehtavad vaktsiinid alates 2001. a. enam tiomersaali. Vanemad lapsed, teismelised ja täiskasvanud võivad endale paluda samuti tiomersaalivaba vaktsiini. Tiomersaal sisaldab etüülelavhõbedat, millest inimkeha suudab kergesti vabaneda võrreldes metüülelavhõbedaga, mis akumuleerub organismis. Seega on suur vahe, millist elavhõbeda vormi kasutatakse. Kasutusel olevad COVID-19 vaktsiinid  ei sisalda toksiine."
+                "title": "Tiomersaal",
+                "story": "Tiomersaal on ühend, mis sisaldab elavhõbedat, mis takistab bakterite ja seente kasvamist vaktsiinis. Tiomersaali sisaldus vaktsiinis on üliväike ning ei põhjusta terviseriski. Vaktsiin, mis sisaldab ligikaudu 0,01% tiomersaali sisaldab ligikaudu sama koguse elavhõbedat, kui sisaldub väiksemat sorti tuunikalakonservis. Sellegipoolest ei sisalda alla 6-aastastele lastele tehtavad vaktsiinid alates 2001. a. enam tiomersaali. Vanemad lapsed, teismelised ja täiskasvanud võivad endale paluda samuti tiomersaalivaba vaktsiini. Tiomersaal sisaldab etüülelavhõbedat, millest inimkeha suudab kergesti vabaneda võrreldes metüülelavhõbedaga, mis akumuleerub organismis. Seega on suur vahe, millist elavhõbeda vormi kasutatakse. Kasutusel olevad COVID-19 vaktsiinid ei sisalda toksiine."
             },
             {
                 "title": "Alumiinium",
-                "story": "Mõningaid keemilisi elemente, nagu alumiinium, lisatakse vaktsiinidesse, sest nad käituvad adjuvantidena - ainetena, mis vaktsineerimisel tõhustavad immuunvastust. Alumiiniumi kogus on nii väike, et see ei tekita mingeid riske. Üks doos sisaldab 0.5 mg alumiiniumit samas, kui me igapäevaselt sööme toiduga sisse 0.8 mg aluminiiumit. Lisaks sisaldavad vaid osa vaktsiine alumiiniumi soolasid. Kasutusel olevad COVID-19 vaktsiinid neid ei sisalda."
+                "story": "Mõningaid keemilisi elemente, nagu alumiinium, lisatakse vaktsiinidesse, sest nad käituvad adjuvantidena - ainetena, mis vaktsineerimisel tõhustavad immuunvastust. Alumiiniumi kogus on nii väike, et see ei tekita mingeid riske. Üks doos sisaldab 0,5 mg alumiiniumit samas, kui me igapäevaselt sööme toiduga sisse 0,8 mg aluminiiumit. Lisaks sisaldavad vaid osa vaktsiine alumiiniumi soolasid. Kasutusel olevad COVID-19 vaktsiinid neid ei sisalda."
             },
             {
                 "title": "Leetrid",
-                "story": "Milline oleks leetrite mõju, kui me ei oleks vaktsineeritud? Enne leetrite vaktsiini rakendamist 1963. a., leidsid iga paari aasta tagant aset epideemiad põhjustades mitme miljoni inimese surma aastas (keskmiselt). Sellest ajast peale on numbrid tunduvalt vähenenud. 2016. a. registreeriti maailmas 89, 870 surma. Kui vaktsineerimine lõppeks, peaksime me uuesti seisma silmitsi miljonite või isegi rohkemate surmadega aastas, kuna inimesed reisivad ja nakkused liiguvad maailma piirkondade vahel järjest kiiremini."
+                "story": "Milline oleks leetrite mõju, kui me ei oleks vaktsineeritud? Enne leetrite vaktsiini rakendamist 1963. a, leidsid iga paari aasta tagant aset epideemiad põhjustades mitme miljoni inimese surma aastas (keskmiselt). Sellest ajast peale on numbrid tunduvalt vähenenud. 2016. a registreeriti maailmas 89 870 surma. Kui vaktsineerimine lõppeks, peaksime me uuesti seisma silmitsi miljonite või isegi rohkemate surmadega aastas, kuna inimesed reisivad ja nakkused liiguvad maailma piirkondade vahel järjest kiiremini."
             },
             {
                 "title": "Vaktsiinid ja immuunsüsteem",

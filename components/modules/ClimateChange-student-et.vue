@@ -80,7 +80,7 @@
 
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth1">
                     <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">Müüt nr. 1:</span> Liikide väljasuremine on looduslik protsess. Massiline liikide väljasuremine on alati toimunud.</h4>
-                    <p>Liikide väljasuremine on toimunud läbi Maa ajaloo. Eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis aset 66 000 000 aastat tagasi, oli tingitud asteroidi kokkupõrkest Maale. Aastate jooksul on meil teisigi tuntud näiteid, näiteks mammutite väljasuremine. Registreeritud väljasuremise põhjused on aga erinevad.</p>
+                    <p>Liikide väljasuremine on toimunud läbi Maa ajaloo. Eelajaloolistest aegadest on meil tõendeid mitme massilise väljasuremise kohta, eriti dinosauruste väljasuremise kohta. See väljasuremine, mis leidis aset 66 000 000 aastat tagasi, oli tingitud asteroidi kokkupõrkest Maaga. Aastate jooksul on meil teisigi tuntud näiteid, näiteks mammutite väljasuremine. Registreeritud väljasuremise põhjused on aga erinevad.</p>
                     <p>Ka vihje, et inimkond on võimeline mõjutama ja häirima sellise ulatusega jõude, peegeldab inimeste enesekeskset ülbust. Inimkond on looduse osa. Loodus ei ole inimkonna osa. Inimesed ei saa neid protsesse parandada ega sellesse sekkuda (Financial Sense University).</p>
                     <p>
                         Viidatud: 

@@ -14,6 +14,9 @@
             <option>Parem hügieen ning sanitaartingimused on põhjusteks, miks nakkushaigused on maailmas vähenenud, mitte vaktsiinid</option>
             <option>Vaktsiinid võivad nakatada lapse haigusega, mida see püüab ära hoida</option>
             <option>Me ei vaja vaktsiine, sest nakatumise näitajad maailmas on niikuinii madalad</option>
+            <option>Seep on teatud viiruste nagu näiteks SARS-CoV-2 (põhjustab COVID-19) tapmiseks sama hea kui etüülalkohol</option>
+            <option>Maskidest pole mingit kasu ülemiste hingamisteede viirushaiguste (nagu näiteks COVID-19) ärahoidmisel</option>
+            <option>Maski kandmine põhjustab organismis hüpoksiat (hapnikuvaegust) / Maski kandmine põhjustab organismi süsihappegaasimürgistust</option>
         </select>
 
         <!-- <textarea id="3aMyth" class="textarea textarea-bordered block w-full" v-model="studentInputs.activity3a.activity3aMyth" placeholder="✍"></textarea> -->
@@ -123,7 +126,7 @@
 
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>
-        <label for="3aConcl" class="font-bold block">Tuginedes leitud tõestusmaterjalile on meie järeldused järgmised:</label>
+        <label for="3aConcl" class="font-bold block">Tuginedes leitud tõestusmaterjalile on meie järeldused müüdi paikapidavuse kohta järgmised:</label>
         <textarea id="3aConcl" class="textarea textarea-bordered block w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aConclusion" placeholder="✍"></textarea>
 
     </div>

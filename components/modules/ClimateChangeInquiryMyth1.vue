@@ -170,8 +170,6 @@
             </UiFullWidth>
             
             <hr />
-            <hr />
-            <hr />
 
         </section>
     </div>

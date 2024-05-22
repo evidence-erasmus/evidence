@@ -134,86 +134,86 @@
                     </caption>
                     <thead class="border text-center">
                         <tr>
-                            <th rowspan="2" class="border p-1">Common respi&shy;ratory infections</th>
-                            <th colspan="3" class="border p-1">Common cause</th>
-                            <th rowspan="2" class="border p-1">Are<br />anti&shy;biotics needed</th>
+                            <th rowspan="2" class="border p-1">Levinud hingamisteede infektsioonid</th>
+                            <th colspan="3" class="border p-1">Üldine põhjus</th>
+                            <th rowspan="2" class="border p-1">Kas antibiootikumid on vajalikud?</th>
                         </tr>
                         <tr>
-                            <th class="border p-1">Virus</th>
-                            <th class="border p-1">Virus or bacteria</th>
-                            <th class="border p-1">Bacteria</th>
+                            <th class="border p-1">Viirus</th>
+                            <th class="border p-1">Viirus või bakter</th>
+                            <th class="border p-1">Bakter</th>
                         </tr>
                     </thead>
                     <tbody class="text-center">
                         <tr>
-                            <td class="border p-1">Common cold / runny nose</td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Sage köha / nohu</td>
+                            <td class="border p-1">Jah</td>
                             <td class="border p-1"></td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">No</td>
+                            <td class="border p-1">Ei</td>
                         </tr>
                         <tr>
-                            <td class="border p-1">Sore throat (except strep)</td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Kurguvalu (va streptokokk)</td>
+                            <td class="border p-1">Jah</td>
                             <td class="border p-1"></td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">No</td>
+                            <td class="border p-1">Ei</td>
                         </tr>
                         <tr>
                             <td class="border p-1">COVID-19</td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Jah</td>
                             <td class="border p-1"></td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">No</td>
+                            <td class="border p-1">Ei</td>
                         </tr>
                         <tr>
-                            <td class="border p-1">Flu</td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Gripp</td>
+                            <td class="border p-1">Jah</td>
                             <td class="border p-1"></td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">No</td>
+                            <td class="border p-1">Ei</td>
                         </tr>
                         <tr>
-                            <td class="border p-1">Bronchitis / chest cold<br /><span class="text-sm italic">(in otherwise healthy children and adults)</span> *</td>
+                            <td class="border p-1">Bronhiit / külm rinnus<br /><span class="text-sm italic">(muidu tervetel lastel ja täiskasvanutel)</span> *</td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Jah</td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">No *</td>
+                            <td class="border p-1">Ei *</td>
                         </tr>
                         <tr>
-                            <td class="border p-1">Middle ear infection</td>
+                            <td class="border p-1">Keskkõrvapõletik</td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Jah</td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">Maybe</td>
+                            <td class="border p-1">Võib-olla</td>
                         </tr>
                         <tr>
-                            <td class="border p-1">Sinus infection</td>
+                            <td class="border p-1">Siinusinfektsioon</td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Jah</td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">Maybe</td>
+                            <td class="border p-1">Võib-olla</td>
                         </tr>
                         <tr>
-                            <td class="border p-1">Strep throat</td>
+                            <td class="border p-1">Streptokokist põhjustatud kurguvalu</td>
                             <td class="border p-1"></td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">Yes</td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Jah</td>
+                            <td class="border p-1">Jah</td>
                         </tr>
                         <tr>
-                            <td class="border p-1">Whooping couch</td>
+                            <td class="border p-1">Läkaköha</td>
                             <td class="border p-1"></td>
                             <td class="border p-1"></td>
-                            <td class="border p-1">Yes</td>
-                            <td class="border p-1">Yes</td>
+                            <td class="border p-1">Jah</td>
+                            <td class="border p-1">Jah</td>
                         </tr>
                     </tbody>
                     <tfoot class="border text-center">
                         <tr>
                             <td colspan="5" class="py-0 px-3">
-                                <p class="text-sm italic">* Studies shows that in otherwise healthy children and adults, antibiotics for bronchitis won't help patients feel better.</p>
-                                <p class="text-xs text-slate-400">Source: <a href="https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg</a></p>
+                                <p class="text-sm italic">* Uuringud näitavad, et muidu tervetel lastel ja täiskasvanutel ei aita antibiootikumid bronhiidi korral end paremini tunda.</p>
+                                <p class="text-xs text-slate-400">Allikas: <a href="https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/antibiotic-use/images/VirusOrBacteria-Original-1200by675.jpg</a></p>
                             </td>
                         </tr>
                     </tfoot>
@@ -386,10 +386,10 @@
                     Maske kasutatakse tihti kaitseks viiruste ja bakterite eest. Need on muutunud eriti tavaliseks SARS-CoV-2 viiruse eest kaitsmisel. Erinevat tüüpi maskide hulgas on <b>kirurgilised näomaskid</b> olnud COVID-19 pandeemia ajal kõige sagedamini kasutatavateks näokateteks. Tavaliselt on need ühelt poolt sinist värvi, mida tuleks hoida väliskihina (Joonis 4). Kirurgiliste maskide peamine eesmärk on kaitsta patsiente võimaliku kokkupuute eest kandja poolt väljahingatavate bakterite ja viirustega. Maskid takistavad hästi koroonaviiruse levikut õhu kaudu, kuid ei ole nii tõhusad vahendid kandja enda kaitsmiseks viiruse eest. On leitud näiteks, et inimeste poolt hingamisel, rääkimisel ja aevastamisel tekitatud vedelikuosakeste läbimõõt algab 1.6 mikromeetrist ja võib ulatuda kuni paarisaja mikromeetrini
                 </p>
                 <p>
-                    Et filtreerida sissehingatavat õhku paremini, tuleks kasutada <b>FFP2 või FFP3 maski</b> (mida sageli nimetatakse ka <b>respiraatoriteks</b>). Sertifitseeritud numeratsioon (FFP1, FPP2, FFP3 (vastavalt standardile EN 149-2001)), näitab nende filtreerimise tõhusust. FFP2 ja FPP3 filtreerimise tõhusus õhus lendlevate (kaasa arvatud viirust sisaldavate) osakeste  suhtes on vastavalt 92% ja 98%. Mõlemal maskil on ka küllaltki väike leke külgedelt: vastavalt &lt;8% ja &lt;2%. FFP2 väliskihil kasutatakse sageli spetsiaalset polümeeri. Kui töökeskkonnas (näiteks tolmu kaitseks) kasutatavate respiraatorite puhul on lubatud ventiil (mis teeb väljahingamise lihtsamaks), siis SARS-CoV-2 puhul tuleks kasutada ainult klapita respiraatoreid, et filtreerida ka väljahingatava õhku.
+                    Et filtreerida sissehingatavat õhku paremini, tuleks kasutada <b>FFP2 või FFP3 maski</b> (mida sageli nimetatakse ka <b>respiraatoriteks</b>). Sertifitseeritud numeratsioon (FFP1, FPP2, FFP3 (vastavalt standardile EN 149-2001)), näitab nende filtreerimise tõhusust. FFP2 ja FPP3 filtreerimise tõhusus õhus lendlevate (kaasa arvatud viirust sisaldavate) osakeste  suhtes on vastavalt 92% ja 98%. Mõlemal maskil on ka küllaltki väike leke külgedelt: vastavalt &lt;8% ja &lt;2%. FFP2 väliskihil kasutatakse sageli spetsiaalset polümeeri. Kui töökeskkonnas (näiteks tolmu kaitseks) kasutatavate respiraatorite puhul on lubatud ventiil (mis teeb väljahingamise lihtsamaks), siis SARS-CoV-2 puhul tuleks kasutada ainult klapita respiraatoreid, et filtreerida ka väljahingatavat õhku.
                 </p>
                 <p>
-                    COVID-19 pandeemiaga võeti kasutusele uut tüüpi näomaskid: <b>filtreeriv mask</b>. Seda tüüpi mask on valmistatud mitmekihilisest kangast (üks neist peab olema nanokiudfilter, mis tagab bakterite ja kahjuliku peentolmu filtreerimisvõime vähemalt 90%). See mask ühendab endas suure filtreerimisvõime ja korduvkasutatavuse, kuna seda saab masinas pesta 60 kraadi juures.
+                    COVID-19 pandeemiaga võeti kasutusele uut tüüpi näomask: <b>filtreeriv mask</b>. Seda tüüpi mask on valmistatud mitmekihilisest kangast (üks neist peab olema nanokiudfilter, mis tagab bakterite ja kahjuliku peentolmu filtreerimisvõime vähemalt 90%). See mask ühendab endas suure filtreerimisvõime ja korduvkasutatavuse, kuna seda saab masinas pesta 60 kraadi juures.
                 </p>
 
                 <div class="grid gap-3 my-15 md:grid-cols-2 e-card">
@@ -592,8 +592,8 @@
 
                 <h3 id="myth-3"><span class="text-rose-400">Müüt nr 3:</span> Loomulikul teel omandatud immuunsus on parem kui vaktsiiniga omandatud immuunsus</h3>
                 <p>On tõsi, et loomulik nakatumine annab peaaegu alati tugevama immuunsuse haiguse vastu kui vaktsineerimine. Selle lähenemisviisi ohud kaaluvad siiski üles suhtelise kasu. Loodusliku nakatumise järgse immuunsuse eest makstavaks hinnaks võib olla tuulerõugete või pneumokokkide põhjustatud kopsupõletik, Haemophilus influenzae b (Hib) põhjustatud intellektuaalne puue, ema punetistest põhjustatud sünnidefektid, B-hepatiidi viiruse tagajärjel saadud maksavähk, surm leetrite tõttu jne. Näiteks leetritesse haigestudes on teil võimalus oma sümptomite tõttu surra 1:500. Seevastu inimeste arv, kellel on MMR-vaktsiini saanud raskeid allergilisi reaktsioone, on alla 1:1000000.</p>
-                <p>Sellegipoolest on vähe vaktsiine, mis kutsuvad esile parema immuunvastuse kui loomulikud infektsioonid. Näiteks sisaldab inimese papilloomiviiruse (HPV) vaktsiin kõrge puhtusastmega spetsiifilist valku, mis annab parema immuunvastuse kui loomulik infektsioon. Teised sarnased näited on teetanuse, Haemophilus influenzae tüüp b (Hib) ja pneumokoki vaktsiinid.</p>
-                <p>Seoses COVID-19-ga on andmed selles suhtes ebaselged. On näidatud, et püsiv kaitse pärast nakatumist on ebatõenäoline. Leiti, et koroonaviirusega patsientidel tekkis oluline “immuunmälu" - immuunsüsteemi reaktsioon tellis kõigis neljas olulises immuunsüsteemi osas: aktiveerides mälu B-rakud, antikehad, mälu CD4+ T-rakud ja mälu CD8+ T-rakud, kusjuures kaitse hakkas vähenema poole aasta pärast. Samuti on teadlased näidanud immuunvastuse suurt erinevust inimeste vahel - antikehade tasemete erinevus võib populatsiooni lõikes erineda 200 korda.</p>
+                <p>Sellegipoolest on vähe vaktsiine, mis kutsuvad esile parema immuunvastuse kui loomulikud infektsioonid. Üheks selliseks on inimese papilloomviiruse (HPV) vaktsiin, mis sisaldab kõrge puhtusastmega spetsiifilist valku, mis annab parema immuunvastuse kui loomulik infektsioon. Teised sarnased näited on teetanuse, Haemophilus influenzae tüüp b (Hib) ja pneumokoki vaktsiinid.</p>
+                <p>Seoses COVID-19-ga on andmed selles suhtes ebaselged. On näidatud, et püsiv kaitse pärast nakatumist on ebatõenäoline. Leiti, et koroonaviirusega patsientidel tekkis oluline “immuunmälu" - immuunsüsteemi reaktsioon tekkis kõigis neljas olulises immuunsüsteemi osas: aktiveerides mälu B-rakud, antikehad, mälu CD4+ T-rakud ja mälu CD8+ T-rakud, kusjuures kaitse hakkas vähenema poole aasta pärast. Samuti on teadlased näidanud immuunvastuse suurt erinevust inimeste vahel - antikehade tasemete erinevus võib populatsiooni lõikes erineda 200 korda.</p>
                 <p>Teised uuringud näitasid aga, et Moderna vaktsiini (mRNA) saanud vabatahtlike veres oli rohkem antikehi, kui inimestel, kes olid põdenud COVID-19. Seda asjaolu võib aga muuta haiguse tõsidus, kuna haiguse tõsiduse ja kestva immuunvastuse vahel on seos – enamikul asümptomaatilistel patsientidel oli pärast 6-kuulist nakatumist väga vähe antikehi. Seega on SARS-CoV-2 infektsioonist tekkiv loomulik immuunsus sageli ettearvamatu. Veelgi enam, mRNA vaktsiini poolt esile kutsutud antikehad olid suunatud retseptori sidumisdomeeni (RBD) laiemale hulgale kohtadele kui need, mis tekkisid loomuliku infektsiooniga.</p>
                 <section class="e-card">
                     <h4 class="mt-0">Viited</h4>
@@ -621,7 +621,7 @@
 
                 <h3 id="myth-4"><span class="text-rose-400">Müüt nr 4:</span> Vaktsiinid sisaldavad eluohtlikke toksiine</h3>
                 <p>Inimesed tunnevad muret formaldehüüdi, elavhõbeda või alumiiniumi kasutamise pärast vaktsiinides. Ühest küljest on tõsi, et need kemikaalid on teatud tasemel inimkehale mürgised. Teisest küljest on vaktsiinides kasutatud kemikaalide väga väikesi koguseid, kusjuures need on väiksemad kui toitumisest saadavad kogused. Ka toodavad meie enda ainevahetussüsteemid näiteks formaldehüüdi.</p> 
-                <p>Põhjused, miks teatud elemendid, näiteks alumiiniumsoolad, lisatakse vaktsiinidele, on see, et need toimivad adjuvandina, mis tähendab, et selle olemasolu suurendab vaktsineerimisel immuunvastust. Samuti sisaldavad alumiiniumsoolasid ainult teatud vaktsiinid, uued COVID-19 vaktsiinid neid näiteks ei sisalda. Väike osa vaktsiinidest on sisaldanud säilitusainena timerosaali, kuid ükski lastel kasutatavatest vaktsiinidest ei sisalda seda praegu. Thimerosal sisaldab etüülelavhõbedat, mis eritub inimkehast kiiresti, võrreldes bioakumuleeruva metüülelavhõbedaga – seega on suur erinevus, mis kujul mürgine metall esineb. Sellest hoolimata ei sisalda COVID-19 vaktsiinid toksiine.</p>
+                <p>Põhjused, miks teatud elemendid, näiteks alumiiniumsoolad, lisatakse vaktsiinidele, on see, et need toimivad adjuvandina, mis tähendab, et selle olemasolu suurendab vaktsineerimisel immuunvastust. Samuti sisaldavad alumiiniumsoolasid ainult teatud vaktsiinid, uued COVID-19 vaktsiinid neid näiteks ei sisalda. Väike osa vaktsiinidest on sisaldanud säilitusainena timerosaali, kuid ükski lastel kasutatavatest vaktsiinidest ei sisalda seda praegu. Thimerosaal sisaldab etüülelavhõbedat, mis eritub inimkehast kiiresti, võrreldes bioakumuleeruva metüülelavhõbedaga – seega on suur erinevus, mis kujul mürgine metall esineb. Sellest hoolimata ei sisalda COVID-19 vaktsiinid toksiine.</p>
                 <section class="e-card">
                     <h4 class="mt-0">Viited</h4>
                     <ul class="text-sm break-all">
@@ -662,7 +662,7 @@
 
 
                 <h3 id="myth-6"><span class="text-rose-400">Müüt nr 6:</span> Vaktsiinid võivad nakatada inimesi haigusega, mida see püüab ära hoida</h3>
-                <p>Mõned vaktsiinid on elusvaktsiinid, mis sisaldavad elusaid, kuid nõrgestatud mikroorganisme/viirusi, mis on endiselt võimelised peremeesorganismis paljunema. Mikroorganismid on nõrgestatud, mis tähendab, et nad on kaotanud suurema osa oma haigust põhjustavatest võimetest, kuid neil on endiselt olemas immunogeensed omadused. Seega on see alati palju kergem variant kui siis, kui laps nakatub haigust põhjustavasse “päris” viirusesse. Nõrgestatud elusvaktsiinideks on leetrite, mumpsi ja punetiste kombineeritud vaktsiin ning rotaviiruse, rõugete, tuulerõugete ja kollapalaviku vaktsiinid. Enamikul juhtudel on elusvaktsiinidel oluliselt suurem immunogeensus kui inaktiveeritud vaktsiinidel, kuna loomulikku infektsiooni imiteeritakse peaaegu täiuslikult, kutsudes esile laiema immunoloogilise vastuse. Kuid nõrgenenud immuunsüsteemiga lastele, näiteks vähiravi saavatele lastele, neid vaktsiine ei eelistata.</p>
+                <p>Mõned vaktsiinid on elusvaktsiinid, mis sisaldavad elusaid, kuid nõrgestatud mikroorganisme/viirusi, mis on endiselt võimelised peremeesorganismis paljunema. Mikroorganismid on nõrgestatud, mis tähendab, et nad on kaotanud suurema osa oma haigust põhjustavatest võimetest, kuid neil on endiselt olemas immunogeensed omadused. Seega on see alati palju kergem variant kui siis, kui laps nakatub haigust põhjustavasse “päris” viirusesse. Nõrgestatud elusvaktsiinideks on leetrite, mumpsi ja punetiste kombineeritud vaktsiin ning rotaviiruse, rõugete, tuulerõugete ja kollapalaviku vaktsiinid. Enamikul juhtudel on elusvaktsiinidel oluliselt suurem immunogeensus kui inaktiveeritud vaktsiinidel, kuna loomulikku infektsiooni imiteeritakse peaaegu täiuslikult, kutsudes esile laiema immunoloogilise vastuse. Kuid nõrgenenud immuunsüsteemiga lastele, näiteks vähiravi saavatele lastele, neid vaktsiine ei manustata.</p>
                 <p>On tõsi, et elusvaktsiinid võivad põhjustada kergeid sümptomeid, mis sarnanevad selle haigusega, mille eest nad kaitsevad. Vaktsiini saajad kogevad aga organismi immuunvastust vaktsiinile, mitte haigust ennast. On registreeritud ainult üks juhtum, kus vaktsiin põhjustas haigust. See oli suukaudne poliomüeliidi vaktsiin (OPV), mida enam ei kasutata ja mis on praegu asendatud tapetud viiruse vormiga, mida tuntakse inaktiveeritud poliomüeliidi vaktsiinina (IPV).</p>
                 <section class="e-card">
                     <h4 class="mt-0">Viide</h4>

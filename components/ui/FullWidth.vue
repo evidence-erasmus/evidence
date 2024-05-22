@@ -13,6 +13,6 @@
     /* width: 90vw; */
     left: 0;
     /* transform:translate(calc(-45vw - 25px)); */
-    background: yellow;
+    /* background: yellow; */
 }
 </style>
