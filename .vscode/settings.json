@@ -3,5 +3,6 @@
         "locales",
         "i18n"
     ],
-    "css.lint.unknownAtRules": "ignore"
+    "css.lint.unknownAtRules": "ignore",
+    "CodeGPT.apiKey": "Google AI Studio"
 }

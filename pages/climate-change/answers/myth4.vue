@@ -209,7 +209,7 @@
             </p>
             
             <p class="mb-1"><b>{{ t('inquiry.cc_myth4.flicc_label') }}</b></p>
-            <ToolsFlicc2Table 
+            <ToolsFliccTable 
                 :store-to-update="climateMyth4Answers" :print-mode="true" 
 
             />

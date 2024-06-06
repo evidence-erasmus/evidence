@@ -797,7 +797,7 @@ export default {
           txt_1: "Tutvu Euroopa Keskkonnaagentuuri allikaga {link1}",
           label_1: "Millised muutused on toimunud või toimuvad põhja- ning lõunapoolsetes riikides?",
           table: {
-            subtitle: "Tee märkmeid allikas kasutatud info kohta. ",
+            subtitle: "Tee märkmeid allikas kasutatud info kohta.",
             header: [
               {thead:"Põhjapoolsed riigid"},
               {thead:"Lõunapoolsed riigid"}
@@ -862,7 +862,7 @@ export default {
           txt_1: "Tutvu järgmiste allikatega, et vastata  küsimustele.",
           q_1: "Mis on kliimaõiglus?",
           q_2: "Mis põhjustab inimestes suurt muret?",
-          q_3: "Kas sa arvate, kas kliimamuutused on ühtlasi sotsiaalne probleem?"
+          q_3: "Mis sa arvad, kas kliimamuutused on ühtlasi sotsiaalne probleem?"
         }
       },
       conclusions: "Tõenditele tuginedes on meie järeldused müüdi “Globaalne soojenemine on kasulik”, paikapidavusele järgmised:",

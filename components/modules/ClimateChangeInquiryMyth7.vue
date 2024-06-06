@@ -160,7 +160,7 @@
             <label class="block mb-2"><b>{{ t('inquiry.cc_myth7.flicc_label') }}</b></label>
             
             <div class="e-card mb-16">
-                    <ToolsFlicc2Table :storeToUpdate="climateMyth7Answers" key="ccmyth7flicc" />
+                    <ToolsFliccTable :storeToUpdate="climateMyth7Answers" key="ccmyth7flicc" />
                     <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
             </div>
            

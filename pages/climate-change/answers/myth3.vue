@@ -70,7 +70,7 @@
             </p>
             
             <p class="mb-1"><b>{{ t('inquiry.cc_myth3.flicc_label') }}</b></p>
-            <ToolsFlicc2Table 
+            <ToolsFliccTable 
                 :store-to-update="climateMyth3Answers" :print-mode="true" 
 
             />

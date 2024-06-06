@@ -301,9 +301,9 @@
         <p class="mb-2"><b>{{ t('inquiry.cc_myth4.a3.source_431.label_1') }}</b></p>
         <div class="e-card mb-16">
             <ToolsDynamicTableFull :storeToUpdate="climateMyth4Answers" :keyToUpdate="climateMyth4Answers.a3.source431Table" 
-            :tableStructure="tm('inquiry.cc_myth4.a3.source_431.table')" 
+            :tableStructure="tm('inquiry.cc_myth4.a3.source_431.table')"  
             :subtitle="t('inquiry.cc_myth4.a3.source_431.table.subtitle')"
-            :overwrite="true"
+            :overwrite="false"
             :newRow="['','']"
             :addRow="true" />
         </div>
@@ -511,8 +511,8 @@
         <label class="block mb-2"><b>{{ t('inquiry.cc_myth4.flicc_label') }}</b></label>
             
         <div class="e-card mb-16">
-            <ToolsFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
-            <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
+            <!-- <ToolsFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" /> -->
+            <ToolsFliccTable :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
         </div>
            
             

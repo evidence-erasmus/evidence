@@ -50,7 +50,7 @@
             </p>
             
             <p class="mb-1"><b>{{ t('inquiry.cc_myth6.flicc_label') }}</b></p>
-            <ToolsFlicc2Table 
+            <ToolsFliccTable 
                 :store-to-update="climateMyth6Answers" :print-mode="true" 
 
             />
