@@ -134,11 +134,11 @@
         "et": {
             "a": "Tegevus",
             "a1": "KÕIGE LEVINUMATE MÜÜTIDE TUTVUSTAMINE",
-            "a2": "MÜÜDI VÄLJA VALIMINE",
+            "a2": "MÜÜDI VÄLJAVALIMINE",
             "a3": "MÜÜDIMURDMINE",
             "a4": "TÕESTUSMATERJALILE SOBIVA VORMI VÄLJATÖÖTAMINE",
             "a5": "TÕESTUSMATERJALIDE JA TEHTUD JÄRELDUSTE TUTVUSTAMINE",
-            "a6": "SOTSIAAl-TEADUSLIKU OTSUSE LANGETAMINE"
+            "a6": "SOTSIAAL-TEADUSLIKU OTSUSE LANGETAMINE"
         },
         "pt": {
             "a": "Atividade",

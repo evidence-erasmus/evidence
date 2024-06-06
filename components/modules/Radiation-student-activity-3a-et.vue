@@ -55,7 +55,7 @@
         
         <!-- dependent variable -->
         <Icon name="material-symbols:edit-square" size="40" class="text-blue-500 mt-16"></Icon>
-        <label class="block leading-tight my-2"><b>Sõltuv muutuja</b> <i>(see mida sekkumise tulemusena mõõdetakse):</i></label>
+        <label class="block leading-tight my-2"><b>Sõltuv muutuja</b> <i>(see, mida sekkumise tulemusena mõõdetakse):</i></label>
         <input type="text" class="input input-bordered w-full text-lg my-4" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍" />
         
         <!-- control variables -->

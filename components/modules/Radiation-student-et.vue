@@ -35,11 +35,11 @@
                 <h2 id="s1t">Sissejuhatus</h2>
 
                 <p>
-                    Antud moodulis kutsutakse Sind mõtlema kiirgustega seoses levivate müütide üle ning  neid kas ümber lükkama või kinnitama. Sissejuhatavas videos tuuakse välja mõned kiirgusega seotud hirmud, mille üle võiksite rühmades järgnevalt arutleda. Rühmaarutelu tulemusel valitakse müüdimurdmise tegevus, mille käigus otsite tõendeid valitud müüdi ümberlükkamiseks või kinnitamiseks. Seda tegevust võib läbi viia eksperimentaalselt või sekundaarsete andmete/tõestusmaterjali (teaduskirjandus jm Internetist saadav info) abil (Vt. Joonis 1).
+                    Antud moodulis kutsutakse Sind mõtlema kiirgustega seoses levivate müütide üle ning neid kas ümber lükkama või kinnitama. Sissejuhatavas videos tuuakse välja mõned kiirgusega seotud hirmud, mille üle te võiksite rühmades järgnevalt arutleda. Rühmaarutelu tulemusena tuleb teil valida välja üks müüt ning viia läbi müüdimurdmise tegevus, mille käigus otsite tõendeid valitud müüdi ümberlükkamiseks või kinnitamiseks. Seda tegevust võib läbi viia eksperimentaalselt või sekundaarsete andmete/tõestusmaterjali (teaduskirjandus jm Internetist saadav info) abil (Vt. Joonis 1).
                 </p>
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp" />
                 <p>
-                    Selle käigus õpid Sa hindama infoallikate (teadusandmebaasid, populaarteaduslik kirjandus, muu meedia) usaldusväärsust. Esmalt peate püstitama kontrollitava hüpoteesi. Pärast tõendite leidmist ja järelduste tegemist valmistate ette oma tulemuste esitluse klassikaaslastele (või muule publikule) asjakohasel ja veenval viisil (näiteks videopostituse või PowerPointi esitluse vormis). Mooduli lõpetab rollimäng tuumaenergiaga seotud kiirgusprobleemidest, mille käigus tuleb võtta seisukoht ja pakkuda lahendusi, kasutades loodusteaduslikke teadmisi ja erinevatele rollidele omistatud väärtushinnanguid.
+                    Selle käigus õpite te hindama infoallikate (teadusandmebaasid, populaarteaduslik kirjandus, muu meedia) usaldusväärsust. Esmalt peate püstitama kontrollitava hüpoteesi. Pärast tõendite leidmist ja järelduste tegemist valmistate ette oma tulemuste esitluse klassikaaslastele (või muule publikule) asjakohasel ja veenval viisil (näiteks videopostituse või slaidiesitluse vormis). Mooduli lõpetab rollimäng tuumaenergiaga seotud kiirgusprobleemidest, mille käigus tuleb võtta seisukoht ja pakkuda lahendusi, kasutades loodusteaduslikke teadmisi ja erinevatele rollidele omistatud väärtushinnanguid.
                 </p>
             </section>
                         
@@ -51,7 +51,7 @@
             <hr class="mt-10 mb-40 print:my-10" />
 
             <section id="s2">
-                <h2 id="s2t">Tegevus 1: Sissejuhatava video esitamine</h2>
+                <h2 id="s2t">Tegevus 1: Sissejuhatava video vaatamine</h2>
                 <p>Palun vaata ära sissejuhatav video ning pane sellega seoses kirja oma esialgsed mõtted ja tunded.</p>
                 <UiYoutube video="ccMo9WfKeOY" />
             </section>
@@ -97,7 +97,7 @@
                 
                 <ul class="leading-tight">
                     <li><span class="text-rose-400 font-bold">1. müüt:</span> Päevitamine on tervisele kasulik, eriti talvel.</li>
-                    <li><span class="text-rose-400 font-bold">2. müüt:</span> Mikrolaineahjud saadavad tugevat kiirgust ja selle töötamise ajal on ahju läheduses viibimine ohtlik.</li>
+                    <li><span class="text-rose-400 font-bold">2. müüt:</span> Mikrolaineahjud toodavad tugevat kiirgust ja selle töötamise ajal on ahju läheduses viibimine ohtlik.</li>
                     <li><span class="text-rose-400 font-bold">3. müüt:</span> Nutitelefoni lähedal on halb magada või puutuda muul viisil  sellega pikaaegselt kokku.</li>
                     <li><span class="text-rose-400 font-bold">4. müüt:</span> 5G mobiilsidemastide kiirgus on inimestele ohtlikum kui eelmise põlvkonna võrkudes: 2G, 3G ja 4G kasutatav kiirgus.</li>
                     <li><span class="text-rose-400 font-bold">5. müüt:</span> Solaariumis päevitamine siseruumides on ohutum kui õues päevitamine</li>

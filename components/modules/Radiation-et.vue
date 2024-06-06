@@ -33,7 +33,7 @@
                     Selles moodulis kutsutakse õpilasi uurima ning ümber lükkama või kinnitama levinud müüte kiirguste kohta. Meie igapäevaelus ringleb palju sügavalt juurdunud hirme, väärarusaamu ja vandenõuteooriaid kiirguse põhjuste ja tagajärgede kohta. Tšernobõli katastroof juhtus rohkem kui 35 aastat tagasi, kuid selle järelkaja mõjutab tugevalt praegusi tuumaenergia arutelusid. Mõned vandenõuteoreetikud väidavad, et "Tšernobõli" ei põhjustanud tehniliste ja inimlike rikete kombinatsioon, vaid see oli "organiseeritud" Nõukogude Liidu kokkuvarisemise kiirendamiseks. 
                 </p>
                 <p>
-                    Meie õpilased ei ole sageli hästi informeeritud erinevatest kiirguse vormidest ja selle mõjudest inimorganismile. Praktilised tegevused, mis puudutavad kiirguse (eriti ioniseeriva kiirguse) mõjusid, on reeglina ohutuskaalutlustel loodusainete klassiruumidest välja jäetud ja vastavad katsematerjalid koolides puuduvad. Lõpuks võivad nutitelefonid ja muud mobiilsed seadmed avada uue võimaluse elektromagnetilise kiirgusega kvalitatiivsete katsete tegemiseks. Seetõttu jätame õpetajale võimaluse teha katseid lähtudes sellistest eeltingimustest. Muul juhul soovitatakse tõendusmaterjali kogumist usaldusväärsete teaduslike ja erialaste teabeallikate abil. Õpilased saavad kasutada ka rohkem kui ühte neist meetoditest, rakendades nn triangulatsiooni põhimõtet – valiidsuse suurendamist  erinevatest allikatest pärineva teabe võrdlemise kaudu.
+                    Meie õpilased ei ole sageli hästi informeeritud erinevatest kiirguse vormidest ja nende mõjudest inimorganismile. Praktilised tegevused, mis puudutavad kiirguse (eriti ioniseeriva kiirguse) mõjusid, on reeglina ohutuskaalutlustel loodusainete klassiruumidest välja jäetud ja vastavad katsematerjalid koolides puuduvad. Lõpuks võivad nutitelefonid ja muud mobiilsed seadmed avada uue võimaluse elektromagnetilise kiirgusega kvalitatiivsete katsete tegemiseks. Seetõttu jätame õpetajale võimaluse teha katseid lähtudes sellistest eeltingimustest. Muul juhul soovitatakse tõendusmaterjali kogumist usaldusväärsete teaduslike ja erialaste teabeallikate abil. Õpilased saavad kasutada ka rohkem kui ühte neist meetoditest, rakendades nn triangulatsiooni põhimõtet – valiidsuse suurendamist  erinevatest allikatest pärineva teabe võrdlemise kaudu.
                 </p>
                 <p>
                     Sissejuhatavas videos tuuakse välja mõned väärarusaamad ja müüdid, mida arutatakse  edasi rühmades. Rühmaarutelud viivad müüte purustavate või kinnitavate tõendite kogumiseni, kus õpilased otsivad andmeid, mis võimaldavad valitud müüti nö murda või kinnitada.
@@ -115,7 +115,7 @@
 
                 <h2>Võimalikud takistused, mida arvesse võtta</h2>
                 <p>
-                    Kiirguse mõistel võib olla õpilaste jaoks negatiivne psühholoogiline varjund. See võib olla seotud tuumarelva tajutava ohuga ja otseste kiirgustega seotud terviseriskidega: suurenenud vähirisk või vähiga mitteseotud täiendavad halvasti määratletud  riskid, sh aterosklerootilised, kardiovaskulaarsed ja neurodegeneratiivsed mõjud. Eeldatakse, et õpilastel on Internetis leiduvate teabeallikate usaldusväärsuse hindamise kogemus, vastasel juhul võib selle probleemiga tegelemine võtta lisaaega.
+                    Kiirguse mõistel võib olla õpilaste jaoks negatiivne psühholoogiline varjund. See võib olla seotud tuumarelva tajutava ohuga ja otseste kiirgustega seotud terviseriskidega: suurenenud vähirisk või vähiga mitteseotud täiendavad halvasti määratletud riskid, sh aterosklerootilised, kardiovaskulaarsed ja neurodegeneratiivsed mõjud. Eeldatakse, et õpilastel on Internetis leiduvate teabeallikate usaldusväärsuse hindamise kogemus, vastasel juhul võib selle probleemiga tegelemine võtta lisaaega.
                 </p>
             </section>
 
@@ -148,7 +148,7 @@
                     <tbody>
                         <tr>
                             <td><b>Tegevus 1</b></td>
-                            <td>Sissejuhatava video esitlus, mis tõstatab mõnede müütide paljastamise kaudu inimeste kiirgushirmu probleemi.
+                            <td>Sissejuhatava video esitlus, mis tõstatab mõnede müütide nähtavaks tegemise kaudu inimeste kiirgushirmu probleemi.
                             <br />
                             Samuti võib õpetaja anda ülevaate kiirgusega seotud müütide laiemast spektrist.</td>
                         </tr>
@@ -168,7 +168,7 @@
                                 Rühmas:
                                 <ul>
                                     <li>Asjakohaste hüpoteeside ja uurimisküsimuste püstitamine;</li>
-                                    <li>asjakohase teabe otsimine püstitatud hüpoteesi/uurimisküsimuse kinnitamiseks või ümberlükkamiseks;</li>
+                                    <li>asjakohase teabe otsimine püstitatud hüpoteesi/ uurimisküsimuse kinnitamiseks või ümberlükkamiseks;</li>
                                     <li>leitud tõendite usaldusväärsuse hindamine;</li>
                                     <li>järelduste tegemine.</li>
                                 </ul>
@@ -285,7 +285,7 @@
                 </p>
                 <ol>
                     <li>
-                        Õpilased saavad valida müüdi, mida saab katseliselt testida, kogudes tõendeid lihtsate katsete abil. Näiteks saab elektromagneetilise kiirguse taset mõõta tasuta nutitelefoni rakendusega, näiteks ElectroSmart vms. abil. <b>ElectroSmart</b> on raadiosageduslik elektromagnetvälja (EMF) detektor.
+                        Õpilased saavad valida müüdi, mida saab katseliselt testida, kogudes tõendeid lihtsate katsete abil. Näiteks saab elektromagnetilise kiirguse taset mõõta tasuta nutitelefoni rakendusega, näiteks ElectroSmart vms. abil. <b>ElectroSmart</b> on raadiosageduslik elektromagnetvälja (EMF) detektor.
                         <UiContentImage
                             src="https://evidence.onkel.ee/assets/radiation__image-2.webp"
                             credits=""
@@ -295,10 +295,10 @@
                             </template>
                         </UiContentImage>
                         <p>
-                            See rakendus võimaldab mõõta kiirguse taset ElectroSmart Indexi abil, mis näitab, kas kiirgustase sobib enamikule inimestele (madal ning mõõdukas tase) või kõrge, mille vähendamiseks tuleb kasutusele võtta meetmeid. Õpilased näevad, et kauguse suurenemine allikast võib vähendada kiirgustaset ruutsõltuvuses. Samuti võivad nad proovida kasutada oma nutitelefoni peal alumiiniumfooliumist tekitatud varjestust, et näha selle abil tekitatud kiirguse vähenemist. Selle testi variatsiooni leiate ka <a href="https://www.youtube.com/watch?v=asmbgAeJqis" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=asmbgAeJqis</a>.
+                            See rakendus võimaldab mõõta kiirguse taset ElectroSmart Indexi abil, mis näitab, kas kiirgustase sobib enamikule inimestele (madal ning mõõdukas tase) või kõrge, mille vähendamiseks tuleb kasutusele võtta meetmeid. Õpilased näevad, et kiirguse tase on pöördvõrdeline kauguse ruuduga. Samuti võivad nad proovida kasutada oma nutitelefoni peal alumiiniumfooliumist tekitatud varjestust, et näha selle abil tekitatud kiirguse vähenemist. Selle testi variatsiooni leiate ka <a href="https://www.youtube.com/watch?v=asmbgAeJqis" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=asmbgAeJqis</a>.
                         </p>
                         <p>
-                            Kui te saate kasutada mõnda lihtsat analoog- või digitaalandurit (EMF-i mõõteseadmet), siis saate mõõta kiirgust, mida kiirgab ükskõik milline teie valitud elektroonikaseade: sülearvuti, tahvelarvuti, nutitelefon, printer, kõlarid, teler, kaugjuhtimispult, lamp, külmik, modem ja võrrelda iga seadme puhul kiirguse koguseid.
+                            Kui te saate kasutada mõnda lihtsat analoog- või digitaalandurit (EMF-i mõõteseadet), siis saate mõõta kiirgust, mida kiirgab ükskõik milline teie valitud elektroonikaseade: sülearvuti, tahvelarvuti, nutitelefon, printer, kõlarid, teler, kaugjuhtimispult, lamp, külmik, modem ja võrrelda iga seadme puhul kiirguse koguseid.
                         </p>
                         <UiContentImage
                             src="https://evidence.onkel.ee/assets/radiation__emf-meter.webp"
@@ -313,17 +313,17 @@
                         </p>
                     </li>
                     <li>
-                        Sageli ei saa kiirgusega seotud müüte klassiruumis eksperimentaalselt uurida. Seetõttu eeldatakse, et õpilased koguvad tõendeid teisestest (sekundaarsetest) allikatest, et kinnitada oma hüpoteesi või leida vastust uurimisküsimusele. Meedia/andmeallikate ja nende sisu kõrvutamise kaudu analüüsivad õpilased kriitiliselt nende usaldusväärsust ning teevad leitud tõendite põhjal põhjendatud järeldusi. Kuna usaldusväärsuse hindamine võib olla õpilastele tõeline väljakutse, on õppematerjal varustatud tööriistaga, mida õpilased saavad kasutada info  otsimisel ja analüüsimisel. Oleks hea, kui õpetaja selgitaks selle kasutamist, näidates ja analüüsides nii usaldusväärseid kui ka vähem usaldusväärseid allikaid näitlikult enne, kui õpilased seda tööriista iseseisvalt kasutama hakkavad.
+                        Sageli ei saa kiirgusega seotud müüte klassiruumis eksperimentaalselt uurida. Seetõttu eeldatakse, et õpilased koguvad tõendeid teisestest (sekundaarsetest) allikatest, et kinnitada oma hüpoteesi või leida vastust uurimisküsimusele. Meedia/andmeallikate ja nende sisu kõrvutamise kaudu analüüsivad õpilased kriitiliselt nende usaldusväärsust ning teevad leitud tõendite põhjal põhjendatud järeldusi. Kuna usaldusväärsuse hindamine võib olla õpilastele tõeline väljakutse, on õppematerjal varustatud tööriistaga, mida õpilased saavad kasutada info otsimisel ja analüüsimisel. Oleks hea, kui õpetaja selgitaks selle kasutamist, näidates ja analüüsides nii usaldusväärseid kui ka vähem usaldusväärseid allikaid näitlikult enne, kui õpilased seda tööriista iseseisvalt kasutama hakkavad.
                     </li>
                 </ol>
                 <p>
                     Oma järelduste tutvustamiseks juhendatakse õpilasi neid oma klassikaaslastele visuaalselt esitlema (Tegevus 4). Üks võimalus on seda teha isetehtud video abil. Selleks saavad õpilased kasutada <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer">videojuhiseid</a>. Alternatiiviks on traditsiooniline slaidiettekanne, mida saab aga vormistada ka huvitavamalt, näiteks teha sellest video, kus õpilased räägivad oma slaidid ükshaaval “sisse” kasutades PowerPoint-i sisseehitatud funktsiooni (Vt juhendit siit) või luua poster kasutades näiteks visuaalse lihtsustamise tehnikat (Vt juhendit). Samuti on õpilase materjalides pakutud välja kriteeriumid, millele video peaks vastama. Neid kriteeriume saab kasutada kujundavalt protsessi käigus enesehindamiseks ning kaaslaste hindamisel esitluste ajal ning kaaslaste ja õpetaja küsimustele vastamisel (Tegevus 5). Õpilased saavad teistele rühmadele tagasiside andmiseks või nendelt tagasiside saamiseks kasutada järgmist <nuxt-link to="./tools/peer-feedback" target="_blank">hindamisvahendit</nuxt-link>.
                 </p>
                 <p>
-                    Viimases tegevuses (Tegevus 6) arutatakse sotsiaalselt teravaid ioniseeriva kiirguse ja tuumaenergiaga seotud teemasid[1]. Soovitatav väitlus-rollimäng esitatakse õpilasmaterjalis. Seda saab vabalt kohandada konkreetse haridusliku kontekstiga. Õpetajad saavad otsustada, millist hindamist kasutada või mitte, et soodustada õpilaste ideede ja argumentide vaba väljendamist. Varasematest etappidest saadud tundide põhjal on õpilastel võimalus kõrvutada ja mõtiskleda oma loodusteaduste, aga ka isiklike ja sotsiaalsete väärtuste üle.
+                    Viimases tegevuses (Tegevus 6) arutatakse sotsiaalselt teravaid ioniseeriva kiirguse ja tuumaenergiaga seotud teemasid. Soovitatav väitlus-rollimäng esitatakse õpilase materjalis. Seda saab vabalt kohandada konkreetse haridusliku kontekstiga. Õpetajad saavad otsustada, millist hindamist kasutada, et soodustada õpilaste ideede ja argumentide vaba väljendamist. Varasematest etappidest saadud teadmiste põhjal on õpilastel võimalus kõrvutada ja mõtiskleda isiklike ja sotsiaalsete väärtuste üle.
                 </p>
                 <p>
-                    Soovitame kasutada konkreetset teemat "Tuumaenergia", mis on praegu avalikkuse tähelepanu keskpunktis ja mida aktiivselt arutatakse paljudes Euroopa riikides. Peaaegu igas riigis on oma, enam-vähem spetsiifiline "tuumaenergia" debatt, õpetajad võiksid julgustada õpilasi oma riigis toimuvat debatti jälgima. Sageli on selle konkreetse teemaga seotud ka selgeid hirme, väärarusaamu ja müüte, näiteks:
+                    Soovitame kasutada konkreetset teemat "Tuumaenergia", mis on praegu avalikkuse tähelepanu keskpunktis ja mida aktiivselt arutatakse paljudes Euroopa riikides. Peaaegu igas riigis on oma, enam-vähem spetsiifiline tuumaenergia debatt, õpetajad võiksid julgustada õpilasi oma riigis toimuvat debatti jälgima. Sageli on selle konkreetse teemaga seotud ka selgeid hirme, väärarusaamu ja müüte, näiteks:
                 </p>
                 <ul>
                     <li><b>Müüt 1:</b> Tuumaenergia ei ole ohutu.</li>
