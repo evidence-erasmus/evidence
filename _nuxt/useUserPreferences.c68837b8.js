@@ -1,0 +1,1 @@
+import{x as s}from"./entry.81fe9b15.js";const a=s("userPreferences",{state:()=>({tocOpen:!0,modalOpen:!1,modalName:"",learnPathViruses:0}),actions:{toggleToC(){this.tocOpen=!this.tocOpen},toggleModal(e){this.modalName=e,this.modalOpen=!this.modalOpen,console.log("MODAL",this.modalName)},setLearnPath(e,t){this[e]=t}},persist:!0});export{a as u};

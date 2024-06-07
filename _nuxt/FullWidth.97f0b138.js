@@ -1,1 +1,0 @@
-import{_,o as t,c as n,W as o}from"./entry.dd09f046.js";const s={},c={class:"full-width"};function d(e,a){return t(),n("div",c,[o(e.$slots,"default",{},void 0,!0)])}const l=_(s,[["render",d],["__scopeId","data-v-20a0d8eb"]]);export{l as _};
