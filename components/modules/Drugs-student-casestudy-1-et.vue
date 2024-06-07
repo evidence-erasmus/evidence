@@ -33,8 +33,6 @@
             II faas (≈15 min)
         </h3>
         <p>
-            <b>You are now provided with different possible solutions for the case and proposed dilemma.</b>
-            <br />
             <b>Nüüd pakutakse Sulle erinevaid võimalikke lahendusi seoses juhtumi ja esitatud dilemmaga.</b> Palun loe need läbi ja mõtle võimalikele lahendustele ja nende taga olevatele kaalutlustele. See ei ole mõeldud ühe õige vastusega testina. Selle asemel on lisatud erinevad vastused, mis panevad Sind loodetavasti mõtlema võimalustele, mille üle Sa võib-olla pole mõelnud. Veendu, et töötad üksi, kuna see puudutab Sind ja see peab olema Sinu otsus. Kui Sul on teistsugune vastus, lisa see väljale „muu”.
         </p>
         <p>
@@ -56,7 +54,7 @@
                     …sest Markus pole süüdi, elu on tema suhtes olnud lihtsalt ebaõiglane.
                 </li>
                 <li>
-                    Other: .....................................
+                    Muu: .....................................
                 </li>
             </ol>
         </p>
@@ -92,7 +90,7 @@
                 …sest vastasel juhul saaks ta karistada teo eest, mida ta pole toime pannud. 
             </li>
             <li>
-                Other: .............................
+                Muu: .............................
             </li>
         </ol>
 

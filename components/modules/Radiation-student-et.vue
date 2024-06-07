@@ -227,7 +227,7 @@
                     Teema: Tuumaenergia
                 </h3>
                 <p>
-                    Selle teemaga töötamise konkreetne eesmärk on võimaldada arutelu ja põhjendamise kaudu arendada Sinu kriitilist mõtlemist tuumaenergia küsimuses ning see on seotud müüdiga "tuumaenergia pole ohutu". Sellel teemal on kaks seisukohta: tuumaenergia poolt ja vastu. Seega on klass jagatud omakorda kahte suuremasse rühma vastavalt neile jagatud rollidele.
+                    Selle teemaga töötamise konkreetne eesmärk on arendada arutelu ja põhjendamise kaudu Sinu kriitilist mõtlemist tuumaenergia küsimuses ning see on seotud müüdiga "tuumaenergia pole ohutu". Sellel teemal on kaks seisukohta: tuumaenergia poolt ja vastu. Seega on klass jagatud omakorda kahte suuremasse rühma vastavalt neile jagatud rollidele.
                 </p>
 
                 <div class="md:grid md:grid-cols-2 gap-4">
@@ -285,7 +285,7 @@
                     Selles etapis jagavad õpilased rühmas teistega oma arvamusi ja täpsustavad ühiseid argumente. Mängijad kasutavad infokaarte ja muud teavet oma seisukoha toetamiseks.
                 </p>
                 <p>
-                    I ja II osa võivad jätkuda kodutööna ja ettevalmistusena väitluseks (III osa), mis toimub järgmises tunnis. Esialgseid argumente saab ette valmistada täiustatud visuaalsel kujul, kasutades ettevalmistatud lühivideoid ja PowerPoint esitlusi.
+                    I ja II osa võivad jätkuda kodutööna ja ettevalmistusena väitluseks (III osa), mis toimub järgmises tunnis. Esialgseid argumente saab ette valmistada täiustatud visuaalsel kujul, kasutades ettevalmistatud lühivideoid ja slaidiesitlusi.
                 </p>
 
 

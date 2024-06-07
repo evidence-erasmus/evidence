@@ -493,7 +493,7 @@
             {
                 title: "Opositsioonipoliitik",
                 image: "card_radiation_opposition-politician.webp",
-                story: "Opositsioonipoliitikuna on teil  valimishuvid ning seega olete oma poliitilise vastase vastu. Teie erakond toetab taastuvenergiat kui alternatiivi traditsioonilistele energiaallikatele ja tuumaenergiale, väites, et energiasõltuvust teistest riikidest on võimalik vähendada. Siiski arvate, et kõigi tuumaelektrijaamade kiire sulgemine ei ole otstarbekas. Samuti väidate, et tekkivaid tuumajäätmeid tuleks käidelda (mis võib olla riigi jaoks majanduslikult kasulik), mistõttu ei ole te täielikult tuumajäätmehoidlate hoidlate rajamise vastu.",
+                story: "Opositsioonipoliitikuna on teil valimishuvid ning seega olete oma poliitilise vastase vastu. Teie erakond toetab taastuvenergiat kui alternatiivi traditsioonilistele energiaallikatele ja tuumaenergiale, väites, et energiasõltuvust teistest riikidest on võimalik vähendada. Siiski arvate, et kõigi tuumaelektrijaamade kiire sulgemine ei ole otstarbekas. Samuti väidate, et tekkivaid tuumajäätmeid tuleks käidelda (mis võib olla riigi jaoks majanduslikult kasulik), mistõttu ei ole te täielikult tuumajäätmehoidlate rajamise vastu.",
                 story2: "Otsige argumente tuumaenergia vastu ja taastuvate energiaallikate poolt, et astuda vastu oma poliitilisele vastasele."
             },
             {
@@ -520,15 +520,15 @@
             },
             {
                 title: "Peatage globaalne soojenemine",
-                story: "Temperatuuritõusu eesmärgi (1,5 °C) täitmine kulutõhusal ja sotsiaalselt õiglasel viisil nõuab palju suurema hulga tuumaenergia kiiret kasutuselevõttu. Tuumaenergia on hädavajalik õhusaasteainete ja kasvuhoonegaaside heitkoguste vähendamiseks, et tagada üleminek vähese CO₂-heitega tulevikule. Samuti, et see toimuks õiglasel moel pakkudes inimestele üle maailma energia ja jätkusuutlik tulevik."
+                story: "Temperatuuritõusu eesmärgi (1,5 °C) täitmine kulutõhusal ja sotsiaalselt õiglasel viisil nõuab palju suurema hulga tuumaenergia kiiret kasutuselevõttu. Tuumaenergia on hädavajalik õhusaasteainete ja kasvuhoonegaaside heitkoguste vähendamiseks, et tagada üleminek vähese CO₂-heitega tulevikku. Samuti, et see toimuks õiglasel moel pakkudes inimestele üle maailma energiat ja jätkusuutlikku tulevikku."
             },
             {
                 title: "Dekarboniseerimine",
-                story: "(süsihappegaasiheitmest vabastamine) Tuumaenergia võimaldab massiliselt kiiret dekarboniseerimist ja seda on tõestatud. Tuumatehnoloogiad võivad toota elektrit nii suurtele võrkudele kui ka väikestele kogukondadele, pakkudes kaugkütet ja -jahutust, varustades tööstust protsessisoojust, tootdes vesinikku ja palju muud. See on ainuke energiaallikas, mis suudab toota vähese CO₂-heitega elektrit ja vähese süsinikdioksiidiheitega soojust, see võib olla mängumuutus kogu maailmamajanduse süsihappegaasist vabastamisel."
+                story: "...ehk süsihappegaasiheitmest vabastamine. Tuumaenergia võimaldab massiliselt kiiret dekarboniseerimist ja seda on tõestatud. Tuumatehnoloogiad võivad toota elektrit nii suurtele võrkudele kui ka väikestele kogukondadele, pakkudes kaugkütet ja -jahutust, varustades tööstust protsessisoojusega, tootes vesinikku ja palju muud. See on ainuke energiaallikas, mis suudab toota vähese CO₂-heitega elektrit ja soojust, see võib olla murranguks kogu maailmamajanduse süsihappegaasist vabastamisel."
             },
             {
                 title: "Jätkusuutlikkus",
-                story: "Maailma säästva arengu vajaduste rahuldamiseks tuleb 2050. aastaks paigaldada rohkem kui 1200 GW tuumaenergiat. See tähendab 30 uue reaktori ehitamist aastas. Seda on varemgi tehtud, aga tänaseks pole me veel sellele tasemele jõudnud."
+                story: "Maailma säästva arengu vajaduste rahuldamiseks tuleb 2050. aastaks paigaldada elektrijaamu, mis toodaksid rohkem kui 1200 GW ulatuses tuumaenergiat. See tähendab 30 uue reaktori ehitamist aastas. Seda on varemgi tehtud, aga täna pole me sellel tasemel."
             },
             {
                 title: "Uued arengud",
@@ -536,7 +536,7 @@
             },
             {
                 title: "Kiirgus on meie elu loomulik osa",
-                story: "Me kõik puutume iga päev kokku kiirgusega, saades keskmiselt 2-3 millisiivertit (mSv) aastas. Suurem osa sellest kiirgusest pärineb radoonist. Tuumatööstus vastutab väga väikese osa inimeste  kiirgusega kokkupuute eest. Tuumaelektrijaama läheduses elamine ohustab kohalikku elanikkonda keskmiselt 0,00009 mSv aastas. Seda perspektiivi silmas pidades annab 10 banaani või kahe brasiilia pähkli söömine sama kiirgusdoosi, kui elades aasta aega tuumajaama läheduses. Inimene on ka oma olemuselt radioaktiivne ja ühe aasta jooksul kellegi teise kõrval magamisel tekkiv kiirgusdoos on kümme korda suurem kui sama aja jooksul tuumajaama läheduses elades saadav kiiritus."
+                story: "Me kõik puutume iga päev kokku kiirgusega, saades keskmiselt 2-3 millisiivertit (mSv) aastas. Suurem osa sellest kiirgusest pärineb radoonist. Tuumatööstus vastutab väga väikese osa inimeste kiirgusega kokkupuute eest. Tuumaelektrijaama läheduses elamine ohustab kohalikku elanikkonda keskmiselt 0,00009 mSv aastas. Seda perspektiivi silmas pidades annab 10 banaani või kahe brasiilia pähkli söömine sama kiirgusdoosi, kui elades aasta aega tuumajaama läheduses. Inimene on ka oma olemuselt radioaktiivne ja ühe aasta jooksul kellegi teise kõrval magamisel tekkiv kiirgusdoos on kümme korda suurem kui sama aja jooksul tuumajaama läheduses elades saadav kiiritus."
             },
             {
                 title: "Õhusaaste põhjustatud suremus",
@@ -548,7 +548,7 @@
             },
             {
                 title: "Radoon",
-                story: "Radioaktiivse radooni sissehingamine on kopsuvähi peamine põhjus kogu maailmas ja on inimese ehitatud keskkonna tagajärg. Radoon-222 (222Rn) ja selle lagunemissaaduste, nagu poloonium (218Po) ja (214Po) alfaosakeste ioniseeriv kiirgus kahjustab kopsurakkude DNA-d, tekitades vähi teket soodustavaid geneetilisi mutatsioone. Radooni ja selle saadusi - alfaosakesi mõõdetakse bekerellides (Bq) kuupmeetri (m³) kohta, mis võrdub ühe osakese emissiooniga sekundis kuupmeetri õhu kohta. 100 Bq/m³ tähistab kokkupuudet, mille ületamisel on suurenenud suhteline eluaegne risk haigestuda kopsuvähki; statistiliselt oluliselt suureneb kopsuvähi suhteline risk kogu elu jooksul 16%3 pikaajalise radooniga kokkupuute tõttu."
+                story: "Radioaktiivse radooni sissehingamine on kopsuvähi peamine põhjus kogu maailmas ja on inimese ehitatud keskkonna tagajärg. Radoon-222 (222Rn) ja selle lagunemissaaduste, nagu poloonium (218Po ja 214Po) alfaosakeste ioniseeriv kiirgus kahjustab kopsurakkude DNA-d, tekitades vähi teket soodustavaid geneetilisi mutatsioone. Radooni ja selle saadusi - alfaosakesi mõõdetakse bekrellides (Bq) kuupmeetri (m³) kohta, mis võrdub ühe osakese emissiooniga sekundis kuupmeetri õhu kohta. 100 Bq/m³ tähistab kokkupuudet, mille ületamisel on suurenenud suhteline eluaegne risk haigestuda kopsuvähki; statistiliselt oluliselt suureneb kopsuvähi suhteline risk kogu elu jooksul 16%3 pikaajalise radooniga kokkupuute tõttu."
             },
             {
                 title: "Tuumajäätmehoidlad",
@@ -580,15 +580,15 @@
             },
             {
                 title: "Tuumaenergia",
-                story: "Tuumatööstus väidab, et tuumaenergia kui vähese süsinikdioksiidiheitega allikas peab olema osa energiaallikate valikust ja lahendusest. Tuumaenergia on maailma üha kasvava energianõudluse rahuldamiseks ülioluline tänu selle võimele pakkuda taskukohast, usaldusväärset ja säästvat elektrit ja soojust. Vaatamata tuumaenergia paljudele eelistele, on selle kasutuselevõtt mõnes maailma paigas takistatud pikaajaliste väärarusaamade tõttu selle riskide kohta. Isegi selle ohutusrekordi juures – millele pole võrreldav ükski teine ​​energiaallikas – jääb tuumaenergia ainuohtlikkuse tajumine püsima. Inimesi tuleb harida tuumaenergia riskide ja eeliste kohta."
+                story: "Tuumatööstus väidab, et tuumaenergia kui vähese süsinikdioksiidiheitega allikas peab olema osa energiaallikate valikust ja lahendusest. Tuumaenergia on maailma üha kasvava energianõudluse rahuldamiseks ülioluline tänu selle võimele pakkuda taskukohast, usaldusväärset ja säästvat elektrit ja soojust. Vaatamata tuumaenergia paljudele eelistele, on selle kasutuselevõtt mõnes maailma paigas takistatud pikaajaliste väärarusaamade tõttu selle riskide kohta. Isegi selle ohutusregistri juures, millega pole võrreldav ükski teine energiaallikas, jääb tuumaenergia ainuohtlikkuse tajumine püsima. Inimesi tuleb harida tuumaenergia riskide ja eeliste kohta."
             },
             {
                 title: "Kiirgusfoobia",
-                story: "Vaadeldes kiirgusriske eraldiseisvalt, oleme loonud midagi kiirgusfoobia sarnast, mis nii otseselt kui ka kaudselt kahjustab inimesi kogu maailmas. Näiteks on hästi tõestatud, et suurem osa Tšernobõli ja Fukushima Daiichi tervisemõjudest ei olnud radioloogilised, vaid pigem psühhosotsiaalsed. on täheldatav ja järsult suurenenud depressioon, PTSH (posttraumaatiline stressihäire), ainete kuritarvitamine ja enesetappude arv, mida võib olulisel määral seostada ebakõlaga tegelike ja tajutavate kiirgusriskide ning nende stigmatiseerimise vahel."
+                story: "Vaadeldes kiirgusriske eraldiseisvalt, oleme loonud midagi kiirgusfoobia sarnast, mis nii otseselt kui ka kaudselt kahjustab inimesi kogu maailmas. Näiteks on hästi tõestatud, et suurem osa Tšernobõli ja Fukushima Daiichi tervisemõjudest ei olnud radioloogilised, vaid pigem psühhosotsiaalsed. Katastroofide järgselt on registreeritud järsult suurenenud depressiooni, PTSH (posttraumaatiline stressihäire), ainete kuritarvitamise ja enesetappude sagedused, mida võib olulisel määral seostada ebakõlaga tegelike ja tajutavate kiirgusriskide ning nende stigmatiseerimise vahel."
             },
             {
                 title: "Fossiilkütuste mõju",
-                story: "Fossiilkütuste ajalooline kasutamine on kasvuhoonegaaside heitkoguste kaudu oluliselt kaasa aidanud kliimamuutustele, põhjustades enneolematuid muutusi Maa jätkusuutlikkuses.. Aastaks 2025 elab pool maailma elanikkonnast veesurvega piirkondades, kuna äärmuslik kuumus ja põud halvendavad veevarusid. Aastatel 2030–2050 põhjustab kliimamuutus alatoitluse, malaaria, kõhulahtisuse ja kuumastressi tõttu täiendavalt 250 000 surmajuhtumit aastas. Vaatamata kliimamuutustega seotud tohututest riskidest jääb meie sõltuvus kivisöest, naftast ja fossiilgaasist siiski püsima, kuna fossiilkütused annavad 2019. aastal 84% ülemaailmsest primaarenergiast. Kodumajapidamiste ja välisõhu saaste põhjustab igal aastal 8,7 miljonit surma, peamiselt fossiilkütuste jätkuvast kasutamisest. Tänase seisuga ei ole 770 miljonil inimesel üle maailma juurdepääsu elektrile, kusjuures üle 75% elanikkonnast elab Sahara-taguses Aafrikas."
+                story: "Fossiilkütuste ajalooline kasutamine on kasvuhoonegaaside heitkoguste kaudu oluliselt kaasa aidanud kliimamuutustele, põhjustades enneolematuid muutusi Maa jätkusuutlikkuses. Aastaks 2025 elab pool maailma elanikkonnast veesurvega piirkondades, kuna äärmuslik kuumus ja põud halvendavad veevarusid. Aastatel 2030–2050 põhjustab kliimamuutus alatoitluse, malaaria, kõhulahtisuse ja kuumastressi tõttu täiendavalt 250 000 surmajuhtumit aastas. Vaatamata kliimamuutustega seotud tohututest riskidest jääb meie sõltuvus kivisöest, naftast ja fossiilgaasist siiski püsima, kuna fossiilkütused annavad 2019. aastal 84% ülemaailmsest primaarenergiast. Kodumajapidamiste ja välisõhu saaste põhjustab igal aastal 8,7 miljonit surma, peamiselt fossiilkütuste jätkuvast kasutamisest. Tänase seisuga ei ole 770 miljonil inimesel üle maailma juurdepääsu elektrile, kellest üle 75% elab Sahara-taguses Aafrikas."
             },
             {
                 title: "Kiirgusallikad",
