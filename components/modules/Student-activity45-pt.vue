@@ -11,7 +11,7 @@
             <li>Vídeo sobre a atividade e os seus resultados <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> Tutorial</a></li>
             <li>Vídeo da sua apresentação <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> Tutorial</a></li>
             <li>Apresentação (ex. Google Slides)</li>
-            <li>Cartaz <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> Tutorial</a></li>
+            <li>Cartaz <a href="https://youtu.be/qo4zCqAGGug" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> Tutorial</a></li>
         </ul>
         <p>Os seguintes critérios irão ajudá-lo a desenvolver o seu produto de vídeo:</p>
         <UiCardInfo class="my-8" theme="sky-500" icon="material-symbols:fact-check-outline-rounded">

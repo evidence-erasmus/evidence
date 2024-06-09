@@ -15,7 +15,7 @@
             </li>
             <li>Slaidiesitlus.</li>
             <li>
-                Poster, kasutades näiteks visuaalse lihtsustamise tehnikat <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> videoõpetus</a>
+                Poster, kasutades näiteks visuaalse lihtsustamise tehnikat <a href="https://youtu.be/qo4zCqAGGug" target="_blank" rel="noopener noreferrer" class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="22" /> videoõpetus</a>
             </li>
             <li>Muu.</li>
         </ul>

@@ -15,7 +15,7 @@
             </li>
             <li>Video av ditt bildspel <a href="https://www.youtube.com/watch?v=mOEdiIV31_s" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> se videohandledning</a></li>
             <li>Bildspel (PowerPoint).</li>
-            <li>Poster <a href="https://youtu.be/9rDIJGmKpP4" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> se videohandledning</a></li>
+            <li>Poster <a href="https://youtu.be/qo4zCqAGGug" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="material-symbols:youtube-tv-outline" size="18" /> se videohandledning</a></li>
         </ul>
         <p>
             Följande kriterier hjälper dig att utveckla din presentation:
