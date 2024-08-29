@@ -25,7 +25,7 @@ export const useStudentInputStore = defineStore("student", {
                 independent: "",
                 dependent: "",
                 control: [
-                    [""]
+                    [[""], [""]]
                 ]
             },
             activity3aVariables: [
@@ -34,7 +34,9 @@ export const useStudentInputStore = defineStore("student", {
             reliability: [
                 ["", "", "'0'", ""]
             ],
-            activity3aResults: [],
+            activity3aResults: [
+                ["", ""]
+            ],
             activity3aConclusion: "",
             activity3aSecondary: "",
         },

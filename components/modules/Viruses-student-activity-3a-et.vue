@@ -82,7 +82,7 @@
             :tableStructure = "controlTable" 
             :addRow = "true"
             addRowTitle = "Lisa muutuja"
-            :newRow = "['']"
+            :newRow = "new Array(2)"
             :storeToUpdate = "studentInputs" 
             :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
             :deleteRow = "true"
@@ -95,17 +95,13 @@
         <ToolsDynamicTableFull class="e-card mb-8"
             :tableStructure = "resultsTable" 
             :addRow = "true"
-            :newRow = "new Array(2 + studentInputs.activity3a.experimentVariables.control.length)"
+            :newRow = "new Array(2)"
             :storeToUpdate = "studentInputs" 
             :keyToUpdate = "studentInputs.activity3a.activity3aResults"
             :deleteRow = "true"
         />
 
 
-
-
-        <!-- <label for="3aResults" class="font-bold block mt-8">Eksperimendi tulemused:</label>
-        <textarea id="3aResults" class="textarea textarea-bordered block w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea> -->
 
 
         <hr />
@@ -138,27 +134,22 @@
     const studentInputs = useStudentInputStore();
     const {tm} = useI18n({scope:"global"});
 
+    
     const controlTable = ref({
         header: [
-            {thead: "", tsubhead: "Iga muutuja eraldi reale"}
+            {thead: "Muutuja", tsubhead: ""},
+            {thead: "Väärtus", tsubhead: ""}
         ]
     });
     
     const resultsTable = computed(() => {
-        
         const variables = studentInputs.activity3a.experimentVariables;
-
         let structure = {
             header: [
                 {thead: `${variables.independent}`, tsubhead: "Sõltumatu muutuja"},
                 {thead: `${variables.dependent}`, tsubhead: "Sõltuv muutuja"},
             ]
         }
-
-        studentInputs.activity3a.experimentVariables.control.forEach( (variable) => {
-            structure.header.push({thead: `${variable}`, tsubhead:"Kontrollmuutuja"});
-        } );
-
         return structure;
     });
 

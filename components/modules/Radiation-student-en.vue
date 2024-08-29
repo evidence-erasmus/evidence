@@ -37,7 +37,7 @@
                 </p>
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-en.webp" />
                 <p>
-                    After finding evidence and making conclusions, you will prepare a presentation of your results to your classmates (or other audiences) in a relevant and convincing manner (for example, in the form of video posts or PowerPoint presentations).  The module is finished with a role-play about radiation issues related to Nuclear Power where you can take positions and suggest solutions using scientific knowledge and personal values attributed to different roles.
+                    After finding evidence and making conclusions, you will prepare a presentation of your results to your classmates (or other audiences) in a relevant and convincing manner (for example, in the form of video posts or PowerPoint presentations). The module is finished with a role-play about radiation issues related to Nuclear Power where you can take positions and suggest solutions using scientific knowledge and personal values attributed to different roles.
                 </p>
             </section>
                         
@@ -86,7 +86,7 @@
                 <ul class="leading-tight">
                     <li><span class="text-rose-400 font-bold">Myth 1:</span> Sunbathing is good for health, especially during winter.</li>
                     <li><span class="text-rose-400 font-bold">Myth 2:</span> Microwave ovens send intense radiation, and it is dangerous to be near the oven when it works.</li>
-                    <li><span class="text-rose-400 font-bold">Myth 3:</span>  It is bad to sleep near a smartphone and be exposed to its radiation for a long time.</li>
+                    <li><span class="text-rose-400 font-bold">Myth 3:</span> It is bad to sleep near a smartphone and be exposed to its radiation for a long time.</li>
                     <li><span class="text-rose-400 font-bold">Myth 4:</span> Radiation emitted by 5G mobile communication masts is more dangerous for humans than that used in the previous generation networks: 2G, 3G and 4G.</li>
                     <li><span class="text-rose-400 font-bold">Myth 5:</span> Indoor tanning in a solarium is safer than sunbathing outdoors</li>
                     <li><span class="text-rose-400 font-bold">Myth 6:</span> Radiation from a dental X-ray causes severe headaches.</li>
@@ -121,7 +121,7 @@
                     You are now invited to narrow down the myth/issue into a testable hypothesis - a statement that can be tested or a question that can be answered through your research. Think about how a hypothesis is not just a guess – it should be based on existing knowledge. It also has to be testable, which means you can support or refute it as a result of your study. 
                 </p>
                 <p>
-                    Plan your further activities following the cycle as given in Figure 1. You should think about whether your myth can be tested experimentally, confirmed/falsified using modern technology, for example, mobile phone Apps as measuring devices, computer models and simulations, or using secondary evidence (e.g. already conducted experiments that have been published or available in the form of YouTbe videos).  Based on that, you should choose Activity 3a or 3b for further study. You can use more than one of these methods, applying the so-called triangulation principle – increasing the validity of your findings through the convergence of information from different sources.
+                    Plan your further activities following the cycle as given in Figure 1. You should think about whether your myth can be tested experimentally, confirmed/falsified using modern technology, for example, mobile phone Apps as measuring devices, computer models and simulations, or using secondary evidence (e.g. already conducted experiments that have been published or available in the form of YouTbe videos). Based on that, you should choose Activity 3a or 3b for further study. You can use more than one of these methods, applying the so-called triangulation principle – increasing the validity of your findings through the convergence of information from different sources.
                 </p>
                 <div class="w-full px-2 py-16 sm:px-0" id="activity-3ab">
                     <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
@@ -222,7 +222,7 @@
                 </p>
 
                 <div class="md:grid md:grid-cols-2 gap-4">
-                    <div class="border-4 border-green-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-green-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Position 1: In favour
                         </h4>
@@ -230,7 +230,7 @@
                             The state must recognise that nuclear energy is safe and offers a "golden opportunity" to create a cleaner and more equitable world. The state must invest in creating a safe nuclear waste cemetery (final depository).
                         </p>
                     </div>
-                    <div class="border-4 border-red-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-red-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Position 2: Against
                         </h4>
@@ -245,7 +245,7 @@
                     Phase I (≈ 25 minutes)
                 </h3>
                 <p>
-                    Each team is given (a selection method could be decided with your teacher) a role card containing a brief profile of the role the team will represent, along with the arguments supporting the perspective to be defended. In addition to the role cards, each team is given the worksheet they must complete during the role-play <span class="bg-red-300">(see worksheet)</span>.
+                    Each team is given (a selection method could be decided with your teacher) a role card containing a brief profile of the role the team will represent, along with the arguments supporting the perspective to be defended. In addition to the role cards, each team is given the worksheet they must complete during the role-play (<NuxtLink to="https://docs.google.com/document/d/10LJHc2pPW-Qb6cUpO4Bihz3pIBPp2bzeOak9GL8mDj8/edit?usp=sharing" target="_blank">see worksheet</NuxtLink>).
                 </p>
                 <p>
                     You will need to present informed arguments for your position.

@@ -139,7 +139,7 @@
                         <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
+                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400 focus:outline-none focus:ring-4"
                                 :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >Aktivitet 3a:<br />Mythbusting baserat på experiment</button>
                             </Tab>
@@ -227,7 +227,7 @@
                     Detta tema har två positioner: för och emot kärnkraft. Således delas klassen in i två grupper efter deras tilldelade roller.
                 </p>
                 <div class="md:grid md:grid-cols-2 gap-4">
-                    <div class="border-4 border-green-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-green-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Position 1: För
                         </h4>
@@ -235,7 +235,7 @@
                             Staten måste erkänna att kärnenergi är säker och erbjuder en "gyllene möjlighet" att skapa en renare och mer rättvis värld. Staten måste investera i att skapa en säker kärnavfallskyrkogård (slutförvaring).
                         </p>
                     </div>
-                    <div class="border-4 border-red-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-red-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Position 2: Emot
                         </h4>
@@ -250,7 +250,7 @@
                     Fas I (≈ 25 minuter)
                 </h3>
                 <p>
-                    Varje lag får (en urvalsmetod kan bestämmas tillsammans med din lärare) ett rollkort som innehåller en kort profil över den roll laget ska representera, tillsammans med argumenten till stöd för det perspektiv som ska försvaras. Utöver rollkorten får varje lag ett arbetsblad de ska fylla i under rollspelet ( <span class="bg-red-300">se arbetsblad )</span>.
+                    Varje lag får (en urvalsmetod kan bestämmas tillsammans med din lärare) ett rollkort som innehåller en kort profil över den roll laget ska representera, tillsammans med argumenten till stöd för det perspektiv som ska försvaras. Utöver rollkorten får varje lag ett arbetsblad de ska fylla i under rollspelet (<NuxtLink to="https://docs.google.com/document/d/1L9NNyMQBcbBZeeekrWBCrAxWd8mGiinC7zSGPwb2rgs/edit?usp=sharing" target="_blank">se arbetsblad</NuxtLink>).
                 </p>
                 <p>
                     Du måste lägga fram välgrundade argument för din ståndpunkt / position.

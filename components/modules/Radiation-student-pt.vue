@@ -38,7 +38,7 @@
                 </p>
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-pt.webp" />
                 <p>
-                    Depois de encontrar provas e tirar conclusões, irá preparar uma apresentação dos seus resultados aos seus colegas (ou outros públicos) de forma relevante e convincente (por exemplo, sob a forma de posts/publicações de vídeo ou apresentações de PowerPoint).  O módulo termina com um role-play sobre questões de radiação relacionadas com a Energia Nuclear onde pode tomar posições e sugerir soluções usando conhecimento científico e valores pessoais atribuídos a diferentes papéis.
+                    Depois de encontrar provas e tirar conclusões, irá preparar uma apresentação dos seus resultados aos seus colegas (ou outros públicos) de forma relevante e convincente (por exemplo, sob a forma de posts/publicações de vídeo ou apresentações de PowerPoint). O módulo termina com um role-play sobre questões de radiação relacionadas com a Energia Nuclear onde pode tomar posições e sugerir soluções usando conhecimento científico e valores pessoais atribuídos a diferentes papéis.
                 </p>
             </section>       
             
@@ -127,20 +127,20 @@
                     Agora está convidado a reduzir o mito/questão a uma hipótese testável - uma afirmação que pode ser testada ou uma pergunta que pode ser respondida através de uma pesquisa. Pense que uma hipótese não é apenas uma suposição – ela deve ser baseada no conhecimento existente. Também deve ser testável, o que significa que pode ser negado ou confirmado conforme resultado do seu estudo.
                 </p>
                 <p>
-                    Planeie as suas futuras atividades seguindo o ciclo mostrado na Figura 1. Deve refletir se o mito escolhido pode ser testado experimentalmente, confirmado/negado recorrendo a novas tecnologias, por exemplo, aplicações para telemóvel, como dispositivos de medição, modelos de computador e simulações, ou usando outras aplicações ou experiências já realizadas que foram publicadas  na forma de vídeos do YouTube. Com base nisso, deve escolher a Atividade 3a ou 3b para um estudo mais aprofundado. Pode usar mais do que um desses métodos, aplicando o chamado princípio da triangulação – aumentando a validade das suas descobertas através da convergência de informações de diferentes fontes.
+                    Planeie as suas futuras atividades seguindo o ciclo mostrado na Figura 1. Deve refletir se o mito escolhido pode ser testado experimentalmente, confirmado/negado recorrendo a novas tecnologias, por exemplo, aplicações para telemóvel, como dispositivos de medição, modelos de computador e simulações, ou usando outras aplicações ou experiências já realizadas que foram publicadas na forma de vídeos do YouTube. Com base nisso, deve escolher a Atividade 3a ou 3b para um estudo mais aprofundado. Pode usar mais do que um desses métodos, aplicando o chamado princípio da triangulação – aumentando a validade das suas descobertas através da convergência de informações de diferentes fontes.
                 </p>
                 <div class="w-full px-2 py-16 sm:px-0" id="activity-3ab">
                     <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
                         <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
+                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400 focus:outline-none focus:ring-4"
                                 :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >Atividade 3a: Desmitificação baseada em experiências</button>
                             </Tab>
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400  focus:outline-none focus:ring-4"
+                                class="w-full rounded py-3 px-2 text-xl font-bold text-slate-400 focus:outline-none focus:ring-4"
                                 :class="{ 'bg-blue-500 text-slate-50 ring-4 ring-amber-400 ring-offset-2 ring-offset-amber-50': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >Atividade 3b: Desmitificação baseada em fontes secundárias</button>
                             </Tab>
@@ -222,7 +222,7 @@
                     O objetivo específico de trabalhar com esse tema é possibilitar o debate e a argumentação para desenvolver o seu pensamento crítico em relação à energia nuclear. O debate está relacionado ao mito de que “a energia nuclear não é segura”. Este tema tem duas posições: a favor e contra a energia nuclear. Assim, a turma é dividida em dois grupos de acordo com os papéis atribuídos.
                 </p>
                 <div class="md:grid md:grid-cols-2 gap-4">
-                    <div class="border-4 border-green-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-green-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Posição 1: a Favor
                         </h4>
@@ -230,7 +230,7 @@
                             O Estado deve reconhecer que a energia nuclear é segura e oferecer uma "oportunidade de ouro" para criar um mundo mais limpo e igualitário. O estado deve investir na criação de um cemitério seguro de resíduos nucleares (depósito final).
                         </p>
                     </div>
-                    <div class="border-4 border-red-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-red-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Posição 2: Contra
                         </h4>
@@ -245,7 +245,7 @@
                     Fase I (≈ 25 min.)
                 </h3>
                 <p>
-                    Cada equipa recebe (um método de seleção pode ser decidido com o professor) um cartão de papel contendo um breve perfil do papel que a equipa representará, juntamente com os argumentos que sustentam a perspetiva a ser defendida. Além dos cartões de papéis, cada equipa recebe a informação que deve defender durante o role-play (encenação).
+                    Cada equipa recebe (um método de seleção pode ser decidido com o professor) um cartão de papel contendo um breve perfil do papel que a equipa representará, juntamente com os argumentos que sustentam a perspetiva a ser defendida. Além dos cartões de papéis, cada equipa recebe a informação que deve defender durante o role-play (<NuxtLink to="https://docs.google.com/document/d/1YYi4biMXtvh8x5VHn9I2i1ZKs6GbMn_uvmimhF714hs/edit?usp=sharing" target="_blank">encenação</NuxtLink>).
                 </p>
                 <p>
                     O aluno terá de apresentar argumentos informados referentes ao seu papel.
@@ -279,10 +279,10 @@
 
 
                 <h3>
-                    Fase III (≈ 45 min.,  o tempo pode precisar de ser prolongado)
+                    Fase III (≈ 45 min., o tempo pode precisar de ser prolongado)
                 </h3>
                 <p>
-                    O debate ou dramatização real é dividido em duas partes. Na primeira parte, o porta-voz de cada equipa tem três minutos para apresentar o seu papel e argumentos iniciais, que também elencaram na tabela da fase II (ver a primeira coluna da tabela). Esta folha de trabalho também inclui colunas para anotar os contra-argumentos apresentados por outras equipas, bem como refutações destes (ver segunda e terceira colunas da folha de trabalho) que serão usados  posteriormente na representação (jogo de papéis). Após cada uma das oito equipas apresentar os seus argumentos, haverá um intervalo de cinco minutos, permitindo assim o desenvolvimento de refutações; os contra-argumentos apresentados por outras equipas e as refutações destes.
+                    O debate ou dramatização real é dividido em duas partes. Na primeira parte, o porta-voz de cada equipa tem três minutos para apresentar o seu papel e argumentos iniciais, que também elencaram na tabela da fase II (ver a primeira coluna da tabela). Esta folha de trabalho também inclui colunas para anotar os contra-argumentos apresentados por outras equipas, bem como refutações destes (ver segunda e terceira colunas da folha de trabalho) que serão usados posteriormente na representação (jogo de papéis). Após cada uma das oito equipas apresentar os seus argumentos, haverá um intervalo de cinco minutos, permitindo assim o desenvolvimento de refutações; os contra-argumentos apresentados por outras equipas e as refutações destes.
                 </p>
                 <p>
                     Após o intervalo de cinco minutos, na segunda parte do role-play, os vários porta-vozes debatem-se entre si, tentando contrariar os argumentos uns dos outros em apoio das suas posições. Durante esta parte da representação, os conselheiros (outros membros da equipa) têm a tarefa de apoiar o porta-voz da sua equipa, propondo refutações dos argumentos apresentados pelas equipas que representam outras funções.

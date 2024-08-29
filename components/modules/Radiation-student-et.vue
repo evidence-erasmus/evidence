@@ -98,7 +98,7 @@
                 <ul class="leading-tight">
                     <li><span class="text-rose-400 font-bold">1. müüt:</span> Päevitamine on tervisele kasulik, eriti talvel.</li>
                     <li><span class="text-rose-400 font-bold">2. müüt:</span> Mikrolaineahjud toodavad tugevat kiirgust ja selle töötamise ajal on ahju läheduses viibimine ohtlik.</li>
-                    <li><span class="text-rose-400 font-bold">3. müüt:</span> Nutitelefoni lähedal on halb magada või puutuda muul viisil  sellega pikaaegselt kokku.</li>
+                    <li><span class="text-rose-400 font-bold">3. müüt:</span> Nutitelefoni lähedal on halb magada või puutuda muul viisil sellega pikaaegselt kokku.</li>
                     <li><span class="text-rose-400 font-bold">4. müüt:</span> 5G mobiilsidemastide kiirgus on inimestele ohtlikum kui eelmise põlvkonna võrkudes: 2G, 3G ja 4G kasutatav kiirgus.</li>
                     <li><span class="text-rose-400 font-bold">5. müüt:</span> Solaariumis päevitamine siseruumides on ohutum kui õues päevitamine</li>
                     <li><span class="text-rose-400 font-bold">6. müüt:</span> Hambaröntgeni kiirgus põhjustab tugevaid peavalusid.</li>
@@ -130,14 +130,14 @@
                 </h2>
                 
                 <p>
-                    Järgnevalt peaksite te oma valitud müüdi sõnastama (kitsendama / piiritlema) <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method." target="_blank" rel="noopener noreferrer">kontrollitava hüpoteesi</a> või vastatava uurimisküsimuse kujul ning planeerima järgnevad uurimistegevused nii, nagu on näidatud Joonisel 1. NB! hüpotees pole ainult arvamine - see peaks põhinema olemasolevatel teadmistel. See peab olema ka kontrollitav, mis tähendab, et saate seda oma uuringu tulemusel kinnitada või ümber lükata. Samuti võiksite mõelda, kas teie poolt valitud müüti saaks “murda” ka eksperimentaalselt (tänapäevase tehnoloogia, näiteks mobiilirakenduse, mõõtevahendite, arvutimudelite või simulatsioonide abil) või seda saaks kontrollida vaid tuginedes olemasolevale kirjandusele (sh läbiviidud uurimuste tulemustele). Vastavalt sellele valige kas <b>Tegevus 3a</b> või <b>3b</b>. Nendest meetoditest on võimalik kasutada rohkem kui üht, rakendades nn triangulatsiooni põhimõtet – suurendades oma järelduste paikapidavust kasutades  erinevaid allikaid.
+                    Järgnevalt peaksite te oma valitud müüdi sõnastama (kitsendama / piiritlema) <a href="https://www.thoughtco.com/testable-hypothesis-explanation-and-examples-609100#:~:text=Updated%20on%20January%2012%2C%202019,experiment%20using%20the%20scientific%20method." target="_blank" rel="noopener noreferrer">kontrollitava hüpoteesi</a> või vastatava uurimisküsimuse kujul ning planeerima järgnevad uurimistegevused nii, nagu on näidatud Joonisel 1. NB! hüpotees pole ainult arvamine - see peaks põhinema olemasolevatel teadmistel. See peab olema ka kontrollitav, mis tähendab, et saate seda oma uuringu tulemusel kinnitada või ümber lükata. Samuti võiksite mõelda, kas teie poolt valitud müüti saaks “murda” ka eksperimentaalselt (tänapäevase tehnoloogia, näiteks mobiilirakenduse, mõõtevahendite, arvutimudelite või simulatsioonide abil) või seda saaks kontrollida vaid tuginedes olemasolevale kirjandusele (sh läbiviidud uurimuste tulemustele). Vastavalt sellele valige kas <b>Tegevus 3a</b> või <b>3b</b>. Nendest meetoditest on võimalik kasutada rohkem kui üht, rakendades nn triangulatsiooni põhimõtet – suurendades oma järelduste paikapidavust kasutades erinevaid allikaid.
                 </p>
                 <div class="w-full px-2 py-16 sm:px-0" id="activity-3ab">
                     <TabGroup :selectedIndex="userPrefs.learnPathViruses" @change="changeTab">
                         <TabList class="flex space-x-1 rounded-lg bg-slate-700 p-1">
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-4 px-2 text-slate-300      "
+                                class="w-full rounded py-4 px-2 text-slate-300"
                                 :class="{ 'bg-sky-600 text-slate-50 ring-2 ring-slate-800 ring-offset-2 ring-offset-sky-300': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >
                                     Tegevus 3a<br/>
@@ -146,7 +146,7 @@
                             </Tab>
                             <Tab as="template" v-slot="{ selected }">
                                 <button
-                                class="w-full rounded py-4 px-2 text-slate-300  focus:outline-none focus:ring-4"
+                                class="w-full rounded py-4 px-2 text-slate-300 focus:outline-none focus:ring-4"
                                 :class="{ 'bg-sky-600 text-slate-50 ring-2 ring-slate-800 ring-offset-2 ring-offset-sky-300': selected, 'hover:bg-white/[0.12] hover:text-white': !selected }"
                                 >
                                     Tegevus 3b
@@ -213,7 +213,7 @@
                     Sa oled oodatud:
                 </h4>
                 <ul>
-                    <li>Tutvuma rollimängus püstitatud  probleemidega ja vaatlema neid erinevatest vaatenurkadest.</li>
+                    <li>Tutvuma rollimängus püstitatud probleemidega ja vaatlema neid erinevatest vaatenurkadest.</li>
                     <li>Kujundama probleemi suhtes oma arvamust.</li>
                     <li>Töötama rühmas ühise nägemuse leidmise suunas.</li>
                     <li>Esitama ja kaitsma oma argumente.</li>
@@ -231,7 +231,7 @@
                 </p>
 
                 <div class="md:grid md:grid-cols-2 gap-4">
-                    <div class="border-4 border-green-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-green-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Seisukoht 1: Poolt
                         </h4>
@@ -239,7 +239,7 @@
                             Riik peab tunnistama, et tuumaenergia on ohutu ja pakub "kuldset võimalust" puhtama ja õiglasema maailma loomiseks. Riik peab investeerima ohutu tuumajäätmete lõpphoidla loomisesse.
                         </p>
                     </div>
-                    <div class="border-4 border-red-400 rounded-lg p-3  text-center">
+                    <div class="border-4 border-red-400 rounded-lg p-3 text-center">
                         <h4 class="my-2">
                             Position 2: Vastu
                         </h4>
@@ -254,7 +254,7 @@
                     I osa (≈ 25 minutit)
                 </h3>
                 <p>
-                    Igale rühma antakse rollikaart (valikumeetodi võiksite otsustada koos õpetajaga), mis sisaldab rühma poolt esindatava rolli lühikirjeldust koos argumentidega, mis toetavad kaitstavat seisukohta. Lisaks rollikaartidele antakse igale rühmale tööleht, mille nad peavad rollimängu ajal täitma <span class="bg-red-300">(vt töölehte)</span>.
+                    Igale rühma antakse rollikaart (valikumeetodi võiksite otsustada koos õpetajaga), mis sisaldab rühma poolt esindatava rolli lühikirjeldust koos argumentidega, mis toetavad kaitstavat seisukohta. Lisaks rollikaartidele antakse igale rühmale tööleht, mille nad peavad rollimängu ajal täitma (<NuxtLink to="https://docs.google.com/document/d/1oyrAt_U0Ur7Rs1z_cEwUw2J0hkQaxy1OhCd1zYLaFbw/edit?usp=sharing" target="_blank">vt töölehte</NuxtLink>).
                 </p>
                 <p>
                     Peate oma seisukoha toetamiseks esitama informeeritud argumente (väiteid).

@@ -148,7 +148,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><b>Activity  3</b></td>
+                            <td><b>Activity 3</b></td>
                             <td>
                                 In groups:
                                 <ul>
@@ -240,14 +240,9 @@
                     The drugs-related myths cannot be busted (debunked) experimentally in the classroom. Therefore, students are expected to gather evidence from secondary sources to confirm or falsify their hypothesis / answer to their research question (<b>Activity 3</b>). By juxtaposing media/data sources and their content, students critically analyse their reliability and make justified conclusions based on the evidence. As reliability assessment can be a real challenge for students, the student is supplied with a <span class="bg-rose-100">tool</span> for searching and analysing the information. Also, the teacher could explain its use by demonstrating and analysing reliable and less reliable sources as learning examples before the students implement this independently. 
                 </p>
                 <p>
-                    To learn how to communicate their findings, students are guided to produce a video or other types of visualisation to present their conclusions (<b>Activity 4</b>). For this purpose, students can use different tutorials. Also, student material is provided with criteria the presentation should fulfil. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video and answering the questions of their peers and the teacher (<b>Activity 5</b>). For the last, students can use the following assessment tool to give feedback to the other groups.
+                    To learn how to communicate their findings, students are guided to produce a video or other types of visualisation to present their conclusions (<b>Activity 4</b>). For this purpose, students can use different tutorials. Also, student material is provided with criteria the presentation should fulfil. These criteria can be used formatively for self-assessment by students during the process and for peer assessment when presenting the video and answering the questions of their peers and the teacher (<b>Activity 5</b>). For the last, students can use the following <NuxtLink to="../tools/peer-feedback" target="_blank">assessment tool</NuxtLink> to give feedback to the other groups.
                 </p>
-                <!-- <p class="bg-rose-100">
-                    Please, do not use the original questionnaire, but make a copy to the same folder to share with your students.<br />
-                </p> -->
-                <!-- <p>
-                    The teacher could provide each group with summary feedback on their video presentation (suggestion: each group could access only their own feedback, not the others). The teacher can easily access the feedback from Google Forms using the "Responses" button.
-                </p>             -->
+                
                 <p>
                     In the last activity (<b>Activity 6</b>), the storyline of the module returns to the introductory video and the presented myths. Based on the lessons learned from the earlier stages, students prepare to make decisions on an individual or group level in the format of a case study where they have an opportunity to juxtapose and reflect on their learned science knowledge but also on their personal and social values. 
                 </p>
@@ -255,7 +250,7 @@
                     All myths are backed up by <NuxtLink :to="localePath('/drugs/background')">Scientific background information</NuxtLink>, which explains the state-of-the-art science behind them and enables the teacher to get a quick overview of the science covered by the "Drugs" module.
                 </p>
                 <p>
-                    The intro video and follow-up activities are intended to inspire reflection on decision-making related to cannabis use and the various consequences that may result from particular decisions. They encourage the viewer to consider different options during the decision-making process and how cannabis-related choices might affect or impact existing relationships. There is support in educational literature acknowledging how young people are more likely to learn when encouraged to think things through in a supportive manner.  
+                    The intro video and follow-up activities are intended to inspire reflection on decision-making related to cannabis use and the various consequences that may result from particular decisions. They encourage the viewer to consider different options during the decision-making process and how cannabis-related choices might affect or impact existing relationships. There is support in educational literature acknowledging how young people are more likely to learn when encouraged to think things through in a supportive manner.
                 </p>
                 <p>
                     A <b>moral dilemma</b> presented at the end of the module (<b>Activity 6</b>) should make students think about their and other people's choices and the consequences of these choices to different stakeholders involved in a given situation. The potential decisions and reasoning behind them are mainly based on the Kohlbergian framework of moral reasoning, which includes the following (examples to illustrate the levels are taken from activity 6, NB! other interpretations deviating from the given are also possible):
