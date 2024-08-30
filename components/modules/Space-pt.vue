@@ -437,7 +437,7 @@
                 </p>
 
                 <p>
-                    No final do módulo, o professor pode incluir uma atividade de reflexão sobre o que os alunos aprenderam ao participarem nas atividades do módulo e sobre a forma como colaboraram uns com os outros na preparação de argumentos, apresentações e feedback para os colegas. Reflexões artísticas sobre o tema do Espaço pelos alunos da escola de arte (ver <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">photography books</a> e a exposição virtual) pode mostrar formas alternativas de explorar fenómenos relacionados com o espaço e pode servir como ponto de partida para discutir o que os alunos gostariam de aprender mais nesta área no futuro. 
+                    No final do módulo, o professor pode incluir uma atividade de reflexão sobre o que os alunos aprenderam ao participarem nas atividades do módulo e sobre a forma como colaboraram uns com os outros na preparação de argumentos, apresentações e feedback para os colegas. Reflexões artísticas sobre o tema do Espaço pelos alunos da escola de arte (ver <NuxtLink to="https://photobookaa.000webhostapp.com/" target="_blank">photography books</NuxtLink> e a <NuxtLink to="https://www.artsteps.com/view/640e83202e32550b524a52b1" target="_blank">exposição virtual</NuxtLink>) pode mostrar formas alternativas de explorar fenómenos relacionados com o espaço e pode servir como ponto de partida para discutir o que os alunos gostariam de aprender mais nesta área no futuro. 
                 </p>
             </section>
 

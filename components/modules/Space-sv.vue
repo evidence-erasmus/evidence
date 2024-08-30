@@ -465,7 +465,7 @@
                 </p>
 
                 <p>
-                    I slutet av modulen kan läraren inkludera en reflektionsaktivitet om vad eleverna har lärt sig genom att delta i modulaktiviteterna och hur de samarbetat med varandra när de förberedde argument, presentationer och gav feedback till klasskamraterna. Konstnärliga reflektioner kring Rymden av konstskoleeleverna (se <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">fotoböcker</a>) kan visa alternativa sätt att utforska rymdrelaterade fenomen och kan tjäna som utgångspunkt för att diskutera vad eleverna skulle vilja lära sig mer inom detta område i framtiden.
+                    I slutet av modulen kan läraren inkludera en reflektionsaktivitet om vad eleverna har lärt sig genom att delta i modulaktiviteterna och hur de samarbetat med varandra när de förberedde argument, presentationer och gav feedback till klasskamraterna. Konstnärliga reflektioner kring Rymden av konstskoleeleverna (se <NuxtLink to="https://photobookaa.000webhostapp.com/" target="_blank">fotoböcker</NuxtLink> och <NuxtLink to="https://www.artsteps.com/view/640e83202e32550b524a52b1" target="_blank">virtuell utställning</NuxtLink>) kan visa alternativa sätt att utforska rymdrelaterade fenomen och kan tjäna som utgångspunkt för att diskutera vad eleverna skulle vilja lära sig mer inom detta område i framtiden.
                 </p>
 
             </section>

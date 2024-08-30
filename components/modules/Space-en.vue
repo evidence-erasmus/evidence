@@ -405,7 +405,7 @@
             </p>
 
             <p>
-                At the end of the module, the teacher can include a summing-up reflective activity about what the students have learned by participating in the module activities and how they collaborated, preparing arguments and presentations and providing feedback for the peers. Artistic reflections on Space by the art school students (see <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">photography books</a> and <span class="bg-red-400">virtual exhibition</span>) can show alternative ways of exploring space-related phenomena. They could serve as a point of departure for discussing what the students would wish to learn more in this area. 
+                At the end of the module, the teacher can include a summing-up reflective activity about what the students have learned by participating in the module activities and how they collaborated, preparing arguments and presentations and providing feedback for the peers. Artistic reflections on Space by the art school students (see <NuxtLink to="https://photobookaa.000webhostapp.com/" target="_blank">photography books</NuxtLink> and <NuxtLink to="https://www.artsteps.com/view/640e83202e32550b524a52b1" target="_blank">virtual exhibition</NuxtLink>) can show alternative ways of exploring space-related phenomena. They could serve as a point of departure for discussing what the students would wish to learn more in this area. 
             </p>
         </section>
 

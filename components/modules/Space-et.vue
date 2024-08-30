@@ -438,7 +438,7 @@
                 </p>
 
                 <p>
-                    Mooduli lõppu võib õpetaja lisada kokkuvõtva reflektiivse tegevuse selle kohta, mida õpilased on mooduli tegevustes osaledes õppinud ja kuidas nad omavahel koostööd tegid, valmistades ette argumente, esitlusi ja andsid  kaaslastele tagasisidet. Kunstikooli õpilaste loomingulisi mõtisklusi kosmose ja ruumi teemadel (vt <a href="https://drive.google.com/drive/folders/1toVQDJLTrXVHy5BiOLWoGrVkbHSAN9Gy?usp=sharing" target="_blank" rel="noopener noreferrer">fotograafia raamatud</a> ) võib kasutada huvi tekitamiseks kosmosega seotud nähtuste suhtes olles lähtepunktiks arutelule sellest, mida õpilased sooviksid antud valdkonnas tulevikus veel teada saada. 
+                    Mooduli lõppu võib õpetaja lisada kokkuvõtva reflektiivse tegevuse selle kohta, mida õpilased on mooduli tegevustes osaledes õppinud ja kuidas nad omavahel koostööd tegid, valmistades ette argumente, esitlusi ja andsid  kaaslastele tagasisidet. Kunstikooli õpilaste loomingulisi mõtisklusi kosmose ja ruumi teemadel (vt <NuxtLink to="https://photobookaa.000webhostapp.com/" target="_blank">fotograafia raamatud</NuxtLink> ja <NuxtLink to="https://www.artsteps.com/view/640e83202e32550b524a52b1" target="_blank">virtuaalne näitus</NuxtLink> ) võib kasutada huvi tekitamiseks kosmosega seotud nähtuste suhtes olles lähtepunktiks arutelule sellest, mida õpilased sooviksid antud valdkonnas tulevikus veel teada saada. 
                 </p>
             </section>
 
