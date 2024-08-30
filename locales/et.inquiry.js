@@ -703,7 +703,7 @@ export default {
           list_1: {
             title: "Vahendid ja materjalid:",
             list: [
-              "Liiv või muld", "Vesi", "Suured pooleks lõigatud plastpudelid", "Plastiktopsid", "Jääkuubikud", "Läbipaistev kile (võid kasutada toidukile)", "Lamp", "Marker"
+              "Liiv või muld", "Vesi", "Suured pooleks lõigatud plastpudelid", "Plastiktopsid", "Jääkuubikud", "Läbipaistev kile (võid kasutada toidukilet)", "Lamp", "Marker"
             ],
             image_caption: "Joonis. Katse disain"
           },

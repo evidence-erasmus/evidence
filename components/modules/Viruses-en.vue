@@ -222,7 +222,7 @@
                 </p>
                 <p>
                     
-                    <NuxtLink to="https://youtu.be/eMAn2mfqR3A" target="_blank"  class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="24"></Icon> The "fact video"</NuxtLink> can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <NuxtLink to="../viruses/background">Scientific background information</NuxtLink> can be used for this purpose.
+                    <NuxtLink to="https://youtu.be/5QqdP291DqY" target="_blank"  class="e-btn-outline no-underline"><Icon name="material-symbols:youtube-tv-outline" size="24"></Icon> The "fact video"</NuxtLink> can also be demonstrated in this step to recall the previously studied (e.g. earlier in this school year or earlier school years) virus-related concepts and principles. Also, selected chapters from <NuxtLink to="../viruses/background">Scientific background information</NuxtLink> can be used for this purpose.
                 </p>
                 <p>
                     Further, <b>Activity 3</b> can be enacted in two ways:

@@ -19,14 +19,14 @@
                 <h2 id="s-1t">1. Kiirgus on osa meie igapäevaelust</h2>
             
                 <p>
-                    Kiirgus on kõikjal meie ümber ja on olemas olnud alates selle planeedi sünnist. Me puutume regulaarselt kokku looduslikult esineva (tausta)kiirgusega, mis tuleb kosmosest, Päikeselt, maapinnast ja isegi meie enda kehast.
+                    Kiirgus on kõikjal meie ümber ja on Maal olemas olnud alates selle planeedi sünnist. Me puutume regulaarselt kokku looduslikult esineva (tausta)kiirgusega, mis tuleb kosmosest, Päikeselt, maapinnast ja isegi meie enda kehast.
                 </p>
                 <p>
                     Kiirgus on energia lainete või osakeste kujul. See hõlmab tavaliselt:
                 </p>
                 <ol>
                     <li class="leading-tight">
-                        elektromagnetkiirgust, nagu raadiolained, mikrolained, infrapuna, nähtav valgus, ultraviolettkiirgus, röntgenikiirgus ja gammakiirgus;
+                        elektromagnetkiirgust, nagu raadiolained, mikrolained, infrapunakiirgus, nähtav valgus, ultraviolettkiirgus, röntgenikiirgus ja gammakiirgus;
                     </li>
                     <li class="leading-tight">
                         osakeste kiirgus, nagu alfakiirgus (α), beetakiirgus (β), prootonkiirgus ja neutronkiirgus (Vt Joonis 1).

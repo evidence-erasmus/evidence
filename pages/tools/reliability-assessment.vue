@@ -775,7 +775,7 @@
                 "th3": "Usaldusväärsuse määr"
             },
             "row1": {
-                "c1": "Eelretsenseeritud teadusartiklid. Tasub läbi lugeda sisukokkuvõte ning vaadata viitamiste arvu (NB! uutel artiklitel võivad puududa). Kõige kõrgemal astmel on usaldusväärsuse mõttes metauuringud ning teadusartiklite süstemaatilised kirjalduse ülevaated eelretsenseeritud ajakirjades.",
+                "c1": "Eelretsenseeritud teadusartiklid. Tasub läbi lugeda sisukokkuvõte ning vaadata viitamiste arvu (NB! uutel artiklitel võivad puududa). Kõige kõrgemal astmel on usaldusväärsuse mõttes metauuringud ning teadusartiklite süstemaatilised kirjanduse ülevaated eelretsenseeritud ajakirjades.",
                 "c2": {
                     "title": "Teadusliku uurimistöö andmebaasid:",
                     "source1": {
@@ -829,7 +829,7 @@
                 "c1": "Kaasaegsed õpikud"
             },
             "row4": {
-                "c1": "Riiklikud veebilehed (kuuluvad demokraatlikele riikidele, milles toimuvad vabad valimised) (ingliskeelsetes maades sageli domeeni lõpp: .gov)"
+                "c1": "Riiklikud veebilehed (kuuluvad demokraatlikele riikidele, milles toimuvad vabad valimised)"
             },
             "row5": {
                 "c1": "Populaarteaduslikud väljaanded antud valdkonna  ekspertidelt. Viidatakse algallikat ning see on kirjelduse põhjal tuvastatav."

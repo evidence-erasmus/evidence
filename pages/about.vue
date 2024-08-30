@@ -9,6 +9,8 @@
             </NuxtLink>
         </div>
         
+        <p>{{ t('more') }} <NuxtLink to="https://sisu.ut.ee/evidence/" target="_blank">sisu.ut.ee/evidence/</NuxtLink></p>
+
         <p>{{ t('s01') }}</p>
         <p>{{ t('s02') }}</p>
         <p>{{ t('s03') }}</p>
@@ -38,6 +40,7 @@
 {
     "en" : {
         "title": "About this project",
+        "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",
@@ -59,6 +62,7 @@
 
     "et" : {
         "title": "Projektist",
+        "more" :"Rohkem infot projekti EVIDENCE kohta võib leida siit:",
         "s01": "Tõejärgsel ajastul on (sotsiaal)meedias leviva väärinfo ümberlükkamine saanud õpetaja igapäevatöö osaks. Tihti on sedalaadi info seotud ühiskondlikult tundlike teemadega, nagu viirused ja vaktsineerimine, kiirgused, kliimamuutused, evolutsioon, kanep jpm.",
         "s02": "Probleemi lahendamiseks on Euroopa Liidu programmi „Erasmus+“ projektis EVIDENCE (2020–2023) pannud seljad kokku Tartu, Umeå ja Küprose ülikooli loodus-, haridus-, rahvatervise- ja kultuuriteadlased ning António Arroio Kunstikeskkooli ja Kuressaare Ametikooli multimeedia- ja disainieksperdid.",
         "s03": "Loodud õpikeskkonna ning käsiraamatu abil saavad õpetajad käsitleda tunnis ühiskondlikult tundlikke loodusteadustega seotud teemasid. Õpilased saavad uurida taoliste teemadega seotud müüte, sh hinnata infoallikate usaldusväärsust, tunda meediatekstides ära teaduse eitamise peamisi võtteid ja anda paremini edasi teavet enda poolt läbiviidud uurimistulemuste kohta. Iga õppemooduli juhatab sisse lavastatud lühifilm, mis läbi huumoriprisma näitlikustab populaarseid teemakohaseid arusaamu. Õppematerjalides on olulisel kohal ka moraalsete dilemmade lahendamise ning konsensuslike otsuste tegemise oskuste kujundamine – ilma nendeta poleks üleilmsete probleemide lahendamine arvatavasti mõeldav.",
@@ -79,6 +83,7 @@
 
     "el" : {
         "title": "About this project",
+        "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",
@@ -101,6 +106,7 @@
 
     "sv" : {
         "title": "About this project",
+        "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",
@@ -123,6 +129,7 @@
 
     "pt" : {
         "title": "About this project",
+        "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",
         "s03": "With the help of the created learning environment and the handbook, teachers can discuss socially sensitive topics related to natural sciences in class. Students can investigate myths related to such topics, including assessing the reliability of information sources, recognizing the main techniques of denying science in media texts and better conveying information about the research results they have conducted. Each learning module is introduced by a staged short film that illustrates popular concepts related to the topic through the lens of humor. Developing the skills of solving moral dilemmas and making consensus decisions is also an important part of the educational materials - without them, solving global problems would probably be unthinkable.",

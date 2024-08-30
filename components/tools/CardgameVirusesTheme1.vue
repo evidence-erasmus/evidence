@@ -284,17 +284,17 @@
             {
                 "title": "",
                 "image": "card_viruses_11.webp",
-                "story": "Meie poeg Martin oli elav, arukas ja uudishimulik, alati terve poiss. Kaks aastat tagasi, kui ta sai 12, haigestus ta suvelaagris ootamatult meningiiti. Ka teine poiss laagris jäi meningiiti, kuid ta ei saanud haigusest pikaajalisi tüsistusi. Kõik ülejäänud lapsed said haiguse ennetamiseks antibiootikume. Haiglas öeldi meile, et tegelikult oli meie poja tapnud haigustekitaja vastu olemas vaktsiin. Kogu selle kaotusvalu tipuks piinab meid teadmine, et  ta võinuks olla veel elus, kui me oleksime teda lasknud meningiidi vastu vaktsineerida."
+                "story": "Meie poeg Martin oli elav, arukas ja uudishimulik, alati terve poiss. Kaks aastat tagasi, kui ta sai 12, haigestus ta suvelaagris ootamatult meningiiti. Ka teine poiss laagris jäi meningiiti, kuid ta ei saanud haigusest pikaajalisi tüsistusi. Kõik ülejäänud lapsed said haiguse ennetamiseks antibiootikume. Haiglas öeldi meile, et tegelikult oli meie poja tapnud haigustekitaja vastu olemas vaktsiin. Kogu selle kaotusvalu tipuks piinab meid teadmine, et ta võinuks olla veel elus, kui me oleksime teda lasknud meningiidi vastu vaktsineerida."
             },
             {
                 "title": "",
                 "image": "card_viruses_12.webp",
-                "story": "Pensionile jäämisest alates on mu mehel olnud südamepuudulikkus. Me oleme vaktsineerinud ennast igal aastal, kuid eelmisel aastal saime mõlemad gripi, kuigi olime selle vastu vaktsineeritud. Seetõttu olin ma väga tõrges gripivaktsiini suhtes, mida meie perearst sel aastal meile pakkus, kuigi lõpuks me nõustusime. Ta ütles meile, et selle aasta viirus on üsna sarnane sellele, mis põhjustas hispaania gripi epideemia eelmisel sajandil. Kuid epideemiat ei tulnud ning me ka  ei haigestunud sellesse. Meil on tunne, et vaktsineerimine on mõttetu ning kulukas praktika, mida üritavad edendada ravimiettevõtted."
+                "story": "Pensionile jäämisest alates on mu mehel olnud südamepuudulikkus. Me oleme vaktsineerinud ennast igal aastal, kuid eelmisel aastal saime mõlemad gripi, kuigi olime selle vastu vaktsineeritud. Seetõttu olin ma väga tõrges gripivaktsiini suhtes, mida meie perearst sel aastal meile pakkus, kuigi lõpuks me nõustusime. Ta ütles meile, et selle aasta viirus on üsna sarnane sellele, mis põhjustas hispaania gripi epideemia eelmisel sajandil. Kuid epideemiat ei tulnud ning me ka ei haigestunud sellesse. Meil on tunne, et vaktsineerimine on mõttetu ning kulukas praktika, mida üritavad edendada ravimiettevõtted."
             },
             {
                 "title": "",
                 "image": "card_viruses_13.webp",
-                "story": "Meie 5-aastasel tütrel Annil on olnud rida erinevaid allergiaid küll teatud toiduainete, tolmu, ravimite, aga ka mõne vaktsiini suhtes, mille manustamise järgselt on tal tekkinud äge reaktsioon (kõrge palavik, lööve üle terve keha), mistõttu on talle olnud riskantne kõiki ettenähtud vaktsiine õigel ajal anda. Sellest ajast peale, kui ta läks eelkooli, oleme me olnud väga mures, kuna oleme seal kohanud vanemaid, kes on täielikult keeldunud oma  lapsele vaktsiine manustamast öeldes, et need on kasutud või lausa ohtlikud. Kuna ka Anni pole saanud päris kõiki ettenähtud vaktsiine, siis me kardame, et ta võib olla nende laste seltskonnas eksponeeritud ning samas vastuvõtlik mõnedele ohtlikele haigustele."
+                "story": "Meie 5-aastasel tütrel Annil on olnud rida erinevaid allergiaid küll teatud toiduainete, tolmu, ravimite, aga ka mõne vaktsiini suhtes, mille manustamise järgselt on tal tekkinud äge reaktsioon (kõrge palavik, lööve üle terve keha), mistõttu on talle olnud riskantne kõiki ettenähtud vaktsiine õigel ajal anda. Sellest ajast peale, kui ta läks eelkooli, oleme me olnud väga mures, kuna oleme seal kohanud vanemaid, kes on täielikult keeldunud oma lapsele vaktsiine manustamast öeldes, et need on kasutud või lausa ohtlikud. Kuna ka Anni pole saanud päris kõiki ettenähtud vaktsiine, siis me kardame, et ta võib olla nende laste seltskonnas eksponeeritud ning samas vastuvõtlik mõnedele ohtlikele haigustele."
             },
             {
                 "title": "",
@@ -304,18 +304,18 @@
             {
                 "title": "",
                 "image": "card_viruses_15.webp",
-                "story": "Kaheaastaselt diagnoosisid lastearstid meie pojal autismispektri häire. Me panime tähele esimesi sümptomeid pärast tema teist vaktsineerimist. Ta muutus kergesti ärrituvaks, ta ei vaadanud enam meile otsa, ta ei tahtnud, et teda võetaks sülle. Me lugesime meditsiiniajakirjast Lancet, et vaktsineerimisel leetrite, mumpsi ja punetiste kolmikvaktsiiniga ning autismil võib olla omavahel seos. Meie lastearst ütles aga, et antud artikkel on ajakirjast eemaldatud autorite väljamõeldud seoste tõttu nimetatud vaktsiini ning autismi vahel ning et mitmed uurimused on selle seose ka ümber lükanud. Lastearst rääkis meile, et haigus diagnoositakse tavaliselt vanuses, kui lapsi vaktsineeritakse. Seega jõuavad mitmed vanemad ebaõigetele järeldustele, et  vaktsineerimise ja autismi vahel peab olema seos. Me saime küll aru, mis ta ütles, aga ometi on hinges alles väike kahtlus."
+                "story": "Kaheaastaselt diagnoosisid lastearstid meie pojal autismispektri häire. Me panime tähele esimesi sümptomeid pärast tema teist vaktsineerimist. Ta muutus kergesti ärrituvaks, ta ei vaadanud enam meile otsa, ta ei tahtnud, et teda võetaks sülle. Me lugesime meditsiiniajakirjast Lancet, et vaktsineerimisel leetrite, mumpsi ja punetiste kolmikvaktsiiniga ning autismil võib olla omavahel seos. Meie lastearst ütles aga, et antud artikkel on ajakirjast eemaldatud autorite väljamõeldud seoste tõttu nimetatud vaktsiini ning autismi vahel ning et mitmed uurimused on selle seose ka ümber lükanud. Lastearst rääkis meile, et haigus diagnoositakse tavaliselt vanuses, kui lapsi vaktsineeritakse. Seega jõuavad mitmed vanemad ebaõigetele järeldustele, et vaktsineerimise ja autismi vahel peab olema seos. Me saime küll aru, mis ta ütles, aga ometi on hinges alles väike kahtlus."
             },
             {
                 "title": "",
                 "image": "card_viruses_16.webp",
-                "story": "Ülikoolilinnakus, kus ma elan, teatati ulatuslikust leetrite puhangust.  Algas see mõnest üksikjuhtumist, kuid nüüdseks on nakatunuid juba palju. Mõned on sattunud juba ka haiglasse. Kuna leetrite tüsistused täiskasvanute jaoks võivad olla tõsised, otsustas ülikooli juhtkond, et kontaktõppesse pääsemiseks peab tudengil olema ette näidata vaktsineerimistõend või tunnistus leetrite läbipõdemise kohta. Kuna vaktsiinid pole kohustuslikud, siis ma arvan, et institutsioonid ei peaks sekkuma inimeste eraellu."
+                "story": "Ülikoolilinnakus, kus ma elan, teatati ulatuslikust leetrite puhangust. Algas see mõnest üksikjuhtumist, kuid nüüdseks on nakatunuid juba palju. Mõned on sattunud juba ka haiglasse. Kuna leetrite tüsistused täiskasvanute jaoks võivad olla tõsised, otsustas ülikooli juhtkond, et kontaktõppesse pääsemiseks peab tudengil olema ette näidata vaktsineerimistõend või tunnistus leetrite läbipõdemise kohta. Kuna vaktsiinid pole kohustuslikud, siis ma arvan, et institutsioonid ei peaks sekkuma inimeste eraellu."
             }
         ],
         "infoCards" : [
             {
                 "title": "Vaktsineerimise ulatus",
-                "story": "Tänu vaktsineerimise edulugudele maailmas ei tajuta enam mitmeid haigusi otsese ohuna. Selle tulemusena unustatakse vaktsiinid või lausa keeldutakse nendest, mis aga paneb rahvastiku uuesti suurde ohtu. Kui rahvastiku üldine vaktsineerituse tase väheneb, võivad mõned epideemiad jälle tagasi tulla, nagu juhtus difteeriaga mõnedes riikides 80-ndate keskel. Näiteks riikides, mis varem olid kuulunud Nõukogude Liitu, jõudis difteeriapuhang  1995. aastal 50 000 juhtumini."
+                "story": "Tänu vaktsineerimise edulugudele maailmas ei tajuta enam mitmeid haigusi otsese ohuna. Selle tulemusena unustatakse vaktsiinid või lausa keeldutakse nendest, mis aga paneb rahvastiku uuesti suurde ohtu. Kui rahvastiku üldine vaktsineerituse tase väheneb, võivad mõned epideemiad jälle tagasi tulla, nagu juhtus difteeriaga mõnedes riikides 80-ndate keskel. Näiteks riikides, mis varem olid kuulunud Nõukogude Liitu, jõudis difteeriapuhang 1995. aastal 50 000 juhtumini."
             },
             {
                 "title": "Vaktsineerimine on solidaarsusakt",
@@ -331,7 +331,7 @@
             },
             {
                 "title": "Vaktsiinide rakendamise kasud ja riskid",
-                "story": "Pole olemas täiesti riskivabasid vaktsiine, nagu pole olemas ka täiesti risivabasid ravimeid. Kuid nende kasutamisega seotud risk on kordades väiksem, kui risk, mis on seotud nende haiguste läbipõdemisega. Tegelikult peetakse vaktsiine ühtedeks kõige ohutumateks ravimiteks. Vaktsiinid, mis jõuavad turule, on pidanud läbima edukalt testid miljonite laste ja täiskasvanute peal. Näiteks sureb iga seitsmes difteeriasse nakatunu, kuid vaid ühel kümnest difteeria vaktsiini saanutest paistetab üles süstimiskoht ning veelgi vähesematel tekib palavik, millest mõlemad mööduvad paari päevaga.  Tõsisemad kõrvaltoimed on väga haruldased."
+                "story": "Pole olemas täiesti riskivabasid vaktsiine, nagu pole olemas ka täiesti risivabasid ravimeid. Kuid nende kasutamisega seotud risk on kordades väiksem, kui risk, mis on seotud nende haiguste läbipõdemisega. Tegelikult peetakse vaktsiine ühtedeks kõige ohutumateks ravimiteks. Vaktsiinid, mis jõuavad turule, on pidanud läbima edukalt testid miljonite laste ja täiskasvanute peal. Näiteks sureb iga seitsmes difteeriasse nakatunu, kuid vaid ühel kümnest difteeria vaktsiini saanutest paistetab üles süstimiskoht ning veelgi vähesematel tekib palavik, millest mõlemad mööduvad paari päevaga. Tõsisemad kõrvaltoimed on väga haruldased."
             },
             {
                 "title": "Vaktsiinid ja autism",
@@ -347,7 +347,7 @@
             },
             {
                 "title": "100%-line kaitse?",
-                "story": "Mitte ükski vaktsiin ei paku 100%-list kaitset, kuid on olemas meetmed, kuidas saavutada kõrgendatud kaitse. Näiteks tõhustusdoosi, st vaktsiini täiendava doosi manustamise kaudu. Tõhustusdoosi ajal tutvustatakse organismile uuesti  immuniseerivat antigeeni tõstes organismi immuunsuse uuesti kaitseseisundusse pärast seda, kui organismi mälu antud antigeeni suhtes on hakanud aja jooksul vähenema. Näiteks soovitatakse teetanuse tõhustusdoosi 10 aastat pärast eelmise doosi manustamist, kui teetanuse suhtes spetsiifilste mälurakkude toime hakkab kaduma või kui need surevad."
+                "story": "Mitte ükski vaktsiin ei paku 100%-list kaitset, kuid on olemas meetmed, kuidas saavutada kõrgendatud kaitse. Näiteks tõhustusdoosi, st vaktsiini täiendava doosi manustamise kaudu. Tõhustusdoosi ajal tutvustatakse organismile uuesti immuniseerivat antigeeni tõstes organismi immuunsuse uuesti kaitseseisundusse pärast seda, kui organismi mälu antud antigeeni suhtes on hakanud aja jooksul vähenema. Näiteks soovitatakse teetanuse tõhustusdoosi 10 aastat pärast eelmise doosi manustamist, kui teetanuse suhtes spetsiifilste mälurakkude toime hakkab kaduma või kui need surevad."
             },
             {
                 "title": "Gripivaktsiin",
@@ -363,7 +363,7 @@
             },
             {
                 "title": "Vaktsineerimine päästab elusid",
-                "story": "Vaktsineerimine päästab elusid vaestes riikides ning aitab kokkuvõttes säästa ka suure hulga  raha. Iga dollar, mis kulutatakse kolmikvaktsiinile (leetrid, mumps, punetised) säästab 16 dollarit, mis kuluks nende haigustega võitlemisele. Ühe lapse  immuniseerimisele 7 haiguse vastu (tuberkuloos, lastehalvatus, difteeria, teetanus, läkaköha, B-hepatiit, leetrid) kulutatud 17 dollarit on vaid naeruväärne summa võrreldes summadega, mida  läheks maksma nende haiguste ravi, kui puhkeb epideemia."
+                "story": "Vaktsineerimine päästab elusid vaestes riikides ning aitab kokkuvõttes säästa ka suure hulga raha. Iga dollar, mis kulutatakse kolmikvaktsiinile (leetrid, mumps, punetised) säästab 16 dollarit, mis kuluks nende haigustega võitlemisele. Ühe lapse immuniseerimisele 7 haiguse vastu (tuberkuloos, lastehalvatus, difteeria, teetanus, läkaköha, B-hepatiit, leetrid) kulutatud 17 dollarit on vaid naeruväärne summa võrreldes summadega, mida läheks maksma nende haiguste ravi, kui puhkeb epideemia."
             },
             {
                 "title": "Rõuged",
@@ -387,11 +387,11 @@
             },
             {
                 "title": "Leetrid",
-                "story": "Milline oleks leetrite mõju, kui me ei oleks vaktsineeritud? Enne leetrite vaktsiini rakendamist 1963. a, leidsid iga paari aasta tagant aset epideemiad põhjustades mitme miljoni inimese surma aastas (keskmiselt). Sellest ajast peale on numbrid tunduvalt vähenenud. 2016. a registreeriti maailmas 89 870 surma. Kui vaktsineerimine lõppeks, peaksime me uuesti seisma silmitsi miljonite või isegi rohkemate surmadega aastas, kuna inimesed reisivad ja nakkused liiguvad maailma piirkondade vahel järjest kiiremini."
+                "story": "Milline oleks leetrite mõju, kui me ei oleks vaktsineeritud? Enne leetrite vaktsiini rakendamist 1963. a, leidsid iga paari aasta tagant aset epideemiad põhjustades mitme miljoni inimese surma aastas (keskmiselt). Sellest ajast peale on arvud tunduvalt vähenenud. 2016. a registreeriti maailmas 89 870 surma. Kui vaktsineerimine lõppeks, peaksime me uuesti seisma silmitsi miljonite või isegi rohkemate surmadega aastas, kuna inimesed reisivad ja nakkused liiguvad maailma piirkondade vahel järjest kiiremini."
             },
             {
                 "title": "Vaktsiinid ja immuunsüsteem",
-                "story": "Imikud ja lapsed on eksponeeritud viirustele ja mikroobidele, kui nad hingavad, söövad ja mängivad. Viirused ise, nende valgud ning muud ained, mida nad eraldavad, toimivad  antigeenidena ehk teiste sõnadega, need aktiveerivad immuunvastuse. Antigeenide hulk, millega lapsed igapäevaselt võitlevad - 2000-6000, on palju suurem kui antigeenide arv, mida kasutatakse vaktsineerimisel. Laste immuunsüsteem on hästi ette valmistatud vaktsiinide talumiseks."
+                "story": "Imikud ja lapsed on eksponeeritud viirustele ja mikroobidele, kui nad hingavad, söövad ja mängivad. Viirused ise, nende valgud ning muud ained, mida nad eraldavad, toimivad antigeenidena ehk teiste sõnadega, need aktiveerivad immuunvastuse. Antigeenide hulk, millega lapsed igapäevaselt võitlevad - 2000-6000, on palju suurem kui antigeenide arv, mida kasutatakse vaktsineerimisel. Laste immuunsüsteem on hästi ette valmistatud vaktsiinide talumiseks."
             }
         ],
         "positionCards" : [
@@ -433,7 +433,7 @@
             {
                 "title": "",
                 "image": "card_viruses_12.webp",
-                "story": "Ήμουν πολύ δυστακτική να δεχτώ το εμβόλιο κατά της γρίπης  όταν μας το πρόσφερε φέτος ο οικογενειακός μας γιατρός. Από τότε που βγήκαμε στη σύνταξη, ο άντρας μου έχει παρουσιάσει καρδιακή ανεπάρκεια και εμβολιαζόμασταν κάθε χρόνο, αλλά πέρσι κολλήσαμε τη γρίπη παρόλο που είχαμε εμβολιαστεί. Φέτος ο γιατρός μας πρόσφερε ξανά το εμβόλιο και επειδή επέμενε, συμφωνήσαμε να εμβολιαστούμε. Μας είπε ότι ο φετινός ιός ήταν παρόμοιος με αυτόν που προκάλεσε την επιδημία της Ισπανικής γρίπης στις αρχές του περασμένου αιώνα, αλλά μια τρομερή επιδημία όπως αυτή δεν συνέβη και ούτε ο σύζυγός μου ούτε εγώ αρρωστήσαμε. Έχουμε την εντύπωση ότι ο εμβολιασμός είναι μια αχρείαστη δαπανηρή πρακτική που πραγματοποιείται προς όφελος των φαρμακευτικών εταιρειών."
+                "story": "Ήμουν πολύ δυστακτική να δεχτώ το εμβόλιο κατά της γρίπης όταν μας το πρόσφερε φέτος ο οικογενειακός μας γιατρός. Από τότε που βγήκαμε στη σύνταξη, ο άντρας μου έχει παρουσιάσει καρδιακή ανεπάρκεια και εμβολιαζόμασταν κάθε χρόνο, αλλά πέρσι κολλήσαμε τη γρίπη παρόλο που είχαμε εμβολιαστεί. Φέτος ο γιατρός μας πρόσφερε ξανά το εμβόλιο και επειδή επέμενε, συμφωνήσαμε να εμβολιαστούμε. Μας είπε ότι ο φετινός ιός ήταν παρόμοιος με αυτόν που προκάλεσε την επιδημία της Ισπανικής γρίπης στις αρχές του περασμένου αιώνα, αλλά μια τρομερή επιδημία όπως αυτή δεν συνέβη και ούτε ο σύζυγός μου ούτε εγώ αρρωστήσαμε. Έχουμε την εντύπωση ότι ο εμβολιασμός είναι μια αχρείαστη δαπανηρή πρακτική που πραγματοποιείται προς όφελος των φαρμακευτικών εταιρειών."
             },
             {
                 "title": "",
@@ -495,19 +495,19 @@
             },
             {
                 "title": "Εμβολιασμός κατά της γρίπης",
-                "story": "Η γρίπη σκοτώνει εκατοντάδες χιλιάδες ανθρώπους κάθε χρόνο. Ο εμβολιασμός κατά της γρίπης συνιστάται κυρίως για άτομο άνω των 65 που πάσχουν από χρόνιο διαβήτη, έχουν εξασθενημένο  ανοσοποιητικό και άλλα προβλήματα υγείας. Ο εμβολιασμός κατά της γρίπης πρέπει να επαναλαμβάνεται κάθε χρόνο, καθώς ο ιός που ευθύνεται για τις επιδημίες αλλάζει συνεχώς."
+                "story": "Η γρίπη σκοτώνει εκατοντάδες χιλιάδες ανθρώπους κάθε χρόνο. Ο εμβολιασμός κατά της γρίπης συνιστάται κυρίως για άτομο άνω των 65 που πάσχουν από χρόνιο διαβήτη, έχουν εξασθενημένο ανοσοποιητικό και άλλα προβλήματα υγείας. Ο εμβολιασμός κατά της γρίπης πρέπει να επαναλαμβάνεται κάθε χρόνο, καθώς ο ιός που ευθύνεται για τις επιδημίες αλλάζει συνεχώς."
             },
             {
                 "title": "Προσδόκιμου ζωής μας",
                 "story": "Ένα σημαντικό μέρος της αύξησης του προσδόκιμου ζωής μας, που είναι πλέον πάνω από τα 80 σε πολλές ευρωπαϊκές χώρες, οφείλεται στο γεγονός ότι σχεδόν όλοι είμαστε εμβολιασμένοι. Σήμερα, ο εμβολιασμός εξακολουθεί να είναι το καλύτερο προληπτικό εργαλείο έναντι ορισμένων μολυσματικών ασθενειών."
             },
             {
-                "title": "Συνδρόμου  βρεφικού θανάτου",
-                "story": "Δεν υπάρχει τεκμηριωμένη συσχέτιση μεταξύ των εμβολίων και του αιφνίδιου συνδρόμου  βρεφικού θανάτου. Τα εμβόλια χορηγούνται σε μια περίοδο που τα παιδιά μπορεί να υποφέρουν από αυτό το σύνδρομο, άρα μπορεί μερικές φορές να σχετίζεται εσφαλμένα."
+                "title": "Συνδρόμου βρεφικού θανάτου",
+                "story": "Δεν υπάρχει τεκμηριωμένη συσχέτιση μεταξύ των εμβολίων και του αιφνίδιου συνδρόμου βρεφικού θανάτου. Τα εμβόλια χορηγούνται σε μια περίοδο που τα παιδιά μπορεί να υποφέρουν από αυτό το σύνδρομο, άρα μπορεί μερικές φορές να σχετίζεται εσφαλμένα."
             },
             {
                 "title": "Τα εμβόλια σώζουν ζωές στις φτωχές χώρες",
-                "story": "Τα εμβόλια σώζουν ζωές στις φτωχές χώρες, κάθε δολάριο που ξοδεύεται για τα τρία βασικά εμβόλια (ιλαρά, παρωτίτιδα και ερυθρά) μπορεί να αποφέρει εξοικονόμηση 16 δολαρίων σε άμεσο ιατρικό κόστος που είναι απαραίτητο για τη θεραπεία αυτών των ασθενειών και την ανακούφιση των συμπτωμάτων τους. Το κόστος ανοσοποίησης ενός παιδιού έναντι επτά λοιμώξεων (φυματίωση, πολιομυελίτιδα, διφθερίτιδα, τέτανος, κοκκύτης, ηπατίτιδα Β και ιλαρά) είναι  17 δολάρια, ένα γελοίο ποσό σε σύγκριση με το κόστος οποιασδήποτε άλλης ιατρικής θεραπείας."
+                "story": "Τα εμβόλια σώζουν ζωές στις φτωχές χώρες, κάθε δολάριο που ξοδεύεται για τα τρία βασικά εμβόλια (ιλαρά, παρωτίτιδα και ερυθρά) μπορεί να αποφέρει εξοικονόμηση 16 δολαρίων σε άμεσο ιατρικό κόστος που είναι απαραίτητο για τη θεραπεία αυτών των ασθενειών και την ανακούφιση των συμπτωμάτων τους. Το κόστος ανοσοποίησης ενός παιδιού έναντι επτά λοιμώξεων (φυματίωση, πολιομυελίτιδα, διφθερίτιδα, τέτανος, κοκκύτης, ηπατίτιδα Β και ιλαρά) είναι 17 δολάρια, ένα γελοίο ποσό σε σύγκριση με το κόστος οποιασδήποτε άλλης ιατρικής θεραπείας."
             },
             {
                 "title": "Ευλογιά",
@@ -527,7 +527,7 @@
             },
             {
                 "title": "Άλατα αλουμινίου",
-                "story": "Ο λόγος για τον οποίο ορισμένα στοιχεία προστίθενται στα εμβόλια όπως τα άλατα αλουμινίου  είναι καθώς λειτουργούν ως ανοσοενισχυτικά, πράγμα που σημαίνει ότι η παρουσία τους ενισχύει την ανοσολογική ανταπόκριση όταν εμβολιαζόμαστε. Η μικρή ποσότητα αλουμινίου που περιέχεται σε ορισμένα εμβόλια δεν ενέχει κανέναν κίνδυνο. Μια δόση εμβολίου περιέχει 0,5 mg αλουμινίου, ενώ υπολογίζεται ότι προσλαμβάνουμε καθημερινά 8 mg από την τροφή μας χωρίς αυτό να μας δημιουργεί κανένα πρόβλημα. Επίσης, μόνο ορισμένα εμβόλια περιέχουν άλατα αλουμινίου και τα νέα εμβόλια κατά τον COVID-19 δεν τα περιέχουν."
+                "story": "Ο λόγος για τον οποίο ορισμένα στοιχεία προστίθενται στα εμβόλια όπως τα άλατα αλουμινίου είναι καθώς λειτουργούν ως ανοσοενισχυτικά, πράγμα που σημαίνει ότι η παρουσία τους ενισχύει την ανοσολογική ανταπόκριση όταν εμβολιαζόμαστε. Η μικρή ποσότητα αλουμινίου που περιέχεται σε ορισμένα εμβόλια δεν ενέχει κανέναν κίνδυνο. Μια δόση εμβολίου περιέχει 0,5 mg αλουμινίου, ενώ υπολογίζεται ότι προσλαμβάνουμε καθημερινά 8 mg από την τροφή μας χωρίς αυτό να μας δημιουργεί κανένα πρόβλημα. Επίσης, μόνο ορισμένα εμβόλια περιέχουν άλατα αλουμινίου και τα νέα εμβόλια κατά τον COVID-19 δεν τα περιέχουν."
             },
             {
                 "title": "Τι επιπτώσεις θα είχε η Ιλαρά αν δεν ήμασταν εμβολιασμένοι;",
@@ -737,7 +737,7 @@
             {
                 "title": "",
                 "image": "card_viruses_13.webp",
-                "story": "Vår 5-åriga dotter Anna har haft flera allergiska reaktioner  mot olika livsmedel, pollen, mediciner, men även några vacciner mot vilka hon fått starka reaktioner (hög feber, hudutslag över hela kroppen) så det har varit svårt för oss som föräldrar att ge henne alla rekommenderade vacciner. Sedan hon började i förskolan har vi varit mycket oroliga efter att ha stött på några andra föräldrar som vägrat vaccinera sina barn och antyder att vaccin är meningslöst om inte rent av farligt. Eftersom Anna inte har fått alla inplanerade vacciner är vi rädda för att hon kan vara särskilt sårbar när hon är i samma grupp med barn som inte vaccinerats enligt barnvaccinationsprogrammet."
+                "story": "Vår 5-åriga dotter Anna har haft flera allergiska reaktioner mot olika livsmedel, pollen, mediciner, men även några vacciner mot vilka hon fått starka reaktioner (hög feber, hudutslag över hela kroppen) så det har varit svårt för oss som föräldrar att ge henne alla rekommenderade vacciner. Sedan hon började i förskolan har vi varit mycket oroliga efter att ha stött på några andra föräldrar som vägrat vaccinera sina barn och antyder att vaccin är meningslöst om inte rent av farligt. Eftersom Anna inte har fått alla inplanerade vacciner är vi rädda för att hon kan vara särskilt sårbar när hon är i samma grupp med barn som inte vaccinerats enligt barnvaccinationsprogrammet."
             },
             {
                 "title": "",
@@ -822,11 +822,11 @@
             },
             {
                 "title": "Tiomersal",
-                "story": "Tiomersal är en kemisk förening som innehåller kvicksilver  och  används för att förhindra tillväxt av bakterier och svampar i vaccinflaskor. Mängden tiomersal som finns i vacciner är dock mycket liten och innebär ingen hälsorisk. Ett vaccin som innehåller 0,01 % tiomersal som konserveringsmedel innehåller ungefär samma mängd elementärt kvicksilver som finns i en liten burk tonfisk. Dessutom innehåller rutinvacciner för barn under sex år sedan 2001 inte längre tiomersal. Tonåringar och vuxna kan också begära tiomersalfria vacciner. Tiomersal innehåller etylkvicksilver, som snabbt avlägsnas från människokroppen jämfört med metylkvicksilver som bioackumuleras – så det är också skillnad i vilken form giftig metall förekommer. Covid-19-vacciner innehåller inga giftiga ämnen alls."
+                "story": "Tiomersal är en kemisk förening som innehåller kvicksilver och används för att förhindra tillväxt av bakterier och svampar i vaccinflaskor. Mängden tiomersal som finns i vacciner är dock mycket liten och innebär ingen hälsorisk. Ett vaccin som innehåller 0,01 % tiomersal som konserveringsmedel innehåller ungefär samma mängd elementärt kvicksilver som finns i en liten burk tonfisk. Dessutom innehåller rutinvacciner för barn under sex år sedan 2001 inte längre tiomersal. Tonåringar och vuxna kan också begära tiomersalfria vacciner. Tiomersal innehåller etylkvicksilver, som snabbt avlägsnas från människokroppen jämfört med metylkvicksilver som bioackumuleras – så det är också skillnad i vilken form giftig metall förekommer. Covid-19-vacciner innehåller inga giftiga ämnen alls."
             },
             {
                 "title": "Aluminium",
-                "story": "Anledningarna till att vissa kemiska ämnena som  aluminiumsalter tillsätts i vacciner, är att de fungerar som ett adjuvans, vilket innebär att dess närvaro ökar immunsvaret när du vaccineras. Den lilla mängd aluminium som finns i vissa vacciner medför inte någon risk. En dos vaccin innehåller 0,5 mg aluminium medan man räknar med att vi får i oss 8 mg i mat varje dag utan att det ställer till med några problem. Dessutom innehåller endast vissa vacciner aluminiumsalter och nya covid-19-vacciner innehåller dem inte."
+                "story": "Anledningarna till att vissa kemiska ämnena som aluminiumsalter tillsätts i vacciner, är att de fungerar som ett adjuvans, vilket innebär att dess närvaro ökar immunsvaret när du vaccineras. Den lilla mängd aluminium som finns i vissa vacciner medför inte någon risk. En dos vaccin innehåller 0,5 mg aluminium medan man räknar med att vi får i oss 8 mg i mat varje dag utan att det ställer till med några problem. Dessutom innehåller endast vissa vacciner aluminiumsalter och nya covid-19-vacciner innehåller dem inte."
             },
             {
                 "title": "Mässling",

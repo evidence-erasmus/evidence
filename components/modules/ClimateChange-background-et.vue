@@ -101,7 +101,7 @@
                         Mõned laborikatsed näitavad, et kõrgenenud CO₂ tase võib taimede kasvu kiirendada. Kuid muud tegurid, nagu muutuv temperatuur, osoon ning piirangud veele ja toitainetele, võivad takistada saagikuse võimalikku suurenemist. Kui mõne põllukultuuri optimaalseid temperatuurivahemikke ületatakse, võib võimalik saagikuse kasv või saagikus hoopis väheneda.
                     </li>
                     <li>
-                        Äärmuslikud kliimatingimused, nagu põuad, üleujutused ja äärmuslikud temperatuurid, võivad põhjustada saagikadu ning ohustada põllumajandustootjate elatist ja kogukondade toiduga kindlustatust kogu maailmas. Sõltuvalt põllukultuurist ja ökosüsteemist võivad soojemate temperatuuride juures hakata kiiremini arenema ka umbrohud, kahjurid ja seened. Niiskem kliima ja suurenenud CO₂ tase loovad head tingimused ka umbrohtude ja ka kahjurite arvukuse suureneminele.
+                        Äärmuslikud kliimatingimused, nagu põuad, üleujutused ja äärmuslikud temperatuurid, võivad põhjustada saagikadu ning ohustada põllumajandustootjate elatist ja kogukondade toiduga kindlustatust kogu maailmas. Sõltuvalt põllukultuurist ja ökosüsteemist võivad soojemate temperatuuride juures hakata kiiremini arenema ka umbrohud, kahjurid ja seened. Niiskem kliima ja suurenenud CO₂ tase loovad head tingimused nii umbrohtude kui ka kahjurite arvukuse suureneminele.
                     </li>
                     <li>
                         Uuringud on näidanud, et kliimamuutused võivad vähendada ka enamiku toidukultuuride toiteväärtust, vähendades valgu ja oluliste mineraalide kontsentratsiooni enamikus taimeliikides.
@@ -230,7 +230,7 @@
                         Vandenõuteooriad:
                     </dt>
                     <dd>
-                        Umbes 20% USA avalikkusest usub, et kliimamuutused on teaduslik pettus. Vandenõuteooriatel on mitmeid negatiivseid mõjusid, isegi kui need inimesi ei veena. Need võivad vähendada toetust kliimameetmetele, vähendada kavatsust vähendada oma süsinikujalajälge ja vähendada usaldust valitsuse vastu.
+                        Umbes 20% USA avalikkusest usub, et kliimamuutused on teaduslik pettus. Vandenõuteooriatel on mitmeid negatiivseid mõjusid, isegi kui need inimesi ei veena. Need võivad vähendada toetust kliimameetmetele, kavatsust vähendada oma süsinikujalajälge ja vähendada usaldust riiklike institutsioonide vastu.
                     </dd>
                 </dl>
                 <section class="e-card mt-8">
