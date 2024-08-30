@@ -210,7 +210,7 @@
                     <li>Vote on policy positions.</li>
                 </ul>
                 <p>
-                    The role-play could be formed as a television debate programme involving eight roles you would represent in teams of 3-4 players. Each team nominates one member as spokesperson, while others act as advisors. Two students in the class will be television debate moderators (programme presenters). Moderators will need time management during the debate and present summary remarks at the end of the role-play. They may invite participants to vote on policy positions.
+                    The role-play could be formed as a television debate programme involving eight roles you would represent in teams of 3-4 players. Each team nominates one member as spokesperson, while others act as advisors. Two students in the class will be television debate moderators (programme presenters). Moderators will need time management during the debate and present <NuxtLink to="https://docs.google.com/document/d/1vjM6qy2dr6UtgK6oQD2G7mBY1ugwSF-zVJS66O4PPmo/edit?usp=drive_link" target="_blank">summary remarks</NuxtLink> at the end of the role-play. They may invite participants to vote on policy positions.
                 </p>
 
                 

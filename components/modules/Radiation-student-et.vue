@@ -220,7 +220,7 @@
                     <li>Hääletama poliitiliste seisukohtade üle.</li>
                 </ul>
                 <p>
-                    Rollimäng esitatakse TV väitlussaate kujul. Kokku hõlmab väitlus kaheksat erinevat rolli, millest igat esindab 3-4 mängijaga rühm. Iga rühm nimetab ühe liikme pressiesindajaks, teised osalevad nõustajatena. Kaks õpilast on televäitluse moderaatorid (saatejuhid). Moderaatorid peavad arutelu ajal aega juhtima ja rollimängu lõpus esitama kokkuvõtvad märkused (siinkohal on neile abiks tööleht). Nad võivad kutsuda osalejaid hääletama poliitiliste seisukohtade üle.
+                    Rollimäng esitatakse TV väitlussaate kujul. Kokku hõlmab väitlus kaheksat erinevat rolli, millest igat esindab 3-4 mängijaga rühm. Iga rühm nimetab ühe liikme pressiesindajaks, teised osalevad nõustajatena. Kaks õpilast on televäitluse moderaatorid (saatejuhid). Moderaatorid peavad arutelu ajal aega juhtima ja rollimängu lõpus esitama kokkuvõtvad märkused (siinkohal on neile abiks <NuxtLink to="https://docs.google.com/document/d/1o0rw-ZY0C3aV1PxsiEU-uJamgimLh6XYndBnSw07XLM/edit?usp=drive_link" target="_blank">tööleht</NuxtLink>). Nad võivad kutsuda osalejaid hääletama poliitiliste seisukohtade üle.
                 </p>
                 
                 <h3>

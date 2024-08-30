@@ -212,7 +212,7 @@
                     <li>Rösta på politiska ståndpunkter och dela dina åsikter</li>
                 </ul>
                 <p>
-                    Rollspelet kan utformas som ett tv-debattprogram med totalt åtta roller som man kan representera i lag om 3–4 spelare. Varje team nominerar en medlem att fungera som talesman, medan andra fungerar som rådgivare. Två elever i klassen kommer att vara tv-debattmoderatorer (programledare). Moderatorer kommer att behöva göra tidshantering under debatten och presentera sammanfattande kommentarer i slutet av rollspelet. De kan bjuda in deltagare att rösta om politiska ståndpunkter.
+                    Rollspelet kan utformas som ett tv-debattprogram med totalt åtta roller som man kan representera i lag om 3–4 spelare. Varje team nominerar en medlem att fungera som talesman, medan andra fungerar som rådgivare. Två elever i klassen kommer att vara tv-debattmoderatorer (programledare). Moderatorer kommer att behöva göra tidshantering under debatten och presentera <NuxtLink to="https://docs.google.com/document/d/1psdr88ILlBDtFVsq7tm-gi-QtV2NcjHdNIQhXSIF2m0/edit?usp=drive_link" target="_blank">sammanfattande kommentarer</NuxtLink> i slutet av rollspelet. De kan bjuda in deltagare att rösta om politiska ståndpunkter.
                 </p>
 
 

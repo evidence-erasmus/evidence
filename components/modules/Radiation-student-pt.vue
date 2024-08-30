@@ -211,7 +211,7 @@
                     <li>Vote em posições políticas.</li>
                 </ul>
                 <p>
-                    A encenação / Role-Play pode ser formada como um programa de debate na televisão envolvendo oito funções que podem ser representadas em equipas de 3-4 jogadores. Cada equipa nomeia um membro como porta-voz, enquanto os outros atuam como conselheiros. Dois alunos da turma serão moderadores de debates televisivos (apresentadores de programas). Os moderadores têm de gerir o tempo durante o debate e apresentar comentários resumidos no final da encenação. Estes podem ainda convidar os participantes a votar em posições políticas.
+                    A encenação / Role-Play pode ser formada como um programa de debate na televisão envolvendo oito funções que podem ser representadas em equipas de 3-4 jogadores. Cada equipa nomeia um membro como porta-voz, enquanto os outros atuam como conselheiros. Dois alunos da turma serão moderadores de debates televisivos (apresentadores de programas). Os moderadores têm de gerir o tempo durante o debate e apresentar <NuxtLink to="https://docs.google.com/document/d/1QCaO5Hih2HCg2gzujZbCGmIVpBTlTC4s2c_R8kGsioQ/edit?usp=drive_link" target="_blank">comentários resumidos</NuxtLink> no final da encenação. Estes podem ainda convidar os participantes a votar em posições políticas.
                 </p>
 
 
