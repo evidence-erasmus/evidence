@@ -303,8 +303,10 @@
                 <p>
                     Outro equívoco é que a evolução é um processo estritamente linear - ou seja, ocorre numa linha reta do primitivo ao avançado.
                 </p>
-                <UiContentImage src="asdads" :elevated="true">
-                    
+                <UiContentImage src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Cladogram_Amniota_B.png" :elevated="true" credits="Fonte: https://en.wikipedia.org/wiki/Cladogram">
+                    <template #caption>
+                        <b>Figura 1.</b> Cladograma: Ramo das aves do clado Amniota
+                    </template>
                 </UiContentImage>
                 <p>
                     Com origem em Platão e Aristóteles, a visão tradicional de como o mundo se organizava era através de uma "progressão na perfeição". Este conceito está explícito na ideia da "scala naturae": Todos os seres na Terra, animados e inanimados, podiam ser organizados de acordo com uma escala crescente de perfeição, desde, por exemplo, os cogumelos na base, passando pelas lagostas e coelhos, até aos seres humanos no topo. Esta perspetiva engana-se em três aspetos principais:

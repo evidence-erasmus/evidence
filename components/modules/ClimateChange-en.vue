@@ -61,7 +61,7 @@
                             <li>develop their ability to plan and devise procedures for testing hypotheses and interpreting the findings;</li>
                         </ul>
                     </li>
-                    <li><b>Social competence:</b> – develop students’ argumentation skills and skills when finding group consensus on controversial climate change-related issues.</li>
+                    <li><b>Social competence:</b> – develop students’ argumentation skills and their ability to find group consensus on controversial climate change-related issues.</li>
                 </ul>
             </section>
 

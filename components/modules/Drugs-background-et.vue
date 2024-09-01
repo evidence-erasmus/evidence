@@ -11,13 +11,17 @@
             <Icon name="openmoji:scientist-medium-dark-skin-tone" class="float-right text-[5em]" />
             <h1 class="mb-0">Kanep ja “imerohud”</h1>
             <h5 class="font-normal uppercase leading-tight">Teaduslik taustainfo</h5>
-        
-            
+
+
             <section id="s1">
                 <h2 id="s1t">Sissejuhatus</h2>
-                
+
                 <p class="mt-20">
-                    Moodul keskendub peamiselt kanepile ning sellest toodetud narkootikumitele. Alternatiivne tegevusliin, mida selles moodulis uurida, on skandaalne aine nimega MMS (Miracle Mineral Solution), mis on kloordioksiidi vesilahuse kaubamärgi nimetus, mida ühtlasi kasutatakse tööstusliku pleegitusainena, mida aga on ekslikult reklaamitud mitmete haiguste, sealhulgas HIV-i, vähi, COVID-19, külmetushaiguste aga ka autismi ravimina.
+                    Moodul keskendub peamiselt kanepile ning sellest toodetud narkootikumitele. Alternatiivne
+                    tegevusliin, mida selles moodulis uurida, on skandaalne aine nimega MMS (Miracle Mineral Solution),
+                    mis on kloordioksiidi vesilahuse kaubamärgi nimetus, mida ühtlasi kasutatakse tööstusliku
+                    pleegitusainena, mida aga on ekslikult reklaamitud mitmete haiguste, sealhulgas HIV-i, vähi,
+                    COVID-19, külmetushaiguste aga ka autismi ravimina.
                 </p>
                 <p>
                     Allpoololevast tekstist leiab selgitused järgmistele probleemidele / väidetele / müütidele.
@@ -82,12 +86,22 @@
 
             <section id="s2">
                 <h2 id="s2t">Mis on kanep?</h2>
-            
+
                 <p>
-                    Kanep (või marihuaana) viitab kolmest psühhoaktiivsete omadustega taimest koosnevale rühmale: <i>Cannabis sativa</i>, <i>Cannabis indica</i> ning <i>Cannabis ruderalis</i>. Kui nende taimede õied korjata ja kuivatada, on tulemuseks üks maailma levinumaid narkootikume. Kanep koosneb enam kui 120 ainest, mida tuntakse kannabinoididena. Kaks kõige tuntumat kannabinoidi on kannabidiool (CBD) ja delta-9-tetrahüdrokannabinool (THC). CBD on kanepis leiduv keemiline ühend, leviku poolest teisel kohal ning on viimasel ajal muutunud alternatiivse ravivahendina populaarseks mitmete haigusseisundite korral. Seda võib saada kanepist <sup><span class="tooltip" data-tip="Termin “kanep” tähendab kanepit, mille THC sisaldus on 0,3 protsenti või vähem kuivkaalust.">[1]</span></sup>. THC on kanepi peamine psühhoaktiivne koostisosa, THC aktiveerib aju tasustamissüsteemi, andes ajule märku keemilise signaali - dopamiini vabastamiseks <a href="https://nida.nih.gov/publications/research-reports/marijuana/how-does-marijuana-produce-its-effects" target="_blank" rel="noopener noreferrer"><sup>[2]</sup></a>.
+                    Kanep (või marihuaana) viitab kolmest psühhoaktiivsete omadustega taimest koosnevale rühmale:
+                    <i>Cannabis sativa</i>, <i>Cannabis indica</i> ning <i>Cannabis ruderalis</i>. Kui nende taimede
+                    õied korjata ja kuivatada, on tulemuseks üks maailma levinumaid narkootikume. Kanep koosneb enam kui
+                    120 ainest, mida tuntakse kannabinoididena. Kaks kõige tuntumat kannabinoidi on kannabidiool (CBD)
+                    ja delta-9-tetrahüdrokannabinool (THC). CBD on kanepis leiduv keemiline ühend, leviku poolest teisel
+                    kohal ning on viimasel ajal muutunud alternatiivse ravivahendina populaarseks mitmete
+                    haigusseisundite korral. Seda võib saada kanepist <sup><span class="tooltip"
+                            data-tip="Termin “kanep” tähendab kanepit, mille THC sisaldus on 0,3 protsenti või vähem kuivkaalust.">[1]</span></sup>.
+                    THC on kanepi peamine psühhoaktiivne koostisosa, THC aktiveerib aju tasustamissüsteemi, andes ajule
+                    märku keemilise signaali - dopamiini vabastamiseks <a
+                        href="https://nida.nih.gov/publications/research-reports/marijuana/how-does-marijuana-produce-its-effects"
+                        target="_blank" rel="noopener noreferrer"><sup>[2]</sup></a>.
                 </p>
-                <UiContentImage
-                    src="https://evidence.onkel.ee/assets/drugs__cannabis.webp"
+                <UiContentImage src="https://evidence.onkel.ee/assets/drugs__cannabis.webp"
                     credits="Pixabay: https://pixabay.com/photos/marijuana-herbal-cannabis-hemp-5858148/"
                     :elevated="true">
                     <template #caption>
@@ -95,10 +109,23 @@
                     </template>
                 </UiContentImage>
                 <p>
-                    Ilmselt ei tekita ükski teine taim nii palju arutelusid ja väärarusaamu kui kanep. Selle kasutamine ja populaarsus läbi aegade on viinud selleni, et mõned on seda tembeldanud superravimiks, teised aga häbimärgistavad kui “kurja juurt”, pluss paljud teised vaatenurgad nende kahe vahel. Viimasel kümnendil on uimastite legaliseerimine mitmetes riikides lõõgastumise eesmärgil ja levitatav teave selle kasulikkuse kohta suurendanud väärarusaamu veelgi enam. Eestis kasutamise kohta vt. siit <a href="https://drive.google.com/file/d/1gX2od53KWaygwney13ijwXzu0wc3mK9W/view?usp=share_link" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Veterinaar- ja Toiduamet. (2019). Kanepi ekstraktid ja kannabidiool (CBD)."><sup>[3]</sup></a> . Tarvitamisega seotud riskide kohta on saadaval palju infot, aga samuti samuti selle tarvitamisega seotud kasude kohta. Sageli esitatakse info ilma korralike viideteta. Järgnevalt vaatame, mida on teadlastel ja meditsiinitöötajatel öelda enamlevinud kanepitarvitamisega seotud müütide kohta, viidates seejuures vastavatele teadusuuringutele.
+                    Ilmselt ei tekita ükski teine taim nii palju arutelusid ja väärarusaamu kui kanep. Selle kasutamine
+                    ja populaarsus läbi aegade on viinud selleni, et mõned on seda tembeldanud superravimiks, teised aga
+                    häbimärgistavad kui “kurja juurt”, pluss paljud teised vaatenurgad nende kahe vahel. Viimasel
+                    kümnendil on uimastite legaliseerimine mitmetes riikides lõõgastumise eesmärgil ja levitatav teave
+                    selle kasulikkuse kohta suurendanud väärarusaamu veelgi enam. Eestis kasutamise kohta vt. siit <a
+                        href="https://drive.google.com/file/d/1gX2od53KWaygwney13ijwXzu0wc3mK9W/view?usp=share_link"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Veterinaar- ja Toiduamet. (2019). Kanepi ekstraktid ja kannabidiool (CBD)."><sup>[3]</sup></a>
+                    . Tarvitamisega seotud riskide kohta on saadaval palju infot, aga samuti samuti selle tarvitamisega
+                    seotud kasude kohta. Sageli esitatakse info ilma korralike viideteta. Järgnevalt vaatame, mida on
+                    teadlastel ja meditsiinitöötajatel öelda enamlevinud kanepitarvitamisega seotud müütide kohta,
+                    viidates seejuures vastavatele teadusuuringutele.
                 </p>
                 <p>
-                    Rohkem infot kanepitarvitamise tervisemõjude kohta <a class="break-all" href="https://docs.google.com/document/d/1kxisOjHc0qINFXhWvmdmMAJyjp7V9JmgfWXDhCKeuyk/preview" target="_blank" rel="noopener noreferrer">võib leida siit</a>.
+                    Rohkem infot kanepitarvitamise tervisemõjude kohta <a class="break-all"
+                        href="https://docs.google.com/document/d/1kxisOjHc0qINFXhWvmdmMAJyjp7V9JmgfWXDhCKeuyk/preview"
+                        target="_blank" rel="noopener noreferrer">võib leida siit</a>.
                 </p>
             </section>
 
@@ -116,10 +143,26 @@
                     <span class="text-rose-400">Müüt nr 1:</span> Kanep ei ole tervisele eriti ohtlik
                 </h3>
                 <p>
-                    On väidetud, et kanep ei ole tervisele ohtlik, vaid isegi kasulik. See müüt on laialt levinud, kuna mitmes riigis on levinud arusaam, et teised uimastid on palju mürgisemad ning kanep on kasutusel ravieesmärkidel alternatiivse ravimina.
+                    On väidetud, et kanep ei ole tervisele ohtlik, vaid isegi kasulik. See müüt on laialt levinud, kuna
+                    mitmes riigis on levinud arusaam, et teised uimastid on palju mürgisemad ning kanep on kasutusel
+                    ravieesmärkidel alternatiivse ravimina.
                 </p>
                 <p>
-                    Teaduslike tõendite kohaselt on kanepit seostatud suure hulga tervisemõjudega (Joonis 2). Kõige olulisemad tagajärjed hõlmavad vaimuhaigusi <sup><span class="tooltip" data-tip="Paruk S & Burns JK. 2016. Cannabis and mental illness in adolescents: a review. South African Family Practice, 58:sup1, 18-21.">[4]</span></sup>, südame-veresoonkonna haigusi <sup><span class="tooltip" data-tip="Thomas, G., et al. 2014. Adverse cardiovascular, cerebrovascular, and peripheral vascular effects of marijuana inhalation: what cardiologists need to know. American Journal of Cardiology 113(1):187-190.">[5]</span></sup>, kopsuhaigusi <sup><span class="tooltip" data-tip="Joshi, M., et al. 2014. Marijuana and lung diseases. Current Opinions of Pulmonary Medicine, 20(2), 173-179.">[6]</span></sup> ning hingamisteede ja munandivähki <sup><span class="tooltip" data-tip="National Academies of Sciences, Engineering, and Medicine. 2017. The health effects of cannabis and cannabinoids: the current state of evidence and recommendations for research. Washington, DC: The National Academies Press.">[7]</span></sup>. Mõned riskirühmad, nagu teismelised ja rasedad naised, on kanepitarbimise suhtes eriti haavatavad. Samuti on oluline mõista passiivse suitsetamisega seotud ohtusid, kuna kanepisuits (ka passiivne) on füüsikaliste ja keemiliste omaduste poolest väga sarnane tubakasuitsuga <sup><span class="tooltip" data-tip="Graves, B. M., et al. 2020. Comprehensive characterization of mainstream marijuana and tobacco smoke. Scientific Reports, 10(1), 7160.">[8]</span></sup>. Veelgi enam, kanepitarbimine on seotud sõltuvusega, see suurendab teiste uimastite tarvitamise riski ning on teatatud ka üledoosidest.
+                    Teaduslike tõendite kohaselt on kanepit seostatud suure hulga tervisemõjudega (Joonis 2). Kõige
+                    olulisemad tagajärjed hõlmavad vaimuhaigusi <sup><span class="tooltip"
+                            data-tip="Paruk S & Burns JK. 2016. Cannabis and mental illness in adolescents: a review. South African Family Practice, 58:sup1, 18-21.">[4]</span></sup>,
+                    südame-veresoonkonna haigusi <sup><span class="tooltip"
+                            data-tip="Thomas, G., et al. 2014. Adverse cardiovascular, cerebrovascular, and peripheral vascular effects of marijuana inhalation: what cardiologists need to know. American Journal of Cardiology 113(1):187-190.">[5]</span></sup>,
+                    kopsuhaigusi <sup><span class="tooltip"
+                            data-tip="Joshi, M., et al. 2014. Marijuana and lung diseases. Current Opinions of Pulmonary Medicine, 20(2), 173-179.">[6]</span></sup>
+                    ning hingamisteede ja munandivähki <sup><span class="tooltip"
+                            data-tip="National Academies of Sciences, Engineering, and Medicine. 2017. The health effects of cannabis and cannabinoids: the current state of evidence and recommendations for research. Washington, DC: The National Academies Press.">[7]</span></sup>.
+                    Mõned riskirühmad, nagu teismelised ja rasedad naised, on kanepitarbimise suhtes eriti haavatavad.
+                    Samuti on oluline mõista passiivse suitsetamisega seotud ohtusid, kuna kanepisuits (ka passiivne) on
+                    füüsikaliste ja keemiliste omaduste poolest väga sarnane tubakasuitsuga <sup><span class="tooltip"
+                            data-tip="Graves, B. M., et al. 2020. Comprehensive characterization of mainstream marijuana and tobacco smoke. Scientific Reports, 10(1), 7160.">[8]</span></sup>.
+                    Veelgi enam, kanepitarbimine on seotud sõltuvusega, see suurendab teiste uimastite tarvitamise riski
+                    ning on teatatud ka üledoosidest.
 
                 </p>
                 <UiContentImage elevated src="https://evidence.onkel.ee/assets/drugs__cannabis-medical-effects.webp">
@@ -133,19 +176,52 @@
                     <span class="text-rose-400">Müüt nr 2:</span> Mõnele noorele kanep sobib
                 </h3>
                 <p>
-                    Kuna paljud noored kasutavad kanepit, on kasvanud veendumus, et selle kasutamine on okei. Uuringute kohaselt võib kanepitarbimine, eriti noorukieas ja varases täiskasvanueas, kahjustada õppimise ja mäluga seotud ajuosa <sup><a href="http://venturacountylimits.org.s94613.gridserver.com//resources/ article/E413A9/marijuana-and-your-kids-brain-video" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Ventura County. 2015. Marijuana and Your Kid’s Brain.” Marijuana in Ventura County: A Gateway for Discussion, Ventura County Behavioral Health.">[9]</a></sup>. Mõned uuringud näitavad, et regulaarne marihuaana kasutamine noorukieas on seotud aju muutunud närviühenduste ja aju teatud piirkondade mahu vähenemisega, mis on seotud täidesaatvate funktsioonidega, nagu mälu, õppimine ja impulsside juhtimine <sup><span class="tooltip" data-tip="Batalla, A., et al. 2013. Structural and functional imaging studies in chronic cannabis users: a systematic review of adolescent and adult findings. PloS One 8(2), e55821.">[10]</span></sup>. Kõige olulisem on see, et uuringute kohaselt võib regulaarne kanepitarbimine noorukieas kaasa tuua koolis kehvema hakkamasaamise ja suurema koolist väljalangemise <sup><span class="tooltip" data-tip="Fergusson, D. M., et al. 2010. Cannabis and educational achievement: Findings from three Australian cohort studies. Drug and alcohol dependence, 110, 3.">[11]</span></sup>. On leitud, et noorukite ja noorte täiskasvanute kanepitarbimisest põhjustatud aju struktuursed muutused on püsivad (sh IQ tulemused vähenevad) ja neid ei saa vanuse kasvades taastada <sup><span class="tooltip" data-tip="Meier, M. H., et al. 2012. Persistent cannabis users show neuropsychological decline from childhood to midlife. Proceedings of the National Academy of Sciences of the United States of America, 109, E2657-2664.">[12]</span></sup>.
+                    Kuna paljud noored kasutavad kanepit, on kasvanud veendumus, et selle kasutamine on okei. Uuringute
+                    kohaselt võib kanepitarbimine, eriti noorukieas ja varases täiskasvanueas, kahjustada õppimise ja
+                    mäluga seotud ajuosa <sup><a
+                            href="http://venturacountylimits.org.s94613.gridserver.com//resources/ article/E413A9/marijuana-and-your-kids-brain-video"
+                            target="_blank" rel="noopener noreferrer" class="tooltip"
+                            data-tip="Ventura County. 2015. Marijuana and Your Kid’s Brain.” Marijuana in Ventura County: A Gateway for Discussion, Ventura County Behavioral Health.">[9]</a></sup>.
+                    Mõned uuringud näitavad, et regulaarne marihuaana kasutamine noorukieas on seotud aju muutunud
+                    närviühenduste ja aju teatud piirkondade mahu vähenemisega, mis on seotud täidesaatvate
+                    funktsioonidega, nagu mälu, õppimine ja impulsside juhtimine <sup><span class="tooltip"
+                            data-tip="Batalla, A., et al. 2013. Structural and functional imaging studies in chronic cannabis users: a systematic review of adolescent and adult findings. PloS One 8(2), e55821.">[10]</span></sup>.
+                    Kõige olulisem on see, et uuringute kohaselt võib regulaarne kanepitarbimine noorukieas kaasa tuua
+                    koolis kehvema hakkamasaamise ja suurema koolist väljalangemise <sup><span class="tooltip"
+                            data-tip="Fergusson, D. M., et al. 2010. Cannabis and educational achievement: Findings from three Australian cohort studies. Drug and alcohol dependence, 110, 3.">[11]</span></sup>.
+                    On leitud, et noorukite ja noorte täiskasvanute kanepitarbimisest põhjustatud aju struktuursed
+                    muutused on püsivad (sh IQ tulemused vähenevad) ja neid ei saa vanuse kasvades taastada <sup><span
+                            class="tooltip"
+                            data-tip="Meier, M. H., et al. 2012. Persistent cannabis users show neuropsychological decline from childhood to midlife. Proceedings of the National Academy of Sciences of the United States of America, 109, E2657-2664.">[12]</span></sup>.
                 </p>
 
 
                 <h3 id="myth-3">
-                    <span class="text-rose-400">Müüt nr 3.</span> Kanep on meditsiinis kasutatav ravim ja seetõttu kõigile ohutu
+                    <span class="text-rose-400">Müüt nr 3.</span> Kanep on meditsiinis kasutatav ravim ja seetõttu
+                    kõigile ohutu
                 </h3>
                 <p>
-                    Praegu on kanepile ning kanepist saadud toodetele olemas kolm tunnustatud kasutusviisi: seda määratakse keemiaraviga seotud iivelduse ja oksendamise vastu, HIV-i / AIDS-iga seotud isutuse vastu ja paari haruldase lapseea epilepsia tüübi korral <sup><span class="tooltip" data-tip="National Academies of Sciences, Engineering, and Medicine, 2017. Therapeutic effects of cannabis and cannabinoids. In The health effects of cannabis and cannabinoids: The current state of evidence and recommendations for research. National Academies Press (US).">[13]</span></sup>. Kõigi muude haiguste, sealhulgas psühhiaatriliste seisundite korral, ei ole kanep laialdaselt heaks kiidetud. Varasemate andmete põhjal võivad kannabinoiditeraapiad (sisaldavad peamiselt CBD-d) pakkuda sobivamat ravi ärevushäirega inimestele või võimaliku abistava toimena ärevuse või stressiga seotud häirete ravis <sup><span class="tooltip" data-tip="Sharpe, L., et al. 2020. Cannabis, a cause for anxiety? A critical appraisal of the anxiogenic and anxiolytic properties. Journal of Translational Medicine, 18, 374.">[14]</span></sup>. Teatud uuringud on siiski näidanud, et see võib ise tekitada ärevust, paanikat, paranoiat ja psühhoosi.
+                    Praegu on kanepile ning kanepist saadud toodetele olemas kolm tunnustatud kasutusviisi: seda
+                    määratakse keemiaraviga seotud iivelduse ja oksendamise vastu, HIV-i / AIDS-iga seotud isutuse vastu
+                    ja paari haruldase lapseea epilepsia tüübi korral <sup><span class="tooltip"
+                            data-tip="National Academies of Sciences, Engineering, and Medicine, 2017. Therapeutic effects of cannabis and cannabinoids. In The health effects of cannabis and cannabinoids: The current state of evidence and recommendations for research. National Academies Press (US).">[13]</span></sup>.
+                    Kõigi muude haiguste, sealhulgas psühhiaatriliste seisundite korral, ei ole kanep laialdaselt heaks
+                    kiidetud. Varasemate andmete põhjal võivad kannabinoiditeraapiad (sisaldavad peamiselt CBD-d)
+                    pakkuda sobivamat ravi ärevushäirega inimestele või võimaliku abistava toimena ärevuse või stressiga
+                    seotud häirete ravis <sup><span class="tooltip"
+                            data-tip="Sharpe, L., et al. 2020. Cannabis, a cause for anxiety? A critical appraisal of the anxiogenic and anxiolytic properties. Journal of Translational Medicine, 18, 374.">[14]</span></sup>.
+                    Teatud uuringud on siiski näidanud, et see võib ise tekitada ärevust, paanikat, paranoiat ja
+                    psühhoosi.
 
                 </p>
                 <p>
-                    Kui kanep on tervendavatel eesmärkidel heaks kiidetud, on suure tõenäosusega tegemist spetsiifilise tootega, milles on fikseeritud kontsentratsioon spetsiifilisi kannabinoide nagu kannabidiool (CBD) ja delta-9-tetrahüdrokannabinool (THC) (Joonis 3). Lisaks on arutatud CBD/THC suhte olulisuse üle. On leitud, et ravikanepis mängib see suhe otsustavat rolli ajuvähiga patsientide füüsilise ja funktsionaalse heaolu parandamisel <sup><span class="tooltip" data-tip="Schloss, J., et al. 2021. A phase 2 randomised clinical trial assessing the tolerability of two different ratios of medicinal cannabis in patients with high grade gliomas. Frontiers in Oncology, 11, 649555.">[15]</span></sup>. Ainult kontrollitud (meditsiini)toodetes saab CBD ja THC kontsentratsiooni ja annuseid kontrollida.
+                    Kui kanep on tervendavatel eesmärkidel heaks kiidetud, on suure tõenäosusega tegemist spetsiifilise
+                    tootega, milles on fikseeritud kontsentratsioon spetsiifilisi kannabinoide nagu kannabidiool (CBD)
+                    ja delta-9-tetrahüdrokannabinool (THC) (Joonis 3). Lisaks on arutatud CBD/THC suhte olulisuse üle.
+                    On leitud, et ravikanepis mängib see suhe otsustavat rolli ajuvähiga patsientide füüsilise ja
+                    funktsionaalse heaolu parandamisel <sup><span class="tooltip"
+                            data-tip="Schloss, J., et al. 2021. A phase 2 randomised clinical trial assessing the tolerability of two different ratios of medicinal cannabis in patients with high grade gliomas. Frontiers in Oncology, 11, 649555.">[15]</span></sup>.
+                    Ainult kontrollitud (meditsiini)toodetes saab CBD ja THC kontsentratsiooni ja annuseid kontrollida.
                 </p>
                 <UiContentImage elevated src="https://evidence.onkel.ee/assets/drugs__cannabis-products.webp">
                     <template #caption>
@@ -155,13 +231,35 @@
 
 
                 <h3 id="myth-4">
-                    <span class="text-rose-400">Müüt nr 4:</span> Marihuaana parandab meeleolu ja edendab vaimset tervist
+                    <span class="text-rose-400">Müüt nr 4:</span> Marihuaana parandab meeleolu ja edendab vaimset
+                    tervist
                 </h3>
                 <p>
-                    On hästi teada, et kanepis sisalduv TBC tekitab narkojoobe. See võib panna inimest tundma õnnelikuna, lõdvestunult, jutukamana või naerma rohkem kui tavaliselt. Võib juhtuda, et värvid ja muusika on heledamad ja teravamad. Täpne mõju meeleolule on inimeseti väga erinev, kuid üldiselt on emotsioonid liialdatud sarnaselt alkoholi joobeseisundiga <sup><span class="tooltip" data-tip="Gruber, S. A., et al., 2009. Altered affective response in marijuana smokers: An FMRI study. Drug and Alcohol Dependence, 105(1-2), 139-153.">[16]</span></sup>.
+                    On hästi teada, et kanepis sisalduv TBC tekitab narkojoobe. See võib panna inimest tundma
+                    õnnelikuna, lõdvestunult, jutukamana või naerma rohkem kui tavaliselt. Võib juhtuda, et värvid ja
+                    muusika on heledamad ja teravamad. Täpne mõju meeleolule on inimeseti väga erinev, kuid üldiselt on
+                    emotsioonid liialdatud sarnaselt alkoholi joobeseisundiga <sup><span class="tooltip"
+                            data-tip="Gruber, S. A., et al., 2009. Altered affective response in marijuana smokers: An FMRI study. Drug and Alcohol Dependence, 105(1-2), 139-153.">[16]</span></sup>.
                 </p>
                 <p>
-                    Need "positiivsed" mõjud ilmnevad aga lühiajaliselt, samas kui pikaajaline kasutamine on seotud suure hulga negatiivsete mõjudega vaimsele tervisele. Nagu alkohol, on ka marihuaana ja sellega seotud THC-d sisaldavad tooted joovastavad ained ning võivad aidata kaasa otsustusvõime halvenemisele ja suurenenud vastuvõtlikkusele vaimse tervise probleemidele, sealhulgas depressioon, unetus ja paranoilised luulud <a href="http://www2.nami.org/Content/NavigationMenu/Hearts_and_ Minds/Smoking_Cessation/Marijuana_and_Mental_Illness.htm" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="National Alliance on Mental Illness. 2013. Marijuana and mental illness fact sheet. Duckworth, K., Freedman, J., reviewers."><sup>[17]</sup></a>. Psühhootiliste häiretega inimestel on märkimisväärne oht sümptomite ägenemiseks või süvenemiseks <sup><span class="tooltip" data-tip="D’Souza, D. R. 2015. Medical marijuana: Is the cart before the horse? Journal of the American Medical Association, 313(24), 2431-2432.">[18]</span></sup>. Regulaarne marihuaana tarbimine on seotud ärevuse, depressiooni ja psühhootiliste haigustega inimeste suurenenud riski ja/või sümptomite halvenemisega <sup><span class="tooltip" data-tip="Hill, K. 2015. Medical marijuana for treatment of chronic pain and other medical and psychiatric problems: A clinical review. Journal of the American Medical Association, 313(24), 2474-2483.">[19]</span></sup>. On tõendeid, mis näitavad seost tugeva kanepi kasutamise ja psühhootiliste haiguste, sealhulgas skisofreenia vahel, kuid tõendeid on endiselt vähe ja mehhanisme ei mõisteta täielikult <sup><span class="tooltip" data-tip=" Patel, S. 2020. The association between cannabis use and schizophrenia: causative or curative? A systematic review. Cureus Journal of Medical Science, 12(7), e9309.">[20]</span></sup>.
+                    Need "positiivsed" mõjud ilmnevad aga lühiajaliselt, samas kui pikaajaline kasutamine on seotud
+                    suure hulga negatiivsete mõjudega vaimsele tervisele. Nagu alkohol, on ka marihuaana ja sellega
+                    seotud THC-d sisaldavad tooted joovastavad ained ning võivad aidata kaasa otsustusvõime
+                    halvenemisele ja suurenenud vastuvõtlikkusele vaimse tervise probleemidele, sealhulgas depressioon,
+                    unetus ja paranoilised luulud <a
+                        href="http://www2.nami.org/Content/NavigationMenu/Hearts_and_ Minds/Smoking_Cessation/Marijuana_and_Mental_Illness.htm"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="National Alliance on Mental Illness. 2013. Marijuana and mental illness fact sheet. Duckworth, K., Freedman, J., reviewers."><sup>[17]</sup></a>.
+                    Psühhootiliste häiretega inimestel on märkimisväärne oht sümptomite ägenemiseks või süvenemiseks
+                    <sup><span class="tooltip"
+                            data-tip="D’Souza, D. R. 2015. Medical marijuana: Is the cart before the horse? Journal of the American Medical Association, 313(24), 2431-2432.">[18]</span></sup>.
+                    Regulaarne marihuaana tarbimine on seotud ärevuse, depressiooni ja psühhootiliste haigustega
+                    inimeste suurenenud riski ja/või sümptomite halvenemisega <sup><span class="tooltip"
+                            data-tip="Hill, K. 2015. Medical marijuana for treatment of chronic pain and other medical and psychiatric problems: A clinical review. Journal of the American Medical Association, 313(24), 2474-2483.">[19]</span></sup>.
+                    On tõendeid, mis näitavad seost tugeva kanepi kasutamise ja psühhootiliste haiguste, sealhulgas
+                    skisofreenia vahel, kuid tõendeid on endiselt vähe ja mehhanisme ei mõisteta täielikult <sup><span
+                            class="tooltip"
+                            data-tip=" Patel, S. 2020. The association between cannabis use and schizophrenia: causative or curative? A systematic review. Cureus Journal of Medical Science, 12(7), e9309.">[20]</span></sup>.
                 </p>
 
 
@@ -169,10 +267,23 @@
                     <span class="text-rose-400">Müüt nr 5:</span> Kanep ei tekita sõltuvust
                 </h3>
                 <p>
-                    Müüt põhineb tõsiasjal, et kõigist marihuaanat kasutavatest inimestest vastab mingil eluperioodil sõltuvuse kriteeriumidele vaid umbes 9%. Kui aga vaadata inimesi, kes hakkavad marihuaanat tarvitama noorukieas (kui aju alles areneb ja on üsna haavatav), siis on neil neli kuni seitse korda suurem tõenäosus jääda kanepisõltuvusse kui täiskasvanutel <sup><span class="tooltip" data-tip="Winters, K. C. & Lee, C.-Y. S. 2008. Likelihood of developing an alcohol and cannabis use disorder during youth: Association with recent use and age. Drug and Alcohol Dependence, 92(1-3), 239-247.">[21]</span></sup>. Värskeimad andmed viitavad sellele, et 30%-l regulaarselt kanepit tarvitajatest võib esineda sõltuvushäireid <sup><span class="tooltip" data-tip="Hasin, D. S., et al. 2015. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. JAMA Psychiatry, 72(12), 1235-1242.">[22]</span></sup>.
+                    Müüt põhineb tõsiasjal, et kõigist marihuaanat kasutavatest inimestest vastab mingil eluperioodil
+                    sõltuvuse kriteeriumidele vaid umbes 9%. Kui aga vaadata inimesi, kes hakkavad marihuaanat tarvitama
+                    noorukieas (kui aju alles areneb ja on üsna haavatav), siis on neil neli kuni seitse korda suurem
+                    tõenäosus jääda kanepisõltuvusse kui täiskasvanutel <sup><span class="tooltip"
+                            data-tip="Winters, K. C. & Lee, C.-Y. S. 2008. Likelihood of developing an alcohol and cannabis use disorder during youth: Association with recent use and age. Drug and Alcohol Dependence, 92(1-3), 239-247.">[21]</span></sup>.
+                    Värskeimad andmed viitavad sellele, et 30%-l regulaarselt kanepit tarvitajatest võib esineda
+                    sõltuvushäireid <sup><span class="tooltip"
+                            data-tip="Hasin, D. S., et al. 2015. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. JAMA Psychiatry, 72(12), 1235-1242.">[22]</span></sup>.
                 </p>
                 <p>
-                    Samuti on näidatud, et tänapäevased THC tüved on tugevamad – tekitavad füsioloogilist sõltuvust ja võõrutusnähtusi <sup><span class="tooltip" data-tip="Copeland, J. & Swift, W. 2009. Cannabis use disorder: epidemiology and management. International Review of Psychiatry, 21(2), 96-103.">[23]</span></sup>, mis nõuavad juba spetsiaalset võõrustusravi. Kui kroonilised kanepitarbijad üritavad ravi järsult katkestada, on võõrutusnähud – rahutus, ärrituvus, hüperaktiivsus, unetus, iiveldus, krambid, söögiisu vähenemine, higistamine ja sagenenud unenäod, sagedased <sup><span class="tooltip" data-tip="Bonnet, U. & Preuss, U. W. 2017. The cannabis withdrawal syndrome: current insights. Substance Abuse and Rehabilitation, 8, 9-37.">[24]</span></sup>.
+                    Samuti on näidatud, et tänapäevased THC tüved on tugevamad – tekitavad füsioloogilist sõltuvust ja
+                    võõrutusnähtusi <sup><span class="tooltip"
+                            data-tip="Copeland, J. & Swift, W. 2009. Cannabis use disorder: epidemiology and management. International Review of Psychiatry, 21(2), 96-103.">[23]</span></sup>,
+                    mis nõuavad juba spetsiaalset võõrustusravi. Kui kroonilised kanepitarbijad üritavad ravi järsult
+                    katkestada, on võõrutusnähud – rahutus, ärrituvus, hüperaktiivsus, unetus, iiveldus, krambid,
+                    söögiisu vähenemine, higistamine ja sagenenud unenäod, sagedased <sup><span class="tooltip"
+                            data-tip="Bonnet, U. & Preuss, U. W. 2017. The cannabis withdrawal syndrome: current insights. Substance Abuse and Rehabilitation, 8, 9-37.">[24]</span></sup>.
                 </p>
 
 
@@ -180,13 +291,34 @@
                     <span class="text-rose-400">Müüt nr 6:</span> Kanep on “väravaks” kangematele narkootikumidele
                 </h3>
                 <p>
-                    Siinkohal on teaduslikud tõendid ebamäärased ja põhjuslikku seost ei ole otseselt kinnitatud, kuid kui vaadata kõiki teisi narkootikume tarvitavaid inimesi, siis enamik neist on alustanud kanepist. Sellegi poolest ei tähenda see, et kui keegi tarvitab kanepit, siis hakkab ta tingimata kasutama kangemaid narkootikume, nagu kokaiin. Kuid teatud protsent kanepitarbijatest teeb seda. Kui võrrelda kanepitarbimist muu uimastitarbimisega, siis enamikus riikides on kanep palju levinum <a href=" https://www.emcdda.europa.eu/data/stats2021/gps_en" target="_blank" rel="noopener noreferrer"><sup>[25]</sup></a>. Kuid ainuüksi levimuse põhjal ei saa me luua seoseid pikaajalise kasutamise ja “väravaks” olemise hüpoteesiga.
+                    Siinkohal on teaduslikud tõendid ebamäärased ja põhjuslikku seost ei ole otseselt kinnitatud, kuid
+                    kui vaadata kõiki teisi narkootikume tarvitavaid inimesi, siis enamik neist on alustanud kanepist.
+                    Sellegi poolest ei tähenda see, et kui keegi tarvitab kanepit, siis hakkab ta tingimata kasutama
+                    kangemaid narkootikume, nagu kokaiin. Kuid teatud protsent kanepitarbijatest teeb seda. Kui võrrelda
+                    kanepitarbimist muu uimastitarbimisega, siis enamikus riikides on kanep palju levinum <a
+                        href=" https://www.emcdda.europa.eu/data/stats2021/gps_en" target="_blank"
+                        rel="noopener noreferrer"><sup>[25]</sup></a>. Kuid ainuüksi levimuse põhjal ei saa me luua
+                    seoseid pikaajalise kasutamise ja “väravaks” olemise hüpoteesiga.
                 </p>
                 <p>
-                    25 aastat kestnud longituuduuring on leidnud, et marihuaana tarvitamise sagedus on märkimisväärne teiste ebaseaduslike kuritarvitamise ja sõltuvust tekitavate uimastite seas – eriti noorukieas <sup><span class="tooltip" data-tip="Fergusson D. M., et al. 2006. Cannabis use and other illicit drug use: testing the cannabis gateway hypothesis. Addiction, 101(4), 556-569.">[26]</span></sup>. Kahes eraldi uuringus kaksikutega on võrreldud, kas kanepi varajane tarvitamine näitab hilisemat kuritarvitamist või sõltuvust teistest ebaseaduslikest uimastitest. Leiud näitasid kaks kuni viis korda suuremat riski kui kaksikul, kes ei kasutanud marihuaanat <sup><span class="tooltip" data-tip="Lynskey M.T., et al. 2003. Escalation of drug use in early-onset cannabis users vs co-twin controls. JAMA, 289(4), 427-433.">[27]</span></sup><sup><span class="tooltip" data-tip="Agrawal A et al. 2004. Cannabis and other illicit drugs: comorbid use and abuse/dependence in males and females. Behavior Genetics, 34(3), 217-228.">[28]</span></sup>.
+                    25 aastat kestnud longituuduuring on leidnud, et marihuaana tarvitamise sagedus on märkimisväärne
+                    teiste ebaseaduslike kuritarvitamise ja sõltuvust tekitavate uimastite seas – eriti noorukieas
+                    <sup><span class="tooltip"
+                            data-tip="Fergusson D. M., et al. 2006. Cannabis use and other illicit drug use: testing the cannabis gateway hypothesis. Addiction, 101(4), 556-569.">[26]</span></sup>.
+                    Kahes eraldi uuringus kaksikutega on võrreldud, kas kanepi varajane tarvitamine näitab hilisemat
+                    kuritarvitamist või sõltuvust teistest ebaseaduslikest uimastitest. Leiud näitasid kaks kuni viis
+                    korda suuremat riski kui kaksikul, kes ei kasutanud marihuaanat <sup><span class="tooltip"
+                            data-tip="Lynskey M.T., et al. 2003. Escalation of drug use in early-onset cannabis users vs co-twin controls. JAMA, 289(4), 427-433.">[27]</span></sup><sup><span
+                            class="tooltip"
+                            data-tip="Agrawal A et al. 2004. Cannabis and other illicit drugs: comorbid use and abuse/dependence in males and females. Behavior Genetics, 34(3), 217-228.">[28]</span></sup>.
                 </p>
                 <p>
-                    Teine seletus muu narkotarbimise “väravaks” olemise ja sõltuvuse kohta põhineb aju neurobioloogial – vähenenud tasutundlikkus ja suurenenud ootustundlikkus võtavad üle aju juhtimisahela <sup><span class="tooltip" data-tip="Volkow, N. D., et al. 2010. Addiction: decreased reward sensitivity and increased expectation sensitivity conspire to overwhelm the brain's control circuit. Bioessays, 32(9), 748-755.">[29]</span></sup>. Teisisõnu, mäluahela ajamid tasuvad meie ootusi ja suurendavad motivatsiooni uimastit tarbida. Kokkuvõtteks: tõendid on vastuolulised, kuid seos näib olevat paljude kanepitarbijate lõikes olemas.
+                    Teine seletus muu narkotarbimise “väravaks” olemise ja sõltuvuse kohta põhineb aju neurobioloogial –
+                    vähenenud tasutundlikkus ja suurenenud ootustundlikkus võtavad üle aju juhtimisahela <sup><span
+                            class="tooltip"
+                            data-tip="Volkow, N. D., et al. 2010. Addiction: decreased reward sensitivity and increased expectation sensitivity conspire to overwhelm the brain's control circuit. Bioessays, 32(9), 748-755.">[29]</span></sup>.
+                    Teisisõnu, mäluahela ajamid tasuvad meie ootusi ja suurendavad motivatsiooni uimastit tarbida.
+                    Kokkuvõtteks: tõendid on vastuolulised, kuid seos näib olevat paljude kanepitarbijate lõikes olemas.
                 </p>
 
 
@@ -194,13 +326,40 @@
                     <span class="text-rose-400">Müüt nr 7:</span> Kanepiga ei saa üledoosi
                 </h3>
                 <p>
-                    Otseselt kanepitarbimisse surra ei saa, aga on võimalus üleannustada, mis toob kaasa füüsilised kannatused (iiveldus, oksendamine), äärmise ärevuse, paranoia ja lühiajalise psühhoosi (kaob kontakt reaalsusega). Nende mõjude kadumiseks võib kuluda mitu tundi. Kanepi üledoosi ei saada just väga sageli, kuid risk on olemas, kui tarbitakse mitteametlikke kanepitooteid. See võib juhtuda, kuna tavaliselt ei saa tarvitaja oma annust ja kannabinoidide sisaldust täpselt mõõta. Kuna kanepitarvitamine on enamikes riikides palju suurem kui teiste uimastite tarbimine, on kanepi kõrvaltoimed toonud kaasa palju rohkem erakorralise meditsiini osakonna külastusi kui teiste narkootikumide puhul <a href=" https://www.samhsa.gov/data/sites/default/files/DAWN2k11ED/DAWN2k11ED/DAWN2k11ED.pdf" target="_blank" rel="noopener noreferrer"><sup>[30]</sup></a>.
+                    Otseselt kanepitarbimisse surra ei saa, aga on võimalus üleannustada, mis toob kaasa füüsilised
+                    kannatused (iiveldus, oksendamine), äärmise ärevuse, paranoia ja lühiajalise psühhoosi (kaob kontakt
+                    reaalsusega). Nende mõjude kadumiseks võib kuluda mitu tundi. Kanepi üledoosi ei saada just väga
+                    sageli, kuid risk on olemas, kui tarbitakse mitteametlikke kanepitooteid. See võib juhtuda, kuna
+                    tavaliselt ei saa tarvitaja oma annust ja kannabinoidide sisaldust täpselt mõõta. Kuna
+                    kanepitarvitamine on enamikes riikides palju suurem kui teiste uimastite tarbimine, on kanepi
+                    kõrvaltoimed toonud kaasa palju rohkem erakorralise meditsiini osakonna külastusi kui teiste
+                    narkootikumide puhul <a
+                        href=" https://www.samhsa.gov/data/sites/default/files/DAWN2k11ED/DAWN2k11ED/DAWN2k11ED.pdf"
+                        target="_blank" rel="noopener noreferrer"><sup>[30]</sup></a>.
                 </p>
                 <p>
-                    Üleannustamise tagajärjeks võib olla ka psühhiaatrilise seisundi halvenemine, eriti psühhoos: see väljendub paranoias, asjade nägemises, kuulmises, luululise mõtlemises. Kanepis sisalduv kannabinoid - THC võib seda halvendada. Mõnikord antakse neile inimestele antipsühhootilisi ravimeid, et sümptomeid leevendada ja neid ennast mugavamalt tundma panna. Teine asi, mille pärast inimesed kiirabisse võivad sattuda, on kanepi hüperemeedi sündroom (CHS) <a href="https://my.clevelandclinic.org/health/diseases/21665-cannabis-hyperemesis-syndrome" target="_blank" rel="noopener noreferrer"><sup>[31]</sup></a>. CHS on seisund, mis on põhjustatud pikaajalisest kanepitarbimisest. Inimesed, kellel on CHS, kogevad korduvaid iivelduse, oksendamise, dehüdratsiooni ja kõhuvalu episoode,  külastades sageli erakorralise meditsiini osakonda.
+                    Üleannustamise tagajärjeks võib olla ka psühhiaatrilise seisundi halvenemine, eriti psühhoos: see
+                    väljendub paranoias, asjade nägemises, kuulmises, luululise mõtlemises. Kanepis sisalduv kannabinoid
+                    - THC võib seda halvendada. Mõnikord antakse neile inimestele antipsühhootilisi ravimeid, et
+                    sümptomeid leevendada ja neid ennast mugavamalt tundma panna. Teine asi, mille pärast inimesed
+                    kiirabisse võivad sattuda, on kanepi hüperemeedi sündroom (CHS) <a
+                        href="https://my.clevelandclinic.org/health/diseases/21665-cannabis-hyperemesis-syndrome"
+                        target="_blank" rel="noopener noreferrer"><sup>[31]</sup></a>. CHS on seisund, mis on
+                    põhjustatud pikaajalisest kanepitarbimisest. Inimesed, kellel on CHS, kogevad korduvaid iivelduse,
+                    oksendamise, dehüdratsiooni ja kõhuvalu episoode, külastades sageli erakorralise meditsiini
+                    osakonda.
                 </p>
                 <p>
-                    Lõõgastumise eesmärgil tarbitud kanepi ägedat toksilisust on uuritud ka USA-s Alaskal <sup><span class="tooltip" data-tip="Noble, M. J., et al. 2019. Acute cannabis toxicity. Clinical Toxicology, 57(8), 735-742.">[32]</span></sup>. Neurotoksilisus on tavaline pärast ägedat kokkupuudet kanepiga. Lapsed kogesid tahtmatut kokkupuudet, eriti kodus, ja mõnikord ka tõsiste kahjulike tagajärgedega. Kontsentreeritud tooteid, nagu vaigud ja vedelad kontsentraadid, seostati teiste kanepitoodetega võrreldes suurema mürgisusega. Teine teaduskirjanduses käsitletav aspekt on meditsiinilise kanepi mõju opioidide (manustatud näiteks valu vaigistamiseks vähihaigetel) üleannustamisele ja suremusele. Samas on tõendid segased <sup><span class="tooltip" data-tip="Shover, C. L., et al. 2019. Association between medical cannabis laws and opioid overdose mortality has reversed over time. Proceedings of the National Academy of Sciences of the United States of America, 116(26), 12624-12626.">[33]</span></sup>. 
+                    Lõõgastumise eesmärgil tarbitud kanepi ägedat toksilisust on uuritud ka USA-s Alaskal <sup><span
+                            class="tooltip"
+                            data-tip="Noble, M. J., et al. 2019. Acute cannabis toxicity. Clinical Toxicology, 57(8), 735-742.">[32]</span></sup>.
+                    Neurotoksilisus on tavaline pärast ägedat kokkupuudet kanepiga. Lapsed kogesid tahtmatut
+                    kokkupuudet, eriti kodus, ja mõnikord ka tõsiste kahjulike tagajärgedega. Kontsentreeritud tooteid,
+                    nagu vaigud ja vedelad kontsentraadid, seostati teiste kanepitoodetega võrreldes suurema
+                    mürgisusega. Teine teaduskirjanduses käsitletav aspekt on meditsiinilise kanepi mõju opioidide
+                    (manustatud näiteks valu vaigistamiseks vähihaigetel) üleannustamisele ja suremusele. Samas on
+                    tõendid segased <sup><span class="tooltip"
+                            data-tip="Shover, C. L., et al. 2019. Association between medical cannabis laws and opioid overdose mortality has reversed over time. Proceedings of the National Academy of Sciences of the United States of America, 116(26), 12624-12626.">[33]</span></sup>.
                 </p>
                 <p>
                     Kokkuvõtteks näib seos kehtivat (esineb korrelatsioon), kuid põhjuslik seos pole selge.
@@ -211,20 +370,40 @@
                     <span class="text-rose-400">Müüt nr 8:</span> Kanepisuits on ohutu
                 </h3>
                 <p>
-                    Nagu mis tahes muu passiivse suitsu puhul, võivad lapsed kanepi passiivses suitsus sisalduvaid mürgiseid aineid ja kantserogeene kergesti sisse hingata. Selles on palju samu kemikaale, mis tubakasuitsus <sup><span class="tooltip" data-tip="Graves, B. M., et al. 2020. Comprehensive characterization of mainstream marijuana and tobacco smoke. Scientific Reports 10(1), 7160.">[34]</span></sup>, sealhulgas neid, mis on seotud kopsuvähiga.
+                    Nagu mis tahes muu passiivse suitsu puhul, võivad lapsed kanepi passiivses suitsus sisalduvaid
+                    mürgiseid aineid ja kantserogeene kergesti sisse hingata. Selles on palju samu kemikaale, mis
+                    tubakasuitsus <sup><span class="tooltip"
+                            data-tip="Graves, B. M., et al. 2020. Comprehensive characterization of mainstream marijuana and tobacco smoke. Scientific Reports 10(1), 7160.">[34]</span></sup>,
+                    sealhulgas neid, mis on seotud kopsuvähiga.
                 </p>
                 <p>
-                    Kasutatud marihuaanasuits sisaldab ka THC-d, ühendit, mis vastutab enamiku kanepi psühhoaktiivsete mõjude eest. See võib levida imikutele ja lastele passiivse suitsetamise kaudu ning passiivse kanepisuitsuga kokkupuutuvad inimesed võivad kogeda psühhoaktiivseid mõjusid, näiteks kõrgendatud enesetunnet <sup><span class="tooltip" data-tip="Wilson, K. M., et al. 2017. Detecting biomarkers of secondhand marijuana smoke in young children. Pediatric Research, 81(4), 589-592.">[35]</span></sup>. Hiljutised uuringud on leidnud tugeva seose teadete vahel, et kodus on keegi, kes kasutab marihuaanat (nt vanem, sugulane või hooldaja) ning lapsel tuvastatava THC taseme vahel <sup><span class="tooltip" data-tip="Moore, C., et al. 2011. Cannabinoids in oral fluid following passive exposure to marijuana smoke. Forensic Science International, 212(1-3), 227-230.">[36]</span></sup>. On näidatud, et imikutel, kes puutuvad kokku passiivse marihuaanasuitsuga, on oht imikute äkksurma sündroomi (teise nimega SIDS) esinemisele <sup><span class="tooltip" data-tip="Reece-Stremtan, S. & Marinelli, K. A. 2015. ABM clinical protocol #21: Guidelines for breastfeeding and substance use or substance use disorder, revised 2015. Breastfeeding Medicine, 10(3), 135-141.">[37]</span></sup>.
+                    Kasutatud marihuaanasuits sisaldab ka THC-d, ühendit, mis vastutab enamiku kanepi psühhoaktiivsete
+                    mõjude eest. See võib levida imikutele ja lastele passiivse suitsetamise kaudu ning passiivse
+                    kanepisuitsuga kokkupuutuvad inimesed võivad kogeda psühhoaktiivseid mõjusid, näiteks kõrgendatud
+                    enesetunnet <sup><span class="tooltip"
+                            data-tip="Wilson, K. M., et al. 2017. Detecting biomarkers of secondhand marijuana smoke in young children. Pediatric Research, 81(4), 589-592.">[35]</span></sup>.
+                    Hiljutised uuringud on leidnud tugeva seose teadete vahel, et kodus on keegi, kes kasutab
+                    marihuaanat (nt vanem, sugulane või hooldaja) ning lapsel tuvastatava THC taseme vahel <sup><span
+                            class="tooltip"
+                            data-tip="Moore, C., et al. 2011. Cannabinoids in oral fluid following passive exposure to marijuana smoke. Forensic Science International, 212(1-3), 227-230.">[36]</span></sup>.
+                    On näidatud, et imikutel, kes puutuvad kokku passiivse marihuaanasuitsuga, on oht imikute äkksurma
+                    sündroomi (teise nimega SIDS) esinemisele <sup><span class="tooltip"
+                            data-tip="Reece-Stremtan, S. & Marinelli, K. A. 2015. ABM clinical protocol #21: Guidelines for breastfeeding and substance use or substance use disorder, revised 2015. Breastfeeding Medicine, 10(3), 135-141.">[37]</span></sup>.
                 </p>
                 <p>
-                    Neid fakte arvesse võttes põhjustab kanepisuits selgelt terviseriske. Sageli aga järeldavad mitmed veebilehed, et see tõenäoliselt ei mõjuta inimesi, kes puutuvad sellega kokku hästi ventileeritavas keskkonnas. Teaduslike faktide põhjal ei vasta see tõele, eriti siseruumide puhul.
+                    Neid fakte arvesse võttes põhjustab kanepisuits selgelt terviseriske. Sageli aga järeldavad mitmed
+                    veebilehed, et see tõenäoliselt ei mõjuta inimesi, kes puutuvad sellega kokku hästi ventileeritavas
+                    keskkonnas. Teaduslike faktide põhjal ei vasta see tõele, eriti siseruumide puhul.
                 </p>
 
                 <h3>
                     Muud usaldusväärsed allikad
                 </h3>
                 <p>
-                    <a class="break-all" href="https://www.unodc.org/documents/drug-prevention-and-treatment/cannabis_review.pdf " target="_blank" rel="noopener noreferrer">https://www.unodc.org/documents/drug-prevention-and-treatment/cannabis_review.pdf</a>
+                    <a class="break-all"
+                        href="https://www.unodc.org/documents/drug-prevention-and-treatment/cannabis_review.pdf "
+                        target="_blank"
+                        rel="noopener noreferrer">https://www.unodc.org/documents/drug-prevention-and-treatment/cannabis_review.pdf</a>
                 </p>
             </section>
 
@@ -239,32 +418,121 @@
                 </h2>
 
                 <p>
-                    Miracle Mineral Solution, ka Master Mineral Solution (MMS) on kloordioksiidi (ClO₂) vesilahuse kaubamärgi kohta esinevad nimetused; sisuliselt on tegemist tööstusliku valgendiga, mida arvatakse ekslikult ravivat selliseid haigusi nagu HIV, vähk ja külmetus <a href="https://en.wikipedia.org/w/index.php?title=Miracle_Mineral_Supplement&oldid=1130854435" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Wikipedia kaastöölised. (2022). Miracle mineraalne toidulisand."><sup>[38]</sup></a> <a href="https://www.terviseamet.ee/et/uudised/mms-kloordioksiidil-pohinev-tervisele-kahjulik-lahus" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Eesti Ravimiamet. (2018). MMS on kloordioksiidil põhinev tervisele kahjulik lahus."><sup>[39]</sup></a>. Selle nimetuse mõtles välja endine saientoloog Jim Humble oma 2006. aastal ilmunud raamatus "The Miracle Mineral Solution of the 21st Century" <a href="https://uk.news.yahoo.com/parents-making-children-drink-bleach-160057178.html" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Newsweek/Yahoo News. (28. jaanuar 2018). Vanemad panevad oma lapsi jooma valgendit, et neid autismist ravida."><sup>[40]</sup></a>. Humble väidab, et lahus võib ravida HIV-i, malaariat, hepatiidi viirust, gripiviirust H1N1, külmetushaigusi, autismi, aknet, vähki ja muid haigusi. Nende väidete tõestuseks puuduvad kliinilised uuringud <a href="https://www.terviseamet.ee/et/uudised/mms-kloordioksiidil-pohinev-tervisele-kahjulik-lahus" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Estonian Drug Administration (Eesti Ravimiamet). (20. juulil2018).MMS on kloordioksiidil põhinev tervisele kahjulik lahus."><sup>[41]</sup></a> <a href="https://www.fda.gov/consumers/consumer-updates/danger-dont-drink-miracle-mineral-solution-or-similar-products" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="USA Toidu- ja Ravimiamet. (8. detsember 2019).Oht: ärge jooge Miracle’i mineraallahust ega sarnaseid tooteid."><sup>[42]</sup></a>, need pärinevad ainult üksikjuhtumite kirjeldustest ja Humble'i raamatust <a href="https://en.wikipedia.org/w/index.php?title=Miracle_Mineral_Supplement&oldid=1130854435" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Wikipedia kaastöölised. (2022).Miracle mineraalne toidulisand. Vikipeedia, vaba entsüklopeedia."><sup>[43]</sup></a>. Vaatamata puuduvatele teaduslikele tõenditele on MMS-i propageerinud erinevad inimesed ja organisatsioonid üle maailma.
+                    Miracle Mineral Solution, ka Master Mineral Solution (MMS) on kloordioksiidi (ClO₂) vesilahuse
+                    kaubamärgi kohta esinevad nimetused; sisuliselt on tegemist tööstusliku valgendiga, mida arvatakse
+                    ekslikult ravivat selliseid haigusi nagu HIV, vähk ja külmetus <a
+                        href="https://en.wikipedia.org/w/index.php?title=Miracle_Mineral_Supplement&oldid=1130854435"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Wikipedia kaastöölised. (2022). Miracle mineraalne toidulisand."><sup>[38]</sup></a>
+                    <a href="https://www.terviseamet.ee/et/uudised/mms-kloordioksiidil-pohinev-tervisele-kahjulik-lahus"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Eesti Ravimiamet. (2018). MMS on kloordioksiidil põhinev tervisele kahjulik lahus."><sup>[39]</sup></a>.
+                    Selle nimetuse mõtles välja endine saientoloog Jim Humble oma 2006. aastal ilmunud raamatus "The
+                    Miracle Mineral Solution of the 21st Century" <a
+                        href="https://uk.news.yahoo.com/parents-making-children-drink-bleach-160057178.html"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Newsweek/Yahoo News. (28. jaanuar 2018). Vanemad panevad oma lapsi jooma valgendit, et neid autismist ravida."><sup>[40]</sup></a>.
+                    Humble väidab, et lahus võib ravida HIV-i, malaariat, hepatiidi viirust, gripiviirust H1N1,
+                    külmetushaigusi, autismi, aknet, vähki ja muid haigusi. Nende väidete tõestuseks puuduvad
+                    kliinilised uuringud <a
+                        href="https://www.terviseamet.ee/et/uudised/mms-kloordioksiidil-pohinev-tervisele-kahjulik-lahus"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Estonian Drug Administration (Eesti Ravimiamet). (20. juulil2018).MMS on kloordioksiidil põhinev tervisele kahjulik lahus."><sup>[41]</sup></a>
+                    <a href="https://www.fda.gov/consumers/consumer-updates/danger-dont-drink-miracle-mineral-solution-or-similar-products"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="USA Toidu- ja Ravimiamet. (8. detsember 2019).Oht: ärge jooge Miracle’i mineraallahust ega sarnaseid tooteid."><sup>[42]</sup></a>,
+                    need pärinevad ainult üksikjuhtumite kirjeldustest ja Humble'i raamatust <a
+                        href="https://en.wikipedia.org/w/index.php?title=Miracle_Mineral_Supplement&oldid=1130854435"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Wikipedia kaastöölised. (2022).Miracle mineraalne toidulisand. Vikipeedia, vaba entsüklopeedia."><sup>[43]</sup></a>.
+                    Vaatamata puuduvatele teaduslikele tõenditele on MMS-i propageerinud erinevad inimesed ja
+                    organisatsioonid üle maailma.
                 </p>
                 <p>
-                    MMS valmistatakse naatriumkloriti (NaClO₂) vesilahuse segamisel happega (N: soolhape, tsitrusviljamahl, äädikas): 
+                    MMS valmistatakse naatriumkloriti (NaClO₂) vesilahuse segamisel happega (N: soolhape,
+                    tsitrusviljamahl, äädikas):
                 </p>
-                <h4 class="mt-0" style="font-variant-numeric:lining-nums;"><span class="break-keep whitespace-nowrap">5NaCl0₂ + 4HCl</span> → <span class="break-keep whitespace-nowrap">5NaCl + 4ClO₂ + 2H₂O</span></h4>
+                <h4 class="mt-0" style="font-variant-numeric:lining-nums;"><span
+                        class="break-keep whitespace-nowrap">5NaCl0₂ + 4HCl</span> → <span
+                        class="break-keep whitespace-nowrap">5NaCl + 4ClO₂ + 2H₂O</span></h4>
                 <p>
-                    Selle tulemusena tekib kloordioksiid, mürgine kemikaal, mis võib põhjustada iiveldust, oksendamist, kõhulahtisust ja dehüdratsioonist tingitud eluohtlikult madalat vererõhku <a href="https://web.archive.org/web/20190814102219/https://www.fda.gov/news-events/press-announcements/fda-warns-consumers-about-dangerous-and-potentially-life-threating-side-effects-miracle-mineral" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Toidu- ja Ravimiamet (2019).FDA hoiatab tarbijaid Miracle Mineral Solutioni ohtlike ja potentsiaalselt eluohtlike kõrvalmõjude eest .fda.gov."><sup>[44]</sup></a>. Naatriumklorit on kloordioksiidi peamine lähteaine ja on mürgine allaneelamisel <a href="https://web.archive.org/web/20070710214037/http://www.emea.europa.eu/pdfs/vet/mrls/sodiumchlorite.pdf" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Euroopa Ravimiamet. (2007). Naatriumkloriit – Euroopa Ravimihindamisameti kokkuvõtlik aruanne – Veterinaarravimite hindamisüksus (PDF)."><sup>[45]</sup></a>. Suured annused võivad põhjustada ägedat neerupuudulikkust. Väikesed annused (ligikaudu 1 gramm) võivad põhjustada iiveldust, oksendamist, soolepõletikku ja olla isegi eluohtlikud glükoos-6-fosfaatdehüdrogenaasi puudulikkusega patsientidel <a href="https://doi.org/10.3109%2F08860229309069417" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip=" Lin J.L. & Lim, P.S. (1993). Neerupuudulikkusega seotud äge naatriumkloriti mürgistus.Ren Fail.15(5): 645–8.doi:10.3109/08860229309069417.PMID 8290712."><sup>[46]</sup></a>.
+                    Selle tulemusena tekib kloordioksiid, mürgine kemikaal, mis võib põhjustada iiveldust, oksendamist,
+                    kõhulahtisust ja dehüdratsioonist tingitud eluohtlikult madalat vererõhku <a
+                        href="https://web.archive.org/web/20190814102219/https://www.fda.gov/news-events/press-announcements/fda-warns-consumers-about-dangerous-and-potentially-life-threating-side-effects-miracle-mineral"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Toidu- ja Ravimiamet (2019).FDA hoiatab tarbijaid Miracle Mineral Solutioni ohtlike ja potentsiaalselt eluohtlike kõrvalmõjude eest .fda.gov."><sup>[44]</sup></a>.
+                    Naatriumklorit on kloordioksiidi peamine lähteaine ja on mürgine allaneelamisel <a
+                        href="https://web.archive.org/web/20070710214037/http://www.emea.europa.eu/pdfs/vet/mrls/sodiumchlorite.pdf"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Euroopa Ravimiamet. (2007). Naatriumkloriit – Euroopa Ravimihindamisameti kokkuvõtlik aruanne – Veterinaarravimite hindamisüksus (PDF)."><sup>[45]</sup></a>.
+                    Suured annused võivad põhjustada ägedat neerupuudulikkust. Väikesed annused (ligikaudu 1 gramm)
+                    võivad põhjustada iiveldust, oksendamist, soolepõletikku ja olla isegi eluohtlikud
+                    glükoos-6-fosfaatdehüdrogenaasi puudulikkusega patsientidel <a
+                        href="https://doi.org/10.3109%2F08860229309069417" target="_blank" rel="noopener noreferrer"
+                        class="tooltip"
+                        data-tip=" Lin J.L. & Lim, P.S. (1993). Neerupuudulikkusega seotud äge naatriumkloriti mürgistus.Ren Fail.15(5): 645–8.doi:10.3109/08860229309069417.PMID 8290712."><sup>[46]</sup></a>.
                 </p>
                 <p>
-                    Kloordioksiidi on kasutatud ka joogivee desinfitseerimisvahendina <sup><span class="tooltip" data-tip="Block, Seymour Stanton (2001). Disinfection, sterilization, and preservation (5th ed.). Lippincott, Williams & Wilkins. p. 215. ISBN 0-683-30740-1.">[47]</span></sup>. Euroopa Komisjoni direktiiv <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31998L0083" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="NÕUKOGU DIREKTIIV 98/83/EÜ, 3. november 1998, olmevee kvaliteedi kohta"><sup>[48]</sup></a> kehtestab kloordioksiidi maksimaalseks lubatud kontsentratsiooniks joogivees mitte rohkem kui 0,2 miljondikosa (ppm), samas kui USA Keskkonnakaitseagentuur (EPA) on määranud selleks 0,8 (ppm) <a href="https://wwwn.cdc.gov/TSP/ToxFAQs/ToxFAQsDetails.aspx?faqid=581&toxid=108" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Toksiliste ainete ja haiguste registri agentuur – ToxFAQs™: kloordioksiid ja kloriit. www.atsdr.cdc.gov."><sup>[49]</sup></a>.
+                    Kloordioksiidi on kasutatud ka joogivee desinfitseerimisvahendina <sup><span class="tooltip"
+                            data-tip="Block, Seymour Stanton (2001). Disinfection, sterilization, and preservation (5th ed.). Lippincott, Williams & Wilkins. p. 215. ISBN 0-683-30740-1.">[47]</span></sup>.
+                    Euroopa Komisjoni direktiiv <a
+                        href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31998L0083" target="_blank"
+                        rel="noopener noreferrer" class="tooltip"
+                        data-tip="NÕUKOGU DIREKTIIV 98/83/EÜ, 3. november 1998, olmevee kvaliteedi kohta"><sup>[48]</sup></a>
+                    kehtestab kloordioksiidi maksimaalseks lubatud kontsentratsiooniks joogivees mitte rohkem kui 0,2
+                    miljondikosa (ppm), samas kui USA Keskkonnakaitseagentuur (EPA) on määranud selleks 0,8 (ppm) <a
+                        href="https://wwwn.cdc.gov/TSP/ToxFAQs/ToxFAQsDetails.aspx?faqid=581&toxid=108" target="_blank"
+                        rel="noopener noreferrer" class="tooltip"
+                        data-tip="Toksiliste ainete ja haiguste registri agentuur – ToxFAQs™: kloordioksiid ja kloriit. www.atsdr.cdc.gov."><sup>[49]</sup></a>.
                 </p>
                 <h3 id="safety">
                     Ohutus
                 </h3>
                 <p>
-                    Meditsiiniline nõuanne on, et igaüks, kellel on see toode, peaks selle kasutamise kohe lõpetama ja minema viskama <a href="https://www.terviseamet.ee/et/uudised/mms-kloordioksiidil-pohinev-tervisele-kahjulik-lahus" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Estonian Drug Administration (Eesti Ravimiamet). (20. juulil 2018). MMS on kloordioksiidil põhinev tervisele kahjulik lahus."><sup>[50]</sup></a> <a href="https://www.fda.gov/consumers/consumer-updates/danger-dont-drink-miracle-mineral-solution-or-similar-products" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="USA Toidu- ja Ravimiamet. (8. detsember 2019). Oht: ärge jooge Miracle’i mineraallahust ega sarnaseid tooteid."><sup>[51]</sup></a>. Riiklikud agentuurid paljudes riikides <a href="http://www.food.gov.uk/news-updates/news/2012/jul/cdswarning#.UJ8EzIawUzQ" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Ühendkuningriik Toidustandardite amet. (3. juuli 2012). Agentuuri hoiatus kloorilahuste kohta"><sup>[52]</sup></a> <a href="https://web.archive.org/web/20120520125838/http://food.gov.uk/news/newsarchive/2010/sep/mms" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Toidustandardite Agentuur. (2012). Hoiatus Miracle Mineral Solutioni tarbimise eest"><sup>[53]</sup></a>, on hoiatanud MMS-i mõjude eest: "MMS on 28% naatriumkloriti lahus, mis on samaväärne tööstusliku tugevusega pleegitusainega. Kui seda kasutatakse vastavalt juhistele, võib see põhjustada tugevat iiveldust, oksendamist ja kõhulahtisus, mis võib põhjustada dehüdratsiooni  ja alandada vererõhku. Kui lahust lahjendatakse ettenähtust vähem, võib see kahjustada soolestikku ja punaseid vereliblesid, mis võib põhjustada hingamispuudulikkust." Ka lahjemad versioonid võivad kahjustada, kuigi see on vähem tõenäoline. Müüjad seostavad oksendamist, iiveldust ja kõhulahtisust toote ravitoimega, kuid tegelikult on selle põhjuseks toote mürgisus <a href="https://web.archive.org/web/20130606115516/http://moh.gov.ms/?p=803" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Montserrat: tervishoiuministeerium. (6. juuni 2013) Toote hoiatus: Miracle Mineral Solution."><sup>[54]</sup></a>.
+                    Meditsiiniline nõuanne on, et igaüks, kellel on see toode, peaks selle kasutamise kohe lõpetama ja
+                    minema viskama <a
+                        href="https://www.terviseamet.ee/et/uudised/mms-kloordioksiidil-pohinev-tervisele-kahjulik-lahus"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Estonian Drug Administration (Eesti Ravimiamet). (20. juulil 2018). MMS on kloordioksiidil põhinev tervisele kahjulik lahus."><sup>[50]</sup></a>
+                    <a href="https://www.fda.gov/consumers/consumer-updates/danger-dont-drink-miracle-mineral-solution-or-similar-products"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="USA Toidu- ja Ravimiamet. (8. detsember 2019). Oht: ärge jooge Miracle’i mineraallahust ega sarnaseid tooteid."><sup>[51]</sup></a>.
+                    Riiklikud agentuurid paljudes riikides <a
+                        href="http://www.food.gov.uk/news-updates/news/2012/jul/cdswarning#.UJ8EzIawUzQ" target="_blank"
+                        rel="noopener noreferrer" class="tooltip"
+                        data-tip="Ühendkuningriik Toidustandardite amet. (3. juuli 2012). Agentuuri hoiatus kloorilahuste kohta"><sup>[52]</sup></a>
+                    <a href="https://web.archive.org/web/20120520125838/http://food.gov.uk/news/newsarchive/2010/sep/mms"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Toidustandardite Agentuur. (2012). Hoiatus Miracle Mineral Solutioni tarbimise eest"><sup>[53]</sup></a>,
+                    on hoiatanud MMS-i mõjude eest: "MMS on 28% naatriumkloriti lahus, mis on samaväärne tööstusliku
+                    tugevusega pleegitusainega. Kui seda kasutatakse vastavalt juhistele, võib see põhjustada tugevat
+                    iiveldust, oksendamist ja kõhulahtisus, mis võib põhjustada dehüdratsiooni ja alandada vererõhku.
+                    Kui lahust lahjendatakse ettenähtust vähem, võib see kahjustada soolestikku ja punaseid
+                    vereliblesid, mis võib põhjustada hingamispuudulikkust." Ka lahjemad versioonid võivad kahjustada,
+                    kuigi see on vähem tõenäoline. Müüjad seostavad oksendamist, iiveldust ja kõhulahtisust toote
+                    ravitoimega, kuid tegelikult on selle põhjuseks toote mürgisus <a
+                        href="https://web.archive.org/web/20130606115516/http://moh.gov.ms/?p=803" target="_blank"
+                        rel="noopener noreferrer" class="tooltip"
+                        data-tip="Montserrat: tervishoiuministeerium. (6. juuni 2013) Toote hoiatus: Miracle Mineral Solution."><sup>[54]</sup></a>.
                 </p>
                 <p>
-                    MMS-i ei ole heaks kiidetud ühegi haiguse raviks ja krooniline kokkupuude kloordioksiidi väikeste annustega võib põhjustada reproduktiiv- ja neuroarengukahjustusi <a href="https://cfpub.epa.gov/ncea/iris/iris_documents/documents/subst/0648_summary.pdf" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Kloriit (naatriumisool) (CASRN 7758-19-2) | IRIS | USA EPA (PDF). Epa.gov. Ameerika Ühendriikide Keskkonnakaitseagentuur."><sup>[55]</sup></a>. 
+                    MMS-i ei ole heaks kiidetud ühegi haiguse raviks ja krooniline kokkupuude kloordioksiidi väikeste
+                    annustega võib põhjustada reproduktiiv- ja neuroarengukahjustusi <a
+                        href="https://cfpub.epa.gov/ncea/iris/iris_documents/documents/subst/0648_summary.pdf"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Kloriit (naatriumisool) (CASRN 7758-19-2) | IRIS | USA EPA (PDF). Epa.gov. Ameerika Ühendriikide Keskkonnakaitseagentuur."><sup>[55]</sup></a>.
                 </p>
                 <h3 id="miracle-drug">
                     MMS-i kui “imeravimi” turundamine
                 </h3>
                 <p>
-                    Turundajate valeväidete kohaselt ravib imelahuse tilkade manustamine kiiresti paljud või kõik haigused ja vaevused, sealhulgas vähk, AIDS, gripp, autism jne. Turunduses on põhiliseks meetodiks võrkturundus ja avalikkusele suletud kogukonnad sotsiaalvõrgustikes. Tarbijale suunatud kommunikatsioon hõlmab  sõnavara, mis seostub tervislike eluviisidega (mõisted "öko" jms), kasutab ära haavatavate tarbijate teadmatust ja meeleheidet ning sageli ka vastumeelsust tavameditsiini vastu <a href="https://et.wikipedia.org/wiki/MMS" target="_blank" rel="noopener noreferrer"><sup>[56]</sup></a>.
+                    Turundajate valeväidete kohaselt ravib imelahuse tilkade manustamine kiiresti paljud või kõik
+                    haigused ja vaevused, sealhulgas vähk, AIDS, gripp, autism jne. Turunduses on põhiliseks meetodiks
+                    võrkturundus ja avalikkusele suletud kogukonnad sotsiaalvõrgustikes. Tarbijale suunatud
+                    kommunikatsioon hõlmab sõnavara, mis seostub tervislike eluviisidega (mõisted "öko" jms), kasutab
+                    ära haavatavate tarbijate teadmatust ja meeleheidet ning sageli ka vastumeelsust tavameditsiini
+                    vastu <a href="https://et.wikipedia.org/wiki/MMS" target="_blank"
+                        rel="noopener noreferrer"><sup>[56]</sup></a>.
                 </p>
 
 
@@ -272,41 +540,96 @@
                     <span class="text-rose-400">Müüt nr 9:</span> MMS ja valeväited COVID-19 ravi kohta
                 </h3>
                 <p>
-                    Kuigi väitel, et MMS võib ravida COVID-19 või mõnda muud haigust, pole teaduslikku alust 
-                    <a href="https://www.mysuncoast.com/2020/07/08/federal-agencies-hazmat-crews-respond-bradenton-church-selling-covid-miracle-solution/" target="_blank" rel="noopener noreferrer"><sup>[57]</sup></a> 
-                    <a href="https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Sommer, Will (28. jaanuar 2020). QAnon-ersi maagiline ravim koroonaviiruse vastu: jooge lihtsalt valgendit!. Daily Beast. Arhiveeritud originaalist 10. veebruaril 2020."><sup>[58]</sup></a> 
-                    <a href="https://www.youtube.com/watch?v=QEZpb4an8eM" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Halperin, Dan (30. jaanuar 2020). QAnoni YouTube'i kasutajad käsivad inimestel koroonaviiruse tõrjumiseks juua valgendit. Youtube. Veerev kivi."><sup>[59]</sup></a>
+                    Kuigi väitel, et MMS võib ravida COVID-19 või mõnda muud haigust, pole teaduslikku alust
+                    <a href="https://www.mysuncoast.com/2020/07/08/federal-agencies-hazmat-crews-respond-bradenton-church-selling-covid-miracle-solution/"
+                        target="_blank" rel="noopener noreferrer"><sup>[57]</sup></a>
+                    <a href="https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Sommer, Will (28. jaanuar 2020). QAnon-ersi maagiline ravim koroonaviiruse vastu: jooge lihtsalt valgendit!. Daily Beast. Arhiveeritud originaalist 10. veebruaril 2020."><sup>[58]</sup></a>
+                    <a href="https://www.youtube.com/watch?v=QEZpb4an8eM" target="_blank" rel="noopener noreferrer"
+                        class="tooltip"
+                        data-tip="Halperin, Dan (30. jaanuar 2020). QAnoni YouTube'i kasutajad käsivad inimestel koroonaviiruse tõrjumiseks juua valgendit. Youtube. Veerev kivi."><sup>[59]</sup></a>
 
-                    , siis COVID-19 pandeemia ajal hakkasid paljud varasemad MMS-i propageerijad, nagu QAnoni toetaja Jordan Sather ja USA Genesis II Tervise ja Tervendamise kirik, propageerima seda kui COVID-19 ravimit. Nt. 2019. aasta suve alguses korraldas Genesis II Tervise ja Tervendamise Kirik MMS-i levitamiseks seminare Tšiilis, Ecuadoris, Lõuna-Aafrikas ja Uus-Meremaal 
-                    <a href="https://www.theguardian.com/us-news/2019/aug/16/bleach-based-miracle-cure-group-seminar-new-york" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Pilkington, Ed (2019-08-16). Rühm, kes tutvustab New Yorgi osariigi seminaril valgendipõhist imeravimit. Eestkostja. Vaadatud 2019-08-16."><sup>[60]</sup></a>
-                    . 2020. aastal sai USA Florida lõunapiirkonna advokaadibüroo ettekirjutuse kiriku teise haru vastu, kes turustas MMS-i spetsiaalselt COVID-19 ravivahendina, kasutades anonüümseid edulugusid ja viidates vandenõuteooriatele 
-                    <a href="https://www.cbsnews.com/news/florida-church-coronavirus-bleaching-agent-cure-covid-19/" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Quinn, Melissa; Siduma, siduma; Hymes, Clare (17. aprill 2020), Feds otsib Florida kirikut, kes müüb COVID-19 raviks pleegitusainet, CBS uudised."><sup>[61]</sup></a>
-                    . Kohus andis korralduse sulgeda kõik MMS-i müüvad veebisaidid, takistada kirikul uute veebisaitide loomist ja konfiskeerida kõik MMS-i tegemiseks kasutatud materjalid. Samuti tehti kirikule ülesandeks teavitada kliente, et toote levitamine on olnud ebaseaduslik 
-                    <a href="https://web.archive.org/web/20160415120703/http://www.ethicalagents.co.nz/ProductPDF/Tristel-Trio-Wipe-System.pdf" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Triseli salvrätikute süsteemi tooteteave (PDF). Eetilised agendid. Arhiveeritud alatesoriginaal (PDF) 15. aprillil 2016."><sup>[62]</sup></a>
-                    . 
+                    , siis COVID-19 pandeemia ajal hakkasid paljud varasemad MMS-i propageerijad, nagu QAnoni toetaja
+                    Jordan Sather ja USA Genesis II Tervise ja Tervendamise kirik, propageerima seda kui COVID-19
+                    ravimit. Nt. 2019. aasta suve alguses korraldas Genesis II Tervise ja Tervendamise Kirik MMS-i
+                    levitamiseks seminare Tšiilis, Ecuadoris, Lõuna-Aafrikas ja Uus-Meremaal
+                    <a href="https://www.theguardian.com/us-news/2019/aug/16/bleach-based-miracle-cure-group-seminar-new-york"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Pilkington, Ed (2019-08-16). Rühm, kes tutvustab New Yorgi osariigi seminaril valgendipõhist imeravimit. Eestkostja. Vaadatud 2019-08-16."><sup>[60]</sup></a>
+                    . 2020. aastal sai USA Florida lõunapiirkonna advokaadibüroo ettekirjutuse kiriku teise haru vastu,
+                    kes turustas MMS-i spetsiaalselt COVID-19 ravivahendina, kasutades anonüümseid edulugusid ja
+                    viidates vandenõuteooriatele
+                    <a href="https://www.cbsnews.com/news/florida-church-coronavirus-bleaching-agent-cure-covid-19/"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Quinn, Melissa; Siduma, siduma; Hymes, Clare (17. aprill 2020), Feds otsib Florida kirikut, kes müüb COVID-19 raviks pleegitusainet, CBS uudised."><sup>[61]</sup></a>
+                    . Kohus andis korralduse sulgeda kõik MMS-i müüvad veebisaidid, takistada kirikul uute veebisaitide
+                    loomist ja konfiskeerida kõik MMS-i tegemiseks kasutatud materjalid. Samuti tehti kirikule
+                    ülesandeks teavitada kliente, et toote levitamine on olnud ebaseaduslik
+                    <a href="https://web.archive.org/web/20160415120703/http://www.ethicalagents.co.nz/ProductPDF/Tristel-Trio-Wipe-System.pdf"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Triseli salvrätikute süsteemi tooteteave (PDF). Eetilised agendid. Arhiveeritud alatesoriginaal (PDF) 15. aprillil 2016."><sup>[62]</sup></a>
+                    .
                 </p>
                 <p>
-                    Boliivias propageerisid Cochabamba ametnikud MMS-i kui ravi COVID-19 vastu ja kongress võttis vastu seaduseelnõu, millega lubatakse "kloordioksiidi lahuse tootmine, turustamine, tarnimine ja kasutamine koroonaviiruse ennetamiseks ja raviks". Selle tagajärjel sai mürgituse vähemalt 15 inimest <a href="https://www.theguardian.com/world/2020/jul/17/bolivia-coronavirus-toxic-bleach-chlorine-dioxide" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Cochabamba, Associated Press (17. juuli 2020). Meeleheitel boliivlased otsivad mürgist pleegitajat, mida on ekslikult reklaamitud kui Covid-19 ravi. Eestkostja. Välja vaadatud 2. veebruaril 2021."><sup>[63]</sup></a>.
+                    Boliivias propageerisid Cochabamba ametnikud MMS-i kui ravi COVID-19 vastu ja kongress võttis vastu
+                    seaduseelnõu, millega lubatakse "kloordioksiidi lahuse tootmine, turustamine, tarnimine ja
+                    kasutamine koroonaviiruse ennetamiseks ja raviks". Selle tagajärjel sai mürgituse vähemalt 15
+                    inimest <a
+                        href="https://www.theguardian.com/world/2020/jul/17/bolivia-coronavirus-toxic-bleach-chlorine-dioxide"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Cochabamba, Associated Press (17. juuli 2020). Meeleheitel boliivlased otsivad mürgist pleegitajat, mida on ekslikult reklaamitud kui Covid-19 ravi. Eestkostja. Välja vaadatud 2. veebruaril 2021."><sup>[63]</sup></a>.
                 </p>
 
                 <h3 id="myth-10">
                     <span class="text-rose-400">Müüt nr 10:</span> MMS ja valeväited tema muude ravivõimete kohta
                 </h3>
                 <p>
-                    ABC uudised ja KABC-TV USA-s uurisid 2016. aastal MMS-i fenomeni ja avastasid Lõuna-California ümber koondunud "maa-aluse võrgustiku", mis propageerib MMS-i haiguste, sealhulgas vähi, Parkinsoni tõve ja laste autismi raviks <a href="https://tervis.postimees.ee/6853276/need-on-2019-aasta-koige-ohtlikumad-tervisemuudid" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Vanemad panevad oma lapsi jooma valgendit, et neid autismist ravida. Newsweek/Yahoo News. 28. jaanuar 2018."><sup>[64]</sup></a>.
+                    ABC uudised ja KABC-TV USA-s uurisid 2016. aastal MMS-i fenomeni ja avastasid Lõuna-California ümber
+                    koondunud "maa-aluse võrgustiku", mis propageerib MMS-i haiguste, sealhulgas vähi, Parkinsoni tõve
+                    ja laste autismi raviks <a
+                        href="https://tervis.postimees.ee/6853276/need-on-2019-aasta-koige-ohtlikumad-tervisemuudid"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Vanemad panevad oma lapsi jooma valgendit, et neid autismist ravida. Newsweek/Yahoo News. 28. jaanuar 2018."><sup>[64]</sup></a>.
                 </p>
                 <p>
-                    Nii tegi ka nt. Kerri Rivera (USA), kes andis lapsevanematele põhjendamatuid ja ebaprofessionaalseid meditsiinilisi ja tervisealaseid nõuandeid MMS-i kasutamiseks autismi ja muude tõsiste haiguste "ravimiseks". Hiljem esitati talle kriminaalsüüdistus. Rivera haldas aga Facebooki lehte ja veebisaiti, mis propageerisid ohtlikku MMS-klistiiri kui autismiravi ja väitis, et laste soolestiku koetükid on tegelikult parasiidid ("paelussid") <a href="https://en.wikipedia.org/wiki/Intestinal_epithelium" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Köie ussid (või köieussid) on pseudoteaduslik termin pikkade õhukeste kahjustatud tükkide kohtasoole epiteel või muu soolesisaldus, mis on valesti tuvastatud kui inimese parasiit-ussid."><sup>[65]</sup></a>, mis oli ilmselgelt vale <a href="https://www.autism.com/statement_mms" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Hoiatus kloordioksiidi kasutamise eest. Autismi uurimisinstituut. Vaadatud 24. septembril 2016."><sup>[66]</sup></a>.
+                    Nii tegi ka nt. Kerri Rivera (USA), kes andis lapsevanematele põhjendamatuid ja ebaprofessionaalseid
+                    meditsiinilisi ja tervisealaseid nõuandeid MMS-i kasutamiseks autismi ja muude tõsiste haiguste
+                    "ravimiseks". Hiljem esitati talle kriminaalsüüdistus. Rivera haldas aga Facebooki lehte ja
+                    veebisaiti, mis propageerisid ohtlikku MMS-klistiiri kui autismiravi ja väitis, et laste soolestiku
+                    koetükid on tegelikult parasiidid ("paelussid") <a
+                        href="https://en.wikipedia.org/wiki/Intestinal_epithelium" target="_blank"
+                        rel="noopener noreferrer" class="tooltip"
+                        data-tip="Köie ussid (või köieussid) on pseudoteaduslik termin pikkade õhukeste kahjustatud tükkide kohtasoole epiteel või muu soolesisaldus, mis on valesti tuvastatud kui inimese parasiit-ussid."><sup>[65]</sup></a>,
+                    mis oli ilmselgelt vale <a href="https://www.autism.com/statement_mms" target="_blank"
+                        rel="noopener noreferrer" class="tooltip"
+                        data-tip="Hoiatus kloordioksiidi kasutamise eest. Autismi uurimisinstituut. Vaadatud 24. septembril 2016."><sup>[66]</sup></a>.
                 </p>
-                
+
                 <h3 id="myth-11">
                     Müüt nr 11: MMS aitab langetada kehakaalu
                 </h3>
                 <p>
-                    Eesti erinevates sotsiaalmeedia portaalides on hakanud viimastel aastatel levitama info MMS-ist kui tõhusast kaalulangetajast. Sellelele on aidanud hoogsalt kaasa ka näiteks portaal telegram.ee (Vt näiteks: <a href="https://www.telegram.ee/toit-ja-tervis/mms-ravib-vahki-ja-teised-edulood-eestist" target="_blank" rel="noopener noreferrer">https://www.telegram.ee/toit-ja-tervis/mms-ravib-vahki-ja-teised-edulood-eestist</a>)
+                    Eesti erinevates sotsiaalmeedia portaalides on hakanud viimastel aastatel levitama info MMS-ist kui
+                    tõhusast kaalulangetajast. Sellelele on aidanud hoogsalt kaasa ka näiteks portaal telegram.ee (Vt
+                    näiteks: <a href="https://www.telegram.ee/toit-ja-tervis/mms-ravib-vahki-ja-teised-edulood-eestist"
+                        target="_blank"
+                        rel="noopener noreferrer">https://www.telegram.ee/toit-ja-tervis/mms-ravib-vahki-ja-teised-edulood-eestist</a>)
                 </p>
                 <p>
-                    Kui kellelgi üldse peaks pähe tulema taoline mõte, siis tasuks eelkõige meenutada MMS-i tarvitamise kõrvaltoimeid, mis isegi vastavalt juhistele tarvitades, võivad põhjustada tugevat iiveldust, oksendamist ja kõhulahtisust, mis omakorda võib põhjustada dehüdratsiooni ja alandada vererõhku. Veidi kangemal kujul võib see kahjustada aga juba soolestikku ja punaseid vereliblesid ning põhjustada hingamispuudulikkust. Krooniline kokkupuude kloordioksiidi väikeste annustega võib põhjustada reproduktiiv- ja neuroarengukahjustusi <a href="https://cfpub.epa.gov/ncea/iris/iris_documents/documents/subst/0648_summary.pdf" target="_blank" rel="noopener noreferrer" class="tooltip" data-tip="Chlorite (sodium salt)(CASRN 7758-19-2) | IRIS | USA EPA (PDF).Epa.gov. U.S. Environmental Protection Agency. National Center for Environmental Assessment"><sup>[67]</sup></a>. Seega pole ime, kui MMS-i üheks kõrvaltoimeks on ka kaalulangus, sest toit ei jää lihtsalt organismi püsima. Toitainete ja mineraalide puudus organismis oksendamise ning kõhulahtisuse ning hullemal juhul soolestiku kahjustumise tagajärjel on liiga kõrge hind võimalikule (kuigi vastavad uuringud puuduvad) kaalulangusele. 
+                    Kui kellelgi üldse peaks pähe tulema taoline mõte, siis tasuks eelkõige meenutada MMS-i tarvitamise
+                    kõrvaltoimeid, mis isegi vastavalt juhistele tarvitades, võivad põhjustada tugevat iiveldust,
+                    oksendamist ja kõhulahtisust, mis omakorda võib põhjustada dehüdratsiooni ja alandada vererõhku.
+                    Veidi kangemal kujul võib see kahjustada aga juba soolestikku ja punaseid vereliblesid ning
+                    põhjustada hingamispuudulikkust. Krooniline kokkupuude kloordioksiidi väikeste annustega võib
+                    põhjustada reproduktiiv- ja neuroarengukahjustusi <a
+                        href="https://cfpub.epa.gov/ncea/iris/iris_documents/documents/subst/0648_summary.pdf"
+                        target="_blank" rel="noopener noreferrer" class="tooltip"
+                        data-tip="Chlorite (sodium salt)(CASRN 7758-19-2) | IRIS | USA EPA (PDF).Epa.gov. U.S. Environmental Protection Agency. National Center for Environmental Assessment"><sup>[67]</sup></a>.
+                    Seega pole ime, kui MMS-i üheks kõrvaltoimeks on ka kaalulangus, sest toit ei jää lihtsalt organismi
+                    püsima. Toitainete ja mineraalide puudus organismis oksendamise ning kõhulahtisuse ning hullemal
+                    juhul soolestiku kahjustumise tagajärjel on liiga kõrge hind võimalikule (kuigi vastavad uuringud
+                    puuduvad) kaalulangusele.
                 </p>
 
 
@@ -316,18 +639,66 @@
 
                 <ul>
                     <li>
-                        <a href="https://tervis.postimees.ee/6853276/need-on-2019-aasta-koige-ohtlikumad-tervisemuudid" target="_blank" rel="noopener noreferrer">https://tervis.postimees.ee/6853276/need-on-2019-aasta-koige-ohtlikumad-tervisemuudid</a>
+                        <a href="https://tervis.postimees.ee/6853276/need-on-2019-aasta-koige-ohtlikumad-tervisemuudid"
+                            target="_blank"
+                            rel="noopener noreferrer">https://tervis.postimees.ee/6853276/need-on-2019-aasta-koige-ohtlikumad-tervisemuudid</a>
                     </li>
                     <li>
-                        <a href="https://ekspress.delfi.ee/artikkel/120051408/eksperiment-huva-nou-mms-i-grupist-jata-koer-janusse-kull-ta-mmsiga-segatud-vett-lopuks-jooma-hakkab" target="_blank" rel="noopener noreferrer">https://ekspress.delfi.ee/artikkel/120051408/eksperiment-huva-nou-mms-i-grupist-jata-koer-janusse-kull-ta-mmsiga-segatud-vett-lopuks-jooma-hakkab</a>
+                        <a href="https://ekspress.delfi.ee/artikkel/120051408/eksperiment-huva-nou-mms-i-grupist-jata-koer-janusse-kull-ta-mmsiga-segatud-vett-lopuks-jooma-hakkab"
+                            target="_blank"
+                            rel="noopener noreferrer">https://ekspress.delfi.ee/artikkel/120051408/eksperiment-huva-nou-mms-i-grupist-jata-koer-janusse-kull-ta-mmsiga-segatud-vett-lopuks-jooma-hakkab</a>
                     </li>
                     <li>
-                        <a href="https://www.delfi.ee/artikkel/93002771/fotod-viljandi-bussipeatustes-reklaamitakse-koroonaviiruse-raviks-mms-i" target="_blank" rel="noopener noreferrer">https://www.delfi.ee/artikkel/93002771/fotod-viljandi-bussipeatustes-reklaamitakse-koroonaviiruse-raviks-mms-i</a> 
+                        <a href="https://www.delfi.ee/artikkel/93002771/fotod-viljandi-bussipeatustes-reklaamitakse-koroonaviiruse-raviks-mms-i"
+                            target="_blank"
+                            rel="noopener noreferrer">https://www.delfi.ee/artikkel/93002771/fotod-viljandi-bussipeatustes-reklaamitakse-koroonaviiruse-raviks-mms-i</a>
                     </li>
                 </ul>
 
             </section>
 
+            <section id="s5">
+                <h2 id="s5t">Allikad</h2>
+                <ul class="text-sm">
+                    <li>[1] Termin "kanep" tähendab kanepit, mille THC sisaldus on 0,3 protsenti või vähem kuivkaalust.
+                    </li>
+                    <li>[4] Paruk S & Burns JK. 2016. Cannabis and mental illness in adolescents: a review. South African Family Practice, 58:sup1, 18-21.</li>
+                    <li>[5] Thomas, G., et al. 2014. Adverse cardiovascular, cerebrovascular, and peripheral vascular effects of marijuana inhalation: what cardiologists need to know. Americal Journal of Cardiology 113(1):187-190.</li>
+                    <li>[6] Joshi, M., et al. 2014. Marijuana and lung diseases. Current Opinions of Pulmonary Medicine, 20(2), 173-179.</li>
+                    <li>[7] National Academies of Sciences, Engineering, and Medicine. 2017. The health effects of cannabis and cannabinoids: the current state of evidence and recommendations for research. Washington, DC: The National Academies Press.</li>
+                    <li>[8] Graves, B. M., et al. 2020. Comprehensive characterization of mainstream marijuana and tobacco smoke. Scientific Reports, 10(1), 7160.</li>
+                    <li>[9] Ventura County. 2015. Marijuana and Your Kid’s Brain.” Marijuana in Ventura County: A Gateway for Discussion, Ventura County Behavioral Health.
+                        http://venturacountylimits.org.s94613.gridserver.com/ resources/
+                        article/E413A9/marijuana-and-your-kids-brain-video</li>
+                    <li>[10] Batalla, A., et al. 2013. Structural and functional imaging studies in chronic cannabis users: a systematic review of adolescent and adult findings. PloS One 8(2), e55821.</li>
+                    <li>[11] Fergusson, D. M., et al. 2010. Cannabis and educational achievement: Findings from three Australian cohort studies. Drug and alcohol dependence, 110, 3.</li>
+                    <li>[12] Meier, M. H., et al. 2012. Persistent cannabis users show neuropsychological decline from childhood to midlife. Proceedings of the National Academy of Sciences of the United States of America, 109, E2657-2664.</li>
+                    <li>[13] National Academies of Sciences, Engineering, and Medicine, 2017. Therapeutic effects of cannabis and cannabinoids. In The health effects of cannabis and cannabinoids: The current state of evidence and recommendations for research. National Academies Press (US).</li>
+                    <li>[14] Sharpe, L., et al. 2020. Cannabis, a cause for anxiety? A critical appraisal of the anxiogenic and anxiolytic properties. Journal of Translational Medicine, 18, 374.</li>
+                    <li>[15] Schloss, J., et al. 2021. A phase 2 randomised clinical trial assessing the tolerability of two different ratios of medicinal cannabis in patients with high grade gliomas. Frontiers in Oncology, 11, 649555.</li>
+                    <li>[16] Gruber, S. A., et al., 2009. Altered affective response in marijuana smokers: An FMRI study. Drug and Alcohol Dependence, 105(1-2), 139-153.</li>
+                    <li>[17] National Alliance on Mental Illness. 2013. Marijuana and mental illness fact sheet. Duckworth, K., Freedman, J., reviewers. http://www2.nami.org/Content/NavigationMenu/Hearts_and_
+                        Minds/Smoking_Cessation/Marijuana_and_Mental_Illness.htm</li>
+                    <li>[18] D’Souza, D. R. 2015. Medical marijuana: Is the cart before the horse? Journal of the American Medical Association, 313(24), 2431-2432.</li>
+                    <li>[19] Hill, K. 2015. Medical marijuana for treatment of chronic pain and other medical and psychiatric problems: A clinical review. Journal of the American Medical Association, 313(24), 2474-2483.</li>
+                    <li>[20] Patel, S. 2020. The association between cannabis use and schizophrenia: causative o curative? A systematic review. Cureus Journal of Medical Science, 12(7), e9309.</li>
+                    <li>[21] Winters, K. C. & Lee, C.-Y. S. 2008. Likelihood of developing an alcohol and cann disorder during youth: Association with recent use and age. Drug and Alcohol Dependence, 92(1-3), 239-247.</li>
+                    <li>[22] Hasin, D. S., et al. 2015. Prevalence of marijuana use disorders in th between 2001-2002 and 2012-2013. JAMA Psychiatry, 72(12), 1235-1242.</li>
+                    <li>[23] Copeland, J. & Swift, W. 2009. Cannabis use disorder: epidemiology and man International Review of Psychiatry, 21(2), 96-103.</li>
+                    <li>[24] Bonnet, U. & Preuss, U. W. 2017. The cannabis withdrawal syndrome: current in Substance Abuse and Rehabilitation, 8, 9-37.</li>
+                    <li>[25] https://www.emcdda.europa.eu/data/stats2021/gps_en</li>
+                    <li>[26] Fergusson D. M., et al. 2006. Cannabis use and other illicit drug use: test gateway hypothesis. Addiction, 101(4), 556-569.</li>
+                    <li>[27] Lynskey M.T., et al. 2003. Escalation of drug use in early-onset cannabis users controls. JAMA, 289(4), 427-433.</li>
+                    <li>[28] Agrawal A et al. 2004. Cannabis and other illicit drugs: comorbid use and abuse/dependence in males and females. Behavior Genetics, 34(3), 217-228.</li>
+                    <li>[29] Volkow, N. D., et al. 2010. Addiction: decreased reward sensitivity and increased expectation sensitivity conspire to overwhelm the brain's control circuit. Bioessays, 32(9), 748-755.</li>
+                    <li>[32] Noble, M. J., et al. 2019. Acute cannabis toxicity. Clinical Toxicology, 57(8), 735-742.</li>  <li>[33] Shover, C. L., et al. 2019. Association between medical cannabis laws and opioid overdose mortality has reversed over time. Proceedings of the National Academy of Sciences of the United States of America, 116(26), 12624-12626.</li>
+                    <li>[34] Graves, B. M., et al. 2020. Comprehensive characterization of mainstream marijuana and tobacco smoke. Scientific Reports 10(1), 7160.</li>
+                    <li>[35] Wilson, K. M., et al. 2017. Detecting biomarkers of secondhand marijuana smoke in young children. Pediatric Research, 81(4), 589-592.</li>
+                    <li>[36] Moore, C., et al. 2011. Cannabinoids in oral fluid following passive exposure to marijuana smoke. Forensic Science International, 212(1-3), 227-230.</li>
+                    <li>[37] Reece-Stremtan, S. & Marinelli, K. A. 2015. ABM clinical protocol #21: Guidelines for breastfeeding and substance use or substance use disorder, revised 2015. Breastfeeding Medicine, 10(3), 135-141.</li>
+                    <li>[47] Block, Seymour Stanton (2001). Disinfection, sterilization, and preservation (5th ed.). Lippincott, Williams & Wilkins. p. 215. ISBN 0-683-30740-1.</li>
+                </ul>
+            </section>
 
 
         </section>

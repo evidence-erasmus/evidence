@@ -48,7 +48,7 @@
                 </p>
 
                 <p>
-                    Kosmosesse reisimine on muutunud harrastusastronautide jaoks juba kättesaadavaks. Mõned kosmoseturistid on käinud Rahvusvahelises Kosmosejaamas (ISS), sealhulgas Anousheh Ansari, kes oli esimeseks Iraani ja moslemi naiseks kosmoses (2006). Kommertsprogrammid on loodud suborbitaalseks lennuks umbes 100 km kõrgusel Maa pinnast. Turistide orbitaallennud ümber Maa nõuavad kosmoselaevalt peaaegu kahekordset kõrgust ning palju rohkem kiirust ja energiat võrreldes eelmistega, kuid neid nähakse ette ka lähitulevikus. Seega võib ka meie tänaste õpilaste seas olla tulevasi professionaalseid ja amatöörastronaute.
+                    Kosmosesse reisimine on muutunud harrastusastronautide jaoks juba kättesaadavaks. Mõned kosmoseturistid on käinud Rahvusvahelises Kosmosejaamas (ISS). Kommertsprogrammid on loodud suborbitaalseks lennuks umbes 100 km kõrgusel Maa pinnast. Turistide orbitaallennud ümber Maa nõuavad kosmoselaevalt peaaegu kahekordset kõrgust ning palju rohkem kiirust ja energiat võrreldes eelmistega, kuid neid nähakse ette ka lähitulevikus. Seega võib ka meie tänaste õpilaste seas olla tulevasi professionaalseid ja amatöörastronaute.
                 </p>
 
                 <p>

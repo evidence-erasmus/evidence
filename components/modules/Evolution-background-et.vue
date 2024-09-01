@@ -160,7 +160,7 @@
                         Mutatsioonide ja meiootiliste rekombinatsioonide tõttu sünnib pidevalt uute omadustega isendeid. Kui need isendid jäävad ellu ja saavad järglasi, nende uued omadused jäävad populatsiooni genofondi või geenide rühma. Järjestikuste põlvkondade jooksul võivad need geneetilised variatsioonid edasi kanduda paljudele (või kõigile) populatsiooni liikmetele.
                     </li>
                     <li>
-                        Kas see juhtub või mitte, sõltub looduslikust valikust (mõnel isendil on rohkem järglasi kui teistel). Need organismid, mis on antud keskkonnaga kõige paremini kohanenud, jäävad kõige tõenäolisemalt reproduktiivse vanuseni ellu ja saavad järglasi. Organismid, mis on oma keskkonnas edukad, on suurema tõenäosusega edukad paljunemisel ja seetõttu paljunevad paremini kohanenud organismid kiiremini kui vähem kohanenud organismid. Seetõttu hakkavad populatsiooni genofondis domineerima nende geenid, kes paljunevad. Seda nimetatakse diferentsiaalseks reprodutseerumiseks.
+                        Kas see juhtub või mitte, sõltub looduslikust valikust (mõnel isendil on rohkem järglasi kui teistel). Need organismid, kes on antud keskkonnaga kõige paremini kohanenud, jäävad kõige tõenäolisemalt reproduktiivse vanuseni ellu ja saavad järglasi. Organismid, kes on oma keskkonnas edukad, on suurema tõenäosusega edukad paljunemisel ja seetõttu paljunevad paremini kohanenud organismid kiiremini kui vähem kohanenud organismid. Seetõttu hakkavad populatsiooni genofondis domineerima nende geenid, kes paljunevad. Seda nimetatakse diferentsiaalseks reprodutseerumiseks.
                     </li>
                     <li>
                         Oluline on mõista, et uute omaduste edasiandmiseks pole oluline mitte ainult see, kui hästi indiviid on kohanenud, vaid ka see, kui hea on tema paljunemisvõime. Näiteks võib juhtuda, et indiviid on oma keskkonnaga väga hästi kohanenud, kuid tal on mutatsioon, mis muudab ta steriilseks. Kas sellel indiviidil oleks oma populatsiooni arengule mingit mõju?
@@ -192,7 +192,7 @@
                     Kaelkirjaku evolutsioon Lamarcki järgi: 
                 </h3>
                 <p>
-                    Kaelkirjaku (lühikese kaela ja lühikeste jalgadega) esivanemad sõid samuti lehti. Kuna alumised lehed olid ära söödud, pidi ta oma kaela uue pikkusega venitama, et kõrgemaid lehti süüa. Selle välise impulsi tõttu hakkasid tema kael ja jalad kasvama. Lamarck arvas, et kaelkirjaku pikk kael ja jalad arenesid järk-järgult paljude esivanemate põlvkondade kumulatiivse arengu tulemusena, ulatudes järjest kõrgemale ning pärandudes järglastele.
+                    Kaelkirjaku (lühikese kaela ja lühikeste jalgadega) esivanemad sõid samuti lehti. Kuna alumised lehed olid ära söödud, pidi ta oma kaela venitama, et kõrgemaid lehti süüa. Selle välise impulsi tõttu hakkasid tema kael ja jalad kasvama. Lamarck arvas, et kaelkirjaku pikk kael ja jalad arenesid järk-järgult paljude esivanemate põlvkondade kumulatiivse arengu tulemusena, ulatudes järjest kõrgemale ning pärandudes järglastele.
                 </p>
                 <h3>
                     Kaelkirjaku evolutsioon Darwini järgi: 
@@ -204,7 +204,7 @@
                     Kaelkirjaku evolutsioon neodarvinismi järgi:
                 </h3>
                 <p>
-                    Tänapäeva kaelkirjakute esivanematel ei olnud pikka kaela ega pikki esijalgu. Mutatsiooni ja/või geneetilise rekombinatsiooni tulemusena ilmusid populatsiooni uued pika kaela ja/või pikkade jalgadega isikud. Need uued indiviidid olid keskkonnaga paremini kohanenud. Nad sõid rohkem, leidsid kergemini paaritumispartnereid ja paljunesid seetõttu sagedamini. Aja jooksul said neist ainsad olemasolevad kaelkirjakud. Ilmselgelt ei paljunenud isendid, kellel oli lühike kael ja lühikesed jalad (mõlemad negatiivsed omadused), kuna nad olid keskkonnaga vähem kohanenud nii edukalt, kui hästi kohanenud kaelkirjakud. Lõpuks kadusid vähem soodsad geenid populatsioonist.
+                    Tänapäeva kaelkirjakute esivanematel ei olnud pikka kaela ega pikki esijalgu. Mutatsiooni ja/või geneetilise rekombinatsiooni tulemusena ilmusid populatsiooni uued pika kaela ja/või pikkade jalgadega isendid. Need uued isendid olid keskkonnaga paremini kohanenud. Nad sõid rohkem, leidsid kergemini paaritumispartnereid ja paljunesid seetõttu sagedamini. Aja jooksul said neist ainsad olemasolevad kaelkirjakud. Ilmselgelt ei paljunenud isendid, kellel oli lühike kael ja lühikesed jalad (mõlemad negatiivsed omadused), kuna nad olid keskkonnaga vähem kohanenud, kui hästi kohanenud kaelkirjakud. Lõpuks kadusid vähem soodsad geenid populatsioonist.
                 </p>
             </section>
         
@@ -294,8 +294,10 @@
                 <p>
                     Järgmine vääritimõistmine on see, et evolutsioon on rangelt lineaarne protsess – see tähendab, et see kulgeb sirgjooneliselt algelistest kuni arenenud organismideni.
                 </p>
-                <UiContentImage src="asdads" :elevated="true">
-                    
+                <UiContentImage src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Cladogram_Amniota_B.png" :elevated="true" credits="Allikas: https://en.wikipedia.org/wiki/Cladogram">
+                    <template #caption>
+                        <b>Joonis 1.</b> Kladogramm: Amniota klaadi lindude haru
+                    </template>
                 </UiContentImage>
                 <p>
                     Platoni ja Aristotelesega on alguse saanud traditsiooniline käsitlus maailma korraldusest „täiuslikkuse arengu“ kaudu. See kontseptsioon väljendub "scala naturae" idees: kõiki maapealseid olendeid, elusaid ja eluta, saab rühmitada järjestikku paigutuvas täiuslikkuse skaalas, näiteks alustades seentest, kuni vähkide ja küülikuteni ning lõpuks inimesteni tipus. See käsitlus eksib kolme peamise asja osas:
@@ -393,7 +395,7 @@
                     Bioloogid defineerivad omandatud omadust kui midagi, mis on arenenud indiviidi elu jooksul somaatilistes rakkudes (keharakkudes), tavaliselt otsese reaktsioonina väliskeskkonna muutusele või mõne osa kasutamisele või mittekasutamisele. Selle omaduse pärandumine tähendab selle taasilmumist ühes või mitmes järgmises põlvkonnas, kuid selle kohta pole tõendeid.
                 </p>
                 <p>
-                    Lisaks võivad organismid oma elu jooksul arendada teatud oskusi või füüsilisi omadusi erinevuste tõttu nende eluviisis, näiteks inimestele tehtavad kõrvaaugud ja ümberlõikamine. Kuigi need omadused omandatakse organismi elu jooksul tahtlikult, ei pärandu need tema järglastele, hoolimata sellest, et seda võib olla kasutatud sadu põlvkondi. Sama kehtib taime kohta, mis on kasvanud eriti suureks hea mulla peal või konn, mis on kasvanud väga suureks tänu aiale, mis on täis toitu - nad ei edasta oma suurust oma järglastele. Seega ei esine omandatud omaduste pärandumist.
+                    Lisaks võivad organismid oma elu jooksul arendada teatud oskusi või füüsilisi omadusi erinevuste tõttu nende eluviisis, näiteks inimestele tehtavad kõrvaaugud ja ümberlõikamine. Kuigi need omadused omandatakse organismi elu jooksul tahtlikult, ei pärandu need tema järglastele, hoolimata sellest, et seda võib olla kasutatud sadu põlvkondi. Sama kehtib taime kohta, mis on kasvanud eriti suureks hea mulla peal või konn, kes on kasvanud väga suureks tänu aiale, mis on täis toitu - nad ei edasta oma suurust oma järglastele. Seega ei esine omandatud omaduste pärandumist.
                 </p>
                 <p>
                     Veel üks näide erilise organi kasutamise või mittekasutamise põhjustatud muutuse pärandumise kohta: sepa käsi (või mis tahes muu lihasgrupp) suureneb, kui seda kasutatakse pidevalt vasara tõstmiseks. Kui sellel oleks päranduv mõju, oleks sepa lastel sündides ebatavaliselt suured käed – kui mitte sündides, siis täiskasvanuks saades, hoolimata sellest, et nad ei ole oma käsi liigselt kasutanud. Selle kohta pole tõendeid.
@@ -541,7 +543,7 @@
                     <span class="text-rose-400">
                         Väärarusaam 8:
                     </span>
-                    “Kõige sobivamad organismid populatsioonis ei ole tugevamad, tervemad, kiiremad ja/või suuremad”
+                    “Kõige sobivamad organismid populatsioonis on kõige tugevamad, tervemad, kiiremad ja/või suuremad”
                 </h3>
                 <p>
                     Evolutsioonilises mõttes on "sobivusel" erinev tähendus sellest, mida kasutame igapäevases keelekasutuses. Organismi evolutsiooniline sobivus ei näita tema tervist, vaid tema võimet viia/kanda edasi oma geenid järgmisesse põlvkonda. Mida viljakamaid järglasi organism järgmisesse põlvkonda tekitab, seda sobivam ta on. See ei korreleeru alati tugevuse, kiiruse ega suurusega. Näiteks võib habras isaslind erksate sabasulgedega saada rohkem järglasi kui tugevam isane.
@@ -627,7 +629,7 @@
                     “Evolutsioon viib ebamoraalse käitumiseni.”
                 </h3>
                 <p>
-                    Evolutsiooniteooria ei esita eetilisi väiteid selle kohta, mis on õige või mis vale. Mõned inimesed tõlgendavad valesti tõsiasja, et evolutsioon on kujundanud loomade käitumist (sealhulgas inimeste käitumist), seetõttu mistahes “loomulik” käitumine on ühtlasi "õige" käitumine. See pole nii. Meie kui ühiskonna ja üksikisikute asi on otsustada, milline on eetiline ja moraalne käitumine. Evolutsioon aitab meil lihtsalt mõista, kuidas elu on muutunud ja muutub aja jooksul edasi – aga ei ütle meile, kas need protsessid või nende tulemused on “õiged” või “valed”. Lisaks arvavad mõned inimesed ekslikult, et evolutsioon ja religioosne usk ei sobi kokku ning eeldavad seetõttu, et evolutsiooniteooria aktsepteerimine soodustab ebamoraalset käitumist. Kumbki nendest pole õige.
+                    Evolutsiooniteooria ei esita eetilisi väiteid selle kohta, mis on õige või mis vale. Mõned inimesed tõlgendavad valesti tõsiasja, et evolutsioon on kujundanud loomade käitumist (sealhulgas inimeste käitumist), seetõttu mistahes “loomulik” käitumine on ühtlasi "õige" käitumine. See pole nii. Meie kui ühiskonna ja üksikisikute asi on otsustada, milline on eetiline ja moraalne käitumine. Evolutsioon aitab meil lihtsalt mõista, kuidas elu on muutunud ja muutub aja jooksul edasi – aga ei ütle meile, kas need protsessid või nende tulemused on “õiged” või “valed”. Lisaks arvavad mõned inimesed ekslikult, et evolutsioon ja religioosne usk ei sobi kokku ning eeldavad seetõttu, et evolutsiooniteooria aktsepteerimine soodustab ebamoraalset käitumist. Kumbki nendest arvamustest pole aga õige.
                 </p>
             </section>
 

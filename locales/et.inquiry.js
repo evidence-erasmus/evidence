@@ -34,7 +34,7 @@ export default {
       myths: [
         "Evolutsioon on kõigest teooria.",
         "Evolutsioon ei ole teadus, sest seda ei saa testida ja ümber lükata. See teeb järeldusi sündmuste kohta, mida pole võimalik vaadelda ja mida ei saa kunagi taasluua.",
-        "Evolutsioon järgib ettemääratud sirget teed. (“Kui inimene arenes ahvidest siis, miks on veel ahvid olemas?”)",
+        "Evolutsioon järgib ettemääratud sirget teed. (“Kui inimene arenes ahvidest, siis miks on veel ahvid olemas?”)",
         "Evolutsioon toodab ideaalselt kohanenud organisme.",
         "Liigid on muutumatud.",
         "Mingi organismi kehaosa kasutamine või mittekasutamine tema eluea jooksul võib päranduda järglastele ja see võib viia liikide muutumiseni."
@@ -77,7 +77,7 @@ export default {
       subtitle: "Juhitud uurimus, müüt 1",
       myth: {
         text: "Teie rühm hakkab tegelema müüdiga 1:",
-        myth: "“Evolutsioon on lihtsalt teooria”."
+        myth: "“Evolutsioon on kõigest teooria”."
       },
       justification: {
         text: "Loe müüdi kirjeldus hoolikalt läbi. Määratle ja dokumenteeri põhjendused, mida kirjutise autorid kasutavad, et oma seisukohta toetada.",
@@ -103,10 +103,6 @@ export default {
         {
           label: "Evolutsioon on kindlasti teooria, kuid see ei ole kindlasti “lihtsalt” teooria",
           url: "https://www.sciencefocus.com/comment/evolution-is-most-certainly-a-theory-but-certainly-not-just-a-theory/"
-        },
-        {
-          label: "Levinud väärarusaamad evolutsiooni kohta",
-          url: "https://opentextbc.ca/conceptsofbiologyopenstax/chapter/common-misconceptions-about-evolution/"
         }
       ],
       label_4: "Mida mõeldakse teaduses mõistega “teooria”?",

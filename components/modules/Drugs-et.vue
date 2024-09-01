@@ -203,7 +203,7 @@
                 <p><b>Kujundav:</b></p>
                 <ul>
                     <li>Suuline/ kirjalik tagasiside õpetajalt (vaatluste, esitatud küsimuste jms põhjal) kogu mooduli vältel ning erinevates individuaalse ja rühmatöö vormides.</li>
-                    <li>Kaaslaste tagasiside (rühma esitluse kohta järgmise <NuxtLink to="../tools/peer-feedback" target="_blank">tööriista abil</NuxtLink> ja enesereflektsioon pärast juhtumiuuringut.</li>
+                    <li>Kaaslaste tagasiside (rühma esitluse kohta järgmise <NuxtLink to="../tools/peer-feedback" target="_blank">tööriista abil</NuxtLink> ja enesereflektsioon pärast juhtumiuuringut).</li>
                     <li>Õpetaja suuline/ kirjalik tagasiside individuaal- / rühmatöölehtedele.</li>
                 </ul>
                 <p><b>Kokkuvõtlik:</b></p>

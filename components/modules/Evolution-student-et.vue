@@ -24,7 +24,7 @@
                 <h2 id="s-1t">Sissejuhatus</h2>
 
                 <p>
-                    Selles moodulis palutakse teil ümber lükata või kinnitada levinud müüte ja arusaamu evolutsiooni kohta. Alustage <a href="#s2">sissejuhatavast videost</a>, kus tuuakse mõned neist ka välja, millele järgneb arutelu rühmades. Rühmaarutelu tulemusena tuleb teil välja valida üks müüt (väide), mille kohta otsida tõendusmaterjali, et see kas ümber lükata või kinnitada. Antud teema iseloomust lähtuvalt on see tegevus plaanis läbi viia erinevatest allikatest kogutud tõendite põhjal (otsingud raamatutest ja internetist, sh teadusuuringute andmebaasidest) (Vt joonis 1). Selle tegevuse kõigus õpite te hindama ka infoallikate usaldusväärsust. Pärast järelduste tegemist peaksite te oma järeldusi klassikaaslastele  ka asjakohaselt ja veenvalt (nt videopostitustena, posteri abil vmv) tutvustama. Esitluste ajal tuleks teil anda vastastikku konstruktiivset tagasisidet. Mooduli lõpetab juhtumiuuring.
+                    Selles moodulis palutakse teil ümber lükata või kinnitada levinud müüte ja arusaamu evolutsiooni kohta. Alustage <a href="#s2">sissejuhatavast videost</a>, kus tuuakse mõned neist ka välja, millele järgneb arutelu rühmades. Rühmaarutelu tulemusena tuleb teil välja valida üks müüt (väide), mille kohta otsida tõendusmaterjali, et see kas ümber lükata või kinnitada. Antud teema iseloomust lähtuvalt on see tegevus plaanis läbi viia erinevatest allikatest kogutud tõendite põhjal (otsingud raamatutest ja internetist, sh teadusuuringute andmebaasidest) (Vt joonis 1). Selle tegevuse käigus õpite te hindama ka infoallikate usaldusväärsust. Pärast järelduste tegemist peaksite te oma järeldusi klassikaaslastele ka asjakohaselt ja veenvalt (nt videopostitustena, posteri abil vmv) tutvustama. Esitluste ajal tuleks teil anda vastastikku konstruktiivset tagasisidet. Mooduli lõpetab juhtumiuuring.
                 </p>
                 <UiContentImage class="e-card mt-10" src="https://evidence.onkel.ee/assets/mythbusting-et.webp">
                     <template #caption>
@@ -149,14 +149,11 @@
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth3">
                     <h4 class="mt-8 mb-4 leading-tight">
                         <span class="text-rose-400">Müüt nr. 3:</span> 
-                        “Evolutsioon järgib ettemääratud sirget teed.” (“Kui inimene arenes ahvidest siis, miks on veel ahvid olemas?”)
+                        “Evolutsioon järgib ettemääratud sirget teed.” (“Kui inimene arenes ahvidest, siis miks on veel ahvid olemas?”)
                     </h4>
                     <p>
-                        “Kui evolutsioon oleks tõsi, siis tänapäeva inimene arenes ahvidest. (Me oleme näinud mitmeid teaduslikke jooniseid, kus kujutatakse ahve inimese eelastena). Ahvid ei muutunud inimesteks, sest nad eksisteerivad siiani ja  evolutsionistid on rumalad, kui nad ütlevad, et inimesed on arenenud ahvidest. Juhtum lahendatud!”
+                        “Kui evolutsioon oleks tõsi, siis tänapäeva inimene arenes ahvidest. (Me oleme näinud mitmeid teaduslikke jooniseid, kus kujutatakse ahve inimese eellastena). Ahvid ei muutunud inimesteks, sest nad eksisteerivad siiani ja  evolutsionistid on rumalad, kui nad ütlevad, et inimesed on arenenud ahvidest. Juhtum lahendatud!”
                     </p>
-                    <!-- <p>
-                        <a class="bg-red-400" href="#" target="_blank" rel="noopener noreferrer">If Humans Evolved from Apes, Why Do Apes Exist Today?</a>
-                    </p> -->
                     <UiNavButtonBar :buttons="[
                         {text:'Avatud uurimus 3', url:'./inquiry/open', blank:false},
                         {text:'Juhitud uurimus 3', url:'./inquiry/myth3', blank:false}

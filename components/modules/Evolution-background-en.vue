@@ -304,8 +304,10 @@
                 <p>
                     Another misconception is that evolution is a strictly linear process — that is, it occurs in a straight line from primitive to advanced.
                 </p>
-                <UiContentImage src="asdads" :elevated="true">
-                    
+                <UiContentImage src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Cladogram_Amniota_B.png" :elevated="true" credits="Source: https://en.wikipedia.org/wiki/Cladogram">
+                    <template #caption>
+                        <b>Figure 1.</b> Cladogram: Bird branch of the Amniota clade
+                    </template>
                 </UiContentImage>
                 <p>
                     Originating with Plato and Aristotle the traditional view of how the world was organized was through a “progression in perfection.” This concept is explicit in the idea of the “scala naturae”: All beings on earth, animate and inanimate, could be organized according to an increasing scale of perfection from, say, mushrooms at the bottom up through lobsters and rabbits, all the way to human beings at the top. This view gets three main things wrong:

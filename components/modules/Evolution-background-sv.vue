@@ -295,9 +295,11 @@
                 <p>
                     En annan missuppfattning är att evolution är en strikt linjär process - det vill säga att den sker i en rak linje från primitiva individer till mer avancerade.
                 </p>
-                <!-- <UiContentImage src="asdads" :elevated="true">
-                    
-                </UiContentImage> -->
+                <UiContentImage src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Cladogram_Amniota_B.png" :elevated="true" credits="Källa: https://en.wikipedia.org/wiki/Cladogram">
+                    <template #caption>
+                        <b>Figur 1.</b> Kladogram: Fågelgrenen av Amniota-kladen
+                    </template>
+                </UiContentImage>
                 <p>
                     Med ursprung i Platon och Aristoteles var den traditionella synen på hur världen var organiserad genom en "progression i perfektion". Detta koncept är explicit i idén om "scala naturae": Alla varelser på jorden, levande och livlösa, skulle kunna organiseras enligt en ökande skala av perfektion från svampar längst ner, vidare till humrar och kaniner, hela vägen till människor i toppen. Denna uppfattning innehåller tre huvudsakliga fel:
                 </p>
