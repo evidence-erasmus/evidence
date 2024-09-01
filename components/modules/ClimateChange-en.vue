@@ -287,6 +287,9 @@
                 <p>
                     All myths are backed up by Scientific background information, which explains the state-of-the-art science behind them and enables the teacher to get a quick overview of the science covered by the "Climate Change" module but could also be used as learning material for students to recall climate change-related knowledge.
                 </p>
+                <p>
+                    Artistic reflections on Climate change by the art school students (see <NuxtLink to="https://www.artsteps.com/view/6411276082afca1aa133e268" target="_blank">virtual exhibition</NuxtLink>) can show alternative ways of exploring related phenomena. They could serve as a point of departure for discussing what the students would wish to learn more in this area.
+                </p>
             </section>
 
 

@@ -240,6 +240,9 @@
                 <p>
                     Alla myter backas upp av <NuxtLink to="./climate-change/background">Vetenskaplig bakgrundsinformation</NuxtLink>, som gör det möjligt för läraren att få en snabb överblick över områdena som omfattas av modulen "Klimatförändringar", men som också kan användas som elevstöd.
                 </p>
+                <p>
+                    Konstnärliga reflektioner om temat klimatförändringar av elever från konstskolan (se den <NuxtLink to="https://www.artsteps.com/view/6411276082afca1aa133e268" target="_blank">virtuella utställningen</NuxtLink>) kan visa alternativa sätt att utforska fenomen relaterade till klimatförändringar och kan fungera som en utgångspunkt för att diskutera vad eleverna skulle vilja lära sig mer om inom detta område i framtiden.
+                </p>
             </section>
 
 

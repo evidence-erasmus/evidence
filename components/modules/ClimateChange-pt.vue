@@ -293,6 +293,9 @@
                 <p>
                     Todos os mitos são apoiados por <NuxtLink to="./climate-change/background">informações científicas básicas</NuxtLink>, que explicam a ciência por trás deles e permitem ao professor obter uma visão geral rápida da ciência abordada no módulo "Alterações climáticas", mas também pode ser usada como material de aprendizagem para os alunos recordarem os conhecimentos relacionados com as alterações climáticas.
                 </p>
+                <p>
+                    Reflexões artísticas sobre o tema das alterações climáticas pelos alunos da escola de arte (ver a <NuxtLink to="https://www.artsteps.com/view/6411276082afca1aa133e268" target="_blank">exposição virtual</NuxtLink>) podem mostrar formas alternativas de explorar fenómenos relacionados com as alterações climáticas e podem servir como ponto de partida para discutir o que os alunos gostariam de aprender mais nesta área no futuro.
+                </p>
             </section>
 
 
