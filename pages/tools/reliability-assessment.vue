@@ -502,7 +502,7 @@
                 "c1": "Modern textbooks"
             },
             "row4": {
-                "c1": "Governmental websites (in nations with elected, democratic governments) (.gov)"
+                "c1": "Governmental websites (in nations with elected, democratic governments)"
             },
             "row5": {
                 "c1": "Popular science books/magazines published by well-known experts in an area (cited sources are traceable)"
@@ -665,7 +665,7 @@
                 "c1": "Σύγχρονα σχολικά βιβλία"
             },
             "row4": {
-                "c1": "Κυβερνητικές ιστοσελίδες (σε έθνη με εκλεγμένες, δημοκρατικές κυβερνήσεις) (.gov)"
+                "c1": "Κυβερνητικές ιστοσελίδες (σε έθνη με εκλεγμένες, δημοκρατικές κυβερνήσεις)"
             },
             "row5": {
                 "c1": "Δημοφιλή επιστημονικά βιβλία / περιοδικά που εκδίδονται από γνωστούς ειδικούς σε ένα τομέα (οι πηγές που αναφέρονται είναι ανιχνεύσιμες)"
@@ -987,7 +987,7 @@
                 "c1": "Livros didáticos modernos"
             },
             "row4": {
-                "c1": "Sites governamentais (em países com governos eleitos democraticamente) (.gov)"
+                "c1": "Sites governamentais (em países com governos eleitos democraticamente)"
             },
             "row5": {
                 "c1": "Livros e revistas de divulgação científica, artigos escritos por especialistas (as fontes que citam são identificáveis)."
@@ -1149,7 +1149,7 @@
                 "c1": "Modern textbooks"
             },
             "row4": {
-                "c1": "Governmental websites (in nations with elected, democratic governments) (.gov)"
+                "c1": "Governmental websites (in nations with elected, democratic governments)"
             },
             "row5": {
                 "c1": "Popular science books/magazines published by well-known experts in an area (cited sources are traceable)"

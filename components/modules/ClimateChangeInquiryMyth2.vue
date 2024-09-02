@@ -263,6 +263,23 @@
                 <b>{{ t('inquiry.cc_myth2.flicc_label') }}</b>
             </p>
 
+            <!-- et content only -->
+            <template v-if="locale=='et'">
+                <i18n-t tag="p" keypath="inquiry.cc_extra.txt_1" scope="global">
+                <template #link1>
+                    <a href="https://www.uttv.ee/naita?id=34479" target="_blank" rel="noreferrer noopener">
+                        {{ t('inquiry.cc_extra.link_1') }}
+                    </a>
+                </template>
+                <template #link2>
+                    <a href="https://evidence-erasmus.github.io/evidence/et/climate-change/background#s-4" target="_blank" rel="noreferrer noopener">
+                        {{ t('inquiry.cc_extra.link_2') }}
+                    </a>
+                </template>
+            </i18n-t>
+            </template>
+            <!-- /et content only -->
+
             <div class="e-card my-8">
                 <!-- <ToolsFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" /> -->
                 <ToolsFliccTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />

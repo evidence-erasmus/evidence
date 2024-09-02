@@ -34,10 +34,6 @@
             <h1 class="mb-2">{{ t('inquiry.cc_myth1.title') }}</h1>
             <h5 class="font-normal uppercase leading-tight">{{ t('inquiry.cc_myth1.subtitle') }}</h5>
         
-            <!-- <h2>
-                Tegevus 3: Müüdimurdmine
-            </h2> -->
-
             <h3>
                 {{ t('inquiry.cc_myth1.myth') }}
             </h3>
@@ -65,13 +61,13 @@
                 </h4>
             </UiCardInfo>
             
-            <i18n-t tag="p" keypath="inquiry.cc_myth1.question.txt_1" scope="global">
+            <i18n-t tag="p" keypath="inquiry.cc_myth1.question.txt_1" scope="global" class="mt-12">
                 <template #link1>
                     <a :href="t('inquiry.cc_myth1.sources[0].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth1.question.link_1') }}</a>
                 </template>
-                <template #link2>
+                <!-- <template #link2>
                     <a :href="t('inquiry.cc_myth1.sources[1].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth1.question.link_2') }}</a>
-                </template>
+                </template> -->
             </i18n-t>
             
             <label for="q2" class="block mb-2">
@@ -116,7 +112,7 @@
             
             <i18n-t keypath="inquiry.cc_myth1.q_6.txt_1" scope="global">
                 <template #link1>
-                    <a :href="t('inquiry.cc_myth1.sources[2].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth1.q_6.link_1') }}</a> 
+                    <a :href="t('inquiry.cc_myth1.sources[1].url')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.cc_myth1.q_6.link_1') }}</a> 
                 </template>
             </i18n-t>
 
@@ -159,6 +155,23 @@
             <p>
                 <b>{{ t('inquiry.cc_myth1.q_9') }}</b>
             </p>
+
+            <!-- et content only -->
+            <template v-if="locale=='et'">
+                <i18n-t tag="p" keypath="inquiry.cc_extra.txt_1" scope="global">
+                <template #link1>
+                    <a href="https://www.uttv.ee/naita?id=34479" target="_blank" rel="noreferrer noopener">
+                        {{ t('inquiry.cc_extra.link_1') }}
+                    </a>
+                </template>
+                <template #link2>
+                    <a href="https://evidence-erasmus.github.io/evidence/et/climate-change/background#s-4" target="_blank" rel="noreferrer noopener">
+                        {{ t('inquiry.cc_extra.link_2') }}
+                    </a>
+                </template>
+            </i18n-t>
+            </template>
+            <!-- /et content only -->
 
             <UiFullWidth class="e-card">
                 <div>

@@ -247,7 +247,7 @@
                     seotud THC-d sisaldavad tooted joovastavad ained ning võivad aidata kaasa otsustusvõime
                     halvenemisele ja suurenenud vastuvõtlikkusele vaimse tervise probleemidele, sealhulgas depressioon,
                     unetus ja paranoilised luulud <a
-                        href="http://www2.nami.org/Content/NavigationMenu/Hearts_and_ Minds/Smoking_Cessation/Marijuana_and_Mental_Illness.htm"
+                        href="http://www2.nami.org/Content/NavigationMenu/Hearts_and_Minds/Smoking_Cessation/Marijuana_and_Mental_Illness.htm"
                         target="_blank" rel="noopener noreferrer" class="tooltip"
                         data-tip="National Alliance on Mental Illness. 2013. Marijuana and mental illness fact sheet. Duckworth, K., Freedman, J., reviewers."><sup>[17]</sup></a>.
                     Psühhootiliste häiretega inimestel on märkimisväärne oht sümptomite ägenemiseks või süvenemiseks
@@ -677,8 +677,7 @@
                     <li>[14] Sharpe, L., et al. 2020. Cannabis, a cause for anxiety? A critical appraisal of the anxiogenic and anxiolytic properties. Journal of Translational Medicine, 18, 374.</li>
                     <li>[15] Schloss, J., et al. 2021. A phase 2 randomised clinical trial assessing the tolerability of two different ratios of medicinal cannabis in patients with high grade gliomas. Frontiers in Oncology, 11, 649555.</li>
                     <li>[16] Gruber, S. A., et al., 2009. Altered affective response in marijuana smokers: An FMRI study. Drug and Alcohol Dependence, 105(1-2), 139-153.</li>
-                    <li>[17] National Alliance on Mental Illness. 2013. Marijuana and mental illness fact sheet. Duckworth, K., Freedman, J., reviewers. http://www2.nami.org/Content/NavigationMenu/Hearts_and_
-                        Minds/Smoking_Cessation/Marijuana_and_Mental_Illness.htm</li>
+                    <li>[17] National Alliance on Mental Illness. 2013. Marijuana and mental illness fact sheet. Duckworth, K., Freedman, J., reviewers. http://www2.nami.org/Content/NavigationMenu/Hearts_and_Minds/Smoking_Cessation/Marijuana_and_Mental_Illness.htm</li>
                     <li>[18] D’Souza, D. R. 2015. Medical marijuana: Is the cart before the horse? Journal of the American Medical Association, 313(24), 2431-2432.</li>
                     <li>[19] Hill, K. 2015. Medical marijuana for treatment of chronic pain and other medical and psychiatric problems: A clinical review. Journal of the American Medical Association, 313(24), 2474-2483.</li>
                     <li>[20] Patel, S. 2020. The association between cannabis use and schizophrenia: causative o curative? A systematic review. Cureus Journal of Medical Science, 12(7), e9309.</li>
@@ -704,3 +703,13 @@
         </section>
     </div>
 </template>
+
+<style scoped>
+sup{
+    color: rgb(59 130 246);
+    cursor: default;
+}
+a>sup{
+    cursor:pointer;
+}
+</style>

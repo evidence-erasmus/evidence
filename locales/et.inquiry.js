@@ -339,7 +339,13 @@ export default {
       CLIMATE CHANGE 
     */
 
-
+    cc_extra: {
+      txt_1: "Vaata järgmist {link1} või loe läbi {link2} lehelt punkt 4. Tuginedes kogutud teadmistele, mis on teie seisukoht, millise teaduse eitamise taktika tõttu see müüt on tekkinud?",
+      link_1: "videot",
+      link_2: "teadusinfo",
+      url_1: "https://www.uttv.ee/naita?id=34479",
+      url_2: "https://evidence-erasmus.github.io/evidence/et/climate-change/background#s-4"
+    },
 
     cc_open: {
       title: "Kliimamuutused",
@@ -388,8 +394,8 @@ export default {
       },
       question: {
         question: "Uurimisküsimus: Kas liikide massiline väljasuremine on loomulik protsess?",
-        txt_1: "{link2} ning vastake järgnevatele küsimustele.",
-        link_2: "Vaadake videot"
+        txt_1: "{link1} ning vastake järgnevatele küsimustele.",
+        link_1: "Vaadake videot"
       },
       q_1: "1. Mida me mõtleme „massilise väljasuremise” all?",
       q_2: "2. Kui palju massilist väljasuremist teie arvates toimub?",

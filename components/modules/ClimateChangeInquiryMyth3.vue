@@ -168,6 +168,15 @@
             <textarea id="q1conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.a1.q1.noaa2conclusion"></textarea>
 
+            <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="font-bold">
+                
+                <template #link1>
+                    <a :href="t('inquiry.reliability_table.url_1')" class="font-bold">
+                        {{ t('inquiry.reliability_table.link_1') }}
+                    </a>
+                </template>
+            
+            </i18n-t>
 
             <div class="e-card mb-16">
                 <ToolsReliabilityTable :storeToUpdate="climateMyth3Answers" currentSources="inquiry.cc_myth3.sources" key="ccmyth3rlblty" />
@@ -182,11 +191,27 @@
             <textarea id="conclusion" class="textarea textarea-bordered block w-full mb-16" placeholder="✍️" rows="5"
             v-model="climateMyth3Answers.conclusions"></textarea>
 
-
             <hr />
 
             <label><b>{{ t('inquiry.cc_myth3.flicc_label') }}</b></label>
             
+            <!-- et content only -->
+            <template v-if="locale=='et'">
+                <i18n-t tag="p" keypath="inquiry.cc_extra.txt_1" scope="global">
+                <template #link1>
+                    <a href="https://www.uttv.ee/naita?id=34479" target="_blank" rel="noreferrer noopener">
+                        {{ t('inquiry.cc_extra.link_1') }}
+                    </a>
+                </template>
+                <template #link2>
+                    <a href="https://evidence-erasmus.github.io/evidence/et/climate-change/background#s-4" target="_blank" rel="noreferrer noopener">
+                        {{ t('inquiry.cc_extra.link_2') }}
+                    </a>
+                </template>
+            </i18n-t>
+            </template>
+            <!-- /et content only -->
+
             <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
                 <!-- <ToolsFlicc2Table :storeToUpdate="climateMyth3Answers" key="ccmyth3flicc" /> -->
                 <ToolsFliccTable :storeToUpdate="climateMyth3Answers" key="ccmyth3flicc" />
