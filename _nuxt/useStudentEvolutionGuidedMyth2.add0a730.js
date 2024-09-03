@@ -1,1 +1,0 @@
-import{y as a,z as s}from"./entry.2e5e0c45.js";const o=a("studentEvolutionGuidedMyth2",{state:()=>({q1:"",q2:"",q3:"",q4:"",q5:"",q6:"",reliability:[["","","'0'",""],["","","'0'",""],["","","'0'",""]]}),actions:{addReliabilityRow(){this.reliability.push(["","","'0'",""])},changeReliabilityValue(t,i,e){this.reliability[t][i]=e}},persist:{storage:s.localStorage}});export{o as u};
