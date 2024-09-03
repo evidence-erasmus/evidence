@@ -28,7 +28,7 @@
 
             <UiCardInfo theme="rose-400" icon="game-icons:unicorn" class="my-16">
                 <h4 class="leading-tight my-2">
-                    {{ t('inquiry.ev_myth6.myth.text') }} {{ t('inquiry.ev_myth5.myth.myth') }}
+                    {{ t('inquiry.ev_myth6.myth.text') }} {{ t('inquiry.ev_myth6.myth.myth') }}
                 </h4>
             </UiCardInfo>
 

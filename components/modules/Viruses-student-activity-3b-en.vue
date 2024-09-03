@@ -44,7 +44,8 @@
 
         <h3 style="color:var()">Realiability check</h3>
         <p>
-            Please use these tools for searching for information and assessing its reliability.<br />
+            Please use <NuxtLink target="_blank" to="../tools/reliability-assessment"
+            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> these tools</NuxtLink> for searching for information and assessing its reliability.<br />
         </p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500"></Icon>

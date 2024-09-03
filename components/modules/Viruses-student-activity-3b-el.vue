@@ -45,7 +45,9 @@
 
         <h3>Realiability check</h3>
         <p>
-            Παρακαλούμε χρησιμοποιήστε αυτό το εργαλείο για να ψάξετε για πληροφορίες και για να ελέγξετε την αξιοπιστία τους
+            Παρακαλούμε χρησιμοποιήστε <NuxtLink target="_blank" to="../tools/reliability-assessment"
+            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> <NuxtLink target="_blank" to="../tools/reliability-assessment"
+            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> these tools</NuxtLink></NuxtLink> για να ψάξετε για πληροφορίες και για να ελέγξετε την αξιοπιστία τους
         </p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>

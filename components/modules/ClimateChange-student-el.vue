@@ -92,7 +92,7 @@
             <hr class="mt-10 mb-40 print:my-10" />
 
             <section id="s-4">
-                <h2 id="s-4t" class="bg-rose-100">Δραστηριότητα 3: Myths about climate change</h2>
+                <h2 id="s-4t" class="bg-rose-100">Δραστηριότητα 3: Μύθοι για την κλιματική αλλαγή</h2>
 
                 <UiCardInfo icon="game-icons:unicorn" theme="rose-400" id="myth-1">
                     <h4 class="mt-8 mb-4 leading-tight"><span class="text-rose-400">1<sup>ος</sup> Μύθος:</span> Η εξαφάνιση των ειδών είναι μια φυσική διαδικασία. Μαζικές εξαφανίσεις ειδών συνέβαιναν πάντα.</h4>

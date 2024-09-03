@@ -27,7 +27,7 @@
         xl:gap-10
         2xl:gap-20">
         
-        <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word;overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
+        <section class="e-article print:not-prose" :lang="locale" style="word-wrap: break-word; overflow-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">
             
             <UiButtonBack style="position:fixed; top:9rem; left:2rem; z-index:1000;" />
 

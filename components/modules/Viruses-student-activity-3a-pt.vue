@@ -68,7 +68,8 @@
 
         <hr />
     
-        <p>Agora espera-se que encontre provas de fontes secundárias para confirmar as suas próprias descobertas com recurso às seguintes ferramentas.</p>
+        <p>Agora espera-se que encontre provas de fontes secundárias para confirmar as suas próprias descobertas com recurso às <NuxtLink target="_blank" to="../tools/reliability-assessment"
+            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> seguintes ferramentas</NuxtLink>.</p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Escreva um breve resumo das suas conclusões aqui:</label>

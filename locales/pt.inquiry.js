@@ -402,8 +402,8 @@ export default {
       },
       question: {
         question: "Question: Is the mass extinction of species a natural process?",
-        txt_1: "Study {link1} and watch the video {link2}. Then, answer the following questions.",
-        link_1: "source 1.1",
+        txt_1: "Watch {link1}. Then, answer the following questions.",
+        link_1: "the video",
         link_2: "Climate Change: Why are thousands of species facing extinction? - BBC News."
       },
       q_1: "1. What do we mean by  „mass extinction”?",
@@ -413,7 +413,7 @@ export default {
       q_5: "5. Why should we worry about mass extinctions now?",
       q_6: {
         txt_1: "Study {link1} and answer the following question.",
-        link_1: "source 1.2",
+        link_1: "source 1.1",
         q_6: "6. What is the reason for the mass killing of penguins?"
       },
       q_7: {
@@ -424,16 +424,16 @@ export default {
       q_8: "8. Based on the given evidence, our conclusion(s) concerning the myth “The extinction of species is a natural process. Mass extinctions of species have always occurred.” is (are):",
       q_9: "According to the data you collected, where do you owe the error of this myth?",
       sources: [
-        {
-          name: "Source 1.1",
-          url: "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
-        },
+        // {
+        //   name: "Source 1.1",
+        //   url: "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
+        // },
         {
           name: "Video",
           url: "https://www.youtube.com/watch?v=nho73BtDQtE"
         },
         {
-          name: "Source 1.2",
+          name: "Source 1.1",
           url: "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
         }
       ]

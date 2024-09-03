@@ -45,7 +45,8 @@
 
         <h3>Realiability check</h3>
         <p>
-            Por favor, use estas ferramentas para procurar informações e avaliar a sua fiabilidade
+            Por favor, use <NuxtLink target="_blank" to="../tools/reliability-assessment"
+            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> estas ferramentas</NuxtLink> para procurar informações e avaliar a sua fiabilidade
         </p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>

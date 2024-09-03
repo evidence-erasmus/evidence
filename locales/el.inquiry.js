@@ -396,8 +396,8 @@ export default {
       },
       question: {
         question: "Ερώτημα: Είναι η μαζική εξαφάνιση των ειδών μια φυσική διαδικασία;",
-        txt_1: "Μελετήστε την {link1} και δείτε το βίντεο {link2}. Στη συνέχεια, απαντήστε στις παρακάτω ερωτήσεις.",
-        link_1: "πηγή 1.1",
+        txt_1: "Δείτε {link1}. Στη συνέχεια, απαντήστε στις παρακάτω ερωτήσεις.",
+        link_1: "το βίντεο",
         link_2: "Climate Change: Why are thousands of species facing extinction? - BBC News."
       },
       q_1: "1. Τι εννοούμε με τον όρο «μαζική εξαφάνιση»;",
@@ -407,7 +407,7 @@ export default {
       q_5: "5. Γιατί πρέπει να ανησυχούμε για τις μαζικές εξαφανίσεις τώρα;",
       q_6: {
         txt_1: "Μελετήστε την {link1} και απαντήστε στην παρακάτω ερώτηση.",
-        link_1: "πηγή 1.2",
+        link_1: "πηγή 1.1",
         q_6: "6. Ποιος είναι ο λόγος για τη μαζική δολοφονία πιγκουίνων;"
       },
       q_7: {
@@ -419,15 +419,11 @@ export default {
       q_9: "Σύμφωνα με τα δεδομένα που συλλέξατε, πού οφείλεται το σφάλμα του μύθου αυτού;",
       sources: [
         {
-          name: "Source 1.1",
-          url: "http://mde-didaktiki.biol.uoa.gr/mde7/plexida/ordovician.html"
-        },
-        {
           name: "Video",
           url: "https://www.youtube.com/watch?v=nho73BtDQtE"
         },
         {
-          name: "Source 1.2",
+          name: "Source 1.1",
           url: "https://docs.google.com/document/d/e/2PACX-1vTxM7SnO9h9ZC8wxVMEVwU8Ha2_AKh99vbYcBO-g8BxJy9w5oFeb5lUoxUbvTQnq35mtT9Fi7bCSf67/pub"
         }
       ]

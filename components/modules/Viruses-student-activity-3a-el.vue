@@ -77,7 +77,8 @@
         <hr />
 
     
-        <p>Τώρα αναμένεται να βρείτε στοιχεία από δευτερεύουσες πηγές για να επιβεβαιώσετε εκ νέου τα ευρήματά σας χρησιμοποιώντας το ακόλουθο εργαλείο.</p>
+        <p>Τώρα αναμένεται να βρείτε στοιχεία από δευτερεύουσες πηγές για να επιβεβαιώσετε εκ νέου τα ευρήματά σας χρησιμοποιώντας το <NuxtLink target="_blank" to="../tools/reliability-assessment"
+            class="btn btn-accent btn-sm text-white no-underline"><Icon name="mdi:tools" size="18"></Icon> ακόλουθο εργαλείο</NuxtLink>.</p>
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Γράψετε μια σύντομη περίληψη των ευρημάτων σας εδώ:</label>
