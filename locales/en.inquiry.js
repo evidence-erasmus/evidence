@@ -402,7 +402,8 @@ export default {
       },
       question: {
         question: "Question: Is the mass extinction of species a natural process?",
-        txt_1: "Watch the video {link2}. Then, answer the following questions.",
+        txt_1: "{link1}. Then, answer the following questions.",
+        link_1: "Watch the video",
         link_2: "Climate Change: Why are thousands of species facing extinction? - BBC News."
       },
       q_1: "1. What do we mean by „mass extinction”?",

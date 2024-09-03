@@ -527,10 +527,17 @@
             </template>
             <!-- /et content only -->
 
-        <div class="e-card mb-16">
-            <!-- <ToolsFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" /> -->
+        <!-- <div class="e-card mb-16">
             <ToolsFliccTable :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
-        </div>
+        </div> -->
+
+        <UiFullWidth class="e-card">
+            <div>
+                <ClientOnly>
+                    <ToolsFlicc2Table :storeToUpdate="climateMyth4Answers" key="ccmyth4flicc" />
+                </ClientOnly>
+            </div>
+        </UiFullWidth>
            
             
         </section>

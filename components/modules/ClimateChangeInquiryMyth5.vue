@@ -225,10 +225,16 @@
             </template>
             <!-- /et content only -->
 
-            <div style="transform:translateX(-5vw)" class="w-[90vw] e-card mb-16">
+            <!-- <div style="transform:translateX(-5vw)" class="w-[90vw] e-card mb-16">
                 <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth5flicc" />
-                <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
-            </div>
+            </div> -->
+            <UiFullWidth class="e-card">
+                <div>
+                    <ClientOnly>
+                        <ToolsFlicc2Table :storeToUpdate="climateMyth5Answers" key="ccmyth5flicc" />
+                    </ClientOnly>
+                </div>
+            </UiFullWidth>
            
             
         </section>

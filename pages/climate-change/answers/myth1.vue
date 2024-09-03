@@ -65,7 +65,7 @@
 
                 <h4 class="my-1">{{ t('inquiry.cc_myth1.q_9') }}</h4>
                 <ClientOnly>
-                    <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" :printMode="true" />
+                    <ToolsFlicc2Table :storeToUpdate="climateMythOneAnswers" :printMode="true" />
                 </ClientOnly>
             </section>
         </div>

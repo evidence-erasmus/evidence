@@ -280,10 +280,17 @@
             </template>
             <!-- /et content only -->
 
-            <div class="e-card my-8">
-                <!-- <ToolsFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" /> -->
+            <!-- <div class="e-card my-8">
                 <ToolsFliccTable :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
-            </div>
+            </div> -->
+
+            <UiFullWidth class="e-card">
+                <div>
+                    <ClientOnly>
+                        <ToolsFlicc2Table :storeToUpdate="climateMythTwoAnswers" key="ccmyth2flicc" />
+                    </ClientOnly>
+                </div>
+            </UiFullWidth>
             
         </section>
     </div>

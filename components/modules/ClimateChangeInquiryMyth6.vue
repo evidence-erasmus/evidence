@@ -151,10 +151,17 @@
             </template>
             <!-- /et content only -->
 
-            <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
+            <!-- <div style="transform:translateX(-5vw)" class="w-[90vw] e-card my-8">
                 <ToolsFliccTable :storeToUpdate="climateMyth6Answers" key="ccmyth6flicc" />
-                <!-- <ToolsFliccTable :storeToUpdate="climateMyth5Answers" key="ccmyth3flicc" /> -->
-            </div>
+            </div> -->
+
+            <UiFullWidth class="e-card">
+                <div>
+                    <ClientOnly>
+                        <ToolsFlicc2Table :storeToUpdate="climateMyth6Answers" key="ccmyth6flicc" />
+                    </ClientOnly>
+                </div>
+            </UiFullWidth>
            
             
         </section>

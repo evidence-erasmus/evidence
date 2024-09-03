@@ -1,13 +1,13 @@
 <template>
     <section class="w-full">
         <div 
-        class="grid grid-cols-[2fr_100px_3fr]">
+        class="grid grid-cols-[2fr_60px_3fr]">
             <div class="text-sm font-bold leading-none p-3 border border-slate-300"> {{ t('col-1') }}</div>
             <div class="text-sm font-bold leading-none p-3 border border-slate-300">{{ t('col-2') }}</div>
             <div class="text-sm font-bold leading-none p-3 border border-slate-300">{{ t('col-3') }}</div>
         </div>    
         <div 
-        class="grid grid-cols-[2fr_100px_3fr]">
+        class="grid grid-cols-1 sm:grid-cols-[2fr_60px_3fr]">
             <div class="leading-tight p-2 border border-slate-300">
                 <img src="http://evidence.onkel.ee/assets/flicc-c1.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div 
-        class="grid grid-cols-[2fr_100px_3fr]">
+        class="grid grid-cols-1 sm:grid-cols-[2fr_60px_3fr]">
             <div class="leading-tight p-3 border border-slate-300">
                 <img src="http://evidence.onkel.ee/assets/flicc-l-j.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
@@ -42,10 +42,10 @@
             <div class="leading-tight p-2 border border-slate-300">
                 <textarea rows="2" class="textarea block w-full h-full py-1 px-2"
                     v-model="storeToUpdate.flicc2[1][1]"></textarea>
-            </div>
+            </div> 
         </div>
         <div 
-        class="grid grid-cols-[2fr_100px_3fr]">
+        class="grid grid-cols-1 sm:grid-cols-[2fr_60px_3fr]">
             <div class="leading-tight p-3 border border-slate-300">
                 <img src="http://evidence.onkel.ee/assets/flicc-i.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div 
-        class="grid grid-cols-[2fr_100px_3fr]">
+        class="grid grid-cols-1 sm:grid-cols-[2fr_60px_3fr]">
             <div class="leading-tight p-3 border border-slate-300">
                 <img src="http://evidence.onkel.ee/assets/flicc-l-o.webp" class="w-20 md:w-28 my-2 print:w-10" />
                 <p class="m-0 text-sm">
@@ -100,7 +100,7 @@
         "f3-title": "Impossible expectations:",
         "f3-description": "This involves demanding unrealistic levels of proof, or misrepresenting the nature of scientific uncertainty. As science is typically probabilistic, calls for absolute scientific certainty are an effective method of casting doubt on scientific findings. This denialist technique is known as “Scientific Certainty Argumentation Methods”.",
         "f4-title": "Oversimplification",
-        "f4-description": "Data simplification."
+        "f4-description": "Simplifying a situation in such a way as to distort understanding, leading to erroneous conclusions."
       },
       "et": {
         "col-1": "Taktika",

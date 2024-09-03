@@ -138,7 +138,7 @@
 
             <div class="e-card w-[90vw]" style="transform:translateX(-6vw)">
                 <ClientOnly>
-                    <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" currentSources="inquiry.cc_myth1.sources" />
+                    <ToolsReliabilityTable :storeToUpdate="climateMythOneAnswers" currentSources="inquiry.cc_myth1.sources" :addRow="true" />
                 </ClientOnly>
             </div>
 
@@ -173,11 +173,19 @@
             </template>
             <!-- /et content only -->
 
-            <UiFullWidth class="e-card">
+            <!-- <UiFullWidth class="e-card">
                 <div>
                     <ClientOnly>
                         <ToolsFliccTable :storeToUpdate="climateMythOneAnswers" 
                         class="min-w-xl" />
+                    </ClientOnly>
+                </div>
+            </UiFullWidth> -->
+
+            <UiFullWidth class="e-card">
+                <div>
+                    <ClientOnly>
+                        <ToolsFlicc2Table :storeToUpdate="climateMythOneAnswers" key="ccmyth1flicc" />
                     </ClientOnly>
                 </div>
             </UiFullWidth>
