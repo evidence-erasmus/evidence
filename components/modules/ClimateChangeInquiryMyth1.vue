@@ -125,12 +125,12 @@
             <hr />
 
             <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global">
-                <template #link1>
-                    <a href="../../tools/reliability-assessment" target="_blank" rel="noreferrer noopener">
-                        {{ t('inquiry.reliability_table.link_1') }}
-                    </a>
-                </template>
-            </i18n-t>
+               <template #link1>
+                   <a href="../../tools/reliability-assessment" target="_blank" rel="noreferrer noopener">
+                       {{ t('inquiry.reliability_table.link_1') }}
+                   </a>
+               </template>
+           </i18n-t>
 
             <p>
                 <b>{{ t('inquiry.cc_myth1.q_7.q_7') }}</b>

@@ -52,7 +52,7 @@
                 </p>
 
                 <p>
-                    Meie igapäevaelus levib kosmoselendude kohta suur hulk väärarusaamu, müüte ja vandenõuteooriaid. UFOd, mis meid avakosmosest külastavad ja inimeste Kuule maandumine, mida kunagi pole juhtunud, on vaid kaks teemat mitmetest, mis aeg-ajalt meediasse ilmuvad. Selliste kuulujuttude esinemissagedus ei kao ajaga, sest tänapäeval võib avalikkus sagedamini jälgida ebatavalisi droone ja avaldatakse uusi inimeste Kuule lähetamise programme. Praegune Ameerika “Artemise” projekt ja Hiina kuuprogramm nimega “Chang project” paistavad olevat hakanud võistlema, kes seekord esimesena Kuule maandub ning taas avalikkuse tähelepanu sellega äratab.
+                    Meie igapäevaelus levib kosmoselendude kohta suur hulk väärarusaamu, müüte ja vandenõuteooriaid. UFOd, mis meid avakosmosest külastavad ja inimeste Kuule maandumine, mida kunagi pole juhtunud, on vaid kaks teemat mitmetest, mis aeg-ajalt meediasse ilmuvad. Selliste kuulujuttude esinemissagedus ei kao ajaga, sest tänapäeval võib avalikkus sagedamini jälgida ebatavalisi droone ja avaldatakse uusi inimeste Kuule lähetamise programme. Praegune Ameerika “Artemise” projekt ja Hiina kuuprogramm nimega “Chang project” paistavad olevat hakanud võistlema, kes seekord esimesena Kuule maandub ning ning on sellega taas teema vastu avalikkuse tähelepanu äratanud.
                 </p>
 
                 <p>
@@ -68,7 +68,7 @@
                 </p>
 
                 <p>
-                    <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">Sissejuhatavas videos</a> tuuakse välja mõningad ideed, väärarusaamad ja müüdid, mida õpilased võiksid rühmades edasi arutada. Õpilasi kutsutakse valima ja selgitama levinumaid kosmosega seotud müüte või väärarusaamu. Eeldatakse, et arutelud viivad usaldusväärsetest allikatest tõendite kogumiseni, et saada põhjalikum ülevaade nähtusest, et kummutada või kinnitada valitud müüdi kehtivust.
+                    <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">Sissejuhatavas videos</a> tuuakse välja mõningad ideed, väärarusaamad ja müüdid, mida õpilased võiksid rühmades edasi uurida. Õpilasi kutsutakse välja valima ja testima levinumaid kosmosega seotud müüte ning väärarusaamu. Eeldatakse, et arutelud viivad usaldusväärsetest allikatest tõendite kogumiseni, et saada põhjalikum ülevaade nähtusest, et kummutada või kinnitada valitud müüdi kehtivust.
                 </p>
 
                 <p>
@@ -76,7 +76,7 @@
                 </p>
 
                 <p>
-                    Enamik selles moodulis soovitatud tegevusi tugineb sekundaarsetele tõenditele, mis hangitakse kirjanduse ja Inetiotsingute abil. Nende tegevuste kaudu õpivad õpilased hindama teabeallikate usaldusväärsust ja esitama tõenduspõhiseid argumente. Pärast järelduste tegemist valmistuvad õpilased oma järeldusi klassikaaslastele (või muule publikule) asjakohasel ja veenval viisil (nt videopostituse abil) tutvustama. Mooduli lõpetab rollimäng, kus õpilased peavad tegema sotsiaalteaduslikke otsuseid, kasutades oma loodusteaduslikke teadmisi, ühendades need samal ajal isiklike, moraalsete ja sotsiaalsete väärtustega.
+                    Enamik selles moodulis soovitatud tegevusi tugineb sekundaarsetele tõenditele, mis hangitakse kirjanduse ja internetiotsingute abil. Nende tegevuste kaudu õpivad õpilased hindama teabeallikate usaldusväärsust ja esitama tõenduspõhiseid argumente. Pärast järelduste tegemist valmistuvad õpilased oma järeldusi klassikaaslastele (või muule publikule) asjakohasel ja veenval viisil (nt videopostituse abil) tutvustama. Mooduli lõpetab rollimäng, kus õpilased peavad tegema sotsiaalteaduslikke otsuseid, kasutades oma loodusteaduslikke teadmisi, ühendades need samal ajal isiklike, moraalsete ja sotsiaalsete väärtustega.
                 </p>
 
                 <p>
@@ -102,7 +102,7 @@
                 
                 <ul>
                     <li>
-                        <b>Kodanikupädevus:</b> arendada õpilaste teadmisi ja hoiakuid, mis aitavad neil teha vastutustundlikke otsuseid seoses inimeste ja robotite kosmoseuuringutega.
+                        <b>Kodanikupädevus:</b> arendada õpilaste teadmisi ja hoiakuid, mis aitavad neil teha vastutustundlikke otsuseid seoses mehitatud või mehitamata kosmoseuuringutega.
                     </li>
                     <li><b>Meediapädevus:</b>
                         <ul class="my-0">
@@ -197,7 +197,7 @@
                     <tbody>
                         <tr>
                             <td><b>Tegevus 1</b></td>
-                            <td><a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">Sissejuhatava video</a>  mis avab mõningaid kosmoseuuringutega seotud ideid, unistusi ja müüte, vaatamine. 
+                            <td><a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">Sissejuhatava video</a>, mis avab mõningaid kosmoseuuringutega seotud ideid, unistusi ja müüte, vaatamine. 
                             <br />
                             Lisaks võib õpetaja põgusalt tutvustada ka teisi kosmosega seotud müüte ja ideid.</td>
                         </tr>
@@ -323,7 +323,7 @@
                 </p>
 
                 <p>
-                    Pärast <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">tutvustava video</a> vaatamist (Tegevus 1), otsustavad õpilased, millist tuvastatud müüti, väärarusaama või probleemi põhjalikumaks uurimiseks valida. Õpetaja saab siinkohal tutvustada ka muid kosmosega seotud müüte ja probleeme. Õpilasi võib julgustada meenutama omaenda arusaamu kosmose kohta. <a href="https://www.youtube.com/watch?v=a95oKCDgIow&list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">"Faktivideoid”</a> saab selles etapis kasutada kosmosega seotud teemade, mõistete ja põhimõtete meenutamiseks ja avardamiseks. Õpetaja võib ka vajadusel koos õpilastega mõnda teemat <NuxtLink to="./space/background">loodusteadusliku taustainfo</NuxtLink> teemast üle korrata.
+                    Pärast <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">tutvustava video</a> vaatamist (<b>Tegevus 1</b>), otsustavad õpilased, millist tuvastatud müüti, väärarusaama või probleemi põhjalikumaks uurimiseks valida. Õpetaja saab siinkohal tutvustada ka muid kosmosega seotud müüte ja probleeme. Õpilasi võib julgustada meenutama omaenda arusaamu kosmose kohta. <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">"Faktivideoid”</a> saab selles etapis kasutada kosmosega seotud teemade, mõistete ja põhimõtete meenutamiseks ja avardamiseks. Õpetaja võib ka vajadusel koos õpilastega mõnda teemat <NuxtLink to="./space/background">loodusteadusliku taustainfo</NuxtLink> teemast üle korrata.
                 </p>
                 
                 <p>
@@ -430,7 +430,7 @@
                 </p>
 
                 <p>
-                    Teemaga seotud teave on esitatud <NuxtLink to="./space/background">loodusteadusliku taustainfo</NuxtLink> teemas.
+                    Teemaga seotud teave on esitatud <NuxtLink to="./space/background">loodusteadusliku taustainfo</NuxtLink> lehel.
                 </p>
 
                 <p>
@@ -438,7 +438,11 @@
                 </p>
 
                 <p>
-                    Mooduli lõppu võib õpetaja lisada kokkuvõtva reflektiivse tegevuse selle kohta, mida õpilased on mooduli tegevustes osaledes õppinud ja kuidas nad omavahel koostööd tegid, valmistades ette argumente, esitlusi ja andsid  kaaslastele tagasisidet. Kunstikooli õpilaste loomingulisi mõtisklusi kosmose ja ruumi teemadel (vt <NuxtLink to="https://photobookaa.000webhostapp.com/" target="_blank">fotograafia raamatud</NuxtLink> või <NuxtLink to="https://www.artsteps.com/view/640e83202e32550b524a52b1" target="_blank">virtuaalnäitus</NuxtLink>) võib kasutada huvi tekitamiseks kosmosega seotud nähtuste suhtes olles lähtepunktiks arutelule sellest, mida õpilased sooviksid antud valdkonnas tulevikus veel teada saada. 
+                    Mooduli lõppu võib õpetaja lisada kokkuvõtva reflektiivse tegevuse selle kohta, mida õpilased on mooduli tegevustes osaledes õppinud ja kuidas nad omavahel koostööd tegid, valmistades ette argumente, esitlusi ja andes kaaslastele tagasisidet. Kunstikooli õpilaste loomingulisi mõtisklusi kosmose ja ruumi teemadel (vt <NuxtLink to="https://photobookaa.000webhostapp.com/" target="_blank">fotograafia raamatud</NuxtLink> või <NuxtLink to="https://www.artsteps.com/view/640e83202e32550b524a52b1" target="_blank">virtuaalnäitus</NuxtLink>) võib kasutada huvi tekitamiseks kosmosega seotud nähtuste suhtes olles lähtepunktiks arutelule sellest, mida õpilased sooviksid antud valdkonnas tulevikus veel teada saada. 
+                </p>
+
+                <p>
+                    Õpilaste inspireerimiseks võib õpetaja vaadata koos õpilastega katkendeid järgmisest <NuxtLink to="https://esero.ee/kosmosehariduspaev" target="_blank">eestikeelsest videost</NuxtLink>, mis tutvustab kosmose teemat, kosmonautide elu erinevaid aspekte, probleeme jne.
                 </p>
             </section>
 
@@ -480,7 +484,8 @@
                     Sissejuhatus:
                 </h3>
                 <p>
-                    Tutvustage mõistet "arutelu". Paluge õpilastel jagada oma kogemusi väitluslaadsete meetodite kohta. Miks me peame vaidlema ja olema veenvad?                </p>
+                    Tutvustage mõistet "arutelu". Paluge õpilastel jagada oma kogemusi väitluslaadsete meetodite kohta. Miks me peame vaidlema ja olema veenvad?
+                </p>
                 <h3>
                     Soojendustegevus:
                 </h3>
@@ -515,7 +520,7 @@
                         Jaotage ruumi neli nurka või ala järgmiselt:
                         <ul class="leading-tight">
                             <li>
-                                “Kosmost peaksid uurima inimesed mitte robotid”
+                                “Kosmost peaksid uurima inimesed, mitte robotid”
                             </li>
                             <li>
                                 “Ainult robotid peaksid kosmost uurima”
@@ -598,7 +603,7 @@
                             plastvoolik, mis sobib jalgratta klapile
                         </li>
                         <li>
-                            võimalik, et mõni terastraat ja võimas jalgrattapump või jalgpump
+                            terastraat ja võimas jalgrattapump või jalgpump
                         </li>
                     </ul>
                 </p>
@@ -623,7 +628,7 @@
                 </h2>
 
                 <p>
-                    AKosmoseuuringud on Rootsis aktiivselt arenev sotsiaal-teaduslik ja tehnoloogiline valdkond. Tehniline arendus toimub organisatsiooni <a href="https://sscspace.com/about-ssc/ssc-company-presentations/" target="_blank" rel="noopener noreferrer">Rootsi Kosmosekorporatsioon</a> (SSC) katuse all. See loodi enam kui viiskümmend aastat tagasi (1972. aastal), millel on praegu ärisidemed üle kogu maailma. SSC pakub sidelinke satelliitide juhtimiseks, starditoetuseks, kasuliku koormuse andmeteenusteks ja teleportimiseks. SSC ülemaailmse maapealsete jaamade võrgustiku kaudu annavad nad klientidele juurdepääsu nende kosmoselaevadele enamikul orbiidi kõrgustel ja kalletel alates <a href="https://en.wikipedia.org/wiki/Low_Earth_orbit" target="_blank" rel="noopener noreferrer">madalast Maa orbiidist</a> (LEO) kuni Kuuni ja süvakosmosesse.
+                    Kosmoseuuringud on Rootsis aktiivselt arenev sotsiaal-teaduslik ja tehnoloogiline valdkond. Tehniline arendus toimub organisatsiooni <a href="https://sscspace.com/about-ssc/ssc-company-presentations/" target="_blank" rel="noopener noreferrer">Rootsi Kosmosekorporatsioon</a> (SSC) katuse all. See loodi enam kui viiskümmend aastat tagasi (1972. aastal), millel on praegu ärisidemed üle kogu maailma. SSC pakub sidelinke satelliitide juhtimiseks, starditoetuseks, kasuliku koormuse andmeteenusteks ja teleportimiseks. SSC ülemaailmse maapealsete jaamade võrgustiku kaudu annavad nad klientidele juurdepääsu nende kosmoselaevadele enamikul orbiidi kõrgustel ja kalletel alates <a href="https://en.wikipedia.org/wiki/Low_Earth_orbit" target="_blank" rel="noopener noreferrer">madalast Maa orbiidist</a> (LEO) kuni Kuuni ja süvakosmosesse.
                 </p>
                 <p>
                     SSC toetab paraboollennukite lende teaduslike ja tehnoloogiliste katsete tegemiseks vähendatud raskusjõuga. See on kulutõhus ja paindlik viis katse funktsionaalsuse ja parameetrite häälestamiseks enne tegelikke kosmoselende.

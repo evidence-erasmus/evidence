@@ -212,9 +212,9 @@
                     <tr>
                         <td><b>Activity 6</b></td>
                         <td>
-                            Teacher suggests a specific issue concerning priorities in developing spaceflight capability and infrastructure (see as an example the case of Sweden). Students discuss, produce arguments and make decisions in a debate game (role-play) format.
+                            Teacher suggests a specific issue concerning priorities in developing spaceflight capability and infrastructure (see as an example the <button class="btn btn-sm btn-accent" @click="toggleModal('space__swedish-case')"><Icon name="mdi:open-in-new" size="20" />case of Sweden</button>). Students discuss, produce arguments and make decisions in a debate game (role-play) format.
                             <br />
-                            Space Exploration Debate can be implemented just during one lesson as a shorter alternative.
+                            <button class="btn btn-sm btn-accent" @click="toggleModal('space__exploration-debate')"><Icon name="mdi:open-in-new" size="22" /> Space Exploration Debate</button> can be implemented just during one lesson as a shorter alternative.
                         </td>
                     </tr>
                 </tbody>
@@ -282,13 +282,13 @@
             <h2 id="s-7-title">Teaching suggestions</h2>
 
             <p>
-                The module activities can be structured in two parts. The first part (Activities 1-5) concerns work with specific space-related myths, ideas, controversies and issues that could be identified in an <a href="https://www.youtube.com/watch?v=a95oKCDgIow" target="_blank" rel="noopener noreferrer">introductory video</a>, recalled by the students or suggested by the teacher. The second part (Activity 6) focuses on work with the socio-scientific topic of human space travels that is summed up with the help of a debate game/role-play (see student material moderated by the teacher).
+                The module activities can be structured in two parts. The first part (Activities 1-5) concerns work with specific space-related myths, ideas, controversies and issues that could be identified in an <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">introductory video</a>, recalled by the students or suggested by the teacher. The second part (Activity 6) focuses on work with the socio-scientific topic of human space travels that is summed up with the help of a debate game/role-play (see student material moderated by the teacher).
             </p>
             <p>
                 After a short introduction, as a warm-up activity, students can, in small groups, think about what questions they would like to ask an astronaut/space researcher if they had a chance (two-three questions per group to be presented). This will allow them to probe their interests and expectations concerning the subject raised in the module. 
             </p>
             <p>
-                After watching and selecting an <a href="https://www.youtube.com/watch?v=a95oKCDgIow"  target="_blank" rel="noopener noreferrer">introductory video</a> <b>(Activity 1)</b>, students can examine one of the identified myths, misconceptions or issues. Teachers can also introduce here other <NuxtLink to="./space/student#myths">myths and issues</NuxtLink> related to space. Students can be encouraged to recall existing understandings about space from their everyday life. The <a href="https://www.youtube.com/watch?v=a95oKCDgIow&list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">“fact videos”</a> can be used in this step to highlight and broaden space-related topics, concepts, and principles. Selected parts from scientific <NuxtLink to="./space/background">background information</NuxtLink> can recur when necessary. 
+                After watching and selecting an <a href="https://www.youtube.com/playlist?list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY"  target="_blank" rel="noopener noreferrer">introductory video</a> <b>(Activity 1)</b>, students can examine one of the identified myths, misconceptions or issues. Teachers can also introduce here other <NuxtLink to="./space/student#myths">myths and issues</NuxtLink> related to space. Students can be encouraged to recall existing understandings about space from their everyday life. The <a href="https://www.youtube.com/watch?v=a95oKCDgIow&list=PLuC4DJElPQrP8BEpdGHT5MZR_30VrDVCY" target="_blank" rel="noopener noreferrer">“fact videos”</a> can be used in this step to highlight and broaden space-related topics, concepts, and principles. Selected parts from scientific <NuxtLink to="./space/background">background information</NuxtLink> can recur when necessary. 
             </p>
 
             <p>
@@ -538,6 +538,8 @@
             </UiDrawer>
         </teleport>
 
+
+
         <teleport to="#theEnd" v-if="userPrefs.modalOpen === true && userPrefs.modalName === 'space__water-rocket'">
             <UiDrawer>
                 <h2>
@@ -578,6 +580,30 @@
             </UiDrawer>
         </teleport>
 
+
+        <teleport to="#theEnd" v-if="userPrefs.modalOpen === true && userPrefs.modalName === 'space__swedish-case'">
+            <UiDrawer>
+                <h2>
+                    A case of Swedish Space Programme
+                </h2>
+
+                <p>
+                    Space exploration is an actively developing socio-scientific and technological area in Sweden. Technical development is conducted under the umbrella of the <a href="https://sscspace.com/about-ssc/ssc-company-presentations/" target="_blank" rel="noopener noreferrer">Swedish Space Corporation</a> (SSC) created more than fifty years ago (in 1972), which currently has business connections all around the globe. SSC provides communication links for satellite control, launch support, payload data services and teleports. Through SSC’s global network of ground stations, they give customers access to their spacecraft in most orbit altitudes and inclinations from <a href="https://en.wikipedia.org/wiki/Low_Earth_orbit" target="_blank" rel="noopener noreferrer">Low Earth Orbit</a> (LEO) to Lunar and deep space.
+                </p>
+                <p>
+                    SSC provides support to parabolic aircraft flights for scientific and technological experiments in reduced gravity. This is a cost-efficient and flexible way to verify experiment functionality and parameter tuning before experiments are flown in space.
+                </p>
+                <p>
+                    SSC operates Esrange Space Centre, located 40 km from Kiruna in the very north of Sweden, above the Arctic Circle, with access to a vast, unpopulated impact and recovery land area covering 5200 square kilometres. It also tests rocket engines and uncrewed aerial vehicles (UAV).
+                </p>
+                <p>
+                    In January 2023, a new launch complex was inaugurated at the Spaceport Esrange capable of launching rockets to LEO with a payload of satellites and even human space missions. This is the mainland EU’s first orbital launch complex offering an independent European gateway to space. Europe’s initiative for reusable rocketry – the Themis program – commissioned by the European Space Agency ESA and led by ArianeGroup will be the first to start operation at Spaceport Esrange during 2023.
+                </p>
+                <p>
+                    SSC has also indicated its interest in organising space tourism missions from Esrange, where tourists could fly up to see the Aurora Borealis. This could be complementary in many ways to southern spaceports.
+                </p>
+            </UiDrawer>
+        </teleport>
 
     </div>
 </template>

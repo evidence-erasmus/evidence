@@ -4,5 +4,6 @@
         "i18n"
     ],
     "css.lint.unknownAtRules": "ignore",
-    "CodeGPT.apiKey": "Google AI Studio"
+    "CodeGPT.apiKey": "Google AI Studio",
+    "editor.stickyScroll.enabled": false
 }

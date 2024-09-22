@@ -17,7 +17,7 @@
                 <div class="dropdown dropdown-top">
                     <label tabindex="0" class="cursor-pointer ">{{ t('col-3') }} <br /><Icon name="fluent:question-circle-24-regular" size="24"  /></label>
                     <div tabindex="0" class="dropdown-content z-[1] p-4 w-64 shadow-md bg-yellow-100 outline outline-2 outline-slate-400 rounded-box text-lg leading-tight font-normal">
-                        {{ t('col-3-description') }}
+                        {{ t('col-3-description') }} 
                     </div>
                 </div>
             </div>
