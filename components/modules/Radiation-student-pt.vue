@@ -151,7 +151,7 @@
                                 <ModulesRadiationStudentActivity3aPt />
                             </TabPanel>
                             <TabPanel class="focus:outline-none">
-                                <ModulesRadiationStudentActivity3bEn />
+                                <ModulesRadiationStudentActivity3bPt />
                             </TabPanel>
                         </TabPanels>
                     </TabGroup>

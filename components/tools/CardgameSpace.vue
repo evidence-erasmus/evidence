@@ -173,7 +173,7 @@
         infoCards : [
             {
                 title: "New space age",
-                story: "The new space age has shaped since the 1990s.  New independent actors are coming to space exploration: private companies, the European space programme, China and India are progressing rapidly. Probably, India will become the fourth nation to conduct independent human spaceflight after the Soviet Union/Russia, the United States and China. India intended to start a space station programme, crewed lunar landings, and crewed interplanetary missions in the long term. Suborbital space tourism became a reality not only for extremely rich people."
+                story: "The new space age has shaped since the 1990s. New independent actors are coming to space exploration: private companies, the European space programme, China and India are progressing rapidly. Probably, India will become the fourth nation to conduct independent human spaceflight after the Soviet Union/Russia, the United States and China. India intended to start a space station programme, crewed lunar landings, and crewed interplanetary missions in the long term. Suborbital space tourism became a reality not only for extremely rich people."
             },
             {
                 title: "Internet on-board",
@@ -217,7 +217,7 @@
             },
             {
                 title: "Hazard of Human Spaceflight: Unusual closed environment.",
-                story: "A spacecraft is not only a home. It’s also a machine. The ecosystem inside a vehicle plays a big role in everyday astronaut life. Important habitability factors include temperature, pressure, lighting, noise, and quantity of space. It’s essential that astronauts get the requisite food, sleep and exercise needed to stay healthy and happy. Microorganisms that naturally live on your body are transferred more easily from one person to another in a closed environment. Astronauts contribute data points via urine and blood samples and can reveal valuable information about possible stressors. Extensive recycling of resources we take for granted is also imperative:  oxygen, water, carbon dioxide, and even our waste."
+                story: "A spacecraft is not only a home. It’s also a machine. The ecosystem inside a vehicle plays a big role in everyday astronaut life. Important habitability factors include temperature, pressure, lighting, noise, and quantity of space. It’s essential that astronauts get the requisite food, sleep and exercise needed to stay healthy and happy. Microorganisms that naturally live on your body are transferred more easily from one person to another in a closed environment. Astronauts contribute data points via urine and blood samples and can reveal valuable information about possible stressors. Extensive recycling of resources we take for granted is also imperative: oxygen, water, carbon dioxide, and even our waste."
             },
             {
                 title: "Importance of satellites",
@@ -229,7 +229,7 @@
             },
             {
                 title: "Costs of human space missions",
-                story: "The Apollo program cost $20 billion in 1970s dollars—over $100 billion in today’s money. The cost of the Shuttle is estimated at $200 billion in 2010 dollars. The total ISS program cost is about $150 billion (up until 2015). Currently, NASA suggested charging about  $10 million in permission fees for an ISS private mission. That includes  $2000 per person per day for food. https://spacenews.com/nasa-increases-prices-for-iss-private-astronaut-missions/"
+                story: "The Apollo program cost $20 billion in 1970s dollars—over $100 billion in today’s money. The cost of the Shuttle is estimated at $200 billion in 2010 dollars. The total ISS program cost is about $150 billion (up until 2015). Currently, NASA suggested charging about $10 million in permission fees for an ISS private mission. That includes $2000 per person per day for food. https://spacenews.com/nasa-increases-prices-for-iss-private-astronaut-missions/"
             },
             {
                 title: "Global Navigation Satellite System",
@@ -337,7 +337,7 @@
             },
             {
                 title: "Διαδίκτυο στο σκάφος",
-                story: "Η συνδεσιμότητα εν πτήσει (IFC) και οι υπηρεσίες ψυχαγωγίας στις παγκόσμιες αεροπορικές εταιρείες παρουσιάζουν σταθερή ανάπτυξη. Το 2021, οι πάροχοι υπηρεσιών παρουσίασαν 10%  αύξηση στον αριθμό των εμπορικών αεροσκαφών που συνδέονται με υπηρεσίες εν πτήσει σε σύγκριση με το 2020, φτάνοντας συνολικά τα 9.900 αεροπλάνα μέχρι το τέλος του 2021. Μέσα στην επόμενη δεκαετία, ο αριθμός των αεροσκαφών που χρησιμοποιούν τέτοιες υπηρεσίες αναμένεται να διπλασιαστεί σε περισσότερα από 21.000. Οι νέοι δορυφόροι αναμένεται να εξελιχθούν σημαντικά μετά το 2025, οδηγώντας σε αύξηση της διαδικτυακής διαθεσιμότητας."
+                story: "Η συνδεσιμότητα εν πτήσει (IFC) και οι υπηρεσίες ψυχαγωγίας στις παγκόσμιες αεροπορικές εταιρείες παρουσιάζουν σταθερή ανάπτυξη. Το 2021, οι πάροχοι υπηρεσιών παρουσίασαν 10% αύξηση στον αριθμό των εμπορικών αεροσκαφών που συνδέονται με υπηρεσίες εν πτήσει σε σύγκριση με το 2020, φτάνοντας συνολικά τα 9.900 αεροπλάνα μέχρι το τέλος του 2021. Μέσα στην επόμενη δεκαετία, ο αριθμός των αεροσκαφών που χρησιμοποιούν τέτοιες υπηρεσίες αναμένεται να διπλασιαστεί σε περισσότερα από 21.000. Οι νέοι δορυφόροι αναμένεται να εξελιχθούν σημαντικά μετά το 2025, οδηγώντας σε αύξηση της διαδικτυακής διαθεσιμότητας."
             },
             {
                 title: "Σταματήστε την υπερθέρμανση του πλανήτη",
@@ -362,7 +362,7 @@
             },
             {
                 title: "Εμπειρία έλλειψης βαρύτητας",
-                story: "Οι αστροναύτες όταν πάνε στο διάστημα αντιμετωπίζουν έλλειψη βαρύτητας, ή μικροβαρύτητα. Στην πραγματικότητα βρίσκονται σε μια κατάσταση ελεύθερης πτώσης. Όταν σβήσει ο κινητήρας του πυραύλου τότε αυτός κινείται οριζόντια με πολύ ψηλή ταχύτητα περίπου 8 χιλιομέτρων ανά δευτερόλεπτο και έπειτα πέφτει ελεύθερος, έτσι περιστρέφεται γύρω από τη Γη. Επειδή το διαστημόπλοιο και όλα τα αντικείμενα που βρίσκονται μέσα σε αυτό πέφτουν προς τα κάτω με τον ίδιο ρυθμό, ό,τι δεν είναι ασφαλισμένο στην καμπίνα αιωρείται. Όταν οι άνθρωποι αντιμετωπίζουν τη μικροβαρύτητα, έχουν τα ακόλουθα συμπτώματα: • Ναυτία • Αποπροσανατολισμό • Πονοκέφαλο • Απώλεια όρεξης • Συμφόρηση. Όσο πιο πολύ ένα άτομο μένει σε ένα περιβάλλον με έλλειψη βαρύτητας, τόσο πιο πολύ εξασθενούν οι  μύες και τα οστά του."
+                story: "Οι αστροναύτες όταν πάνε στο διάστημα αντιμετωπίζουν έλλειψη βαρύτητας, ή μικροβαρύτητα. Στην πραγματικότητα βρίσκονται σε μια κατάσταση ελεύθερης πτώσης. Όταν σβήσει ο κινητήρας του πυραύλου τότε αυτός κινείται οριζόντια με πολύ ψηλή ταχύτητα περίπου 8 χιλιομέτρων ανά δευτερόλεπτο και έπειτα πέφτει ελεύθερος, έτσι περιστρέφεται γύρω από τη Γη. Επειδή το διαστημόπλοιο και όλα τα αντικείμενα που βρίσκονται μέσα σε αυτό πέφτουν προς τα κάτω με τον ίδιο ρυθμό, ό,τι δεν είναι ασφαλισμένο στην καμπίνα αιωρείται. Όταν οι άνθρωποι αντιμετωπίζουν τη μικροβαρύτητα, έχουν τα ακόλουθα συμπτώματα: • Ναυτία • Αποπροσανατολισμό • Πονοκέφαλο • Απώλεια όρεξης • Συμφόρηση. Όσο πιο πολύ ένα άτομο μένει σε ένα περιβάλλον με έλλειψη βαρύτητας, τόσο πιο πολύ εξασθενούν οι μύες και τα οστά του."
             },
             {
                 title: "Συμβολή στους Στόχους Βιώσιμης Ανάπτυξης",
@@ -374,11 +374,11 @@
             },
             {
                 title: "Κίνδυνος των επανδρωμένων διαστημικών πτήσεων: Απομόνωση και περιορισμός",
-                story: "Είναι αναπόφευκτο να προκύψουν ζητήματα συμπεριφοράς ανάμεσα σε μια ομάδα ατόμων που είναι στριμωγμένη σε ένα μικρό χώρο για ένα μεγάλο χρονικό διάστημα ανεξάρτητα από το πόσο καλά εκπαιδευμένη είναι. Το πλήρωμα θα επιλεγεί προσεκτικά, θα εκπαιδευτεί και θα λάβει υποστήριξη ώστε να μπορεί να εργαστεί αποτελεσματικά ως ομάδα για μήνες ή χρόνια στο διάστημα. Η απώλεια ύπνου, ο κιρκάδιος αποσυγχρονισμός και η υπερφόρτωση εργασίας επιδεινώνουν αυτό το ζήτημα και μπορεί να οδηγήσουν σε μείωση  της απόδοσης, σε δυσμενή αποτελέσματα για την υγεία ενώ παράλληλα να θέσουν σε κίνδυνο τους στόχους της αποστολής. Διάφορα εργαλεία και τεχνολογίες για χρήση στο περιβάλλον διαστημικών πτήσεων αναπτύσσονται για τον εντοπισμό και τη θεραπεία πρώιμων παραγόντων κινδύνου. Διενεργείται επίσης έρευνα για τον φόρτο εργασίας και την απόδοση, τη θεραπεία με φως για κιρκαδική ευθυγράμμιση, τη μετατόπιση φάσης και την εγρήγορση."
+                story: "Είναι αναπόφευκτο να προκύψουν ζητήματα συμπεριφοράς ανάμεσα σε μια ομάδα ατόμων που είναι στριμωγμένη σε ένα μικρό χώρο για ένα μεγάλο χρονικό διάστημα ανεξάρτητα από το πόσο καλά εκπαιδευμένη είναι. Το πλήρωμα θα επιλεγεί προσεκτικά, θα εκπαιδευτεί και θα λάβει υποστήριξη ώστε να μπορεί να εργαστεί αποτελεσματικά ως ομάδα για μήνες ή χρόνια στο διάστημα. Η απώλεια ύπνου, ο κιρκάδιος αποσυγχρονισμός και η υπερφόρτωση εργασίας επιδεινώνουν αυτό το ζήτημα και μπορεί να οδηγήσουν σε μείωση της απόδοσης, σε δυσμενή αποτελέσματα για την υγεία ενώ παράλληλα να θέσουν σε κίνδυνο τους στόχους της αποστολής. Διάφορα εργαλεία και τεχνολογίες για χρήση στο περιβάλλον διαστημικών πτήσεων αναπτύσσονται για τον εντοπισμό και τη θεραπεία πρώιμων παραγόντων κινδύνου. Διενεργείται επίσης έρευνα για τον φόρτο εργασίας και την απόδοση, τη θεραπεία με φως για κιρκαδική ευθυγράμμιση, τη μετατόπιση φάσης και την εγρήγορση."
             },
             {
                 title: "Κίνδυνος των επανδρωμένων διαστημικών πτήσεων: Διαφορετική βαρύτητα",
-                story: "Στον Άρη οι αστροναύτες θα πρέπει να ζουν και να εργάζονται στα τρία όγδοα της βαρύτητας της Γης. Επιπλέον, στο εξάμηνο ταξίδι μεταξύ των πλανητών, οι εξερευνητές θα βιώσουν την απόλυτη έλλειψη βαρύτητας. Όταν οι αστροναύτες επιτέλους επιστρέψουν σπίτι τους, θα χρειαστεί να ξαναπροσαρμόσουν πολλά από τα συστήματα του σώματός τους στη βαρύτητα της Γης. Τα οστά, οι μύες, το καρδιαγγειακό σύστημα έχουν επηρεαστεί από την έλλειψη της τυπικής βαρύτητας. Όταν οι αστροναύτες περνούν από το ένα πεδίο βαρύτητας στο άλλο, συνήθως  αυτό είναι μια αρκετά έντονη εμπειρία. Η εκτόξευση από την επιφάνεια ενός πλανήτη ή η κατάβαση μέσα από μια ατμόσφαιρα αλλάζει πολλές φορές τη δύναμη της βαρύτητας. Διεξάγεται έρευνα για να διασφαλιστεί ότι οι αστροναύτες παραμένουν υγιείς πριν, κατά τη διάρκεια αλλά και μετά την αποστολή τους."
+                story: "Στον Άρη οι αστροναύτες θα πρέπει να ζουν και να εργάζονται στα τρία όγδοα της βαρύτητας της Γης. Επιπλέον, στο εξάμηνο ταξίδι μεταξύ των πλανητών, οι εξερευνητές θα βιώσουν την απόλυτη έλλειψη βαρύτητας. Όταν οι αστροναύτες επιτέλους επιστρέψουν σπίτι τους, θα χρειαστεί να ξαναπροσαρμόσουν πολλά από τα συστήματα του σώματός τους στη βαρύτητα της Γης. Τα οστά, οι μύες, το καρδιαγγειακό σύστημα έχουν επηρεαστεί από την έλλειψη της τυπικής βαρύτητας. Όταν οι αστροναύτες περνούν από το ένα πεδίο βαρύτητας στο άλλο, συνήθως αυτό είναι μια αρκετά έντονη εμπειρία. Η εκτόξευση από την επιφάνεια ενός πλανήτη ή η κατάβαση μέσα από μια ατμόσφαιρα αλλάζει πολλές φορές τη δύναμη της βαρύτητας. Διεξάγεται έρευνα για να διασφαλιστεί ότι οι αστροναύτες παραμένουν υγιείς πριν, κατά τη διάρκεια αλλά και μετά την αποστολή τους."
             },
             {
                 title: "Κίνδυνος των επανδρωμένων διαστημικών πτήσεων: Ασυνήθιστα κλειστό περιβάλλον",
@@ -418,7 +418,7 @@
             },
             {
                 title: "Αποστολή στον Άρη",
-                story: "Η διαστημική βάση στη Σελήνη θα είναι ένα σημαντικό βήμα για την εξερεύνηση του Άρη. Οι επανδρωμένες αποστολές στον Άρη αποτελούν μέρος της επιστημονικής φαντασίας από τη δεκαετία του 1880. Η έννοια ενός Αρειανού ως κάτι που ζει στον Άρη είναι μέρος της μυθοπλασίας. Οι περισσότεροι ειδικοί συμφωνούν ότι πιθανότατα υπήρχε ζωή στον Άρη όταν το νερό έτρεχε ελεύθερα πάνω από την επιφάνειά του και ότι μπορεί ακόμη να υπάρχει σε υπόγειες λίμνες. Χρειάζονται περίπου δύο χρόνια για να πάτε στον Άρη και να επιστρέψετε. Η ESA δεν έχει κάνει καμία προετοιμασία ή κανένα έργο με σκοπό να στείλει ανθρώπους στον Άρη. Για συζήτηση των τεχνικών δυνατοτήτων, δείτε το https://en.wikipedia.org/wiki/ Human_mission_to_Mars  και για τεχνικά πλάνα για το spaceX δείτε το https://www.spacex.com/ human-spaceflight/mars/"
+                story: "Η διαστημική βάση στη Σελήνη θα είναι ένα σημαντικό βήμα για την εξερεύνηση του Άρη. Οι επανδρωμένες αποστολές στον Άρη αποτελούν μέρος της επιστημονικής φαντασίας από τη δεκαετία του 1880. Η έννοια ενός Αρειανού ως κάτι που ζει στον Άρη είναι μέρος της μυθοπλασίας. Οι περισσότεροι ειδικοί συμφωνούν ότι πιθανότατα υπήρχε ζωή στον Άρη όταν το νερό έτρεχε ελεύθερα πάνω από την επιφάνειά του και ότι μπορεί ακόμη να υπάρχει σε υπόγειες λίμνες. Χρειάζονται περίπου δύο χρόνια για να πάτε στον Άρη και να επιστρέψετε. Η ESA δεν έχει κάνει καμία προετοιμασία ή κανένα έργο με σκοπό να στείλει ανθρώπους στον Άρη. Για συζήτηση των τεχνικών δυνατοτήτων, δείτε το https://en.wikipedia.org/wiki/ Human_mission_to_Mars και για τεχνικά πλάνα για το spaceX δείτε το https://www.spacex.com/ human-spaceflight/mars/"
             }
         ]
     },
@@ -442,13 +442,13 @@
             {
                 title: "Valitsuse poliitik",
                 image: "card_space_government_politician.webp",
-                story: "Valitsuspoliitikuna on teil valimishuvid. Te soovite suurendada innovatiivsete tehnoloogiate arengut ja tööhõive määra. Teie erakond toetab investeeringuid kosmoseuuringutega seotud kõrgtehnoloogilisse tööstusesse, mis on teadmistepõhise ühiskonna oluline alus. Kaitsete töökohtade loomist, mis tuleneks mehitatud kosmoselendudeks mõeldud kosmoseväljaku loomisest. Kosmosetehnoloogia tootmine pakub palju töövõimalusi ning meelitab ligi  innovatiivseid noori.",
+                story: "Valitsuspoliitikuna on teil valimishuvid. Te soovite suurendada innovatiivsete tehnoloogiate arengut ja tööhõive määra. Teie erakond toetab investeeringuid kosmoseuuringutega seotud kõrgtehnoloogilisse tööstusesse, mis on teadmistepõhise ühiskonna oluline alus. Kaitsete töökohtade loomist, mis tuleneks mehitatud kosmoselendudeks mõeldud kosmoseväljaku loomisest. Kosmosetehnoloogia tootmine pakub palju töövõimalusi ning meelitab ligi innovatiivseid noori.",
                 story2: "Otsite argumente mehitatud kosmosereiside õigustamiseks, et astuda vastu oma poliitilisele vastasele."
             },
             {
                 title: "Kosmoseuuringute ettevõtte juht",
                 image: "card_space_exploration_company_manager.webp",
-                story: "Pooldate kosmoseuuringute edasiarendamist ja püüad kaitsta oma ettevõtte majandushuve. Püüate veenda valitsust ja avalikkust ehitama kosmosebaasi, mis teenindab mehitatud kosmoselende. Apelleerite sellise rajatise ohutusele ja teaduse edusammudele. Kosmoses viibinud inimesed on alati kosmosetööstuse näidisisikuteks ja saadikuteks.",
+                story: "Pooldate kosmoseuuringute edasiarendamist ja püüate kaitsta oma ettevõtte majandushuve. Püüate veenda valitsust ja avalikkust ehitama kosmosebaasi, mis teenindab mehitatud kosmoselende. Apelleerite sellise rajatise ohutusele ja teaduse edusammudele. Kosmoses viibinud inimesed on alati kosmosetööstuse näidisisikuteks ja saadikuteks.",
                 story2: "Seisukohta tuleb toetada tõenditega, mis kinnitavad, et investeerimine mehitatud kosmosemissioonidesse ja kosmoseväljaku rajamisse on õigeaegne vajadus ning seda saavad ärilistel alustel kasutada ka teised riigid ja eraettevõtted."
             },
             {
@@ -460,7 +460,7 @@
             {
                 title: "Arst",
                 image: "card_space_medical_doctor.webp",
-                story: "Meditsiinilised uuringud on näidanud mikrogravitatsiooniuuringute tähtsust vähivastases võitluses. Astronautide eneseanalüüsi uuringud on osutunud oluliseks meditsiiniteaduste arengu seisukohalt. Astronautidelt saadavat teavet, saab erineval otstarbel ära kasutada Maal. Paljud teist peavad ka inimese Marsile maandumist inimkonna ülimaks saavutuseks.",
+                story: "Meditsiinilised uuringud on näidanud mikrogravitatsiooniuuringute tähtsust vähivastases võitluses. Astronautide eneseanalüüsi uuringud on osutunud oluliseks meditsiiniteaduste arengu seisukohalt. Astronautidelt saadavat teavet saab erineval otstarbel ära kasutada Maal. Paljud teist peavad ka inimese Marsile maandumist inimkonna ülimaks saavutuseks.",
                 story2: "Seisukoha tõestamiseks peate otsima tõestusmaterjali."
             }
         ],
@@ -468,13 +468,13 @@
             {
                 title: "Ökoloog",
                 image: "card_space_ecologist.webp",
-                story: "Teil on radikaalselt negatiivne nägemus raketikütuste põhjustatud õhusaastest ja te ei näe ette võimalust ehitada oma riigis baasi inimeste kosmosesse saatmiseks. Inimene põhjustab ka kosmose bioloogilist saastumist, jättes sinna oma tegevusega jäljed inimese DNA-st. See raskendab alternatiivsete eluvormide tuvastamist universumis.",
+                story: "Teil on radikaalselt negatiivne nägemus raketikütuste põhjustatud õhusaastest ja te ei näe ette võimalust ehitada oma riigis baasi inimeste kosmosesse saatmiseks. Inimene põhjustab ka kosmose bioloogilist saastumist, jättes sinna oma tegevusega jäljed inimese DNA-st. See raskendab alternatiivsete eluvormide tuvastamist Universumis.",
                 story2: "Peate otsima tõendeid looduse ja keskkonna kaitsimseks ning mehitatud kosmosereiside vastu."
             },
             {
                 title: "Opositsioonipoliitik",
                 image: "card_space_opposition_politician.webp",
-                story: "Opositsioonipoliitikuna on teil valimishuvid ja peate olema oma poliitilise vastase vastu. Teie pool toetab mehitamata kosmoseuuringuid kui kõige kulutulusamat väites, et kui meie linnades on võimalik isejuhtivaid autosid kasutada, peaksime investeerima tehisintellektiga varustatud robotite  kosmosemissioonidele. Arvate, et avakosmoses on võimalik kasutada täiendavaid ressursse, näiteks asteroidide kaevandamist, mis võib olla riigi jaoks majanduslikult kasulik. Niisiis, te ei ole täielikult kosmoseuuringute vastu, vaid selle vastu, kuidas see peaks olema korraldatud.",
+                story: "Opositsioonipoliitikuna on teil valimishuvid ja peate olema oma poliitilise vastase vastu. Teie pool toetab mehitamata kosmoseuuringuid kui kõige kulutulusamat väites, et kui meie linnades on võimalik isejuhtivaid autosid kasutada, peaksime investeerima tehisintellektiga varustatud robotite kosmosemissioonidesse. Arvate, et avakosmoses on võimalik kasutada täiendavaid ressursse, näiteks asteroidide kaevandamist, mis võib olla riigi jaoks majanduslikult kasulik. Niisiis, te ei ole täielikult kosmoseuuringute vastu, vaid selle vastu, kuidas see peaks olema korraldatud.",
                 story2: "Otsige argumente mehitatud kosmosereiside vastu ja robot-missioonide poolt, et astuda vastu oma poliitilisele vastasele."
             },
             {
@@ -505,11 +505,11 @@
             },
             {
                 title: "Kosmoseprügi",
-                story: "See koosneb töökõlbmatutest kosmoselaevadest ja mahajäetud kanderakettide osadest, raketi keretükkidest, mis on tekkinud nende lagunemisel, erosioonil ja kokkupõrgetest, kosmoselaevadest väljutatud tahkunud vedelikest ja raketimootoritest pärit tahketest  põlemata osakestest. Hinnangud näitavad, et Maa ümber on orbiidil üle 128 miljoni tüki, mis on väiksem kui 1 cm, umbes 900 000 tükki 1–10 cm ja umbes 34 000 tükki, mis on suuremad kui 10 cm. Kosmosepraht kujutab endast ohtu kosmoseuuringutele."
+                story: "See koosneb töökõlbmatutest kosmoselaevadest ja mahajäetud kanderakettide osadest, raketi keretükkidest, mis on tekkinud nende lagunemisel, erosioonil ja kokkupõrgetest, kosmoselaevadest väljutatud tahkunud vedelikest ja raketimootoritest pärit tahketest põlemata osakestest. Hinnangud näitavad, et Maa ümber on orbiidil üle 128 miljoni tüki, mis on väiksemad kui 1 cm, umbes 900 000 tükki 1–10 cm ja umbes 34 000 tükki, mis on suuremad kui 10 cm. Kosmosepraht kujutab endast ohtu kosmoseuuringutele."
             },
             {
                 title: "Kosmoseturismiga seotud õhusaaste",
-                story: "Teadlased leidsid, et musta süsiniku emissioon enam kui kahekordistub pärast kolmeaastast regulaarset kosmoseturismi algust ning et rakettide poolt õhku paisatavad osakesed hoiavad atmosfääris soojust peaaegu 500 korda tõhusamalt kui kõik muud tahmaallikad kokku, mille tulemuseks on suurem kliima soojenemise. Kuigi praegune osoonikadu kosmosesaatmise tõttu on väike, võib kosmoseturismi startide mõju vähendada osoonikihi taastumist, mida kogeti pärast 1987. aasta Montreali protokolli edu, mis keelustas Maa osoonikihti vähendavad  ained."
+                story: "Teadlased leidsid, et musta süsiniku emissioon enam kui kahekordistub pärast kolmeaastast regulaarset kosmoseturismi algust ning et rakettide poolt õhku paisatavad osakesed hoiavad atmosfääris soojust peaaegu 500 korda tõhusamalt kui kõik muud tahmaallikad kokku, mille tulemuseks on suurem kliima soojenemine. Kuigi praegune osoonikadu kosmosesse saatmise tõttu on väike, võib kosmoseturismi startide mõju vähendada osoonikihi taastumist, mida kogeti pärast 1987. aasta Montreali protokolli edu, mis keelustas Maa osoonikihti vähendavad ained."
             },
             {
                 title: "Arengud kosmosemajanduses",
@@ -517,11 +517,11 @@
             },
             {
                 title: "Kaaluta oleku kogemus",
-                story: "Kosmosesse sisenevad astronaudid, kes kogevad kaaluta olekut ehk mikrogravitatsiooni. Nad on tegelikult vabalangemise seisundis. Rakett liigub pärast mootori väljalülitamist horisontaalselt väga suure kiirusega umbes 8 kilomeetrit sekundis ja langeb ka vabalt, tiireldes  ümber Maa. Kuna kosmoselaev ja kõik selles olevad objektid kukuvad ümber maailma ühesuguse kiirusega, hõljub kõik mis pole kinnitatud, kabiinis. Kui inimesed puutuvad kokku mikrogravitatsiooniga, võib neil esineda: Iiveldus, desorientatsioon, peavalu, söögiisu kaotus, kõhukinnisus. Mida kauem inimene mikrogravitatsioonis viibib, seda rohkem lihased ja luud nõrgenevad."
+                story: "Kosmosesse sisenevad astronaudid, kes kogevad kaaluta olekut ehk mikrogravitatsiooni. Nad on tegelikult vabalangemise seisundis. Rakett liigub pärast mootori väljalülitamist horisontaalselt väga suure kiirusega umbes 8 kilomeetrit sekundis ja langeb ka vabalt, tiireldes ümber Maa. Kuna kosmoselaev ja kõik selles olevad objektid kukuvad ümber Maa ühesuguse kiirusega, hõljub kõik mis pole kinnitatud, kabiinis. Kui inimesed puutuvad kokku mikrogravitatsiooniga, võib neil esineda: Iiveldus, desorientatsioon, peavalu, söögiisu kaotus, ninakinnisus. Mida kauem inimene mikrogravitatsioonis viibib, seda rohkem lihased ja luud nõrgenevad."
             },
             {
                 title: "Panus säästva arengu eesmärkide saavutamisse",
-                story: "Kosmosepõhised teenused ja tehnoloogiad on kliimamuutuste mõistmisel ja katastroofide ohjamisel võtmetähtsusega (www.unoosa.org).Maailmarahu jaoks on suur tähtsus avakosmoses toimuval  koostööl. Tuleb tagada, et kõik riigid järgiksid rahvusvahelisi kosmoseseadusi ja et uued kosmoseriigid töötaksid välja riiklikud kosmoseseadused. UN-SPIDERI teadmisteportaal: Space4 DisasterManagement http://www.un-spider.org/ Space4Water: http://www.space4water.org/"
+                story: "Kosmosepõhised teenused ja tehnoloogiad on kliimamuutuste mõistmisel ja katastroofide ohjamisel võtmetähtsusega (www.unoosa.org). Maailmarahu jaoks on suur tähtsus avakosmoses toimuval koostööl. Tuleb tagada, et kõik riigid järgiksid rahvusvahelisi kosmoseseadusi ja et uued kosmoseriigid töötaksid välja riiklikud kosmoseseadused. UN-SPIDERI teadmisteportaal: Space4 DisasterManagement http://www.un-spider.org/ Space4Water: http://www.space4water.org/"
             },
             {
                 title: "Mehitatud kosmoselendude oht: Kiirgus",
@@ -529,7 +529,7 @@
             },
             {
                 title: "Mehitatud kosmoselendude risk: isoleerimine ja suletus.",
-                story: "Pikema aja jooksul väikesesse ruumi kokku surutud inimrühmade käitumisprobleemid, olenemata sellest, kui hea väljaõppega nad on, on vältimatud. Meeskondi valitakse hoolikalt, koolitatakse ja toetatakse, et tagada nende tõhus meeskonnatöö kuude või aastate jooksul kosmoses. Unekaotus, ööpäevase unetükli häirumine ja ülekoormus süvendavad seda probleemi ning võivad põhjustada jõudluse langust, negatiivseid tervisemõjusid ja ohustada missiooni eesmärke. Varasemate riskitegurite tuvastamiseks ja raviks töötatakse välja erinevaid kosmoselendude keskkonnas kasutatavaid tööriistu ja tehnoloogiaid. Samuti viiakse läbi uuringuid töökoormuse ja jõudluse, ning ööpäevase unetsükli korrastamiseks  valgusteraapiat."
+                story: "Pikema aja jooksul väikesesse ruumi kokku surutud inimrühmade käitumisprobleemid, olenemata sellest, kui hea väljaõppega nad on, on vältimatud. Meeskondi valitakse hoolikalt, koolitatakse ja toetatakse, et tagada nende tõhus meeskonnatöö kuude või aastate jooksul kosmoses. Unekaotus, ööpäevase unetükli häirumine ja ülekoormus süvendavad seda probleemi ning võivad põhjustada jõudluse langust, negatiivseid tervisemõjusid ja ohustada missiooni eesmärke. Varasemate riskitegurite tuvastamiseks ja raviks töötatakse välja erinevaid kosmoselendude keskkonnas kasutatavaid tööriistu ja tehnoloogiaid. Samuti viiakse läbi uuringuid töökoormuse ja jõudluse, ning ööpäevase unetsükli korrastamiseks valgusteraapiat."
             },
             {
                 title: "Mehitatud kosmoselendude risk: erinev gravitatsioon.",
@@ -545,7 +545,7 @@
             },
             {
                 title: "Pikaajalise kaaluta olemise tagajärjed.",
-                story: "Kujutage end ette pikal kosmosereisil. Kaaluta olekus ei pea teie lihased kõvasti pingutama. Vastuseks sellele, et neid kasutatakse vähem, hakkavad teie lihased kahanema ehk atroofeeruma. Pidage meeles, et teie süda on samuti lihas ja vere pumpamine ümber keha on kosmose kaaluta keskkonnas lihtsam, nii et ka teie süda muutub nõrgemaks. Pikemal kosmosereisil võivad teie lihased muutuda nii nõrgaks, et kui jõuate tagasi keskkonda, kus teid mõjutab gravitatsioon, on teil raske püsti seista."
+                story: "Kujutage end ette pikal kosmosereisil. Kaaluta olekus ei pea teie lihased kõvasti pingutama. Vastuseks sellele, et neid kasutatakse vähem, hakkavad teie lihased kahanema ehk atrofeeruma. Pidage meeles, et teie süda on samuti lihas ja vere pumpamine ümber keha on kosmose kaaluta keskkonnas lihtsam, nii et ka teie süda muutub nõrgemaks. Pikemal kosmosereisil võivad teie lihased muutuda nii nõrgaks, et kui jõuate tagasi keskkonda, kus teid mõjutab gravitatsioon, on teil raske püsti seista."
             },
             {
                 title: "Mehitatud kosmosemissioonide kulud",
@@ -565,7 +565,7 @@
             },
             {
                 title: "Globaalsete satelliitnavigatsioonivõrkude näide",
-                story: "Hiina Beidou navigatsioonisatelliitide võrk hakkas konkureerima ja täielikult tööle 2020. aastal. Sellel on nüüd 35 satelliiti – rohkem kui Ameerika GPS-i 31 satelliiti (mida juhivad USA õhujõud) ja rohkem kui Euro-il. Beidou asukohateenuste täpsus on Aasia ja Vaikse ookeani piirkonnas kuni 10 cm, võrreldes GPS-i 30 cm ulatusega. Beidou-ga seotud teenuseid, nagu sadamaliikluse jälgimine ja katastroofide leevendamine, on eksporditud umbes 120 riiki."
+                story: "Hiina Beidou navigatsioonisatelliitide võrk hakkas konkureerima ja täielikult tööle 2020. aastal. Sellel on nüüd 35 satelliiti – rohkem kui Ameerika GPS-i 31 satelliiti (mida juhivad USA õhujõud) ja rohkem kui Euroopa Galileil. Beidou asukohateenuste täpsus on Aasia ja Vaikse ookeani piirkonnas kuni 10 cm, võrreldes GPS-i 30 cm ulatusega. Beidou-ga seotud teenuseid, nagu sadamaliikluse jälgimine ja katastroofide leevendamine, on eksporditud umbes 120 riiki."
             },
             {
                 title: "Nanosatelliidid",

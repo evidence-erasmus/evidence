@@ -71,7 +71,7 @@
         <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea> -->
 
         <p>
-            Use esta ferramenta para pesquisar informações e avaliar sua confiabilidade
+            Use <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="20" />esta ferramenta</NuxtLink> para pesquisar informações e avaliar sua confiabilidade
         </p>
         <p>
             Escreva um resumo de suas descobertas na tabela a seguir:

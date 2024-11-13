@@ -249,7 +249,7 @@
                     <tr>
                         <td><b>Aktivitet 6</b></td>
                         <td>
-                            Läraren föreslår en specifik fråga om prioriteringar i utveckling av robotik vs. mänsklig rymdfärdskapacitet och infrastruktur i EU (se som exempel ett fall av Sverige)
+                            Läraren föreslår en specifik fråga om prioriteringar i utveckling av robotik vs. mänsklig rymdfärdskapacitet och infrastruktur i EU (se som exempel ett <button class="btn btn-sm btn-accent" @click="toggleModal('space__swedish-case')"><Icon name="mdi:open-in-new" size="20" />fall av Sverige</button>)
                             <br />
                             Eleverna diskuterar, tar fram argument och fattar beslut i form av ett debattrollspel där inledande argument kan presenteras i form av en video, poster, PowerPoint-presentation eller en annan visuell form. 
                             <br />
@@ -639,6 +639,28 @@
                 </p>
                 <p>
                     <a href="https://www.scienceprojectideas.org/water-bottle-rocket.htm" target="_blank" rel="noopener noreferrer">DIY vattenraket</a>
+                </p>
+            </UiDrawer>
+        </teleport>
+
+
+        <teleport to="#theEnd" v-if="userPrefs.modalOpen === true && userPrefs.modalName === 'space__swedish-case'">
+            <UiDrawer>
+                <h2>
+                    Ett fall av Svensk Rymdprogram
+                </h2>
+
+                <p>
+                    Rymdutforskning är ett viktigt socio-vetenskapligt och tekniskt område i Sverige. Den tekniska utvecklingen bedrivs under paraply av <a href="https://sscspace.com/about-ssc/ssc-company-presentations/" target="_blank" rel="noopener noreferrer">Svenska Rymdbolaget</a> (SSC) grundat för mer än femtio år sedan (1972) som för närvarande har affärsförbindelser över hela världen. SSC tillhandahåller kommunikationskanaler för satellitkontroll, uppskjutningsstöd, nyttolastdatatjänster och teleportering. Genom SSC:s globala nätverk av markstationer ges kunder stabil kontakt med sina rymdfarkoster i de flesta omloppshöjder och lutningar från <a href="https://en.wikipedia.org/wiki/Low_Earth_orbit" target="_blank" rel="noopener noreferrer">Low Earth Orbit</a> (LEO) till Lunar orbit.
+                </p>
+                <p>
+                    SSC ger stöd till flygningar som skapar mikrogravitation för vetenskapliga och tekniska experiment. Detta är ett kostnadseffektivt och flexibelt sätt att verifiera experimentfunktionalitet och göra nödvändiga justeringar innan utrustningen hamnar i rymden.
+                </p>
+                <p>
+                    SSC driver Esrange Space Center som ligger 40 km från staden Kiruna i norra Sverige, ovanför polcirkeln, som har tillgång till ett stort, obefolkat nedslags- och återhämtningslandområde som täcker 5200 kvadratkilometer. Den används också för test av raketmotorer och obemannade flygfarkoster (UAV). I januari 2023 invigdes ett nytt uppskjutningskomplex vid Spaceport Esrange som kan skjuta upp raketer till LEO med en nyttolast av satelliter och till och med mänskliga rymduppdrag. Detta är EU:s första orbitala uppskjutningskomplex som erbjuder en oberoende europeisk port till rymden. Europas initiativ för återanvändbar raket – Themis-programmet – på uppdrag av Europeiska rymdorganisationen ESA och som leds av ArianeGroup kommer att vara det första som startar sin verksamhet i Spaceport Esrange under 2023.
+                </p>
+                <p>
+                    SSC har också visat sitt intresse för att organisera rymdturismuppdrag från Esrange där turister kan flygas upp till suborbitalbana för att se Aurora Borealis. Detta kan på många sätt vara komplement till södra rymdhamnar.
                 </p>
             </UiDrawer>
         </teleport>

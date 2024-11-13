@@ -19,7 +19,7 @@
             <h2 id="s-1-title">Sissejuhatus</h2>
         
             <p>
-                Kosmoseajastu sai alguse Sputnik I stardist 1957. aastal ja saavutas vaieldamatult haripunkti 1969. aastal, kui inimene astus esimese sammu Kuul. Kosmoseuuringuid ajendas konkurents kahe riigi – USA ja NSVL-i vahel, kes oli vastavalt kapitalistlike ja sotsialistlike blokkide liidrid. Niisiis olid kosmoseuuringud kahe erineva sotsiaalse süsteemi vahelise konkurentsi eesliinil.
+                Kosmoseajastu sai alguse Sputnik I stardist 1957. aastal ja saavutas vaieldamatult haripunkti 1969. aastal, kui inimene astus esimese sammu Kuul. Kosmoseuuringuid ajendas konkurents kahe riigi – USA ja NSVL-i vahel, kes olid vastavalt kapitalistlike ja sotsialistlike blokkide liidrid. Niisiis olid kosmoseuuringud kahe erineva sotsiaalse süsteemi vahelise konkurentsi eesliinil.
             </p>
 
             <p>
@@ -27,7 +27,7 @@
             </p>
 
             <p>
-                Kahtlemata on kosmosetehnoloogia osa meie igapäevaelust. Siiski näitavad uuringud (Inmarsat, 2022), et enamik inimesi pigem ei mõista rolli, mida kosmos meie igapäevaelus juba praegu mängib, ega selle potentsiaali tulevikus. 20 000 küsitletud inimesest 11 riigis seostas kosmost kommunikatsiooni- ja sidesatelliitidega vaid 8%  ning vaid vaid 38% soovis sellest rohkem teada. Kosmose ees oli valdav hirm – 97% nägi seda ohuna. Nende peamine mure oli kosmoseprügi ja -kokkupõrked, kosmose saastamine ja Maa atmosfääri kahjustamine. Nooremad inimesed on kosmose potentsiaalist rohkem põnevil kui vanemad. Samuti kipuvad noored soovima, et nad teaksid kosmosest rohkem. See moodul on mõeldud selle eesmärgi täitmiseks.
+                Kahtlemata on kosmosetehnoloogia osa meie igapäevaelust. Siiski näitavad uuringud (Inmarsat, 2022), et enamik inimesi pigem ei mõista rolli, mida kosmos meie igapäevaelus juba praegu mängib ega selle potentsiaali tulevikus. 20 000 küsitletud inimesest 11 riigis seostas kosmost kommunikatsiooni- ja sidesatelliitidega vaid 8% ning vaid vaid 38% soovis sellest rohkem teada. Kosmose ees oli valdav hirm – 97% nägi seda ohuna. Nende peamine mure oli kosmoseprügi ja -kokkupõrked, kosmose saastamine ja Maa atmosfääri kahjustamine. Nooremad inimesed on kosmose potentsiaalist rohkem põnevil kui vanemad. Samuti kipuvad noored soovima, et nad teaksid kosmosest rohkem. See moodul on mõeldud selle eesmärgi täitmiseks.
             </p>
 
         </section>
@@ -41,7 +41,7 @@
             </h2>
 
             <p>
-                Kui satelliidiga rakett Maa pinnalt välja lasta, peab see kosmosesse jõudmiseks saavutama kiiruse vähemalt 7,9 kilomeetrit sekundis. Seda nimetatakse esimeseks kosmiliseks kiiruseks, mis on vajalik, et saavutada tasakaal satelliidi gravitatsiooni tõmbejõu ja satelliidi liikumise inertsi – satelliidi kalduvuse jätkata liikumist, vahel. Kui satelliit liigub liiga aeglaselt, tõmbab gravitatsioon selle Maale tagasi. Antud orbiidi jaoks õige kiiruse korral tasakaalustab gravitatsioon satelliidi inertsi, tõmbudes allapoole Maa keskme suunas nii palju, et satelliidi teekond kõverdub ümber Maa. (Millegi tiirlemine tähendab pidevat kukkumist ümber selle objekti: Kuu ümber Maa, Maa ümber Päikese, Päikesesüsteem ümber Linnutee keskme.)
+                Kui satelliidiga rakett Maa pinnalt välja lasta, peab see kosmosesse jõudmiseks saavutama kiiruse vähemalt 7,9 kilomeetrit sekundis. Seda nimetatakse esimeseks kosmiliseks kiiruseks, mis on vajalik, et saavutada tasakaal satelliidi gravitatsiooni tõmbejõu ja satelliidi liikumise inertsi – satelliidi kalduvuse jätkata liikumist, vahel. Kui satelliit liigub liiga aeglaselt, tõmbab gravitatsioon selle Maale tagasi. Antud orbiidi jaoks õige kiiruse korral tasakaalustab gravitatsioon satelliidi inertsi, tõmmates seda allapoole Maa keskme suunas nii palju, et satelliidi teekond kõverdub ümber Maa. (Millegi tiirlemine tähendab pidevat kukkumist ümber selle objekti: Kuu ümber Maa, Maa ümber Päikese, Päikesesüsteem ümber Linnutee keskme.)
             </p>
             <p>
                 Satelliidi orbitaalkiirus sõltub selle kõrgusest Maa kohal. Mida lähemal Maale, seda suurem on vajalik orbitaalkiirus. 200 kilomeetri kõrgusel on vajalik orbitaalkiirus umbes 7,6 km/s (27 400 km/h). Maast 35 786 kilomeetri kõrgusel asuva orbiidi säilitamiseks peab satelliit orbiidil olema umbes kiirusel 3,13 km/s (11 300 km/h). See orbitaalkiirus ja kõrgus võimaldavad satelliidil teha ühe tiiru 24 tunni jooksul. Kuna ka Maa pöörlemisperiood on 24 tundi, püsib sellel kõrgusel olev satelliit maapinna suhtes paigal. Sellist orbiiti nimetatakse geostatsionaarseks. Geostatsionaarsed orbiidid sobivad ideaalselt ilma- ja sidesatelliitide jaoks.
@@ -54,13 +54,13 @@
             </p>
             <ul>
                 <li>
-                    <b>Maalähedased orbiidid (LEO)</b> – LEO satelliidid hõivavad Maast umbes 180 kilomeetri kuni 2000 kilomeetri kõrguse kosmosepiirkonna. Maapinna lähedal liikuvad satelliidid sobivad ideaalselt vaatluste tegemiseks, sõjaliseks otstarbeks ja ilmaandmete kogumiseks.
+                    <b>Maalähedased orbiidid (Low-Earth-Orbits, LEO)</b> – LEO satelliidid hõivavad Maast umbes 180 kilomeetri kuni 2000 kilomeetri kõrguse kosmosepiirkonna. Maapinna lähedal liikuvad satelliidid sobivad ideaalselt vaatluste tegemiseks, sõjaliseks otstarbeks ja ilmaandmete kogumiseks.
                 </li>
                 <li>
                     <b>Geosünkroonsed orbiidid (GEO)</b> – GEO satelliidid tiirlevad Maa ümber umbes 36 000 kilomeetri kõrgusel või kõrgemal ja nende tiirlemisperiood on sama, mis Maa pöörlemisperiood: 24 tundi. Sellesse kategooriasse kuuluvad geostatsionaarsed (GSO) satelliidid, mis on orbiidil Maa kindla punkti kohal. Geostatsionaarsed satelliidid peavad paiknema Maa ekvaatori kohal, et püsida Maa kohal kindlas kohas. Mitusada televisiooni-, side- ja ilmasatelliiti kasutavad geostatsionaarseid orbiite.
                 </li>
                 <li>
-                    <b>Keskmised Maa orbiidid (Medium-Earth orbits, MEO)</b> – need satelliidid asuvad madalate ja kõrgete satelliitide vahel, kõrgusel, mis jääb umbes 2000 ja 36 000 kilomeetri vahele. Navigatsioonisatelliidid, nagu autode GPS-seadmed, töötavad  hästi sellel kõrgusel.
+                    <b>Keskmised Maa orbiidid (Medium-Earth orbits, MEO)</b> – need satelliidid asuvad madalate ja kõrgete satelliitide vahel, kõrgusel, mis jääb umbes 2000 ja 36 000 kilomeetri vahele. Navigatsioonisatelliidid, nagu autode GPS-seadmed, töötavad hästi sellel kõrgusel.
                 </li>
             </ul>
 
@@ -128,7 +128,7 @@
             </p>
 
             <p>
-                Praegu luuakse kommertsprogramme suborbitaalseks lennuks umbes 100 km kõrgusel maapinnast (vt  
+                Praegu luuakse kommertsprogramme suborbitaalseks lennuks umbes 100 km kõrgusel maapinnast (vt 
                 <br />
                 <a href="https://www.spacex.com/" target="_blank" rel="noopener noreferrer">https://www.spacex.com/</a>, 
                 <br />
@@ -146,7 +146,7 @@
                 </p>
                 <div class="italic" style="font-size:120%">
                     <p>
-                        Kosmoses viibivate astronautidega saame teha asju, mida me robotitega teha ei saa. Me ei saa mõõta roboti vererõhku ja meeleolu. Saame astronautidelt palju teavet, kuna tegemist on inimkatsega, mida saab hiljem kasutada. Ja kõige parem on see, kui robotite võimed liidetakse inimtegevusega. Inimmissioonidel on konkreetsed eelised ja konkreetsed piirangud. Robotimissioonid on palju odavamad kui mistahes mehitatud kosmoselend.  Võiks ju öelda: "Ühe mehitatud kosmoselennu asemel teeme 10 missiooni robotitega." Olen siiski veendunud, et peaksime tegema mõlemat. See pole üldse kallis. ESA-s kulutame (ekvivalendina) umbes ühe euro kodaniku kohta inimese kosmosemissiooniks aastas, seega on see väga väike summa.
+                        Kosmoses viibivate astronautidega saame teha asju, mida me robotitega teha ei saa. Me ei saa mõõta roboti vererõhku ja meeleolu. Saame astronautidelt palju teavet, kuna tegemist on inimkatsega, mida saab hiljem kasutada. Ja kõige parem on see, kui robotite võimed liidetakse inimtegevusega. Inimmissioonidel on konkreetsed eelised ja konkreetsed piirangud. Robotimissioonid on palju odavamad kui mistahes mehitatud kosmoselend. Võiks ju öelda: "Ühe mehitatud kosmoselennu asemel teeme 10 missiooni robotitega." Olen siiski veendunud, et peaksime tegema mõlemat. See pole üldse kallis. ESA-s kulutame (ekvivalendina) umbes ühe euro kodaniku kohta inimese kosmosemissiooniks aastas, seega on see väga väike summa.
                     </p>
                     <p>
                         Mehitatud kosmoselendudega on alati seotud risk, kuid kui me ei võta riske, ei ole meil arengut. See on osa meie maailmavaatest - selleks, et minna kaugemale, on vaja riskida. See puudutab kõike, mida me elus teeme. See on tasakaal riski ja võimaluse vahel. Usun, et mehitatud kosmoselennud on kindlasti väga keerulised ja väga ohtlikud, kuid tasub riskida. See on inimese loomuses. 
@@ -210,7 +210,7 @@
                 Kosmosejaamas langevad astronaudid (ja jaam ise) Maa keskpunkti poole, kuid kuna nad liiguvad ka kiiresti külgsuunas, ei kuku nad kunagi Maale. Seega on tiirlemine tehniliselt võttes langemine ümber Maa. Astronaudid on kaaluta olekus, sest nad ei toetu mitte millelegi. Astronaut kukub ja nii ka nende kosmoselaev. Kui mõlemad kukuvad, puudub astronaudi ja kosmoselaeva vahel mõju ja seega puudub ka “raskustunne”. 
             </p>
             <p>
-                Marsil peaksid astronaudid tunnetama 3/8 Maa gravitatsioonijõust. Kuid rännakul Maa ja Marsi vahel kogeksid uurijad täielikku kaaluta olekut, kui raketimootorid on välja lülitatud.
+                Marsil peaksid astronaudid tunnetama ⅜ Maa gravitatsioonijõust. Kuid rännakul Maa ja Marsi vahel kogeksid uurijad täielikku kaaluta olekut, kui raketimootorid on välja lülitatud.
             </p>
 
         </section>
@@ -246,7 +246,7 @@
                 </li>
             </ul>
             <p>
-                Kosmoseprügi kujutab endast ohtu aktiivsetele, korralikult töötavatele satelliitidele ja mehitatud kosmoselaevadele (vt selle probleemi <a href="https://www.youtube.com/watch?v=yS1ibDImAYU" target="_blank" rel="noopener noreferrer">visuaalset esitlust</a>.)
+                Kosmoseprügi kujutab endast ohtu aktiivsetele, korralikult töötavatele satelliitidele ja mehitatud kosmoselaevadele (vt selle probleemi <a href="https://www.youtube.com/watch?v=yS1ibDImAYU" target="_blank" rel="noopener noreferrer">visuaalset esitlust</a>).
             </p>
 
             <h3>
@@ -254,7 +254,7 @@
             </h3>
 
             <p>
-                Rakettide stardid on meie maailma lahutamatu osa. On ilmne, et raketimootorid paiskavad atmosfääri saastet, nagu iga sisepõlemismootor. Rakettide heitkogustest põhjustatud saaste võib tunduda tähtsusetu võrreldes muude probleemidega, millega maailm silmitsi seisab,  pakkudes samal ajal hulganisti kasu. Kosmosetööstuses põletatud fossiilkütuste osakaal moodustab tõepoolest vaid umbes 1% tavapärase lennunduse poolt põletatud kütusest. Kuid kui lennukid paiskavad oma saasteained välja troposfääri ja alumisse stratosfääri, siis raketid paiskavad neid väljja Maa pinnalt kuni mesofäärini ja kui reostus nendesse ülemistesse kihtidesse paisatakse, püsib see seal kauem kui Maa peal. Praegu paiskavad raketid Maa atmosfääri varasemalt puutumatutesse ülemistesse kihtidesse umbes 1000 tonni tahma aastas. Samuti on suur ebakindlus selles osas, kuidas <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002612" target="_blank" rel="noopener noreferrer">rakettide heitmed mõjutavad atmosfääri erinevaid kihte</a>.
+                Rakettide stardid on meie maailma lahutamatu osa. On ilmne, et raketimootorid paiskavad atmosfääri saastet, nagu iga sisepõlemismootor. Rakettide heitkogustest põhjustatud saaste võib tunduda tähtsusetu võrreldes muude probleemidega, millega maailm silmitsi seisab, pakkudes samal ajal hulganisti kasu. Kosmosetööstuses põletatud fossiilkütuste osakaal moodustab tõepoolest vaid umbes 1% tavapärase lennunduse poolt põletatud kütusest. Kuid kui lennukid paiskavad oma saasteained välja troposfääri ja alumisse stratosfääri, siis raketid paiskavad neid väljja Maa pinnalt kuni mesofäärini ja kui reostus nendesse ülemistesse kihtidesse paisatakse, püsib see seal kauem kui Maa peal. Praegu paiskavad raketid Maa atmosfääri varasemalt puutumatutesse ülemistesse kihtidesse umbes 1000 tonni tahma aastas. Samuti on suur ebakindlus selles osas, kuidas <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002612" target="_blank" rel="noopener noreferrer">rakettide heitmed mõjutavad atmosfääri erinevaid kihte</a>.
             </p>
 
             <p>
@@ -278,7 +278,7 @@
                 Pärast seda, kui umbes 8 ja poole minuti pärast Maalt startinud rakett välja lülitub, sisenevad astronaudid kosmosesse ja kogevad kaaluta olekut. Kaaluta olekut nimetatakse mikrogravitatsiooniks. Astronaudid on tegelikult vabalangemise seisundis. Rakett liigub pärast mootori väljalülitamist horisontaalselt väga suure kiirusega – umbes 8 kilomeetrit sekundis ja langeb samuti vabalt, tehes sellega tiiru ümber Maa.
             </p>
             <p>
-                Kui inimesed puutuvad esimest korda kokku mikrogravitatsiooniga, on neil järgmised tunded: iiveldus, desorientatsioon, peavalu, isutus, ummistused, mida kokku nimetatakse kosmosehaiguseks (ingl. k. space sickness). Pikem viibimine mikrogravitatsioonis põhjustab lihaste ja luude nõrgenemist. Sadade kosmoselendude kogemused näitavad, kuidas inimkeha kaalutusele reageerib. Allpool kirjeldame mõningaid füsioloogilisi mõjusid, mida keha kosmoses kogeb.
+                Kui inimesed puutuvad esimest korda kokku mikrogravitatsiooniga, on neil järgmised tunded: iiveldus, desorientatsioon, peavalu, isutus, ninakinnisus, mida kokku nimetatakse kosmosehaiguseks (ingl. k. space sickness). Pikem viibimine mikrogravitatsioonis põhjustab lihaste ja luude nõrgenemist. Sadade kosmoselendude kogemused näitavad, kuidas inimkeha kaalutusele reageerib. Allpool kirjeldame mõningaid füsioloogilisi mõjusid, mida keha kosmoses kogeb.
             </p>
 
             <h3>
@@ -289,7 +289,7 @@
                 Iiveldus ja desorientatsioon on nagu selline tunne kõhus, mida kogetakse kukkumisel, ainult, et see tunne kestab pidevalt mitu päeva. See on kosmosehaigus, mis on põhjustatud vastuolulisest teabest, mida aju saab silmade kaudu ja sisekõrvas asuvatest vestibulaarorganitest.
             </p>
             <p>
-                Silmad näevad, mis on salongis üleval või all, kuid kuna vestibulaarsüsteem toetud gravitatsiooni allapoole suunatud tõmbejõule, et öelda, mis suunas on üleval või mis all ja mis suunas liigutakse, ei toimi see mikrogravitatsioonis. Seega võivad silmad ajule öelda, et ollakse tagurpidi, kuid aju ei saa vestibulaarorganitelt tõlgendatavat sisendit. Segaduses aju tekitab iiveldust ja desorientatsiooni, mis omakorda võib põhjustada oksendamist ja isutust. Õnneks kohaneb aju tavaliselt mõne päeva pärast olukorraga ainult visuaalsele sisendile toetudes, misjärel hakatakse ennast paremini tundma.
+                Silmad näevad, mis on salongis üleval või all, kuid kuna vestibulaarsüsteem toetub gravitatsiooni allapoole suunatud tõmbejõule, et öelda, mis suunas on üleval või mis all ja mis suunas liigutakse, ei toimi see mikrogravitatsioonis. Seega võivad silmad ajule öelda, et ollakse tagurpidi, kuid aju ei saa vestibulaarorganitelt tõlgendatavat sisendit. Segaduses aju tekitab iiveldust ja desorientatsiooni, mis omakorda võib põhjustada oksendamist ja isutust. Õnneks kohaneb aju tavaliselt mõne päeva pärast olukorraga ainult visuaalsele sisendile toetudes, misjärel hakatakse ennast paremini tundma.
             </p>
 
             <h3>

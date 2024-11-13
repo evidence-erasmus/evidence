@@ -37,7 +37,7 @@
 
         <h3>Tegevusplaan</h3>
         <p>
-            (Palun näidake ka ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad, viimasel juhul näidake ära  igaühe vastusala kirjutades nime tegevuse järele sulgudesse).
+            (Palun näidake ka ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad, viimasel juhul näidake ära  igaühe vastutusala kirjutades nime tegevuse järele sulgudesse).
         </p>
         
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500" />

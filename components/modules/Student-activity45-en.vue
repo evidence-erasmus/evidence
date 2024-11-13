@@ -48,7 +48,7 @@
         </h2>
 
         <p>
-            In this activity, you are invited to present your video, poster, etc. to the others. Please be ready to answer your classmates and teacher's questions and comments!
+            In this activity, you are invited to present your video, poster, etc. to the others. Please be ready to answer your classmates' and teacher's questions and comments!
             <br />
             Also, during the presentation of the other groups, you are invited to give constructive feedback to your classmates.
         </p>

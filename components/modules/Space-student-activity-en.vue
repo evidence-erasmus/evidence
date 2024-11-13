@@ -70,7 +70,7 @@
         <label class="font-bold block mt-8">Your research results:</label>
         <textarea class="textarea textarea-bordered w-full text-lg" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea> -->
 
-        <p>You are now expected to find evidence from secondary sources to confirm your own findings using the following tool.</p>
+        <p>You are now expected to find evidence from secondary sources to confirm your own findings using the <NuxtLink to="../tools/reliability-assessment" target="_blank" class="btn btn-sm btn-neutral text-white no-underline"><Icon name="mdi:tools" size="20" />following tool</NuxtLink>.</p> 
 
         <ToolsReliabilityTable class="mb-8"
             :store-to-update="studentInputs" 

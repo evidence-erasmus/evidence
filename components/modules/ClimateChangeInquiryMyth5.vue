@@ -184,8 +184,7 @@
 
             <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="font-bold">
                 <template #link1>
-                    <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noreferrer noopener">
-                        {{ t('inquiry.reliability_table.link_1') }}
+                    <a href="../../tools/reliability-assessment" target="_blank" class="btn btn-neutral btn-sm text-white no-underline"><Icon name="mdi:tools" size="20"></Icon>{{ t('inquiry.reliability_table.link_1') }}
                     </a>
                 </template>
             </i18n-t>

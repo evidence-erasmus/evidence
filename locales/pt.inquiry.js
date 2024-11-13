@@ -384,12 +384,6 @@ export default {
     },
 
 
-
-
-
-
-
-
     cc_myth1: {
       back: "Back",
       title: "Climate change",
@@ -438,9 +432,6 @@ export default {
         }
       ]
     },
-
-
-
 
 
     cc_myth2: {
@@ -667,9 +658,6 @@ export default {
         }
       ]
     },
-
-
-
 
 
     cc_myth4: {
@@ -918,10 +906,6 @@ export default {
     },
 
 
-
-
-
-
     cc_myth5: {
       title: "Climate change",
       subtitle: "Guided inquiry, Myth 5",
@@ -1017,9 +1001,6 @@ export default {
     },
 
 
-
-
-
     cc_myth6: {
       title: "Climate change",
       subtitle: "Guided inquiry, Myth 6",
@@ -1064,6 +1045,7 @@ export default {
         }
       ]
     },
+
 
     cc_myth7: {
       title: "Climate change",
@@ -1128,6 +1110,8 @@ export default {
       ]
     },
 
+
+    
     drugs: {
       title: "Drogas",
       subtitle: "Nossas respostas",

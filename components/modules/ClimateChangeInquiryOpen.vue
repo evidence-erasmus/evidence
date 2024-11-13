@@ -63,7 +63,7 @@
             </p>
             <i18n-t tag="p" keypath="inquiry.reliability_table.txt_1" scope="global" class="mb-0">
                 <template #link1>
-                    <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noopener noreferrer">{{ t('inquiry.reliability_table.link_1') }}</a>
+                    <a :href="t('inquiry.reliability_table.url_1')" target="_blank" rel="noopener noreferrer" class="btn btn-neutral btn-sm text-white no-underline"><Icon name="mdi:tools" size="20"></Icon>{{ t('inquiry.reliability_table.link_1') }}</a>
                 </template>
             </i18n-t>
 

@@ -66,7 +66,6 @@ export default {
     },
 
 
-
     ev_myth1: {
       title: "Evolution",
       subtitle: "Guided inquiry, myth 1",
@@ -170,7 +169,6 @@ export default {
         label_1: "Reliability of sources:"
       }
     },
-
 
 
     ev_myth3: {
