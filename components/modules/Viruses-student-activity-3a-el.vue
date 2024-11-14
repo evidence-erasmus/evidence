@@ -45,11 +45,60 @@
 
         <h3>Πορεία Δραστηριοτήτων</h3>
         
-        <section class="e-card mb-8">
-            <p class="italic my-0">Σκεφτείτε προσεκτικά πώς θα διατηρήσετε όλες τις άλλες μεταβλητές σταθερές εκτός από αυτήν που πρόκειται να μεταβάλετε. Επίσης πρέπει να σκεφτείτε προσεκτικά πως θα καταμερίσετε τις εργασίες στην ομάδας σας. Παρακαλούμε αναφέρετε ποιες δραστηριότητες θα υλοποιήσετε ως ομάδα και ποιες δραστηριότητες θα υλοποιηθούν προβαίνοντας σε καταμερισμό εργασίας, σε αυτήν την περίπτωση, παρακαλώ σημειώστε ποιος είναι υπεύθυνος για τι:</p>
-        </section>
+        <p>Σκεφτείτε προσεκτικά πώς θα διατηρήσετε όλες τις άλλες μεταβλητές σταθερές εκτός από αυτήν που πρόκειται να μεταβάλετε. Επίσης πρέπει να σκεφτείτε προσεκτικά πως θα καταμερίσετε τις εργασίες στην ομάδας σας. Παρακαλούμε αναφέρετε ποιες δραστηριότητες θα υλοποιήσετε ως ομάδα και ποιες δραστηριότητες θα υλοποιηθούν προβαίνοντας σε καταμερισμό εργασίας, σε αυτήν την περίπτωση, παρακαλώ σημειώστε ποιος είναι υπεύθυνος για τι:</p>
 
-        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
+
+        <!-- plan -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Περιγράψτε το σχέδιό σας:</b></label>
+        <textarea class="textarea textarea-bordered w-full text-lg mb-8" rows="5" v-model="studentInputs.activity3a.activity3aPlan" placeholder="✍"></textarea>
+
+
+
+        <h4>Ορισμός των μεταβλητών:</h4>
+
+        <!-- independent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Άλλαξε παράγοντας</b> (θα αλλάξει):</label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.independent" placeholder="✍"></textarea>
+        
+        <!-- dependent variable -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Μετρημένος συντελεστής</b> (θα μετρηθεί):</label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="1" v-model="studentInputs.activity3a.experimentVariables.dependent" placeholder="✍"></textarea>
+        
+        <!-- control variables -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Σταθερές</b> (δεν θα αλλάξει):</label>
+
+        <ToolsDynamicTableFull class="e-card mb-8"
+            :tableStructure = "controlTable" 
+            :addRow = "true"
+            addRowTitle = "Προσθήκη μεταβλητής"
+            :newRow = "new Array(2)"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
+            :deleteRow = "true"
+        />
+
+
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Αποτελέσματα</b></label> 
+        <ToolsDynamicTableFull class="e-card mb-8"
+            :tableStructure = "resultsTable" 
+            :addRow = "true" 
+            addRowTitle = "Add constant"
+            :newRow = "new Array(2)"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.activity3aResults"
+            :deleteRow = "true"
+        />
+
+        <hr />
+
+
+
+        <!-- <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
         <label class="font-bold block"> Ορίστε τις μεταβλητές</label>
 
         <div class="e-card mb-8">
@@ -60,8 +109,11 @@
                 :addRow="true"
                 :newRow="['', '', '']"
             />
-        </div>
+        </div> -->
 
+
+
+        <!-- results -->
         <label class="font-bold block mt-8">Τα αποτελέσματά σας:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
 
@@ -96,4 +148,24 @@
     import { useStudentInputStore } from '~~/store/useStudentInputViruses.js';
     const studentInputs = useStudentInputStore();
     const {tm} = useI18n({scope:"global"});
+
+    const controlTable = ref({
+        header: [
+            {thead: "Μεταβλητός", tsubhead: ""},
+            {thead: "Αξία", tsubhead: ""}
+        ]
+    });
+    
+    const resultsTable = computed(() => {
+        const variables = studentInputs.activity3a.experimentVariables;
+        let structure = {
+            header: [
+                {thead: `${variables.independent}`, tsubhead: "Άλλαξε παράγοντας"},
+                {thead: `${variables.dependent}`, tsubhead: "Μετρημένος παράγοντας"},
+            ]
+        }
+        return structure;
+    });
+    
+    
 </script>

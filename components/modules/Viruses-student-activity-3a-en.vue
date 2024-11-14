@@ -49,9 +49,13 @@
 
         <h3>Plan of activities</h3>
         
-        <section class="e-card mb-8">
-            <p class="italic my-0">Think carefully about how you will control all the other variables except the one you will manipulate. Also, you should think carefully about how to share the workload within your group. Please indicate by which activities (1), (2), (3) … you are involved as a whole team and by which you are going to divide responsibilities. In this case, write down in brackets, please, who is responsible for what</p>
-        </section>
+        <p>Think carefully about how you will control all the other variables except the one you will manipulate. Also, you should think carefully about how to share the workload within your group. Please indicate by which activities (1), (2), (3) … you are involved as a whole team and by which you are going to divide responsibilities. In this case, write down in brackets, please, who is responsible for what</p>
+        
+        <!-- plan -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Describe your plan:</b></label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="5" v-model="studentInputs.activity3a.activity3aPlan" placeholder="✍"></textarea>
+
 
         <h4>Defining the variables:</h4>
 
@@ -73,7 +77,7 @@
             :tableStructure = "controlTable" 
             :addRow = "true"
             addRowTitle = "Add constant"
-            :newRow = "['']"
+            :newRow = "new Array(2)"
             :storeToUpdate = "studentInputs" 
             :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
             :deleteRow = "true"
@@ -86,8 +90,8 @@
         <ToolsDynamicTableFull class="e-card mb-8"
             :tableStructure = "resultsTable" 
             :addRow = "true" 
-            addRowTitle = "Add constant"
-            :newRow = "new Array(2 + studentInputs.activity3a.experimentVariables.control.length)"
+            addRowTitle = "Add result"
+            :newRow = "new Array(2)"
             :storeToUpdate = "studentInputs" 
             :keyToUpdate = "studentInputs.activity3a.activity3aResults"
             :deleteRow = "true"
@@ -125,25 +129,22 @@
 
     const controlTable = ref({
         header: [
-            {thead: "", tsubhead: "Add each control variable to a separate row"}
+            {thead: "Variable", tsubhead: ""},
+            {thead: "Value", tsubhead: ""}
         ]
     });
     
-    const resultsTable = computed(() => {
-        
-        const variables = studentInputs.activity3a.experimentVariables;
 
+    const resultsTable = computed(() => {
+        const variables = studentInputs.activity3a.experimentVariables;
         let structure = {
             header: [
                 {thead: `${variables.independent}`, tsubhead: "Changed factor"},
                 {thead: `${variables.dependent}`, tsubhead: "Measured factor"},
             ]
         }
-
-        studentInputs.activity3a.experimentVariables.control.forEach( (variable) => {
-            structure.header.push({thead: `${variable}`, tsubhead:"Constants"});
-        } );
-
         return structure;
     });
+
+    
 </script>

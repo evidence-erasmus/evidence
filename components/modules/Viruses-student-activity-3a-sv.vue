@@ -50,9 +50,13 @@
         
         <h3>Plan över aktiviteter</h3>
         
-        <section class="e-card mb-8">
-            <p class="italic my-0">Tänk noga på hur du kommer att kontrollera alla andra variabler utom den du ska ändra på. Du bör också tänka noga på hur du fördelar arbetsuppgifterna inom din grupp. Ange vilka aktiviteter (1), (2), (3) … ni är involverade i som ett helt team och i vilka ni ska dela upp ansvarsområden, i det här fallet, skriv ner vem som är ansvarig för vad</p>
-        </section>
+        <p>Tänk noga på hur du kommer att kontrollera alla andra variabler utom den du ska ändra på. Du bör också tänka noga på hur du fördelar arbetsuppgifterna inom din grupp. Ange vilka aktiviteter (1), (2), (3) … ni är involverade i som ett helt team och i vilka ni ska dela upp ansvarsområden, i det här fallet, skriv ner vem som är ansvarig för vad</p>
+        
+
+        <!-- plan -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Beskriv din plan:</b></label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="5" v-model="studentInputs.activity3a.activity3aPlan" placeholder="✍"></textarea>
 
         <h4>Definiera variabler:</h4>
 
@@ -75,14 +79,28 @@
             :tableStructure = "controlTable" 
             :addRow = "true"
             addRowTitle = "Lägg till kontrollvariabel"
-            :newRow = "['']"
+            :newRow = "new Array(2)"
             :storeToUpdate = "studentInputs" 
             :keyToUpdate = "studentInputs.activity3a.experimentVariables.control"
             :deleteRow = "true"
         />
-
-
+        
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Resultat tabell</b></label> 
+        <ToolsDynamicTableFull class="e-card mb-8"
+            :tableStructure = "resultsTable" 
+            :addRow = "true" 
+            addRowTitle = "Lägg till resultat"
+            :newRow = "new Array(2)"
+            :storeToUpdate = "studentInputs" 
+            :keyToUpdate = "studentInputs.activity3a.activity3aResults"
+            :deleteRow = "true"
+        />
+
+        <hr />
+
+
+        <!-- <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500 mt-4"></Icon>
         <label class="block leading-tight my-2"><b>Resultat tabell</b></label> 
         <ToolsDynamicTableFull class="e-card mb-8"
             :tableStructure = "resultsTable" 
@@ -91,7 +109,7 @@
             :storeToUpdate = "studentInputs" 
             :keyToUpdate = "studentInputs.activity3a.activity3aResults"
             :deleteRow = "true"
-        />
+        /> -->
 
 
         <!-- <section>
@@ -108,19 +126,19 @@
             <button @click="studentInputs.addVariableRow" class="bg-slate-700 text-md text-slate-100 rounded-full px-4 mt-4">ADD VARIABLES ROW</button>
         </section> -->
 
-        <ToolsDynamicTableFull 
+        <!-- <ToolsDynamicTableFull 
             :tableStructure="variableTable" 
             :storeToUpdate="studentInputs"
             :keyToUpdate="studentInputs.activity3a.activity3aVariables" 
             :newRow="['','','']" 
             :addRow="true" 
-        />
+        /> -->
 
-        <label class="font-bold block mt-8">Dina resultat:</label>
+        <!-- <label class="font-bold block mt-8">Dina resultat:</label>
         <textarea class="textarea textarea-bordered text-lg block w-full" rows="7" v-model="studentInputs.activity3a.activity3aResults" placeholder="✍"></textarea>
 
 
-        <hr />
+        <hr /> -->
 
 
         <Icon name="material-symbols:edit-square-outline" size="48" class="text-blue-500"></Icon>
@@ -161,26 +179,23 @@
 
     const controlTable = ref({
         header: [
-            {thead: "", tsubhead: "Varje variabel till ny rad"}
+            {thead: "Variabel", tsubhead: ""},
+            {thead: "Värde", tsubhead: ""}
         ]
     });
     
-    const resultsTable = computed(() => {
-        
-        const variables = studentInputs.activity3a.experimentVariables;
 
+    const resultsTable = computed(() => {
+        const variables = studentInputs.activity3a.experimentVariables;
         let structure = {
             header: [
                 {thead: `${variables.independent}`, tsubhead: "Oberoende variabel"},
                 {thead: `${variables.dependent}`, tsubhead: "Beroende variabel"},
             ]
         }
-
-        studentInputs.activity3a.experimentVariables.control.forEach( (variable) => {
-            structure.header.push({thead: `${variable}`, tsubhead:"Kontrollvariabel"});
-        } );
-
         return structure;
     });
+
+
 
 </script>

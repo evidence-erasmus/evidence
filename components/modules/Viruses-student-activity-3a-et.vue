@@ -53,11 +53,13 @@
         
         <h3>Tegevusplaan</h3>
         
-        <section class="e-card mb-8">
-            <p class="italic my-0">Mõelge hoolikalt, kuidas kontrollida kõiki muutujaid v.a ühte, millega hakkate manipuleerima; palun näidake ka ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad, viimasel juhul näidake ära ka igaühe vastutusala kirjutades nime tegevuse järele sulgudesse</p>
-        </section>
-
-
+        
+        <p>Mõelge hoolikalt, kuidas kontrollida kõiki muutujaid v.a ühte, millega hakkate manipuleerima; palun näidake ka ära, milliseid tegevusi teete kõik koos ja milliste puhul on tööülesanded rühmakaaslaste puhul erinevad, viimasel juhul näidake ära ka igaühe vastutusala kirjutades nime tegevuse järele sulgudesse</p>
+        
+        <!-- plan -->
+        <Icon name="material-symbols:edit-square-outline" size="48" class="text-sky-500 mt-4"></Icon>
+        <label class="block leading-tight my-2"><b>Kirjeldage oma tegevusplaani:</b></label>
+        <textarea class="textarea textarea-bordered w-full text-lg" rows="5" v-model="studentInputs.activity3a.activity3aPlan" placeholder="✍"></textarea>
 
 
 
