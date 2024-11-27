@@ -1,0 +1,1 @@
+import{_,o as t,c,W as n}from"./entry.c1ca4150.js";const o={},s={class:"full-width"};function d(e,r){return t(),c("div",s,[n(e.$slots,"default",{},void 0,!0)])}const l=_(o,[["render",d],["__scopeId","data-v-b9ce03c9"]]);export{l as _};
