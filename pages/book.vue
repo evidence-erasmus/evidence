@@ -36,7 +36,7 @@
     "en" : {
         "link": "https://drive.google.com/file/d/1UWfPJNTOPUjff3O3HexWSTpv-iNRZiJO/view?usp=drive_link",
         "download": "Download the book as pdf file",
-        "description": "The EU Erasmus+ project EVIDENCE is based on a contemporary approach to scientific competence which, besides attempting to foster science content knowledge and process skills, also focuses on the formation of skills, attitudes and values to find solutions to the problems in society caused by post-truth. However, it may require different competences from teachers than previously needed for teaching as knowledge delivery. The current guidebook, Busting Post-Truth in the Science Classroom, together with EVIDENCE learning materials (target group: 15-18 years old students), tries to fill this gap in order to help teachers, educators and supervisors of both formal and non-formal education sectors to meet post-truth challenges: to cope with mis- and disinformation and science denial, as well as tackling socially sensitive science-related issues towards which people may have quite polarised views, thus building students’ trust in science. This last point is crucial if we want to manage global problems such as climate change, pandemics, poverty and so forth.",
+        "description": "We have entered the so-called post-truth era, where the boundaries between fact and opinion are increasingly blurred. The handbook below provides teachers with both a conceptual foundation and numerous practical examples to address misinformation, pseudoscience, and conspiracy theories in the classroom. It also highlights the importance of fostering a scientific attitude, ethical values, and the development of students’ critical thinking and empathy to help tackle the complex challenges facing society.",
         "title": "Guidebook",
         "image": "https://evidence.onkel.ee/assets/the-book__mockup.webp"
         
@@ -45,9 +45,9 @@
 
 
     "et" : {
-        "link": "https://drive.google.com/file/d/1bUj8AcjlLZtyM0RkmZ4lFdKv7UrEcdsg/view?usp=sharing",
+        "link": "https://drive.google.com/file/d/1urUnpmaFSHYjbzmB540S0Y6NzhyQ4Knt/view?usp=sharing",
         "download": "Raamatu leiad siit",
-        "description": "Euroopa Liidu Erasmus+ projekt EVIDENCE põhineb kaasaegsel lähenemisel loodusteaduslikule pädevusele, mis lisaks loodusteaduslikele sisuteadmistele ja protsessioskustele keskendub ka oskuste, hoiakute ja väärtuste kujundamisele, mis aitavad kaasa lahenduste leidmisele tõejärgsuse poolt põhjustatud probleemidele ühiskonnas. See võib aga nõuda õpetajatelt uusi pädevusi võrreldes nendega, mis varem vaid teadmiste “äraõpetamiseks” vajalikud olid. Käesolev õpetaja käsiraamat, “Tõejärgsuse kummutamine loodusainete tundides” koos EVIDENCE õppematerjalidega (sihtgrupp: 15-18-aastased õpilased), püüab täita seda tühimikku, et aidata õpetajatel, haridustöötajatel ja juhendajatel nii formaalse kui ka mitteformaalse hariduse valdkonnas tulla toime tõejärgsuse probleemidega: tegeleda tundides väärinfo ning teaduse eitamisega ning käsitleda ühiskonnas tundlikke loodusteadustega seotud küsimusi, mille suhtes inimestel võivad omada üsna polariseeritud arvamusi, tugevdades seeläbi ühtlasi õpilaste usaldust teaduse vastu. Viimane on ülimalt oluline, kui soovime hakkama saada globaalsete probleemidega nagu kliimamuutused, pandeemiad, vaesus jne.",
+        "description": "Oleme jõudnud nn tõejärgsesse ajajärku, kus fakti ja arvamuse piirid on üha hägusamad. Allpoololev käsiraamat pakub õpetajatele nii kontseptuaalset tuge kui ka hulgaliselt praktilisi näiteid, kuidas tegeleda tundides väärinfo, pseudoteaduse ja vandenõuteooriatega. Samuti juhib see tähelepanu teadusliku suhtumise, eetiliste väärtuste ning õpilaste kriitilise mõtlemise ja empaatia arendamise olulisusele, et aidata lahendada ühiskonna ees seisvaid keerukaid probleeme.",
         "title": "Õpetaja käsiraamat",
         "image": "https://evidence.onkel.ee/assets/the-book__mockup__et.webp"
     },
