@@ -9,7 +9,14 @@
             </NuxtLink>
         </div>
         
-        <p>{{ t('more') }} <NuxtLink to="https://sisu.ut.ee/evidence/" target="_blank">sisu.ut.ee/evidence/</NuxtLink></p>
+        <div class="flex flex-col gap-2 e-card md:max-w-sm md:float-right md:ml-8">
+            <div>
+                <img class="my-2" src="https://evidence.onkel.ee/assets/good-practice.webp" />
+                <p class="text-sm leading-tight my-0">{{ t('good-practice') }}</p>
+            </div>
+            <p class="text-sm leading-tight">{{ t('more') }} <NuxtLink to="https://sisu.ut.ee/evidence/" target="_blank">sisu.ut.ee/evidence/</NuxtLink></p>
+        </div>
+
 
         <p>{{ t('s01') }}</p>
         <p>{{ t('s02') }}</p>
@@ -40,6 +47,7 @@
 {
     "en" : {
         "title": "About this project",
+        "good-practice": "The EVIDENCE project has been awarded the 'Good Practice' quality label by Erasmus+.",
         "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",
@@ -62,6 +70,7 @@
 
     "et" : {
         "title": "Projektist",
+        "good-practice": "EVIDENCE projekt on saanud Erasmus+ 'Good Practice' kvaliteedimärgi.",
         "more" :"Rohkem infot projekti EVIDENCE kohta võib leida siit:",
         "s01": "Tõejärgsel ajastul on (sotsiaal)meedias leviva väärinfo ümberlükkamine saanud õpetaja igapäevatöö osaks. Tihti on sedalaadi info seotud ühiskondlikult tundlike teemadega, nagu viirused ja vaktsineerimine, kiirgused, kliimamuutused, evolutsioon, kanep jpm.",
         "s02": "Probleemi lahendamiseks on Euroopa Liidu programmi „Erasmus+“ projektis EVIDENCE (2020–2023) pannud seljad kokku Tartu, Umeå ja Küprose ülikooli loodus-, haridus-, rahvatervise- ja kultuuriteadlased ning António Arroio Kunstikeskkooli ja Kuressaare Ametikooli multimeedia- ja disainieksperdid.",
@@ -83,6 +92,7 @@
 
     "el" : {
         "title": "About this project",
+        "good-practice": "Το έργο EVIDENCE έχει αποσπάσει το σήμα ποιότητας 'Good Practice' από το Erasmus+.",
         "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",
@@ -106,6 +116,7 @@
 
     "sv" : {
         "title": "About this project",
+        "good-practice": "EVIDENCE-projektet har tilldelats kvalitetsmärket 'Good Practice' av Erasmus+.",
         "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",
@@ -129,6 +140,7 @@
 
     "pt" : {
         "title": "About this project",
+        "good-practice": "O projeto EVIDENCE recebeu o selo de 'Boa Prática' do Erasmus+.",
         "more" :"More information about the EVIDENCE project can be found here:",
         "s01": "In the post-truth era, refuting misinformation spread in (social) media has become part of a teacher's daily work. This kind of information is often related to socially sensitive topics, such as viruses and vaccination, radiation, climate change, evolution, cannabis, etc.",
         "s02": "In order to solve the problem, in the project EVIDENCE (2020-2023) of the “Erasmus+” program of the European Union, scientists of nature, education, public health and culture from the University of Tartu, Umeå and Cyprus, as well as multimedia and design experts from the António Arroio Art Center and the Kuressaare Vocational School, have put their backs together.",

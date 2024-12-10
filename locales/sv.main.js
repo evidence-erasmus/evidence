@@ -13,7 +13,8 @@ export default {
   menu: {
     about: "Om projektet",
     modules: "Modulerna",
-    book: "Boken"
+    book: "Boken",
+    tools: "Verktyg"
   },
   message: "Tervitusi välisest failist!",
   modules: {

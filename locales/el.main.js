@@ -13,7 +13,8 @@ export default {
   menu: {
     about: "Σχετικά με",
     modules: "Ενότητες",
-    book: "το βιβλίο"
+    book: "το βιβλίο",
+    tools: "Εργαλεία"
   },
   message: "Hello from external",
   modules: {

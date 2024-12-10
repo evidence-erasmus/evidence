@@ -421,7 +421,7 @@
             [ "Visual facilitation of the project-based learning",  "https://www.youtube.com/embed/qo4zCqAGGug?cc_load_policy=1&cc_lang_pref=el" ],
             [ "Visual facilitation templates",                      "https://photos.app.goo.gl/fyWMS5d39dksz8BU8" ],
             [ "How to make a video of your experiment",             "https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" ],
-            [ "How to assess the reliability of information",       "https://evidence-erasmus.github.io/evidence/en/tools/reliability-assessment" ],
+            [ "How to assess the reliability of information",       "https://evidence-erasmus.github.io/evidence/el/tools/reliability-assessment" ],
             [ "Recognising the Tactics of Science Denial in the Context of Climate Change", "https://drive.google.com/file/d/1WTVMOztMUAINI-T2c7ZBNQEscpyBm6H6/view?usp=drive_link" ]
         ]
     },
@@ -538,7 +538,7 @@
             [ "Visual facilitation of the project-based learning",  "https://www.youtube.com/embed/qo4zCqAGGug?cc_load_policy=1&cc_lang_pref=pt" ],
             [ "Visual facilitation templates",                      "https://photos.app.goo.gl/fyWMS5d39dksz8BU8" ],
             [ "How to make a video of your experiment",             "https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" ],
-            [ "How to assess the reliability of information",       "https://evidence-erasmus.github.io/evidence/en/tools/reliability-assessment" ],
+            [ "How to assess the reliability of information",       "https://evidence-erasmus.github.io/evidence/pt/tools/reliability-assessment" ],
             [ "Recognising the Tactics of Science Denial in the Context of Climate Change", "https://drive.google.com/file/d/1WTVMOztMUAINI-T2c7ZBNQEscpyBm6H6/view?usp=drive_link" ]
         ]
     },
@@ -655,7 +655,7 @@
             [ "Visual facilitation of the project-based learning",  "https://www.youtube.com/embed/qo4zCqAGGug?cc_load_policy=1&cc_lang_pref=sv" ],
             [ "Visual facilitation templates",                      "https://photos.app.goo.gl/fyWMS5d39dksz8BU8" ],
             [ "How to make a video of your experiment",             "https://www.youtube.com/playlist?list=PLuC4DJElPQrOEMp2nLj1Q3h-_r8q7fzp0" ],
-            [ "How to assess the reliability of information",       "https://evidence-erasmus.github.io/evidence/en/tools/reliability-assessment" ],
+            [ "How to assess the reliability of information",       "https://evidence-erasmus.github.io/evidence/sv/tools/reliability-assessment" ],
             [ "Recognising the Tactics of Science Denial in the Context of Climate Change", "https://drive.google.com/file/d/1WTVMOztMUAINI-T2c7ZBNQEscpyBm6H6/view?usp=drive_link" ]
         ]
     }

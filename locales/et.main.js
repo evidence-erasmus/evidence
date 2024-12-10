@@ -13,7 +13,8 @@ export default {
   menu: {
     about: "Projektist",
     modules: "Moodulid",
-    book: "Raamat"
+    book: "Raamat",
+    tools: "Tööriistad"
   },
   "message": "Tervitusi välisest failist!",
   modules: {

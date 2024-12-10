@@ -13,7 +13,8 @@ export default {
   menu: {
     about: "About",
     modules: "Modules",
-    book: "Book"
+    book: "Book",
+    tools: "Tools"
   },
   message: "Hello from external",
   modules: {

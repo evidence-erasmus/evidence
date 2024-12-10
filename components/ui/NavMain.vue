@@ -5,6 +5,7 @@
         :class="isActiveClass"
         >{{t('menu.modules')}}</NuxtLink>
         <NuxtLink :to="localePath( 'book', locale ) " class="px-2 md:py-1 uppercase">{{t('menu.book')}}</NuxtLink>
+        <NuxtLink :to="localePath( 'tools', locale ) " class="px-2 md:py-1 uppercase">{{t('menu.tools')}}</NuxtLink>
     </nav>
 
 </template>
@@ -25,7 +26,7 @@
             route.name.includes('drugs') ||
             route.name.includes('space') ||
             route.name.includes('evolution')
-             ){
+        ){
             return 'router-link-active router-link-exact-active'
         }
     });
